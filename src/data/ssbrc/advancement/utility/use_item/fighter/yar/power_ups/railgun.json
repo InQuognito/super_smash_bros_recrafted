@@ -2,7 +2,7 @@
 	"parent": "ssbrc:utility/use_item/root",
 	"criteria": {
 		"requirement": {
-			"trigger": "minecraft:using_item",
+			"trigger": "minecraft:consume_item",
 			"conditions": {
 				"player": [
 					{
@@ -13,7 +13,7 @@
 				"item": {
 					"predicates": {
 						"minecraft:custom_data": {
-							"power_up": "railgun"
+							"item": "railgun_power"
 						}
 					}
 				}

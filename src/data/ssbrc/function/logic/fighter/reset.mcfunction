@@ -111,8 +111,5 @@ tag @s remove wisdom
 # Team Rocket
 tag @s remove destiny_bond
 
-# Yar
-function ssbrc:fighter/yar/power_ups/reset_tags
-
 # Zelda
 function ssbrc:fighter/zelda/blessings/reset

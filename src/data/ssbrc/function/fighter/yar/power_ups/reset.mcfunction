@@ -1,4 +1,4 @@
-function ssbrc:fighter/yar/power_ups/reset_tags
+function ssbrc:logic/player/data/set {data: {temp: {fighter: {power_up: "none"}}}}
 
 function ssbrc:logic/item/init/replace {search_key: "group", search_value: "ray_blaster", item: "ray_blaster", class: "default", type: "default"}
 

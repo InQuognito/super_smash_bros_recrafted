@@ -4649,6 +4649,11 @@ fighters = {
 				}
 			},
 			'gatling_gun': {
+				'group': 'ray_blaster',
+				'type': 'bow',
+				'stats': {
+					'speed_multiplier': 0.5
+				},
 				'default': {
 					'name': 'ssbrc.fighter.yar.gatling_gun',
 					'color': 'white'
@@ -4657,7 +4662,25 @@ fighters = {
 					'color': 'gold'
 				}
 			},
+			'gatling_gun_power': {
+				'group': 'power_up',
+				'type': 'consumable',
+				'stats': {
+					'cooldown_group': 'yar/power_up',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.yar.gatling_gun',
+					'color': 'gold'
+				}
+			},
 			'missile_launcher': {
+				'group': 'ray_blaster',
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'yar/missile_launcher',
+					'cooldown': 5
+				},
 				'default': {
 					'name': 'ssbrc.fighter.yar.missile_launcher',
 					'color': 'white'
@@ -4666,7 +4689,36 @@ fighters = {
 					'color': 'gold'
 				}
 			},
+			'missile_launcher_power': {
+				'group': 'power_up',
+				'type': 'consumable',
+				'stats': {
+					'cooldown_group': 'yar/power_up',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.yar.missile_launcher',
+					'color': 'gold'
+				}
+			},
+			'omnishot_power': {
+				'group': 'power_up',
+				'type': 'consumable',
+				'stats': {
+					'cooldown_group': 'yar/power_up',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.yar.omnishot',
+					'color': 'gold'
+				}
+			},
 			'railgun': {
+				'group': 'ray_blaster',
+				'type': 'bow',
+				'stats': {
+					'speed_multiplier': 1
+				},
 				'default': {
 					'name': 'ssbrc.fighter.yar.railgun',
 					'color': 'white'
@@ -4675,7 +4727,20 @@ fighters = {
 					'color': 'gold'
 				}
 			},
+			'railgun_power': {
+				'group': 'power_up',
+				'type': 'consumable',
+				'stats': {
+					'cooldown_group': 'yar/power_up',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.yar.railgun',
+					'color': 'gold'
+				}
+			},
 			'ray_blaster': {
+				'group': 'ray_blaster',
 				'type': 'ability',
 				'stats': {
 					'cooldown_group': 'yar/ray_blaster',
@@ -4704,11 +4769,29 @@ fighters = {
 				}
 			},
 			'triple_shot': {
+				'group': 'ray_blaster',
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'yar/ray_blaster',
+					'cooldown': 0.5
+				},
 				'default': {
 					'name': 'ssbrc.fighter.yar.triple_shot',
 					'color': 'white'
 				},
 				'gold': {
+					'color': 'gold'
+				}
+			},
+			'triple_shot_power': {
+				'group': 'power_up',
+				'type': 'consumable',
+				'stats': {
+					'cooldown_group': 'yar/power_up',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.yar.triple_shot',
 					'color': 'gold'
 				}
 			}
