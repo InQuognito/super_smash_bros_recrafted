@@ -5011,7 +5011,7 @@ def fighter_storage():
 				item_path = path['items'][item]
 
 				if 'type' in item_path.keys():
-					item_entry = item_builder(item_path['type'], item_path['stats'])
+					item_entry['stats'] = item_builder(item_path['type'], item_path['stats'])
 
 				item_entry['group'] = init_stat('group', item_path, 'ssbrc')
 
