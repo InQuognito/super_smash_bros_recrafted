@@ -15,6 +15,14 @@
 					"slot": "mainhand"
 				}
 			],
+			"minecraft:instrument": {
+				"description": "",
+				"range": 1,
+				"sound_event": {
+					"sound_id": "ssbrc:empty"
+				},
+				"use_duration": 0.05
+			},
 			"minecraft:swing_animation": {
 				"type": "none",
 				"duration": 1
