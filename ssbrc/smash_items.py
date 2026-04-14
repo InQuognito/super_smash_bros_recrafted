@@ -200,10 +200,10 @@ smash_items = {
 }
 
 def smash_item_storage():
-	item_data = {}
+	smash_item_data = {}
 
 	for item, path in smash_items.items():
-		item_entry = item_builder(path['type'], path['stats'])
-		item_data[item] = item_entry
+		smash_item_entry = item_builder(path['type'], path['stats'])
+		smash_item_data[item] = smash_item_entry
 
-	return item_data
+	return smash_item_data

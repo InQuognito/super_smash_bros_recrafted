@@ -1,0 +1,4 @@
+from ssbrc.smash_items import smash_items, smash_item_storage
+
+function ssbrc:logic/init/smash_item:
+	data modify storage ssbrc:data smash_item set value smash_item_storage()
