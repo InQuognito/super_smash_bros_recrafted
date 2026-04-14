@@ -350,6 +350,33 @@
 			}
 		]
 	},
+	"fighter.byleth.divine_pulse.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/byleth/divine_pulse/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.byleth.divine_pulse.end": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/byleth/divine_pulse/end",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.byleth.divine_pulse.step": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/byleth/divine_pulse/step",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
 	"fighter.byleth.golden_deer.failnaught.awakened": {
 		"sounds": [
 			{

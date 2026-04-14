@@ -11,4 +11,6 @@ effect give @s minecraft:resistance infinite 255 true
 
 attribute @s minecraft:gravity modifier add ssbrc:zero -1 add_multiplied_total
 
+playsound ssbrc:fighter.byleth.divine_pulse.activate player @a
+
 function ssbrc:logic/fighter/ability/deinit
