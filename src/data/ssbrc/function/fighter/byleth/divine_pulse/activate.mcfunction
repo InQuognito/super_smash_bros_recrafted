@@ -1,7 +1,6 @@
 advancement revoke @s only ssbrc:utility/use_item/fighter/byleth/divine_pulse
 
-tag @s add divine_pulse
-
+execute store result score @s charge.1 if entity @e[type=minecraft:marker,tag=divine_pulse,predicate=ssbrc:id_match]
 execute as @e[type=minecraft:marker,tag=divine_pulse,predicate=ssbrc:id_match,scores={temp=1},limit=1] at @s run function ssbrc:fighter/byleth/divine_pulse/rewind/marker with entity @s data
 
 scoreboard players set @s cooldown.1 2
