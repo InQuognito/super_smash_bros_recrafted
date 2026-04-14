@@ -2,7 +2,7 @@ function ssbrc:logic/fighter/ability/init
 
 execute if entity @s[tag=golden_deer,scores={charge.3=1..}] run function ssbrc:fighter/byleth/golden_deer/brave_bow/tick
 
-scoreboard players add @s charge.2 1
+scoreboard players add @s[tag=!divine_pulse] charge.2 1
 execute if score @s charge.2 matches 5.. run return run function ssbrc:fighter/byleth/divine_pulse/mark
 
 execute if entity @s[tag=divine_pulse,scores={cooldown.1=..0}] as @e[type=minecraft:marker,tag=divine_pulse,predicate=ssbrc:id_match,scores={temp=1},limit=1] at @s run function ssbrc:fighter/byleth/divine_pulse/rewind/marker with entity @s data

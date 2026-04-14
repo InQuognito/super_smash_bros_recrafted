@@ -1,4 +1,4 @@
-tag @s add divine_pulse
+tag @s remove divine_pulse
 
 effect clear @s minecraft:resistance
 
