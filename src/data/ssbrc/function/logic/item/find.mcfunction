@@ -38,4 +38,4 @@ $execute if items entity @s inventory.26 #ssbrc:modifiable[minecraft:custom_data
 
 $execute if items entity @s weapon.offhand #ssbrc:modifiable[minecraft:custom_data~{$(search_key): "$(search_value)"}] run return run data modify storage ssbrc:temp cache.item merge value {slot_id: -106, slot_string: "weapon.offhand"}
 
-data modify storage ssbrc:temp cache.item merge value {slot_id: "null", slot_string: "null"}
+data modify storage ssbrc:temp cache.item merge value {slot_id: "null", slot_string: "contents"}
