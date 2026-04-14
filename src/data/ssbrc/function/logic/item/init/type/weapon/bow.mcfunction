@@ -8,6 +8,7 @@ $item replace entity @s $(slot) with minecraft:bow[ \
 			"$(skin)", \
 		], \
 	}, \
+	minecraft:enchantment_glint_override = false, \
 	minecraft:enchantments = { \
 		"ssbrc:fighter/$(fighter)/$(item)": 1, \
 		"ssbrc:charge_ability": 1, \
@@ -25,16 +26,19 @@ $item replace entity @s $(slot) with minecraft:bow[ \
 	minecraft:swing_animation = { \
 		type: "none", \
 	}, \
+	minecraft:tooltip_display = { \
+		hidden_components: [ \
+			"minecraft:attribute_modifiers", \
+			"minecraft:banner_patterns", \
+			"minecraft:enchantments", \
+			"minecraft:unbreakable", \
+		], \
+	}, \
 	minecraft:use_effects = { \
 		can_sprint: false, \
 		speed_multiplier: $(speed_multiplier), \
 	}, \
 ]
-
-$item modify entity @s $(slot) { \
-	function: "minecraft:reference", \
-	name: "ssbrc:init/item/ranged", \
-}
 
 $item modify entity @s $(slot) { \
 	function: "minecraft:reference", \

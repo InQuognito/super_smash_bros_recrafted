@@ -30,6 +30,7 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 			"$(skin)", \
 		], \
 	}, \
+	minecraft:enchantment_glint_override = false, \
 	minecraft:instrument = { \
 		sound_event: { \
 			sound_id: "ssbrc:empty", \
@@ -62,6 +63,14 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 		type: "$(swing_animation)", \
 		duration: $(swing_duration), \
 	}, \
+	minecraft:tooltip_display = { \
+		hidden_components: [ \
+			"minecraft:attribute_modifiers", \
+			"minecraft:banner_patterns", \
+			"minecraft:enchantments", \
+			"minecraft:unbreakable", \
+		], \
+	}, \
 	minecraft:use_cooldown = { \
 		seconds: $(cooldown), \
 		cooldown_group: "ssbrc:$(cooldown_group)", \
@@ -75,11 +84,6 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 		disable_blocking_for_seconds: $(disable_blocking_for_seconds), \
 	}, \
 ]
-
-$item modify entity @s $(slot) { \
-	function: "minecraft:reference", \
-	name: "ssbrc:init/item/melee", \
-}
 
 $item modify entity @s $(slot) { \
 	function: "minecraft:reference", \

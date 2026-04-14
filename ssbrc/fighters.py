@@ -2410,11 +2410,11 @@ fighters = {
 				'group': 'byleth_relic',
 				'stats': {
 					'max_damage': 20,
+					'speed_multiplier': 0,
 					'attack_damage': 9,
 					'attack_speed': 0.5,
 					'max_reach': 2.8,
-					'item_damage_on_attack': 1,
-					'speed_multiplier': 0
+					'item_damage_on_attack': 1
 				},
 				'default': {
 					'name': 'ssbrc.fighter.byleth.aymr',
@@ -2501,9 +2501,9 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 4,
-					'attack_speed': 1.5,
+					'attack_speed': 1,
 					'max_reach': 3.25,
-					'hitbox_margin': 0.6
+					'hitbox_margin': 0.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.byleth.sword_of_the_creator',
@@ -4924,6 +4924,9 @@ def extend_kinetic_weapon(data, path):
 	extend_usable(data, path)
 	data['startup_ticks'] = init_stat('startup_ticks', path, 0)
 	data['cooldown_ticks'] = init_stat('cooldown_ticks', path, 10)
+	data['max_dismount_ticks'] = init_stat('max_dismount_ticks', path, 40)
+	data['max_knockback_ticks'] = init_stat('max_knockback_ticks', path, 60)
+	data['max_damage_ticks'] = init_stat('max_damage_ticks', path, 80)
 	data['visual_reach'] = init_stat('visual_reach', path, 0)
 	data['speed_damage_multiplier'] = init_stat('speed_damage_multiplier', path, 1)
 	data['use_sound'] = init_stat('use_sound', path, 'empty')

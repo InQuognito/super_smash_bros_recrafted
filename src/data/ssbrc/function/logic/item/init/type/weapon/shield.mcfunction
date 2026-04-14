@@ -20,6 +20,7 @@ $item replace entity @s $(slot) with minecraft:shield[ \
 			"$(skin)", \
 		], \
 	}, \
+	minecraft:enchantment_glint_override = false, \
 	minecraft:item_name = { \
 		translate: "$(name)", \
 		color: "$(color)", \
@@ -32,6 +33,14 @@ $item replace entity @s $(slot) with minecraft:shield[ \
 	minecraft:swing_animation = { \
 		type: "none", \
 	}, \
+	minecraft:tooltip_display = { \
+		hidden_components: [ \
+			"minecraft:attribute_modifiers", \
+			"minecraft:banner_patterns", \
+			"minecraft:enchantments", \
+			"minecraft:unbreakable", \
+		], \
+	}, \
 	minecraft:use_effects = { \
 		can_sprint: false, \
 		speed_multiplier: .33, \
@@ -42,10 +51,6 @@ $item modify entity @s $(slot) [ \
 	{ \
 		function: "minecraft:reference", \
 		name: "ssbrc:fighter/$(fighter)/$(item)/$(model)", \
-	}, \
-	{ \
-		function: "minecraft:reference", \
-		name: "ssbrc:init/item/defensive", \
 	}, \
 ]
 

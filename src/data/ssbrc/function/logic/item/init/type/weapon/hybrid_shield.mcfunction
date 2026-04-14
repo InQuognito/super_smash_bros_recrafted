@@ -41,6 +41,7 @@ $item replace entity @s $(slot) with minecraft:shield[ \
 			"$(skin)", \
 		], \
 	}, \
+	minecraft:enchantment_glint_override = false, \
 	minecraft:enchantments = { \
 		"ssbrc:fighter/$(fighter)/$(item)": 1, \
 	}, \
@@ -58,6 +59,14 @@ $item replace entity @s $(slot) with minecraft:shield[ \
 		type: "$(swing_animation)", \
 		duration: $(swing_duration), \
 	}, \
+	minecraft:tooltip_display = { \
+		hidden_components: [ \
+			"minecraft:attribute_modifiers", \
+			"minecraft:banner_patterns", \
+			"minecraft:enchantments", \
+			"minecraft:unbreakable", \
+		], \
+	}, \
 	minecraft:unbreakable = {}, \
 	minecraft:use_effects = { \
 		can_sprint: false, \
@@ -66,13 +75,6 @@ $item replace entity @s $(slot) with minecraft:shield[ \
 	minecraft:weapon = { \
 		item_damage_on_attack: $(item_damage_on_attack), \
 		disable_blocking_for_seconds: $(disable_blocking_for_seconds), \
-	}, \
-]
-
-$item modify entity @s $(slot) [ \
-	{ \
-		function: "minecraft:reference", \
-		name: "ssbrc:init/item/hybrid", \
 	}, \
 ]
 
