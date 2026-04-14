@@ -25,6 +25,10 @@
 					"minecraft:instrument",
 					"minecraft:written_book_content"
 				]
+			},
+			"minecraft:use_cooldown": {
+				"seconds": 1,
+				"cooldown_group": "ssbrc:ui"
 			}
 		}
 	}
