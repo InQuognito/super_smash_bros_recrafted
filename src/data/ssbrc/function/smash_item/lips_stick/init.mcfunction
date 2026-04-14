@@ -45,10 +45,6 @@ item modify entity @s contents [ \
 		}, \
 	}, \
 	{ \
-		function: "minecraft:reference", \
-		name: "ssbrc:init/tooltip/item/battering", \
-	}, \
-	{ \
 		function: "minecraft:set_lore", \
 		entity: "this", \
 		lore: [ \
