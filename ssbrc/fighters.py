@@ -5010,7 +5010,9 @@ def fighter_storage():
 				item_entry = {}
 				item_path = path['items'][item]
 
-				item_entry = item_builder(item_path['type'], item_path['stats'])
+				if 'type' in item_path.keys():
+					item_entry = item_builder(item_path['type'], item_path['stats'])
+
 				item_entry['group'] = init_stat('group', item_path, 'ssbrc')
 
 				for skin in chain(['default'], path['skins']):
