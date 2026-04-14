@@ -47,7 +47,7 @@ def extend_equipment(data, path):
 
 def extend_usable(data, path):
 	data['can_sprint'] = init_stat('can_sprint', path, False)
-	data['speed_multiplier'] = init_stat('speed_multiplier', path, 6)
+	data['speed_multiplier'] = init_stat('speed_multiplier', path, 1)
 	data['max_stack_size'] = init_stat('max_damage', path, 1)
 
 def extend_weapon(data, path):
