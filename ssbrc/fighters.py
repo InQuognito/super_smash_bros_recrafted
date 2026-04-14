@@ -2472,19 +2472,6 @@ fighters = {
 					'color': 'gold'
 				}
 			},
-			'steel_bow': {
-				'type': 'bow',
-				'stats': {
-					'speed_multiplier': 0.2
-				},
-				'default': {
-					'name': 'ssbrc.fighter.byleth.steel_bow',
-					'color': 'gray'
-				},
-				'gold': {
-					'color': 'gold'
-				}
-			},
 			'steel_shield': {
 				'type': 'shield',
 				'stats': {

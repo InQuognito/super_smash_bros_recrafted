@@ -1,6 +1,0 @@
-{
-	"parent": "minecraft:item/bow",
-	"textures": {
-		"layer0": "ssbrc:fighter/byleth/item/steel_bow/gold/idle"
-	}
-}
