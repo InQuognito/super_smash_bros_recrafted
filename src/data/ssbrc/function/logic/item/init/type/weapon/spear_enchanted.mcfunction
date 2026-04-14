@@ -45,13 +45,19 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 		delay_ticks: $(startup_ticks), \
 		contact_cooldown_ticks: $(cooldown_ticks), \
 		dismount_conditions: { \
-			max_duration_ticks: 10, \
+			max_duration_ticks: $(dismount_duration), \
+			min_speed: $(dismount_speed), \
+			min_relative_speed: $(dismount_relative_speed), \
 		}, \
 		knockback_conditions: { \
-			max_duration_ticks: 10, \
+			max_duration_ticks: $(knockback_duration), \
+			min_speed: $(knockback_speed), \
+			min_relative_speed: $(knockback_relative_speed), \
 		}, \
 		damage_conditions: { \
-			max_duration_ticks: 10, \
+			max_duration_ticks: $(damage_duration), \
+			min_speed: $(damage_speed), \
+			min_relative_speed: $(damage_relative_speed), \
 		}, \
 		forward_movement: $(visual_reach), \
 		damage_multiplier: $(speed_damage_multiplier), \

@@ -2397,8 +2397,7 @@ fighters = {
 					'item_damage_on_attack': 1,
 					'swing_animation': 'stab',
 					'startup_ticks': 10,
-					'cooldown_ticks': 20,
-					'speed_damage_multiplier': 2
+					'cooldown_ticks': 20
 				},
 				'default': {
 					'name': 'ssbrc.fighter.byleth.areadbhar',
@@ -4924,10 +4923,16 @@ def extend_kinetic_weapon(data, path):
 	extend_usable(data, path)
 	data['startup_ticks'] = init_stat('startup_ticks', path, 0)
 	data['cooldown_ticks'] = init_stat('cooldown_ticks', path, 10)
-	data['max_dismount_ticks'] = init_stat('max_dismount_ticks', path, 40)
-	data['max_knockback_ticks'] = init_stat('max_knockback_ticks', path, 60)
-	data['max_damage_ticks'] = init_stat('max_damage_ticks', path, 80)
-	data['visual_reach'] = init_stat('visual_reach', path, 0)
+	data['dismount_duration'] = init_stat('dismount_duration', path, 40)
+	data['dismount_speed'] = init_stat('dismount_speed', path, 0)
+	data['dismount_relative_speed'] = init_stat('dismount_relative_speed', path, 4)
+	data['knockback_duration'] = init_stat('knockback_duration', path, 60)
+	data['knockback_speed'] = init_stat('knockback_speed', path, 0)
+	data['knockback_relative_speed'] = init_stat('knockback_relative_speed', path, 4)
+	data['damage_duration'] = init_stat('damage_duration', path, 80)
+	data['damage_speed'] = init_stat('damage_speed', path, 0)
+	data['damage_relative_speed'] = init_stat('damage_relative_speed', path, 4)
+	data['visual_reach'] = init_stat('visual_reach', path, 1)
 	data['speed_damage_multiplier'] = init_stat('speed_damage_multiplier', path, 1)
 	data['use_sound'] = init_stat('use_sound', path, 'empty')
 	data['hit_sound'] = init_stat('hit_sound', path, 'empty')
