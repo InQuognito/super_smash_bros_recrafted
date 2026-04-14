@@ -27,10 +27,6 @@
 		"mode": "append"
 	},
 	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:init/item/melee"
-	},
-	{
 		"function": "minecraft:set_custom_data",
 		"tag": {
 			"enchanted": "true"

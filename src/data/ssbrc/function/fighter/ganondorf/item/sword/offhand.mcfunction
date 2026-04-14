@@ -33,8 +33,3 @@ item replace entity @s weapon.offhand with minecraft:stick[ \
 		damage: 8 \
 	}, \
 ]
-
-item modify entity @s weapon.offhand { \
-	function: "minecraft:reference", \
-	name: "ssbrc:init/item/melee", \
-}
