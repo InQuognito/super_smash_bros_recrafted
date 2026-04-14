@@ -17,7 +17,7 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 	}, \
 	minecraft:use_effects = { \
 		can_sprint: true, \
-		speed_multiplier: 1, \
+		speed_multiplier: $(speed_multiplier), \
 	}, \
 	minecraft:use_cooldown = { \
 		seconds: 1, \

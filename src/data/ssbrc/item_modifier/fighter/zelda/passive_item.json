@@ -1,16 +1,6 @@
-[
-	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:init/tooltip/ability/passive"
-	},
-	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:init/ability/stats"
-	},
-	{
-		"function": "minecraft:set_custom_data",
-		"tag": {
-			"group": "passive_item"
-		}
+{
+	"function": "minecraft:set_custom_data",
+	"tag": {
+		"group": "passive_item"
 	}
-]
+}

@@ -1,10 +1,6 @@
 [
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:init/tooltip/ability/ranged"
-	},
-	{
-		"function": "minecraft:reference",
 		"name": "ssbrc:init/ability/cooldown"
 	},
 	{

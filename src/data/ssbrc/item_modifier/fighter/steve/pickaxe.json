@@ -1,15 +1,7 @@
 [
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:init/tooltip/ability/utility"
-	},
-	{
-		"function": "minecraft:reference",
 		"name": "ssbrc:init/ability/charge"
-	},
-	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:init/ability/stats"
 	},
 	{
 		"function": "minecraft:set_lore",

@@ -1,4 +1,4 @@
-$item replace entity @s $(slot) with minecraft:goat_horn[ \
+$item replace entity @s $(slot) with minecraft:stick[ \
 	minecraft:attack_range = { \
 		min_reach: $(min_reach), \
 		max_reach: $(max_reach), \
@@ -24,24 +24,8 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 		item: "$(item)", \
 		group: "$(group)", \
 	}, \
-	minecraft:custom_model_data = { \
-		strings: [ \
-			"$(skin)", \
-		], \
-	}, \
 	minecraft:enchantment_glint_override = false, \
-	minecraft:enchantments = { \
-		"ssbrc:fighter/$(fighter)/$(item)": 1, \
-	}, \
-	minecraft:instrument = { \
-		sound_event: { \
-			sound_id: "ssbrc:empty", \
-		}, \
-		range: 1, \
-		use_duration: .05, \
-		description: "", \
-	}, \
-	minecraft:item_model = "ssbrc:fighter/$(fighter)/$(item)", \
+	minecraft:item_model = "ssbrc:smash_item/$(item)", \
 	minecraft:item_name = { \
 		translate: "$(name)", \
 		color: "$(color)", \
@@ -63,14 +47,6 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 			"minecraft:unbreakable", \
 		], \
 	}, \
-	minecraft:use_cooldown = { \
-		seconds: $(cooldown), \
-		cooldown_group: "ssbrc:$(cooldown_group)", \
-	}, \
-	minecraft:use_effects = { \
-		can_sprint: true, \
-		speed_multiplier: $(speed_multiplier), \
-	}, \
 	minecraft:weapon = { \
 		item_damage_on_attack: $(item_damage_on_attack), \
 		disable_blocking_for_seconds: $(disable_blocking_for_seconds), \
@@ -79,5 +55,5 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 
 $item modify entity @s $(slot) { \
 	function: "minecraft:reference", \
-	name: "ssbrc:fighter/$(fighter)/$(item)", \
+	name: "ssbrc:smash_item/$(item)", \
 }

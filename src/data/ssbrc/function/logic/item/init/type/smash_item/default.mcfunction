@@ -1,15 +1,17 @@
-$item replace entity @s $(slot) with minecraft:fishing_rod[ \
+$item replace entity @s $(slot) with minecraft:goat_horn[ \
 	minecraft:custom_data = { \
 		item: "$(item)", \
-		group: "$(group)", \
+		group: "smash_item", \
 	}, \
-	minecraft:custom_model_data = { \
-		strings: [ \
-			"$(skin)", \
-		], \
+	minecraft:instrument = { \
+		sound_event: { \
+			sound_id: "ssbrc:empty", \
+		}, \
+		range: 1, \
+		use_duration: .05, \
+		description: "", \
 	}, \
-	minecraft:enchantment_glint_override = false, \
-	minecraft:item_model = "ssbrc:fighter/$(fighter)/$(item)", \
+	minecraft:item_model = "ssbrc:smash_item/$(item)", \
 	minecraft:item_name = { \
 		translate: "$(name)", \
 		color: "$(color)", \
@@ -22,21 +24,17 @@ $item replace entity @s $(slot) with minecraft:fishing_rod[ \
 	minecraft:swing_animation = { \
 		type: "none", \
 	}, \
-	minecraft:tooltip_display = { \
-		hidden_components: [ \
-			"minecraft:attribute_modifiers", \
-			"minecraft:banner_patterns", \
-			"minecraft:enchantments", \
-			"minecraft:unbreakable", \
-		], \
-	}, \
 	minecraft:use_cooldown = { \
 		seconds: $(cooldown), \
 		cooldown_group: "ssbrc:$(cooldown_group)", \
+	}, \
+	minecraft:use_effects = { \
+		can_sprint: true, \
+		speed_multiplier: $(speed_multiplier), \
 	}, \
 ]
 
 $item modify entity @s $(slot) { \
 	function: "minecraft:reference", \
-	name: "ssbrc:fighter/$(fighter)/$(item)", \
+	name: "ssbrc:smash_item/$(item)", \
 }

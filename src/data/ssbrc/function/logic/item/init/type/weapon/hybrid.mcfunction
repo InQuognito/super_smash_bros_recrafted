@@ -23,7 +23,6 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 	minecraft:custom_data = { \
 		item: "$(item)", \
 		group: "$(group)", \
-		damage: $(attack_damage), \
 	}, \
 	minecraft:custom_model_data = { \
 		strings: [ \
@@ -67,7 +66,7 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 	}, \
 	minecraft:use_effects = { \
 		can_sprint: true, \
-		speed_multiplier: 1, \
+		speed_multiplier: $(speed_multiplier), \
 	}, \
 	minecraft:weapon = { \
 		item_damage_on_attack: $(item_damage_on_attack), \

@@ -1,6 +1,6 @@
 $item replace entity @s $(slot) with minecraft:stick[ \
 	minecraft:consumable = { \
-		consume_seconds: .05, \
+		consume_seconds: $(consume_seconds), \
 		animation: "none", \
 		has_consume_particles: false, \
 	}, \
@@ -13,6 +13,7 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 			"$(skin)", \
 		], \
 	}, \
+	minecraft:enchantment_glint_override = false, \
 	minecraft:item_model = "ssbrc:fighter/$(fighter)/$(item)", \
 	minecraft:item_name = { \
 		translate: "$(name)", \
@@ -25,9 +26,17 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 	minecraft:swing_animation = { \
 		type: "none", \
 	}, \
+	minecraft:tooltip_display = { \
+		hidden_components: [ \
+			"minecraft:attribute_modifiers", \
+			"minecraft:banner_patterns", \
+			"minecraft:enchantments", \
+			"minecraft:unbreakable", \
+		], \
+	}, \
 	minecraft:use_effects = { \
 		can_sprint: true, \
-		speed_multiplier: 1, \
+		speed_multiplier: $(speed_multiplier), \
 	}, \
 	minecraft:use_cooldown = { \
 		seconds: $(cooldown), \

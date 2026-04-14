@@ -1,14 +1,13 @@
 $item replace entity @s $(slot) with minecraft:goat_horn[ \
+	minecraft:consumable = { \
+		consume_seconds: $(consume_seconds), \
+		animation: "none", \
+		has_consume_particles: false, \
+	}, \
 	minecraft:custom_data = { \
 		item: "$(item)", \
-		group: "$(group)", \
+		group: "smash_item", \
 	}, \
-	minecraft:custom_model_data = { \
-		strings: [ \
-			"$(skin)", \
-		], \
-	}, \
-	minecraft:enchantment_glint_override = false, \
 	minecraft:instrument = { \
 		sound_event: { \
 			sound_id: "ssbrc:empty", \
@@ -17,7 +16,7 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 		use_duration: .05, \
 		description: "", \
 	}, \
-	minecraft:item_model = "ssbrc:fighter/$(fighter)/$(item)", \
+	minecraft:item_model = "ssbrc:smash_item/$(item)", \
 	minecraft:item_name = { \
 		translate: "$(name)", \
 		color: "$(color)", \
@@ -29,14 +28,6 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 	minecraft:minimum_attack_charge = 1, \
 	minecraft:swing_animation = { \
 		type: "none", \
-	}, \
-	minecraft:tooltip_display = { \
-		hidden_components: [ \
-			"minecraft:attribute_modifiers", \
-			"minecraft:banner_patterns", \
-			"minecraft:enchantments", \
-			"minecraft:unbreakable", \
-		], \
 	}, \
 	minecraft:use_cooldown = { \
 		seconds: $(cooldown), \
@@ -50,5 +41,5 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 
 $item modify entity @s $(slot) { \
 	function: "minecraft:reference", \
-	name: "ssbrc:fighter/$(fighter)/$(item)", \
+	name: "ssbrc:smash_item/$(item)", \
 }

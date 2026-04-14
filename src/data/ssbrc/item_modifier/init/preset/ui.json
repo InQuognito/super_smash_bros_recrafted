@@ -4,14 +4,6 @@
 		"name": "ssbrc:init/tooltip/separator"
 	},
 	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:init/ability/default"
-	},
-	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:init/ability/stats"
-	},
-	{
 		"function": "minecraft:set_components",
 		"components": {
 			"minecraft:attribute_modifiers": [

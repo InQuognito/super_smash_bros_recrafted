@@ -1,15 +1,5 @@
-summon minecraft:item ~ ~ ~ { \
-	Item: { \
-		id: "minecraft:goat_horn", \
-		components: { \
-			"minecraft:max_stack_size": 1, \
-			"minecraft:custom_data": { \
-				"group": "smash_item", \
-				"picked_up": "false", \
-			}, \
-		}, \
-	}, \
-	Glowing: 1b, \
+data merge entity @s { \
+	Glowing: true, \
 }
 
-execute as @e[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_data":{group: "smash_item"}}}},limit=1,distance=..0.01] run function ssbrc:logic/game/item/choose
+function ssbrc:logic/game/item/choose

@@ -20,10 +20,6 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/tooltip/ability/passive"
-						},
-						{
-							"function": "minecraft:reference",
 							"name": "ssbrc:init/ability/default"
 						},
 						{
@@ -44,10 +40,6 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/stats"
-						},
-						{
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:item_model": "ssbrc:fighter/yar/item/power_up/omnishot"
@@ -55,7 +47,8 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": {"group": "power_up",
+							"tag": {
+								"group": "power_up",
 								"power_up": "omnishot"
 							}
 						}
