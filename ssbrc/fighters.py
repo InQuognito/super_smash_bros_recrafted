@@ -1077,7 +1077,7 @@ fighters = {
 		],
 		'items': {
 			'phazon_beam': {
-				'type': 'custom_swing',
+				'type': 'custom_swing_bow',
 				'stats': {
 					'attack_damage': 0,
 					'attack_speed': 0.5,
