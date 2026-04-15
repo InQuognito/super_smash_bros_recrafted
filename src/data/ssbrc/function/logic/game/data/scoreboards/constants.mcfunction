@@ -52,6 +52,17 @@ scoreboard players set #luigi.ice_ball const 160
 
 scoreboard players set #mario.fireball const 160
 
+scoreboard players set #mega_man.air_shooter const 6
+scoreboard players set #mega_man.beat_call const 20
+scoreboard players set #mega_man.drill_bomb const 3
+scoreboard players set #mega_man.flame_sword const 10
+scoreboard players set #mega_man.hyper_bomb const 2
+scoreboard players set #mega_man.hyper_bomb.timer const 40
+scoreboard players set #mega_man.junk_shield const 4
+scoreboard players set #mega_man.metal_blade const 8
+scoreboard players set #mega_man.pile_driver const 5
+scoreboard players set #mega_man.remote_mine const 4
+
 scoreboard players set #pikachu.thunder_jolt const 160
 
 scoreboard players set #raiden.weight const 10
