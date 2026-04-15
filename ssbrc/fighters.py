@@ -3141,6 +3141,7 @@ fighters = {
 		],
 		'items': {
 			'air_shooter': {
+				'group': 'mega_buster',
 				'type': 'ability',
 				'stats': {
 					'cooldown_group': 'mega_man/air_shooter',
@@ -3152,6 +3153,7 @@ fighters = {
 				}
 			},
 			'beat_call': {
+				'group': 'mega_buster',
 				'type': 'ability',
 				'stats': {
 					'cooldown_group': 'mega_man/beat_call',
@@ -3163,6 +3165,7 @@ fighters = {
 				}
 			},
 			'drill_bomb': {
+				'group': 'mega_buster',
 				'type': 'ability',
 				'stats': {
 					'cooldown_group': 'mega_man/drill_bomb',
@@ -3174,6 +3177,7 @@ fighters = {
 				}
 			},
 			'flame_sword': {
+				'group': 'mega_buster',
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 5,
@@ -3185,6 +3189,7 @@ fighters = {
 				}
 			},
 			'hyper_bomb': {
+				'group': 'mega_buster',
 				'type': 'ability',
 				'stats': {
 					'cooldown_group': 'mega_man/hyper_bomb',
@@ -3196,6 +3201,7 @@ fighters = {
 				}
 			},
 			'junk_shield': {
+				'group': 'mega_buster',
 				'type': 'ability',
 				'stats': {
 					'cooldown_group': 'mega_man/junk_shield',
@@ -3207,6 +3213,7 @@ fighters = {
 				}
 			},
 			'mega_buster': {
+				'group': 'mega_buster',
 				'type': 'ability',
 				'stats': {
 					'cooldown_group': 'mega_man/mega_buster',
@@ -3224,6 +3231,7 @@ fighters = {
 				}
 			},
 			'metal_blade': {
+				'group': 'mega_buster',
 				'type': 'ability',
 				'stats': {
 					'cooldown_group': 'mega_man/metal_blade',
@@ -3238,6 +3246,7 @@ fighters = {
 				}
 			},
 			'pile_driver': {
+				'group': 'mega_buster',
 				'type': 'custom_swing',
 				'stats': {
 					'attack_damage': 6,
@@ -3255,6 +3264,7 @@ fighters = {
 				}
 			},
 			'remote_mine': {
+				'group': 'mega_buster',
 				'type': 'ability',
 				'stats': {
 					'cooldown_group': 'mega_man/remote_mine',
