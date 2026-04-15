@@ -7,7 +7,7 @@ data merge entity @s {teleport_duration: 15,transformation:[0.25f,0f,0f,0f,0f,0.
 
 function ssbrc:logic/init/id
 
-scoreboard players operation @s pos_y = temp pos_y
-scoreboard players operation @s rotation = temp rotation
-scoreboard players add temp rotation 45
-execute store result storage ssbrc:temp cache.rotation.value int 1 run scoreboard players get temp rotation
+scoreboard players operation @s pos_y = #pos_y temp
+scoreboard players operation @s rotation = #rotation temp
+scoreboard players add #rotation temp 45
+execute store result storage ssbrc:temp cache.rotation.value int 1 run scoreboard players get #rotation temp
