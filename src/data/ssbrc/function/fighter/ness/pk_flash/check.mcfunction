@@ -1,4 +1,4 @@
-function ssbrc:fighter/ness/pk_flash/deactivate
+tag @s remove pk_flash
 
 function ssbrc:logic/fighter/ability/init
 
