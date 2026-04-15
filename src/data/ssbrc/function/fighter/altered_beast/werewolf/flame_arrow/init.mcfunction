@@ -1,8 +1,3 @@
-item replace entity @s contents with minecraft:stick[ \
-	minecraft:enchantments = { \
-		"ssbrc:fighter/altered_beast/projectile/flame_arrow": 1, \
-	}, \
-	minecraft:item_model = "ssbrc:empty", \
-]
+tag @s add flame_arrow
 
-function ssbrc:logic/init/projectile/model/charge_attack/horizontal
+function ssbrc:logic/init/charge_attack/horizontal

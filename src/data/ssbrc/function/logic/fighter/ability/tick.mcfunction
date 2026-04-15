@@ -1,7 +1,22 @@
+# Altered Beast
+execute if entity @s[tag=flame_arrow] run return run function ssbrc:fighter/altered_beast/werewolf/flame_arrow/tick
+execute if entity @s[tag=flame_hands] run return run function ssbrc:fighter/altered_beast/werewolf/flame_hands/tick
+execute if entity @s[tag=sabretooth] run return run function ssbrc:fighter/altered_beast/weretiger/sabretooth/tick
+
+# Alucard
+execute if entity @s[tag=mist] run return run function ssbrc:fighter/alucard/mist/tick_entity
+
 # Byleth
 execute if entity @s[tag=failnaught,tag=awakened] run return run function ssbrc:fighter/byleth/golden_deer/failnaught/tick
 
+# Captain Falcon
+execute if entity @s[tag=raptor_boost] run return run function ssbrc:fighter/captain_falcon/raptor_boost/tick
+
+# Cloud
+execute if entity @s[tag=blade_beam] run return run function ssbrc:fighter/cloud/buster_sword/blade_beam/tick
+
 # Dark Samus
+execute if entity @s[tag=phazon_beam] run return run function ssbrc:fighter/dark_samus/phazon_beam/tick
 execute if entity @s[tag=phazon_pool] run return run function ssbrc:fighter/dark_samus/phazon_spike/phazon_pool/tick
 execute if entity @s[tag=phazon_spike] run return run function ssbrc:fighter/dark_samus/phazon_spike/tick
 

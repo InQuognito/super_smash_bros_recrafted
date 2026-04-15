@@ -1,5 +1,3 @@
-scoreboard players operation #id_to_match temp = @s id
-
 particle minecraft:flame ~ ~.75 ~ .2 .4 .2 .05 25 force @a
 
 scoreboard players set #n temp 13

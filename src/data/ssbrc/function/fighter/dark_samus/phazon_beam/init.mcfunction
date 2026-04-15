@@ -1,11 +1,6 @@
-item replace entity @s contents with minecraft:stick[ \
-	minecraft:enchantments = { \
-		"ssbrc:fighter/dark_samus/projectile/phazon_beam": 1, \
-	}, \
-	minecraft:item_model = "ssbrc:empty", \
-]
+tag @s add phazon_beam
 
-function ssbrc:logic/init/projectile/model/default
+function ssbrc:logic/init/position
 
 execute if score #charge temp matches 40.. run return run function ssbrc:fighter/dark_samus/phazon_beam/charge_level {level: 4}
 execute if score #charge temp matches 20..39 run return run function ssbrc:fighter/dark_samus/phazon_beam/charge_level {level: 3}
