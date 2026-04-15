@@ -3252,7 +3252,7 @@ fighters = {
 					'attack_damage': 6,
 					'attack_speed': 0.5,
 					'max_reach': 1.5,
-					'swing_animation': 'jab',
+					'swing_animation': 'stab',
 					'use_sound': 'fighter.mega_man.pile_driver'
 				},
 				'default': {
