@@ -7,7 +7,7 @@
 				"when": "gui",
 				"model": {
 					"type": "minecraft:model",
-					"model": "ssbrc:fighter/mega_man/misc/drill_bomb"
+					"model": "ssbrc:fighter/mega_man/misc/air_shooter"
 				}
 			}
 		],
@@ -19,14 +19,14 @@
 					"when": "x",
 					"model": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/mega_man/item/drill_bomb/x"
+						"model": "ssbrc:fighter/mega_man/item/air_shooter/x"
 					}
 				},
 				{
 					"when": "star_force",
 					"model": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/mega_man/item/drill_bomb/star_force"
+						"model": "ssbrc:fighter/mega_man/item/air_shooter/star_force"
 					}
 				},
 				{
@@ -39,7 +39,7 @@
 			],
 			"fallback": {
 				"type": "minecraft:model",
-				"model": "ssbrc:fighter/mega_man/item/drill_bomb/default"
+				"model": "ssbrc:fighter/mega_man/item/air_shooter/default"
 			}
 		}
 	},
