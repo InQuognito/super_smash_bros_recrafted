@@ -6,6 +6,9 @@ def item_builder(type, path):
 			extend_weapon(container, path)
 		case 'custom_swing':
 			extend_custom_swing(container, path)
+		case 'custom_swing_bow':
+			extend_custom_swing(container, path)
+			extend_usable(container, path)
 		case 'kinetic_weapon':
 			extend_weapon(container, path)
 			extend_kinetic_weapon(container, path)
