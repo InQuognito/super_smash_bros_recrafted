@@ -103,6 +103,7 @@ def extend_shield(data, path):
 	data['blocking_angle'] = init_stat('blocking_angle', path, 90)
 
 def extend_ability(data, path):
+	extend_equipment(data, path)
 	extend_usable(data, path)
 	data['cooldown'] = init_stat('cooldown', path, 1)
 	data['cooldown_group'] = init_stat('cooldown_group', path, 'fallback')
