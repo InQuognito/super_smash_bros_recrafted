@@ -3238,10 +3238,13 @@ fighters = {
 				}
 			},
 			'pile_driver': {
-				'type': 'ability',
+				'type': 'custom_swing',
 				'stats': {
-					'cooldown_group': 'mega_man/pile_driver',
-					'cooldown': 2
+					'attack_damage': 6,
+					'attack_speed': 0.5,
+					'max_reach': 1.5,
+					'swing_animation': 'jab',
+					'use_sound': 'fighter.mega_man.pile_driver'
 				},
 				'default': {
 					'name': 'ssbrc.fighter.mega_man.pile_driver.default',

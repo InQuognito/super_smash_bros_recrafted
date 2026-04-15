@@ -9,7 +9,7 @@ execute if items entity @s[tag=mega_man.flame_sword] weapon.mainhand *[minecraft
 execute if items entity @s[tag=mega_man.hyper_bomb] weapon.mainhand *[minecraft:custom_data~{item: "hyper_bomb"}] run function ssbrc:fighter/mega_man/update {item: "hyper_bomb"}
 execute if items entity @s[tag=mega_man.junk_shield] weapon.mainhand *[minecraft:custom_data~{item: "junk_shield"}] run function ssbrc:fighter/mega_man/update {item: "junk_shield"}
 execute if items entity @s[tag=mega_man.metal_blade] weapon.mainhand *[minecraft:custom_data~{item: "metal_blade"}] run function ssbrc:fighter/mega_man/update {item: "metal_blade"}
-execute if entity @s[tag=mega_man.pile_driver] run function ssbrc:fighter/mega_man/pile_driver/item
+execute if items entity @s[tag=mega_man.pile_driver] weapon.mainhand *[minecraft:custom_data~{item: "pile_driver"}] run function ssbrc:fighter/mega_man/update {item: "pile_driver"}
 execute if items entity @s[tag=mega_man.remote_mine] weapon.mainhand *[minecraft:custom_data~{item: "remote_mine"}] run function ssbrc:fighter/mega_man/update {item: "remote_mine"}
 
 function ssbrc:logic/fighter/ability/deinit
