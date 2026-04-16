@@ -16,14 +16,6 @@
 		"hand"
 	],
 	"effects": {
-		"minecraft:projectile_spawned": [
-			{
-				"effect": {
-					"type": "minecraft:run_function",
-					"function": "ssbrc:logic/fighter/projectile/kill"
-				}
-			}
-		],
 		"minecraft:ammo_use": [
 			{
 				"effect": {

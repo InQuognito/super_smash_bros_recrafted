@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:fighter/steve/mining/deactivate"
+					"function": "ssbrc:logic/fighter/projectile/kill"
 				}
 			}
 		],

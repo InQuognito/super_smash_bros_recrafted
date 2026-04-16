@@ -168,6 +168,10 @@ execute if entity @s[tag=payday.projectile] run return run function ssbrc:fighte
 # Toon Link
 execute if entity @s[tag=toon_link_boomerang] run return run function ssbrc:fighter/toon_link/boomerang/tick
 
+# Villager
+execute if entity @s[tag=sapling] run return run function ssbrc:fighter/villager/sapling/tick
+execute if entity @s[nbt={Item:{tag: {Tags:[villager.item]}}}] run return run function ssbrc:fighter/steve/item/tick
+
 # Wolf
 execute if entity @s[tag=wolf_blaster] run return run function ssbrc:fighter/wolf/wolf_blaster/tick
 execute if entity @s[tag=grenade] run return run function ssbrc:fighter/wolf/grenade/tick

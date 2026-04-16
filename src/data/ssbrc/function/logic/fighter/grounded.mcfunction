@@ -7,5 +7,6 @@ execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "kirby"}}}] run return run scoreboard players set @s jumps 6
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "pit"}}}] run item modify entity @s armor.chest {function: "minecraft:set_components",components: {"!minecraft:glider":{}}}
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "sora", form: "master"}}}] run return run scoreboard players set @s jumps 3
+execute if items entity @s[tag=villager.balloon_trip] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "villager"}}}] run return run scoreboard players set @s jumps 50
 
 scoreboard players set @s jumps 2

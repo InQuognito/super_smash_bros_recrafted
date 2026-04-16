@@ -3041,18 +3041,15 @@ fighters = {
 			'female'
 		],
 		'items': {
-			'axe': {
-				'type': 'weapon',
+			'bank': {
+				'type': 'ability',
 				'stats': {
-					'attack_damage': 5,
-					'attack_speed': 0.75
+					'cooldown_group': 'villager/bank',
+					'cooldown': 1
 				},
 				'default': {
-					'name': 'ssbrc.fighter.villager.axe',
-					'color': 'red'
-				},
-				'gold': {
-					'color': 'light_purple'
+					'name': 'ssbrc.fighter.villager.bank',
+					'color': 'yellow'
 				}
 			},
 			'sapling': {
@@ -3077,17 +3074,6 @@ fighters = {
 					'color': 'gray'
 				}
 			},
-			'watering_can': {
-				'type': 'ability',
-				'stats': {
-					'cooldown_group': 'villager/watering_can',
-					'cooldown': 1
-				},
-				'default': {
-					'name': 'ssbrc.fighter.villager.watering_can',
-					'color': 'gray'
-				}
-			},
 			'timmy': {
 				'type': 'ability',
 				'stats': {
@@ -3097,6 +3083,31 @@ fighters = {
 				'default': {
 					'name': 'ssbrc.fighter.villager.timmy',
 					'color': 'gold'
+				}
+			},
+			'villager_axe': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 5,
+					'attack_speed': 0.75
+				},
+				'default': {
+					'name': 'ssbrc.fighter.villager.axe',
+					'color': 'red'
+				},
+				'gold': {
+					'color': 'light_purple'
+				}
+			},
+			'watering_can': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'villager/watering_can',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.villager.watering_can',
+					'color': 'gray'
 				}
 			}
 		}

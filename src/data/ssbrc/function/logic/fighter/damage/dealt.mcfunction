@@ -7,3 +7,4 @@ execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "joker"}}}] unless score @s duration.1 matches 1.. run return run function ssbrc:logic/fighter/damage/dealt/joker
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "shadow"}}}] run return run function ssbrc:fighter/shadow/chaos_gauge/increase
 execute if items entity @s[predicate=!ssbrc:fighter/sora/drive_form] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "sora"}}}] run return run function ssbrc:logic/fighter/damage/dealt/sora
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "villager"}}}] run return run scoreboard players operation @s charge.2 += #damage_dealt temp

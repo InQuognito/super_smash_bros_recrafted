@@ -4,4 +4,3 @@ tellraw @s { \
 }
 
 clear @s minecraft:lapis_lazuli
-clear @s minecraft:redstone
