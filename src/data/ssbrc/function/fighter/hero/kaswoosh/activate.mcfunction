@@ -1,1 +1,1 @@
-function animated_java:tornado/summon {args: {animation: "spin", start_animation: true}}
+execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ssbrc:fighter/hero/kaswoosh/init

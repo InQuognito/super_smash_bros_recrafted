@@ -1,3 +1,3 @@
-$execute if score #random temp matches 11 run return run function ssbrc:fighter/hero/spell/init {item: "thwack", color: "dark_purple",cost:30,slot:$(slot)}
+$execute if score #random temp matches 11 run return run function ssbrc:logic/item/init/slot {item: "thwack", slot: $(slot), class: "default", type: "cost_ability"}
 
-$function ssbrc:fighter/hero/spell/init {item: "whack", color: "dark_purple",cost:10,slot:$(slot)}
+$function ssbrc:logic/item/init/slot {item: "whack", slot: $(slot), class: "default", type: "cost_ability"}

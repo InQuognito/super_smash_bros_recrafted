@@ -3660,7 +3660,7 @@ fighters = {
 			'kaclang'
 		],
 		'items': {
-			'sword': {
+			'hero_sword': {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 4,
@@ -3683,7 +3683,7 @@ fighters = {
 					'name': 'ssbrc.fighter.hero.sword.solo'
 				}
 			},
-			'shield': {
+			'hero_shield': {
 				'type': 'shield',
 				'stats': {
 					'max_damage': 30,
@@ -3712,11 +3712,12 @@ fighters = {
 				}
 			},
 			'accelerate': {
-				'type': 'ability',
+				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
-					'cooldown': 1.5
+					'cooldown': 1.5,
+					'cost': 13
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.accelerate',
@@ -3724,11 +3725,12 @@ fighters = {
 				}
 			},
 			'acceleratle': {
-				'type': 'ability',
+				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
-					'cooldown': 1.5
+					'cooldown': 1.5,
+					'cost': 20
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.acceleratle',
@@ -3736,11 +3738,12 @@ fighters = {
 				}
 			},
 			'bang': {
-				'type': 'ability',
+				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
-					'cooldown': 1.5
+					'cooldown': 1.5,
+					'cost': 9
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.bang',
@@ -3748,11 +3751,12 @@ fighters = {
 				}
 			},
 			'flame_slash': {
-				'type': 'ability',
+				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
-					'cooldown': 1.5
+					'cooldown': 1.5,
+					'cost': 12
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.flame_slash',
@@ -3760,11 +3764,12 @@ fighters = {
 				}
 			},
 			'frizz': {
-				'type': 'ability',
+				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
-					'cooldown': 1.5
+					'cooldown': 1.5,
+					'cost': 6
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.frizz',
@@ -3772,11 +3777,12 @@ fighters = {
 				}
 			},
 			'frizzle': {
-				'type': 'ability',
+				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
-					'cooldown': 1.5
+					'cooldown': 1.5,
+					'cost': 16
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.frizzle',
@@ -3784,11 +3790,12 @@ fighters = {
 				}
 			},
 			'heal': {
-				'type': 'ability',
+				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
-					'cooldown': 1.5
+					'cooldown': 1.5,
+					'cost': 7
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.heal',
@@ -3796,23 +3803,38 @@ fighters = {
 				}
 			},
 			'hocus_pocus': {
-				'type': 'ability',
+				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
-					'cooldown': 1.5
+					'cooldown': 1.5,
+					'cost': 4
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.hocus_pocus',
 					'color': 'light_purple'
 				}
 			},
-			'kaclang': {
-				'type': 'ability',
+			'kaboom': {
+				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
-					'cooldown': 1.5
+					'cooldown': 1.5,
+					'cost': 37
+				},
+				'default': {
+					'name': 'ssbrc.fighter.hero.kaboom',
+					'color': 'gold'
+				}
+			},
+			'kaclang': {
+				'type': 'cost_ability',
+				'group': 'hero.spell',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5,
+					'cost': 6
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.kaclang',
@@ -3820,11 +3842,12 @@ fighters = {
 				}
 			},
 			'kacrackle_slash': {
-				'type': 'ability',
+				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
-					'cooldown': 1.5
+					'cooldown': 1.5,
+					'cost': 11
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.kacrackle_slash',
@@ -3832,11 +3855,12 @@ fighters = {
 				}
 			},
 			'kafrizz': {
-				'type': 'ability',
+				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
-					'cooldown': 1.5
+					'cooldown': 1.5,
+					'cost': 36
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.kafrizz',
@@ -3844,23 +3868,38 @@ fighters = {
 				}
 			},
 			'kamikazee': {
-				'type': 'ability',
+				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
-					'cooldown': 1.5
+					'cooldown': 1.5,
+					'cost': 1
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.kamikazee',
 					'color': 'gold'
 				}
 			},
-			'kazap': {
-				'type': 'ability',
+			'kaswoosh': {
+				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
-					'cooldown': 1.5
+					'cooldown': 1.5,
+					'cost': 18
+				},
+				'default': {
+					'name': 'ssbrc.fighter.hero.kaswoosh',
+					'color': 'green'
+				}
+			},
+			'kazap': {
+				'type': 'cost_ability',
+				'group': 'hero.spell',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5,
+					'cost': 42
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.kazap',
@@ -3868,11 +3907,12 @@ fighters = {
 				}
 			},
 			'magic_burst': {
-				'type': 'ability',
+				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
-					'cooldown': 1.5
+					'cooldown': 1.5,
+					'cost': 10
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.magic_burst',
@@ -3880,11 +3920,12 @@ fighters = {
 				}
 			},
 			'metal_slash': {
-				'type': 'ability',
+				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
-					'cooldown': 1.5
+					'cooldown': 1.5,
+					'cost': 6
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.metal_slash',
@@ -3892,11 +3933,12 @@ fighters = {
 				}
 			},
 			'multiheal': {
-				'type': 'ability',
+				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
-					'cooldown': 1.5
+					'cooldown': 1.5,
+					'cost': 14
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.multiheal',
@@ -3904,11 +3946,12 @@ fighters = {
 				}
 			},
 			'oomph': {
-				'type': 'ability',
+				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
-					'cooldown': 1.5
+					'cooldown': 1.5,
+					'cost': 16
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.oomph',
@@ -3916,23 +3959,38 @@ fighters = {
 				}
 			},
 			'snooze': {
-				'type': 'ability',
+				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
-					'cooldown': 1.5
+					'cooldown': 1.5,
+					'cost': 16
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.snooze',
 					'color': 'light_purple'
 				}
 			},
-			'twhack': {
-				'type': 'ability',
+			'swoosh': {
+				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
-					'cooldown': 1.5
+					'cooldown': 1.5,
+					'cost': 9
+				},
+				'default': {
+					'name': 'ssbrc.fighter.hero.swoosh',
+					'color': 'green'
+				}
+			},
+			'twhack': {
+				'type': 'cost_ability',
+				'group': 'hero.spell',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5,
+					'cost': 30
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.twhack',
@@ -3940,11 +3998,12 @@ fighters = {
 				}
 			},
 			'whack': {
-				'type': 'ability',
+				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
-					'cooldown': 1.5
+					'cooldown': 1.5,
+					'cost': 10
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.whack',
@@ -3952,11 +4011,12 @@ fighters = {
 				}
 			},
 			'woosh': {
-				'type': 'ability',
+				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
-					'cooldown': 1.5
+					'cooldown': 1.5,
+					'cost': 5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.woosh',
@@ -3964,11 +4024,12 @@ fighters = {
 				}
 			},
 			'zap': {
-				'type': 'ability',
+				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
-					'cooldown': 1.5
+					'cooldown': 1.5,
+					'cost': 8
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.zap',
@@ -3976,11 +4037,12 @@ fighters = {
 				}
 			},
 			'zapple': {
-				'type': 'ability',
+				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
-					'cooldown': 1.5
+					'cooldown': 1.5,
+					'cost': 18
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.zapple',
@@ -3988,11 +4050,12 @@ fighters = {
 				}
 			},
 			'zoom': {
-				'type': 'ability',
+				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
-					'cooldown': 1.5
+					'cooldown': 1.5,
+					'cost': 8
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.zoom',

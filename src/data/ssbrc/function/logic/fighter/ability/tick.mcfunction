@@ -46,7 +46,9 @@ execute if entity @s[tag=frizzle] run return run function ssbrc:fighter/hero/fri
 execute if entity @s[tag=kafrizz] run return run function ssbrc:fighter/hero/kafrizz/tick
 execute if entity @s[tag=kaswoosh] run return run function ssbrc:fighter/hero/kaswoosh/tick
 execute if entity @s[tag=kazap] run return run function ssbrc:fighter/hero/kazap/tick
+execute if entity @s[tag=snooze] run return run function ssbrc:fighter/hero/snooze/tick
 execute if entity @s[tag=swoosh] run return run function ssbrc:fighter/hero/swoosh/tick
+execute if entity @s[tag=whack] run return run function ssbrc:fighter/hero/whack/tick
 execute if entity @s[tag=zap] run return run function ssbrc:fighter/hero/zap/tick
 execute if entity @s[tag=zapple] run return run function ssbrc:fighter/hero/zapple/tick
 

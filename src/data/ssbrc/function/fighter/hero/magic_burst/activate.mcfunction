@@ -1,8 +1,6 @@
 tag @s add magic_burst
 scoreboard players set @s charge.1 1
 
-effect give @s minecraft:resistance 3 255 true
+effect give @s minecraft:resistance 1 1 true
 
-function ssbrc:logic/fighter/effects/immobile/activate {type: "default", duration: 40}
-
-scoreboard players set @s magic 0
+function ssbrc:logic/fighter/effects/stun/activate {type: "default", duration: 20}

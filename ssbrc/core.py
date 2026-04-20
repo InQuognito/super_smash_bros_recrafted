@@ -21,6 +21,9 @@ def item_builder(type, path):
 			extend_shield(container, path)
 		case 'ability':
 			extend_ability(container, path)
+		case 'cost_ability':
+			extend_ability(container, path)
+			container['cost'] = init_stat('cost', path, 1)
 		case 'consumable':
 			extend_ability(container, path)
 		case 'charge':

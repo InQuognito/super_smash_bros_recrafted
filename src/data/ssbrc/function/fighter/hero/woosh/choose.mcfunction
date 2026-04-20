@@ -1,4 +1,4 @@
-$execute if score #random temp matches 13 run return run function ssbrc:fighter/hero/spell/init {item: "swoosh", color: "green",cost:9,slot:$(slot)}
-$execute if score #random temp matches 14 run return run function ssbrc:fighter/hero/spell/init {item: "kaswoosh", color: "green",cost:18,slot:$(slot)}
+$execute if score #random temp matches 13 run return run function ssbrc:logic/item/init/slot {item: "swoosh", slot: $(slot), class: "default", type: "cost_ability"}
+$execute if score #random temp matches 14 run return run function ssbrc:logic/item/init/slot {item: "kaswoosh", slot: $(slot), class: "default", type: "cost_ability"}
 
-$function ssbrc:fighter/hero/spell/init {item: "woosh", color: "green",cost:5,slot:$(slot)}
+$function ssbrc:logic/item/init/slot {item: "woosh", slot: $(slot), class: "default", type: "cost_ability"}

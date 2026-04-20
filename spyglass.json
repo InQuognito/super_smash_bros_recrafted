@@ -1,6 +1,6 @@
 {
 	"env": {
-		"gameVersion": "Latest snapshot",
+		"gameVersion": "Latest release",
 		"exclude": [
 			".bolt"
 		]

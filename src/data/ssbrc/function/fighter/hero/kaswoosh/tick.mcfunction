@@ -1,5 +1,9 @@
-execute unless block ^ ^ ^3 #ssbrc:passthrough run function ssbrc:stage/hyrule_castle/hazards/tornadoes/kill
+execute unless block ^ ^ ^2 #ssbrc:passthrough run return run kill @s
 
-execute as @e[predicate=ssbrc:target,distance=..2] unless score @s tornado matches 1.. run function ssbrc:stage/hyrule_castle/hazards/tornadoes/spin/catch
+execute positioned ~ ~3 ~ run function ssbrc:fighter/hero/kaswoosh/pull
+execute as @e[predicate=ssbrc:target,distance=..2] run function ssbrc:fighter/hero/kaswoosh/hit
 
-teleport @s ^ ^ ^.3
+teleport @s ^ ^ ^.1
+
+scoreboard players add @s temp 1
+kill @s[scores={temp=100..}]
