@@ -1,3 +1,3 @@
 scoreboard players set #n temp 30
 
-execute anchored eyes positioned ^ ^ ^ run function ssbrc:fighter/hero/kazap/bolt/start
+execute positioned ~ ~.75 ~ positioned ^ ^ ^.5 run function ssbrc:fighter/hero/kazap/bolt/activate
