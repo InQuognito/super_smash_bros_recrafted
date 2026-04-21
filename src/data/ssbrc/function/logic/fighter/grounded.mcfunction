@@ -1,4 +1,4 @@
-attribute InQuognito minecraft:gravity modifier remove ssbrc:jump
+attribute @s minecraft:gravity modifier remove ssbrc:jump
 
 scoreboard players set @s jump 0
 

@@ -456,7 +456,6 @@ fighters = {
 				'type': 'shield',
 				'stats': {
 					'max_damage': 30,
-					'block_delay_seconds': 0.0,
 					'block_sound': 'minecraft:item.shield.block',
 					'disabled_sound': 'minecraft:item.shield.break'
 				},
@@ -565,7 +564,6 @@ fighters = {
 				'type': 'shield',
 				'stats': {
 					'max_damage': 30,
-					'block_delay_seconds': 0.0,
 					'block_sound': 'minecraft:item.shield.block',
 					'disabled_sound': 'minecraft:item.shield.break'
 				},
@@ -850,7 +848,6 @@ fighters = {
 				'group': 'passive_item',
 				'stats': {
 					'max_damage': 20,
-					'block_delay_seconds': 0.0,
 					'block_sound': 'minecraft:item.shield.block',
 					'disabled_sound': 'minecraft:item.shield.break'
 				},
@@ -2340,7 +2337,6 @@ fighters = {
 				'stats': {
 					'attack_damage': 5,
 					'attack_speed': 1.5,
-					'block_delay_seconds': 0.0,
 					'block_sound': 'minecraft:item.shield.block',
 					'disabled_sound': 'minecraft:item.shield.break',
 					'percent_blocked_damage': 0.3,
@@ -2478,7 +2474,6 @@ fighters = {
 				'type': 'shield',
 				'stats': {
 					'max_damage': 20,
-					'block_delay_seconds': 0.0,
 					'block_sound': 'minecraft:item.shield.block',
 					'disabled_sound': 'minecraft:item.shield.break'
 				},
@@ -2783,7 +2778,6 @@ fighters = {
 				'stats': {
 					'attack_damage': 6,
 					'attack_speed': 2.5,
-					'block_delay_seconds': 0.0,
 					'block_sound': 'minecraft:item.shield.block',
 					'disabled_sound': 'minecraft:item.shield.break'
 				},
@@ -3428,7 +3422,6 @@ fighters = {
 				'type': 'shield',
 				'stats': {
 					'max_damage': 20,
-					'block_delay_seconds': 0.0,
 					'block_sound': 'minecraft:item.shield.block',
 					'disabled_sound': 'minecraft:item.shield.break'
 				},
@@ -3687,7 +3680,6 @@ fighters = {
 				'type': 'shield',
 				'stats': {
 					'max_damage': 30,
-					'block_delay_seconds': 0.0,
 					'block_sound': 'minecraft:item.shield.block',
 					'disabled_sound': 'minecraft:item.shield.break'
 				},
@@ -4293,7 +4285,6 @@ fighters = {
 				'type': 'shield',
 				'stats': {
 					'max_damage': 10,
-					'block_delay_seconds': 0.0,
 					'block_sound': 'minecraft:item.shield.block',
 					'disabled_sound': 'minecraft:item.shield.break'
 				},
