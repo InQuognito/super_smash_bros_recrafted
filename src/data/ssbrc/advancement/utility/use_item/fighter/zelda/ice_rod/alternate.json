@@ -18,7 +18,7 @@
 									"type": "minecraft:score",
 									"target": {
 										"type": "minecraft:fixed",
-										"name": "zelda.ice_rod.cost.alt"
+										"name": "#zelda.ice_rod.alt"
 									},
 									"score": "const"
 								}

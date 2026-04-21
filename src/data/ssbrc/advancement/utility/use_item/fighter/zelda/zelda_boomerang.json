@@ -18,7 +18,7 @@
 									"type": "minecraft:score",
 									"target": {
 										"type": "minecraft:fixed",
-										"name": "zelda.boomerang.cost"
+										"name": "#zelda.boomerang"
 									},
 									"score": "const"
 								}
@@ -29,7 +29,7 @@
 				"item": {
 					"predicates": {
 						"minecraft:custom_data": {
-							"item": "zelda.boomerang"
+							"item": "zelda_boomerang"
 						}
 					}
 				}

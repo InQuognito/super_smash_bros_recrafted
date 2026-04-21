@@ -18,7 +18,7 @@
 									"type": "minecraft:score",
 									"target": {
 										"type": "minecraft:fixed",
-										"name": "zelda.fire_rod.cost.alt"
+										"name": "#zelda.fire_rod.alt"
 									},
 									"score": "const"
 								}

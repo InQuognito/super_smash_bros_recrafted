@@ -18,7 +18,7 @@
 									"type": "minecraft:score",
 									"target": {
 										"type": "minecraft:fixed",
-										"name": "zelda.magic_boomerang.cost"
+										"name": "#zelda.magic_boomerang"
 									},
 									"score": "const"
 								}
