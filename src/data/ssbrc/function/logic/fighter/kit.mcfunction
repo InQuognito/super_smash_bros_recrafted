@@ -7,7 +7,7 @@ $item modify entity @s armor.chest { \
 	enchantments: { \
 		"ssbrc:fighter/$(fighter)": 1, \
 	}, \
-	add: false, \
+	add: true, \
 }
 
-$function ssbrc:logic/player/data/set {data: {temp: {alignment: "$(alignment)"}}}
+$function ssbrc:logic/player/data/set {data: {temp: {fighter: {alignment: "$(alignment)"}}}}
