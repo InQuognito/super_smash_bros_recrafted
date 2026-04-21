@@ -5,4 +5,4 @@ execute if score @s temp matches 3 positioned ^ ^ ^2 as @e[predicate=ssbrc:targe
 execute if score @s temp matches 4 positioned ^ ^ ^2 run summon minecraft:lightning_bolt ~ ~ ~
 
 scoreboard players add @s temp 1
-kill @s[scores={temp=4..}]
+kill @s[scores={temp=5..}]
