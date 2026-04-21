@@ -3976,7 +3976,7 @@ fighters = {
 					'color': 'green'
 				}
 			},
-			'twhack': {
+			'thwack': {
 				'type': 'cost_ability',
 				'group': 'hero.spell',
 				'stats': {
@@ -3985,7 +3985,7 @@ fighters = {
 					'cost': 30
 				},
 				'default': {
-					'name': 'ssbrc.fighter.hero.twhack',
+					'name': 'ssbrc.fighter.hero.thwack',
 					'color': 'dark_purple'
 				}
 			},

@@ -1,4 +1,4 @@
-execute store result storage ssbrc:temp cache.rotation int 1 run scoreboard players add @s rotation 1
+execute store result storage ssbrc:temp cache.rotation int 10 run scoreboard players add @s rotation 1
 function ssbrc:fighter/hero/zapple/particle with storage ssbrc:temp cache
 scoreboard players set @s[scores={rotation=360..}] rotation 0
 
