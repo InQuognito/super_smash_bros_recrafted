@@ -144,6 +144,8 @@ scoreboard players set #thwomp_time const 100
 scoreboard players operation #thwomp_sink_time const = #thwomp_time const
 scoreboard players operation #thwomp_sink_time const *= #2 const
 
+scoreboard players set #tower_of_fate.destruction_timer const 400
+
 # Common Currency Values
 scoreboard players set #value.participation const 100
 

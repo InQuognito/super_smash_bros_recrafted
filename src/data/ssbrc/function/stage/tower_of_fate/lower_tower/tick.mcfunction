@@ -23,4 +23,4 @@ execute if score #percentage temp matches 65 if score #tower_of_fate.explosions 
 
 execute if score #percentage temp matches 75 if score #tower_of_fate.explosions temp matches 14 run function ssbrc:stage/tower_of_fate/lower_tower/set with storage ssbrc:temp game.stage
 
-execute if score #percentage temp matches 100 if score #tower_of_fate.clockwork_tower temp matches 1 run setblock ~ ~-13 ~ minecraft:air replace
+execute if score #percentage temp matches 100.. if score #tower_of_fate.clockwork_tower temp matches 1 run setblock ~ ~-13 ~ minecraft:air replace
