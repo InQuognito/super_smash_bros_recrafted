@@ -1,7 +1,7 @@
 {
 	"parent": "ssbrc:template/item/hud",
 	"textures": {
-		"base": "ssbrc:fighter/zelda/item/great_fairy_blessing/fairy"
+		"base": "ssbrc:fighter/zelda/item/great_fairy_blessing"
 	},
 	"elements": [
 		{

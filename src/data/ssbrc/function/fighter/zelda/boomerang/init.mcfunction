@@ -3,7 +3,7 @@ tag @s add delete_behavior.reflect
 tag @s add reflect_behavior.motion_only
 
 item replace entity @s contents with minecraft:stick[ \
-	minecraft:item_model = "ssbrc:fighter/zelda/boomerang", \
+	minecraft:item_model = "ssbrc:fighter/zelda/zelda_boomerang", \
 ]
 
 function ssbrc:logic/init/projectile/horizontal

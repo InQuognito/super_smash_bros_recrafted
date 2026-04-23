@@ -635,7 +635,7 @@ fighters = {
 			'default'
 		],
 		'items': {
-			'dagger': {
+			'zelda_dagger': {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 2,
@@ -646,7 +646,7 @@ fighters = {
 					'color': 'white'
 				}
 			},
-			'flail': {
+			'zelda_flail': {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 5,
@@ -659,7 +659,7 @@ fighters = {
 					'color': 'white'
 				}
 			},
-			'rapier': {
+			'zelda_rapier': {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 4,
@@ -670,18 +670,18 @@ fighters = {
 					'color': 'white'
 				}
 			},
-			'spear': {
-				'type': 'custom_swing',
+			'zelda_spear': {
+				'type': 'spear',
 				'stats': {
-					'attack_damage': 8,
-					'attack_speed': 0.3,
+					'attack_damage': 5,
+					'attack_speed': 0.7,
 				},
 				'default': {
 					'name': 'ssbrc.fighter.zelda.weapon.spear.default',
 					'color': 'white'
 				}
 			},
-			'bomb': {
+			'zelda_bomb': {
 				'type': 'ability',
 				'group': 'dungeon_item',
 				'stats': {
@@ -705,7 +705,7 @@ fighters = {
 					'color': 'gold'
 				}
 			},
-			'bow': {
+			'zelda_bow': {
 				'type': 'bow',
 				'stats': {
 					'speed_multiplier': 0.2

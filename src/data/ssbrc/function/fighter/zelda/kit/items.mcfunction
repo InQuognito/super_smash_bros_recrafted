@@ -6,10 +6,10 @@ effect clear @s minecraft:resistance
 
 execute store result score #random temp run random value 1..4
 
-execute if score #random temp matches 1 run data modify storage ssbrc:temp cache.weapon set value {name: "dagger", type: "default"}
-execute if score #random temp matches 2 run data modify storage ssbrc:temp cache.weapon set value {name: "flail", type: "default"}
-execute if score #random temp matches 3 run data modify storage ssbrc:temp cache.weapon set value {name: "rapier", type: "default"}
-execute if score #random temp matches 4 run data modify storage ssbrc:temp cache.weapon set value {name: "spear", type: "custom_swing"}
+execute if score #random temp matches 1 run data modify storage ssbrc:temp cache.weapon set value {name: "zelda_dagger", type: "default"}
+execute if score #random temp matches 2 run data modify storage ssbrc:temp cache.weapon set value {name: "zelda_flail", type: "default"}
+execute if score #random temp matches 3 run data modify storage ssbrc:temp cache.weapon set value {name: "zelda_rapier", type: "default"}
+execute if score #random temp matches 4 run data modify storage ssbrc:temp cache.weapon set value {name: "zelda_spear", type: "custom_swing"}
 
 execute store result score #random temp run random value 1..6
 
@@ -25,7 +25,7 @@ function ssbrc:fighter/zelda/kit/weapon/set with storage ssbrc:temp cache.weapon
 
 execute store result score #random temp run random value 1..7
 
-execute if score #random temp matches 1 run function ssbrc:logic/item/init/slot {item: "bomb", slot: "hotbar.1", class: "default", type: "default"}
+execute if score #random temp matches 1 run function ssbrc:logic/item/init/slot {item: "zelda_bomb", slot: "hotbar.1", class: "default", type: "default"}
 execute if score #random temp matches 2 run function ssbrc:logic/item/init/slot {item: "zelda_boomerang", slot: "hotbar.1", class: "default", type: "default"}
 execute if score #random temp matches 3 run function ssbrc:fighter/zelda/kit/bow
 execute if score #random temp matches 4 run function ssbrc:logic/item/init/slot {item: "fire_rod", slot: "hotbar.1", class: "default", type: "default"}
