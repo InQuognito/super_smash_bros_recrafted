@@ -18,7 +18,7 @@
 				"item": {
 					"predicates": {
 						"minecraft:custom_data": {
-							"item": "bomb"
+							"item": "zelda_bomb"
 						}
 					}
 				}
