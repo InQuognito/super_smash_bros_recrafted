@@ -1,13 +1,12 @@
 # Calculate and display timer
 execute store result bossbar ssbrc:timer value run scoreboard players get #game_time timer
 
-execute run scoreboard players operation #game_time.percent temp = #game_time timer
-execute run scoreboard players operation #game_time.percent temp *= #100 const
-execute run scoreboard players operation #game_time.percent temp /= time_limit options
+execute store result score #time_limit temp run data get storage ssbrc:data option.time_limit
+function math:percentage {output: "#percentage temp", val: "#game_time timer", div: "#time_limit temp"}
 
-execute if score #game_time.percent temp matches 50 run bossbar set ssbrc:timer color green
-execute if score #game_time.percent temp matches 25 run bossbar set ssbrc:timer color yellow
-execute if score #game_time.percent temp matches 10 run bossbar set ssbrc:timer color red
+execute if score #percentage temp matches 50 run bossbar set ssbrc:timer color green
+execute if score #percentage temp matches 25 run bossbar set ssbrc:timer color yellow
+execute if score #percentage temp matches 10 run bossbar set ssbrc:timer color red
 
 execute if score #game_time timer matches 5 as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:five voice @s
 execute if score #game_time timer matches 4 as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:four voice @s
@@ -16,7 +15,8 @@ execute if score #game_time timer matches 2 as @a[predicate=ssbrc:ingame] at @s 
 execute if score #game_time timer matches 1 as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:one voice @s
 execute if score #game_time timer matches ..0 run function ssbrc:logic/post_game/winner/time
 
-execute if data storage ssbrc:temp game.stage{name: "tower_of_fate"} if data storage ssbrc:data option{hazards: "true"} unless score #tower_of_fate.destroyed temp matches 1.. if score #game_time.percent temp matches ..50 run function ssbrc:stage/tower_of_fate/lower_tower/start
+execute if data storage ssbrc:temp game.stage{name: "hollow_bastion"} if data storage ssbrc:data option{hazards: "true"} unless score #hollow_bastion.transformed temp matches 1.. if score #game_time timer matches ..60 run function ssbrc:stage/hollow_bastion/transform
+execute if data storage ssbrc:temp game.stage{name: "tower_of_fate"} if data storage ssbrc:data option{hazards: "true"} unless score #tower_of_fate.destroyed temp matches 1.. if score #percentage temp matches ..50 run function ssbrc:stage/tower_of_fate/lower_tower/start
 
 #execute positioned -528.5 6 -1939.5 run data modify entity @n[type=minecraft:text_display,tag=lobby.timer,distance=...01] text set value [ \
 #	{ \
