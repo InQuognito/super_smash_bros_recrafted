@@ -573,9 +573,6 @@ fighters = {
 				},
 				'gold': {
 					'color': 'gold'
-				},
-				'dark_tunic': {
-					'color': 'red'
 				}
 			},
 			'master_sword': {

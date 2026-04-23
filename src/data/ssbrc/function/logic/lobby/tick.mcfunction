@@ -1,5 +1,5 @@
 # Teleport - Fighter Select
-execute positioned -9 0 6 if entity @s[dy=1] run function ssbrc:logic/lobby/teleport_pad
+execute positioned -9 0 6. if entity @s[dy=1] run function ssbrc:logic/lobby/teleport_pad
 
 # Teleport - Credits
 #teleport @s[x=-530,y=4,z=-1951,dy=1] -523.5 -1 -1944.5 90 0

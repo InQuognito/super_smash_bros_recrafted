@@ -1,6 +1,6 @@
 $data modify storage ssbrc:temp game.stage.variant set value $(variant)
 
-$place template ssbrc:stage/tower_of_fate/lower_tower/$(variant) ~-12 ~-14 ~-12
+$place template ssbrc:stage/tower_of_fate/lower_tower/$(variant) -12 -14 -12
 
 kill @e[type=minecraft:marker,tag=spawnpoint]
 
