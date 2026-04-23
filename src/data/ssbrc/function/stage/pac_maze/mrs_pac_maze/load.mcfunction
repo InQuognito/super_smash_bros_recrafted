@@ -1,15 +1,13 @@
 data modify storage ssbrc:temp game.stage.variant set value "mrs_pac_maze"
 
-summon minecraft:marker 23360.5 0 8642.5 {Tags:["center_point"]}
-
-summon minecraft:marker 23292.5 5 8621.5 {Tags:["spawnpoint"]}
-summon minecraft:marker 23326.5 5 8621.5 {Tags:["spawnpoint"]}
-summon minecraft:marker 23320.5 5 8666.5 {Tags:["spawnpoint"]}
-summon minecraft:marker 23298.5 5 8666.5 {Tags:["spawnpoint"]}
-summon minecraft:marker 23298.5 5 8642.5 {Tags:["spawnpoint"]}
-summon minecraft:marker 23320.5 5 8642.5 {Tags:["spawnpoint"]}
-summon minecraft:marker 23317.5 5 8654.5 {Tags:["spawnpoint"]}
-summon minecraft:marker 23301.5 5 8654.5 {Tags:["spawnpoint"]}
+summon minecraft:marker -311 3 -179 {Tags:["spawnpoint"]}
+summon minecraft:marker -289 3 -179 {Tags:["spawnpoint"]}
+summon minecraft:marker -308 3 -191 {Tags:["spawnpoint"]}
+summon minecraft:marker -292 3 -191 {Tags:["spawnpoint"]}
+summon minecraft:marker -283 3 -224 {Tags:["spawnpoint"]}
+summon minecraft:marker -317 3 -224 {Tags:["spawnpoint"]}
+summon minecraft:marker -311 3 -203 {Tags:["spawnpoint"]}
+summon minecraft:marker -289 3 -203 {Tags:["spawnpoint"]}
 
 summon minecraft:marker 23363.5 6 8666.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 23357.5 6 8666.5 {Tags:["spawnpoint.item"]}

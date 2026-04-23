@@ -1,3 +1,3 @@
-effect give @s minecraft:instant_health 1 0 true
+function ssbrc:fighter/hero/heal/effects
 
 scoreboard players add @s charge.3 1
