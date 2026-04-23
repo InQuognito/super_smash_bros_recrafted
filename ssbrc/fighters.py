@@ -779,7 +779,8 @@ fighters = {
 				'group': 'dungeon_item',
 				'stats': {
 					'cooldown_group': 'zelda/red_potion',
-					'cooldown': 0.05
+					'cooldown': 0.05,
+					'use_duration': 1
 				},
 				'default': {
 					'name': 'ssbrc.fighter.zelda.dungeon_item.red_potion',
