@@ -49,12 +49,12 @@ def init_stat(stat: str, path: str, fallback):
 
 def extend_equipment(data, path):
 	data['max_damage'] = init_stat('max_damage', path, 1)
-	data['max_stack_size'] = init_stat('max_damage', path, 1)
+	data['max_stack_size'] = init_stat('max_stack_size', path, 1)
 
 def extend_usable(data, path):
 	data['can_sprint'] = init_stat('can_sprint', path, False)
 	data['speed_multiplier'] = init_stat('speed_multiplier', path, 1)
-	data['max_stack_size'] = init_stat('max_damage', path, 1)
+	data['max_stack_size'] = init_stat('max_stack_size', path, 1)
 
 def extend_weapon(data, path):
 	extend_equipment(data, path)
