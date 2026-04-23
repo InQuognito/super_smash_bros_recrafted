@@ -1,5 +1,7 @@
 data modify storage ssbrc:temp game.stage.variant set value "mrs_pac_maze"
 
+forceload add -350 -250 -250 -150
+
 summon minecraft:marker -311 3 -179 {Tags:["spawnpoint"]}
 summon minecraft:marker -289 3 -179 {Tags:["spawnpoint"]}
 summon minecraft:marker -308 3 -191 {Tags:["spawnpoint"]}
