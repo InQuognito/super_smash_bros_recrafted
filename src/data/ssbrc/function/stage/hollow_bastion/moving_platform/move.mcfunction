@@ -1,0 +1,9 @@
+$execute if entity @s[tag=$(group).1] run teleport @s ^1 ^ ^1
+$execute if entity @s[tag=$(group).2] run teleport @s ^1 ^ ^
+$execute if entity @s[tag=$(group).3] run teleport @s ^1 ^ ^-1
+$execute if entity @s[tag=$(group).4] run teleport @s ^ ^ ^1
+$execute if entity @s[tag=$(group).5] run teleport @s ^ ^ ^
+$execute if entity @s[tag=$(group).6] run teleport @s ^ ^ ^-1
+$execute if entity @s[tag=$(group).7] run teleport @s ^-1 ^ ^1
+$execute if entity @s[tag=$(group).8] run teleport @s ^-1 ^ ^
+$execute if entity @s[tag=$(group).9] run teleport @s ^-1 ^ ^-1

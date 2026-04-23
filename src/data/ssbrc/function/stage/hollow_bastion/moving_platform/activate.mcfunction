@@ -1,0 +1,9 @@
+$execute positioned ^1 ^ ^1 summon minecraft:marker run function ssbrc:stage/hollow_bastion/moving_platform/init/marker {group: $(group), id: 1}
+$execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:stage/hollow_bastion/moving_platform/init/marker {group: $(group), id: 2}
+$execute positioned ^-1 ^ ^1 summon minecraft:marker run function ssbrc:stage/hollow_bastion/moving_platform/init/marker {group: $(group), id: 3}
+$execute positioned ^1 ^ ^ summon minecraft:marker run function ssbrc:stage/hollow_bastion/moving_platform/init/marker {group: $(group), id: 4}
+$execute positioned ^ ^ ^ summon minecraft:item_display run function ssbrc:stage/hollow_bastion/moving_platform/init/model {group: $(group), id: 5}
+$execute positioned ^-1 ^ ^ summon minecraft:marker run function ssbrc:stage/hollow_bastion/moving_platform/init/marker {group: $(group), id: 6}
+$execute positioned ^1 ^ ^-1 summon minecraft:marker run function ssbrc:stage/hollow_bastion/moving_platform/init/marker {group: $(group), id: 7}
+$execute positioned ^ ^ ^-1 summon minecraft:marker run function ssbrc:stage/hollow_bastion/moving_platform/init/marker {group: $(group), id: 8}
+$execute positioned ^-1 ^ ^-1 summon minecraft:marker run function ssbrc:stage/hollow_bastion/moving_platform/init/marker {group: $(group), id: 9}
