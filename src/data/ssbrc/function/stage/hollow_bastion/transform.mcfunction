@@ -1,6 +1,6 @@
 scoreboard players set #hollow_bastion.transformed temp 1
 
-time of ssbrc:stage rate 200
+#time of ssbrc:stage rate 200
 
 execute positioned -15 -11 -16 run function ssbrc:stage/hollow_bastion/set
 
