@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:blueprint/entity/pokemon/gastly/rig/right_pupil1",
+	"textures": {
+		"0": "ssbrc:common/pokemon/pokemon/gastly/shiny"
+	}
+}

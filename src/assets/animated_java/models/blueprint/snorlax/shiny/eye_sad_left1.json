@@ -1,6 +1,0 @@
-{
-	"parent": "animated_java:blueprint/snorlax/eye_sad_left1",
-	"textures": {
-		"0": "ssbrc:common/pokemon/pokemon/snorlax/shiny"
-	}
-}

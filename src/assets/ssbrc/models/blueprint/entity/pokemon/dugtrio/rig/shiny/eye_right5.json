@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:blueprint/entity/pokemon/dugtrio/rig/eye_right5",
+	"textures": {
+		"0": "ssbrc:common/pokemon/pokemon/dugtrio/shiny"
+	}
+}

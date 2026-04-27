@@ -1,7 +1,7 @@
 scoreboard players reset #blackout temp
 
 execute as @a[tag=alive] unless items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "snake"}}}] run function ssbrc:logic/fighter/effects/glowing/uncloak
-execute as @e[type=minecraft:item] if items entity @s contents minecraft:lapis_lazuli run data merge entity @s {Glowing:1b}
+execute as @e[type=minecraft:item] if items entity @s contents minecraft:lapis_lazuli run data merge entity @s {Glowing: true}
 
 fill -30 -7 -45 25 9 18 minecraft:light[level=15] replace minecraft:light
 fill -30 -7 -45 25 9 18 minecraft:redstone_block replace minecraft:diamond_ore
@@ -16,4 +16,4 @@ fill -30 -7 -45 25 9 18 minecraft:blast_furnace[facing=east,lit=true] replace mi
 
 execute as @e[type=minecraft:item_display,tag=lantern_off] at @s run function ssbrc:stage/luigis_mansion/blackout/lanterns/activate
 
-execute as @e[type=minecraft:item_display,tag=aj.boo.root] at @s run function ssbrc:stage/luigis_mansion/boo/deactivate
+execute as @e[type=minecraft:item_display,tag=ssbrc.boo.root] at @s run function ssbrc:stage/luigis_mansion/boo/deactivate

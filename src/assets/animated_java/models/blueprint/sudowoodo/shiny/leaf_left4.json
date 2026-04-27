@@ -1,6 +1,0 @@
-{
-	"parent": "animated_java:blueprint/sudowoodo/leaf_left4",
-	"textures": {
-		"0": "ssbrc:common/pokemon/pokemon/sudowoodo/shiny"
-	}
-}

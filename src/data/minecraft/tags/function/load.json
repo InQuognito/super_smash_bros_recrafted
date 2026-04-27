@@ -1,10 +1,4 @@
 {
 	"replace": false,
-	"values": [
-		"#load:_private/load",
-		"animated_java:global/internal/gu/load",
-		"animated_java:global/on_load",
-		"player_motion:internal/init",
-		"ssbrc:load"
-	]
+	"values": ["#load:_private/load", "animated_java:global/on_load", "player_motion:internal/init", "ssbrc:load"]
 }

@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:blueprint/entity/pokemon/lapras/rig/shell2",
+	"textures": {
+		"0": "ssbrc:common/pokemon/pokemon/lapras/shiny"
+	}
+}

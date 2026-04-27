@@ -19,7 +19,7 @@ schedule clear ssbrc:stage/pac_maze/ghosts/animation/schedule
 schedule clear ssbrc:stage/planet_zebes/rain/check
 
 # Pyrosphere
-schedule clear ssbrc:stage/pyrosphere/fgii_graham/activate
+schedule clear ssbrc:entity/metroid/fgii_graham/logic/activate
 
 # Saturn Valley
 schedule clear ssbrc:stage/saturn_valley/well/off

@@ -1,6 +1,0 @@
-{
-	"parent": "animated_java:blueprint/geodude/finger_left_pinky3",
-	"textures": {
-		"0": "ssbrc:common/pokemon/pokemon/geodude/shiny"
-	}
-}

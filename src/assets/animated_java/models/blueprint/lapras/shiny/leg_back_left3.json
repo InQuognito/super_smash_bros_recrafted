@@ -1,6 +1,0 @@
-{
-	"parent": "animated_java:blueprint/lapras/leg_back_left3",
-	"textures": {
-		"0": "ssbrc:common/pokemon/pokemon/lapras/shiny"
-	}
-}

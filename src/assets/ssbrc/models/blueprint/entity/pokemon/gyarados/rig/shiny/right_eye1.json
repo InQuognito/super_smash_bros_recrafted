@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:blueprint/entity/pokemon/gyarados/rig/right_eye1",
+	"textures": {
+		"0": "ssbrc:common/pokemon/pokemon/gyarados/shiny"
+	}
+}

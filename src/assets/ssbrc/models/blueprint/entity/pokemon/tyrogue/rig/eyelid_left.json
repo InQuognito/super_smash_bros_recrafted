@@ -1,0 +1,49 @@
+{
+	"textures": {
+		"0": "cobblemon:pokemon/0236_tyrogue/tyrogue",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [2.49475, 6.5552, 7.57],
+			"to": [5.51475, 9.5752, 8.59],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [6.25, -11.5, 11.51]
+			},
+			"faces": {
+				"north": {
+					"uv": [9, 0.25, 9.75, 1],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [8.75, 0.25, 9, 1],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [10, 0.25, 10.75, 1],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [9.75, 0.25, 10, 1],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [9.75, 0.25, 9, 0],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [10.5, 0, 9.75, 0.25],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:blueprint/entity/pokemon/diglett/rig/nose1",
+	"textures": {
+		"0": "ssbrc:common/pokemon/pokemon/diglett/shiny"
+	}
+}

@@ -7,8 +7,21 @@ gamemode adventure @s
 clear @s #ssbrc:equipment/all
 clear @s #minecraft:arrows
 
-loot give @s[advancements={ssbrc:tutorial/intro/2=true}] loot ssbrc:selector
-#item replace entity @s hotbar.8 with minecraft:fishing_rod[minecraft:enchantments={"minecraft:lure":5},minecraft:unbreakable={}]
+execute if entity @s[advancements={ssbrc:tutorial/intro/2=true}] run function ssbrc:logic/item/init/type/generic { \
+	item: "selector", \
+	slot: "hotbar.0", \
+	name: "ssbrc.lobby.selector", \
+	color: "white", \
+	cooldown: 1, \
+	cooldown_group: "ssbrc:ui", \
+}
+
+#item replace entity @s hotbar.8 with minecraft:fishing_rod[ \
+#	minecraft:enchantments = { \
+#		"minecraft:lure": 5, \
+#	}, \
+#	minecraft:unbreakable = {}, \
+#]
 
 scoreboard players reset @s team
 team leave @s
@@ -30,7 +43,14 @@ stopsound @s
 
 function ssbrc:logic/player/data/stats/init/run
 
-loot replace entity @s inventory.13 loot ssbrc:statistics
+function ssbrc:logic/item/init/type/generic { \
+	item: "profile", \
+	slot: "inventory.13", \
+	name: "ssbrc.statistics.player_profile", \
+	color: "gold", \
+	cooldown: 1, \
+	cooldown_group: "ssbrc:ui", \
+}
 
 scoreboard players add @s cooldown 0
 

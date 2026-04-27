@@ -1,4 +1,4 @@
-$particle minecraft:reverse_portal ~ ~.5 ~ 0 0 0 0.015 2 force @a[advancements={ssbrc:tutorial/equipment/$(item)=false}]
+$particle minecraft:reverse_portal ~ ~.5 ~ 0 0 0 .015 2 force @a[advancements={ssbrc:tutorial/equipment/$(item)=false}]
 
 execute if score @s animation matches 1.. run function ssbrc:tutorial/chest/particle/tick
 

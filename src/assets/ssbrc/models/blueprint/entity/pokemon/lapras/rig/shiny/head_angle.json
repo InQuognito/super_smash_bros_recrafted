@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:blueprint/entity/pokemon/lapras/rig/head_angle",
+	"textures": {
+		"0": "ssbrc:common/pokemon/pokemon/lapras/shiny"
+	}
+}

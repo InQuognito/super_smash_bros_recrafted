@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:blueprint/entity/pokemon/slowpoke/rig/eyelid_left1",
+	"textures": {
+		"0": "ssbrc:common/pokemon/pokemon/slowpoke/shiny"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:blueprint/entity/pokemon/geodude/rig/finger_left_ring3",
+	"textures": {
+		"0": "ssbrc:common/pokemon/pokemon/geodude/shiny"
+	}
+}

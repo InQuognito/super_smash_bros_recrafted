@@ -1,6 +1,0 @@
-{
-	"parent": "animated_java:blueprint/metapod/eye_left1",
-	"textures": {
-		"0": "ssbrc:common/pokemon/pokemon/metapod/shiny"
-	}
-}

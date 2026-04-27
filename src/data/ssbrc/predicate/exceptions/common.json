@@ -23,7 +23,7 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"aj.global.entity\"]}"
+				"nbt": "{Tags:[\"ssbrc.global.entity\"]}"
 			}
 		}
 	]

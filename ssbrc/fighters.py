@@ -775,7 +775,7 @@ fighters = {
 				}
 			},
 			'red_potion': {
-				'type': 'consumable',
+				'type': 'ability',
 				'group': 'dungeon_item',
 				'stats': {
 					'cooldown_group': 'zelda/red_potion',
@@ -1390,7 +1390,7 @@ fighters = {
 		],
 		'items': {
 			'grenade': {
-				'type': 'charge',
+				'type': 'ability',
 				'stats': {
 					'use_duration': 4,
 					'cooldown_group': 'wolf/grenade',
@@ -1867,7 +1867,7 @@ fighters = {
 				}
 			},
 			'water_shuriken': {
-				'type': 'consumable',
+				'type': 'ability',
 				'stats': {
 					'cooldown_group': 'greninja/water_shuriken',
 					'cooldown': 0.25,
@@ -3464,7 +3464,7 @@ fighters = {
 				}
 			},
 			'holy_water': {
-				'type': 'consumable',
+				'type': 'ability',
 				'stats': {
 					'cooldown_group': 'alucard/holy_water',
 					'cooldown': 0.5
@@ -4728,7 +4728,7 @@ fighters = {
 			},
 			'gatling_gun_power': {
 				'group': 'power_up',
-				'type': 'consumable',
+				'type': 'ability',
 				'stats': {
 					'cooldown_group': 'yar/power_up',
 					'cooldown': 1
@@ -4755,7 +4755,7 @@ fighters = {
 			},
 			'missile_launcher_power': {
 				'group': 'power_up',
-				'type': 'consumable',
+				'type': 'ability',
 				'stats': {
 					'cooldown_group': 'yar/power_up',
 					'cooldown': 1
@@ -4767,7 +4767,7 @@ fighters = {
 			},
 			'omnishot_power': {
 				'group': 'power_up',
-				'type': 'consumable',
+				'type': 'ability',
 				'stats': {
 					'cooldown_group': 'yar/power_up',
 					'cooldown': 1
@@ -4793,7 +4793,7 @@ fighters = {
 			},
 			'railgun_power': {
 				'group': 'power_up',
-				'type': 'consumable',
+				'type': 'ability',
 				'stats': {
 					'cooldown_group': 'yar/power_up',
 					'cooldown': 1
@@ -4849,7 +4849,7 @@ fighters = {
 			},
 			'triple_shot_power': {
 				'group': 'power_up',
-				'type': 'consumable',
+				'type': 'ability',
 				'stats': {
 					'cooldown_group': 'yar/power_up',
 					'cooldown': 1

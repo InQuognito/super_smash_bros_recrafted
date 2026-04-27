@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:blueprint/entity/pokemon/abra/rig/knee_right1",
+	"textures": {
+		"0": "ssbrc:common/pokemon/pokemon/abra/shiny"
+	}
+}

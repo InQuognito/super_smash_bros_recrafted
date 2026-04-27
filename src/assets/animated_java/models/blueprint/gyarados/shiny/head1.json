@@ -1,6 +1,0 @@
-{
-	"parent": "animated_java:blueprint/gyarados/head1",
-	"textures": {
-		"0": "ssbrc:common/pokemon/pokemon/gyarados/shiny"
-	}
-}

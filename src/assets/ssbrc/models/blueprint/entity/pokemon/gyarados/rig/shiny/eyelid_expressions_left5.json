@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:blueprint/entity/pokemon/gyarados/rig/eyelid_expressions_left5",
+	"textures": {
+		"0": "ssbrc:common/pokemon/pokemon/gyarados/shiny"
+	}
+}

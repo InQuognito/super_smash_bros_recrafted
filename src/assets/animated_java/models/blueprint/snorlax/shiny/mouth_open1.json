@@ -1,6 +1,0 @@
-{
-	"parent": "animated_java:blueprint/snorlax/mouth_open1",
-	"textures": {
-		"0": "ssbrc:common/pokemon/pokemon/snorlax/shiny"
-	}
-}

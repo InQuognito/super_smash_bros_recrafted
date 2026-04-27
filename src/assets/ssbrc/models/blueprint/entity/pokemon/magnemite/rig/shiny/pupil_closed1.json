@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:blueprint/entity/pokemon/magnemite/rig/pupil_closed1",
+	"textures": {
+		"0": "ssbrc:common/pokemon/pokemon/magnemite/shiny"
+	}
+}

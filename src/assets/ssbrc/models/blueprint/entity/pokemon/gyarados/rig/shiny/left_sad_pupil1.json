@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:blueprint/entity/pokemon/gyarados/rig/left_sad_pupil1",
+	"textures": {
+		"0": "ssbrc:common/pokemon/pokemon/gyarados/shiny"
+	}
+}

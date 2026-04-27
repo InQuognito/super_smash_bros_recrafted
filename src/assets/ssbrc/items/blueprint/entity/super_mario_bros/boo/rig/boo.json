@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "ssbrc:blueprint/entity/super_mario_bros/boo/rig/boo",
+		"tints": [
+			{"type": "minecraft:dye", "default": [1, 1, 1]}
+		]
+	}
+}

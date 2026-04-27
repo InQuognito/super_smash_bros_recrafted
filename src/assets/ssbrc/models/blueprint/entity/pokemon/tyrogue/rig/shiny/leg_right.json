@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:blueprint/entity/pokemon/tyrogue/rig/leg_right",
+	"textures": {
+		"0": "ssbrc:common/pokemon/pokemon/tyrogue/shiny"
+	}
+}

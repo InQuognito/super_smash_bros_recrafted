@@ -1,6 +1,0 @@
-{
-	"parent": "animated_java:blueprint/slowpoke/tail6",
-	"textures": {
-		"0": "ssbrc:common/pokemon/pokemon/slowpoke/shiny"
-	}
-}

@@ -1,6 +1,0 @@
-{
-	"parent": "animated_java:blueprint/slowpoke/eyelid_left1",
-	"textures": {
-		"0": "ssbrc:common/pokemon/pokemon/slowpoke/shiny"
-	}
-}

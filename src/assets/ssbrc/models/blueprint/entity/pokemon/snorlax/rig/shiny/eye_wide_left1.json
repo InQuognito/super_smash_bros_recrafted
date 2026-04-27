@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:blueprint/entity/pokemon/snorlax/rig/eye_wide_left1",
+	"textures": {
+		"0": "ssbrc:common/pokemon/pokemon/snorlax/shiny"
+	}
+}

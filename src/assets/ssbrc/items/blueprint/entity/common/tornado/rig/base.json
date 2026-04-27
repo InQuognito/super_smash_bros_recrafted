@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "ssbrc:blueprint/entity/common/tornado/rig/base",
+		"tints": [
+			{"type": "minecraft:dye", "default": [1, 1, 1]}
+		]
+	}
+}

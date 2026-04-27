@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:blueprint/entity/pokemon/sudowoodo/rig/stem_left1",
+	"textures": {
+		"0": "ssbrc:common/pokemon/pokemon/sudowoodo/shiny"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:blueprint/fighter/mega_man/beat_call/rig/beat",
+	"textures": {
+		"0": "ssbrc:blueprint/fighter/mega_man/beat_call/rig/gold_default"
+	}
+}

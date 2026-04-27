@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:blueprint/entity/pokemon/metapod/rig/body_segment3",
+	"textures": {
+		"0": "ssbrc:common/pokemon/pokemon/metapod/shiny"
+	}
+}

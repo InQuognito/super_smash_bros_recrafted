@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:blueprint/entity/pokemon/lapras/rig/leg_back_left",
+	"textures": {
+		"0": "ssbrc:common/pokemon/pokemon/lapras/shiny"
+	}
+}

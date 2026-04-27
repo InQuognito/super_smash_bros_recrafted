@@ -1,6 +1,0 @@
-{
-	"parent": "animated_java:blueprint/tyrogue/hand_right",
-	"textures": {
-		"0": "ssbrc:common/pokemon/pokemon/tyrogue/shiny"
-	}
-}

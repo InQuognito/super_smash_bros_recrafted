@@ -22,7 +22,14 @@ function ssbrc:logic/pre_game/fighter_select/count/activate
 function ssbrc:logic/pre_game/fighter_select/participation/check
 
 clear @s *[minecraft:custom_data~{item: "skin_options"}]
-loot replace entity @s[tag=!picking_random] hotbar.3 loot ssbrc:skin_options
+execute unless entity @s[tag=picking_random] run function ssbrc:logic/item/init/type/generic { \
+	item: "skin_options", \
+	slot: "hotbar.3", \
+	name: "ssbrc.fighter.menu.skin_options", \
+	color: "white", \
+	cooldown: 1, \
+	cooldown_group: "ssbrc:ui", \
+}
 
 advancement grant @s[advancements={ssbrc:tutorial/intro/3=true,ssbrc:tutorial/fighter_select/2=false}] only ssbrc:tutorial/fighter_select/2
 

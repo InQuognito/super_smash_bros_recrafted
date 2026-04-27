@@ -1,6 +1,0 @@
-{
-	"parent": "animated_java:blueprint/magnemite/pupil_closed1",
-	"textures": {
-		"0": "ssbrc:common/pokemon/pokemon/magnemite/shiny"
-	}
-}
