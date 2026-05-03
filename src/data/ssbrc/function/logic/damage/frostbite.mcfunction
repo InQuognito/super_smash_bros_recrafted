@@ -1,10 +1,7 @@
-$data modify storage ssbrc:temp cache.damage set value {amount:$(amount), type: "$(type)", source: "$(source)"}
+execute if score @s i_frames matches 1.. run return -1
 
-$attribute @s minecraft:knockback_resistance modifier add ssbrc:knockback_resistance $(kb_resist) add_value
+$data modify storage ssbrc:temp cache.damage set value {amount: $(amount), i_frames: $(i_frames), type: "ice"}
+data modify storage ssbrc:temp cache.damage.source set from entity @a[predicate=ssbrc:id_match,limit=1] UUID
 
-$execute store success score #damage_success temp run damage @s $(amount) ssbrc:$(type)$(source)
-
+function ssbrc:logic/damage/common with storage ssbrc:temp cache.damage
 function ssbrc:logic/fighter/attributes/modifiers/frostbite/increase
-
-$data modify storage ssbrc:temp cache.damage.source set value "$(source)"
-function ssbrc:logic/damage/common

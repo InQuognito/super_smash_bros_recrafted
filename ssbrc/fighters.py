@@ -1893,14 +1893,6 @@ fighters = {
 		'default': False,
 		'skins': {
 			'gold': {},
-			'mays_family': {
-				'rarity': 'uncommon',
-				'color': 'red'
-			},
-			'mega_evolution_appraisers': {
-				'rarity': 'uncommon',
-				'color': 'blue'
-			},
 			'alternate_world': {
 				'rarity': 'rare',
 				'color': 'dark_aqua'

@@ -4,11 +4,10 @@ effect clear @s minecraft:regeneration
 effect clear @s minecraft:resistance
 effect clear @s minecraft:water_breathing
 
-effect give @s minecraft:instant_health 1 50 true
-
 tag @s remove stage_select
-attribute @s minecraft:block_interaction_range base set 0.0
+attribute @s minecraft:block_interaction_range base set 0
 
-execute if entity @s[tag=alive] run function ssbrc:logic/pre_game/prepare_fighters
+execute if entity @s[tag=alive] run function ssbrc:logic/pre_game/prepare_fighters with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
+effect give @s minecraft:instant_health 1 50 true
 
 function ssbrc:logic/fighter/motion/safe_launch {strength: 0}

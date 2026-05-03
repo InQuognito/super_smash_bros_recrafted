@@ -1,10 +1,7 @@
-$data modify storage ssbrc:temp cache.damage set value {amount: $(amount), type: "$(type)", source: "$(source)"}
+execute if score @s i_frames matches 1.. run return -1
 
-$execute unless items entity @s container.* *[minecraft:custom_data~{item: "goron_locket"}] run attribute @s minecraft:knockback_resistance modifier add ssbrc:knockback_resistance $(kb_resist) add_value
+$data modify storage ssbrc:temp cache.damage set value {amount: $(amount), i_frames: $(i_frames), type: "fire"}
+data modify storage ssbrc:temp cache.damage.source set from entity @a[predicate=ssbrc:id_match,limit=1] UUID
 
-$execute unless items entity @s container.* *[minecraft:custom_data~{item: "goron_locket"}] store success score #damage_success temp run damage @s $(amount) ssbrc:$(type)$(source)
-
-$execute unless score @s burning matches 1.. unless items entity @s container.* *[minecraft:custom_data~{item: "goron_locket"}] run scoreboard players set @s burning $(burning)
-
-$data modify storage ssbrc:temp cache.damage.source set value "$(source)"
-function ssbrc:logic/damage/common
+function ssbrc:logic/damage/common with storage ssbrc:temp cache.damage
+$execute unless function ssbrc:logic/fighter/check/immune_to/fire run scoreboard players set @s burning $(burning)

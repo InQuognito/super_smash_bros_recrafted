@@ -49,6 +49,7 @@ scoreboard objectives add health.prev dummy
 scoreboard objectives add health_timer dummy
 scoreboard objectives add hit_count dummy
 scoreboard objectives add hud dummy
+scoreboard objectives add i_frames dummy
 scoreboard objectives add id dummy
 scoreboard objectives add immobile dummy
 scoreboard objectives add influence dummy

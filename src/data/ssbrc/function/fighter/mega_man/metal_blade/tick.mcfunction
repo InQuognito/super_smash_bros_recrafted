@@ -2,7 +2,7 @@ particle minecraft:wax_off ~ ~ ~ 0 .3 0 1 1 normal @a
 
 execute unless block ~ ~ ~ #ssbrc:passthrough_barrier run return run kill @s
 
-execute positioned ~-.5 ~-.5 ~-.5 as @e[tag=!self,predicate=ssbrc:target,dx=0] run function ssbrc:logic/damage/generic {amount: 8, type: "pierce", kb_resist: 0, source: " by @a[tag=self,limit=1]"}
+execute positioned ~-.5 ~-.5 ~-.5 as @e[tag=!self,predicate=ssbrc:target,dx=0] run function ssbrc:logic/damage/generic {amount: 8, type: "pierce", kb_resist: 0, source: "@a[predicate=ssbrc:id_match,limit=1]"}
 
 teleport @s ^ ^ ^.6
 

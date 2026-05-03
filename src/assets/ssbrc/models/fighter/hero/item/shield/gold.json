@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:fighter/hero/item/shield/parent",
+	"textures": {
+		"base": "ssbrc:fighter/hero/item/shield/gold"
+	}
+}

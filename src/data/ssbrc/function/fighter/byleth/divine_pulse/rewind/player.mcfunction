@@ -5,4 +5,6 @@ execute if score @s charge.1 matches 0 run function ssbrc:fighter/byleth/divine_
 
 teleport @s ~ ~ ~ ~ ~
 
+scoreboard players operation @s health = #health temp
+
 playsound ssbrc:fighter.byleth.divine_pulse.step player @a

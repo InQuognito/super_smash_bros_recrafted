@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:fighter/byleth/item/steel_shield/parent",
+	"textures": {
+		"base": "ssbrc:fighter/byleth/item/steel_shield/default"
+	}
+}

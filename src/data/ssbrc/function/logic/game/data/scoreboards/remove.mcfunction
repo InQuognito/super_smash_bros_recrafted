@@ -48,6 +48,7 @@ scoreboard objectives remove health.prev
 scoreboard objectives remove health_timer
 scoreboard objectives remove hit_count
 scoreboard objectives remove hud
+scoreboard objectives remove i_frames
 scoreboard objectives remove id
 scoreboard objectives remove immobile
 #scoreboard objectives remove influence
