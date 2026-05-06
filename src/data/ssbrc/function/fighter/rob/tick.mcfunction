@@ -10,6 +10,19 @@ execute if entity @s[scores={silenced=..0,resource=1..,jump.cooldown=..0},predic
 
 execute unless predicate ssbrc:input/jump run function ssbrc:fighter/rob/robo_burner/deactivate
 
-function ssbrc:fighter/rob/robo_burner/update
+function ssbrc:logic/fighter/hud/type/percentage { \
+	hud: 1, \
+	data: [ \
+		{ \
+			translate: "ssbrc.fighter.rob.fuel", \
+			bold: true, \
+		}, \
+	], \
+	max: "rob.fuel", \
+	current: "resource", \
+	background: true, \
+	resource_color: "red", \
+	bg_color: "white", \
+}
 
 function ssbrc:logic/fighter/ability/deinit
