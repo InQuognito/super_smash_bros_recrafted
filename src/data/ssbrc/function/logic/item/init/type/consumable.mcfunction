@@ -42,7 +42,7 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 		seconds: $(cooldown), \
 		cooldown_group: "ssbrc:$(cooldown_group)", \
 	}, \
-]
+] $(count)
 
 $item modify entity @s $(slot) { \
 	function: "minecraft:reference", \

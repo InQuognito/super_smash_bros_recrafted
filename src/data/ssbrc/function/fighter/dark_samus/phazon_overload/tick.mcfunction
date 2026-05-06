@@ -1,3 +1,11 @@
 particle minecraft:dust{color: [0,.8,1], scale: 1} ~ ~.75 ~ .25 .5 .25 0 5 force @a
 
-function ssbrc:fighter/dark_samus/phazon_overload/update
+function ssbrc:logic/fighter/hud/type/percentage { \
+	hud: 1, \
+	value: [], \
+	max: "400", \
+	current: "duration.1", \
+	background: false, \
+	resource_color: "aqua", \
+	bg_color: "dark_gray", \
+}

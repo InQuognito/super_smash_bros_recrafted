@@ -21,6 +21,8 @@ def item_builder(type, path):
 			extend_shield(container, path)
 		case 'ability':
 			extend_ability(container, path)
+		case 'consumable':
+			extend_ability(container, path)
 		case 'cost_ability':
 			extend_ability(container, path)
 			container['cost'] = init_stat('cost', path, 1)
@@ -46,6 +48,7 @@ def init_stat(stat: str, path: str, fallback):
 def extend_equipment(data, path):
 	data['max_damage'] = init_stat('max_damage', path, 1)
 	data['max_stack_size'] = init_stat('max_stack_size', path, 1)
+	data['count'] = init_stat('count', path, 1)
 
 def extend_usable(data, path):
 	data['can_sprint'] = init_stat('can_sprint', path, False)

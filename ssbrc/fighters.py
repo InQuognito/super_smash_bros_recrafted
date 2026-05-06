@@ -1530,7 +1530,9 @@ fighters = {
 				'type': 'ability',
 				'stats': {
 					'cooldown_group': 'pokemon_trainer/leech_seed',
-					'cooldown': 5
+					'cooldown': 5,
+					'max_stack_size': 4,
+					'count': 4
 				},
 				'default': {
 					'name': 'ssbrc.fighter.pokemon_trainer.leech_seed',

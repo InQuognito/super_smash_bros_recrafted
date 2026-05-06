@@ -1,4 +1,12 @@
 $scoreboard players $(mode) @s resource 1
+function ssbrc:logic/fighter/hud/type/display { \
+	hud: 2, \
+	value: [" | "], \
+	source: "@s", \
+	objective: "resource", \
+	path: "ui/icons/rupee", \
+	color: "green", \
+}
 
 $scoreboard players remove @s zelda.rupee.$(mode) 1
 

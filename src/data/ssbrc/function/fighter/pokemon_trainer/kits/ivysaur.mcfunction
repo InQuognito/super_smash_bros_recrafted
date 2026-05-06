@@ -4,6 +4,4 @@ function ssbrc:logic/item/init/slot {item: "knock_off", slot: "hotbar.0", class:
 
 function ssbrc:logic/item/init/slot {item: "poison_powder", slot: "hotbar.1", class: "default", type: "default"}
 
-function ssbrc:logic/item/init/slot {item: "leech_seed", slot: "hotbar.2", class: "default", type: "default"}
-
-scoreboard players set @s charge.1 4
+function ssbrc:logic/item/init/slot {item: "leech_seed", slot: "hotbar.2", class: "default", type: "consumable"}
