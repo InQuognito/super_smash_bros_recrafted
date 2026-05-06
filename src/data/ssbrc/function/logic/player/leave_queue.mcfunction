@@ -13,7 +13,7 @@ execute if entity @s[advancements={ssbrc:tutorial/intro/2=true}] run function ss
 	name: "ssbrc.lobby.selector", \
 	color: "white", \
 	cooldown: 1, \
-	cooldown_group: "ssbrc:ui", \
+	cooldown_group: "ui", \
 }
 
 #item replace entity @s hotbar.8 with minecraft:fishing_rod[ \
