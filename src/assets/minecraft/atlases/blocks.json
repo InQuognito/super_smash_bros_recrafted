@@ -2,6 +2,51 @@
 	"sources": [
 		{
 			"type": "directory",
+			"source": "colors",
+			"prefix": "colors/"
+		},
+		{
+			"type": "directory",
+			"source": "common",
+			"prefix": "common/"
+		},
+		{
+			"type": "directory",
+			"source": "developer",
+			"prefix": "developer/"
+		},
+		{
+			"type": "directory",
+			"source": "fighter",
+			"prefix": "fighter/"
+		},
+		{
+			"type": "directory",
+			"source": "inventory_icons",
+			"prefix": "inventory_icons/"
+		},
+		{
+			"type": "directory",
+			"source": "smash_item",
+			"prefix": "smash_item/"
+		},
+		{
+			"type": "directory",
+			"source": "miscellaneous",
+			"prefix": "miscellaneous/"
+		},
+		{
+			"type": "directory",
+			"source": "stage",
+			"prefix": "stage/"
+		},
+		{
+			"type": "directory",
+			"source": "ui",
+			"prefix": "ui/"
+		},
+		{
+			"type": "directory",
 			"source": "blueprint",
 			"prefix": "blueprint/"
 		}
