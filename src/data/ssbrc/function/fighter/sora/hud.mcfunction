@@ -1,24 +1,5 @@
-$title @s actionbar [ \
-	"", \
-	{ \
-		translate: "ssbrc.fighter.sora.magic", \
-		bold: true, \
-		color: "blue", \
-	}, \
-	$(hud_1), \
-	" | ", \
-	{ \
-		translate: "ssbrc.fighter.sora.drive", \
-		bold: true, \
-		color: "yellow", \
-	}, \
-	$(hud_2), \
-	" ", \
-	{ \
-		score: { \
-			name: "@s", \
-			objective: "resource", \
-		}, \
-		color: "yellow", \
-	}, \
-]
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{spell: "fire"}] run function ssbrc:fighter/sora/magic/hud/calculate/fire
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{spell: "blizzard"}] run function ssbrc:fighter/sora/magic/hud/calculate/blizzard
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{spell: "thunder"}] run function ssbrc:fighter/sora/magic/hud/calculate/thunder
