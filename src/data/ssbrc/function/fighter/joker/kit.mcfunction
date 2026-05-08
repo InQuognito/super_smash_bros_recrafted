@@ -1,4 +1,3 @@
-loot replace entity @s hotbar.8 loot ssbrc:fighter/joker/personas/arsene/portrait
 function ssbrc:fighter/joker/mask/set {persona: "arsene"}
 
 function ssbrc:logic/item/init/slot {item: "rebel_knife", slot: "hotbar.0", class: "weapon", type: "default"}

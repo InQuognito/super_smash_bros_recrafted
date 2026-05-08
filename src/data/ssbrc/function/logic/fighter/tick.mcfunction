@@ -44,8 +44,8 @@ execute unless score @s combo.duration < #combo const run scoreboard players rem
 execute if score @s combo.duration < #combo const run function ssbrc:logic/fighter/combo/expire
 
 # HUD
-scoreboard players add @s hud 1
-execute if score @s hud >= #hud_frequency const run function ssbrc:logic/fighter/hud with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
+scoreboard players remove @s hud 1
+execute unless score @s hud matches 1.. run function ssbrc:logic/fighter/hud with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
 # Items
 #execute if score @s smash_item.cloaking_device matches 1.. run function ssbrc:smash_item/cloaking_device/tick
