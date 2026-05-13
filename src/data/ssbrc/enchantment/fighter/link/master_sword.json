@@ -22,7 +22,7 @@
 				"affected": "victim",
 				"effect": {
 					"type": "minecraft:damage_entity",
-					"damage_type": "ssbrc:generic",
+					"damage_type": "minecraft:player_attack",
 					"min_damage": 2,
 					"max_damage": 2
 				},

@@ -22,7 +22,7 @@
 				"affected": "victim",
 				"effect": {
 					"type": "minecraft:damage_entity",
-					"damage_type": "ssbrc:generic",
+					"damage_type": "minecraft:player_attack",
 					"min_damage": 0.65,
 					"max_damage": 0.65
 				},
@@ -42,7 +42,7 @@
 				"affected": "victim",
 				"effect": {
 					"type": "minecraft:damage_entity",
-					"damage_type": "ssbrc:generic",
+					"damage_type": "minecraft:player_attack",
 					"min_damage": 1.49,
 					"max_damage": 1.49
 				},
@@ -62,7 +62,7 @@
 				"affected": "victim",
 				"effect": {
 					"type": "minecraft:damage_entity",
-					"damage_type": "ssbrc:generic",
+					"damage_type": "minecraft:player_attack",
 					"min_damage": 2.48,
 					"max_damage": 2.48
 				},
@@ -82,7 +82,7 @@
 				"affected": "victim",
 				"effect": {
 					"type": "minecraft:damage_entity",
-					"damage_type": "ssbrc:generic",
+					"damage_type": "minecraft:player_attack",
 					"min_damage": 3.60,
 					"max_damage": 3.60
 				},
@@ -102,7 +102,7 @@
 				"affected": "victim",
 				"effect": {
 					"type": "minecraft:damage_entity",
-					"damage_type": "ssbrc:generic",
+					"damage_type": "minecraft:player_attack",
 					"min_damage": 4.85,
 					"max_damage": 4.85
 				},
@@ -122,7 +122,7 @@
 				"affected": "victim",
 				"effect": {
 					"type": "minecraft:damage_entity",
-					"damage_type": "ssbrc:generic",
+					"damage_type": "minecraft:player_attack",
 					"min_damage": 6.20,
 					"max_damage": 6.20
 				},
@@ -142,7 +142,7 @@
 				"affected": "victim",
 				"effect": {
 					"type": "minecraft:damage_entity",
-					"damage_type": "ssbrc:generic",
+					"damage_type": "minecraft:player_attack",
 					"min_damage": 7.65,
 					"max_damage": 7.65
 				},
@@ -162,7 +162,7 @@
 				"affected": "victim",
 				"effect": {
 					"type": "minecraft:damage_entity",
-					"damage_type": "ssbrc:generic",
+					"damage_type": "minecraft:player_attack",
 					"min_damage": 9.20,
 					"max_damage": 9.20
 				},
@@ -182,7 +182,7 @@
 				"affected": "victim",
 				"effect": {
 					"type": "minecraft:damage_entity",
-					"damage_type": "ssbrc:generic",
+					"damage_type": "minecraft:player_attack",
 					"min_damage": 10.83,
 					"max_damage": 10.83
 				},
