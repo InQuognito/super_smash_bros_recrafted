@@ -1,4 +1,4 @@
-function ssbrc:logic/fighter/effects/cleanse_harmful
+function ssbrc:logic/game/entity/player/effects/cleanse_harmful
 
 execute if score @s duration.2 matches 20 run playsound ssbrc:fighter.shovel_knight.phase_locket.warn player @s
 

@@ -16,7 +16,6 @@ fighters = {
 		'miiverse_posts': 2,
 		'default': True,
 		'skins': {
-			'gold': {},
 			'flower_power': {
 				'rarity': 'uncommon',
 				'color': 'white'
@@ -89,7 +88,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': False,
 		'skins': {
-			'gold': {},
 			'flower_power': {
 				'rarity': 'uncommon',
 				'color': 'aqua'
@@ -159,7 +157,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': False,
 		'skins': {
-			'gold': {},
 			'flower_power': {
 				'rarity': 'uncommon',
 				'color': 'red'
@@ -243,7 +240,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': True,
 		'skins': {
-			'gold': {},
 			'flower_power': {
 				'rarity': 'uncommon',
 				'color': 'red'
@@ -294,7 +290,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': True,
 		'skins': {
-			'gold': {},
 			'flower_power': {
 				'rarity': 'uncommon',
 				'color': 'red'
@@ -341,9 +336,9 @@ fighters = {
 	'king_k_rool': {
 		'series': 'donkey_kong',
 		'stats': {
-			'armor': 16.0,
+			'armor': 16,
 			'jump_strength': 'low',
-			'max_health': 20.0,
+			'max_health': 20,
 			'movement_speed': -0.15,
 			'safe_fall_distance': 'medium',
 			'weight': 'medium'
@@ -353,7 +348,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': False,
 		'skins': {
-			'gold': {},
 			'kaptain': {
 				'rarity': 'rare',
 				'color': 'gold'
@@ -416,7 +410,6 @@ fighters = {
 		'miiverse_posts': 2,
 		'default': True,
 		'skins': {
-			'gold': {},
 			'awakening': {
 				'rarity': 'uncommon',
 				'color': 'gold'
@@ -514,7 +507,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': False,
 		'skins': {
-			'gold': {},
 			'second_sword': {
 				'rarity': 'uncommon',
 				'color': 'red'
@@ -617,7 +609,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': False,
 		'skins': {
-			'gold': {},
 			'twilight_princess': {
 				'rarity': 'uncommon',
 				'color': 'dark_purple'
@@ -910,7 +901,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': True,
 		'skins': {
-			'gold': {},
 			'ocarina_of_time': {
 				'rarity': 'rare',
 				'color': 'red'
@@ -969,7 +959,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': True,
 		'skins': {
-			'gold': {},
 			'power_suit_dread': {
 				'rarity': 'rare',
 				'color': 'aqua'
@@ -1053,7 +1042,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': False,
 		'skins': {
-			'gold': {},
 			'prime_2': {
 				'rarity': 'rare',
 				'color': 'dark_gray'
@@ -1116,7 +1104,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': True,
 		'skins': {
-			'gold': {},
 			'red': {
 				'rarity': 'uncommon',
 				'color': 'red'
@@ -1221,7 +1208,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': False,
 		'skins': {
-			'gold': {},
 			'red': {
 				'rarity': 'uncommon',
 				'color': 'red'
@@ -1467,7 +1453,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': True,
 		'skins': {
-			'gold': {},
 			'shiny': {
 				'rarity': 'legendary',
 				'color': 'dark_gray'
@@ -1597,7 +1582,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': True,
 		'skins': {
-			'gold': {},
 			'shiny': {
 				'rarity': 'legendary',
 				'color': 'yellow'
@@ -1673,7 +1657,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': False,
 		'skins': {
-			'gold': {},
 			'shiny': {
 				'rarity': 'legendary',
 				'color': 'light_purple'
@@ -1752,7 +1735,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': False,
 		'skins': {
-			'gold': {},
 			'shiny': {
 				'rarity': 'legendary',
 				'color': 'yellow'
@@ -1833,7 +1815,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': False,
 		'skins': {
-			'gold': {},
 			'shiny': {
 				'rarity': 'legendary',
 				'color': 'dark_gray'
@@ -1894,7 +1875,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': False,
 		'skins': {
-			'gold': {},
 			'alternate_world': {
 				'rarity': 'rare',
 				'color': 'dark_aqua'
@@ -2014,7 +1994,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': True,
 		'skins': {
-			'gold': {},
 			'moonside': {
 				'rarity': 'uncommon',
 				'color': 'aqua'
@@ -2082,7 +2061,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': False,
 		'skins': {
-			'gold': {},
 			'moonside': {
 				'rarity': 'uncommon',
 				'color': 'red'
@@ -2150,7 +2128,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': True,
 		'skins': {
-			'gold': {},
 			'blood_falcon': {
 				'rarity': 'rare',
 				'color': 'dark_red'
@@ -2236,7 +2213,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': False,
 		'skins': {
-			'gold': {},
 			'frosted': {
 				'rarity': 'uncommon',
 				'color': 'aqua'
@@ -2297,7 +2273,7 @@ fighters = {
 		'series': 'fire_emblem',
 		'stats': {
 			'armor': 'low',
-			'max_health': 48.0,
+			'max_health': 48,
 			'safe_fall_distance': 'medium',
 			'weight': 'medium'
 		},
@@ -2306,7 +2282,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': False,
 		'skins': {
-			'gold': {},
 			'young_lion': {
 				'rarity': 'rare',
 				'color': 'red'
@@ -2504,7 +2479,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': True,
 		'skins': {
-			'gold': {},
 			'retro': {
 				'rarity': 'uncommon',
 				'color': 'white'
@@ -2824,7 +2798,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': True,
 		'skins': {
-			'gold': {},
 			'classic': {
 				'rarity': 'uncommon',
 				'color': 'blue'
@@ -2869,7 +2842,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': False,
 		'skins': {
-			'gold': {},
 			'yellow_android': {
 				'rarity': 'uncommon',
 				'color': 'yellow'
@@ -2942,7 +2914,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': False,
 		'skins': {
-			'gold': {},
 			'famicom': {
 				'rarity': 'uncommon',
 				'color': 'red'
@@ -3007,7 +2978,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': False,
 		'skins': {
-			'gold': {},
 			'retro': {
 				'rarity': 'uncommon',
 				'color': 'gold'
@@ -3110,7 +3080,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': True,
 		'skins': {
-			'gold': {},
 			'x': {
 				'rarity': 'rare',
 				'color': 'dark_aqua'
@@ -3286,7 +3255,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': True,
 		'skins': {
-			'gold': {},
 			'super_turbo': {
 				'rarity': 'uncommon',
 				'color': 'dark_gray'
@@ -3328,7 +3296,7 @@ fighters = {
 		'series': 'final_fantasy',
 		'stats': {
 			'armor': 'low',
-			'max_health': 32.0,
+			'max_health': 32,
 			'safe_fall_distance': 'medium',
 			'weight': 'medium'
 		},
@@ -3389,7 +3357,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': False,
 		'skins': {
-			'gold': {},
 			'judgement': {
 				'rarity': 'rare',
 				'color': 'blue'
@@ -3485,7 +3452,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': True,
 		'skins': {
-			'gold': {},
 			'shujin_academy': {
 				'rarity': 'uncommon',
 				'color': 'dark_red'
@@ -4060,7 +4026,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': False,
 		'skins': {
-			'gold': {},
 			'mirror': {
 				'rarity': 'uncommon',
 				'color': 'blue'
@@ -4299,7 +4264,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': False,
 		'skins': {
-			'gold': {},
 			'timeless_river': {
 				'rarity': 'uncommon',
 				'color': 'gray'
@@ -4407,7 +4371,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': False,
 		'skins': {
-			'gold': {},
 			'conjurers_coat': {
 				'rarity': 'uncommon',
 				'color': 'dark_purple'
@@ -4527,7 +4490,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': False,
 		'skins': {
-			'gold': {},
 			'player_2': {
 				'rarity': 'uncommon',
 				'color': 'blue'
@@ -4674,7 +4636,6 @@ fighters = {
 		'miiverse_posts': 1,
 		'default': False,
 		'skins': {
-			'gold': {},
 			'player_2': {
 				'rarity': 'uncommon',
 				'color': 'green'
@@ -4858,10 +4819,10 @@ fighters = {
 }
 
 armor_values = {
-	'negligible': 4.0,
-	'low': 10.0,
-	'medium': 12.0,
-	'high': 14.0
+	'negligible': 4,
+	'low': 10,
+	'medium': 12,
+	'high': 14
 }
 
 jump_strength_values = {
@@ -4873,8 +4834,8 @@ jump_strength_values = {
 }
 
 safe_fall_distance_values = {
-	'medium': 6.0,
-	'infinite': 999.0
+	'medium': 6,
+	'infinite': 999
 }
 
 rarity_prices = {
@@ -4977,7 +4938,7 @@ def max_health(fighter):
 	if 'max_health' in path.keys():
 		return path['max_health']
 	else:
-		return 40.0
+		return 40
 
 def movement_speed(fighter):
 	path = fighters[fighter]['stats']

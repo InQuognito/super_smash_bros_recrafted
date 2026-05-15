@@ -25,7 +25,7 @@
 					"effects": [
 						{
 							"type": "minecraft:run_function",
-							"function": "ssbrc:logic/fighter/attributes/modifiers/frostbite/increase"
+							"function": "ssbrc:logic/game/entity/player/attributes/modifiers/frostbite/increase"
 						},
 						{
 							"type": "minecraft:play_sound",

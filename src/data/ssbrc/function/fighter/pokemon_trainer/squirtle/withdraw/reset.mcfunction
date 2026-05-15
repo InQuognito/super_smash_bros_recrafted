@@ -1,12 +1,12 @@
-function ssbrc:logic/fighter/effects/immobile/deactivate
+function ssbrc:logic/game/entity/player/effects/immobile/deactivate
 
 scoreboard players set @s charge.2 0
 
-function ssbrc:logic/fighter/effects/glowing/uncloak
+function ssbrc:logic/game/entity/player/effects/glowing/uncloak
 
 effect clear @s minecraft:invisibility
 
-kill @n[type=minecraft:item_display,tag=squirtle_shell,predicate=ssbrc:id_match]
+kill @n[type=minecraft:item_display,tag=squirtle_shell,predicate=ssbrc:owner]
 
 function ssbrc:logic/item/init/slot {item: "bite", slot: "hotbar.0", class: "weapon", type: "enchanted"}
 

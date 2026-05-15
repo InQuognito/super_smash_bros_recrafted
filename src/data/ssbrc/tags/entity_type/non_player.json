@@ -1,6 +1,9 @@
 {
 	"values": [
+		"minecraft:bee",
 		"minecraft:horse",
-		"minecraft:skeleton"
+		"minecraft:skeleton",
+		"minecraft:vindicator",
+		"minecraft:zombie"
 	]
 }

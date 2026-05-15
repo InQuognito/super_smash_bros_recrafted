@@ -1,4 +1,4 @@
-function ssbrc:logic/fighter/ability/init
+function ssbrc:logic/game/entity/player/ability/init
 
 # Spirit Gauge
 scoreboard players operation @s[predicate=ssbrc:fighter/altered_beast/charge_spirit] resource += #altered_beast.spirit.recharge_rate const
@@ -15,4 +15,4 @@ execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {
 
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {form: "werewolf"}}}] run return run function ssbrc:fighter/altered_beast/werewolf/tick
 
-function ssbrc:logic/fighter/ability/deinit
+function ssbrc:logic/game/entity/player/ability/deinit

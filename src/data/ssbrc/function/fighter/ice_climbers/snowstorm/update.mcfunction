@@ -1,4 +1,4 @@
-function ssbrc:logic/fighter/hud/type/percentage { \
+function ssbrc:logic/game/entity/player/hud/type/percentage { \
 	hud: 1, \
 	data: [], \
 	max: "10", \

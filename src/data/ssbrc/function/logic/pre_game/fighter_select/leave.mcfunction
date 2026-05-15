@@ -4,7 +4,7 @@ clear @s *[minecraft:custom_data~{group: "team_flag"}]
 
 clear @s minecraft:written_book
 
-function ssbrc:logic/game/data/triggers
+function ssbrc:logic/game/data/trigger
 
 title @s actionbar ""
 

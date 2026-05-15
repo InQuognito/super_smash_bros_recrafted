@@ -1,1 +1,1 @@
-kill @e[type=minecraft:marker,tag=tatsumaki_senpukyaku,predicate=ssbrc:id_match]
+kill @e[type=minecraft:marker,tag=tatsumaki_senpukyaku,predicate=ssbrc:owner]

@@ -1,9 +1,9 @@
 tag @s add beat_call
 
-function ssbrc:logic/fighter/ability/init
+function ssbrc:logic/game/entity/player/ability/init
 
 execute positioned ~ ~2 ~ summon minecraft:bee run function ssbrc:fighter/mega_man/beat_call/init/entity
 
 playsound ssbrc:fighter.mega_man.beat_call.activate player @a
 
-function ssbrc:logic/fighter/ability/deinit
+function ssbrc:logic/game/entity/player/ability/deinit

@@ -1,6 +1,6 @@
-function ssbrc:logic/fighter/ability/init
+function ssbrc:logic/game/entity/player/ability/init
 
-execute as @e[type=minecraft:bee,tag=drone,predicate=ssbrc:id_match] run function ssbrc:fighter/yar/drone/commands/stop/drone
+execute as @e[type=minecraft:bee,tag=drone,predicate=ssbrc:owner] run function ssbrc:fighter/yar/drone/commands/stop/drone
 
 function ssbrc:fighter/yar/drone/commands/stop/activate_force
 

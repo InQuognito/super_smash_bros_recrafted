@@ -3,10 +3,10 @@ advancement revoke @s only ssbrc:utility/use_item/fighter/shovel_knight/phase_lo
 tag @s add phase_locket
 
 scoreboard players set @s duration.2 100
-function ssbrc:logic/fighter/effects/invincible/activate {duration: 100}
+function ssbrc:logic/game/entity/player/effects/invincible/activate {duration: 100}
 
 function ssbrc:logic/player/data/set {data: {temp: {fighter: {form: "phase_locket"}}}}
-function ssbrc:logic/fighter/armor/update with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
+function ssbrc:logic/game/entity/player/armor/update with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
 scoreboard players operation @s resource -= #shovel_knight.phase_locket const
 function ssbrc:fighter/shovel_knight/magic/update

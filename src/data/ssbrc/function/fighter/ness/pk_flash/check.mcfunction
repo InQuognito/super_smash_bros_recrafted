@@ -1,7 +1,7 @@
 tag @s remove pk_flash
 
-function ssbrc:logic/fighter/ability/init
+function ssbrc:logic/game/entity/player/ability/init
 
-execute as @e[type=minecraft:marker,tag=pk_flash,predicate=ssbrc:id_match,limit=1] at @s run function ssbrc:fighter/ness/pk_flash/explode
+execute as @e[type=minecraft:marker,tag=pk_flash,predicate=ssbrc:owner,limit=1] at @s run function ssbrc:fighter/ness/pk_flash/explode
 
-function ssbrc:logic/fighter/ability/deinit
+function ssbrc:logic/game/entity/player/ability/deinit

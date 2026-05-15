@@ -1,3 +1,3 @@
 tellraw @s "=== Games Played | Wins | W/L ==="
 
-function ssbrc:logic/fighter/loop {function: "ssbrc:admin/log/calculate"}
+function ssbrc:logic/game/entity/player/loop {function: "ssbrc:admin/log/calculate"}

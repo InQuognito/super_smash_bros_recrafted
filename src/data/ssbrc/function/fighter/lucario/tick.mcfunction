@@ -1,4 +1,4 @@
-function ssbrc:logic/fighter/ability/init
+function ssbrc:logic/game/entity/player/ability/init
 
 # Aura
 function ssbrc:fighter/lucario/aura/tick
@@ -6,4 +6,4 @@ function ssbrc:fighter/lucario/aura/tick
 # Close Combat
 execute if score @s duration.1 matches 1 run function ssbrc:fighter/lucario/close_combat/deactivate
 
-function ssbrc:logic/fighter/ability/deinit
+function ssbrc:logic/game/entity/player/ability/deinit

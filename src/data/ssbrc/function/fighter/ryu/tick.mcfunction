@@ -1,4 +1,4 @@
-function ssbrc:logic/fighter/ability/init
+function ssbrc:logic/game/entity/player/ability/init
 
 # Tatsumaki Senpukyaku
 scoreboard players add @s[predicate=ssbrc:flag/sneaking] charge.2 1
@@ -8,4 +8,4 @@ scoreboard players set @s[scores={charge.2=1..},predicate=!ssbrc:flag/sneaking] 
 
 execute if score @s duration.2 matches 1 run function ssbrc:fighter/ryu/tatsumaki_senpukyaku/deactivate
 
-function ssbrc:logic/fighter/ability/deinit
+function ssbrc:logic/game/entity/player/ability/deinit

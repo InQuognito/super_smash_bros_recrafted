@@ -1,4 +1,4 @@
-function ssbrc:logic/fighter/ability/init
+function ssbrc:logic/game/entity/player/ability/init
 
 execute store result score temp health run scoreboard players get @s health
 
@@ -11,8 +11,8 @@ execute anchored eyes positioned ^ ^ ^.5 run function ssbrc:fighter/snake/m870_c
 scoreboard players set @s weapon_1.fire_rate 20
 
 scoreboard players remove @s weapon_1.ammo 1
-execute if entity @s[scores={weapon_1.mags=1..,weapon_1.ammo=0}] run function ssbrc:logic/fighter/effects/reload {id: 1, duration: 60}
+execute if entity @s[scores={weapon_1.mags=1..,weapon_1.ammo=0}] run function ssbrc:logic/game/entity/player/effects/reload {id: 1, duration: 60}
 
 playsound ssbrc:shotgun_fire player @a
 
-function ssbrc:logic/fighter/ability/deinit
+function ssbrc:logic/game/entity/player/ability/deinit

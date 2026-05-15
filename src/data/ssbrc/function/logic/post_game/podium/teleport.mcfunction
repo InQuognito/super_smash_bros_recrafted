@@ -1,4 +1,4 @@
-execute if entity @s[tag=winner] run function ssbrc:logic/fighter/revive
+execute if entity @s[tag=winner] run function ssbrc:logic/game/entity/player/revive
 
 teleport @s 0 0 0
 execute if data storage ssbrc:data option{teams: true} run spreadplayers 0 0 2 3 false @s

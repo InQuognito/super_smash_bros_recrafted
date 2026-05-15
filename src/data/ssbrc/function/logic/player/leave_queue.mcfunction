@@ -1,6 +1,6 @@
-function ssbrc:logic/fighter/attributes/reset
+function ssbrc:logic/game/entity/player/attributes/reset
 function ssbrc:logic/game/reset_tags
-function ssbrc:logic/game/data/triggers
+function ssbrc:logic/game/data/trigger
 
 gamemode adventure @s
 
@@ -30,7 +30,7 @@ function ssbrc:logic/game/team/count/all
 xp set @s 0 levels
 xp set @s 0 points
 
-function ssbrc:logic/fighter/effects/lobby
+function ssbrc:logic/game/entity/player/effects/lobby
 
 title @s clear
 title @s reset

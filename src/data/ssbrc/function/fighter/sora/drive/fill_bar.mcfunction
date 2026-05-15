@@ -5,7 +5,7 @@ scoreboard players operation @s[scores={resource=5..}] charge.1 = #sora.drive.me
 
 execute if score @s[predicate=!ssbrc:fighter/sora/drive_form] resource >= #sora.drive.basic const run function ssbrc:fighter/sora/drive_forms/enable
 
-function ssbrc:logic/fighter/hud/type/score { \
+function ssbrc:logic/game/entity/player/hud/type/score { \
 	hud: 3, \
 	data: [ \
 		" ", \

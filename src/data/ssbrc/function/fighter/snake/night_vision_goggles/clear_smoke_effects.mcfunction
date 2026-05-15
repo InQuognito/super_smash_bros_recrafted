@@ -1,3 +1,3 @@
 effect clear @s minecraft:darkness
 
-function ssbrc:logic/fighter/effects/glowing/cloak
+function ssbrc:logic/game/entity/player/effects/glowing/cloak

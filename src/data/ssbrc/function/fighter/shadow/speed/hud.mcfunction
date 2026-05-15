@@ -15,4 +15,4 @@ execute if score @s flag.sprinting matches 53..56 run data modify storage ssbrc:
 execute if score @s flag.sprinting matches 57.. run data modify storage ssbrc:hud temp.value set value {text: "\uf814",font: "ssbrc:speedometer"}
 
 data modify storage ssbrc:hud temp.key set value "hud_2"
-function ssbrc:logic/fighter/hud/push
+function ssbrc:logic/game/entity/player/hud/push

@@ -1,8 +1,8 @@
-execute positioned ~ ~.5 ~ positioned ^ ^ ^.5 if function ssbrc:logic/fighter/check/raycast/block run return run function ssbrc:logic/fighter/check/raycast/abort {type: 1}
+execute positioned ~ ~.5 ~ positioned ^ ^ ^.5 if function ssbrc:logic/game/entity/player/check/raycast/block run return run function ssbrc:logic/game/entity/player/check/raycast/abort {type: 1}
 
-execute positioned ~-.5 ~ ~-.5 as @e[predicate=!ssbrc:id_match,predicate=ssbrc:target,dy=1] run function ssbrc:fighter/captain_falcon/raptor_boost/hit
+execute positioned ~-.5 ~ ~-.5 as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dy=1] run function ssbrc:fighter/captain_falcon/raptor_boost/hit
 execute if score #entity_hit temp matches 1 run return run function ssbrc:fighter/captain_falcon/raptor_boost/success
 
 scoreboard players remove #n temp 1
 execute if score #n temp matches 1.. positioned ^ ^ ^.1 run return run function ssbrc:fighter/captain_falcon/raptor_boost/loop
-function ssbrc:logic/fighter/check/raycast/update
+function ssbrc:logic/game/entity/player/check/raycast/update

@@ -99,4 +99,4 @@ for fighter in fighters:
 				]
 				n += 1
 
-		function ssbrc:logic/fighter/menu/skin_options
+		function ssbrc:logic/game/entity/player/menu/skin_options

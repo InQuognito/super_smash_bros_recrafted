@@ -2,7 +2,7 @@ tag @s remove chaos_boost
 
 scoreboard players set @s charge.2 1
 
-function ssbrc:logic/fighter/effects/immobile/activate {type: "default", duration: 70}
+function ssbrc:logic/game/entity/player/effects/immobile/activate {type: "default", duration: 70}
 
 effect give @s minecraft:resistance 3 0 true
 

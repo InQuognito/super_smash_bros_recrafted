@@ -1,4 +1,4 @@
-function ssbrc:logic/fighter/ability/init
+function ssbrc:logic/game/entity/player/ability/init
 
 # Robo Beam
 execute if score @s charge.1 matches ..199 run function ssbrc:fighter/rob/robo_beam/charge
@@ -10,7 +10,7 @@ execute if entity @s[scores={silenced=..0,resource=1..,jump.cooldown=..0},predic
 
 execute unless predicate ssbrc:input/jump run function ssbrc:fighter/rob/robo_burner/deactivate
 
-function ssbrc:logic/fighter/hud/type/percentage { \
+function ssbrc:logic/game/entity/player/hud/type/percentage { \
 	hud: 1, \
 	data: [ \
 		{ \
@@ -25,4 +25,4 @@ function ssbrc:logic/fighter/hud/type/percentage { \
 	bg_color: "white", \
 }
 
-function ssbrc:logic/fighter/ability/deinit
+function ssbrc:logic/game/entity/player/ability/deinit

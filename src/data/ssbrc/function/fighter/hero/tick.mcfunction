@@ -1,4 +1,4 @@
-function ssbrc:logic/fighter/ability/init
+function ssbrc:logic/game/entity/player/ability/init
 
 execute if score @s[tag=accelerate] duration.1 matches 1.. run function ssbrc:fighter/hero/accelerate/tick
 
@@ -14,4 +14,4 @@ execute if score @s[tag=kamikazee] charge.1 matches 1.. positioned ~ ~.75 ~ run 
 
 execute if score @s[tag=magic_burst] charge.1 matches 1.. positioned ~ ~.75 ~ run function ssbrc:fighter/hero/magic_burst/tick
 
-function ssbrc:logic/fighter/ability/deinit
+function ssbrc:logic/game/entity/player/ability/deinit

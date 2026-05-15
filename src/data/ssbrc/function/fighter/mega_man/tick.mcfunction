@@ -1,4 +1,4 @@
-function ssbrc:logic/fighter/ability/init
+function ssbrc:logic/game/entity/player/ability/init
 
 title @s actionbar ""
 
@@ -12,4 +12,4 @@ execute if items entity @s[tag=mega_man.metal_blade] weapon.mainhand *[minecraft
 execute if items entity @s[tag=mega_man.pile_driver] weapon.mainhand *[minecraft:custom_data~{item: "pile_driver"}] run function ssbrc:fighter/mega_man/update {item: "pile_driver"}
 execute if items entity @s[tag=mega_man.remote_mine] weapon.mainhand *[minecraft:custom_data~{item: "remote_mine"}] run function ssbrc:fighter/mega_man/update {item: "remote_mine"}
 
-function ssbrc:logic/fighter/ability/deinit
+function ssbrc:logic/game/entity/player/ability/deinit

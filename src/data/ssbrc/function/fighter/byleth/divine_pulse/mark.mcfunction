@@ -6,4 +6,4 @@ execute store result storage ssbrc:temp cache.divine_pulse.rotation_x float 1 ru
 execute store result storage ssbrc:temp cache.divine_pulse.rotation_y float 1 run data get entity @s Rotation[1]
 
 execute summon minecraft:marker run function ssbrc:fighter/byleth/divine_pulse/init with storage ssbrc:temp cache.divine_pulse
-execute as @e[type=minecraft:marker,tag=divine_pulse,predicate=ssbrc:id_match] run function ssbrc:fighter/byleth/divine_pulse/increase
+execute as @e[type=minecraft:marker,tag=divine_pulse,predicate=ssbrc:owner] run function ssbrc:fighter/byleth/divine_pulse/increase

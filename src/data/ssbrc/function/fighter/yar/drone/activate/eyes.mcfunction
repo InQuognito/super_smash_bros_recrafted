@@ -1,4 +1,4 @@
-function ssbrc:logic/fighter/ability/init
+function ssbrc:logic/game/entity/player/ability/init
 
 execute anchored eyes positioned ^ ^ ^1 summon minecraft:bee run function ssbrc:fighter/yar/drone/init
 

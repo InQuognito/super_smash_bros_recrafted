@@ -1,4 +1,4 @@
-function ssbrc:logic/fighter/ability/init
+function ssbrc:logic/game/entity/player/ability/init
 
 # Fire Breath
 execute if entity @s[scores={silenced=..0},predicate=ssbrc:flag/sneaking] run function ssbrc:fighter/bowser/fire_breath/tick
@@ -10,4 +10,4 @@ execute if entity @s[scores={silenced=..0,charge.2=200..}] run function ssbrc:fi
 execute if score @s duration.1 matches 1.. run particle minecraft:dust_color_transition{from_color: [.3,0,0], to_color: [.6,0,0], scale: 1} ~ ~.75 ~ .2 .4 .2 0 10 normal @a
 execute if score @s duration.1 matches 1 run function ssbrc:fighter/bowser/rage/deactivate
 
-function ssbrc:logic/fighter/ability/deinit
+function ssbrc:logic/game/entity/player/ability/deinit

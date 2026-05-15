@@ -1,6 +1,6 @@
 particle minecraft:dust{color: [0,.8,1], scale: 1} ~ ~.75 ~ .25 .5 .25 0 5 force @a
 
-function ssbrc:logic/fighter/hud/type/percentage { \
+function ssbrc:logic/game/entity/player/hud/type/percentage { \
 	hud: 1, \
 	data: [], \
 	max: "400", \

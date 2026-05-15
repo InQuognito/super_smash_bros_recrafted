@@ -1,8 +1,8 @@
 function ssbrc:logic/pre_game/fighter_select/leave
 
-function ssbrc:logic/game/data/scoreboards/cooldown
+function ssbrc:logic/game/data/scoreboard/cooldown
 
-function ssbrc:logic/game/data/scoreboards/charge
+function ssbrc:logic/game/data/scoreboard/charge
 
 execute store result score @s id run scoreboard players add id.global temp 1
 
@@ -10,12 +10,12 @@ scoreboard players set @s duration.1 1
 scoreboard players set @s duration.2 1
 scoreboard players set @s duration.3 1
 
-execute if items entity @s[predicate=ssbrc:fighter/pokemon/shiny_chance] armor.body *[minecraft:custom_data~{temp: {fighter: {series: "pokemon"}}}] run function ssbrc:logic/fighter/pokemon/shiny with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
+execute if items entity @s[predicate=ssbrc:fighter/pokemon/shiny_chance] armor.body *[minecraft:custom_data~{temp: {fighter: {series: "pokemon"}}}] run function ssbrc:logic/game/entity/player/pokemon/shiny with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
-function ssbrc:logic/fighter/armor/init
+function ssbrc:logic/game/entity/player/armor/init
 function ssbrc:logic/player/data/set {data: {temp: {selected_stage: ""}}}
 
-function ssbrc:logic/game/data/scoreboards/duration
+function ssbrc:logic/game/data/scoreboard/duration
 
 teleport @s 0 0 0 0 0
 

@@ -1,4 +1,4 @@
-execute if score @s zelda.magic_fountain matches 1.. run return run function ssbrc:logic/fighter/hud/type/cost { \
+execute if score @s zelda.magic_fountain matches 1.. run return run function ssbrc:logic/game/entity/player/hud/type/cost { \
 	hud: 1, \
 	data: [ \
 		{ \
@@ -14,7 +14,7 @@ execute if score @s zelda.magic_fountain matches 1.. run return run function ssb
 	cost_color: "red", \
 }
 
-function ssbrc:logic/fighter/hud/type/cost { \
+function ssbrc:logic/game/entity/player/hud/type/cost { \
 	hud: 1, \
 	data: [ \
 		{ \

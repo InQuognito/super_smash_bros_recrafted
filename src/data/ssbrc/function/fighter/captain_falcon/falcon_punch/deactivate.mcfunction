@@ -4,4 +4,4 @@ tag @s remove falcon_punch_missed
 
 title @s actionbar ""
 
-execute unless score @s immobile matches 1.. run function ssbrc:logic/fighter/effects/immobile/effects/deactivate
+execute unless score @s immobile matches 1.. run function ssbrc:logic/game/entity/player/effects/immobile/effects/deactivate

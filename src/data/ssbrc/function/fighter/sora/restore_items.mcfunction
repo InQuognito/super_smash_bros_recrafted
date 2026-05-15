@@ -10,4 +10,4 @@ execute store result score @s charge.1 run scoreboard players operation points t
 function ssbrc:fighter/sora/magic/update
 function ssbrc:fighter/sora/drive_forms/hud
 
-function ssbrc:logic/fighter/armor/update with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
+function ssbrc:logic/game/entity/player/armor/update with entity @s equipment.body.components."minecraft:custom_data".temp.fighter

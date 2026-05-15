@@ -1,13 +1,13 @@
 execute store result score #random temp run random value 1..10000
 
-execute if score #random temp matches 1..488 run return run function ssbrc:logic/fighter/effects/gigantic/activate {duration: 200}
-execute if score #random temp matches 489..610 run return run function ssbrc:logic/fighter/effects/invincible/activate {duration: 100}
+execute if score #random temp matches 1..488 run return run function ssbrc:logic/game/entity/player/effects/gigantic/activate {duration: 200}
+execute if score #random temp matches 489..610 run return run function ssbrc:logic/game/entity/player/effects/invincible/activate {duration: 100}
 execute if score #random temp matches 611..1006 run return run function ssbrc:fighter/hero/magic/max
 #execute if score #random temp matches 1007..1616 run return run say TODO
 execute if score #random temp matches 1617..2226 run return run function ssbrc:fighter/hero/magic/reset
 execute if score #random temp matches 2227..2836 run return run effect give @s minecraft:poison 10 0 true
-execute if score #random temp matches 2837..3446 run return run function ssbrc:logic/fighter/effects/sleep/activate {duration: 70}
-execute if score #random temp matches 3447..3995 run return run function ssbrc:logic/fighter/effects/shrink/activate {duration: 200}
+execute if score #random temp matches 2837..3446 run return run function ssbrc:logic/game/entity/player/effects/sleep/activate {duration: 70}
+execute if score #random temp matches 3447..3995 run return run function ssbrc:logic/game/entity/player/effects/shrink/activate {duration: 200}
 execute if score #random temp matches 3996..4605 run return run effect give @s minecraft:poison 2 3 true
 execute if score #random temp matches 4606..5215 run return run effect give @s minecraft:invisibility 10 0 true
 

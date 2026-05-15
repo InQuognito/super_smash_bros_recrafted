@@ -1,1 +1,1 @@
-kill @e[type=minecraft:marker,tag=fire_fox,predicate=ssbrc:id_match]
+kill @e[type=minecraft:marker,tag=fire_fox,predicate=ssbrc:owner]

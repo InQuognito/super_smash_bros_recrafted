@@ -3,9 +3,9 @@ tag @s add self
 scoreboard players operation #id_to_match temp = @s id
 scoreboard players operation #team temp = @s team
 
-execute at @s[predicate=ssbrc:player] run function ssbrc:logic/fighter/tick
+execute at @s[predicate=ssbrc:player] run function ssbrc:logic/game/entity/player/tick
 
-execute as @e[type=!minecraft:player,predicate=ssbrc:id_match] at @s run function ssbrc:logic/fighter/ability/tick
+execute as @e[type=!minecraft:player,predicate=ssbrc:owner] at @s run function ssbrc:logic/game/entity/player/ability/tick
 
 scoreboard players reset #in_electric_terrain temp
 

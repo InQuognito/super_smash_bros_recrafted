@@ -2,7 +2,7 @@ function ssbrc:fighter/jigglypuff/hyper_voice/particle
 
 execute unless block ^ ^ ^.1 #ssbrc:passthrough run kill @s
 
-execute positioned ~-.5 ~-.5 ~-.5 as @e[tag=!self,predicate=ssbrc:target,dx=0] run function ssbrc:logic/damage/generic {amount: 6, type: "pierce", kb_resist: 0, source: "@a[predicate=ssbrc:id_match,limit=1]"}
+execute positioned ~-.5 ~-.5 ~-.5 as @e[tag=!self,predicate=ssbrc:target,dx=0] run function ssbrc:logic/damage/generic {amount: 6, type: "pierce", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
 
 teleport @s ^.5 ^ ^ ~ ~1
 

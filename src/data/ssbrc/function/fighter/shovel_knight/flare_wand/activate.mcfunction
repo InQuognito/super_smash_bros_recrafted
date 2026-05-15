@@ -1,4 +1,4 @@
-function ssbrc:logic/fighter/ability/init
+function ssbrc:logic/game/entity/player/ability/init
 
 execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighter/shovel_knight/flare_wand/init
 
@@ -7,4 +7,4 @@ function ssbrc:fighter/shovel_knight/magic/update
 
 playsound ssbrc:fighter.shovel_knight.flare_wand.activate player @a
 
-function ssbrc:logic/fighter/ability/deinit
+function ssbrc:logic/game/entity/player/ability/deinit

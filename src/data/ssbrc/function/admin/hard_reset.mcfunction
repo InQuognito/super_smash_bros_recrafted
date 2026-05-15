@@ -1,6 +1,6 @@
 advancement revoke @a everything
 
-function ssbrc:logic/game/data/scoreboards/remove
+function ssbrc:logic/game/data/scoreboard/remove
 
 scoreboard objectives remove stats.credits
 scoreboard objectives remove options
@@ -17,10 +17,10 @@ scoreboard objectives remove log.wins
 scoreboard objectives remove log.win_loss
 
 # Fighters
-function ssbrc:logic/fighter/loop {function: "ssbrc:logic/game/data/scoreboards/remove/stat"}
+function ssbrc:logic/game/entity/player/loop {function: "ssbrc:logic/game/data/scoreboard/remove/stat"}
 
 # Bonuses
-function ssbrc:logic/bonuses/loop {function: "ssbrc:logic/game/data/scoreboards/remove/bonus"}
+function ssbrc:logic/game/data/bonus/loop {function: "ssbrc:logic/game/data/scoreboard/remove/bonus"}
 
 function ssbrc:reset
 

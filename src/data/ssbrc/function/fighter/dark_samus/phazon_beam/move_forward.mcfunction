@@ -7,7 +7,7 @@ scoreboard players operation #cache temp = @s charge.1
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run return run kill @s
 
-execute positioned ~-.2 ~-.2 ~-.2 as @e[predicate=!ssbrc:id_match,predicate=ssbrc:target,dx=0] positioned ~-.6 ~-.6 ~-.6 if entity @s[dx=0] run function ssbrc:fighter/dark_samus/phazon_beam/hit
+execute positioned ~-.2 ~-.2 ~-.2 as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dx=0] positioned ~-.6 ~-.6 ~-.6 if entity @s[dx=0] run function ssbrc:fighter/dark_samus/phazon_beam/hit
 execute if score #entity_hit temp matches 1 run return run kill @s
 
 teleport @s ^ ^ ^.25

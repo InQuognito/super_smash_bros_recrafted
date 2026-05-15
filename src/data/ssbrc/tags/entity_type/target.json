@@ -1,9 +1,8 @@
 {
 	"values": [
-		"minecraft:bee",
-		"minecraft:salmon",
-		"minecraft:skeleton",
-		"minecraft:vindicator",
-		"minecraft:zombie"
+		"#ssbrc:non_player",
+		"minecraft:cow",
+		"minecraft:frog",
+		"minecraft:salmon"
 	]
 }

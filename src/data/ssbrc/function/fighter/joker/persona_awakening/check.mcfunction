@@ -1,6 +1,6 @@
 execute if entity @s[scores={silenced=..0,charge.1=600..}] run function ssbrc:fighter/joker/persona_awakening/activate with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
-execute if score @s duration.1 matches 1.. run return run function ssbrc:logic/fighter/hud/type/percentage { \
+execute if score @s duration.1 matches 1.. run return run function ssbrc:logic/game/entity/player/hud/type/percentage { \
 	hud: 1, \
 	data: [], \
 	max: "joker.awakening.max", \
@@ -10,7 +10,7 @@ execute if score @s duration.1 matches 1.. run return run function ssbrc:logic/f
 	bg_color: "dark_gray", \
 }
 
-function ssbrc:logic/fighter/hud/type/percentage { \
+function ssbrc:logic/game/entity/player/hud/type/percentage { \
 	hud: 1, \
 	data: [], \
 	max: "joker.awakening.max", \

@@ -25,6 +25,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/fighter/flags/hurt_player/source/any"
+		"function": "ssbrc:logic/game/entity/player/flags/hurt_player/source/any"
 	}
 }

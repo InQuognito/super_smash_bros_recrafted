@@ -1,4 +1,4 @@
-execute as @e[tag=!self,predicate=ssbrc:target,distance=..1.5] run function ssbrc:logic/damage/generic {amount: 6, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:id_match,limit=1]"}
+execute as @e[tag=!self,predicate=ssbrc:target,distance=..1.5] run function ssbrc:logic/damage/generic {amount: 6, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
 execute as @a[tag=self,limit=1] run function ssbrc:fighter/donkey_kong/barrel/hit_self
 
 kill @s

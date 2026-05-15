@@ -1,13 +1,13 @@
 scoreboard players add @s temp 1
 execute if score @s temp matches 100.. run return run function ssbrc:smash_item/green_shell/shatter
 
-execute positioned ~-.5 ~-.5 ~-.5 as @e[tag=!self,predicate=ssbrc:target,dx=0] run function ssbrc:logic/damage/generic {amount: 4, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:id_match,limit=1]"}
+execute positioned ~-.5 ~-.5 ~-.5 as @e[tag=!self,predicate=ssbrc:target,dx=0] run function ssbrc:logic/damage/generic {amount: 4, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
 execute if score #entity_hit temp matches 1 run return run function ssbrc:smash_item/green_shell/hit
 
-execute unless block ~-.5 ~ ~ #ssbrc:passthrough run function ssbrc:logic/fighter/projectile/bounce/x
-execute unless block ~.5 ~ ~ #ssbrc:passthrough run function ssbrc:logic/fighter/projectile/bounce/x
-execute unless block ~ ~ ~-.5 #ssbrc:passthrough run function ssbrc:logic/fighter/projectile/bounce/forward
-execute unless block ~ ~ ~.5 #ssbrc:passthrough run function ssbrc:logic/fighter/projectile/bounce/forward
+execute unless block ~-.5 ~ ~ #ssbrc:passthrough run function ssbrc:logic/game/entity/player/projectile/bounce/x
+execute unless block ~.5 ~ ~ #ssbrc:passthrough run function ssbrc:logic/game/entity/player/projectile/bounce/x
+execute unless block ~ ~ ~-.5 #ssbrc:passthrough run function ssbrc:logic/game/entity/player/projectile/bounce/forward
+execute unless block ~ ~ ~.5 #ssbrc:passthrough run function ssbrc:logic/game/entity/player/projectile/bounce/forward
 
 execute at @s if block ~ ~-.3 ~ #ssbrc:passthrough run teleport @s ~ ~-.3 ~
 execute at @s run teleport @s ^ ^ ^.5

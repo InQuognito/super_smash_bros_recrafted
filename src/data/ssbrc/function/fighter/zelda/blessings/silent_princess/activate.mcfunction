@@ -1,6 +1,6 @@
 scoreboard players set @s zelda.silent_princess 400
 
-function ssbrc:logic/fighter/effects/glowing/cloak
+function ssbrc:logic/game/entity/player/effects/glowing/cloak
 
 attribute @s minecraft:sneaking_speed modifier add ssbrc:silent_princess 2 add_multiplied_base
 

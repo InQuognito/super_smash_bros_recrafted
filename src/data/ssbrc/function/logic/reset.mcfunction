@@ -4,9 +4,9 @@ function ssbrc:logic/init/fighter
 function ssbrc:logic/init/stage
 function ssbrc:logic/init/victory_podium
 
-function ssbrc:logic/game/data/scoreboards/remove
-function ssbrc:logic/game/data/scoreboards/create
-function ssbrc:logic/game/data/scoreboards/constants
+function ssbrc:logic/game/data/scoreboard/remove
+function ssbrc:logic/game/data/scoreboard/create
+function ssbrc:logic/game/data/scoreboard/constants
 
 stopwatch remove ssbrc:game_time
 stopwatch create ssbrc:game_time
@@ -24,12 +24,12 @@ function ssbrc:logic/game/options/reset
 
 advancement revoke @a through ssbrc:utility/root
 
-function ssbrc:logic/game/data/bossbars
-function ssbrc:logic/game/data/gamerules
+function ssbrc:logic/game/data/bossbar
+function ssbrc:logic/game/data/gamerule
 function ssbrc:logic/game/data/schedule
 function ssbrc:logic/game/team/reset
 
-summon minecraft:marker 0 0 0 {Tags:["math"]}
+summon minecraft:marker 0 0 0 {Tags: ["math"]}
 
 worldborder set 9999999
 worldborder center 0 0

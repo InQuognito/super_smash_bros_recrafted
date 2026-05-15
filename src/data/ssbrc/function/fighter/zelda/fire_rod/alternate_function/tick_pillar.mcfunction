@@ -5,7 +5,7 @@ particle minecraft:dust_color_transition{from_color: [1,.5,0], to_color: [1,1,1]
 
 execute positioned ~ ~.2 ~ unless block ^ ^ ^.1 #ssbrc:passthrough run kill @s
 
-execute positioned ~-.15 ~ ~-.15 as @e[tag=!self,predicate=ssbrc:target,dy=2] positioned ~-.7 ~ ~-.7 if entity @s[dy=2] run function ssbrc:logic/damage/fire {amount: 4, burning: 60, type: "pierce", kb_resist: 0, source: "@a[predicate=ssbrc:id_match,limit=1]"}
+execute positioned ~-.15 ~ ~-.15 as @e[tag=!self,predicate=ssbrc:target,dy=2] positioned ~-.7 ~ ~-.7 if entity @s[dy=2] run function ssbrc:logic/damage/fire {amount: 4, burning: 60, type: "pierce", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
 
 teleport @s ^ ^ ^.1
 

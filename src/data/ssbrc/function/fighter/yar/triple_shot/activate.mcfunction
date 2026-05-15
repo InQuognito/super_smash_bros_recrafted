@@ -1,4 +1,4 @@
-function ssbrc:logic/fighter/ability/init
+function ssbrc:logic/game/entity/player/ability/init
 
 execute anchored eyes positioned ^ ^ ^.5 run function ssbrc:fighter/yar/triple_shot/projectile
 
@@ -7,4 +7,4 @@ execute if score @s charge.1 matches 15.. run function ssbrc:fighter/yar/power_u
 
 playsound ssbrc:fighter.yar.triple_shot.activate player @a
 
-function ssbrc:logic/fighter/ability/deinit
+function ssbrc:logic/game/entity/player/ability/deinit

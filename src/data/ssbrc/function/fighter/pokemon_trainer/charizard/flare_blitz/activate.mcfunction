@@ -1,4 +1,4 @@
-function ssbrc:logic/fighter/ability/init
+function ssbrc:logic/game/entity/player/ability/init
 
 execute positioned ~ ~.1 ~ summon minecraft:marker run function ssbrc:fighter/pokemon_trainer/charizard/flare_blitz/init
 
@@ -10,4 +10,4 @@ execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {skin: "victor"}}}] run return run playsound ssbrc:fighter.pokemon_trainer.charizard.flare_blitz.activate.victor player @a
 playsound ssbrc:fighter.pokemon_trainer.charizard.flare_blitz.activate.default player @a
 
-function ssbrc:logic/fighter/ability/deinit
+function ssbrc:logic/game/entity/player/ability/deinit

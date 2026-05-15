@@ -4,7 +4,7 @@ scoreboard players set @s[scores={rotation=360..}] rotation 0
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run return run function ssbrc:fighter/hero/zapple/explode
 
-execute positioned ~-.5 ~-.5 ~-.5 if entity @e[predicate=!ssbrc:id_match,predicate=ssbrc:target,dx=0] run function ssbrc:fighter/hero/zapple/explode
+execute positioned ~-.5 ~-.5 ~-.5 if entity @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dx=0] run function ssbrc:fighter/hero/zapple/explode
 execute if score #entity_hit temp matches 1 run return run function ssbrc:fighter/hero/zapple/explode
 
 teleport @s ^ ^ ^.25

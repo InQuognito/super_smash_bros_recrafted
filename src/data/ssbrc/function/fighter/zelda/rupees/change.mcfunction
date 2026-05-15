@@ -2,7 +2,7 @@ $scoreboard players $(mode) @s resource 1
 
 $scoreboard players remove @s zelda.rupee.$(mode) 1
 
-function ssbrc:logic/fighter/hud/type/display { \
+function ssbrc:logic/game/entity/player/hud/type/display { \
 	hud: 2, \
 	value: [ \
 		" | ", \

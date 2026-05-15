@@ -1,6 +1,6 @@
 scoreboard players set #n temp 80
 
-function ssbrc:logic/fighter/ability/init
+function ssbrc:logic/game/entity/player/ability/init
 
 execute anchored eyes positioned ^ ^-.75 ^1 run function ssbrc:fighter/dark_samus/phazon_overload/raycast
 

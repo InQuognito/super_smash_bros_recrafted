@@ -1,0 +1,26 @@
+scoreboard players remove @s[scores={armor_break=1..}] armor_break 1
+attribute @s[scores={armor_break=1}] minecraft:armor modifier remove ssbrc:armor_break
+
+execute if score @s burning matches 1.. run function ssbrc:logic/game/entity/player/effects/burning/tick
+
+execute if entity @s[predicate=ssbrc:fighter/effects/poison] run particle minecraft:dust{color: [0,1,0], scale: .5} ~ ~.75 ~ .2 .4 .2 0 1 normal @a
+
+execute if score @s frostbite.timer matches 1.. run function ssbrc:logic/game/entity/player/attributes/modifiers/frostbite/tick
+
+execute if score @s gigantic matches 1.. run function ssbrc:logic/game/entity/player/effects/gigantic/tick
+
+execute if score @s immobile matches 1.. run function ssbrc:logic/game/entity/player/effects/immobile/tick
+
+execute if score @s invincible matches 1.. run function ssbrc:logic/game/entity/player/effects/invincible/tick
+
+execute if score @s shrink matches 1.. run function ssbrc:logic/game/entity/player/effects/shrink/tick
+
+execute if score @s silenced matches 1.. run function ssbrc:logic/game/entity/player/effects/silenced/tick
+
+execute if score @s sleep matches 1.. run function ssbrc:logic/game/entity/player/effects/sleep/tick
+
+execute if score @s tornado matches 1.. run function ssbrc:entity/common/tornado/logic/spin/tick
+
+execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] if block ~ ~ ~ minecraft:water run function ssbrc:logic/damage/generic {amount: 4, type: "pierce", kb_resist: 1, source: ""}
+
+execute if data storage ssbrc:temp game.stage{name: "sand_ocean"} if data storage ssbrc:data option{hazards: "true"} run function ssbrc:logic/game/entity/player/quicksand/tick

@@ -1,3 +1,3 @@
 tag @s remove cross_slash.target
 
-function ssbrc:logic/fighter/effects/immobile/deactivate
+function ssbrc:logic/game/entity/player/effects/immobile/deactivate

@@ -1,4 +1,4 @@
-function ssbrc:logic/fighter/ability/init
+function ssbrc:logic/game/entity/player/ability/init
 
 execute positioned ~ ~.1 ~ summon minecraft:marker run function ssbrc:fighter/captain_falcon/raptor_boost/init
 
@@ -8,4 +8,4 @@ scoreboard players set @s duration.1 5
 
 playsound ssbrc:fighter.captain_falcon.raptor_boost.activate player @a
 
-function ssbrc:logic/fighter/ability/deinit
+function ssbrc:logic/game/entity/player/ability/deinit

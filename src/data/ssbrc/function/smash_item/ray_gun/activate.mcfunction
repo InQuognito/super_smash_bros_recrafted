@@ -1,4 +1,4 @@
-function ssbrc:logic/fighter/ability/init
+function ssbrc:logic/game/entity/player/ability/init
 
 execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ssbrc:smash_item/ray_gun/projectile
 
@@ -10,4 +10,4 @@ clear @s *[minecraft:custom_data~{item: "ray_gun"},minecraft:damage~{durability:
 
 playsound ssbrc:smash_item.ray_gun.activate player @a
 
-function ssbrc:logic/fighter/ability/deinit
+function ssbrc:logic/game/entity/player/ability/deinit

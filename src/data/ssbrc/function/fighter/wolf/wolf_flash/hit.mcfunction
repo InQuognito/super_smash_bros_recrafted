@@ -1,5 +1,5 @@
-function ssbrc:logic/damage/generic {amount: 14, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:id_match,limit=1]"}
+function ssbrc:logic/damage/generic {amount: 14, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
 
-execute rotated ~ 90 run function ssbrc:logic/fighter/motion/launch {strength: 10000}
+execute rotated ~ 90 run function ssbrc:logic/game/entity/player/motion/launch {strength: 10000}
 
 playsound ssbrc:fighter.wolf.wolf_flash.hit player @a

@@ -1,3 +1,3 @@
 tag @s remove earthquake
 
-function ssbrc:logic/fighter/shockwave/medium
+function ssbrc:logic/game/entity/player/shockwave/medium

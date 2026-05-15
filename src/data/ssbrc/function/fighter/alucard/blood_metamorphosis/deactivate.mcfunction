@@ -1,3 +1,3 @@
 function ssbrc:logic/player/data/set {data: {temp: {fighter: {form: "default"}}}}
 
-function ssbrc:logic/fighter/armor/update with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
+function ssbrc:logic/game/entity/player/armor/update with entity @s equipment.body.components."minecraft:custom_data".temp.fighter

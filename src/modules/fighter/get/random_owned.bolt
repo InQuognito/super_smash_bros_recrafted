@@ -1,6 +1,6 @@
 from ssbrc.fighters import fighters, adj_fighter_count
 
-function ssbrc:logic/fighter/get/random_owned:
+function ssbrc:logic/game/entity/player/get/random_owned:
 	obj = f'execute store result score #random temp run random value 1..{adj_fighter_count}'
 	raw obj
 
@@ -10,5 +10,5 @@ function ssbrc:logic/fighter/get/random_owned:
 		raw obj
 		i += 1
 
-	obj = '$function ssbrc:logic/fighter/get/random_owned {function:\'$(function)\'}'
+	obj = '$function ssbrc:logic/game/entity/player/get/random_owned {function:\'$(function)\'}'
 	raw obj

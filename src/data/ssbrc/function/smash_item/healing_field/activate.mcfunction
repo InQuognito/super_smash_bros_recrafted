@@ -1,4 +1,4 @@
-function ssbrc:logic/fighter/ability/init
+function ssbrc:logic/game/entity/player/ability/init
 
 execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ssbrc:smash_item/healing_field/init/marker
 
@@ -8,4 +8,4 @@ clear @s *[minecraft:custom_data~{item: "healing_field"}]
 
 playsound ssbrc:smash_item.healing_field.activate player @a
 
-function ssbrc:logic/fighter/ability/deinit
+function ssbrc:logic/game/entity/player/ability/deinit

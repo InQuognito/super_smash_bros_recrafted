@@ -2,7 +2,7 @@ scoreboard players remove @s[scores={resource=1..}] resource 6
 scoreboard players add @s charge.2 1
 
 particle minecraft:cloud ~ ~-.4 ~ .3 0 .3 0.02 5 normal @a
-execute if score @s charge.2 matches 6 run function ssbrc:fighter/rob/robo_burner/activate
+execute if score @s charge.2 matches 6 run playsound ssbrc:fighter.rob.robo_burner.activate player @a
 execute if score @s charge.2 matches 6.. run function ssbrc:fighter/rob/robo_burner/particle
 
 effect give @s[scores={charge.2=..5}] minecraft:slow_falling infinite 0 true

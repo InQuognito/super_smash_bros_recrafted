@@ -1,4 +1,4 @@
-execute if function ssbrc:logic/fighter/flags/grounded run function ssbrc:smash_item/motion_sensor_bomb/tick_active
+execute if function ssbrc:logic/game/entity/player/if_grounded run function ssbrc:smash_item/motion_sensor_bomb/tick_active
 
 scoreboard players add @s temp 1
 execute if score @s temp matches 1200.. run function ssbrc:smash_item/motion_sensor_bomb/explode

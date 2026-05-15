@@ -25,7 +25,7 @@
 					"effects": [
 						{
 							"type": "minecraft:run_function",
-							"function": "ssbrc:logic/fighter/effects/wither"
+							"function": "ssbrc:logic/game/entity/player/effects/wither"
 						},
 						{
 							"type": "minecraft:play_sound",

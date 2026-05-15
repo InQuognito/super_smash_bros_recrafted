@@ -1,4 +1,4 @@
-function ssbrc:logic/fighter/ability/init
+function ssbrc:logic/game/entity/player/ability/init
 
 function ssbrc:fighter/byleth/black_eagles/ground_pound/particle/check
 

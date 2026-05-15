@@ -1,5 +1,5 @@
-execute as @e[predicate=ssbrc:target,distance=..3] run function ssbrc:logic/damage/generic {amount: 6, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:id_match,limit=1]"}
-execute if entity @s[tag=self,distance=..3] run function ssbrc:logic/damage/generic {amount: 6, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:id_match,limit=1]"}
+execute as @e[predicate=ssbrc:target,distance=..3] run function ssbrc:logic/damage/generic {amount: 6, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
+execute if entity @s[tag=self,distance=..3] run function ssbrc:logic/damage/generic {amount: 6, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
 
 kill @s
 

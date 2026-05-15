@@ -1,14 +1,14 @@
-function ssbrc:logic/fighter/ability/init
+function ssbrc:logic/game/entity/player/ability/init
 
 scoreboard players set @s duration.1 30
 
 scoreboard players set @s resource 0
 function ssbrc:fighter/cloud/limit/update
 
-function ssbrc:logic/fighter/effects/immobile/activate {type: "default", duration: 1000000}
+function ssbrc:logic/game/entity/player/effects/immobile/activate {type: "default", duration: 1000000}
 
 execute as @n[tag=!self,predicate=ssbrc:target,distance=..2.5] run function ssbrc:fighter/cloud/buster_sword/cross_slash/target/activate
 
 playsound ssbrc:fighter.cloud.cross_slash.activate player @a
 
-function ssbrc:logic/fighter/ability/deinit
+function ssbrc:logic/game/entity/player/ability/deinit
