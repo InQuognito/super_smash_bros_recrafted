@@ -1,4 +1,4 @@
-say subtract_y
+tellraw @a ["y: ", {score: {name: "#y", objective: "temp"}}]
 
 scoreboard players set #x temp 32
 scoreboard players remove #y temp 4
