@@ -1,3 +1,5 @@
+say subtract_y
+
 scoreboard players set #x temp 32
 scoreboard players remove #y temp 4
 execute if score #y temp matches ..-52 run return run function ssbrc:stage/fountain_of_dreams/load/subtract_z

@@ -1,3 +1,5 @@
+say subtract_z
+
 scoreboard players set #y temp 0
 scoreboard players remove #z temp 4
 
