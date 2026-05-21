@@ -1,3 +1,5 @@
+say hi
+
 execute store result score #random temp run random value 1..4
 
 execute if score #random temp matches 1 run fillbiome ~-3 ~-3 ~-3 ~ ~ ~ ssbrc:stage/fountain_of_dreams/blue
