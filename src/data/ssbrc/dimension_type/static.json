@@ -19,6 +19,7 @@
 		"minecraft:gameplay/water_evaporates": false,
 		"minecraft:visual/cloud_color": "#ccffffff",
 		"minecraft:visual/cloud_height": 64,
+		"minecraft:visual/fog_color": "#c0d8ff",
 		"minecraft:visual/sky_color": 7907327,
 		"minecraft:visual/water_fog_color": 329011
 	},
