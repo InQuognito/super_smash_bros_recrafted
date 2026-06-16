@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/pokemon_trainer/squirtle/water_gun/activate"
+		"function": "ssbrc:game/fighter/pokemon_trainer/squirtle/water_gun/activate"
 	}
 }

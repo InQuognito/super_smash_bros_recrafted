@@ -1,0 +1,24 @@
+execute if score #game_stage temp matches 5 run function ssbrc:game/logic/post_game/tick
+
+execute if score #game_stage temp matches 4 run function ssbrc:game/logic/stage/tick/after_start with storage ssbrc:temp game.stage
+
+execute if data storage ssbrc:data option{game_mode: "ctf"} run function ssbrc:game/logic/ctf/tick
+
+execute as @a at @s run function ssbrc:game/logic/game/player/tick
+
+execute as @e[predicate=ssbrc:target] at @s run function ssbrc:game/logic/game/entity/tick
+
+execute as @e[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_data":{group: "item"}}}}] run function ssbrc:game/logic/game/item/tick
+
+execute if data storage ssbrc:data option{game_mode: "ctf"} as @e[type=minecraft:block_display,tag=flag] at @s run function ssbrc:game/logic/ctf/flag/tick
+
+kill @e[type=#minecraft:arrows,nbt={inGround:1b}]
+
+execute as @e[type=minecraft:marker,tag=ssbrc.vfx] at @s run function ssbrc:game/logic/vfx/markers/tick
+
+scoreboard players remove @e[type=minecraft:marker,tag=spawnpoint,scores={cooldown=1..}] cooldown 1
+
+function ssbrc:game/logic/game/entity/player/post_checks
+
+scoreboard players reset #entity_hit temp
+scoreboard players reset #entity_killed temp

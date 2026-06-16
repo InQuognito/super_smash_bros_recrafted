@@ -1,8 +1,0 @@
-execute if predicate ssbrc:flag/sneaking if function ssbrc:logic/game/entity/player/if_grounded run scoreboard players add @s charge.2 1
-execute if score @s charge.2 >= #altered_beast.pounce.threshold const run particle minecraft:item{item: "minecraft:dirt"} ~ ~.01 ~ .2 .2 .2 0 2 normal @a
-
-function ssbrc:logic/game/entity/player/jump/super_jump/calculate
-execute if score @s charge.2 >= #altered_beast.pounce.threshold const if score #pounce.falloff temp >= #altered_beast.pounce.falloff const run function ssbrc:fighter/altered_beast/weretiger/pounce/charge
-
-scoreboard players add @s[scores={charge.3=1..}] charge.3 1
-execute if entity @s[scores={silenced=..0,charge.3=15..}] run function ssbrc:fighter/altered_beast/weretiger/pounce/activate

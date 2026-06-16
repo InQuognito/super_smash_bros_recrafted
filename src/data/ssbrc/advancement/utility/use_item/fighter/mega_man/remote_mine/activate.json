@@ -44,6 +44,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/mega_man/remote_mine/activate"
+		"function": "ssbrc:game/fighter/mega_man/remote_mine/activate"
 	}
 }

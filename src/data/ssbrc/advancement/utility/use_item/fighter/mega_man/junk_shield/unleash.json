@@ -32,6 +32,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/mega_man/junk_shield/unleash"
+		"function": "ssbrc:game/fighter/mega_man/junk_shield/unleash"
 	}
 }

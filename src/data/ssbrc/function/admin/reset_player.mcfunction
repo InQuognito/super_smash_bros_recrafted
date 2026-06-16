@@ -1,4 +1,4 @@
-function ssbrc:logic/player/data/permanent/reset
+function ssbrc:game/logic/player/data/permanent/reset
 
 tellraw @s {translate: "ssbrc.profile.warn.force_reset", color: "red"}
 

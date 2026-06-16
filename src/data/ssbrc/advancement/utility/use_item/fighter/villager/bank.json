@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/villager/bank/activate"
+		"function": "ssbrc:game/fighter/villager/bank/activate"
 	}
 }

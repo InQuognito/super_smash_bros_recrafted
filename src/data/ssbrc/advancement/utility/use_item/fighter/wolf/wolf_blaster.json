@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/wolf/wolf_blaster/activate"
+		"function": "ssbrc:game/fighter/wolf/wolf_blaster/activate"
 	}
 }

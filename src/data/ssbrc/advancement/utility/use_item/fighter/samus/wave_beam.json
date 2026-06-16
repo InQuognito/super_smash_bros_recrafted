@@ -28,6 +28,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/samus/wave_beam/activate"
+		"function": "ssbrc:game/fighter/samus/wave_beam/activate"
 	}
 }

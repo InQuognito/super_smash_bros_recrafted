@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/yar/triple_shot/activate"
+		"function": "ssbrc:game/fighter/yar/triple_shot/activate"
 	}
 }

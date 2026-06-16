@@ -40,6 +40,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/shovel_knight/propeller_dagger/particle/start"
+		"function": "ssbrc:game/fighter/shovel_knight/propeller_dagger/particle/start"
 	}
 }

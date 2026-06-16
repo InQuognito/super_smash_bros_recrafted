@@ -31,7 +31,7 @@
 						},
 						{
 							"type": "minecraft:run_function",
-							"function": "ssbrc:fighter/greninja/night_slash/activate"
+							"function": "ssbrc:game/fighter/greninja/night_slash/activate"
 						}
 					]
 				},

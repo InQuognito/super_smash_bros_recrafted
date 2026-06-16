@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/pokemon_trainer/ivysaur/poison_powder/activate"
+		"function": "ssbrc:game/fighter/pokemon_trainer/ivysaur/poison_powder/activate"
 	}
 }

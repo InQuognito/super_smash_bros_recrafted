@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/team_rocket/wobbuffet/splash/check"
+		"function": "ssbrc:game/fighter/team_rocket/wobbuffet/splash/check"
 	}
 }

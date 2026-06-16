@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/snake/socom/check"
+		"function": "ssbrc:game/fighter/snake/socom/check"
 	}
 }

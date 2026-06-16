@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:fighter/byleth/golden_deer/failnaught/activate"
+					"function": "ssbrc:game/fighter/byleth/golden_deer/failnaught/activate"
 				}
 			}
 		],
@@ -71,7 +71,7 @@
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:fighter/byleth/golden_deer/failnaught/full"
+					"function": "ssbrc:game/fighter/byleth/golden_deer/failnaught/full"
 				}
 			}
 		]

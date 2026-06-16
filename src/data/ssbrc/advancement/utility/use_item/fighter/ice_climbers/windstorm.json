@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/ice_climbers/windstorm/activate"
+		"function": "ssbrc:game/fighter/ice_climbers/windstorm/activate"
 	}
 }

@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/hero/spell/get"
+		"function": "ssbrc:game/fighter/hero/spell/get"
 	}
 }

@@ -22,7 +22,7 @@
 				"affected": "victim",
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:logic/game/entity/player/effects/wither"
+					"function": "ssbrc:game/logic/game/entity/player/effects/wither"
 				},
 				"requirements": {
 					"condition": "minecraft:entity_scores",
@@ -42,7 +42,7 @@
 					"effects": [
 						{
 							"type": "minecraft:run_function",
-							"function": "ssbrc:fighter/mega_man/flame_sword/activate"
+							"function": "ssbrc:game/fighter/mega_man/flame_sword/activate"
 						},
 						{
 							"type": "minecraft:play_sound",

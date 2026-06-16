@@ -41,7 +41,7 @@
 						},
 						{
 							"type": "minecraft:run_function",
-							"function": "ssbrc:fighter/mega_man/pile_driver/activate"
+							"function": "ssbrc:game/fighter/mega_man/pile_driver/activate"
 						}
 					]
 				},

@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/yar/missile_launcher/activate"
+		"function": "ssbrc:game/fighter/yar/missile_launcher/activate"
 	}
 }

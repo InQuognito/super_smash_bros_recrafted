@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/fox/krazoan_fireball/activate"
+		"function": "ssbrc:game/fighter/fox/krazoan_fireball/activate"
 	}
 }

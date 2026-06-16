@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/greninja/water_shuriken/activate"
+		"function": "ssbrc:game/fighter/greninja/water_shuriken/activate"
 	}
 }

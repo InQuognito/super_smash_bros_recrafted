@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/alucard/holy_water/activate"
+		"function": "ssbrc:game/fighter/alucard/holy_water/activate"
 	}
 }

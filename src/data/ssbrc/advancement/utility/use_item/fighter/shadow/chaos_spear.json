@@ -37,6 +37,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/shadow/chaos_spear/activate"
+		"function": "ssbrc:game/fighter/shadow/chaos_spear/activate"
 	}
 }

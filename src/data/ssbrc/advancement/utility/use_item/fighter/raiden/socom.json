@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/raiden/socom/check"
+		"function": "ssbrc:game/fighter/raiden/socom/check"
 	}
 }

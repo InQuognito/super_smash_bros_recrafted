@@ -1,1 +1,0 @@
-execute as @e[tag=!electrified,predicate=ssbrc:killbox_vulnerable,predicate=ssbrc:below_y/-13] if function ssbrc:logic/game/entity/player/if_grounded run function ssbrc:stage/gyromite/hazard/electric_floor/activate

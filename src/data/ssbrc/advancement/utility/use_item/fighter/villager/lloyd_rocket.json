@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/villager/lloyd_rocket/activate"
+		"function": "ssbrc:game/fighter/villager/lloyd_rocket/activate"
 	}
 }

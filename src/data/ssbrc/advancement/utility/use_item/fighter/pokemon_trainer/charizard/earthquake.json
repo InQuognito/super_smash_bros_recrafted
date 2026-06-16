@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/pokemon_trainer/charizard/earthquake/check"
+		"function": "ssbrc:game/fighter/pokemon_trainer/charizard/earthquake/check"
 	}
 }

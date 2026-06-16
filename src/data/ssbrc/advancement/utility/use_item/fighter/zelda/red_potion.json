@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/zelda/red_potion/activate"
+		"function": "ssbrc:game/fighter/zelda/red_potion/activate"
 	}
 }

@@ -37,6 +37,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/shovel_knight/throwing_anchor/activate"
+		"function": "ssbrc:game/fighter/shovel_knight/throwing_anchor/activate"
 	}
 }

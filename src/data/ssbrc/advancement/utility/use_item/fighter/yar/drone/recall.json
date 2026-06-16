@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/yar/drone/commands/recall/activate"
+		"function": "ssbrc:game/fighter/yar/drone/commands/recall/activate"
 	}
 }

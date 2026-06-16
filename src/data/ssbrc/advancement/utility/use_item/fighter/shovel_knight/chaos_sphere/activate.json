@@ -40,6 +40,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/shovel_knight/chaos_sphere/activate"
+		"function": "ssbrc:game/fighter/shovel_knight/chaos_sphere/activate"
 	}
 }

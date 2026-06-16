@@ -1,6 +1,6 @@
 from ssbrc.fighters import fighters, adj_fighter_count
 
-function ssbrc:logic/game/entity/player/get/random:
+function ssbrc:game/logic/game/entity/player/get/random:
 	obj = f'execute store result score #random temp run random value 1..{adj_fighter_count}'
 	raw obj
 

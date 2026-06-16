@@ -42,6 +42,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/mega_man/beat_call/commands/forward"
+		"function": "ssbrc:game/fighter/mega_man/beat_call/commands/forward"
 	}
 }

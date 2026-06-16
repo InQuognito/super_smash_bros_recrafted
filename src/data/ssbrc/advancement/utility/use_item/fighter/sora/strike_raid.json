@@ -43,6 +43,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/sora/strike_raid/activate"
+		"function": "ssbrc:game/fighter/sora/strike_raid/activate"
 	}
 }

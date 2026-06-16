@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/joker/hama/activate"
+		"function": "ssbrc:game/fighter/joker/hama/activate"
 	}
 }

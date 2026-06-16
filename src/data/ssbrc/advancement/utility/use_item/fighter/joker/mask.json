@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/joker/masks/activate"
+		"function": "ssbrc:game/fighter/joker/masks/activate"
 	}
 }

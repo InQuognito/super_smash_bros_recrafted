@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/pokemon_trainer/ivysaur/leech_seed/activate"
+		"function": "ssbrc:game/fighter/pokemon_trainer/ivysaur/leech_seed/activate"
 	}
 }

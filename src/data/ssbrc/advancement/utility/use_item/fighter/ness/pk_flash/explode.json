@@ -32,6 +32,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/ness/pk_flash/check"
+		"function": "ssbrc:game/fighter/ness/pk_flash/check"
 	}
 }

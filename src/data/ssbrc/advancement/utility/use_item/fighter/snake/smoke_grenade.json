@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/snake/smoke_grenade/activate"
+		"function": "ssbrc:game/fighter/snake/smoke_grenade/activate"
 	}
 }

@@ -45,6 +45,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/game/item/pickup/default"
+		"function": "ssbrc:game/logic/game/item/pickup/default"
 	}
 }

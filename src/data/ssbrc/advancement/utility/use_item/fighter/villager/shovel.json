@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/villager/shovel/activate"
+		"function": "ssbrc:game/fighter/villager/shovel/activate"
 	}
 }

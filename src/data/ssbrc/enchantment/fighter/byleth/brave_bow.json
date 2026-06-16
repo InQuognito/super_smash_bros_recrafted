@@ -34,7 +34,7 @@
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:fighter/byleth/golden_deer/brave_bow/volley"
+					"function": "ssbrc:game/fighter/byleth/golden_deer/brave_bow/volley"
 				}
 			}
 		],

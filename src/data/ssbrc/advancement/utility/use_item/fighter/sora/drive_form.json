@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/sora/drive_forms/anti/check"
+		"function": "ssbrc:game/fighter/sora/drive_forms/anti/check"
 	}
 }

@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/altered_beast/werebear/petrifying_breath/activate"
+		"function": "ssbrc:game/fighter/altered_beast/werebear/petrifying_breath/activate"
 	}
 }

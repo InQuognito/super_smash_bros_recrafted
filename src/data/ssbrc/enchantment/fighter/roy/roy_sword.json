@@ -30,7 +30,7 @@
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:fighter/roy/counter/hit"
+					"function": "ssbrc:game/fighter/roy/counter/hit"
 				},
 				"enchanted": "victim",
 				"affected": "attacker"
@@ -48,7 +48,7 @@
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:fighter/roy/counter/success"
+					"function": "ssbrc:game/fighter/roy/counter/success"
 				},
 				"enchanted": "victim",
 				"affected": "victim"

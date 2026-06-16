@@ -11,6 +11,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/game/entity/player/charge/increase"
+		"function": "ssbrc:game/logic/game/entity/player/charge/increase"
 	}
 }

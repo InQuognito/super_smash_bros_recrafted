@@ -1,0 +1,11 @@
+function ssbrc:fighter/pokemon_trainer/kits/reset
+$function ssbrc:game/logic/player/data/set {data: {temp: {fighter: {form: "$(form)"}}}}
+function ssbrc:game/logic/game/entity/player/armor/update with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
+
+clear @s #ssbrc:equipment/ability
+
+playsound ssbrc:smash_item.poke_ball.activate player @a
+
+$execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {skin: "dawn"}}}] run return run tellraw @s [{translate: "ssbrc.fighter.pokemon_trainer.i_choose_you.prefix", color: "$(color)"}, {translate: "ssbrc.fighter.pokemon_trainer.$(form).dawn", color: "$(color)"}, {translate: "ssbrc.fighter.pokemon_trainer.i_choose_you", color: "$(color)"}]
+$execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {skin: "victor"}}}] run return run tellraw @s [{translate: "ssbrc.fighter.pokemon_trainer.i_choose_you.prefix", color: "$(color)"}, {translate: "ssbrc.fighter.pokemon_trainer.$(form).victor", color: "$(color)"}, {translate: "ssbrc.fighter.pokemon_trainer.i_choose_you", color: "$(color)"}]
+$tellraw @s [{translate: "ssbrc.fighter.pokemon_trainer.i_choose_you.prefix", color: "$(color)"}, {translate: "ssbrc.fighter.pokemon_trainer.$(form).default", color: "$(color)"}, {translate: "ssbrc.fighter.pokemon_trainer.i_choose_you", color: "$(color)"}]

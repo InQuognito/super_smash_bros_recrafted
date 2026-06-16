@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/raiden/aks_74u/check"
+		"function": "ssbrc:game/fighter/raiden/aks_74u/check"
 	}
 }

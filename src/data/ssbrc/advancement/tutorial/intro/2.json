@@ -6,6 +6,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/npc/mr_sandbag/dialogue/tutorial/intro/2/2"
+		"function": "ssbrc:game/logic/npc/mr_sandbag/dialogue/tutorial/intro/2/2"
 	}
 }

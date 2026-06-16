@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:logic/player/selector/raycast/start"
+					"function": "ssbrc:game/logic/player/selector/raycast/start"
 				}
 			}
 		]

@@ -1,6 +1,6 @@
 $advancement grant @s only ssbrc:tutorial/equipment/$(item)
 
-$function ssbrc:logic/item/give/default {item: "$(item)", class: "$(class)", type: "$(type)"}
+$function ssbrc:game/logic/item/give/default {item: "$(item)", class: "$(class)", type: "$(type)"}
 
 scoreboard players set #interact temp 1
 

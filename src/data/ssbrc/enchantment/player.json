@@ -32,7 +32,7 @@
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:logic/player/tick"
+					"function": "ssbrc:game/logic/player/tick"
 				}
 			}
 		]

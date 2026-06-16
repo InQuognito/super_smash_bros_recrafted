@@ -49,6 +49,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/pit/palutena_bow/split"
+		"function": "ssbrc:game/fighter/pit/palutena_bow/split"
 	}
 }

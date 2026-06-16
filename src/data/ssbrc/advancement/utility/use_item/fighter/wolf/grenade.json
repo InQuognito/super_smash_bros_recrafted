@@ -37,6 +37,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/wolf/grenade/explode/hand"
+		"function": "ssbrc:game/fighter/wolf/grenade/explode/hand"
 	}
 }

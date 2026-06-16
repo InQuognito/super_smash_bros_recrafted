@@ -1,1 +1,0 @@
-execute if items entity @s[scores={health=..39}] container.* *[minecraft:custom_data~{item: "master_sword", awakened: "true"}] run function ssbrc:logic/item/data/set {item: "master_sword", flag_key: "awakened", flag_value: "false"}

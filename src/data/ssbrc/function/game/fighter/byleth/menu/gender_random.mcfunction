@@ -1,0 +1,4 @@
+execute store result score #random temp run random value 1..2
+
+execute if score #random temp matches 1 run function ssbrc:game/logic/player/data/set {data: {temp: {fighter: {form: "female"}}}}
+execute if score #random temp matches 2 run function ssbrc:game/logic/player/data/set {data: {temp: {fighter: {form: "male"}}}}

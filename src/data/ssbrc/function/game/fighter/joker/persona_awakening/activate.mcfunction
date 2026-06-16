@@ -1,0 +1,26 @@
+function ssbrc:fighter/joker/rebels_guard/deactivate
+
+scoreboard players set @s duration.1 600
+scoreboard players set @s charge.1 0
+
+function ssbrc:fighter/joker/tt33/reset
+
+clear @s *[minecraft:custom_data~{group: "mask"}]
+clear @s *[minecraft:custom_data~{group: "persona_awakening"}]
+
+$function ssbrc:game/logic/item/modify {search_key: "group", search_value: "persona",path: {function: "minecraft:set_components",components: {"minecraft:item_model":"ssbrc:fighter/joker/misc/portrait/$(persona)/active"}}}
+
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "archangel"}}}] run function ssbrc:game/logic/item/give/default {item: "hama", class: "default", type: "default"}
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "arsene"}}}] run function ssbrc:game/logic/item/give/default {item: "eiagon", class: "default", type: "default"}
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "high_pixie"}}}] run function ssbrc:game/logic/item/give/default {item: "amrita_shower", class: "default", type: "default"}
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "raoul"}}}] run function ssbrc:game/logic/item/give/default {item: "phantom_show", class: "default", type: "default"}
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "yatagarasu"}}}] run attribute @s minecraft:knockback_resistance modifier add ssbrc:passive .25 add_value
+
+function ssbrc:game/logic/player/data/set {data: {temp: {fighter: {form: "awakening"}}}}
+function ssbrc:game/logic/game/entity/player/armor/update with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
+
+playsound ssbrc:fighter.joker.persona_awakening.activate player @a
+
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "jack_frost"}}}] run return run function ssbrc:game/logic/item/init/replace {search_key: "item", search_value: "rebel_knife", item: "rebel_knife_freeze", class: "weapon", type: "enchanted"}
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "jack_o_lantern"}}}] run return run function ssbrc:game/logic/item/init/replace {search_key: "item", search_value: "rebel_knife", item: "rebel_knife_fire", class: "weapon", type: "enchanted"}
+function ssbrc:game/logic/item/init/replace {search_key: "item", search_value: "rebel_knife", item: "rebel_knife", class: "weapon", type: "enchanted"}

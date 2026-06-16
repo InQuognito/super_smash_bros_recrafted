@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:logic/game/entity/player/projectile/kill"
+					"function": "ssbrc:game/logic/game/entity/player/projectile/kill"
 				}
 			}
 		],

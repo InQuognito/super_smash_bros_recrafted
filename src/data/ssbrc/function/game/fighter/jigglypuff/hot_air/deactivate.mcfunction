@@ -1,0 +1,4 @@
+attribute @s minecraft:gravity modifier remove ssbrc:passive
+effect clear @s minecraft:slow_falling
+
+function ssbrc:game/logic/item/cooldown/set/const {type: "2", value: "3"}

@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/roy/counter/tick"
+		"function": "ssbrc:game/fighter/roy/counter/tick"
 	}
 }

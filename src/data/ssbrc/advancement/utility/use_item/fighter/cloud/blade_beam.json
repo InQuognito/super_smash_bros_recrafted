@@ -47,6 +47,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/cloud/buster_sword/blade_beam/activate"
+		"function": "ssbrc:game/fighter/cloud/buster_sword/blade_beam/activate"
 	}
 }

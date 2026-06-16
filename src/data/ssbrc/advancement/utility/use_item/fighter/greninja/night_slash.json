@@ -35,6 +35,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/greninja/shadow_sneak/activate"
+		"function": "ssbrc:game/fighter/greninja/shadow_sneak/activate"
 	}
 }

@@ -33,6 +33,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/mega_man/pile_driver/particle/raycast/start"
+		"function": "ssbrc:game/fighter/mega_man/pile_driver/particle/raycast/start"
 	}
 }

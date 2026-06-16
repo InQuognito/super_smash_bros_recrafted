@@ -37,6 +37,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/shovel_knight/flare_wand/activate"
+		"function": "ssbrc:game/fighter/shovel_knight/flare_wand/activate"
 	}
 }

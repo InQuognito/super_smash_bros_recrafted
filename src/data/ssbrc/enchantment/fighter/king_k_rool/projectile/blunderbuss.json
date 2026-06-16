@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:fighter/king_k_rool/blunderbuss/tick"
+					"function": "ssbrc:game/fighter/king_k_rool/blunderbuss/tick"
 				}
 			}
 		]

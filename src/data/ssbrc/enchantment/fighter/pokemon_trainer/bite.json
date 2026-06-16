@@ -25,7 +25,7 @@
 					"effects": [
 						{
 							"type": "minecraft:run_function",
-							"function": "ssbrc:fighter/pokemon_trainer/squirtle/bite"
+							"function": "ssbrc:game/fighter/pokemon_trainer/squirtle/bite"
 						},
 						{
 							"type": "minecraft:play_sound",

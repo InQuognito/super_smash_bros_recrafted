@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/raiden/throwing_knives/activate"
+		"function": "ssbrc:game/fighter/raiden/throwing_knives/activate"
 	}
 }

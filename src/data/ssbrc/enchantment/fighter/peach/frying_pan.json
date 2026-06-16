@@ -22,7 +22,7 @@
 				"affected": "attacker",
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:fighter/peach/kit/tennis_racket"
+					"function": "ssbrc:game/fighter/peach/kit/tennis_racket"
 				}
 			}
 		]

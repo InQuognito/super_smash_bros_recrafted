@@ -42,7 +42,7 @@
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:logic/game/entity/player/reflect/check"
+					"function": "ssbrc:game/logic/game/entity/player/reflect/check"
 				},
 				"enchanted": "victim",
 				"affected": "attacker"

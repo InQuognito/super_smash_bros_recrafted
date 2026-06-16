@@ -26,6 +26,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/fishing/fish/troupple"
+		"function": "ssbrc:game/logic/fishing/fish/troupple"
 	}
 }

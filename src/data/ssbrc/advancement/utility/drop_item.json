@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/player/drop_item/check"
+		"function": "ssbrc:game/logic/player/drop_item/check"
 	}
 }

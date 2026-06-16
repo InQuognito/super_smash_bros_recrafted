@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/mega_man/metal_blade/activate"
+		"function": "ssbrc:game/fighter/mega_man/metal_blade/activate"
 	}
 }

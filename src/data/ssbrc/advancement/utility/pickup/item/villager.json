@@ -41,6 +41,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/villager/shovel/item/pickup/check"
+		"function": "ssbrc:game/fighter/villager/shovel/item/pickup/check"
 	}
 }

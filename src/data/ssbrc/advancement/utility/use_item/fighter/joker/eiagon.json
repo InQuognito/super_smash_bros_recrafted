@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/joker/eiagon/activate"
+		"function": "ssbrc:game/fighter/joker/eiagon/activate"
 	}
 }

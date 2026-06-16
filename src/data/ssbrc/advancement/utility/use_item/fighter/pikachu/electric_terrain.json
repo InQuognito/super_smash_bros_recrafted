@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/pikachu/electric_terrain/check"
+		"function": "ssbrc:game/fighter/pikachu/electric_terrain/check"
 	}
 }

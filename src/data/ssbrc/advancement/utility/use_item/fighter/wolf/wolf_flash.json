@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/wolf/wolf_flash/activate"
+		"function": "ssbrc:game/fighter/wolf/wolf_flash/activate"
 	}
 }

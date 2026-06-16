@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/fox/reflector/activate"
+		"function": "ssbrc:game/fighter/fox/reflector/activate"
 	}
 }

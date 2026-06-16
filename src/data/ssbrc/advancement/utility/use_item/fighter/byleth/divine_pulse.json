@@ -33,6 +33,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/byleth/divine_pulse/activate"
+		"function": "ssbrc:game/fighter/byleth/divine_pulse/activate"
 	}
 }

@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/mega_man/hyper_bomb/activate"
+		"function": "ssbrc:game/fighter/mega_man/hyper_bomb/activate"
 	}
 }

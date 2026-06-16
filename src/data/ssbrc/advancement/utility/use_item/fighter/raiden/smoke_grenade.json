@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/raiden/smoke_grenade/activate"
+		"function": "ssbrc:game/fighter/raiden/smoke_grenade/activate"
 	}
 }

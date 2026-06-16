@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/villager/timmy/activate"
+		"function": "ssbrc:game/fighter/villager/timmy/activate"
 	}
 }

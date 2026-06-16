@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:fighter/sora/wisdom_attack/activate"
+					"function": "ssbrc:game/fighter/sora/wisdom_attack/activate"
 				}
 			}
 		]

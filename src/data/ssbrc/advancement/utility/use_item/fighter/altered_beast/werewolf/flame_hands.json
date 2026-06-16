@@ -36,6 +36,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/altered_beast/werewolf/flame_hands/activate"
+		"function": "ssbrc:game/fighter/altered_beast/werewolf/flame_hands/activate"
 	}
 }

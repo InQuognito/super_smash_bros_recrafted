@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/raiden/psg1/check"
+		"function": "ssbrc:game/fighter/raiden/psg1/check"
 	}
 }

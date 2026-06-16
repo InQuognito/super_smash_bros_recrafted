@@ -28,6 +28,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/pit/palutena_bow/charge"
+		"function": "ssbrc:game/fighter/pit/palutena_bow/charge"
 	}
 }

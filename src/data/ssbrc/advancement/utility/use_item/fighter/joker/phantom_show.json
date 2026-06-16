@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/joker/phantom_show/activate"
+		"function": "ssbrc:game/fighter/joker/phantom_show/activate"
 	}
 }

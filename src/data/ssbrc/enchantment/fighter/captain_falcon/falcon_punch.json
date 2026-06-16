@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:fighter/captain_falcon/falcon_punch/unleash"
+					"function": "ssbrc:game/fighter/captain_falcon/falcon_punch/unleash"
 				},
 				"requirements": [
 					{
@@ -52,7 +52,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:fighter/captain_falcon/falcon_punch/miss"
+					"function": "ssbrc:game/fighter/captain_falcon/falcon_punch/miss"
 				},
 				"requirements": {
 					"condition": "minecraft:all_of",

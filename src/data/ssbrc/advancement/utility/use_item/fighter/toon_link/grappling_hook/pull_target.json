@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/toon_link/grappling_hook/pull_target"
+		"function": "ssbrc:game/fighter/toon_link/grappling_hook/pull_target"
 	}
 }

@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/altered_beast/weretiger/sabretooth/activate"
+		"function": "ssbrc:game/fighter/altered_beast/weretiger/sabretooth/activate"
 	}
 }

@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/peach/turnip/activate"
+		"function": "ssbrc:game/fighter/peach/turnip/activate"
 	}
 }

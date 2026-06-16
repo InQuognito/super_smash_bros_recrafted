@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/raiden/m870_custom/check"
+		"function": "ssbrc:game/fighter/raiden/m870_custom/check"
 	}
 }

@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/captain_falcon/falcon_charge/activate"
+		"function": "ssbrc:game/fighter/captain_falcon/falcon_charge/activate"
 	}
 }

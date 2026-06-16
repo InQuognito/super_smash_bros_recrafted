@@ -1,0 +1,17 @@
+execute unless block ~ ~ ~ #ssbrc:passthrough run return run kill @s
+
+particle minecraft:fishing ^ ^ ^ .3 .05 .3 .01 5 normal @a
+
+execute positioned ~-.75 ~-.75 ~-.75 as @e[tag=!self,predicate=ssbrc:target,dx=0.5] run function ssbrc:game/logic/damage/generic {amount: 3, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
+execute if score #entity_hit temp matches 1 run return run kill @s
+
+teleport @s ^ ^ ^1.5
+
+scoreboard players operation #cache temp = #current world_time
+scoreboard players operation #cache temp %= #6 const
+execute if score #cache temp matches 0 run function ssbrc:fighter/greninja/water_shuriken/animation/1
+execute if score #cache temp matches 2 run function ssbrc:fighter/greninja/water_shuriken/animation/2
+execute if score #cache temp matches 4 run function ssbrc:fighter/greninja/water_shuriken/animation/3
+
+scoreboard players add @s temp 1
+kill @s[scores={temp=30..}]

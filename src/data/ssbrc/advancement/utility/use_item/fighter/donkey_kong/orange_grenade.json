@@ -33,6 +33,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/donkey_kong/orange_grenade/activate"
+		"function": "ssbrc:game/fighter/donkey_kong/orange_grenade/activate"
 	}
 }

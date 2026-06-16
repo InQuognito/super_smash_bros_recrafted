@@ -15,6 +15,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/player/selector/click"
+		"function": "ssbrc:game/logic/player/selector/click"
 	}
 }

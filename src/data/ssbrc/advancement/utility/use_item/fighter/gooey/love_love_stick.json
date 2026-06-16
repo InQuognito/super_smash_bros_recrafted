@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/gooey/love_love_stick/activate"
+		"function": "ssbrc:game/fighter/gooey/love_love_stick/activate"
 	}
 }

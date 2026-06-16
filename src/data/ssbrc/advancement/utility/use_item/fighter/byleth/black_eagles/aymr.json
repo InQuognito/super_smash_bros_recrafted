@@ -28,6 +28,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/byleth/black_eagles/ground_pound/charge"
+		"function": "ssbrc:game/fighter/byleth/black_eagles/ground_pound/charge"
 	}
 }

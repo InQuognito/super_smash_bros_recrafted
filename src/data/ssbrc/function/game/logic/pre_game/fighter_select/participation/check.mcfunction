@@ -1,0 +1,3 @@
+function ssbrc:game/logic/pre_game/fighter_select/participation/logic
+
+#execute if score #game_stage temp matches 0..1 as @a at @s if dimension ssbrc:fighter_select run function ssbrc:game/logic/pre_game/fighter_select/countdown

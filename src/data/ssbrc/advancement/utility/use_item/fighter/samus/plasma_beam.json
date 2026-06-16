@@ -28,6 +28,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/samus/plasma_beam/activate"
+		"function": "ssbrc:game/fighter/samus/plasma_beam/activate"
 	}
 }

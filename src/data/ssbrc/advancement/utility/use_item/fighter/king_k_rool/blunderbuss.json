@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/king_k_rool/blunderbuss/activate"
+		"function": "ssbrc:game/fighter/king_k_rool/blunderbuss/activate"
 	}
 }

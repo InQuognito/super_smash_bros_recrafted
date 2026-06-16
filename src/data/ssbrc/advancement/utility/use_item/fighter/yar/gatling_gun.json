@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/yar/gatling_gun/charge"
+		"function": "ssbrc:game/fighter/yar/gatling_gun/charge"
 	}
 }

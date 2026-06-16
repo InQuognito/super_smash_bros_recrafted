@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/zelda/inventory_refresh/check"
+		"function": "ssbrc:game/fighter/zelda/inventory_refresh/check"
 	}
 }
