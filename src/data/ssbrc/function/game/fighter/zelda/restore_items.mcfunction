@@ -1,1 +1,1 @@
-function ssbrc:fighter/zelda/kit
+function ssbrc:game/fighter/zelda/kit

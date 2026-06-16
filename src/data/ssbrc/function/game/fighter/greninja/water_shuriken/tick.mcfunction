@@ -9,9 +9,9 @@ teleport @s ^ ^ ^1.5
 
 scoreboard players operation #cache temp = #current world_time
 scoreboard players operation #cache temp %= #6 const
-execute if score #cache temp matches 0 run function ssbrc:fighter/greninja/water_shuriken/animation/1
-execute if score #cache temp matches 2 run function ssbrc:fighter/greninja/water_shuriken/animation/2
-execute if score #cache temp matches 4 run function ssbrc:fighter/greninja/water_shuriken/animation/3
+execute if score #cache temp matches 0 run function ssbrc:game/fighter/greninja/water_shuriken/animation/1
+execute if score #cache temp matches 2 run function ssbrc:game/fighter/greninja/water_shuriken/animation/2
+execute if score #cache temp matches 4 run function ssbrc:game/fighter/greninja/water_shuriken/animation/3
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=30..}]

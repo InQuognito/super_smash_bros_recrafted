@@ -2,7 +2,7 @@ $execute unless items entity @s container.* *[minecraft:custom_data~{item: "$(it
 
 $scoreboard players operation @s capacity += #snake.$(item).weight const
 
-function ssbrc:fighter/snake/load/set
+function ssbrc:game/fighter/snake/load/set
 
 $scoreboard players operation @s weapon_$(id).ammo += #snake.$(item).scavenger const
 

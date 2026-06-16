@@ -7,4 +7,4 @@ execute if score #random temp matches 4 unless items entity @s container.* *[min
 execute if score #random temp matches 5 unless items entity @s container.* *[minecraft:custom_data~{item: "propeller_dagger"}] run return run function ssbrc:game/logic/item/give/default {item: "propeller_dagger", class: "default", type: "default"}
 execute if score #random temp matches 6 unless items entity @s container.* *[minecraft:custom_data~{item: "war_horn"}] run return run function ssbrc:game/logic/item/give/default {item: "war_horn", class: "default", type: "default"}
 
-function ssbrc:fighter/shovel_knight/get_relic
+function ssbrc:game/fighter/shovel_knight/get_relic

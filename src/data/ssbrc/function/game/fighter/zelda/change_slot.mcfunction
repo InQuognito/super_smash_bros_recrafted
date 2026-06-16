@@ -1,1 +1,1 @@
-function ssbrc:fighter/zelda/magic/update
+function ssbrc:game/fighter/zelda/magic/update

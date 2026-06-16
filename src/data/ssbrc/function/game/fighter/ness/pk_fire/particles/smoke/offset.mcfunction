@@ -3,4 +3,4 @@ execute store result storage ssbrc:temp cache.pk_fire.y double .05 run random va
 execute store result storage ssbrc:temp cache.pk_fire.z double .05 run random value -10..10
 execute store result storage ssbrc:temp cache.pk_fire.speed double 1 run random value 7..9
 
-function ssbrc:fighter/ness/pk_fire/particles/smoke/fire with storage ssbrc:temp cache.pk_fire
+function ssbrc:game/fighter/ness/pk_fire/particles/smoke/fire with storage ssbrc:temp cache.pk_fire

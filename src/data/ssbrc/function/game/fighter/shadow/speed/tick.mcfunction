@@ -28,6 +28,6 @@ attribute @s[scores={flag.sprinting=52..53}] minecraft:movement_speed modifier a
 attribute @s[scores={flag.sprinting=54..55}] minecraft:movement_speed modifier add ssbrc:passive .0378 add_value
 attribute @s[scores={flag.sprinting=56..57}] minecraft:movement_speed modifier add ssbrc:passive .0406 add_value
 attribute @s[scores={flag.sprinting=58..59}] minecraft:movement_speed modifier add ssbrc:passive .0435 add_value
-execute if score @s flag.sprinting matches 60.. positioned ~ ~.1 ~ run function ssbrc:fighter/shadow/speed/full
+execute if score @s flag.sprinting matches 60.. positioned ~ ~.1 ~ run function ssbrc:game/fighter/shadow/speed/full
 
-function ssbrc:fighter/shadow/speed/hud
+function ssbrc:game/fighter/shadow/speed/hud

@@ -1,3 +1,3 @@
 scoreboard players set #n temp 6
 
-function ssbrc:fighter/fox/fire_fox/raycast/loop
+function ssbrc:game/fighter/fox/fire_fox/raycast/loop

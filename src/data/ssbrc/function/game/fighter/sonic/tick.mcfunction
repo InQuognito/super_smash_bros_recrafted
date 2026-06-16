@@ -8,6 +8,6 @@ scoreboard players add @s[scores={shadow.chaos_control=..0,flag.sprinting=..44},
 execute if score #in_electric_terrain temp matches 1 run scoreboard players set @s flag.sprinting 45
 scoreboard players set @s[scores={silenced=1..}] flag.sprinting 0
 
-function ssbrc:fighter/sonic/speed/tick
+function ssbrc:game/fighter/sonic/speed/tick
 
 function ssbrc:game/logic/game/entity/player/ability/deinit

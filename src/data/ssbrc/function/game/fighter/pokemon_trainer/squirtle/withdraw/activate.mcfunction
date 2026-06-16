@@ -1,6 +1,6 @@
-function ssbrc:fighter/pokemon_trainer/squirtle/withdraw/reset
+function ssbrc:game/fighter/pokemon_trainer/squirtle/withdraw/reset
 
-function ssbrc:fighter/pokemon_trainer/squirtle/withdraw/particles/end
+function ssbrc:game/fighter/pokemon_trainer/squirtle/withdraw/particles/end
 
 effect give @s minecraft:resistance 30 0 true
 

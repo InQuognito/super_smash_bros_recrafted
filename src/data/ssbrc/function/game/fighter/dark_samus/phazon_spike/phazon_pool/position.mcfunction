@@ -15,4 +15,4 @@ execute if predicate ssbrc:random_chance/50 run scoreboard players operation off
 execute store result entity @s Pos[2] double .5 run scoreboard players operation pos_z_adjusted temp += offset_z temp
 
 # Check for valid spawn area
-execute at @s if block ~ ~-.1 ~ #ssbrc:passthrough run function ssbrc:fighter/dark_samus/phazon_spike/phazon_pool/position
+execute at @s if block ~ ~-.1 ~ #ssbrc:passthrough run function ssbrc:game/fighter/dark_samus/phazon_spike/phazon_pool/position

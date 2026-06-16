@@ -1,4 +1,4 @@
-function ssbrc:fighter/sora/drive_forms/update {form: "master"}
+function ssbrc:game/fighter/sora/drive_forms/update {form: "master"}
 
 tag @s add hud_disabled
 title @s actionbar ""

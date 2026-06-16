@@ -1,14 +1,14 @@
 function ssbrc:game/logic/game/entity/player/ability/init
 
 # Chaos Spear
-execute if score @s charge.1 matches 1.. anchored eyes positioned ^ ^ ^ run function ssbrc:fighter/shadow/chaos_spear/charge
+execute if score @s charge.1 matches 1.. anchored eyes positioned ^ ^ ^ run function ssbrc:game/fighter/shadow/chaos_spear/charge
 
 # Chaos Blast
-execute if score @s charge.2 matches 1.. positioned ~ ~.75 ~ run function ssbrc:fighter/shadow/chaos_blast/charge
+execute if score @s charge.2 matches 1.. positioned ~ ~.75 ~ run function ssbrc:game/fighter/shadow/chaos_blast/charge
 scoreboard players set @s[scores={charge.2=101..}] charge.2 0
 
 # Chaos Snap
-execute if score @s[tag=chaos_boost,scores={silenced=..0,jump.cooldown=..0,cooldown.1=..0},predicate=ssbrc:input/jump] resource >= #shadow.chaos_snap const run function ssbrc:fighter/shadow/chaos_snap/activate
+execute if score @s[tag=chaos_boost,scores={silenced=..0,jump.cooldown=..0,cooldown.1=..0},predicate=ssbrc:input/jump] resource >= #shadow.chaos_snap const run function ssbrc:game/fighter/shadow/chaos_snap/activate
 
 # Acceleration
 scoreboard players set @s[scores={flag.sprinting=..-1}] flag.sprinting 0
@@ -19,6 +19,6 @@ scoreboard players add @s[scores={shadow.chaos_control=..0,flag.sprinting=..59},
 execute if score #in_electric_terrain temp matches 1 run scoreboard players set @s flag.sprinting 60
 scoreboard players set @s[scores={silenced=1..}] flag.sprinting 0
 
-function ssbrc:fighter/shadow/speed/tick
+function ssbrc:game/fighter/shadow/speed/tick
 
 function ssbrc:game/logic/game/entity/player/ability/deinit

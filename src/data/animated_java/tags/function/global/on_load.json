@@ -17,6 +17,6 @@
 		"ssbrc:entity/pokemon/sudowoodo/rig/on_load",
 		"ssbrc:entity/pokemon/tyrogue/rig/on_load",
 		"ssbrc:entity/super_mario_bros/boo/rig/on_load",
-		"ssbrc:fighter/mega_man/beat_call/rig/on_load"
+		"ssbrc:game/fighter/mega_man/beat_call/rig/on_load"
 	]
 }

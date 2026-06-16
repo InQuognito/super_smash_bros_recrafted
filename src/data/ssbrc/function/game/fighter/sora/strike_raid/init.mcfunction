@@ -9,4 +9,4 @@ execute if items entity @a[tag=self,limit=1] weapon.mainhand *[minecraft:custom_
 function ssbrc:entity/_init/projectile/horizontal
 
 data merge entity @s {item_display: "head", teleport_duration: 1}
-function ssbrc:fighter/sora/strike_raid/animation/1
+function ssbrc:game/fighter/sora/strike_raid/animation/1

@@ -1,1 +1,1 @@
-$function ssbrc:fighter/$(fighter)/menu/skin/random
+$function ssbrc:game/fighter/$(fighter)/menu/skin/random

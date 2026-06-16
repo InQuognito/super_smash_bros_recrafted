@@ -8,4 +8,4 @@ execute if score #random temp matches 5 unless score #tornadoes temp matches 3..
 execute if score #random temp matches 6 unless score #tornadoes temp matches 3.. positioned 7028.5 37 164.5 run return run function ssbrc:entity/common/tornado/rig/summon {args: {animation: "spin", start_animation: true}}
 execute if score #random temp matches 7 unless score #tornadoes temp matches 3.. positioned 7028.5 37 219.5 run return run function ssbrc:entity/common/tornado/rig/summon {args: {animation: "spin", start_animation: true}}
 
-function ssbrc:stage/hyrule_castle/hazards/choose
+function ssbrc:game/stage/hyrule_castle/hazards/choose

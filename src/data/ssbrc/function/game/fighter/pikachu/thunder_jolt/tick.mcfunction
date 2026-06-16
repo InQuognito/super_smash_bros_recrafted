@@ -10,7 +10,7 @@ execute if score @s point < #pikachu.thunder_jolt const run scoreboard players o
 execute if score @s point > #pikachu.thunder_jolt const run scoreboard players operation @s point = #pikachu.thunder_jolt const
 execute if score @s point < #pikachu.thunder_jolt const run scoreboard players remove @s slope 20
 
-execute if score @s point matches 1.. unless block ~ ~-.15 ~ #ssbrc:passthrough run function ssbrc:fighter/pikachu/thunder_jolt/bounce
+execute if score @s point matches 1.. unless block ~ ~-.15 ~ #ssbrc:passthrough run function ssbrc:game/fighter/pikachu/thunder_jolt/bounce
 
 execute rotated as @s run teleport @s ^ ^ ^1
 

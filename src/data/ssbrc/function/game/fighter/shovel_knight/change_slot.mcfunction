@@ -1,1 +1,1 @@
-function ssbrc:fighter/shovel_knight/magic/update
+function ssbrc:game/fighter/shovel_knight/magic/update

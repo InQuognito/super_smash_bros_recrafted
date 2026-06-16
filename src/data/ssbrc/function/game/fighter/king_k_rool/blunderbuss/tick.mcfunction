@@ -1,10 +1,10 @@
-function ssbrc:fighter/king_k_rool/blunderbuss/particle
+function ssbrc:game/fighter/king_k_rool/blunderbuss/particle
 
-execute unless block ~ ~-.1 ~ #ssbrc:passthrough unless entity @s[tag=hit_ground] run function ssbrc:fighter/king_k_rool/blunderbuss/land
+execute unless block ~ ~-.1 ~ #ssbrc:passthrough unless entity @s[tag=hit_ground] run function ssbrc:game/fighter/king_k_rool/blunderbuss/land
 
 execute if entity @s[tag=!hit_ground] positioned ~-.4 ~-.4 ~-.4 as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dx=0] positioned ~-.2 ~-.2 ~-.2 if entity @s[dx=0] run function ssbrc:game/logic/damage/generic {amount: 6, type: "pierce", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
 
-execute if entity @s[tag=!hit_ground,scores={temp=41}] run function ssbrc:fighter/king_k_rool/blunderbuss/drop
+execute if entity @s[tag=!hit_ground,scores={temp=41}] run function ssbrc:game/fighter/king_k_rool/blunderbuss/drop
 
 teleport @s[tag=!hit_ground,scores={temp=..40}] ^ ^ ^.2
 

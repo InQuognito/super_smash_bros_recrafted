@@ -1,4 +1,4 @@
 scoreboard players add @s npc_ko 1
 
-execute if items entity @s[predicate=ssbrc:random_chance/40] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "joker"}}}] unless score @s duration.1 matches 1.. run return run function ssbrc:fighter/joker/mask/get
-execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "zelda"}}}] run return run function ssbrc:fighter/zelda/kill/npc
+execute if items entity @s[predicate=ssbrc:random_chance/40] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "joker"}}}] unless score @s duration.1 matches 1.. run return run function ssbrc:game/fighter/joker/mask/get
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "zelda"}}}] run return run function ssbrc:game/fighter/zelda/kill/npc

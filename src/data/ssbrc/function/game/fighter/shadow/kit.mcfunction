@@ -4,4 +4,4 @@ function ssbrc:game/logic/item/init/slot {item: "chaos_spear", slot: "hotbar.1",
 
 scoreboard players set @s resource 0
 
-function ssbrc:fighter/shadow/chaos_gauge/update
+function ssbrc:game/fighter/shadow/chaos_gauge/update

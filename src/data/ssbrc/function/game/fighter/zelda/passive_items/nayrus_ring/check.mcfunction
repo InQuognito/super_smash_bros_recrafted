@@ -5,4 +5,4 @@ function ssbrc:game/logic/item/modify {search_key: "item", search_value: "nayrus
 
 execute unless predicate ssbrc:flag/effects/resistance run return run effect give @s minecraft:resistance infinite 255 true
 
-function ssbrc:fighter/zelda/passive_items/nayrus_ring/active
+function ssbrc:game/fighter/zelda/passive_items/nayrus_ring/active

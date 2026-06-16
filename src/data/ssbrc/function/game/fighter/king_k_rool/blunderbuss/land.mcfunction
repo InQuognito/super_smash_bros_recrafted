@@ -1,8 +1,8 @@
 tag @s add hit_ground
-execute facing ~ ~-1 ~ run function ssbrc:fighter/king_k_rool/blunderbuss/particles/2
-execute facing ~ ~-1 ~ run function ssbrc:fighter/king_k_rool/blunderbuss/particles/3
-execute facing ~ ~-1 ~ run function ssbrc:fighter/king_k_rool/blunderbuss/particles/4
-execute facing ~ ~-1 ~ run function ssbrc:fighter/king_k_rool/blunderbuss/particles/5
+execute facing ~ ~-1 ~ run function ssbrc:game/fighter/king_k_rool/blunderbuss/particles/2
+execute facing ~ ~-1 ~ run function ssbrc:game/fighter/king_k_rool/blunderbuss/particles/3
+execute facing ~ ~-1 ~ run function ssbrc:game/fighter/king_k_rool/blunderbuss/particles/4
+execute facing ~ ~-1 ~ run function ssbrc:game/fighter/king_k_rool/blunderbuss/particles/5
 
 execute as @e[tag=!self,predicate=ssbrc:target,distance=..2] unless block ~ ~-.1 ~ #ssbrc:passthrough run function ssbrc:game/logic/damage/generic {amount: 8, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
 execute as @a[tag=self,limit=1,distance=..2] run function ssbrc:game/logic/damage/generic {amount: 8, type: "generic", kb_resist: 0, source: ""}

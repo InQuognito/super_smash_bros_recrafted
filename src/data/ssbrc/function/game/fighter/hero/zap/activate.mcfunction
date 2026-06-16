@@ -1,1 +1,1 @@
-execute summon minecraft:marker run function ssbrc:fighter/hero/zap/init
+execute summon minecraft:marker run function ssbrc:game/fighter/hero/zap/init

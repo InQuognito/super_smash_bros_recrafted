@@ -1,3 +1,3 @@
 scoreboard players add @s magic 1
 
-function ssbrc:fighter/hero/magic/update
+function ssbrc:game/fighter/hero/magic/update

@@ -6,4 +6,4 @@ scoreboard players add #out math 1500
 scoreboard players operation #out math /= #200 const
 
 scoreboard players operation #length_inner temp = #out math
-execute facing ^ ^1 ^ run function ssbrc:fighter/altered_beast/weretiger/sabretooth/raycast/loop_inner
+execute facing ^ ^1 ^ run function ssbrc:game/fighter/altered_beast/weretiger/sabretooth/raycast/loop_inner

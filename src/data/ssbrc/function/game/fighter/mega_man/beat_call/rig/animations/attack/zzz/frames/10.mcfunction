@@ -3,4 +3,4 @@ $data merge entity $(mouth) {transformation: [-1f,0f,0f,0f,0f,0.7071f,0.7071f,-0
 $data merge entity $(right_wing) {transformation: [-1f,0f,0f,-0.3875f,0f,1f,0f,-0.1875f,0f,0f,-1f,-0.3281f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(left_wing) {transformation: [-1f,0f,0f,0.3875f,0f,1f,0f,-0.1875f,0f,0f,-1f,-0.3281f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(beat) {transformation: [-1f,0f,0f,0f,0f,1f,0f,-0.0625f,0f,0f,-1f,-0.25f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
-execute unless entity @s[tag=aj.transforms_only] at @s run function ssbrc:fighter/mega_man/beat_call/rig/animations/attack/zzz/frames/10_root_function
+execute unless entity @s[tag=aj.transforms_only] at @s run function ssbrc:game/fighter/mega_man/beat_call/rig/animations/attack/zzz/frames/10_root_function

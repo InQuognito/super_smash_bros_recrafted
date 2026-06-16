@@ -1,1 +1,1 @@
-function ssbrc:fighter/pit/wings/regain/activate
+function ssbrc:game/fighter/pit/wings/regain/activate

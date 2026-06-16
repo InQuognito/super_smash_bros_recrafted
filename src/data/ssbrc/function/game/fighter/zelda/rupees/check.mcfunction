@@ -1,4 +1,4 @@
-function ssbrc:fighter/zelda/rupees/calculate
+function ssbrc:game/fighter/zelda/rupees/calculate
 
 execute if score #rupee_adjusted temp < #great_fairy_blessing.cost temp run function ssbrc:game/logic/item/modify {search_key: "item", search_value: "great_fairy_blessing", path: "ssbrc:init/ability/disable"}
 

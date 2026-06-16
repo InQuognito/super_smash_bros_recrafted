@@ -1,1 +1,1 @@
-function ssbrc:fighter/hero/kit
+function ssbrc:game/fighter/hero/kit

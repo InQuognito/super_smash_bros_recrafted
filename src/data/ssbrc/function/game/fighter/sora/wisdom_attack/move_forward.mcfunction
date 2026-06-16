@@ -10,4 +10,4 @@ execute anchored eyes if entity @e[predicate=ssbrc:target,distance=.1..3] facing
 teleport @s ^ ^ ^.25
 
 scoreboard players remove #n temp 1
-execute if score #n temp matches 1.. at @s run function ssbrc:fighter/sora/wisdom_attack/move_forward
+execute if score #n temp matches 1.. at @s run function ssbrc:game/fighter/sora/wisdom_attack/move_forward

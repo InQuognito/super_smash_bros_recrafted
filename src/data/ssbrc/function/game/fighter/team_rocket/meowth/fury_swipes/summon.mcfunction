@@ -1,7 +1,7 @@
 scoreboard players operation #n temp = @s charge.2
-execute summon minecraft:marker run function ssbrc:fighter/team_rocket/meowth/fury_swipes/init
+execute summon minecraft:marker run function ssbrc:game/fighter/team_rocket/meowth/fury_swipes/init
 
 scoreboard players set @s charge.1 0
 
 scoreboard players remove @s charge.2 1
-execute if score @s charge.2 matches 0 run function ssbrc:fighter/team_rocket/meowth/fury_swipes/deactivate
+execute if score @s charge.2 matches 0 run function ssbrc:game/fighter/team_rocket/meowth/fury_swipes/deactivate

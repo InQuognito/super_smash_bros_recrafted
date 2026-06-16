@@ -8,4 +8,4 @@ execute if score fruit temp matches 7 run data modify storage ssbrc:temp cache.f
 execute if score fruit temp matches 8 run data modify storage ssbrc:temp cache.fruit set value "key"
 execute if score fruit temp matches 8.. run scoreboard players set fruit temp 0
 
-execute positioned 23360.5 6.5 8642.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/fruit/init with storage ssbrc:temp cache
+execute positioned 23360.5 6.5 8642.5 summon minecraft:item_display run function ssbrc:game/stage/pac_maze/fruit/init with storage ssbrc:temp cache

@@ -5,4 +5,4 @@ execute if data storage ssbrc:temp game.stage{variant:"mrs_pac_maze"} run telepo
 
 data modify entity @s data.state set value "active"
 
-function ssbrc:stage/pac_maze/ghosts/animation/update with entity @s data
+function ssbrc:game/stage/pac_maze/ghosts/animation/update with entity @s data

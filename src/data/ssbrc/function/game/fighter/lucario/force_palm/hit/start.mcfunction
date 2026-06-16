@@ -4,4 +4,4 @@ scoreboard players set #i temp 0
 $scoreboard players set #n temp $(range)
 $scoreboard players set #crit_threshold temp $(crit_threshold)
 
-function ssbrc:fighter/lucario/force_palm/hit/loop
+function ssbrc:game/fighter/lucario/force_palm/hit/loop

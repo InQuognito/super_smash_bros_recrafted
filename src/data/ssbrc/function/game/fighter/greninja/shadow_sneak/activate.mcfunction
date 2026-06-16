@@ -1,6 +1,6 @@
 function ssbrc:game/logic/game/entity/player/ability/init
 
-execute summon minecraft:marker run function ssbrc:fighter/greninja/shadow_sneak/init
+execute summon minecraft:marker run function ssbrc:game/fighter/greninja/shadow_sneak/init
 
 tag @s add shadow_sneak
 

@@ -45,4 +45,4 @@ $item modify entity @s $(slot) [ \
 ]
 
 scoreboard players add @s cooldown 5
-function ssbrc:fighter/sora/magic/update
+function ssbrc:game/fighter/sora/magic/update

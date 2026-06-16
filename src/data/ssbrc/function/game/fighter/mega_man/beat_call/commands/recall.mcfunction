@@ -2,4 +2,4 @@ advancement revoke @s only ssbrc:utility/use_item/fighter/mega_man/beat_call/rec
 
 tag @n[tag=beat_call.target,distance=..3] remove beat_call.target
 
-execute as @n[type=minecraft:bee,tag=beat,predicate=ssbrc:owner] run function ssbrc:fighter/mega_man/beat_call/commands/entity/recall
+execute as @n[type=minecraft:bee,tag=beat,predicate=ssbrc:owner] run function ssbrc:game/fighter/mega_man/beat_call/commands/entity/recall

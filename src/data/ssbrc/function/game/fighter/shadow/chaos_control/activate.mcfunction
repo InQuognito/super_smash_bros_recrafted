@@ -5,10 +5,10 @@ tag @s add self
 
 particle minecraft:sonic_boom ~ ~.75 ~ 0 0 0 0 1 normal @a
 
-execute as @e[tag=!self,predicate=ssbrc:target,predicate=!ssbrc:team_match] run function ssbrc:fighter/shadow/chaos_control/effects
+execute as @e[tag=!self,predicate=ssbrc:target,predicate=!ssbrc:team_match] run function ssbrc:game/fighter/shadow/chaos_control/effects
 
 scoreboard players operation @s resource -= #shadow.chaos_control const
-function ssbrc:fighter/shadow/chaos_gauge/update
+function ssbrc:game/fighter/shadow/chaos_gauge/update
 
 playsound ssbrc:fighter.shadow.chaos_control.activate player @s
 

@@ -3,4 +3,4 @@ scoreboard players set @s[scores={rotation=360..}] rotation 0
 
 execute store result storage ssbrc:temp cache.rotation int 1 run scoreboard players get @s rotation
 
-function ssbrc:fighter/mega_man/junk_shield/rotation/set with storage ssbrc:temp cache
+function ssbrc:game/fighter/mega_man/junk_shield/rotation/set with storage ssbrc:temp cache

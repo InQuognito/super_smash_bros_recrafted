@@ -14,8 +14,8 @@ fill -30 -7 -45 25 9 18 minecraft:redstone_wall_torch[facing=west] replace minec
 fill -30 -7 -45 25 9 18 minecraft:blast_furnace[facing=north,lit=false] replace minecraft:blast_furnace[facing=north]
 fill -30 -7 -45 25 9 18 minecraft:blast_furnace[facing=east,lit=false] replace minecraft:blast_furnace[facing=east]
 
-execute as @e[type=minecraft:item_display,tag=lantern_off] at @s run function ssbrc:stage/luigis_mansion/blackout/lanterns/deactivate
+execute as @e[type=minecraft:item_display,tag=lantern_off] at @s run function ssbrc:game/stage/luigis_mansion/blackout/lanterns/deactivate
 
 execute as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:stage.luigis_mansion.blackout ambient @s
 
-schedule function ssbrc:stage/luigis_mansion/blackout/deactivate 40s replace
+schedule function ssbrc:game/stage/luigis_mansion/blackout/deactivate 40s replace

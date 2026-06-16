@@ -1,3 +1,3 @@
 scoreboard players reset @s timer
 
-function ssbrc:fighter/roy/crossfire/check
+function ssbrc:game/fighter/roy/crossfire/check

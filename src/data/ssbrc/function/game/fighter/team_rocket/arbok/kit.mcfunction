@@ -1,4 +1,4 @@
-function ssbrc:fighter/team_rocket/update {form: "arbok"}
+function ssbrc:game/fighter/team_rocket/update {form: "arbok"}
 
 function ssbrc:game/logic/item/init/slot {item: "poison_jab", slot: "hotbar.0", class: "weapon", type: "enchanted"}
 
@@ -12,7 +12,7 @@ item modify entity @s hotbar.2 { \
 	}, \
 }
 
-execute anchored eyes positioned ^ ^ ^-1 summon minecraft:bee run function ssbrc:fighter/team_rocket/weezing/init
+execute anchored eyes positioned ^ ^ ^-1 summon minecraft:bee run function ssbrc:game/fighter/team_rocket/weezing/init
 
 item modify entity @s armor.chest [ \
 	{ \

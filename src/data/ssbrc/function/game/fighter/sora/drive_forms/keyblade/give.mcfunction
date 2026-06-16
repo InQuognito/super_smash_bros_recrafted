@@ -1,3 +1,3 @@
 function ssbrc:game/logic/item/give/default {item: "keyblade_primary", class: "default", type: "default"}
 
-function ssbrc:fighter/sora/spell_switch/fire/find/get
+function ssbrc:game/fighter/sora/spell_switch/fire/find/get

@@ -1,4 +1,4 @@
-function ssbrc:fighter/jigglypuff/hyper_voice/particle
+function ssbrc:game/fighter/jigglypuff/hyper_voice/particle
 
 execute unless block ^ ^ ^.1 #ssbrc:passthrough run kill @s
 

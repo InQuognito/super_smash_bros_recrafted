@@ -10,7 +10,7 @@ $weather $(weather)
 
 $execute unless data storage ssbrc:data option{game_mode: "ctf"} run function ssbrc:game/logic/stage/load/smash {name: "$(name)"}
 
-$function ssbrc:stage/$(name)/load with storage ssbrc:temp cache.stage_select
+$function ssbrc:game/stage/$(name)/load with storage ssbrc:temp cache.stage_select
 
 function ssbrc:game/logic/pre_game/prepare_match
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:game/logic/pre_game/prepare_players

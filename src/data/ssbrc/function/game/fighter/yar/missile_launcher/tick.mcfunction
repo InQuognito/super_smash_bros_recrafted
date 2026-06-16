@@ -1,10 +1,10 @@
-execute unless block ^ ^ ^.1 #ssbrc:passthrough run return run function ssbrc:fighter/yar/missile_launcher/explode
+execute unless block ^ ^ ^.1 #ssbrc:passthrough run return run function ssbrc:game/fighter/yar/missile_launcher/explode
 
 particle minecraft:small_flame ^ ^ ^-.25 0.025 0.025 0.025 0 5 normal @a
 particle minecraft:smoke ^ ^ ^-.3 0 0 0 0 1 normal @a
 
 execute positioned ~-.25 ~-.25 ~-.25 as @n[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-.5 ~-.5 ~-.5 if entity @s[dx=0] run scoreboard players set #entity_hit temp 1
-execute if score #entity_hit temp matches 1 run return run function ssbrc:fighter/yar/missile_launcher/explode
+execute if score #entity_hit temp matches 1 run return run function ssbrc:game/fighter/yar/missile_launcher/explode
 
 teleport @s[scores={temp=0..}] ^ ^ ^.50
 execute at @s run teleport @s[scores={temp=5..}] ^ ^ ^.05
@@ -19,4 +19,4 @@ execute at @s run teleport @s[scores={temp=45..}] ^ ^ ^.05
 execute at @s run teleport @s[scores={temp=50..}] ^ ^ ^.05
 
 scoreboard players add @s temp 1
-execute if score @s temp matches 100.. run function ssbrc:fighter/yar/missile_launcher/explode
+execute if score @s temp matches 100.. run function ssbrc:game/fighter/yar/missile_launcher/explode

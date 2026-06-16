@@ -1,3 +1,3 @@
 scoreboard players operation sora.spell.cost temp = #sora.firaza const
 
-execute if score @s magic >= sora.spell.cost temp run function ssbrc:fighter/sora/fire/firaza/activate
+execute if score @s magic >= sora.spell.cost temp run function ssbrc:game/fighter/sora/fire/firaza/activate

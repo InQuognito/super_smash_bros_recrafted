@@ -4,4 +4,4 @@ $tellraw @s[tag=!ignore_feedback] [{translate: "ssbrc.series.metal_gear.loadout.
 
 $tag @s add $(item)
 
-execute unless entity @s[tag=ignore_feedback] run function ssbrc:fighter/snake/menu/loadout/display_capacity
+execute unless entity @s[tag=ignore_feedback] run function ssbrc:game/fighter/snake/menu/loadout/display_capacity

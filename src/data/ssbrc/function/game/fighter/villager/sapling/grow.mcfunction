@@ -1,3 +1,3 @@
 tag @s add grown
 
-function ssbrc:fighter/villager/sapling/choose
+function ssbrc:game/fighter/villager/sapling/choose

@@ -19,6 +19,6 @@ scoreboard players set @s[tag=socom] weapon_4.ammo 8
 scoreboard players set @s[tag=c4] weapon_9.ammo 3
 scoreboard players set @s[tag=smoke_grenade] weapon_10.ammo 2
 
-function ssbrc:fighter/snake/load/set
+function ssbrc:game/fighter/snake/load/set
 
 tag @s add cloaked

@@ -1,6 +1,6 @@
 execute store result storage ssbrc:temp cache.n int 1 run scoreboard players add @s temp 1
 
-execute if score @s temp matches ..10 run function ssbrc:stage/miiverse/posts/like with storage ssbrc:temp cache
-execute if score @s temp matches 11.. run function ssbrc:stage/miiverse/posts/break
+execute if score @s temp matches ..10 run function ssbrc:game/stage/miiverse/posts/like with storage ssbrc:temp cache
+execute if score @s temp matches 11.. run function ssbrc:game/stage/miiverse/posts/break
 
 kill @n[type=#ssbrc:projectile,tag=!post,distance=..4]

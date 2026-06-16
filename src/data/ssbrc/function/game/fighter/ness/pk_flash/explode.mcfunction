@@ -2,7 +2,7 @@ particle minecraft:flash{color: 16777215} ~ ~ ~ 0 0 0 0 1 normal @a
 particle minecraft:explosion ~ ~ ~ 0 0 0 0 1 normal @a
 particle minecraft:composter ~ ~ ~ 1 1 1 0 100 normal @a
 
-execute as @e[tag=!self,predicate=ssbrc:target,distance=..2.5] run function ssbrc:fighter/ness/pk_flash/damage/decide
+execute as @e[tag=!self,predicate=ssbrc:target,distance=..2.5] run function ssbrc:game/fighter/ness/pk_flash/damage/decide
 
 kill @s
 

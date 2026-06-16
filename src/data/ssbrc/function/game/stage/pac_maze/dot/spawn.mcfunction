@@ -1,1 +1,1 @@
-$function ssbrc:stage/pac_maze/$(variant)/dot/spawn
+$function ssbrc:game/stage/pac_maze/$(variant)/dot/spawn

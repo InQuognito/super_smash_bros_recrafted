@@ -1,1 +1,1 @@
-function ssbrc:fighter/altered_beast/kits/centurion
+function ssbrc:game/fighter/altered_beast/kits/centurion

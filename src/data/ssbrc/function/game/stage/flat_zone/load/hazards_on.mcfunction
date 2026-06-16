@@ -1,4 +1,4 @@
-function ssbrc:stage/flat_zone/middle_platform/reset
+function ssbrc:game/stage/flat_zone/middle_platform/reset
 
-execute positioned -13 -1 12 summon minecraft:marker run function ssbrc:stage/flat_zone/turtle/init
-function ssbrc:stage/flat_zone/turtle/schedule
+execute positioned -13 -1 12 summon minecraft:marker run function ssbrc:game/stage/flat_zone/turtle/init
+function ssbrc:game/stage/flat_zone/turtle/schedule

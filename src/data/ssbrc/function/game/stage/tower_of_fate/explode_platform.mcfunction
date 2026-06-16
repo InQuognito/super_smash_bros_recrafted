@@ -1,4 +1,4 @@
-function ssbrc:stage/tower_of_fate/lower_tower/explosion/get {type: "small",variant:"large"}
+function ssbrc:game/stage/tower_of_fate/lower_tower/explosion/get {type: "small",variant:"large"}
 
 fill ~-2 ~-1 ~-2 ~2 ~ ~2 minecraft:air replace
 

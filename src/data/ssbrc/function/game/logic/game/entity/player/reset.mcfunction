@@ -59,10 +59,10 @@ tag @s remove adaptive_armor
 tag @s remove sword_spin
 
 # Lucario
-function ssbrc:fighter/lucario/aura/reset
+function ssbrc:game/fighter/lucario/aura/reset
 
 # Mega Man
-function ssbrc:fighter/mega_man/weapons/reset
+function ssbrc:game/fighter/mega_man/weapons/reset
 tag @s remove beat_call
 tag @s remove beat_call.target
 tag @s remove junk_shield
@@ -75,8 +75,8 @@ tag @s remove guardian_orbitars
 tag @s remove palutena_bow.split
 
 # Pokémon Trainer
-function ssbrc:fighter/pokemon_trainer/kits/reset
-function ssbrc:fighter/pokemon_trainer/ivysaur/leech_seed/reset
+function ssbrc:game/fighter/pokemon_trainer/kits/reset
+function ssbrc:game/fighter/pokemon_trainer/ivysaur/leech_seed/reset
 
 # Raiden
 tag @s remove aks_74u
@@ -112,4 +112,4 @@ tag @s remove wisdom
 tag @s remove destiny_bond
 
 # Zelda
-function ssbrc:fighter/zelda/blessings/reset
+function ssbrc:game/fighter/zelda/blessings/reset

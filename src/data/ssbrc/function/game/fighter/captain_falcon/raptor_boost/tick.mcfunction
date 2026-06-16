@@ -1,7 +1,7 @@
 particle minecraft:flame ~ ~.75 ~ .2 .4 .2 .05 25 force @a
 
 scoreboard players set #n temp 13
-function ssbrc:fighter/captain_falcon/raptor_boost/loop
+function ssbrc:game/fighter/captain_falcon/raptor_boost/loop
 
 execute if score #entity_hit temp matches 1 run return run kill @s
 

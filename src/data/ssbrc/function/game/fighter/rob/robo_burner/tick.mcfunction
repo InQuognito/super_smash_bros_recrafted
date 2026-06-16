@@ -3,7 +3,7 @@ scoreboard players add @s charge.2 1
 
 particle minecraft:cloud ~ ~-.4 ~ .3 0 .3 0.02 5 normal @a
 execute if score @s charge.2 matches 6 run playsound ssbrc:fighter.rob.robo_burner.activate player @a
-execute if score @s charge.2 matches 6.. run function ssbrc:fighter/rob/robo_burner/particle
+execute if score @s charge.2 matches 6.. run function ssbrc:game/fighter/rob/robo_burner/particle
 
 effect give @s[scores={charge.2=..5}] minecraft:slow_falling infinite 0 true
 effect give @s[scores={charge.2=6..10}] minecraft:levitation infinite 0 true
@@ -15,4 +15,4 @@ effect give @s[scores={charge.2=31..}] minecraft:levitation infinite 5 true
 
 execute if score @s cooldown.1 matches ..0 run function ssbrc:game/logic/item/cooldown/set/const {type: "1", value: "60"}
 
-execute if score @s resource matches ..0 run function ssbrc:fighter/rob/robo_burner/deactivate
+execute if score @s resource matches ..0 run function ssbrc:game/fighter/rob/robo_burner/deactivate

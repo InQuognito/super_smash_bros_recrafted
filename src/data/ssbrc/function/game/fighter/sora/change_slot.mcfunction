@@ -1,1 +1,1 @@
-function ssbrc:fighter/sora/magic/update
+function ssbrc:game/fighter/sora/magic/update

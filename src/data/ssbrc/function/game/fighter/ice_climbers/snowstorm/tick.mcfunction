@@ -3,7 +3,7 @@ particle minecraft:snowflake ~ ~ ~ .1 .1 .1 0.025 1 normal @a
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run return run kill @s
 
-execute positioned ~-.1 ~-.1 ~-.1 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-.8 ~-.8 ~-.8 if entity @s[dx=0] run function ssbrc:fighter/ice_climbers/snowstorm/hit
+execute positioned ~-.1 ~-.1 ~-.1 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-.8 ~-.8 ~-.8 if entity @s[dx=0] run function ssbrc:game/fighter/ice_climbers/snowstorm/hit
 execute if score #entity_hit temp matches 1 run return run kill @s
 
 teleport @s ^ ^ ^.3

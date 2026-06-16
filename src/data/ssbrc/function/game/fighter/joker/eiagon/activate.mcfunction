@@ -1,6 +1,6 @@
 function ssbrc:game/logic/game/entity/player/ability/init
 
-execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighter/joker/eiagon/init
+execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:game/fighter/joker/eiagon/init
 
 playsound ssbrc:fighter.joker.eiagon.activate player @a
 

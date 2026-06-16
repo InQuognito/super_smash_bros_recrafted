@@ -14,7 +14,7 @@ tag @s[scores={charge.2=10}] add anti_form
 tag @s[tag=always_anti] add anti_form
 tag @s[tag=never_anti] remove anti_form
 
-function ssbrc:fighter/sora/drive_forms/check
+function ssbrc:game/fighter/sora/drive_forms/check
 clear @s *[minecraft:custom_data~{group: "drive_form"}]
 
 playsound ssbrc:fighter.sora.drive_forms.activate player @a

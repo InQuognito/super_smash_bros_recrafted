@@ -5,4 +5,4 @@ scoreboard players operation #cache temp /= #30 const
 
 scoreboard players operation @s resource += #cache temp
 
-function ssbrc:fighter/cloud/limit/update
+function ssbrc:game/fighter/cloud/limit/update

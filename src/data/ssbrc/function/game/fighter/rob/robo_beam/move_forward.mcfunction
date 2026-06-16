@@ -2,7 +2,7 @@ execute if entity @s[tag=!large] run scoreboard players set robo_beam_size temp 
 execute if entity @s[tag=large] run scoreboard players set robo_beam_size temp 2
 
 execute if score robo_beam_size temp matches 1 run particle minecraft:dust_color_transition{from_color: [1,0,0], to_color: [1,1,1], scale: 1} ~ ~ ~ 0 0 0 .5 5 force @a
-execute if score robo_beam_size temp matches 2 run function ssbrc:fighter/rob/robo_beam/particles
+execute if score robo_beam_size temp matches 2 run function ssbrc:game/fighter/rob/robo_beam/particles
 
 execute unless block ~-.5 ~ ~ #ssbrc:passthrough run function ssbrc:game/logic/game/entity/player/projectile/bounce/x
 execute unless block ~.5 ~ ~ #ssbrc:passthrough run function ssbrc:game/logic/game/entity/player/projectile/bounce/x
@@ -17,4 +17,4 @@ execute if score robo_beam_size temp matches 2 positioned ~-.5 ~-.5 ~-.5 as @e[t
 execute rotated as @s run teleport @s ^ ^ ^.5
 
 scoreboard players remove #n temp 1
-execute if score #n temp matches 1.. at @s run function ssbrc:fighter/rob/robo_beam/move_forward
+execute if score #n temp matches 1.. at @s run function ssbrc:game/fighter/rob/robo_beam/move_forward

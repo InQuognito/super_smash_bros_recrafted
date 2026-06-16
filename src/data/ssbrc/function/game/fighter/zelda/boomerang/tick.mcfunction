@@ -2,19 +2,19 @@ execute unless block ^ ^ ^.3 #ssbrc:passthrough_barrier run scoreboard players s
 
 execute positioned ~-.2 ~-.2 ~-.2 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-.6 ~-.6 ~-.6 if entity @s[dx=0] run function ssbrc:game/logic/damage/generic {amount: 6, type: "pierce", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
 
-execute positioned ~-.2 ~-.2 ~-.2 as @a[tag=self,limit=1,dx=0] positioned ~-.6 ~-.6 ~-.6 if entity @s[dx=0] run function ssbrc:fighter/zelda/boomerang/regain
+execute positioned ~-.2 ~-.2 ~-.2 as @a[tag=self,limit=1,dx=0] positioned ~-.6 ~-.6 ~-.6 if entity @s[dx=0] run function ssbrc:game/fighter/zelda/boomerang/regain
 
 teleport @e[type=minecraft:item,distance=..1] @s
 
 scoreboard players add @s temp 1
 execute unless score @s temp matches 20.. rotated as @s run teleport @s ^ ^ ^.6
-execute if score @s temp matches 20.. facing entity @a[tag=self,limit=1] eyes run function ssbrc:fighter/zelda/boomerang/return
+execute if score @s temp matches 20.. facing entity @a[tag=self,limit=1] eyes run function ssbrc:game/fighter/zelda/boomerang/return
 
 scoreboard players operation display temp = @s temp
 scoreboard players operation display temp %= #6 const
-execute if score display temp matches 0 run function ssbrc:fighter/link/boomerang/animation/1
-execute if score display temp matches 2 run function ssbrc:fighter/link/boomerang/animation/2
-execute if score display temp matches 4 run function ssbrc:fighter/link/boomerang/animation/3
+execute if score display temp matches 0 run function ssbrc:game/fighter/link/boomerang/animation/1
+execute if score display temp matches 2 run function ssbrc:game/fighter/link/boomerang/animation/2
+execute if score display temp matches 4 run function ssbrc:game/fighter/link/boomerang/animation/3
 scoreboard players reset display temp
 
 scoreboard players operation #cache temp = @s temp

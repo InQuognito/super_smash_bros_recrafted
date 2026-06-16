@@ -1,4 +1,4 @@
-execute if score @s motion_y matches ..-100 unless function ssbrc:game/logic/game/entity/player/if_grounded positioned ~-.4 ~-.1 ~-.4 as @e[tag=!self,predicate=ssbrc:target,dy=0] positioned ~-.2 ~-.8 ~-.2 if entity @s[dy=0] run function ssbrc:fighter/shovel_knight/shovel_drop/hit
+execute if score @s motion_y matches ..-100 unless function ssbrc:game/logic/game/entity/player/if_grounded positioned ~-.4 ~-.1 ~-.4 as @e[tag=!self,predicate=ssbrc:target,dy=0] positioned ~-.2 ~-.8 ~-.2 if entity @s[dy=0] run function ssbrc:game/fighter/shovel_knight/shovel_drop/hit
 
 execute if function ssbrc:game/logic/game/entity/player/if_standing_or_grounded run function ssbrc:game/logic/item/modify {search_key: "item", search_value: "shovel_blade", path: "ssbrc:fighter/shovel_knight/shovel_blade/shovel_drop/disable"}
 

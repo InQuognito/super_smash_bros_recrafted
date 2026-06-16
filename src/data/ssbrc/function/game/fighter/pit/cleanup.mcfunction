@@ -1,1 +1,1 @@
-function ssbrc:fighter/pit/guardian_orbitars/deactivate
+function ssbrc:game/fighter/pit/guardian_orbitars/deactivate

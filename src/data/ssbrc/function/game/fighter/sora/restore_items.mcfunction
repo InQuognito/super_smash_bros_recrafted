@@ -7,7 +7,7 @@ scoreboard players operation points temp = resource temp
 execute store result score @s resource run scoreboard players operation resource temp /= #sora.drive.meter const
 execute store result score @s charge.1 run scoreboard players operation points temp %= #sora.drive.meter const
 
-function ssbrc:fighter/sora/magic/update
-function ssbrc:fighter/sora/drive_forms/hud
+function ssbrc:game/fighter/sora/magic/update
+function ssbrc:game/fighter/sora/drive_forms/hud
 
 function ssbrc:game/logic/game/entity/player/armor/update with entity @s equipment.body.components."minecraft:custom_data".temp.fighter

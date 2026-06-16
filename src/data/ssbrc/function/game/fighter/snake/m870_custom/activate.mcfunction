@@ -2,11 +2,11 @@ function ssbrc:game/logic/game/entity/player/ability/init
 
 execute store result score temp health run scoreboard players get @s health
 
-function ssbrc:fighter/snake/m870_custom/offset/initial {axis:"x"}
-function ssbrc:fighter/snake/m870_custom/offset/initial {axis:"y"}
+function ssbrc:game/fighter/snake/m870_custom/offset/initial {axis:"x"}
+function ssbrc:game/fighter/snake/m870_custom/offset/initial {axis:"y"}
 
 scoreboard players set projectile temp 8
-execute anchored eyes positioned ^ ^ ^.5 run function ssbrc:fighter/snake/m870_custom/projectile
+execute anchored eyes positioned ^ ^ ^.5 run function ssbrc:game/fighter/snake/m870_custom/projectile
 
 scoreboard players set @s weapon_1.fire_rate 20
 

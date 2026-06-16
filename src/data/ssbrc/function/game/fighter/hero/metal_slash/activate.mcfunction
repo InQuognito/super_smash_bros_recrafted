@@ -1,4 +1,4 @@
 scoreboard players set #n temp 90
-execute positioned ~ ~.75 ~ rotated ~-45 0 run function ssbrc:fighter/hero/metal_slash/loop
+execute positioned ~ ~.75 ~ rotated ~-45 0 run function ssbrc:game/fighter/hero/metal_slash/loop
 
 playsound ssbrc:fighter.hero.metal_slash.activate player @a

@@ -1,4 +1,4 @@
-execute summon minecraft:marker run function ssbrc:fighter/altered_beast/werewolf/flame_arrow/init
+execute summon minecraft:marker run function ssbrc:game/fighter/altered_beast/werewolf/flame_arrow/init
 
 effect give @s minecraft:levitation infinite 0 true
 

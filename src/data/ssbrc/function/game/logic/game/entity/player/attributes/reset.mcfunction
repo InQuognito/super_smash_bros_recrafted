@@ -33,8 +33,8 @@ attribute @s minecraft:safe_fall_distance modifier remove ssbrc:launched
 function ssbrc:game/logic/game/entity/player/effects/cleanse
 
 # Effects
-function ssbrc:stage/pac_maze/fruit/fruit/galaxian_flagship/reset
-function ssbrc:stage/palutenas_temple/fiends_cauldron/reset
+function ssbrc:game/stage/pac_maze/fruit/fruit/galaxian_flagship/reset
+function ssbrc:game/stage/palutenas_temple/fiends_cauldron/reset
 attribute @s minecraft:armor modifier remove ssbrc:armor_break
 attribute @s minecraft:movement_speed modifier remove ssbrc:chaos_control
 attribute @s minecraft:movement_speed modifier remove ssbrc:quicksand

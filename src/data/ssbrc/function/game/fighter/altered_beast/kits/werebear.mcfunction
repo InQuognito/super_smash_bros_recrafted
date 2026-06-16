@@ -1,4 +1,4 @@
-function ssbrc:fighter/altered_beast/kits/update {form: "werebear"}
+function ssbrc:game/fighter/altered_beast/kits/update {form: "werebear"}
 
 attribute @s minecraft:armor base set 14
 attribute @s minecraft:jump_strength base set .5

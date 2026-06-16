@@ -1,3 +1,3 @@
 teleport @s ~ ~ ~ -45 -45
 
-function ssbrc:stage/frozen_hijinx/barrel_cannon/init/common
+function ssbrc:game/stage/frozen_hijinx/barrel_cannon/init/common

@@ -1,4 +1,4 @@
-execute summon minecraft:marker run function ssbrc:fighter/sora/thunder/thundaza/init
+execute summon minecraft:marker run function ssbrc:game/fighter/sora/thunder/thundaza/init
 
 scoreboard players operation @s magic -= sora.spell.cost temp
-function ssbrc:fighter/sora/magic/update
+function ssbrc:game/fighter/sora/magic/update

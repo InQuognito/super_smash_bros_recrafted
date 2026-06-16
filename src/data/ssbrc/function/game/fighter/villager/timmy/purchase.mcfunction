@@ -9,7 +9,7 @@ $tag @s add villager.$(item)
 
 $function ssbrc:game/logic/item/give/default {item: "$(item)", class: "$(class)", type: "$(type)"}
 
-$function ssbrc:fighter/villager/$(item)/purchase
+$function ssbrc:game/fighter/villager/$(item)/purchase
 
 $tellraw @s { \
 	translate: "ssbrc.fighter.villager.purchase.$(item)", \

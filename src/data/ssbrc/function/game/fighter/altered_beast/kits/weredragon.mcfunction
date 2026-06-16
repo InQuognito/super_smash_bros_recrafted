@@ -1,4 +1,4 @@
-function ssbrc:fighter/altered_beast/kits/update {form: "weredragon"}
+function ssbrc:game/fighter/altered_beast/kits/update {form: "weredragon"}
 
 function ssbrc:game/logic/item/init/slot {item: "dragon_claw", slot: "hotbar.0", class: "weapon", type: "default"}
 

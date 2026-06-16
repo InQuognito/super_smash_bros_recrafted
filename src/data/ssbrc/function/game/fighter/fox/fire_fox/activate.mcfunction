@@ -1,4 +1,4 @@
-execute summon minecraft:marker run function ssbrc:fighter/fox/fire_fox/init
+execute summon minecraft:marker run function ssbrc:game/fighter/fox/fire_fox/init
 
 function ssbrc:game/logic/item/cooldown/set/const {type: "3", value: "15"}
 scoreboard players set @s duration.1 15

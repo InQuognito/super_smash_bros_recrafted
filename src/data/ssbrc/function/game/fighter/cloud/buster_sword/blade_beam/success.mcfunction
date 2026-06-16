@@ -1,3 +1,3 @@
 scoreboard players add @s resource 5
 
-function ssbrc:fighter/cloud/limit/update
+function ssbrc:game/fighter/cloud/limit/update

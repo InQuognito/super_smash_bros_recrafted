@@ -1,8 +1,8 @@
 tag @s add exploded
 
-execute positioned ~ ~1 ~ run function ssbrc:fighter/ness/pk_fire/particles/diamonds/spawn
+execute positioned ~ ~1 ~ run function ssbrc:game/fighter/ness/pk_fire/particles/diamonds/spawn
 
-function ssbrc:fighter/ness/pk_fire/particles/check
+function ssbrc:game/fighter/ness/pk_fire/particles/check
 
 scoreboard players set @s temp 0
 

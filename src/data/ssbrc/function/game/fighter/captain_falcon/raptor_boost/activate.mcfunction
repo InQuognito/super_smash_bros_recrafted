@@ -1,6 +1,6 @@
 function ssbrc:game/logic/game/entity/player/ability/init
 
-execute positioned ~ ~.1 ~ summon minecraft:marker run function ssbrc:fighter/captain_falcon/raptor_boost/init
+execute positioned ~ ~.1 ~ summon minecraft:marker run function ssbrc:game/fighter/captain_falcon/raptor_boost/init
 
 effect give @s minecraft:levitation infinite 0 true
 

@@ -1,3 +1,3 @@
 tag @s remove accelerate
 
-function ssbrc:fighter/hero/accelerate/effects/deactivate
+function ssbrc:game/fighter/hero/accelerate/effects/deactivate

@@ -1,4 +1,4 @@
 scoreboard players set #n temp 120
-execute positioned ~ ~.75 ~ rotated ~-60 0 run function ssbrc:fighter/hero/kacrackle_slash/loop
+execute positioned ~ ~.75 ~ rotated ~-60 0 run function ssbrc:game/fighter/hero/kacrackle_slash/loop
 
 playsound ssbrc:fighter.hero.kacrackle_slash.activate player @a

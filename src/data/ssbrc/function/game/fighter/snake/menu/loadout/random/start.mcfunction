@@ -1,3 +1,3 @@
 tag @s add ignore_feedback
 
-function ssbrc:fighter/snake/menu/loadout/random/loop
+function ssbrc:game/fighter/snake/menu/loadout/random/loop

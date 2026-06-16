@@ -1,4 +1,4 @@
-execute anchored eyes positioned ^ ^ ^.5 run function ssbrc:fighter/sora/blizzard/blizzaza/burst/projectile
+execute anchored eyes positioned ^ ^ ^.5 run function ssbrc:game/fighter/sora/blizzard/blizzaza/burst/projectile
 
 scoreboard players operation sora.spell.cost temp = sora.spell.test temp
 

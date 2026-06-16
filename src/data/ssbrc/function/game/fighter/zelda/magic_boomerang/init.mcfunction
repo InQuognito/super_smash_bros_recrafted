@@ -9,4 +9,4 @@ item replace entity @s contents with minecraft:stick[ \
 function ssbrc:entity/_init/projectile/horizontal
 
 data merge entity @s {item_display: "head", teleport_duration: 1}
-function ssbrc:fighter/toon_link/boomerang/animation/1
+function ssbrc:game/fighter/toon_link/boomerang/animation/1

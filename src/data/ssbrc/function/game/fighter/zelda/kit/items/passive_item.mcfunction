@@ -10,4 +10,4 @@ execute if score #random temp matches 7 run return run function ssbrc:game/logic
 execute if score #random temp matches 8 run return run function ssbrc:game/logic/item/init/slot {item: "torch_of_wisdom", slot: "hotbar.2", class: "default", type: "default"}
 execute if score #random temp matches 9 if function ssbrc:game/logic/stage/has_water run return run function ssbrc:game/logic/item/init/slot {item: "zoras_flippers", slot: "hotbar.2", class: "default", type: "default"}
 
-function ssbrc:fighter/zelda/kit/items/passive_item
+function ssbrc:game/fighter/zelda/kit/items/passive_item

@@ -5,7 +5,7 @@ function math:percentage {output: "#percent temp", val: "@s temp", div: "#zelda.
 execute if score #percent temp matches 90 run item modify entity @s armor.head {function: "minecraft:set_components",components: {"minecraft:item_model":"ssbrc:common/bomb/red"}}
 execute if score #percent temp matches 95 run item modify entity @s armor.head {function: "minecraft:set_components",components: {"minecraft:item_model":"ssbrc:common/bomb/white"}}
 
-execute if score #percent temp matches 100.. run function ssbrc:fighter/zelda/bomb/explode
-execute if entity @s[tag=blasting] unless block ~ ~-.1 ~ #ssbrc:passthrough run function ssbrc:fighter/zelda/bomb/explode
+execute if score #percent temp matches 100.. run function ssbrc:game/fighter/zelda/bomb/explode
+execute if entity @s[tag=blasting] unless block ~ ~-.1 ~ #ssbrc:passthrough run function ssbrc:game/fighter/zelda/bomb/explode
 
 scoreboard players add @s temp 1

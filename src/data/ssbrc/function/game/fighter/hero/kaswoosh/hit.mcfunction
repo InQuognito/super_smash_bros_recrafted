@@ -1,4 +1,4 @@
 execute if score #kaswoosh.fire temp matches 1 run return run function ssbrc:game/logic/damage/fire {amount: 4, burning: 40, type: "pierce", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
-execute if score #kaswoosh.electric temp matches 1 run return run function ssbrc:fighter/hero/kaswoosh/electric
+execute if score #kaswoosh.electric temp matches 1 run return run function ssbrc:game/fighter/hero/kaswoosh/electric
 
 function ssbrc:game/logic/damage/generic {amount: 3, type: "pierce", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}

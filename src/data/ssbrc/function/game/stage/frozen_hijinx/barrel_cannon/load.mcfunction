@@ -1,6 +1,6 @@
 tag @s add contains_player
 
-execute as @p[predicate=ssbrc:player,tag=!barrel_cannon.in,distance=..1.5] run function ssbrc:stage/frozen_hijinx/barrel_cannon/players/load
+execute as @p[predicate=ssbrc:player,tag=!barrel_cannon.in,distance=..1.5] run function ssbrc:game/stage/frozen_hijinx/barrel_cannon/players/load
 scoreboard players operation @s id = #id_to_match temp
 
 ride @a[predicate=ssbrc:owner,limit=1] mount @s

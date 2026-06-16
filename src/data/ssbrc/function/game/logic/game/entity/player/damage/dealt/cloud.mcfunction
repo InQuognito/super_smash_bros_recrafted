@@ -4,4 +4,4 @@ function ssbrc:game/logic/game/entity/player/damage/dealt/cloud/check
 
 scoreboard players operation @s resource += #cache temp
 
-function ssbrc:fighter/cloud/limit/update
+function ssbrc:game/fighter/cloud/limit/update

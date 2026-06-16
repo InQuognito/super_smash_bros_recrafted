@@ -1,1 +1,1 @@
-function ssbrc:fighter/shadow/chaos_gauge/update
+function ssbrc:game/fighter/shadow/chaos_gauge/update

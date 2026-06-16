@@ -1,4 +1,4 @@
-function ssbrc:fighter/altered_beast/kits/reset
+function ssbrc:game/fighter/altered_beast/kits/reset
 
 tag @s add altered_beast.is_beast
 

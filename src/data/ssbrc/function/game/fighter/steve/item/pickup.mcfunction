@@ -1,8 +1,8 @@
-function ssbrc:fighter/steve/item/pickup/get
+function ssbrc:game/fighter/steve/item/pickup/get
 
 clear @s minecraft:lapis_lazuli
 
-function ssbrc:fighter/steve/item/get
+function ssbrc:game/fighter/steve/item/get
 
 tag @s remove get_stone
 tag @s remove get_gold

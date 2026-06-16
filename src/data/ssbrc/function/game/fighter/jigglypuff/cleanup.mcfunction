@@ -1,1 +1,1 @@
-function ssbrc:fighter/jigglypuff/rest/deactivate
+function ssbrc:game/fighter/jigglypuff/rest/deactivate

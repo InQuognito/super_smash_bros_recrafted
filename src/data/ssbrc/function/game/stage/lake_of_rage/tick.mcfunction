@@ -1,4 +1,4 @@
-execute if data storage ssbrc:data option{hazards: "true"} as @e[type=minecraft:item_display,tag=ssbrc.gyarados.root] at @s run function ssbrc:stage/lake_of_rage/hazards
+execute if data storage ssbrc:data option{hazards: "true"} as @e[type=minecraft:item_display,tag=ssbrc.gyarados.root] at @s run function ssbrc:game/stage/lake_of_rage/hazards
 
 #kill @e[predicate=ssbrc:killbox_vulnerable,x=2533.0,y=6.0,z=3999.0,dx=0,dy=21,dz=8]
 #kill @e[predicate=ssbrc:killbox_vulnerable,x=2532.0,y=6.0,z=4008.0,dx=0,dy=21,dz=4]

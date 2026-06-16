@@ -1,4 +1,4 @@
-function ssbrc:fighter/altered_beast/kits/update {form: "weretiger"}
+function ssbrc:game/fighter/altered_beast/kits/update {form: "weretiger"}
 
 attribute @s minecraft:safe_fall_distance base set 20
 

@@ -4,6 +4,6 @@ execute rotated as @s positioned 0. 0. 0. run teleport @s ^ ^ ^1.5
 
 data modify storage ssbrc:temp cache.motion set from entity @s Pos
 
-execute positioned ^ ^ ^1 positioned ~ ~1 ~ summon minecraft:armor_stand run function ssbrc:fighter/shovel_knight/throwing_anchor/init/projectile
+execute positioned ^ ^ ^1 positioned ~ ~1 ~ summon minecraft:armor_stand run function ssbrc:game/fighter/shovel_knight/throwing_anchor/init/projectile
 
 kill @s

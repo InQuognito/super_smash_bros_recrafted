@@ -1,4 +1,4 @@
-function ssbrc:fighter/team_rocket/update {form: "wobbuffet"}
+function ssbrc:game/fighter/team_rocket/update {form: "wobbuffet"}
 
 function ssbrc:game/logic/item/init/slot {item: "counter", slot: "hotbar.0", class: "weapon", type: "enchanted"}
 

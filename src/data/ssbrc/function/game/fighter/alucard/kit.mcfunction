@@ -1,6 +1,6 @@
 tag @s remove intangible
 
-function ssbrc:fighter/alucard/items
+function ssbrc:game/fighter/alucard/items
 
 effect clear @s minecraft:invisibility
 effect clear @s minecraft:levitation

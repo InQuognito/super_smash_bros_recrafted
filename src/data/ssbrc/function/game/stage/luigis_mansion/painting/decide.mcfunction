@@ -1,4 +1,4 @@
-function ssbrc:stage/luigis_mansion/painting/init
+function ssbrc:game/stage/luigis_mansion/painting/init
 
 execute store result score #random temp run random value 1..8
 

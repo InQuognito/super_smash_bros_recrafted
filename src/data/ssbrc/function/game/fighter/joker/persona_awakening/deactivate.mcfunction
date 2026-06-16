@@ -1,5 +1,5 @@
 scoreboard players set @s charge.1 0
-function ssbrc:fighter/joker/hud with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
+function ssbrc:game/fighter/joker/hud with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
 function ssbrc:game/logic/item/init/replace {search_key: "item", search_value: "rebel_knife", item: "rebel_knife", class: "default", type: "default"}
 

@@ -1,1 +1,1 @@
-function ssbrc:stage/planet_zebes/rain/check
+function ssbrc:game/stage/planet_zebes/rain/check

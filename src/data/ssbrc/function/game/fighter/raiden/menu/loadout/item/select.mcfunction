@@ -36,4 +36,4 @@ $tellraw @s[tag=!ignore_feedback] [ \
 
 $tag @s add $(item)
 
-execute unless entity @s[tag=ignore_feedback] run function ssbrc:fighter/raiden/menu/loadout/display_capacity
+execute unless entity @s[tag=ignore_feedback] run function ssbrc:game/fighter/raiden/menu/loadout/display_capacity

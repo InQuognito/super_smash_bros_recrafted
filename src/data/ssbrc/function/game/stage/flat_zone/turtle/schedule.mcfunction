@@ -1,3 +1,3 @@
-execute as @n[type=minecraft:marker,tag=turtle] at @s run function ssbrc:stage/flat_zone/turtle/move
+execute as @n[type=minecraft:marker,tag=turtle] at @s run function ssbrc:game/stage/flat_zone/turtle/move
 
-schedule function ssbrc:stage/flat_zone/turtle/schedule 15t replace
+schedule function ssbrc:game/stage/flat_zone/turtle/schedule 15t replace

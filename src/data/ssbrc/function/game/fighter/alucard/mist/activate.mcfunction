@@ -2,9 +2,9 @@ tag @s add intangible
 
 scoreboard players set @s duration.1 40
 
-execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {form: "blood_metamorphosis"}}}] run function ssbrc:fighter/alucard/mist/blood_metamorphosis
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {form: "blood_metamorphosis"}}}] run function ssbrc:game/fighter/alucard/mist/blood_metamorphosis
 
-function ssbrc:fighter/alucard/mist/shield
+function ssbrc:game/fighter/alucard/mist/shield
 
 function ssbrc:game/logic/game/entity/player/effects/cleanse
 

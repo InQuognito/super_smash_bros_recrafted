@@ -1,4 +1,4 @@
-$function ssbrc:fighter/sora/drive_forms/enter {form: "$(form)"}
+$function ssbrc:game/fighter/sora/drive_forms/enter {form: "$(form)"}
 
 scoreboard players add @s charge.2 1
 

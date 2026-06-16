@@ -1,7 +1,7 @@
 scoreboard players remove @s[tag=!recall] temp 1
 scoreboard players add @s[tag=recall,scores={temp=..60}] temp 1
 
-execute if score @s temp matches 0 run return run function ssbrc:fighter/yar/drone/commands/stop/drone_force
+execute if score @s temp matches 0 run return run function ssbrc:game/fighter/yar/drone/commands/stop/drone_force
 
 execute if score #percent temp matches 11..20 run return run teleport @s ^ ^ ^.06
 execute if score #percent temp matches 21..30 run return run teleport @s ^ ^ ^.09

@@ -1,6 +1,7 @@
 scoreboard players set @s durability 0
 
-$function ssbrc:fighter/$(fighter)/kit
+$say $(fighter)
+$function ssbrc:game/fighter/$(fighter)/kit
 
 $item modify entity @s armor.chest { \
 	function: "minecraft:set_enchantments", \

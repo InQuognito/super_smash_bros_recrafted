@@ -1,4 +1,4 @@
-execute if entity @s[tag=!active] run function ssbrc:fighter/joker/hama/tick/projectile
+execute if entity @s[tag=!active] run function ssbrc:game/fighter/joker/hama/tick/projectile
 
 scoreboard players add @s[tag=active] temp 1
-execute if score @s temp matches 100.. run function ssbrc:fighter/joker/hama/hit
+execute if score @s temp matches 100.. run function ssbrc:game/fighter/joker/hama/hit

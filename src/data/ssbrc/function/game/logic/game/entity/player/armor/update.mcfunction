@@ -1,7 +1,7 @@
 item modify entity @s armor.chest {function: "minecraft:reference",name: "ssbrc:init/tooltip/separator"}
 item modify entity @s armor.legs {function: "minecraft:reference",name: "ssbrc:init/tooltip/separator"}
 
-$function ssbrc:fighter/$(fighter)/armor
+$function ssbrc:game/fighter/$(fighter)/armor
 
 function ssbrc:game/logic/game/entity/player/effects/invisibility with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 

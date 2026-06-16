@@ -1,1 +1,1 @@
-function ssbrc:fighter/mega_man/kit
+function ssbrc:game/fighter/mega_man/kit

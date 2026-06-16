@@ -1,4 +1,4 @@
-function ssbrc:stage/pac_maze/fruit/check
+function ssbrc:game/stage/pac_maze/fruit/check
 
 kill @s
 

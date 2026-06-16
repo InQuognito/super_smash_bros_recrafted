@@ -11,31 +11,30 @@ execute store result storage animated_java:temp args.id int 1 run scoreboard pla
 function animated_java:global/data_manager/read with storage animated_java:temp args
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.root_uuid set from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.blueprint_id set value "ssbrc:fighter/mega_man/beat_call/rig"
-data modify storage animated_java:temp entry.data.rig_hash set value "c64b7c986bd47284ad5da6f6c165611ad0a87c75510bd0f3dddd172790de8206"
+data modify storage animated_java:temp entry.data.blueprint_id set value "ssbrc:game/fighter/mega_man/beat_call/rig"
+data modify storage animated_java:temp entry.data.rig_hash set value "10ac84a176a38f7ea7cb67e2e7b202501dc5e8c9285abb061fd1ce329c461b07"
 tp @s ~ ~ ~ ~ ~
-execute on passengers if entity @s[tag=ssbrc.fighter.mega_man.beat_call.rig.node.mouth] run function ssbrc:fighter/mega_man/beat_call/rig/zzz/summon/as_node/mouth
+execute on passengers if entity @s[tag=ssbrc.game.fighter.mega_man.beat_call.rig.node.mouth] run function ssbrc:game/fighter/mega_man/beat_call/rig/zzz/summon/as_node/mouth
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.mouth set from storage animated_java:gu out
-execute on passengers if entity @s[tag=ssbrc.fighter.mega_man.beat_call.rig.node.right_wing] run function ssbrc:fighter/mega_man/beat_call/rig/zzz/summon/as_node/right_wing
+execute on passengers if entity @s[tag=ssbrc.game.fighter.mega_man.beat_call.rig.node.right_wing] run function ssbrc:game/fighter/mega_man/beat_call/rig/zzz/summon/as_node/right_wing
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.right_wing set from storage animated_java:gu out
-execute on passengers if entity @s[tag=ssbrc.fighter.mega_man.beat_call.rig.node.left_wing] run function ssbrc:fighter/mega_man/beat_call/rig/zzz/summon/as_node/left_wing
+execute on passengers if entity @s[tag=ssbrc.game.fighter.mega_man.beat_call.rig.node.left_wing] run function ssbrc:game/fighter/mega_man/beat_call/rig/zzz/summon/as_node/left_wing
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.left_wing set from storage animated_java:gu out
-execute on passengers if entity @s[tag=ssbrc.fighter.mega_man.beat_call.rig.node.beat] run function ssbrc:fighter/mega_man/beat_call/rig/zzz/summon/as_node/beat
+execute on passengers if entity @s[tag=ssbrc.game.fighter.mega_man.beat_call.rig.node.beat] run function ssbrc:game/fighter/mega_man/beat_call/rig/zzz/summon/as_node/beat
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.beat set from storage animated_java:gu out
-function ssbrc:fighter/mega_man/beat_call/rig/zzz/set_default_pose
+function ssbrc:game/fighter/mega_man/beat_call/rig/zzz/set_default_pose
 # Data Manager: Write
 function animated_java:global/data_manager/write with storage animated_java:temp args
-execute if data storage animated_java:temp args.variant run function ssbrc:fighter/mega_man/beat_call/rig/zzz/summon/variant_arg/process with storage animated_java:temp args
+execute if data storage animated_java:temp args.variant run function ssbrc:game/fighter/mega_man/beat_call/rig/zzz/summon/variant_arg/process with storage animated_java:temp args
 execute if score #success aj.i matches 0 run return fail
-execute if data storage animated_java:temp args.animation run function ssbrc:fighter/mega_man/beat_call/rig/zzz/summon/animation_arg/process with storage animated_java:temp args
+execute if data storage animated_java:temp args.animation run function ssbrc:game/fighter/mega_man/beat_call/rig/zzz/summon/animation_arg/process with storage animated_java:temp args
 execute if score #success aj.i matches 0 run return fail
 execute on passengers run rotate @s ~ ~
 data modify entity @s teleport_duration set value 1
 execute on passengers run data modify entity @s teleport_duration set value 1
 tag @s remove aj.new
 execute on passengers run tag @s remove aj.new
-execute on passengers run ride @s dismount

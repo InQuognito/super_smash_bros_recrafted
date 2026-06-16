@@ -1,6 +1,6 @@
-function ssbrc:fighter/ryu/tatsumaki_senpukyaku/particles/speed
+function ssbrc:game/fighter/ryu/tatsumaki_senpukyaku/particles/speed
 
-function ssbrc:fighter/ryu/tatsumaki_senpukyaku/raycast/start
+function ssbrc:game/fighter/ryu/tatsumaki_senpukyaku/raycast/start
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=20..}]

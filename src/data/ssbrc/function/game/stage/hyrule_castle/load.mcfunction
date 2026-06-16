@@ -3,7 +3,7 @@ summon minecraft:item_display -22 6 54.99 {Rotation:[180f,0f],item:{id:"minecraf
 summon minecraft:item_display 22 6 54.99 {Rotation:[180f,0f],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ssbrc:stage/hyrule_castle/triforce"}},transformation:[2.5f,0f,0f,0f,0f,2.5f,0f,0f,0f,0f,2.5f,0f,0f,0f,0f,1f]}
 
 # Sword Racks
-#execute positioned -10 3 -25 summon minecraft:item_display run function ssbrc:stage/hyrule_castle/sword_rack/init
+#execute positioned -10 3 -25 summon minecraft:item_display run function ssbrc:game/stage/hyrule_castle/sword_rack/init
 #summon minecraft:item_display 7000.5 30.5 147.1 {item:{id:"minecraft:stick",components:{"minecraft:item_model":"ssbrc:stage/hyrule_castle/sword_rack"}},transformation:[2.5f,0f,0f,0f,0f,2.5f,0f,0f,0f,0f,2.5f,0f,0f,0f,0f,1f]}
 
 # Master Sword

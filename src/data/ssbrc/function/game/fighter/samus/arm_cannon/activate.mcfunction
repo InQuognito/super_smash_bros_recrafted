@@ -1,1 +1,1 @@
-$function ssbrc:fighter/samus/$(item)/activate
+$function ssbrc:game/fighter/samus/$(item)/activate

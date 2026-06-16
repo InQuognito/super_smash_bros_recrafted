@@ -2,4 +2,4 @@ execute unless entity @s[dx=0] run return run scoreboard players reset @s fiends
 
 scoreboard players add @s fiends_cauldron.timer 1
 
-execute if score @s fiends_cauldron.timer matches 20.. run function ssbrc:stage/palutenas_temple/fiends_cauldron/apply
+execute if score @s fiends_cauldron.timer matches 20.. run function ssbrc:game/stage/palutenas_temple/fiends_cauldron/apply

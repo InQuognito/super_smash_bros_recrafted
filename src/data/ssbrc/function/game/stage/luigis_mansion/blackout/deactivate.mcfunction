@@ -14,6 +14,6 @@ fill -30 -7 -45 25 9 18 minecraft:soul_wall_torch[facing=west] replace minecraft
 fill -30 -7 -45 25 9 18 minecraft:blast_furnace[facing=north,lit=true] replace minecraft:blast_furnace[facing=north]
 fill -30 -7 -45 25 9 18 minecraft:blast_furnace[facing=east,lit=true] replace minecraft:blast_furnace[facing=east]
 
-execute as @e[type=minecraft:item_display,tag=lantern_off] at @s run function ssbrc:stage/luigis_mansion/blackout/lanterns/activate
+execute as @e[type=minecraft:item_display,tag=lantern_off] at @s run function ssbrc:game/stage/luigis_mansion/blackout/lanterns/activate
 
-execute as @e[type=minecraft:item_display,tag=ssbrc.boo.root] at @s run function ssbrc:stage/luigis_mansion/boo/deactivate
+execute as @e[type=minecraft:item_display,tag=ssbrc.boo.root] at @s run function ssbrc:game/stage/luigis_mansion/boo/deactivate

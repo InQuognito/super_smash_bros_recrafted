@@ -3,7 +3,7 @@ execute if entity @s[tag=snowing] positioned ~ ~6 ~ run particle minecraft:snowf
 
 scoreboard players operation electric_terrain temp = @s temp
 scoreboard players operation electric_terrain temp %= #5 const
-execute if score electric_terrain temp matches 0 run function ssbrc:fighter/pikachu/electric_terrain/raycast/start
+execute if score electric_terrain temp matches 0 run function ssbrc:game/fighter/pikachu/electric_terrain/raycast/start
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=600..}]

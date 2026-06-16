@@ -1,6 +1,6 @@
 function ssbrc:game/logic/game/entity/player/ability/init
 
-execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ssbrc:fighter/link/sword_beam/init
+execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ssbrc:game/fighter/link/sword_beam/init
 
 playsound ssbrc:fighter.link.sword_beam.activate player @a
 

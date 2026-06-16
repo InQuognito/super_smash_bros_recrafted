@@ -43,6 +43,6 @@ attribute @s[scores={flag.sprinting=41}] minecraft:movement_speed modifier add s
 attribute @s[scores={flag.sprinting=42}] minecraft:movement_speed modifier add ssbrc:passive .0782 add_value
 attribute @s[scores={flag.sprinting=43}] minecraft:movement_speed modifier add ssbrc:passive .0783 add_value
 attribute @s[scores={flag.sprinting=44}] minecraft:movement_speed modifier add ssbrc:passive .0784 add_value
-execute if score @s flag.sprinting matches 45.. run function ssbrc:fighter/sonic/speed/full
+execute if score @s flag.sprinting matches 45.. run function ssbrc:game/fighter/sonic/speed/full
 
-function ssbrc:fighter/sonic/speed/hud
+function ssbrc:game/fighter/sonic/speed/hud

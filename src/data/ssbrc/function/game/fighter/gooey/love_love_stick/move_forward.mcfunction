@@ -6,4 +6,4 @@ execute if score #entity_hit temp matches 1 run return run kill @s
 teleport @s ^ ^ ^.25
 
 scoreboard players remove #n temp 1
-execute if score #n temp matches 1.. at @s run function ssbrc:fighter/gooey/love_love_stick/move_forward
+execute if score #n temp matches 1.. at @s run function ssbrc:game/fighter/gooey/love_love_stick/move_forward

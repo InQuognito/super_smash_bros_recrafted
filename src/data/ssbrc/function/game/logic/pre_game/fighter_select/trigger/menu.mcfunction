@@ -2,4 +2,4 @@ execute if score @s menu matches -999 run return run function ssbrc:game/logic/p
 execute if entity @s[scores={menu=-998,reset=1}] run return run function ssbrc:game/logic/player/data/permanent/reset/cancel
 execute if entity @s[scores={menu=-997,reset=1}] run return run function ssbrc:game/logic/player/data/permanent/reset/confirm
 
-$function ssbrc:fighter/$(fighter)/menu/skin/trigger
+$function ssbrc:game/fighter/$(fighter)/menu/skin/trigger

@@ -1,1 +1,1 @@
-$function ssbrc:stage/bowsers_castle/hazards/lava_plumes/$(side)/$(platform)/$(direction)
+$function ssbrc:game/stage/bowsers_castle/hazards/lava_plumes/$(side)/$(platform)/$(direction)

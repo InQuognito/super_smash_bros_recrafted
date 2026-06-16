@@ -1,17 +1,17 @@
 {
 	"meta": {
 		"format": "animated-java:format/blueprint",
-		"format_version": "1.10.0-beta.5",
+		"format_version": "1.10.0-beta.7",
 		"uuid": "30bfacf1-2e70-d25e-62f2-e53409d04b07",
 		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\beat.ajblueprint",
-		"last_used_blueprint_id": "ssbrc:fighter/mega_man/beat_call/rig"
+		"last_used_blueprint_id": "ssbrc:game/fighter/mega_man/beat_call/rig"
 	},
 	"resolution": {
 		"width": 128,
 		"height": 128
 	},
 	"blueprint_settings": {
-		"blueprint_id": "ssbrc:fighter/mega_man/beat_call/rig",
+		"blueprint_id": "ssbrc:game/fighter/mega_man/beat_call/rig",
 		"render_box": [48, 48],
 		"display_item": "minecraft:feather",
 		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
@@ -1488,6 +1488,9 @@
 			"configs": {
 				"variants": {}
 			},
+			"itemModelProperties": {
+				"tints": []
+			},
 			"children": [],
 			"reset": false,
 			"shade": true,
@@ -1514,6 +1517,9 @@
 			"onSummonFunction": "",
 			"configs": {
 				"variants": {}
+			},
+			"itemModelProperties": {
+				"tints": []
 			},
 			"children": [],
 			"reset": false,
@@ -1542,6 +1548,9 @@
 			"configs": {
 				"variants": {}
 			},
+			"itemModelProperties": {
+				"tints": []
+			},
 			"children": [],
 			"reset": false,
 			"shade": true,
@@ -1568,6 +1577,9 @@
 			"onSummonFunction": "",
 			"configs": {
 				"variants": {}
+			},
+			"itemModelProperties": {
+				"tints": []
 			},
 			"children": [],
 			"reset": false,
@@ -1812,7 +1824,7 @@
 			"override": false,
 			"length": 1,
 			"snapping": 20,
-			"selected": true,
+			"selected": false,
 			"saved": true,
 			"path": "",
 			"scope": 0,
@@ -2076,7 +2088,7 @@
 			"override": false,
 			"length": 1,
 			"snapping": 20,
-			"selected": false,
+			"selected": true,
 			"saved": true,
 			"path": "",
 			"scope": 0,

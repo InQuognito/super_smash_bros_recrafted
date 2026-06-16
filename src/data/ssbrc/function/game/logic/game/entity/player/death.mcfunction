@@ -20,7 +20,7 @@ scoreboard players set @s flag.sprinting 0
 function ssbrc:game/logic/game/entity/player/effects/cleanse
 
 tag @s remove cross_slash.target
-function ssbrc:fighter/pokemon_trainer/ivysaur/leech_seed/reset
+function ssbrc:game/fighter/pokemon_trainer/ivysaur/leech_seed/reset
 
 scoreboard players reset @s fiends_cauldron
 

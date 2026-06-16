@@ -1,6 +1,6 @@
 execute positioned over world_surface run teleport @s ~ ~ ~
 
-execute at @s summon minecraft:item_display run function ssbrc:fighter/joker/hama/init/sigil
+execute at @s summon minecraft:item_display run function ssbrc:game/fighter/joker/hama/init/sigil
 
 tag @s add active
 

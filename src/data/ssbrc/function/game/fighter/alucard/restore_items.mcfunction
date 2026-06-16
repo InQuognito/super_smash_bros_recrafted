@@ -1,1 +1,1 @@
-function ssbrc:fighter/alucard/kit
+function ssbrc:game/fighter/alucard/kit

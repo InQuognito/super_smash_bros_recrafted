@@ -1,4 +1,4 @@
-execute summon minecraft:marker run function ssbrc:fighter/ryu/ashura_senku/init
+execute summon minecraft:marker run function ssbrc:game/fighter/ryu/ashura_senku/init
 
 effect give @s minecraft:levitation infinite 0 true
 

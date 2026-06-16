@@ -1,4 +1,4 @@
-execute positioned ~-.75 ~-.75 ~-.75 if entity @e[tag=!self,predicate=ssbrc:target,dx=0.5] positioned ~.75 ~.75 ~.75 run function ssbrc:fighter/donkey_kong/barrel/explode
+execute positioned ~-.75 ~-.75 ~-.75 if entity @e[tag=!self,predicate=ssbrc:target,dx=0.5] positioned ~.75 ~.75 ~.75 run function ssbrc:game/fighter/donkey_kong/barrel/explode
 
 execute store result entity @s Rotation[1] float .25 run scoreboard players get @s point
 
@@ -6,9 +6,9 @@ execute if score @s point < #donkey_kong.barrel const run scoreboard players ope
 execute if score @s point > #donkey_kong.barrel const run scoreboard players operation @s point = #donkey_kong.barrel const
 execute if score @s point < #donkey_kong.barrel const run scoreboard players remove @s slope 20
 
-execute if score @s point matches 1.. unless block ~ ~-.1 ~ #ssbrc:passthrough_barrier run function ssbrc:fighter/donkey_kong/barrel/bounce
+execute if score @s point matches 1.. unless block ~ ~-.1 ~ #ssbrc:passthrough_barrier run function ssbrc:game/fighter/donkey_kong/barrel/bounce
 
 execute rotated as @s run teleport @s ^ ^ ^.25
 
 scoreboard players add @s temp 1
-execute if score @s temp matches 100.. run function ssbrc:fighter/donkey_kong/barrel/explode
+execute if score @s temp matches 100.. run function ssbrc:game/fighter/donkey_kong/barrel/explode

@@ -20,4 +20,4 @@ function ssbrc:game/logic/game/entity/player/kit with entity @s equipment.body.c
 
 function ssbrc:game/logic/game/entity/player/effects/default
 
-function ssbrc:game/logic/pre_game/bonuses/all
+#function ssbrc:game/logic/pre_game/bonuses/all

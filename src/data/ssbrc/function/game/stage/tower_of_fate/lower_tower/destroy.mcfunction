@@ -4,4 +4,4 @@ $place template ssbrc:stage/tower_of_fate/lower_tower/$(variant) -12 -14 -12
 
 kill @e[type=minecraft:marker,tag=spawnpoint]
 
-$function ssbrc:stage/tower_of_fate/lower_tower/tower/$(variant)
+$function ssbrc:game/stage/tower_of_fate/lower_tower/tower/$(variant)

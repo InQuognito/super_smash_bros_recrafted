@@ -11,11 +11,11 @@ teleport @s[scores={temp=101..150}] ^ ^ ^.25 ~-3 ~
 teleport @s[scores={temp=151..250}] ^ ^ ^.25 ~ ~
 
 execute if score @s temp matches 251 facing entity @r[predicate=ssbrc:player] eyes run rotate @s ~ 0
-execute if score @s temp matches 252..330 positioned ^ ^4.25 ^3.5 run function ssbrc:stage/lake_of_rage/gyarados/hyper_beam/tick
+execute if score @s temp matches 252..330 positioned ^ ^4.25 ^3.5 run function ssbrc:game/stage/lake_of_rage/gyarados/hyper_beam/tick
 
 teleport @s[scores={temp=371}] ~ ~ ~ 30 0
 teleport @s[scores={temp=372..470}] ^ ^ ^.25
 teleport @s[scores={temp=471..520}] ^ ^ ^.25 ~3 ~
 teleport @s[scores={temp=521..620}] ^ ^ ^.25 ~ ~
 
-execute if score @s temp matches 621 run function ssbrc:stage/lake_of_rage/gyarados/deactivate
+execute if score @s temp matches 621 run function ssbrc:game/stage/lake_of_rage/gyarados/deactivate

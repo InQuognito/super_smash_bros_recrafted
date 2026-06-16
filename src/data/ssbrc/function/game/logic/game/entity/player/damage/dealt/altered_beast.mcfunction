@@ -2,4 +2,4 @@ scoreboard players operation #spirit_gain temp = #damage_dealt temp
 scoreboard players operation #spirit_gain temp *= #100 const
 
 scoreboard players operation @s resource += #spirit_gain temp
-function ssbrc:fighter/altered_beast/spirit_gauge/update
+function ssbrc:game/fighter/altered_beast/spirit_gauge/update

@@ -5,4 +5,4 @@ execute unless block ~ ~ ~ #ssbrc:passthrough run scoreboard players add ray_pie
 execute positioned ~-.5 ~-.5 ~-.5 as @e[tag=!self,predicate=ssbrc:target,dx=0] run function ssbrc:game/logic/damage/generic {amount: 20, type: "pierce", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
 
 scoreboard players remove #n temp 1
-execute if score #n temp matches 1.. if score ray_piercing temp matches ..30 positioned ^ ^ ^.1 run function ssbrc:fighter/yar/railgun/raycast/loop
+execute if score #n temp matches 1.. if score ray_piercing temp matches ..30 positioned ^ ^ ^.1 run function ssbrc:game/fighter/yar/railgun/raycast/loop

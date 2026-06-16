@@ -5,4 +5,4 @@ function ssbrc:entity/_init/id
 execute store result score pos_x temp run data get entity @s Pos[0] 2.0
 execute store result score pos_z temp run data get entity @s Pos[2] 2.0
 
-function ssbrc:fighter/dark_samus/phazon_spike/phazon_pool/position
+function ssbrc:game/fighter/dark_samus/phazon_spike/phazon_pool/position

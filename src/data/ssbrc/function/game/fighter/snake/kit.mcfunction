@@ -24,6 +24,6 @@ scoreboard players set @s[tag=claymore] weapon_9.ammo 2
 scoreboard players set @s[tag=smoke_grenade] weapon_10.ammo 2
 
 attribute @s minecraft:sneaking_speed base set 0.6
-function ssbrc:fighter/snake/load/set
+function ssbrc:game/fighter/snake/load/set
 
 tag @s add cloaked

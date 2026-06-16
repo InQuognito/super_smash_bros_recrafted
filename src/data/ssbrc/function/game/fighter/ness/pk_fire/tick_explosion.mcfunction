@@ -1,8 +1,8 @@
-execute positioned ~ ~1 ~ run function ssbrc:fighter/ness/pk_fire/particles/diamonds/spawn
-execute positioned ~ ~1 ~ run function ssbrc:fighter/ness/pk_fire/particles/diamonds/spawn
-function ssbrc:fighter/ness/pk_fire/particles/smoke/offset
-function ssbrc:fighter/ness/pk_fire/particles/smoke/offset
-function ssbrc:fighter/ness/pk_fire/particles/smoke/offset
+execute positioned ~ ~1 ~ run function ssbrc:game/fighter/ness/pk_fire/particles/diamonds/spawn
+execute positioned ~ ~1 ~ run function ssbrc:game/fighter/ness/pk_fire/particles/diamonds/spawn
+function ssbrc:game/fighter/ness/pk_fire/particles/smoke/offset
+function ssbrc:game/fighter/ness/pk_fire/particles/smoke/offset
+function ssbrc:game/fighter/ness/pk_fire/particles/smoke/offset
 particle minecraft:flame ~ ~1 ~ .1 .2 .1 0.04 1 force @a
 particle minecraft:dust_color_transition{from_color: [0.1,0.1,0.1], scale: 1, to_color: [.4,.4,.4]} ~ ~.5 ~ .3 .2 .3 .1 10 normal @a
 

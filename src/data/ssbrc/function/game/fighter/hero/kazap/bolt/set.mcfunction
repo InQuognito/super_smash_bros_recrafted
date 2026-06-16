@@ -1,1 +1,1 @@
-$execute rotated ~$(x) ~$(y) run function ssbrc:fighter/hero/kazap/bolt/loop
+$execute rotated ~$(x) ~$(y) run function ssbrc:game/fighter/hero/kazap/bolt/loop

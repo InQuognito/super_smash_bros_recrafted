@@ -1,6 +1,6 @@
-function ssbrc:fighter/sora/fire/firaza/particle/get
-function ssbrc:fighter/sora/fire/firaza/particle/get
-function ssbrc:fighter/sora/fire/firaza/particle/get
+function ssbrc:game/fighter/sora/fire/firaza/particle/get
+function ssbrc:game/fighter/sora/fire/firaza/particle/get
+function ssbrc:game/fighter/sora/fire/firaza/particle/get
 
 execute as @e[predicate=ssbrc:target,tag=!self,distance=..2] run function ssbrc:game/logic/damage/fire {amount: 8, burning: 40, type: "pierce", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
 

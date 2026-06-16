@@ -1,3 +1,3 @@
 scoreboard players set #n temp 50
 
-execute facing entity @r[predicate=ssbrc:player] eyes positioned ^ ^ ^ run function ssbrc:stage/shadow_moses_island/camera/raycast/loop
+execute facing entity @r[predicate=ssbrc:player] eyes positioned ^ ^ ^ run function ssbrc:game/stage/shadow_moses_island/camera/raycast/loop

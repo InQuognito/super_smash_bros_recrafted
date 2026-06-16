@@ -6,4 +6,4 @@ execute positioned ~-.05 ~-.05 ~-.05 as @e[tag=!self,predicate=ssbrc:target,dx=0
 execute if score #entity_hit temp matches 1 run return 0
 
 scoreboard players remove #n temp 1
-execute if score #n temp matches 1.. positioned ^ ^ ^.25 rotated ~ ~.0025 run function ssbrc:fighter/raiden/aks_74u/loop
+execute if score #n temp matches 1.. positioned ^ ^ ^.25 rotated ~ ~.0025 run function ssbrc:game/fighter/raiden/aks_74u/loop

@@ -1,3 +1,3 @@
 scoreboard players reset @s coward.timer
 
-$function ssbrc:fighter/$(fighter)/get_hurt
+$function ssbrc:game/fighter/$(fighter)/get_hurt

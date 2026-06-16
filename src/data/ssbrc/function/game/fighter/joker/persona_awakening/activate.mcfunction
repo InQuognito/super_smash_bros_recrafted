@@ -1,9 +1,9 @@
-function ssbrc:fighter/joker/rebels_guard/deactivate
+function ssbrc:game/fighter/joker/rebels_guard/deactivate
 
 scoreboard players set @s duration.1 600
 scoreboard players set @s charge.1 0
 
-function ssbrc:fighter/joker/tt33/reset
+function ssbrc:game/fighter/joker/tt33/reset
 
 clear @s *[minecraft:custom_data~{group: "mask"}]
 clear @s *[minecraft:custom_data~{group: "persona_awakening"}]

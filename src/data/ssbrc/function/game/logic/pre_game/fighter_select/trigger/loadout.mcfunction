@@ -1,1 +1,1 @@
-$function ssbrc:fighter/$(fighter)/menu/loadout/trigger
+$function ssbrc:game/fighter/$(fighter)/menu/loadout/trigger

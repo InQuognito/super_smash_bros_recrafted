@@ -1,1 +1,1 @@
-$function ssbrc:stage/bowsers_castle/load/$(game_mode)
+$function ssbrc:game/stage/bowsers_castle/load/$(game_mode)

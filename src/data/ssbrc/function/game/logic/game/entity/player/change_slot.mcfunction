@@ -4,6 +4,6 @@ attribute @s minecraft:attack_damage modifier remove ssbrc:weapon
 attribute @s minecraft:attack_speed modifier remove ssbrc:weapon
 attribute @s minecraft:movement_speed modifier remove ssbrc:weapon
 
-$function ssbrc:fighter/$(fighter)/change_slot
+$function ssbrc:game/fighter/$(fighter)/change_slot
 
 function ssbrc:game/logic/game/entity/player/charge/reset

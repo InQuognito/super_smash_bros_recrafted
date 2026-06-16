@@ -1,6 +1,6 @@
 execute unless block ~ ~ ~ #ssbrc:passthrough run return run kill @s
 
-function ssbrc:fighter/shadow/chaos_blast/shockwave/particle
+function ssbrc:game/fighter/shadow/chaos_blast/shockwave/particle
 
 execute positioned ~-.15 ~-.15 ~-.15 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-.7 ~-.7 ~-.7 if entity @s[dx=0] run function ssbrc:game/logic/damage/generic {amount: 16, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
 execute if score #entity_hit temp matches 1 run return run kill @s
@@ -8,4 +8,4 @@ execute if score #entity_hit temp matches 1 run return run kill @s
 teleport @s ^ ^ ^.25
 
 scoreboard players remove #n temp 1
-execute if score #n temp matches 1.. at @s run function ssbrc:fighter/shadow/chaos_blast/shockwave/move_forward
+execute if score #n temp matches 1.. at @s run function ssbrc:game/fighter/shadow/chaos_blast/shockwave/move_forward

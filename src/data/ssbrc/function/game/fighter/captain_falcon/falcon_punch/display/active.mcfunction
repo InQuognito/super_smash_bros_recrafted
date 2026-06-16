@@ -15,4 +15,4 @@ execute if score @s charge.1 matches 28..30 run return run title @s actionbar ["
 execute if score @s charge.1 matches 31..33 run return run title @s actionbar ["", {text: "\u25ae\u25ae\u25ae\u25ae\u25ae", color: "red"}, {text: "\u25ae\u25ae\u25ae\u25ae", color: "yellow"}, {text: "\u25ae", color: "green"},"\u25ae", {text: "\u25ae", color: "green"}, {text: "\u25ae\u25ae\u25ae\u25ae", color: "yellow"}, {text: "\u25ae\u25ae\u25ae\u25ae\u25ae", color: "red"}]
 execute if score @s charge.1 matches 34..36 run return run title @s actionbar ["", {text: "\u25ae\u25ae\u25ae\u25ae\u25ae", color: "red"}, {text: "\u25ae\u25ae\u25ae\u25ae", color: "yellow"}, {text: "\u25ae\u25ae", color: "green"},"\u25ae", {text: "\u25ae\u25ae\u25ae\u25ae", color: "yellow"}, {text: "\u25ae\u25ae\u25ae\u25ae\u25ae", color: "red"}]
 
-function ssbrc:fighter/captain_falcon/falcon_punch/miss
+function ssbrc:game/fighter/captain_falcon/falcon_punch/miss

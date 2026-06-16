@@ -6,4 +6,4 @@ $function ssbrc:game/logic/player/data/set {data: {temp: {fighter: {skin: "$(ski
 $function ssbrc:game/logic/player/data/set {data: {data: {equipped_skin: {$(fighter): "$(skin)"}}}}
 
 $tellraw @s ["\n", {translate: "ssbrc.fighter.menu.skin"}, {translate: "ssbrc.skin.$(skin)", color: "$(color)"},"\n"]
-$function ssbrc:fighter/$(fighter)/menu/skin/options
+$function ssbrc:game/fighter/$(fighter)/menu/skin/options

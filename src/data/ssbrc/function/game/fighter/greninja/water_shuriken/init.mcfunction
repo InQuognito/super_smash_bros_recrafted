@@ -6,4 +6,4 @@ item replace entity @s contents with minecraft:stick[ \
 
 function ssbrc:entity/_init/projectile/model/default
 
-function ssbrc:fighter/greninja/water_shuriken/animation/1
+function ssbrc:game/fighter/greninja/water_shuriken/animation/1

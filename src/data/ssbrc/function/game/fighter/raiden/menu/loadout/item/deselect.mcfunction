@@ -4,4 +4,4 @@ $tellraw @s [{translate: "ssbrc.series.metal_gear.loadout.unequip", color: "red"
 
 $scoreboard players operation @s capacity -= #raiden.$(item).weight const
 
-function ssbrc:fighter/raiden/menu/loadout/display_capacity
+function ssbrc:game/fighter/raiden/menu/loadout/display_capacity

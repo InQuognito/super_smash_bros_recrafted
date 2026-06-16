@@ -2,11 +2,11 @@ particle minecraft:dust_color_transition{from_color: [0,1,0], to_color: [.75,1,.
 particle minecraft:sneeze ~ ~ ~ .2 .2 .2 0 50 normal @a
 particle minecraft:composter ~ ~ ~ .25 .25 .25 0 25 normal @a
 
-execute if score @s temp matches ..19 unless block ~ ~.2 ~ #ssbrc:passthrough run return run function ssbrc:fighter/ness/pk_flash/explode
-execute if score @s temp matches 20.. unless block ~ ~-.3 ~ #ssbrc:passthrough run return run function ssbrc:fighter/ness/pk_flash/explode
-execute if score @s temp matches 120.. run return run function ssbrc:fighter/ness/pk_flash/explode
+execute if score @s temp matches ..19 unless block ~ ~.2 ~ #ssbrc:passthrough run return run function ssbrc:game/fighter/ness/pk_flash/explode
+execute if score @s temp matches 20.. unless block ~ ~-.3 ~ #ssbrc:passthrough run return run function ssbrc:game/fighter/ness/pk_flash/explode
+execute if score @s temp matches 120.. run return run function ssbrc:game/fighter/ness/pk_flash/explode
 
-function ssbrc:fighter/ness/pk_flash/vertical_movement
+function ssbrc:game/fighter/ness/pk_flash/vertical_movement
 
 function ssbrc:game/logic/vfx/floor_circle {radius: 2.5, particle: "dust{color: [0, 1, 0], scale: .25}", selector: "force @a[tag=self,limit=1]"}
 

@@ -4,4 +4,4 @@ function ssbrc:game/logic/damage/explosion {amount: 12, type: "generic", kb_resi
 particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 0 1 normal @a
 playsound minecraft:entity.generic.explode player @a
 
-function ssbrc:fighter/zelda/bomb/reset
+function ssbrc:game/fighter/zelda/bomb/reset

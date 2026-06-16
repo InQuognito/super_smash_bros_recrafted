@@ -1,6 +1,6 @@
 function ssbrc:game/logic/game/entity/player/ability/init
 
-execute positioned ~ ~.1 ~ summon minecraft:marker run function ssbrc:fighter/pokemon_trainer/charizard/flare_blitz/init
+execute positioned ~ ~.1 ~ summon minecraft:marker run function ssbrc:game/fighter/pokemon_trainer/charizard/flare_blitz/init
 
 effect give @s minecraft:levitation infinite 0 true
 

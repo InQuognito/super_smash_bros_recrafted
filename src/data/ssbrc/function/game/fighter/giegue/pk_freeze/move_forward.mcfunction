@@ -1,4 +1,4 @@
-function ssbrc:fighter/giegue/pk_freeze/particle
+function ssbrc:game/fighter/giegue/pk_freeze/particle
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run return run kill @s
 
@@ -8,4 +8,4 @@ execute if score #entity_hit temp matches 1 run return run kill @s
 teleport @s ^ ^ ^.15
 
 scoreboard players remove #n temp 1
-execute if score #n temp matches 1.. at @s run function ssbrc:fighter/giegue/pk_freeze/move_forward
+execute if score #n temp matches 1.. at @s run function ssbrc:game/fighter/giegue/pk_freeze/move_forward

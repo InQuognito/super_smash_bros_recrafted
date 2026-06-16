@@ -14,4 +14,4 @@ function ssbrc:game/logic/game/entity/player/hud/type/display { \
 }
 
 $execute if score @s zelda.rupee.$(mode) matches 1.. run playsound ssbrc:fighter.zelda.rupee.$(mode).tick player @s
-$execute if score @s zelda.rupee.$(mode) matches 0 run function ssbrc:fighter/zelda/rupees/finish {mode: "$(mode)"}
+$execute if score @s zelda.rupee.$(mode) matches 0 run function ssbrc:game/fighter/zelda/rupees/finish {mode: "$(mode)"}

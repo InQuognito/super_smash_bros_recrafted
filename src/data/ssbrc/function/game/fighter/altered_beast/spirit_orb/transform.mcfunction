@@ -1,1 +1,1 @@
-$function ssbrc:fighter/altered_beast/kits/$(altered_beast_form)
+$function ssbrc:game/fighter/altered_beast/kits/$(altered_beast_form)

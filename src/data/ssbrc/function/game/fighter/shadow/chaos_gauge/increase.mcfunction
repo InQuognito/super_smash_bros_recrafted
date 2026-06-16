@@ -1,6 +1,6 @@
 scoreboard players add @s resource 1
 
-execute if score @s resource >= #shadow.chaos_gauge const run return run function ssbrc:fighter/shadow/chaos_gauge/full
+execute if score @s resource >= #shadow.chaos_gauge const run return run function ssbrc:game/fighter/shadow/chaos_gauge/full
 
 execute if entity @s[tag=chaos_boost] run return run function ssbrc:game/logic/game/entity/player/hud/type/cost { \
 	hud: 1, \
