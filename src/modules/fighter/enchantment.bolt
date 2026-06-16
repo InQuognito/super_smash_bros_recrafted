@@ -23,7 +23,7 @@ for fighter in fighters:
 				{
 					"effect": {
 						"type": "minecraft:run_function",
-						"function": f'ssbrc:fighter/{fighter}/tick'
+						"function": f'ssbrc:game/fighter/{fighter}/tick'
 					},
 					"requirements": [
 						{

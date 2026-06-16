@@ -4,7 +4,7 @@ from itertools import chain
 
 for fighter in fighters:
 	i = 1
-	function f'ssbrc:fighter/{fighter}/menu/skin/random':
+	function f'ssbrc:game/fighter/{fighter}/menu/skin/random':
 		if fighter in ['byleth', 'villager']:
 			obj = f'execute store result score #random temp run random value 1..{count_skins(fighter, False)}'
 		else:
@@ -15,4 +15,4 @@ for fighter in fighters:
 			if score #random temp matches i if entity @s[advancements={f'ssbrc:fighter/{fighter}/{skin}'=true}] return run function ssbrc:game/logic/game/entity/player/select/skin {'fighter':fighter,'skin':skin,'color':get_color(fighter, skin)}
 			i += 1
 
-		function f'ssbrc:fighter/{fighter}/menu/skin/random'
+		function f'ssbrc:game/fighter/{fighter}/menu/skin/random'

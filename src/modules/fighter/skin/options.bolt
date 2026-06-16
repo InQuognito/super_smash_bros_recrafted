@@ -4,7 +4,7 @@ from itertools import chain
 
 for fighter in fighters:
 	n = 1
-	function f'ssbrc:fighter/{fighter}/menu/skin/options':
+	function f'ssbrc:game/fighter/{fighter}/menu/skin/options':
 		tellraw @s ["=== ",{translate: "ssbrc.fighter.menu.choose_skin",bold: true,color: "yellow"}," ==="]
 
 		if fighter in ['byleth', 'villager']:
