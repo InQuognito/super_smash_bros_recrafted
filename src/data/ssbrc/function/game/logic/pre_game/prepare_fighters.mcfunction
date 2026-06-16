@@ -1,5 +1,4 @@
 attribute @s minecraft:max_health base set 1024
-$scoreboard players set @s health $(max_health)
 
 gamemode adventure @s
 

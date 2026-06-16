@@ -1,6 +1,5 @@
 scoreboard players set @s durability 0
 
-$say $(fighter)
 $function ssbrc:game/fighter/$(fighter)/kit
 
 $item modify entity @s armor.chest { \
