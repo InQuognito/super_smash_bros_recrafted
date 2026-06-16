@@ -31,6 +31,7 @@ $item replace entity @s $(slot) with minecraft:bow[ \
 	}, \
 	minecraft:enchantment_glint_override = false, \
 	minecraft:enchantments = { \
+		"ssbrc:melee": 1, \
 		"ssbrc:fighter/$(fighter)/$(item)": 1, \
 		"ssbrc:charge_ability": 1, \
 	}, \

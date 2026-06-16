@@ -30,6 +30,9 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 		], \
 	}, \
 	minecraft:enchantment_glint_override = false, \
+	minecraft:enchantments = { \
+		"ssbrc:melee": 1, \
+	}, \
 	minecraft:item_model = "ssbrc:fighter/$(fighter)/$(item)", \
 	minecraft:item_name = { \
 		translate: "$(name)", \

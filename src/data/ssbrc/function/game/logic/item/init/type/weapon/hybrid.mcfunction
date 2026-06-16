@@ -30,6 +30,9 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 		], \
 	}, \
 	minecraft:enchantment_glint_override = false, \
+	minecraft:enchantments = { \
+		"ssbrc:melee": 1, \
+	}, \
 	minecraft:instrument = { \
 		sound_event: { \
 			sound_id: "ssbrc:empty", \
