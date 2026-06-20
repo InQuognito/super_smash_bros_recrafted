@@ -26,8 +26,8 @@
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": {
-							"Tags": [
+						"entity_tags": {
+							"all_of": [
 								"oomph"
 							]
 						}

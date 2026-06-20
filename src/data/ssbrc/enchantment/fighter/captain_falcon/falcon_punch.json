@@ -34,16 +34,13 @@
 						}
 					},
 					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"nbt": {
-									"Tags": [
-										"falcon_punch_missed"
-									]
-								}
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_tags": {
+								"none_of": [
+									"falcon_punch_missed"
+								]
 							}
 						}
 					}
