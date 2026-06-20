@@ -11,7 +11,7 @@ function ssbrc:game/logic/player/data/set_storage {key: "hud_3", value: []}
 scoreboard players set @s respawn 0
 scoreboard players set @s flag.dead 0
 
-execute unless data storage ssbrc:data option{teams: true} run function ssbrc:game/logic/game/team/get
+execute unless data storage ssbrc:data option{teams: true} run function ssbrc:game/logic/team/get
 
 attribute @s minecraft:jump_strength base set 0.0
 effect give @s minecraft:slowness infinite 255 true

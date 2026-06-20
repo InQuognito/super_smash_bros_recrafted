@@ -6,9 +6,9 @@ execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {
 
 function ssbrc:game/fighter/alucard/mist/shield
 
-function ssbrc:game/logic/game/entity/player/effects/cleanse
+function ssbrc:game/fighter/_logic/effects/cleanse
 
-function ssbrc:game/logic/game/entity/player/effects/glowing/cloak
+function ssbrc:game/fighter/_logic/effects/glowing/cloak
 
 effect give @s minecraft:invisibility infinite 0 true
 effect give @s minecraft:levitation infinite 0 true

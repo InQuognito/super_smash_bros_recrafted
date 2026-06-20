@@ -1,8 +1,8 @@
-execute as @e[predicate=ssbrc:target,distance=..3] run function ssbrc:game/logic/damage/generic {amount: 8, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
+kill @s
 
 particle minecraft:explosion ~ ~ ~ 0 0 0 0 1 normal @a
 
-kill @s
+function ssbrc:game/logic/damage/explosion {amount: 8, radius: 3, kb_resist: 0, i_frames: 0}
 
 playsound ssbrc:fighter.mega_man.drill_bomb.explode player @a
 playsound minecraft:entity.generic.explode player @a

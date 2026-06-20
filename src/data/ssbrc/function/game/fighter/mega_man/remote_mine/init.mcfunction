@@ -2,7 +2,7 @@ tag @s add remote_mine
 
 item replace entity @s contents with minecraft:stick[minecraft:item_model="ssbrc:fighter/mega_man/projectile/remote_mine"]
 
-function ssbrc:entity/_init/position
+function ssbrc:entity/_logic/init/position
 
 data merge entity @s {teleport_duration: 1}
 function ssbrc:game/fighter/mega_man/remote_mine/animation/1

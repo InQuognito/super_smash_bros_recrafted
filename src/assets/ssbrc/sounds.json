@@ -530,37 +530,37 @@
 			}
 		]
 	},
-	"fighter.cloud.cross_slash.hit1": {
+	"fighter.cloud.cross_slash.hit.1": {
 		"sounds": [
 			{
-				"name": "ssbrc:fighter/cloud/cross_slash/hit1",
+				"name": "ssbrc:fighter/cloud/cross_slash/hit/1",
 				"stream": false,
 				"volume": 1.0
 			}
 		]
 	},
-	"fighter.cloud.cross_slash.hit2": {
+	"fighter.cloud.cross_slash.hit.2": {
 		"sounds": [
 			{
-				"name": "ssbrc:fighter/cloud/cross_slash/hit2",
+				"name": "ssbrc:fighter/cloud/cross_slash/hit/2",
 				"stream": false,
 				"volume": 1.0
 			}
 		]
 	},
-	"fighter.cloud.cross_slash.hit3": {
+	"fighter.cloud.cross_slash.hit.3": {
 		"sounds": [
 			{
-				"name": "ssbrc:fighter/cloud/cross_slash/hit3",
+				"name": "ssbrc:fighter/cloud/cross_slash/hit/3",
 				"stream": false,
 				"volume": 1.0
 			}
 		]
 	},
-	"fighter.cloud.cross_slash.hit4": {
+	"fighter.cloud.cross_slash.hit.4": {
 		"sounds": [
 			{
-				"name": "ssbrc:fighter/cloud/cross_slash/hit4",
+				"name": "ssbrc:fighter/cloud/cross_slash/hit/4",
 				"stream": false,
 				"volume": 1.0
 			}

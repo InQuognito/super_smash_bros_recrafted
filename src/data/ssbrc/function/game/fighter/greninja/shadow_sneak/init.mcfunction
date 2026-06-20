@@ -1,3 +1,3 @@
 tag @s add shadow_sneak
 
-function ssbrc:entity/_init/projectile/horizontal
+function ssbrc:entity/_logic/init/projectile/horizontal

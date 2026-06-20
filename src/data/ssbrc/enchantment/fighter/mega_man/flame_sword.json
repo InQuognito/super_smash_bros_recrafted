@@ -22,7 +22,7 @@
 				"affected": "victim",
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/logic/game/entity/player/effects/wither"
+					"function": "ssbrc:game/fighter/_logic/effects/wither"
 				},
 				"requirements": {
 					"condition": "minecraft:entity_scores",

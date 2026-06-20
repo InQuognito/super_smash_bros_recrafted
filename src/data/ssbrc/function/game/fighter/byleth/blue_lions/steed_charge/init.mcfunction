@@ -20,7 +20,7 @@ data merge entity @s { \
 	Glowing: true, \
 }
 
-function ssbrc:entity/_init/entity/living
+function ssbrc:entity/_logic/init/entity/living
 
 ride @n[tag=self,distance=..3] mount @s
 

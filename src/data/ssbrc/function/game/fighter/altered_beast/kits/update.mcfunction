@@ -15,6 +15,6 @@ item modify entity @s hotbar.8 { \
 	}, \
 }
 
-function ssbrc:game/logic/game/entity/player/armor/update with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
+function ssbrc:game/fighter/_logic/armor/update with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
 $playsound ssbrc:fighter.altered_beast.$(form).transform player @a

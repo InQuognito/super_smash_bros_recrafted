@@ -1,4 +1,4 @@
-function ssbrc:game/logic/game/entity/player/ability/init
+function ssbrc:game/fighter/_logic/ability/init
 
 execute store result score temp health run scoreboard players get @s health
 
@@ -15,4 +15,4 @@ execute if entity @s[scores={weapon_2.mags=1..,weapon_2.ammo=0}] run function ss
 
 playsound ssbrc:sniper_fire player @a
 
-function ssbrc:game/logic/game/entity/player/ability/deinit
+function ssbrc:game/fighter/_logic/ability/deinit

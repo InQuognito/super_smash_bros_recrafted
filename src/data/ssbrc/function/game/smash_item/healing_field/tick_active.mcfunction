@@ -5,4 +5,4 @@ particle minecraft:dust_color_transition{from_color: [.25,1,.25], to_color: [.75
 
 scoreboard players operation #cache temp = @s temp
 scoreboard players operation #cache temp %= #20 const
-execute if score #cache temp matches 0 run function ssbrc:smash_item/healing_field/heal
+execute if score #cache temp matches 0 run function ssbrc:game/smash_item/healing_field/heal

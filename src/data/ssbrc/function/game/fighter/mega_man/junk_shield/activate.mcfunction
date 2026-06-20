@@ -1,6 +1,6 @@
 tag @s add junk_shield
 
-function ssbrc:game/logic/game/entity/player/ability/init
+function ssbrc:game/fighter/_logic/ability/init
 
 execute store result storage ssbrc:temp cache.rotation int 1 run scoreboard players set #rotation temp 0
 execute store result score #pos_y temp run data get entity @s Pos[1] 10.0
@@ -24,6 +24,6 @@ function ssbrc:game/logic/block/execute_at_ground {result: "execute summon minec
 
 scoreboard players remove @s mega_man.junk_shield 1
 
-function ssbrc:game/logic/game/entity/player/effects/immobile/activate {type: "air_stall", duration: 15}
+function ssbrc:game/fighter/_logic/effects/immobile/activate {type: "air_stall", duration: 15}
 
 playsound ssbrc:fighter.mega_man.junk_shield.activate player @a

@@ -5,14 +5,12 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"alive\"]}"
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Tags:[\"fighter_picked\"]}"
+				"entity_tags": {
+					"any_of": [
+						"alive",
+						"fighter_picked"
+					]
+				}
 			}
 		},
 		{

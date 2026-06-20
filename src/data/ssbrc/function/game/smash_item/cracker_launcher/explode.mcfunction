@@ -1,5 +1,4 @@
-execute as @e[predicate=ssbrc:target,distance=..3] run function ssbrc:game/logic/damage/generic {amount: 6, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
-execute if entity @s[tag=self,distance=..3] run function ssbrc:game/logic/damage/generic {amount: 6, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
+function ssbrc:game/logic/damage/explosion {amount: 6, radius: 3, kb_resist: 0, i_frames: 0}
 
 kill @s
 

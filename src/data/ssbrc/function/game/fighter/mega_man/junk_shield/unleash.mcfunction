@@ -1,4 +1,4 @@
-function ssbrc:game/logic/game/entity/player/ability/init
+function ssbrc:game/fighter/_logic/ability/init
 
 tag @s remove junk_shield
 
@@ -6,4 +6,4 @@ execute as @e[type=minecraft:item_display,tag=junk_shield,predicate=ssbrc:owner]
 
 playsound ssbrc:fighter.mega_man.junk_shield.deactivate player @a
 
-function ssbrc:game/logic/game/entity/player/ability/deinit
+function ssbrc:game/fighter/_logic/ability/deinit

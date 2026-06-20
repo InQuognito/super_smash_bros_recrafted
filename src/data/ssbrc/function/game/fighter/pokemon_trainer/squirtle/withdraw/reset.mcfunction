@@ -1,8 +1,8 @@
-function ssbrc:game/logic/game/entity/player/effects/immobile/deactivate
+function ssbrc:game/fighter/_logic/effects/immobile/deactivate
 
 scoreboard players set @s charge.2 0
 
-function ssbrc:game/logic/game/entity/player/effects/glowing/uncloak
+function ssbrc:game/fighter/_logic/effects/glowing/uncloak
 
 effect clear @s minecraft:invisibility
 

@@ -1,4 +1,4 @@
-function ssbrc:game/logic/game/entity/player/ability/init
+function ssbrc:game/fighter/_logic/ability/init
 
 execute anchored eyes positioned ^ ^ ^1 summon minecraft:armor_stand run function ssbrc:game/fighter/king_k_rool/blunderbuss/init/projectile with entity @a[tag=self,limit=1] equipment.body.components."minecraft:custom_data".temp.fighter
 
@@ -7,4 +7,4 @@ function player_motion:api/launch_local_xyz
 
 playsound ssbrc:fighter.king_k_rool.blunderbuss.activate player @a
 
-function ssbrc:game/logic/game/entity/player/ability/deinit
+function ssbrc:game/fighter/_logic/ability/deinit

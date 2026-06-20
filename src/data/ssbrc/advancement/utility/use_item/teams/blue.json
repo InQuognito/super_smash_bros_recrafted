@@ -26,6 +26,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/logic/game/team/join/check_ctf"
+		"function": "ssbrc:game/logic/team/join/check_ctf"
 	}
 }

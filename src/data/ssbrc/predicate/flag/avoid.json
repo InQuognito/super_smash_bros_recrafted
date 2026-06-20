@@ -10,8 +10,12 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"type": "minecraft:item_display",
-					"nbt": "{Tags:[\"ghost\"]}"
+					"entity_type": "minecraft:item_display",
+					"entity_tags": {
+						"any_of": [
+							"ghost"
+						]
+					}
 				}
 			}
 		]

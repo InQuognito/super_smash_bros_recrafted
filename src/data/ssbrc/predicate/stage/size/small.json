@@ -1,126 +1,21 @@
 {
-	"condition": "minecraft:any_of",
-	"terms": [
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": {
-					"data": {
-						"id": "flat_zone"
-					}
-				}
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": {
-					"data": {
-						"id": "icicle_mountain"
-					}
-				}
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": {
-					"data": {
-						"id": "magicant"
-					}
-				}
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": {
-					"data": {
-						"id": "mementos"
-					}
-				}
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": {
-					"data": {
-						"id": "miiverse"
-					}
-				}
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": {
-					"data": {
-						"id": "pallet_town"
-					}
-				}
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": {
-					"data": {
-						"id": "palutenas_temple"
-					}
-				}
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": {
-					"data": {
-						"id": "planet_zebes"
-					}
-				}
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": {
-					"data": {
-						"id": "pyrosphere"
-					}
-				}
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": {
-					"data": {
-						"id": "spear_pillar"
-					}
-				}
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": {
-					"data": {
-						"id": "tower_of_fate"
-					}
-				}
-			}
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"entity_tags": {
+			"any_of": [
+				"flat_zone",
+				"icicle_mountain",
+				"magicant",
+				"mementos",
+				"miiverse",
+				"pallet_town",
+				"palutenas_temple",
+				"planet_zebes",
+				"pyrosphere",
+				"spear_pillar",
+				"tower_of_fate"
+			]
 		}
-	]
+	}
 }

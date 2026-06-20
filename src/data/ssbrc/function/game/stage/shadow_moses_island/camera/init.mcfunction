@@ -9,7 +9,7 @@ data merge entity @s { \
 	NoGravity: true, \
 }
 
-function ssbrc:entity/_init/armor_stand/common
+function ssbrc:entity/_logic/init/armor_stand/common
 
 execute if data storage ssbrc:data option{hazards: "true"} run return -1
 

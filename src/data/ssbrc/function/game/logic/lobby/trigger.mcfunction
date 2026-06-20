@@ -6,6 +6,6 @@ execute unless score @s fighter_trigger matches 0 run function ssbrc:game/logic/
 scoreboard players set @s fighter_trigger 0
 scoreboard players enable @s fighter_trigger
 
-execute if items entity @s weapon.mainhand minecraft:written_book[minecraft:custom_data~{item: "options"}] unless score @s options_trigger matches 0 run function ssbrc:game/logic/game/options/trigger
+execute if items entity @s weapon.mainhand minecraft:written_book[minecraft:custom_data~{item: "options"}] unless score @s options_trigger matches 0 run function ssbrc:game/logic/options/trigger
 scoreboard players set @s options_trigger 0
 scoreboard players enable @s options_trigger

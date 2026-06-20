@@ -1,4 +1,4 @@
-function ssbrc:game/logic/game/entity/player/ability/init
+function ssbrc:game/fighter/_logic/ability/init
 
 scoreboard players operation #cache temp = @s resource
 execute rotated ~ 0 positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:game/fighter/cloud/buster_sword/blade_beam/init
@@ -8,4 +8,4 @@ execute if score @s resource >= #cloud.limit const run function ssbrc:game/fight
 
 function ssbrc:game/fighter/cloud/limit/update
 
-function ssbrc:game/logic/game/entity/player/ability/deinit
+function ssbrc:game/fighter/_logic/ability/deinit

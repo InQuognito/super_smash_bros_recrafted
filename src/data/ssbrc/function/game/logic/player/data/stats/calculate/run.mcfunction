@@ -2,4 +2,4 @@ function ssbrc:game/logic/player/data/stats/calculate/kill_death_ratio {output:"
 
 function ssbrc:game/logic/player/data/stats/calculate/ratio {output:"@s stats.win_loss",val_1:"@s stats.wins",val_2:"@s stats.games_played"}
 
-function ssbrc:game/logic/game/entity/player/loop {function: "ssbrc:game/logic/player/data/stats/calculate/fighter"}
+function ssbrc:game/fighter/_logic/loop {function: "ssbrc:game/logic/player/data/stats/calculate/fighter"}

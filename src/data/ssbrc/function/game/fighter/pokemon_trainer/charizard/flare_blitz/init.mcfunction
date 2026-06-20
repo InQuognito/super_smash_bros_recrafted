@@ -1,3 +1,3 @@
 tag @s add flare_blitz
 
-function ssbrc:entity/_init/charge_attack/default
+function ssbrc:entity/_logic/init/charge_attack/default

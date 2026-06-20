@@ -7,4 +7,4 @@ data merge entity @s { \
 	Small: 1b, \
 }
 
-function ssbrc:entity/_init/armor_stand/projectile_horizontal
+function ssbrc:entity/_logic/init/armor_stand/projectile_horizontal

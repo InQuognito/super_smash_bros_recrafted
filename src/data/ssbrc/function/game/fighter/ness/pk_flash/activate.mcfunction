@@ -1,4 +1,4 @@
-function ssbrc:game/logic/game/entity/player/ability/init
+function ssbrc:game/fighter/_logic/ability/init
 
 tag @s add pk_flash
 
@@ -6,4 +6,4 @@ execute positioned ~ ~2.5 ~ summon minecraft:marker run function ssbrc:game/figh
 
 playsound ssbrc:fighter.ness.pk_flash.activate player @a
 
-function ssbrc:game/logic/game/entity/player/ability/deinit
+function ssbrc:game/fighter/_logic/ability/deinit

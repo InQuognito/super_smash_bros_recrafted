@@ -38,7 +38,7 @@ item modify entity @s contents [ \
 	}, \
 ]
 
-function ssbrc:smash_item/food/choose
+function ssbrc:game/smash_item/food/choose
 
 execute if score #random temp matches 1 run return run item modify entity @s contents { \
 	function: "minecraft:set_custom_model_data", \

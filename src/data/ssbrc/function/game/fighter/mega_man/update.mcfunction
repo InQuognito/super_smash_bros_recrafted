@@ -1,4 +1,4 @@
-$function ssbrc:game/logic/game/entity/player/hud/type/percentage { \
+$function ssbrc:game/fighter/_logic/hud/type/percentage { \
 	hud: 1, \
 	data: [], \
 	max: "mega_man.$(item)", \

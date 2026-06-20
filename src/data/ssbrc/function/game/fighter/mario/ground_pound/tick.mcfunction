@@ -1,7 +1,7 @@
 scoreboard players add @s[scores={charge.3=1..}] charge.3 1
 execute if score @s charge.3 matches 5.. run function ssbrc:game/fighter/mario/ground_pound/activate
 
-execute if entity @s[tag=!launched,tag=!ground_pound,scores={motion_y=..-10,charge.3=..0},predicate=ssbrc:flag/sneaking] unless function ssbrc:game/logic/game/entity/player/if_grounded run function ssbrc:game/fighter/mario/ground_pound/start
-execute if entity @s[tag=ground_pound] if function ssbrc:game/logic/game/entity/player/if_grounded run function ssbrc:game/fighter/mario/ground_pound/deactivate
+execute if entity @s[tag=!launched,tag=!ground_pound,scores={motion_y=..-10,charge.3=..0},predicate=ssbrc:flag/sneaking] unless function ssbrc:game/fighter/_logic/if_grounded run function ssbrc:game/fighter/mario/ground_pound/start
+execute if entity @s[tag=ground_pound] if function ssbrc:game/fighter/_logic/if_grounded run function ssbrc:game/fighter/mario/ground_pound/deactivate
 
 scoreboard players set @s[scores={charge.3=15..}] charge.3 0

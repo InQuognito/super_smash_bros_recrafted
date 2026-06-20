@@ -1,4 +1,4 @@
-function ssbrc:game/logic/game/entity/player/ability/init
+function ssbrc:game/fighter/_logic/ability/init
 
 execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ssbrc:game/fighter/sora/fire/firaga/init
 
@@ -7,4 +7,4 @@ function ssbrc:game/fighter/sora/magic/update
 
 playsound ssbrc:fighter.sora.firaga.activate player @a
 
-function ssbrc:game/logic/game/entity/player/ability/deinit
+function ssbrc:game/fighter/_logic/ability/deinit

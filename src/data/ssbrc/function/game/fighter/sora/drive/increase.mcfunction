@@ -1,7 +1,7 @@
-scoreboard players operation @s charge.1 += drive_gain temp
+scoreboard players operation @s charge.1 += #drive_gain temp
 execute if score @s[scores={resource=..4}] charge.1 >= #sora.drive.meter const run function ssbrc:game/fighter/sora/drive/fill_bar
 
-function ssbrc:game/logic/game/entity/player/hud/type/percentage { \
+function ssbrc:game/fighter/_logic/hud/type/percentage { \
 	hud: 2, \
 	data: [ \
 		" | ", \

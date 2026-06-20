@@ -1,3 +1,3 @@
-function ssbrc:game/logic/damage/generic {amount: 6, type: "default", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
+function ssbrc:game/logic/damage/generic {amount: 6, kb_resist: 0, i_frames: 0}
 
-function ssbrc:game/logic/game/entity/player/effects/stun/activate {duration: 2}
+function ssbrc:game/fighter/_logic/effects/stun/activate {duration: 2}

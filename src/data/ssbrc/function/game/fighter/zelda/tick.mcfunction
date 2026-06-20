@@ -1,4 +1,4 @@
-function ssbrc:game/logic/game/entity/player/ability/init
+function ssbrc:game/fighter/_logic/ability/init
 
 # Dungeon Items
 execute if items entity @s[scores={fuse=1..}] container.* *[minecraft:custom_data~{item: "bomb"}] run function ssbrc:game/fighter/zelda/bomb/fuse_tick
@@ -10,7 +10,7 @@ execute if items entity @s container.* *[minecraft:custom_data~{item: "goron_loc
 
 execute if items entity @s[scores={health=7..}] container.* *[minecraft:custom_data~{item: "nayrus_ring"}] run effect clear @s minecraft:resistance
 
-execute if items entity @s container.* *[minecraft:custom_data~{item: "torch_of_wisdom"}] as @e[predicate=ssbrc:target,predicate=!ssbrc:team_match,tag=cloaked,distance=..10] run function ssbrc:game/logic/game/entity/player/effects/glowing/uncloak
+execute if items entity @s container.* *[minecraft:custom_data~{item: "torch_of_wisdom"}] as @e[predicate=ssbrc:target,predicate=!ssbrc:team_match,tag=cloaked,distance=..10] run function ssbrc:game/fighter/_logic/effects/glowing/uncloak
 
 execute if items entity @s[scores={health=11..}] container.* *[minecraft:custom_data~{item: "ring_of_risk"}] run attribute @s minecraft:attack_damage modifier remove ssbrc:passive
 
@@ -33,4 +33,4 @@ execute if score @s zelda.silent_princess matches 1.. run function ssbrc:game/fi
 
 execute if score @s zelda.special_bond matches 1.. run function ssbrc:game/fighter/zelda/blessings/special_bond/tick
 
-function ssbrc:game/logic/game/entity/player/ability/deinit
+function ssbrc:game/fighter/_logic/ability/deinit

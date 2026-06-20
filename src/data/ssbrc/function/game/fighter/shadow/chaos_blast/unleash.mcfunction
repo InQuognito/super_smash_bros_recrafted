@@ -1,4 +1,4 @@
-execute as @e[tag=!self,predicate=ssbrc:target,distance=..2] run function ssbrc:game/logic/damage/generic {amount: 24, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
+execute as @e[tag=!self,predicate=ssbrc:target,distance=..2] run function ssbrc:game/logic/damage/generic {amount: 24, kb_resist: 0, i_frames: 0}
 
 function ssbrc:game/fighter/shadow/chaos_blast/shockwave/start
 

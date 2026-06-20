@@ -1,4 +1,4 @@
-function ssbrc:game/logic/game/entity/player/ability/init
+function ssbrc:game/fighter/_logic/ability/init
 
 execute if entity @s[tag=golden_deer,scores={charge.3=1..}] run function ssbrc:game/fighter/byleth/golden_deer/brave_bow/tick
 
@@ -10,4 +10,4 @@ execute if entity @s[scores={charge.1=1..,cooldown.1=..0}] as @e[type=minecraft:
 execute unless items entity @s container.* *[minecraft:custom_data~{group: "byleth_relic"}] run scoreboard players add @s resource 1
 execute if score @s resource matches 300.. run function ssbrc:game/fighter/byleth/restore_items
 
-function ssbrc:game/logic/game/entity/player/ability/deinit
+function ssbrc:game/fighter/_logic/ability/deinit

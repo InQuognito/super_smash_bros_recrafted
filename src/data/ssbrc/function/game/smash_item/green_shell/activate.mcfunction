@@ -1,6 +1,6 @@
-function ssbrc:game/logic/game/entity/player/ability/init
+function ssbrc:game/fighter/_logic/ability/init
 
-execute anchored eyes rotated ~ 0 positioned ^ ^ ^.5 summon minecraft:armor_stand run function ssbrc:smash_item/green_shell/init/projectile
+execute anchored eyes rotated ~ 0 positioned ^ ^ ^.5 summon minecraft:armor_stand run function ssbrc:game/smash_item/green_shell/init/projectile
 
 scoreboard players set @s cooldown 10
 
@@ -8,4 +8,4 @@ clear @s *[minecraft:custom_data~{item: "green_shell"}]
 
 playsound ssbrc:smash_item.green_shell.activate player @a
 
-function ssbrc:game/logic/game/entity/player/ability/deinit
+function ssbrc:game/fighter/_logic/ability/deinit

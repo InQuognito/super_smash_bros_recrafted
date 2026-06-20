@@ -1,3 +1,3 @@
 tag @s add fgii_graham.bullet
 
-function ssbrc:entity/_init/position
+function ssbrc:entity/_logic/init/position

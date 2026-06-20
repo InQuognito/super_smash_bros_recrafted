@@ -2,7 +2,7 @@ execute unless block ^ ^ ^.3 #ssbrc:passthrough_barrier run scoreboard players s
 
 teleport @e[type=minecraft:item,distance=..1] @s
 
-execute positioned ~-.2 ~-.2 ~-.2 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-.6 ~-.7 ~-.6 if entity @s[dx=0] run function ssbrc:game/logic/damage/generic {amount: 6, type: "pierce", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
+execute positioned ~-.2 ~-.2 ~-.2 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-.6 ~-.7 ~-.6 if entity @s[dx=0] run function ssbrc:game/logic/damage/generic {amount: 6, kb_resist: 0, i_frames: 5}
 
 execute positioned ~-.2 ~-.2 ~-.2 as @a[tag=self,limit=1,dx=0] positioned ~-.6 ~-.6 ~-.6 if entity @s[dx=0] run function ssbrc:game/fighter/toon_link/boomerang/regain
 

@@ -1,4 +1,4 @@
-function ssbrc:game/logic/game/entity/player/ability/init
+function ssbrc:game/fighter/_logic/ability/init
 scoreboard players operation #team temp = @s team
 
 execute summon minecraft:skeleton run function ssbrc:game/fighter/ganondorf/stalfos/init

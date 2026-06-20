@@ -1,4 +1,4 @@
-function ssbrc:game/logic/game/entity/player/ability/init
+function ssbrc:game/fighter/_logic/ability/init
 
 # Ray Blaster
 scoreboard players remove @s[scores={charge.2=1..}] charge.2 3
@@ -12,4 +12,4 @@ execute if score @s duration.1 matches 1 run function ssbrc:game/fighter/yar/pow
 # Omnishot
 execute if entity @s[tag=omnishot,scores={duration.1=1..}] run function ssbrc:game/fighter/yar/omnishot/tick
 
-function ssbrc:game/logic/game/entity/player/ability/deinit
+function ssbrc:game/fighter/_logic/ability/deinit

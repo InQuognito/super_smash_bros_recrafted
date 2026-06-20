@@ -31,8 +31,7 @@ for fighter in fighters:
 							"entity": "this",
 							"predicate": {
 								"type": "minecraft:player",
-								"type_specific": {
-									"type": "minecraft:player",
+								"type_specific/player": {
 									"gamemode": [
 										"adventure"
 									]

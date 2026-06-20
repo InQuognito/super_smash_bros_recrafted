@@ -10,6 +10,6 @@ data merge entity @s { \
 	}, \
 }
 
-function ssbrc:entity/_init/id
+function ssbrc:entity/_logic/init/id
 
 ride @s mount @n[type=minecraft:snowball,tag=payday.vehicle,distance=...01]

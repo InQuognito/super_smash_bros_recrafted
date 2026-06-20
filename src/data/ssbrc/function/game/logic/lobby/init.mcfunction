@@ -24,7 +24,7 @@ summon minecraft:text_display -4 .5 0 {text:[{translate: "ssbrc.lobby.welcome", 
 #execute positioned -531.99 4.5 -1945.5 run function ssbrc:game/logic/lobby/logo {id:"youtube", color: "red",link:"https://www.youtube.com/channel/UCCqXNuFgGs53GgP7oSQGtOA"}
 
 # OST Pack
-#summon minecraft:item_display -525.5 5.5 -1952.5 {data:{interaction:{id:"assets",action:"tellraw @s [{\"text\":\"[\",\"color\":\"gold\",\"bold\":true}, {\"text\":\"Music Pack\",\"color\":\"yellow\",\"click_event\":{\"action\":\"open_url\",\"url\":\"https://www.mediafire.com/folder/nfw6qfrl6rgd7/SSBRC\"}},\"]\"]"}},item:{id:"minecraft:jukebox"}, transformation: {left_rotation:[0.20f,0.35f,-0.1f,0.9f],right_rotation:[0f,0f,0f,1f],scale:[0.5f,0.5f,0.5f],translation:[0f,0f,0f]}}
+#summon minecraft:item_display -525.5 5.5 -1952.5 {data:{interaction:{id:"assets",action:"tellraw @s [{\"text\":\"[\",\"color\":\"gold\",\"bold\":true}, {\"text\":\"Music Pack\",\"color\":\"yellow\",\"click_event\":{\"action\":\"open_url\",\"url\":\"https://www.mediafire.com/folder/nfw6qfrl6rgd7/SSBRC\"}},\"]\"]"}},item:{id:"minecraft:jukebox"}, transformation: {left_rotation:[.2f,.35f,-.1f,.9f],right_rotation:[0f,0f,0f,1f],scale:[.5f,.5f,.5f],translation:[0f,0f,0f]}}
 #execute positioned -525.5 4.25 -1951.99 run summon minecraft:text_display ~ ~ ~ {text:{text: "Click the jukebox to download the music pack!", color: "yellow"},transformation:[0.5f,0f,0f,0f,0f,0.5f,0f,0f,0f,0f,0.5f,0f,0f,0f,0f,1f],line_width:75, alignment: "center",background:0}
 
 #function ssbrc:game/logic/lobby/credits/reset

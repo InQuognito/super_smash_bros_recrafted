@@ -2,7 +2,7 @@ particle minecraft:flame ~ ~ ~ .05 .05 .05 0 2 force @a
 particle minecraft:flame ^ ^ ^.25 .05 .05 .05 0 2 normal @a
 particle minecraft:dust_color_transition{from_color: [1,.5,0], to_color: [1,1,1],scale:.75} ^ ^ ^-.1 .075 .075 .075 0 10 normal @a
 
-execute positioned ~-.375 ~-.375 ~-.375 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-.25 ~-.25 ~-.25 if entity @s[dx=0] run function ssbrc:game/logic/damage/fire {amount: 4, burning: 30, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
+execute positioned ~-.375 ~-.375 ~-.375 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-.25 ~-.25 ~-.25 if entity @s[dx=0] run function ssbrc:game/logic/damage/fire {amount: 4, duration: 30, kb_resist: 0, i_frames: 0}
 execute if score #entity_hit temp matches 1 run return run kill @s
 
 execute store result entity @s Rotation[1] float .25 run scoreboard players get @s point

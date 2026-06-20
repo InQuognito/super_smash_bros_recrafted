@@ -46,4 +46,4 @@ data merge entity @s { \
 	}, \
 }
 
-function ssbrc:entity/_init/entity/living
+function ssbrc:entity/_logic/init/entity/living

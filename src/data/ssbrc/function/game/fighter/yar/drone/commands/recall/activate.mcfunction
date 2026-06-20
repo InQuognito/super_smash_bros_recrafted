@@ -1,4 +1,4 @@
-function ssbrc:game/logic/game/entity/player/ability/init
+function ssbrc:game/fighter/_logic/ability/init
 
 execute as @e[type=minecraft:bee,tag=drone,predicate=ssbrc:owner] at @s run function ssbrc:game/fighter/yar/drone/commands/recall/drone
 

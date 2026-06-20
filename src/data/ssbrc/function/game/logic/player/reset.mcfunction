@@ -11,8 +11,8 @@ execute if entity @s[advancements={ssbrc:tutorial/intro/2=true}] run return fail
 
 # Start Tutorial
 tag @s add picking_random
-function ssbrc:game/logic/game/entity/player/select/default with storage ssbrc:data fighter.toon_link
-function ssbrc:game/logic/game/entity/player/armor/init
+function ssbrc:game/fighter/_logic/select/default with storage ssbrc:data fighter.toon_link
+function ssbrc:game/fighter/_logic/armor/init
 tag @s remove picking_random
 
 execute if entity @s[advancements={ssbrc:tutorial/equipment/master_sword=true}] run function ssbrc:game/logic/item/init/slot {item: "master_sword", slot: "hotbar.0", class: "weapon", type: "default"}

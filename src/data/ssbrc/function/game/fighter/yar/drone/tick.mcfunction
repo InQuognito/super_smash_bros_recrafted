@@ -11,7 +11,7 @@ execute unless data entity @s data{command: "stop"} unless block ^ ^ ^1 #ssbrc:p
 
 teleport @e[type=minecraft:item,distance=..1] @s
 
-execute as @a[tag=cloaked,distance=..10] run function ssbrc:game/logic/game/entity/player/effects/glowing/uncloak
+execute as @a[tag=cloaked,distance=..10] run function ssbrc:game/fighter/_logic/effects/glowing/uncloak
 
 execute if data entity @s[scores={cooldown=..0}] data{command: "stop"} facing entity @n[tag=!self,predicate=ssbrc:target,distance=0.1..3] eyes run function ssbrc:game/fighter/yar/drone/projectile/activate
 

@@ -1,4 +1,4 @@
-function ssbrc:game/logic/game/entity/player/ability/init
+function ssbrc:game/fighter/_logic/ability/init
 
 execute rotated ~ 0 positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:game/fighter/zelda/fire_rod/alternate_function/init
 
@@ -7,4 +7,4 @@ function ssbrc:game/fighter/zelda/magic/update
 
 playsound ssbrc:fighter.zelda.fire_rod.activate player @a
 
-function ssbrc:game/logic/game/entity/player/ability/deinit
+function ssbrc:game/fighter/_logic/ability/deinit

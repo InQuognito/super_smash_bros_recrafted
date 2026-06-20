@@ -1,4 +1,4 @@
-$execute if entity @s[advancements={ssbrc:fighter/$(id)/default=true}] run return run function ssbrc:game/logic/game/entity/player/select/default with storage ssbrc:data fighter.$(id)
+$execute if entity @s[advancements={ssbrc:fighter/$(id)/default=true}] run return run function ssbrc:game/fighter/_logic/select/default with storage ssbrc:data fighter.$(id)
 
 tellraw @s {translate: "ssbrc.fighter_select.unowned", color: "red"}
 

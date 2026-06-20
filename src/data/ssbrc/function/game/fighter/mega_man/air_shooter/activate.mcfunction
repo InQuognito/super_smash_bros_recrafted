@@ -1,4 +1,4 @@
-function ssbrc:game/logic/game/entity/player/ability/init
+function ssbrc:game/fighter/_logic/ability/init
 
 execute positioned ~ ~.25 ~ positioned ^ ^ ^.5 run function ssbrc:game/fighter/mega_man/air_shooter/projectile
 
@@ -6,4 +6,4 @@ scoreboard players remove @s mega_man.air_shooter 1
 
 playsound ssbrc:fighter.mega_man.air_shooter.activate player @a
 
-function ssbrc:game/logic/game/entity/player/ability/deinit
+function ssbrc:game/fighter/_logic/ability/deinit

@@ -6,4 +6,4 @@ function ssbrc:game/fighter/zelda/passive_items/zoras_flippers
 
 function ssbrc:game/fighter/zelda/passive_items/torch_of_wisdom
 
-function ssbrc:game/logic/game/entity/player/armor/post_init
+function ssbrc:game/fighter/_logic/armor/post_init

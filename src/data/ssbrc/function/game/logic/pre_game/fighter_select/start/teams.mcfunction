@@ -1,4 +1,4 @@
-function ssbrc:game/logic/game/team/count/all
+function ssbrc:game/logic/team/count/all
 
 # All players have chosen their fighter, but are on the same team (Excluding singleplayer)
 execute if score #fighter_picked temp = #players temp if score #fighter_picked temp = largest_team temp unless score #players temp matches ..1 run function ssbrc:game/logic/pre_game/fighter_select/start/same_team

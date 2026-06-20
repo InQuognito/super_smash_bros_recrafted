@@ -1,4 +1,4 @@
-function ssbrc:game/logic/game/entity/player/ability/init
+function ssbrc:game/fighter/_logic/ability/init
 
 # Glowing
 function ssbrc:game/fighter/snake/glowing
@@ -12,4 +12,4 @@ execute at @n[type=minecraft:armor_stand,tag=smoke_grenade] if entity @s[tag=nig
 # Night Vision Goggles
 execute if entity @s[tag=night_vision_goggles] run function ssbrc:game/fighter/snake/night_vision_goggles/clear_smoke_effects
 
-function ssbrc:game/logic/game/entity/player/ability/deinit
+function ssbrc:game/fighter/_logic/ability/deinit

@@ -23,8 +23,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type_specific": {
-								"type": "minecraft:player",
+							"type_specific/player": {
 								"gamemode": [
 									"adventure"
 								]
@@ -45,6 +44,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/logic/game/item/pickup/default"
+		"function": "ssbrc:game/smash_item/_logic/pickup/default"
 	}
 }

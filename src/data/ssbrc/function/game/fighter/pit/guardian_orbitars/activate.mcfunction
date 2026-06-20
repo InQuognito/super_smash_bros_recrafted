@@ -1,6 +1,6 @@
 tag @s add guardian_orbitars
 
-function ssbrc:game/logic/game/entity/player/effects/immobile/activate {type: "default", duration: 1000000}
+function ssbrc:game/fighter/_logic/effects/immobile/activate {type: "default", duration: 1000000}
 
 execute positioned ^ ^ ^1.5 summon minecraft:item_display run function ssbrc:game/fighter/pit/guardian_orbitars/init with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 execute rotated ~180 ~ positioned ^ ^ ^1.5 summon minecraft:item_display run function ssbrc:game/fighter/pit/guardian_orbitars/init with entity @s equipment.body.components."minecraft:custom_data".temp.fighter

@@ -1,4 +1,4 @@
-function ssbrc:game/logic/game/entity/player/ability/init
+function ssbrc:game/fighter/_logic/ability/init
 
 # Guardian Orbitars
 execute if items entity @s[tag=!guardian_orbitars,scores={silenced=..0,cooldown.2=..0},predicate=ssbrc:flag/sneaking] weapon.mainhand *[minecraft:custom_data~{item: "palutena_bow"}] positioned ~ ~.75 ~ rotated ~ 0 run function ssbrc:game/fighter/pit/guardian_orbitars/activate
@@ -10,4 +10,4 @@ execute if score @s flight_time matches 4500.. run particle minecraft:small_flam
 execute if score @s flight_time matches 5000.. run function ssbrc:game/fighter/pit/wings/burn
 execute if score @s timer matches 1.. run function ssbrc:game/fighter/pit/wings/regain/timer
 
-function ssbrc:game/logic/game/entity/player/ability/deinit
+function ssbrc:game/fighter/_logic/ability/deinit

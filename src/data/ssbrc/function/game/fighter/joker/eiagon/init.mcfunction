@@ -1,4 +1,4 @@
 tag @s add eiagon
 
-function ssbrc:entity/_init/projectile/horizontal
+function ssbrc:entity/_logic/init/projectile/horizontal
 rotate @s ~ 15.0

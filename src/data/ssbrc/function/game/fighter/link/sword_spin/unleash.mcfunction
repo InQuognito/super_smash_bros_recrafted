@@ -5,7 +5,7 @@ scoreboard players set @s rotation 1000
 
 function ssbrc:game/fighter/link/sword_spin/hit
 
-execute unless function ssbrc:game/logic/game/entity/player/if_grounded run function ssbrc:game/fighter/link/sword_spin/levitate
+execute unless function ssbrc:game/fighter/_logic/if_grounded run function ssbrc:game/fighter/link/sword_spin/levitate
 
 function ssbrc:game/logic/item/data/set {item: "master_sword", flag_key: "spinning", flag_value: "true"}
 

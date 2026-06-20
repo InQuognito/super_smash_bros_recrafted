@@ -1,12 +1,12 @@
 data remove storage ssbrc:temp cache
 
-function ssbrc:entity/_init/fighter
-function ssbrc:entity/_init/stage
-function ssbrc:entity/_init/victory_podium
+function ssbrc:entity/_logic/init/fighter
+function ssbrc:entity/_logic/init/stage
+function ssbrc:entity/_logic/init/victory_podium
 
-function ssbrc:game/logic/game/data/scoreboard/remove
-function ssbrc:game/logic/game/data/scoreboard/create
-function ssbrc:game/logic/game/data/scoreboard/constants
+function ssbrc:game/logic/data/scoreboard/remove
+function ssbrc:game/logic/data/scoreboard/create
+function ssbrc:game/logic/data/scoreboard/constants
 
 stopwatch remove ssbrc:game_time
 stopwatch create ssbrc:game_time
@@ -17,17 +17,17 @@ scoreboard objectives setdisplay below_name
 scoreboard objectives setdisplay list
 scoreboard objectives setdisplay sidebar
 
-execute if data storage ssbrc:data option{singleplayer: true} run function ssbrc:game/logic/game/options/preset/singleplayer/off
+execute if data storage ssbrc:data option{singleplayer: true} run function ssbrc:game/logic/options/preset/singleplayer/off
 execute if data storage ssbrc:data option{sudden_death: true} run function ssbrc:game/logic/post_game/sudden_death/deactivate
 
-function ssbrc:game/logic/game/options/reset
+function ssbrc:game/logic/options/reset
 
 advancement revoke @a through ssbrc:utility/root
 
-function ssbrc:game/logic/game/data/bossbar
-function ssbrc:game/logic/game/data/gamerule
-function ssbrc:game/logic/game/data/schedule
-function ssbrc:game/logic/game/team/reset
+function ssbrc:game/logic/data/bossbar
+function ssbrc:game/logic/data/gamerule
+function ssbrc:game/logic/data/schedule
+function ssbrc:game/logic/team/reset
 
 summon minecraft:marker 0 0 0 {Tags: ["math"]}
 

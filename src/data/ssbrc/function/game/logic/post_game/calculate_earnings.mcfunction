@@ -1,4 +1,4 @@
-execute if entity @s[tag=ended_early] run function ssbrc:game/logic/game/data/bonus/loop {function: "ssbrc:game/logic/game/data/bonus/reset"}
+execute if entity @s[tag=ended_early] run function ssbrc:game/logic/data/bonus/loop {function: "ssbrc:game/logic/data/bonus/reset"}
 
 # Bonuses
 data modify storage ssbrc:temp cache.bonuses set value []
@@ -17,7 +17,7 @@ scoreboard players operation @s stats.credits.temp += #value kills
 
 data modify storage ssbrc:temp cache.bonuses append value {text: "===============", bold: true, color: "gray"}
 
-function ssbrc:game/logic/game/data/bonus/loop {function: "ssbrc:game/logic/post_game/bonuses/calculate"}
+function ssbrc:game/logic/data/bonus/loop {function: "ssbrc:game/logic/post_game/bonuses/calculate"}
 
 execute if score @s quitter matches 1.. run function ssbrc:game/logic/post_game/bonuses/quitter
 

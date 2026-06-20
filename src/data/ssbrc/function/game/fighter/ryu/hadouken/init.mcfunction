@@ -3,4 +3,4 @@ tag @s add hadouken
 execute if score @a[tag=self,limit=1] duration.1 matches 2.. run tag @s add evil
 execute if score @a[tag=self,limit=1] charge matches 12.. run tag @s add heavy
 
-function ssbrc:entity/_init/position
+function ssbrc:entity/_logic/init/position

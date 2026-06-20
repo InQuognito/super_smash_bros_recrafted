@@ -1,4 +1,4 @@
-function ssbrc:game/logic/game/entity/player/ability/init
+function ssbrc:game/fighter/_logic/ability/init
 
 # Persona Awakening
 execute if score @s duration.1 matches 1.. run function ssbrc:game/fighter/joker/persona_awakening/tick
@@ -7,4 +7,4 @@ execute if score @s duration.1 matches 1.. run function ssbrc:game/fighter/joker
 execute if items entity @s[tag=!rebels_guard,scores={silenced=..0,duration.1=..0,duration.2=..0},predicate=ssbrc:flag/sneaking] weapon.mainhand *[minecraft:custom_data~{item: "rebel_knife"}] run function ssbrc:game/fighter/joker/rebels_guard/activate
 execute if entity @s[tag=rebels_guard] run function ssbrc:game/fighter/joker/rebels_guard/tick
 
-function ssbrc:game/logic/game/entity/player/ability/deinit
+function ssbrc:game/fighter/_logic/ability/deinit

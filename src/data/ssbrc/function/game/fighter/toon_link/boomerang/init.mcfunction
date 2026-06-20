@@ -4,7 +4,7 @@ tag @s add reflect_behavior.motion_only
 
 item replace entity @s contents with minecraft:stick[minecraft:item_model="ssbrc:fighter/toon_link/toon_link_boomerang"]
 
-function ssbrc:entity/_init/projectile/horizontal
+function ssbrc:entity/_logic/init/projectile/horizontal
 
 data merge entity @s {teleport_duration: 1}
 function ssbrc:game/fighter/toon_link/boomerang/animation/1

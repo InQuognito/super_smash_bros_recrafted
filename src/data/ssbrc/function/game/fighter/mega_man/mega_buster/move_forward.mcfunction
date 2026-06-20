@@ -2,7 +2,7 @@ execute unless block ~ ~ ~ #ssbrc:passthrough run return run kill @s
 
 function ssbrc:game/fighter/mega_man/mega_buster/particle
 
-execute positioned ~-.15 ~-.15 ~-.15 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-.7 ~-.7 ~-.7 if entity @s[dx=0] run function ssbrc:game/logic/damage/generic {amount: 2, type: "generic", kb_resist: .9, source: "@a[predicate=ssbrc:owner,limit=1]"}
+execute positioned ~-.15 ~-.15 ~-.15 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-.7 ~-.7 ~-.7 if entity @s[dx=0] run function ssbrc:game/logic/damage/generic {amount: 2, kb_resist: .9, i_frames: 0}
 execute if score #entity_hit temp matches 1 run return run kill @s
 
 teleport @s ^ ^ ^.5

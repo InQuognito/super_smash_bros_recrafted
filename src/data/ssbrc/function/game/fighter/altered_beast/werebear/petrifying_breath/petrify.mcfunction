@@ -1,4 +1,4 @@
-function ssbrc:game/logic/game/entity/player/effects/stun/activate {duration: 30}
+function ssbrc:game/fighter/_logic/effects/stun/activate {duration: 30}
 
 execute unless entity @s[type=minecraft:player] run return -1
 

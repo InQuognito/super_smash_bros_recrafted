@@ -2,12 +2,13 @@
 	"condition": "minecraft:all_of",
 	"terms": [
 		{
-			"condition": "minecraft:inverted",
-			"term": {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"altered_beast.is_beast\"]}"
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"entity_tags": {
+					"none_of": [
+						"altered_beast.is_beast"
+					]
 				}
 			}
 		},

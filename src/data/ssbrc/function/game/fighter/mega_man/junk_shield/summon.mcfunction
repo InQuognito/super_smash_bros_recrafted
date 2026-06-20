@@ -3,9 +3,9 @@ tag @s add junk_shield
 item replace entity @s contents with minecraft:deepslate_iron_ore
 
 $execute rotated $(value) 0 run teleport @s ^ ^ ^1
-data merge entity @s {teleport_duration: 15,transformation:[0.25f,0f,0f,0f,0f,0.25f,0f,0f,0f,0f,0.25f,0f,0f,0f,0f,1f]}
+data merge entity @s {teleport_duration: 15,transformation:[.25f,0f,0f,0f,0f,.25f,0f,0f,0f,0f,.25f,0f,0f,0f,0f,1f]}
 
-function ssbrc:entity/_init/id
+function ssbrc:entity/_logic/init/id
 
 scoreboard players operation @s pos_y = #pos_y temp
 scoreboard players operation @s rotation = #rotation temp

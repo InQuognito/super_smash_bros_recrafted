@@ -1,7 +1,8 @@
-execute as @e[tag=!self,predicate=ssbrc:target,distance=..1.5] run function ssbrc:game/logic/damage/generic {amount: 6, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
-execute as @a[tag=self,limit=1] run function ssbrc:game/fighter/donkey_kong/barrel/hit_self
-
 kill @s
+
+function ssbrc:game/logic/damage/explosion {amount: 6, radius: 1.5, i_frames: 0}
+
+execute as @a[predicate=ssbrc:owner,limit=1] run function ssbrc:game/logic/item/give/default {item: "barrel", class: "weapon", type: "default"}
 
 playsound ssbrc:fighter.donkey_kong.barrel.explode player @a
 

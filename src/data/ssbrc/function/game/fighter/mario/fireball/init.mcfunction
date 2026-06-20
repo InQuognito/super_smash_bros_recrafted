@@ -1,3 +1,3 @@
 tag @s add fireball
 
-function ssbrc:entity/_init/projectile/bounce
+function ssbrc:entity/_logic/init/projectile/bounce

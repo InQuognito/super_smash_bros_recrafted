@@ -5,14 +5,12 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"spawnpoint\"]}"
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Tags:[\"spawnpoint.item\"]}"
+				"entity_tags": {
+					"any_of": [
+						"spawnpoint",
+						"spawnpoint.item"
+					]
+				}
 			}
 		}
 	]

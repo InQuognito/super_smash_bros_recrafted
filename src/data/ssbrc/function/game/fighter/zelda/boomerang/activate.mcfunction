@@ -1,4 +1,4 @@
-function ssbrc:game/logic/game/entity/player/ability/init
+function ssbrc:game/fighter/_logic/ability/init
 
 execute anchored eyes positioned ^ ^ ^1 summon minecraft:item_display run function ssbrc:game/fighter/zelda/boomerang/init
 
@@ -9,4 +9,4 @@ item replace entity @s weapon.mainhand with minecraft:air
 
 playsound ssbrc:fighter.link.boomerang.activate player @a
 
-function ssbrc:game/logic/game/entity/player/ability/deinit
+function ssbrc:game/fighter/_logic/ability/deinit

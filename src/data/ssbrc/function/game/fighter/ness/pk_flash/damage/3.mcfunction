@@ -1,3 +1,3 @@
-function ssbrc:game/logic/damage/generic {amount: 12, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
+function ssbrc:game/logic/damage/generic {amount: 12, kb_resist: 0, i_frames: 0}
 
 effect give @s minecraft:blindness 2 0 true

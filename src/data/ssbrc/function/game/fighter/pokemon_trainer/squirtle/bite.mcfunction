@@ -1,4 +1,4 @@
-function ssbrc:game/logic/game/entity/player/effects/immobile/activate {type: "default", duration: 20}
+function ssbrc:game/fighter/_logic/effects/immobile/activate {type: "default", duration: 20}
 
 effect give @s minecraft:blindness 1 0 true
 

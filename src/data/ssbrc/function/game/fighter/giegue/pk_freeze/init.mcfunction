@@ -8,4 +8,4 @@ data merge entity @s { \
 	}, \
 }
 
-function ssbrc:entity/_init/projectile/model/default
+function ssbrc:entity/_logic/init/projectile/model/default

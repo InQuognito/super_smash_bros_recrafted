@@ -1,0 +1,21 @@
+execute as @a at @s if dimension ssbrc:fighter_select run tellraw @s [ \
+	{ \
+		translate: "ssbrc.options.preset", \
+		color: "yellow", \
+	}, \
+	" -> ", \
+	{ \
+		translate: "ssbrc.options.preset.ctf", \
+		color: "blue", \
+	}, \
+]
+
+data modify storage ssbrc:data option.game_mode set value "ctf"
+
+data modify storage ssbrc:data option.point_limit set value 3
+
+data modify storage ssbrc:data option.time_limit set value -1
+
+function ssbrc:game/logic/options/teams/update
+
+function ssbrc:game/logic/options/set

@@ -7,4 +7,4 @@ teleport @s ~ ~ ~ ~ ~
 
 item replace entity @s armor.head with minecraft:stick[minecraft:item_model="ssbrc:stage/bowsers_castle/thwomp/active"]
 
-function ssbrc:entity/_init/armor_stand/common
+function ssbrc:entity/_logic/init/armor_stand/common

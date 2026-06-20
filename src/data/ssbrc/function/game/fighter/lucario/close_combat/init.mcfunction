@@ -2,4 +2,4 @@ tag @s add close_combat
 
 scoreboard players operation @s charge.1 = @a[tag=self,limit=1] duration.1
 
-function ssbrc:entity/_init/projectile/horizontal
+function ssbrc:entity/_logic/init/projectile/horizontal

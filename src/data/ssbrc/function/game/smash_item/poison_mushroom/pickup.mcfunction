@@ -4,6 +4,6 @@ scoreboard players set @s gigantic 1
 scoreboard players set @s smash_item.super_mushroom.timer 0
 attribute @s minecraft:scale modifier remove ssbrc:smash_item
 
-function ssbrc:game/logic/game/entity/player/effects/shrink/exclude_scale {duration: 200}
+function ssbrc:game/fighter/_logic/effects/shrink/exclude_scale {duration: 200}
 
 scoreboard players set @s smash_item.poison_mushroom.timer 200

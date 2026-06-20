@@ -10,18 +10,19 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"type": "#ssbrc:target"
+					"entity_type": "#ssbrc:target"
 				}
 			}
 		]
 	},
 	{
-		"condition": "minecraft:inverted",
-		"term": {
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Tags:[\"intangible\"]}"
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"entity_tags": {
+				"none_of": [
+					"intangible"
+				]
 			}
 		}
 	}

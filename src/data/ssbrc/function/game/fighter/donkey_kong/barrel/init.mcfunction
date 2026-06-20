@@ -8,4 +8,4 @@ data merge entity @s { \
 	Small: 1b, \
 }
 
-function ssbrc:entity/_init/armor_stand/bouncing
+function ssbrc:entity/_logic/init/armor_stand/bouncing

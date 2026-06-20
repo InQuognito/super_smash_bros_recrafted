@@ -9,14 +9,12 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"delete_behavior.disabled\"]}"
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Tags:[\"guardian_orbitar\"]}"
+				"entity_tags": {
+					"any_of": [
+						"delete_behavior.disabled",
+						"guardian_orbitar"
+					]
+				}
 			}
 		}
 	]

@@ -2,7 +2,7 @@ particle minecraft:dust{color: [1,.75,0],scale:4.0} ~ ~ ~ 0 0 0 0 5 force @a
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run scoreboard players add ray_piercing temp 1
 
-execute positioned ~-.5 ~-.5 ~-.5 as @e[tag=!self,predicate=ssbrc:target,dx=0] run function ssbrc:game/logic/damage/generic {amount: 20, type: "pierce", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
+execute positioned ~-.5 ~-.5 ~-.5 as @e[tag=!self,predicate=ssbrc:target,dx=0] run function ssbrc:game/logic/damage/generic {amount: 20, kb_resist: 0, i_frames: 1}
 
 scoreboard players remove #n temp 1
 execute if score #n temp matches 1.. if score ray_piercing temp matches ..30 positioned ^ ^ ^.1 run function ssbrc:game/fighter/yar/railgun/raycast/loop

@@ -1,6 +1,6 @@
-function ssbrc:game/logic/damage/generic {amount: 6, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
+function ssbrc:game/logic/damage/generic {amount: 6, kb_resist: 0, i_frames: 0}
 
-function ssbrc:game/logic/game/entity/player/attributes/modifiers/frostbite/increase
+function ssbrc:game/fighter/_logic/attributes/modifiers/frostbite/increase
 
 scoreboard players set #entity_hit temp 1
 

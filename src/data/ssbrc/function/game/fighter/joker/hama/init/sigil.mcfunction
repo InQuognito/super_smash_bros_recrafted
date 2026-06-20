@@ -4,4 +4,4 @@ item replace entity @s contents with minecraft:glowstone_dust[minecraft:item_mod
 
 data merge entity @s {transformation:[3f,0f,0f,0f,0f,0f,0f,0f,0f,3f,0f,0f,0f,0f,0f,1f]}
 
-function ssbrc:entity/_init/projectile/model/id
+function ssbrc:entity/_logic/init/projectile/model/id

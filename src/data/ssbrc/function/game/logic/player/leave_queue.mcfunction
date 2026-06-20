@@ -1,6 +1,6 @@
-function ssbrc:game/logic/game/entity/player/attributes/reset
-function ssbrc:game/logic/game/reset_tags
-function ssbrc:game/logic/game/data/trigger
+function ssbrc:game/fighter/_logic/attributes/reset
+function ssbrc:game/logic/reset_tags
+function ssbrc:game/logic/data/trigger
 
 gamemode adventure @s
 
@@ -25,12 +25,12 @@ execute if entity @s[advancements={ssbrc:tutorial/intro/2=true}] run function ss
 
 scoreboard players reset @s team
 team leave @s
-function ssbrc:game/logic/game/team/count/all
+function ssbrc:game/logic/team/count/all
 
 xp set @s 0 levels
 xp set @s 0 points
 
-function ssbrc:game/logic/game/entity/player/effects/lobby
+function ssbrc:game/fighter/_logic/effects/lobby
 
 title @s clear
 title @s reset

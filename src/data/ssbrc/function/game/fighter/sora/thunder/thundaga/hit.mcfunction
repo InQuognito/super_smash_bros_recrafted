@@ -1,4 +1,4 @@
-function ssbrc:game/logic/damage/generic {amount: 6, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
+function ssbrc:game/logic/damage/generic {amount: 6, kb_resist: 0, i_frames: 0}
 
-scoreboard players set drive_gain temp 60
+scoreboard players set #drive_gain temp 60
 execute as @a[tag=self,limit=1] run function ssbrc:game/fighter/sora/drive/increase

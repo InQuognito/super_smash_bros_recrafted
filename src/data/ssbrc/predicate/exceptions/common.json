@@ -9,21 +9,13 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"charge_attack\"]}"
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Tags:[\"static_object\"]}"
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Tags:[\"ssbrc.global.entity\"]}"
+				"entity_tags": {
+					"any_of": [
+						"ssbrc.global.entity",
+						"static_object",
+						"charge_attack"
+					]
+				}
 			}
 		}
 	]

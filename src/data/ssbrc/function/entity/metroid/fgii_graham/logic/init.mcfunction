@@ -2,7 +2,7 @@ tag @s add fgii_graham
 
 teleport @s ~ ~ ~ ~ ~
 
-function ssbrc:entity/_init/entity/nonliving
+function ssbrc:entity/_logic/init/entity/nonliving
 
 attribute @s minecraft:max_health base set 1024.0
 data modify entity @s Health set value 1024.0

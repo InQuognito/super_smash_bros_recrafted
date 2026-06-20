@@ -1,3 +1,3 @@
 tag @s remove rebels_guard
 
-function ssbrc:game/logic/game/entity/player/effects/immobile/deactivate
+function ssbrc:game/fighter/_logic/effects/immobile/deactivate

@@ -1,4 +1,4 @@
-function ssbrc:game/logic/game/entity/player/ability/init
+function ssbrc:game/fighter/_logic/ability/init
 
 execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:game/fighter/yar/gatling_gun/init/marker
 

@@ -76,7 +76,7 @@ fill -21 6 24 -20 7 24 minecraft:ladder[facing=south] replace
 #execute positioned -721.5 17.5 823.5 summon minecraft:item_display run function ssbrc:game/stage/bowsers_castle/power_band
 
 # Entities
-#execute positioned -734.9 27 854.5 rotated 265 0 summon minecraft:armor_stand run function ssbrc:entity/_init/npc { \
+#execute positioned -734.9 27 854.5 rotated 265 0 summon minecraft:armor_stand run function ssbrc:entity/_logic/init/npc { \
 #	id: "peach", \
 #	la: [ 219f, 340f, 22f ], \
 #	ra: [ 219f, 340f, 22f ], \

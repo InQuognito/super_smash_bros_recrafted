@@ -1,4 +1,4 @@
-function ssbrc:game/logic/game/entity/player/hud/type/cost { \
+function ssbrc:game/fighter/_logic/hud/type/cost { \
 	hud: 1, \
 	data: [ \
 		{ \

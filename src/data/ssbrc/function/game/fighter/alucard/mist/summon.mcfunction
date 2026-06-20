@@ -3,4 +3,4 @@ tag @s add reflect_behavior.disabled
 
 tag @s add mist
 
-function ssbrc:entity/_init/id
+function ssbrc:entity/_logic/init/id

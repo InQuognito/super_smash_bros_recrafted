@@ -18,7 +18,11 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"reflect_behavior.disabled\"]}"
+				"entity_tags": {
+					"any_of": [
+						"reflect_behavior.disabled"
+					]
+				}
 			}
 		}
 	]

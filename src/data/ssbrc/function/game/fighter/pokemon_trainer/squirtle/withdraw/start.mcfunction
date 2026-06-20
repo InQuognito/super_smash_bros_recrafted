@@ -1,8 +1,8 @@
-function ssbrc:game/logic/game/entity/player/effects/immobile/activate {type: "default", duration: 1000000}
+function ssbrc:game/fighter/_logic/effects/immobile/activate {type: "default", duration: 1000000}
 
 clear @s #ssbrc:equipment/ability
 
-function ssbrc:game/logic/game/entity/player/effects/glowing/cloak
+function ssbrc:game/fighter/_logic/effects/glowing/cloak
 
 effect give @s minecraft:invisibility infinite 0 true
 

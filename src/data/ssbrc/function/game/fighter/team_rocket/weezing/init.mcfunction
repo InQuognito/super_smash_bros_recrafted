@@ -2,7 +2,7 @@ tag @s add weezing
 
 teleport @s ~ ~ ~ ~ ~
 
-function ssbrc:entity/_init/entity/nonliving
+function ssbrc:entity/_logic/init/entity/nonliving
 
 attribute @s minecraft:max_health base set 80
 effect give @s minecraft:instant_health 1 50 true

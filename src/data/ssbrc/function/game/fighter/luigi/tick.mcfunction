@@ -1,7 +1,7 @@
-function ssbrc:game/logic/game/entity/player/ability/init
+function ssbrc:game/fighter/_logic/ability/init
 
 # Super Jump
-function ssbrc:game/logic/game/entity/player/jump/super_jump/tick {fighter: "luigi"}
+function ssbrc:game/fighter/_logic/jump/super_jump/tick {fighter: "luigi"}
 
 # Stomp
 execute if entity @s[tag=!launched,scores={silenced=..0,cooldown.1=..0}] run function ssbrc:game/fighter/mario/stomp/tick
@@ -9,4 +9,4 @@ execute if entity @s[tag=!launched,scores={silenced=..0,cooldown.1=..0}] run fun
 # Ground Pound
 function ssbrc:game/fighter/mario/ground_pound/tick
 
-function ssbrc:game/logic/game/entity/player/ability/deinit
+function ssbrc:game/fighter/_logic/ability/deinit

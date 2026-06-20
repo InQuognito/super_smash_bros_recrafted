@@ -12,9 +12,9 @@
 #	}, \
 #]
 
-function ssbrc:game/logic/game/team/modify
+function ssbrc:game/logic/team/modify
 
-function ssbrc:game/logic/game/team/set_option {key: "nametagVisibility", value: "hideForOtherTeams"}
+function ssbrc:game/logic/team/set_option {key: "nametagVisibility", value: "hideForOtherTeams"}
 
 teleport @a[team=spectator] 0 10 0
 

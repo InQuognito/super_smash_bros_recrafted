@@ -4,4 +4,4 @@ item replace entity @s contents with minecraft:stick[minecraft:item_model="ssbrc
 
 data merge entity @s {teleport_duration: 1}
 
-function ssbrc:entity/_init/position
+function ssbrc:entity/_logic/init/position

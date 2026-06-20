@@ -1,4 +1,4 @@
-function ssbrc:game/logic/game/entity/player/ability/init
+function ssbrc:game/fighter/_logic/ability/init
 
 scoreboard players set @s duration.1 20
 
@@ -9,4 +9,4 @@ execute as @e[tag=!self,predicate=ssbrc:target,distance=..6] run function ssbrc:
 
 playsound ssbrc:fighter.altered_beast.werebear.petrifying_breath.activate player @a
 
-function ssbrc:game/logic/game/entity/player/ability/deinit
+function ssbrc:game/fighter/_logic/ability/deinit

@@ -5,6 +5,6 @@ execute if items entity @s contents minecraft:lapis_lazuli[minecraft:custom_data
 
 data merge entity @s {Glowing: true}
 
-function ssbrc:entity/_init/id
+function ssbrc:entity/_logic/init/id
 
 tag @s add processed

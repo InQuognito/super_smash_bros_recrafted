@@ -1,4 +1,4 @@
-#function ssbrc:game/logic/game/entity/player/loop {function: "ssbrc:game/logic/ui/popup/fighter"}
+#function ssbrc:game/fighter/_logic/loop {function: "ssbrc:game/logic/ui/popup/fighter"}
 
 function ssbrc:game/logic/ui/popup/altered_beast
 
