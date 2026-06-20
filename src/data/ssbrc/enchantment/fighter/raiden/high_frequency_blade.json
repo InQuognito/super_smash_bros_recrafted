@@ -35,7 +35,7 @@
 							"condition": "minecraft:entity_properties",
 							"entity": "direct_attacker",
 							"predicate": {
-								"type": "#ssbrc:projectile"
+								"entity_type": "#ssbrc:projectile"
 							}
 						}
 					]
