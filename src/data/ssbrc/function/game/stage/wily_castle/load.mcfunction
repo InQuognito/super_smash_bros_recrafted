@@ -1,5 +1,5 @@
 # Mural
-summon minecraft:item_display 4990.5 12.5 5026.5 {Tags:["static_object"],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ssbrc:stage/wily_castle/mural"}},brightness:{sky:15,block:15}}
+summon minecraft:item_display 4990.5 12.5 5026.5 {Tags: ["static_object"],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ssbrc:stage/wily_castle/mural"}},brightness:{sky:15,block:15}}
 
 # Dr. W's
 execute positioned 4913.01 13.5 5078.5 rotated -90 0 summon minecraft:item_display run function ssbrc:game/stage/wily_castle/dr_w

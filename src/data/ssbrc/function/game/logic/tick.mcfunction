@@ -13,6 +13,8 @@ execute if score #game_stage temp matches 4.. run function ssbrc:game/logic/tick
 # Training Dummy
 execute as @e[type=minecraft:text_display,tag=training_dummy.damage_number] at @s run function ssbrc:game/logic/training_dummy/damage_number/tick
 
+execute as @e[type=minecraft:interaction] run function ssbrc:game/logic/player/interaction/get
+
 # Reset Players
 execute as @a unless score @s world_time = #current world_time run function ssbrc:game/logic/player/join
 

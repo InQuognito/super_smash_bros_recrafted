@@ -10,10 +10,10 @@ summon minecraft:text_display -4 .5 0 {text:[{translate: "ssbrc.lobby.welcome", 
 #execute positioned -520.5 5.25 -1937.5 run summon minecraft:text_display ~ ~ ~ {text:[{text: "✪ ", color: "gold"}, {translate: "ssbrc.shop", color: "gold"}, {text: " ✪", color: "gold"}], billboard: "center", alignment: "center"}
 #execute positioned -520.5 5.25 -1951.5 run summon minecraft:text_display ~ ~ ~ {text:[{text: "✪ ", color: "gold"}, {translate: "ssbrc.shop", color: "gold"}, {text: " ✪", color: "gold"}], billboard: "center", alignment: "center"}
 
-#execute positioned -528.5 6.75 -1939.5 run summon minecraft:text_display ~ ~ ~ {Tags:["lobby.action"],text:{translate: "ssbrc.lobby.join", color: "gold"}, billboard: "center", alignment: "center"}
-#execute positioned -528.5 6.5 -1939.5 run summon minecraft:text_display ~ ~ ~ {Tags:["lobby.status"],text:[{translate: "ssbrc.lobby.status", color: "gold"}, {translate: "ssbrc.lobby.status.fighter_select", color: "yellow"}], billboard: "center", alignment: "center"}
-#execute positioned -528.5 6.25 -1939.5 run summon minecraft:text_display ~ ~ ~ {Tags:["lobby.players"],text:[{translate: "ssbrc.lobby.players", color: "gold"}, {text: "0/8", color: "yellow"}], billboard: "center", alignment: "center"}
-#execute positioned -528.5 6 -1939.5 run summon minecraft:text_display ~ ~ ~ {Tags:["lobby.timer"], billboard: "center", alignment: "center"}
+#execute positioned -528.5 6.75 -1939.5 run summon minecraft:text_display ~ ~ ~ {Tags: ["lobby.action"],text:{translate: "ssbrc.lobby.join", color: "gold"}, billboard: "center", alignment: "center"}
+#execute positioned -528.5 6.5 -1939.5 run summon minecraft:text_display ~ ~ ~ {Tags: ["lobby.status"],text:[{translate: "ssbrc.lobby.status", color: "gold"}, {translate: "ssbrc.lobby.status.fighter_select", color: "yellow"}], billboard: "center", alignment: "center"}
+#execute positioned -528.5 6.25 -1939.5 run summon minecraft:text_display ~ ~ ~ {Tags: ["lobby.players"],text:[{translate: "ssbrc.lobby.players", color: "gold"}, {text: "0/8", color: "yellow"}], billboard: "center", alignment: "center"}
+#execute positioned -528.5 6 -1939.5 run summon minecraft:text_display ~ ~ ~ {Tags: ["lobby.timer"], billboard: "center", alignment: "center"}
 
 #execute positioned -528.5 6.75 -1949.5 run summon minecraft:text_display ~ ~ ~ {text:{translate: "ssbrc.lobby.credits", color: "gold"}, billboard: "center", alignment: "center"}
 #execute positioned -521.5 1.75 -1944.5 run summon minecraft:text_display ~ ~ ~ {text:{translate: "ssbrc.lobby.return", color: "gold"}, billboard: "center", alignment: "center"}
