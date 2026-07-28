@@ -1,1 +1,3 @@
+say click
+
 $function $(path)
