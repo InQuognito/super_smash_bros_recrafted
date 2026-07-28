@@ -9,6 +9,8 @@ function ssbrc:game/fighter/_logic/attributes/remove {attribute: "attack_speed"}
 
 attribute @s minecraft:block_interaction_range base set 10.0
 
+attribute @s minecraft:entity_interaction_range base reset
+
 attribute @s minecraft:fall_damage_multiplier base set 0.0
 function ssbrc:game/fighter/_logic/attributes/remove {attribute: "fall_damage_multiplier"}
 attribute @s minecraft:fall_damage_multiplier modifier remove ssbrc:launched

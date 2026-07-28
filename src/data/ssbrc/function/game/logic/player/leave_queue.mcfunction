@@ -7,15 +7,6 @@ gamemode adventure @s
 clear @s #ssbrc:equipment/all
 clear @s #minecraft:arrows
 
-execute if entity @s[advancements={ssbrc:tutorial/intro/2=true}] run function ssbrc:game/logic/item/init/type/generic { \
-	item: "selector", \
-	slot: "hotbar.0", \
-	name: "ssbrc.lobby.selector", \
-	color: "white", \
-	cooldown: 1, \
-	cooldown_group: "ui", \
-}
-
 #item replace entity @s hotbar.8 with minecraft:fishing_rod[ \
 #	minecraft:enchantments = { \
 #		"minecraft:lure": 5, \
