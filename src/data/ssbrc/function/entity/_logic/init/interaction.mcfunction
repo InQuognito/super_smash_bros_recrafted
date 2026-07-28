@@ -9,4 +9,5 @@ $data merge entity @s { \
 	}, \
 	height: $(height), \
 	width: $(width), \
+	response: true, \
 }
