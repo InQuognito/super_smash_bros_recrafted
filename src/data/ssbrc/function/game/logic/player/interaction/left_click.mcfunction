@@ -1,5 +1,5 @@
-execute on attacker run data modify storage ssbrc:temp cache.interaction.path set from entity @s data.interaction.left_click
+data modify storage ssbrc:temp cache.interaction.path set from entity @s data.interaction.left_click
 
-function ssbrc:game/logic/player/interaction/run with storage ssbrc:temp cache.interaction
+execute on attacker run function ssbrc:game/logic/player/interaction/run with storage ssbrc:temp cache.interaction
 
 data remove entity @s attack
