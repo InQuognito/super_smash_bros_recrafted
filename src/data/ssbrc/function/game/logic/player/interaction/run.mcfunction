@@ -1,3 +1,1 @@
-say click
-
 $function $(path)
