@@ -1,5 +1,5 @@
 data modify storage ssbrc:temp cache.interaction.path set from entity @s data.interaction.right_click
 
-execute on origin run function ssbrc:game/logic/player/interaction/run with storage ssbrc:temp cache.interaction
+execute on target run function ssbrc:game/logic/player/interaction/run with storage ssbrc:temp cache.interaction
 
 data remove entity @s interaction
