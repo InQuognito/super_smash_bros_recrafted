@@ -4,7 +4,7 @@ execute if score #game_stage temp matches 4 run function ssbrc:game/logic/stage/
 
 execute if data storage ssbrc:data option{game_mode: "ctf"} run function ssbrc:game/logic/ctf/tick
 
-execute as @a at @s run function ssbrc:game/logic/player/tick
+execute as @a at @s run function ssbrc:game/logic/game_tick
 
 execute as @e[predicate=ssbrc:target] at @s run function ssbrc:game/logic/entity/tick
 
