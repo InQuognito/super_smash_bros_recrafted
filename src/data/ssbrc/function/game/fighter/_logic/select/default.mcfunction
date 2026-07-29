@@ -28,7 +28,7 @@ execute unless entity @s[tag=picking_random] run function ssbrc:game/logic/item/
 	name: "ssbrc.fighter.menu.skin_options", \
 	color: "white", \
 	cooldown: 1, \
-	cooldown_group: "ssbrc:ui", \
+	cooldown_group: "ui", \
 }
 
 advancement grant @s[advancements={ssbrc:tutorial/intro/3=true,ssbrc:tutorial/fighter_select/2=false}] only ssbrc:tutorial/fighter_select/2

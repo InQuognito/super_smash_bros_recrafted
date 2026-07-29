@@ -1,4 +1,4 @@
-from ssbrc.fighters import fighters, has_forms, forms_isolated_to, gendered_skin_menu, get_color_wrapper
+from ssbrc.fighters import fighters, has_forms, forms_isolated_to, gendered_skin_menu, get_color_wrapper, skin_options
 
 from itertools import chain
 
@@ -6,6 +6,8 @@ for fighter in fighters:
 	n = 1
 	function f'ssbrc:game/fighter/{fighter}/menu/skin/options':
 		tellraw @s ["=== ",{translate: "ssbrc.fighter.menu.choose_skin",bold: true,color: "yellow"}," ==="]
+
+		#dialog show @s skin_options(fighter)
 
 		if fighter in ['byleth', 'villager']:
 			for skin in chain(['default'], fighters[fighter]['skins']):

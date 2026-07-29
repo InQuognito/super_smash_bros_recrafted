@@ -5,7 +5,7 @@ execute in ssbrc:fighter_select run teleport @s 0 0 0 0 0
 execute unless data storage ssbrc:data option{teams: true} run team join waiting @s
 execute if data storage ssbrc:data option{teams: true} run function ssbrc:game/logic/team/join/red
 
-attribute @s minecraft:entity_interaction_range modifier add ssbrc:smash_plaza 3 add_multiplied_total
+attribute @s minecraft:entity_interaction_range modifier add ssbrc:smash_plaza 7 add_multiplied_total
 
 effect give @s minecraft:glowing infinite 0 true
 
