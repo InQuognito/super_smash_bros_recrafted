@@ -5,10 +5,9 @@ data modify storage ssbrc:temp cache.stage_select.game_mode set from storage ssb
 # Blank Diorama
 function ssbrc:game/logic/pre_game/stage_select/diorama {highest: "random"}
 
-function ssbrc:game/logic/stage/loop {operation: "function ssbrc:game/logic/pre_game/stage_select/vote_counter/init"}
-function ssbrc:game/logic/pre_game/stage_select/vote_counter/init {name: "random_stage"}
-
-scoreboard players set @e[type=minecraft:text_display,tag=vote_counter,distance=...01] stage_vote 0
+function ssbrc:game/logic/stage/loop {operation: "function ssbrc:game/logic/pre_game/stage_select/reset"}
+scoreboard players set $random stage_vote 0
+scoreboard players display name $random stage_vote {translate: "ssbrc.random"}
 
 execute positioned 10 2 -2 rotated 90 0 run function ssbrc:game/logic/pre_game/stage_select/featured/start
 
@@ -18,8 +17,6 @@ execute positioned -6 2 9 rotated 180 0 summon minecraft:item_display run functi
 execute positioned -9 2 11 rotated 180 0 summon minecraft:item_display run function ssbrc:game/logic/pre_game/stage_select/featured/display/fixed with storage ssbrc:data stage.big_battlefield
 
 summon minecraft:text_display 0 2 -6 {Tags: ["stage_index"],text:[{text: "", color: "gold"},"✪ ", {translate: "ssbrc.stage_select.stage_index"}," ✪"], billboard: "center", alignment: "center"}
-
-execute as @e[type=minecraft:text_display,tag=selected] at @s run data modify entity @s text set value [{translate: "ssbrc.stage_select.votes", color: "gold"}, {score: {name: "@n[type=minecraft:text_display,tag=vote_counter]", objective: "stage_vote"},bold: true, color: "yellow"}]
 
 execute store result score #players.playing temp if entity @a[predicate=ssbrc:ingame,team=!spectator]
 

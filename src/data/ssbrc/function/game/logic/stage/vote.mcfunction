@@ -1,7 +1,7 @@
 $execute store result score $$(id) stage_vote run data get storage ssbrc:temp stage_vote.$(id)
 $scoreboard players add $$(id) stage_vote 1
 $scoreboard players display name $$(id) stage_vote {translate: "ssbrc.stage$(id)"}
-$execute store result storage ssbrc:temp stage_vote.$(id) int 1 run scoreboard players get $(id) stage_vote
+$execute store result storage ssbrc:temp stage_vote.$(id) int 1 run scoreboard players get $$(id) stage_vote
 
 tag @s add self
 
