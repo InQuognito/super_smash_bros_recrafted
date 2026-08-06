@@ -1,8 +1,3 @@
-function ssbrc:game/logic/player/input/tick {direction: "forward"}
-function ssbrc:game/logic/player/input/tick {direction: "backward"}
-function ssbrc:game/logic/player/input/tick {direction: "left"}
-function ssbrc:game/logic/player/input/tick {direction: "right"}
-
 function ssbrc:game/logic/ui/tick
 
 scoreboard players remove @s[scores={cooldown=1..}] cooldown 1

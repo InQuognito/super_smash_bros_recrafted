@@ -1,4 +1,7 @@
-$scoreboard players add @n[type=minecraft:text_display,tag=vote_counter,nbt={data:{id: "$(name)"}}] stage_vote 1
+$execute store result score $$(id) stage_vote run data get storage ssbrc:temp stage_vote.$(id)
+$scoreboard players add $$(id) stage_vote 1
+$scoreboard players display name $$(id) stage_vote {translate: "ssbrc.stage$(id)"}
+$execute store result storage ssbrc:temp stage_vote.$(id) int 1 run scoreboard players get $(id) stage_vote
 
 tag @s add self
 

@@ -4,7 +4,7 @@ from ssbrc.ui import chest_map
 
 import math
 
-path = 'logic/pre_game/stage_select/stage_index/pages'
+path = 'game/logic/pre_game/stage_select/stage_index/pages'
 
 pages = math.ceil(stage_count / len(chest_map))
 for prev in range(pages):
