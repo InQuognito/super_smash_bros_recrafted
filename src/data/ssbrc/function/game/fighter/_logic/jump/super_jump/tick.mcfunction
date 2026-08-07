@@ -1,4 +1,4 @@
-execute if function ssbrc:game/fighter/_logic/if_grounded run scoreboard players add @s[predicate=ssbrc:flag/sneaking] charge.1 1
+execute unless score @s immobile matches 1.. if function ssbrc:game/fighter/_logic/if_grounded run scoreboard players add @s[predicate=ssbrc:flag/sneaking] charge.1 1
 
 execute unless score @s charge.1 matches 1.. run return fail
 

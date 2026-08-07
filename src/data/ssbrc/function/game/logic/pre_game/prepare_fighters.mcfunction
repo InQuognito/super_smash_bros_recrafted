@@ -4,9 +4,9 @@ gamemode adventure @s
 
 clear @s #ssbrc:equipment/ability
 
-function ssbrc:game/logic/player/data/set_storage {key: "hud_1", value: []}
-function ssbrc:game/logic/player/data/set_storage {key: "hud_2", value: []}
-function ssbrc:game/logic/player/data/set_storage {key: "hud_3", value: []}
+function ssbrc:game/logic/player/data/set_storage {key: "hud_1", value: {text: ""}}
+function ssbrc:game/logic/player/data/set_storage {key: "hud_2", value: {text: ""}}
+function ssbrc:game/logic/player/data/set_storage {key: "hud_3", value: {text: ""}}
 
 scoreboard players set @s respawn 0
 scoreboard players set @s flag.dead 0
