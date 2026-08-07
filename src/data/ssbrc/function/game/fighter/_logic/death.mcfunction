@@ -4,6 +4,13 @@ execute if data storage ssbrc:data option{game_mode: "ctf"} run function ssbrc:g
 execute unless data storage ssbrc:data option{game_mode: "ctf"} run scoreboard players remove @s points 1
 execute unless data storage ssbrc:data option{singleplayer: true} run scoreboard players add @s stats.deaths 1
 
+item modify entity @s armor.body { \
+	function: "minecraft:set_enchantments", \
+	enchantments: { \
+		"ssbrc:player": 3, \
+	}, \
+}
+
 function ssbrc:game/fighter/_logic/stock/check
 execute unless data storage ssbrc:data option{point_limit: -1} run function ssbrc:game/fighter/_logic/stock/lose
 

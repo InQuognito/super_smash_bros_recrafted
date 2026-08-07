@@ -1,3 +1,10 @@
+item modify entity @s armor.body { \
+	function: "minecraft:set_enchantments", \
+	enchantments: { \
+		"ssbrc:player": 2, \
+	}, \
+}
+
 tellraw @a[predicate=ssbrc:ingame] [ \
 	"", \
 	{ \
