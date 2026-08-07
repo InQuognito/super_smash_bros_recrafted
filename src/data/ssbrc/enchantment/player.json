@@ -95,7 +95,10 @@
 										"minecraft:enchantments": [
 											{
 												"enchantments": "ssbrc:player",
-												"levels": 2
+												"levels": {
+													"min": 2,
+													"max": 3
+												}
 											}
 										]
 									}
