@@ -1,6 +1,6 @@
 {
 	"description": "",
-	"supported_items": "minecraft:iron_ingot",
+	"supported_items": "minecraft:blaze_rod",
 	"weight": 1,
 	"max_level": 4,
 	"min_cost": {
