@@ -4,3 +4,23 @@ function ssbrc:game/logic/stage/loop:
 	for stage in stages:
 		obj = f'$$(operation) with storage ssbrc:data stage.{stage}'
 		raw obj
+
+function ssbrc:game/logic/stage/random/get:
+	obj = f'execute store result score #cache temp run random value 1..45'
+	raw obj
+
+	i = 1
+	for stage in stages:
+		obj = f'$execute if score #cache temp matches {i} run return run data modify storage ssbrc:temp cache.output set value {stage}'
+		raw obj
+		i += 1
+
+function ssbrc:game/logic/stage/random/run:
+	obj = f'execute store result score #cache temp run random value 1..45'
+	raw obj
+
+	i = 1
+	for stage in stages:
+		obj = f'$execute if score #cache temp matches {i} run return run function ssbrc:game/logic/pre_game/stage_select/set_random with storage ssbrc:data stage.{stage}'
+		raw obj
+		i += 1

@@ -24,7 +24,7 @@ $execute unless data storage ssbrc:temp player.data{stage_vote: "$(name)"} as @a
 	}, \
 	{ \
 		score: { \
-			name: "@n[type=minecraft:text_display,tag=vote_counter,nbt={data:{id:$(name)}}]", \
+			name: "$$(name)", \
 			objective: "stage_vote", \
 		}, \
 		color: "yellow", \

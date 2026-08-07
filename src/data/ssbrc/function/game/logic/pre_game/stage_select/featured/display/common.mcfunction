@@ -18,5 +18,3 @@ $data merge entity @s { \
 }
 
 teleport @s ~ ~ ~ ~ ~
-
-$execute as @n[type=minecraft:text_display,tag=vote_counter,nbt={data:{id:$(name)}}] run function ssbrc:game/logic/pre_game/stage_select/featured/display/enable_counter

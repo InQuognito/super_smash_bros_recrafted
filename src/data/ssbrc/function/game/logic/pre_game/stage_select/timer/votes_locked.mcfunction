@@ -3,4 +3,4 @@ execute as @a at @s if dimension ssbrc:stage_select run title @s actionbar { \
 	color: "green", \
 }
 
-function ssbrc:game/logic/pre_game/stage_select/calculate {function: "ssbrc:game/logic/pre_game/stage_select/pick_stage/load_stage"}
+function ssbrc:game/logic/pre_game/stage_select/calculate {function: "ssbrc:game/logic/pre_game/stage_select/choose"}
