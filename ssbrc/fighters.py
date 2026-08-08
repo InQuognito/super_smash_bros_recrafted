@@ -4988,7 +4988,8 @@ def skin_options(fighter):
 	for skin in chain(['default', 'gold'], path):
 		data[n] = {
 			'label': {
-				'translate': f'ssbrc.{skin}',
+				'translate': f'ssbrc.skin.{skin}',
+				'color': get_color(fighter, skin)
 			},
 			'width': 180,
 			'action': {
