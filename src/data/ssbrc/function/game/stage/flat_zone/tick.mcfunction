@@ -1,4 +1,4 @@
-kill @e[predicate=ssbrc:killbox_vulnerable,predicate=ssbrc:below_y/-15]
+execute as @e[predicate=ssbrc:killbox_vulnerable,predicate=ssbrc:below_y/-15] run function ssbrc:game/logic/entity/check_death
 
 scoreboard players add #flat_zone.gas_station_guy.1 temp 1
 execute if score #flat_zone.gas_station_guy.1 temp matches 13 positioned 11 0 -2 run function ssbrc:game/stage/flat_zone/gas_station_guy/1/left

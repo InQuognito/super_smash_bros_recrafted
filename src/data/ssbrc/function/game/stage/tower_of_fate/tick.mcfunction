@@ -10,4 +10,4 @@ execute if score #tower_of_fate.explodatorium temp matches 1 as @a[predicate=ssb
 # Lost City
 execute if score #tower_of_fate.lost_city temp matches 1 run function ssbrc:game/stage/tower_of_fate/lower_tower/tower/lost_city/tick
 
-kill @e[predicate=ssbrc:killbox_vulnerable,predicate=ssbrc:below_y/-20]
+execute as @e[predicate=ssbrc:killbox_vulnerable,predicate=ssbrc:below_y/-20] run function ssbrc:game/logic/entity/check_death
