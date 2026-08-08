@@ -4985,11 +4985,13 @@ def init_item_data(fighter, skin, item, data):
 
 def skin_options(fighter):
 	path = fighters[fighter]['skins']
-	data = ['', '']
+	data = []
+	for i in range(1, count_skins(fighter)):
+		data.append('')
 
-	n = 1
+	n = 0
 	for skin in path:
-		data[0] = {
+		data[n] = {
 			'label': {
 				'translate': f'ssbrc.{skin}',
 			},
@@ -4999,7 +5001,7 @@ def skin_options(fighter):
 				'command': f'trigger menu set {n}'
 			}
 		}
-		data[1] = {
+		data[n + 1] = {
 			'label': {
 				'sprite': 'smash_item/cd',
 			},
