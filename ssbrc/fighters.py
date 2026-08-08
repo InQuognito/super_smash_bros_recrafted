@@ -4990,7 +4990,7 @@ def skin_options(fighter):
 			'label': {
 				'translate': f'ssbrc.{skin}',
 			},
-			'width': 200,
+			'width': 180,
 			'action': {
 				'type': 'minecraft:run_command',
 				'command': f'trigger menu set {n}'
@@ -4998,9 +4998,9 @@ def skin_options(fighter):
 		}
 		data[n + 1] = {
 			'label': {
-				'sprite': 'smash_item/cd',
+				'sprite': 'ssbrc:ui/icons/heart',
 			},
-			'width': 50,
+			'width': 20,
 			'action': {
 				'type': 'minecraft:run_command',
 				'command': f'trigger menu set {n + 1}'
