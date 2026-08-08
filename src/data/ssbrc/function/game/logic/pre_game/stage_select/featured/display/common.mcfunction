@@ -13,4 +13,4 @@ data merge entity @s { \
 
 teleport @s ~ ~ ~ ~ ~
 
-$execute summon minecraft:interaction run function ssbrc:entity/_logic/init/interaction {height: 1, width: 1, left_click: "ssbrc:game/logic/stage/vote_init {name: $(name)}", right_click: "ssbrc:game/logic/stage/vote_init {name: $(name)}"}
+$execute summon minecraft:interaction run function ssbrc:entity/_logic/init/interaction {height: 1, width: 1, left_click: "ssbrc:game/logic/stage/vote with storage ssbrc:data stage.$(name)", right_click: "ssbrc:game/logic/stage/vote with storage ssbrc:data stage.$(name)"}
