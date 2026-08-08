@@ -29,7 +29,7 @@ for fighter in fighters:
 					command: "trigger menu set -1"
 				}
 			},
-			actions: skin_options()
+			actions: skin_options(fighter)
 		}
 
 		function ssbrc:game/fighter/_logic/menu/skin_options
