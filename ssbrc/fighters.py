@@ -4986,7 +4986,7 @@ def init_item_data(fighter, skin, item, data):
 def skin_options(fighter):
 	path = fighters[fighter]['skins']
 	data = []
-	for i in range(1, count_skins(fighter)):
+	for i in range(0, count_skins(fighter)):
 		data.append('')
 
 	n = 0
