@@ -1,0 +1,21 @@
+{
+	"function": "minecraft:set_lore",
+	"entity": "this",
+	"lore": [
+		{
+			"text": "[ ",
+			"color": "gray",
+			"italic": false,
+			"extra": [
+				{
+					"keybind": "key.use"
+				},
+				"] ",
+				{
+					"translate": "ssbrc.fighter.menu.skin_options.description"
+				}
+			]
+		}
+	],
+	"mode": "append"
+}

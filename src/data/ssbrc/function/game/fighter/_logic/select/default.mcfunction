@@ -24,7 +24,7 @@ function ssbrc:game/logic/pre_game/fighter_select/participation/check
 clear @s *[minecraft:custom_data~{item: "skin_options"}]
 execute unless entity @s[tag=picking_random] run function ssbrc:game/logic/item/init/type/generic { \
 	item: "skin_options", \
-	slot: "hotbar.3", \
+	slot: "hotbar.0", \
 	name: "ssbrc.fighter.menu.skin_options", \
 	color: "white", \
 	cooldown: 1, \

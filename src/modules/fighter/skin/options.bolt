@@ -1,9 +1,8 @@
-from ssbrc.fighters import fighters, has_forms, forms_isolated_to, gendered_skin_menu, get_color_wrapper, skin_options
+from ssbrc.fighters import fighters, count_skins, forms_isolated_to, has_forms, gendered_skin_menu, get_color_wrapper, skin_options
 
 from itertools import chain
 
 for fighter in fighters:
-	n = 1
 	function f'ssbrc:game/fighter/{fighter}/menu/skin/options':
 		dialog show @s {
 			type: "minecraft:multi_action",
@@ -32,4 +31,4 @@ for fighter in fighters:
 			actions: skin_options(fighter)
 		}
 
-		function ssbrc:game/fighter/_logic/menu/skin_options
+		playsound minecraft:ui.button.click ui @s

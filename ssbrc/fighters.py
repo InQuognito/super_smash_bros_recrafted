@@ -4982,7 +4982,7 @@ def init_item_data(fighter, skin, item, data):
 
 def skin_options(fighter):
 	path = fighters[fighter]['skins']
-	data = [{}] * (count_skins(fighter) * 2)
+	data = [{}] * count_skins(fighter) * 2
 
 	n = 0
 	for skin in chain(['default', 'gold'], path):
@@ -5000,6 +5000,14 @@ def skin_options(fighter):
 		data[n + 1] = {
 			'label': {
 				'sprite': 'ssbrc:ui/icons/heart',
+				'hover_event': {
+					'action': "show_text",
+					'value': {
+						'text': "Click to favorite! Favorited skins will be selected from randomly when you select a fighter.",
+						'color': 'gray',
+						'italic': False
+					}
+				}
 			},
 			'width': 20,
 			'action': {
