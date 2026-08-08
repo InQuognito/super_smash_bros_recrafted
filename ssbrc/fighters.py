@@ -4989,6 +4989,7 @@ def skin_options(fighter):
 
 	n = 0
 	for skin in path:
+		print(n)
 		data[n] = {
 			'label': {
 				'translate': f'ssbrc.{skin}',
