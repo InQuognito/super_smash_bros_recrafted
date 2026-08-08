@@ -4984,88 +4984,33 @@ def init_item_data(fighter, skin, item, data):
 	data[skin] = skin_data
 
 def skin_options(fighter):
+	path = fighters[fighter]['skins']
 	data = {}
 
-	i = 0
-	for fighter, path in fighters.items():
-		armor_path = path['stats']['armor']
-		safe_fall_distance_path = path['stats']['safe_fall_distance']
-		skin_count = count_skins(fighter)
-
-		skin_data = {}
-
-		n = 1
-		for skin in path['skins']:
-			if skin == 'gold':
-				continue
-			skin_path = path['skins'][skin]
-
-			skin_entry = {
-				'name': skin,
-				'color': get_color(fighter, skin),
+	n = 1
+	for skin in path:
+		data[skin + '_equip'] = {
+			'label': {
+				'translate': f'ssbrc.{skin}',
+			},
+			'width': 200,
+			'action': {
+				'type': 'minecraft:run_command',
+				'command': f'trigger menu set {n}'
 			}
-
-			rarity = skin_path['rarity']
-			if rarity == 'unique':
-				skin_entry['price'] = skin_path['price']
-			else:
-				skin_entry['price'] = rarity_prices[rarity]
-
-			if 'true_forms' in path.keys() and 'forms_isolated_to' in path.keys():
-				if 'forms_isolated_to' in skin_path.keys():
-					skin_entry['forms_isolated_to'] = skin_path['forms_isolated_to']
-				else:
-					skin_entry['forms_isolated_to'] = path['forms_isolated_to']
-
-			if 'invisible_player' in skin_path.keys():
-				skin_entry['invisible_player'] = 'true'
-
-			n += 1
-			skin_data[skin] = skin_entry
-
-		if 'items' in path.keys():
-			item_data = {}
-			for item in path['items']:
-				item_entry = {}
-				item_path = path['items'][item]
-
-				if 'type' in item_path.keys():
-					item_entry['stats'] = item_builder(item_path['type'], item_path['stats'])
-
-				item_entry['group'] = init_stat('group', item_path, 'ssbrc')
-
-				for skin in chain(['default'], path['skins']):
-					init_item_data(fighter, skin, item, item_entry)
-
-				item_data[item] = item_entry
-
-		entry = {
-			'fighter': fighter,
-			'series': path['series'],
-			'armor': armor_values.get(armor_path, armor_path),
-			'jump_strength': jump_strength(fighter),
-			'double_jump_strength': double_jump_strength(fighter),
-			'max_health': max_health(fighter),
-			'movement_speed': movement_speed(fighter),
-			'safe_fall_distance': safe_fall_distance_values.get(safe_fall_distance_path, safe_fall_distance_path),
-			'page': (i // 15) + 1,
-			'miiverse_posts': path['miiverse_posts'],
-			'default_form': path['forms'][0],
-			'color': get_color(fighter),
-			'alignment': path['alignment'],
-			'skin_count': skin_count,
-			'skins': skin_data,
-			'items': item_data
+		}
+		data[skin + '_save'] = {
+			'label': {
+				'sprite': 'smash_item/cd',
+			},
+			'width': 50,
+			'action': {
+				'type': 'minecraft:run_command',
+				'command': f'trigger menu set {n + 1}'
+			}
 		}
 
-		if 'true_forms' in path:
-			entry['forms'] = 'true'
-			if 'forms_isolated_to' in path:
-				entry['forms_isolated_to'] = path['forms_isolated_to']
-
-		data[fighter] = entry
-
-		i += 1
+		n += 2
 	return data
 
 def fighter_storage():
