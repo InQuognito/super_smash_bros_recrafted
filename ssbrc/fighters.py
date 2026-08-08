@@ -4851,11 +4851,8 @@ adj_fighter_count = fighter_count - 1
 def count_forms(fighter):
 	return len(fighters[fighter]['forms'])
 
-def count_skins(fighter, double = True):
-	n = len(fighters[fighter]['skins']) + 2
-	if double and fighter in ['byleth','villager']:
-		n *= 2
-	return n
+def count_skins(fighter):
+	return len(fighters[fighter]['skins']) + 2
 
 def forms_isolated_to(fighter, skin='default'):
 	path = fighters[fighter]
@@ -4986,10 +4983,9 @@ def init_item_data(fighter, skin, item, data):
 def skin_options(fighter):
 	path = fighters[fighter]['skins']
 	data = [{}] * (count_skins(fighter) * 2)
-	print(data)
 
 	n = 0
-	for skin in path:
+	for skin in chain(['default', 'gold'], path):
 		data[n] = {
 			'label': {
 				'translate': f'ssbrc.{skin}',
@@ -5012,7 +5008,6 @@ def skin_options(fighter):
 		}
 
 		n += 2
-	print(data)
 	return data
 
 def fighter_storage():
