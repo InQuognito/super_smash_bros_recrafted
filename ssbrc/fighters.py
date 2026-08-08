@@ -4985,11 +4985,10 @@ def init_item_data(fighter, skin, item, data):
 
 def skin_options(fighter):
 	path = fighters[fighter]['skins']
-	data = [''] * count_skins(fighter)
+	data = [''] * (count_skins(fighter) * 2)
 
 	n = 0
 	for skin in path:
-		print(n)
 		data[n] = {
 			'label': {
 				'translate': f'ssbrc.{skin}',
