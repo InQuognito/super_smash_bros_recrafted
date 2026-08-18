@@ -1,42 +1,16 @@
-$execute store result score $$(name) stage_vote run data get storage ssbrc:temp stage_vote.$(name)
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {selected_stage:""}}]
+$function ssbrc:game/logic/player/data/set {data: {temp: {selected_stage: "$(name)"}}}
 $scoreboard players add $$(name) stage_vote 1
-$scoreboard players display name $$(name) stage_vote {translate: "ssbrc.stage.$(name)"}
-$execute store result storage ssbrc:temp stage_vote.$(name) int 1 run scoreboard players get $$(name) stage_vote
 
-tag @s add self
+execute unless data storage ssbrc:data option{teams: true} run team join ready @s
+effect clear @s minecraft:glowing
 
-$execute unless data storage ssbrc:temp player.data{stage_vote: "$(name)"} as @a at @s if dimension ssbrc:stage_select run tellraw @s [ \
-	{ \
-		selector: "@a[tag=self,limit=1]", \
-		color: "yellow", \
-	}, \
-	{ \
-		translate: "ssbrc.stage_select.vote_stage", \
-		color: "gold", \
-	}, \
-	{ \
-		translate: "ssbrc.stage.$(name)", \
-		color: "gold", \
-	}, \
-	{ \
-		translate: "ssbrc.stage_select.vote_stage.display", \
-		color: "gold", \
-	}, \
-	{ \
-		score: { \
-			name: "$$(name)", \
-			objective: "stage_vote", \
-		}, \
-		color: "yellow", \
-	}, \
-]
-
-tag @s remove self
-
-$function ssbrc:game/logic/pre_game/stage_select/stage_index/pages/$(page)
-
-$function ssbrc:game/logic/stage/vote_init {name: "$(name)"}
+function ssbrc:game/logic/pre_game/stage_select/check_participation
 
 function ssbrc:game/logic/pre_game/stage_select/calculate {function: "ssbrc:game/logic/pre_game/stage_select/diorama"}
 
+$function ssbrc:game/logic/pre_game/stage_select/stage_index/pages/$(page)
+
 scoreboard players add @s cooldown 10
+
+playsound minecraft:entity.experience_orb.pickup ui @s
