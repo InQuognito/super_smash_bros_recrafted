@@ -5,6 +5,7 @@ data modify storage ssbrc:temp cache.stage_select.game_mode set from storage ssb
 # Blank Diorama
 function ssbrc:game/logic/pre_game/stage_select/diorama {highest: "random"}
 
+data modify storage ssbrc:temp stage_vote set value {}
 function ssbrc:game/logic/stage/loop {operation: "function ssbrc:game/logic/pre_game/stage_select/reset"}
 scoreboard players set $random stage_vote 0
 scoreboard players display name $random stage_vote {translate: "ssbrc.random"}
