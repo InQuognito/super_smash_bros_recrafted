@@ -1,3 +1,4 @@
+scoreboard players operation #team temp = @s team
 gamemode spectator @s
 
 execute if data storage ssbrc:data option{game_mode: "ctf"} run function ssbrc:game/logic/ctf/fighter/death
@@ -27,7 +28,9 @@ scoreboard players set @s flag.sprinting 0
 function ssbrc:game/fighter/_logic/effects/cleanse
 
 tag @s remove cross_slash.target
+
 function ssbrc:game/fighter/pokemon_trainer/ivysaur/leech_seed/reset
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "pokemon_trainer", form: "ivysaur"}}}] run scoreboard players set #opponent_is_ivysaur temp 1
 
 scoreboard players reset @s fiends_cauldron
 

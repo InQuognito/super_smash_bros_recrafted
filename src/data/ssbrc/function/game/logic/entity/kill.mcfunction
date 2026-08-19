@@ -1,1 +1,1 @@
-$function ssbrc:game/logic/entity/$(type)/check_kill
+$function ssbrc:game/logic/entity/$(type)/kill
