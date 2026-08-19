@@ -5,12 +5,16 @@ $item replace entity @s contents with minecraft:stick[ \
 ]
 
 data merge entity @s { \
+	transformation: { \
+		left_rotation: [ 0, 0, 0, 1 ], \
+		right_rotation: [ 0, 0, 0, 1 ], \
+		translation: [ 0, .5, 0 ], \
+		scale: [ 1, 1, 1 ], \
+	}, \
 	brightness: { \
-		sky:13, \
-		block:13, \
+		sky: 13, \
+		block: 13, \
 	}, \
 }
 
 teleport @s ~ ~ ~ ~ ~
-
-$execute summon minecraft:interaction run function ssbrc:entity/_logic/init/interaction {height: 1, width: 1, left_click: "ssbrc:game/logic/stage/vote with storage ssbrc:data stage.$(name)", right_click: "ssbrc:game/logic/stage/vote with storage ssbrc:data stage.$(name)"}
