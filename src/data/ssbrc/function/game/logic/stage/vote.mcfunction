@@ -1,3 +1,4 @@
+tag @s add self
 $execute unless items entity @s armor.body *[minecraft:custom_data~{temp: {selected_stage: "$(name)"}}] as @a at @s if dimension ssbrc:stage_select run tellraw @s [ \
 	{ \
 		selector: "@a[tag=self,limit=1]", \
@@ -23,6 +24,7 @@ $execute unless items entity @s armor.body *[minecraft:custom_data~{temp: {selec
 		color: "yellow", \
 	}, \
 ]
+tag @s remove self
 
 function ssbrc:game/logic/stage/loop {operation: "function ssbrc:game/logic/pre_game/stage_select/remove_vote"}
 $function ssbrc:game/logic/player/data/set {data: {temp: {selected_stage: "$(name)"}}}
