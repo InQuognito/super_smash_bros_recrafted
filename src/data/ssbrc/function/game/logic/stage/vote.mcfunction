@@ -27,6 +27,7 @@ $execute unless items entity @s armor.body *[minecraft:custom_data~{temp: {selec
 tag @s remove self
 
 function ssbrc:game/logic/stage/loop {operation: "function ssbrc:game/logic/pre_game/stage_select/remove_vote"}
+function ssbrc:game/logic/pre_game/stage_select/remove_vote {name: "random_stage"}
 $function ssbrc:game/logic/player/data/set {data: {temp: {selected_stage: "$(name)"}}}
 $scoreboard players add $$(name) stage_vote 1
 
