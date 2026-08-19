@@ -13,4 +13,30 @@ $function ssbrc:game/logic/pre_game/stage_select/stage_index/pages/$(page)
 
 scoreboard players add @s cooldown 10
 
+$execute unless items entity @s armor.body *[minecraft:custom_data~{temp: {selected_stage: "$(name)"}}] as @a at @s if dimension ssbrc:stage_select run tellraw @s [ \
+	{ \
+		selector: "@a[tag=self,limit=1]", \
+		color: "yellow", \
+	}, \
+	{ \
+		translate: "ssbrc.stage_select.vote_stage", \
+		color: "gold", \
+	}, \
+	{ \
+		translate: "ssbrc.stage.$(name)", \
+		color: "gold", \
+	}, \
+	{ \
+		translate: "ssbrc.stage_select.vote_stage.display", \
+		color: "gold", \
+	}, \
+	{ \
+		score: { \
+			name: "$$(name)", \
+			objective: "stage_vote", \
+		}, \
+		color: "yellow", \
+	}, \
+]
+
 playsound minecraft:entity.experience_orb.pickup ui @s
