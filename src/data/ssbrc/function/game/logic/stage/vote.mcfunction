@@ -3,6 +3,7 @@ function ssbrc:game/logic/pre_game/stage_select/remove_vote {name: "random_stage
 $scoreboard players add $$(name) stage_vote 1
 
 tag @s add self
+$function ssbrc:game/logic/pre_game/stage_select/downvote/temp {name: $(name)}
 $execute unless items entity @s armor.body *[minecraft:custom_data~{temp: {selected_stage: "$(name)"}}] as @a at @s if dimension ssbrc:stage_select run tellraw @s [ \
 	{ \
 		selector: "@a[tag=self,limit=1]", \
@@ -22,8 +23,8 @@ $execute unless items entity @s armor.body *[minecraft:custom_data~{temp: {selec
 	}, \
 	{ \
 		score: { \
-			name: "$$(name)", \
-			objective: "stage_vote", \
+			name: "#cache", \
+			objective: "temp", \
 		}, \
 		color: "yellow", \
 	}, \
@@ -34,8 +35,6 @@ $function ssbrc:game/logic/player/data/set {data: {temp: {selected_stage: "$(nam
 
 execute unless data storage ssbrc:data option{teams: true} run team join ready @s
 effect clear @s minecraft:glowing
-
-function ssbrc:game/logic/pre_game/stage_select/check_participation
 
 function ssbrc:game/logic/pre_game/stage_select/calculate {function: "ssbrc:game/logic/pre_game/stage_select/diorama"}
 
