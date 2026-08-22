@@ -23,6 +23,7 @@ def item_builder(type, path):
 			extend_ability(container, path)
 		case 'consumable':
 			extend_ability(container, path)
+			container['consume_seconds'] = init_stat('consume_seconds', path, 0.05)
 		case 'cost_ability':
 			extend_ability(container, path)
 			container['cost'] = init_stat('cost', path, 1)
