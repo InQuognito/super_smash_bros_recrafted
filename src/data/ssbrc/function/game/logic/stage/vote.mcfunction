@@ -1,8 +1,7 @@
-
 function ssbrc:game/logic/stage/loop {operation: "function ssbrc:game/logic/pre_game/stage_select/remove_vote"}
 function ssbrc:game/logic/pre_game/stage_select/remove_vote {name: "random_stage"}
-$function ssbrc:game/logic/player/data/set {data: {temp: {selected_stage: "$(name)"}}}
 $scoreboard players add $$(name) stage_vote 1
+
 tag @s add self
 $execute unless items entity @s armor.body *[minecraft:custom_data~{temp: {selected_stage: "$(name)"}}] as @a at @s if dimension ssbrc:stage_select run tellraw @s [ \
 	{ \
@@ -30,6 +29,8 @@ $execute unless items entity @s armor.body *[minecraft:custom_data~{temp: {selec
 	}, \
 ]
 tag @s remove self
+
+$function ssbrc:game/logic/player/data/set {data: {temp: {selected_stage: "$(name)"}}}
 
 execute unless data storage ssbrc:data option{teams: true} run team join ready @s
 effect clear @s minecraft:glowing
