@@ -1850,7 +1850,7 @@ fighters = {
 				}
 			},
 			'water_shuriken': {
-				'type': 'ability',
+				'type': 'consumable',
 				'stats': {
 					'cooldown_group': 'greninja/water_shuriken',
 					'cooldown': 0.25,
