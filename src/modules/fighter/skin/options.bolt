@@ -22,7 +22,9 @@ for fighter in fighters:
 			after_action: "close",
 			pause: 0,
 			exit_action: {
-				label: "",
+				label: {
+					translate: "gui.cancel"
+				},
 				action: {
 					type: "minecraft:run_command",
 					command: "trigger menu set -1"
