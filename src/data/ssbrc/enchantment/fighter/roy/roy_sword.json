@@ -69,7 +69,75 @@
 				},
 				"effect": {
 					"type": "minecraft:multiply",
-					"factor": 0.66
+					"factor": 0.85
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "attacker",
+					"predicate": {
+						"distance": {
+							"absolute": {
+								"min": 1.2
+							}
+						}
+					}
+				},
+				"effect": {
+					"type": "minecraft:multiply",
+					"factor": 0.85
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "attacker",
+					"predicate": {
+						"distance": {
+							"absolute": {
+								"min": 1.4
+							}
+						}
+					}
+				},
+				"effect": {
+					"type": "minecraft:multiply",
+					"factor": 0.85
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "attacker",
+					"predicate": {
+						"distance": {
+							"absolute": {
+								"min": 1.6
+							}
+						}
+					}
+				},
+				"effect": {
+					"type": "minecraft:multiply",
+					"factor": 0.85
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "attacker",
+					"predicate": {
+						"distance": {
+							"absolute": {
+								"min": 1.8
+							}
+						}
+					}
+				},
+				"effect": {
+					"type": "minecraft:multiply",
+					"factor": 0.85
 				}
 			},
 			{
@@ -86,7 +154,7 @@
 				},
 				"effect": {
 					"type": "minecraft:multiply",
-					"factor": 0.66
+					"factor": 0.85
 				}
 			}
 		]

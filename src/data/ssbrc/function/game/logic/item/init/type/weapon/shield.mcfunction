@@ -2,6 +2,7 @@ $item replace entity @s $(slot) with minecraft:shield[ \
 	minecraft:blocks_attacks = { \
 		block_delay_seconds: $(block_delay_seconds), \
 		block_sound: "$(block_sound)", \
+		disable_cooldown_scale: $(disable_cooldown_scale), \
 		disabled_sound: "$(disabled_sound)", \
 		damage_reductions: [ \
 			{ \

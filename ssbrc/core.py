@@ -100,6 +100,7 @@ def extend_shield(data, path):
 	extend_usable(data, path)
 	data['block_delay_seconds'] = init_stat('block_delay_seconds', path, 0)
 	data['block_sound'] = init_stat('block_sound', path, '')
+	data['disable_cooldown_scale'] = init_stat('disable_cooldown_scale', path, 1)
 	data['disabled_sound'] = init_stat('disabled_sound', path, '')
 	data['flat_blocked_damage'] = init_stat('flat_blocked_damage', path, 0)
 	data['percent_blocked_damage'] = init_stat('percent_blocked_damage', path, 1)

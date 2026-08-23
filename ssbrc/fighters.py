@@ -2304,6 +2304,7 @@ fighters = {
 				'stats': {
 					'attack_damage': 5,
 					'attack_speed': 1.5,
+					'disable_cooldown_scale': 0.25,
 					'block_sound': 'minecraft:item.shield.block',
 					'disabled_sound': 'minecraft:item.shield.break',
 					'percent_blocked_damage': 0.3,
