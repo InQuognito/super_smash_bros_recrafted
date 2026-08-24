@@ -19,6 +19,24 @@
 		"minecraft:post_attack": [
 			{
 				"effect": {
+					"type": "minecraft:apply_impulse",
+					"direction": [
+						0,
+						0,
+						-1
+					],
+					"coordinate_scale": [
+						1,
+						1,
+						1
+					],
+					"magnitude": 0.75
+				},
+				"enchanted": "attacker",
+				"affected": "victim"
+			},
+			{
+				"effect": {
 					"type": "minecraft:play_sound",
 					"sound": {
 						"sound_id": "ssbrc:fighter.peach.golf_club"
@@ -35,14 +53,6 @@
 				"effect": {
 					"type": "minecraft:run_function",
 					"function": "ssbrc:game/fighter/peach/kit/frying_pan"
-				}
-			}
-		],
-		"minecraft:knockback": [
-			{
-				"effect": {
-					"type": "minecraft:add",
-					"value": 2
 				}
 			}
 		]
