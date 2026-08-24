@@ -175,7 +175,7 @@ fighters = {
 		],
 		'items': {
 			'frying_pan': {
-				'type': 'weapon',
+				'type': 'custom_swing',
 				'stats': {
 					'attack_damage': 6,
 					'attack_speed': 0.25,
@@ -190,7 +190,7 @@ fighters = {
 				}
 			},
 			'golf_club': {
-				'type': 'weapon',
+				'type': 'custom_swing',
 				'stats': {
 					'attack_damage': 4,
 					'attack_speed': 0.75,
@@ -205,7 +205,7 @@ fighters = {
 				}
 			},
 			'tennis_racket': {
-				'type': 'weapon',
+				'type': 'custom_swing',
 				'stats': {
 					'attack_damage': 2,
 					'attack_speed': 1.5,
