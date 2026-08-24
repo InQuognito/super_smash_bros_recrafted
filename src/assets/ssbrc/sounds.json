@@ -1893,10 +1893,19 @@
 			}
 		]
 	},
-	"fighter.peach.tennis_racket": {
+	"fighter.peach.tennis_racket.hit": {
 		"sounds": [
 			{
-				"name": "ssbrc:fighter/peach/tennis_racket",
+				"name": "ssbrc:fighter/peach/tennis_racket/hit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.peach.tennis_racket.reflect": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/peach/tennis_racket/reflect",
 				"stream": false,
 				"volume": 1.0
 			}

@@ -21,7 +21,7 @@
 				"effect": {
 					"type": "minecraft:play_sound",
 					"sound": {
-						"sound_id": "ssbrc:fighter.peach.tennis_racket"
+						"sound_id": "ssbrc:fighter.peach.tennis_racket.hit"
 					},
 					"pitch": 1,
 					"volume": 1
