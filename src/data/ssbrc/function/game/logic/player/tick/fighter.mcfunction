@@ -68,6 +68,10 @@ execute if score @s leech_seed.stacks matches 1.. run function ssbrc:game/fighte
 scoreboard players remove @s[scores={shadow.chaos_control=1..}] shadow.chaos_control 1
 attribute @s[scores={shadow.chaos_control=1}] minecraft:movement_speed modifier remove ssbrc:chaos_control
 
+# Specific Tick
+function ssbrc:game/logic/player/tick/specific with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
+
+# Cleanup
 tag @s remove crawling
 
 scoreboard players reset #in_electric_terrain temp
