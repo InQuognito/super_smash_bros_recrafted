@@ -220,6 +220,11 @@ fighters = {
 				}
 			},
 			'turnip': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'peach/turnip',
+					'cooldown': 2
+				},
 				'default': {
 					'name': 'ssbrc.fighter.peach.turnip',
 					'color': 'green'
