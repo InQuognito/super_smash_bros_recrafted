@@ -1,3 +1,5 @@
+execute store result score @s motion_y run data get entity @s Motion[1] 10000
+
 scoreboard players remove @s jumps 1
 
 execute store result storage ssbrc:temp cache.jump int 1 run scoreboard players add @s jump 1
