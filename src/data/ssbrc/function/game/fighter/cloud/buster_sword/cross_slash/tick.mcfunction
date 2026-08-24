@@ -1,4 +1,4 @@
-teleport @n[tag=!self,tag=cross_slash.target,distance=..1.5] ~ ~ ~
+teleport @n[predicate=!ssbrc:owner,tag=cross_slash.target,distance=..1.5] ~ ~ ~
 
 execute if entity @s[scores={duration.1=30}] run function ssbrc:game/fighter/cloud/buster_sword/cross_slash/hit/1
 execute if entity @s[scores={duration.1=..30}] as @a[predicate=ssbrc:ingame] run function ssbrc:game/fighter/cloud/buster_sword/cross_slash/particles/1

@@ -7,7 +7,7 @@ function ssbrc:game/fighter/cloud/limit/update
 
 function ssbrc:game/fighter/_logic/effects/immobile/activate {type: "default", duration: 1000000}
 
-execute as @n[tag=!self,predicate=ssbrc:target,distance=..2.5] run function ssbrc:game/fighter/cloud/buster_sword/cross_slash/target/activate
+execute as @n[predicate=!ssbrc:owner,predicate=ssbrc:target,distance=..2.5] run function ssbrc:game/fighter/cloud/buster_sword/cross_slash/target/activate
 
 playsound ssbrc:fighter.cloud.cross_slash.activate player @a
 

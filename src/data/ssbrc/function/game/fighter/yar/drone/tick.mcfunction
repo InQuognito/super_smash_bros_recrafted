@@ -13,7 +13,7 @@ teleport @e[type=minecraft:item,distance=..1] @s
 
 execute as @a[tag=cloaked,distance=..10] run function ssbrc:game/fighter/_logic/effects/glowing/uncloak
 
-execute if data entity @s[scores={cooldown=..0}] data{command: "stop"} facing entity @n[tag=!self,predicate=ssbrc:target,distance=0.1..3] eyes run function ssbrc:game/fighter/yar/drone/projectile/activate
+execute if data entity @s[scores={cooldown=..0}] data{command: "stop"} facing entity @n[predicate=!ssbrc:owner,predicate=ssbrc:target,distance=0.1..3] eyes run function ssbrc:game/fighter/yar/drone/projectile/activate
 
 execute if data entity @s data{command: "recall"} positioned ~-.5 ~-.5 ~-.5 as @a[tag=self,limit=1,dx=0] run function ssbrc:game/fighter/yar/drone/recall
 

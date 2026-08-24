@@ -1,6 +1,6 @@
 particle minecraft:dust{color: [0,.5,0], scale: 2} ~ ~ ~ 0 0 0 0 1 force @a
 
-execute positioned ~-.375 ~-.375 ~-.375 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-.25 ~-.25 ~-.25 if entity @s[dx=0] run function ssbrc:game/fighter/shovel_knight/chaos_sphere/hit
+execute positioned ~-.375 ~-.375 ~-.375 as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dx=0] positioned ~-.25 ~-.25 ~-.25 if entity @s[dx=0] run function ssbrc:game/fighter/shovel_knight/chaos_sphere/hit
 execute if score #entity_hit temp matches 1 run return run kill @s
 
 execute store result entity @s Rotation[1] float .25 run scoreboard players get @s point

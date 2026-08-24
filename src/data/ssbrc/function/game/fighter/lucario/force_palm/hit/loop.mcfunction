@@ -1,4 +1,4 @@
-execute positioned ~-.5 ~-.5 ~-.5 as @e[tag=!self,predicate=ssbrc:target,dx=0] run return run function ssbrc:game/fighter/lucario/force_palm/hit/success with storage ssbrc:temp cache.force_palm
+execute positioned ~-.5 ~-.5 ~-.5 as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dx=0] run return run function ssbrc:game/fighter/lucario/force_palm/hit/success with storage ssbrc:temp cache.force_palm
 
 scoreboard players remove #n temp 1
 scoreboard players add #i temp 1

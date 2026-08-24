@@ -2,7 +2,7 @@ function ssbrc:game/fighter/_logic/ability/init
 
 execute positioned ~ ~.5 ~ facing ~ ~1 ~ run function ssbrc:game/fighter/team_rocket/wobbuffet/splash/particles
 
-execute as @e[tag=!self,predicate=ssbrc:target,distance=...5] run function ssbrc:game/fighter/team_rocket/wobbuffet/splash/hit
+execute as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,distance=...5] run function ssbrc:game/fighter/team_rocket/wobbuffet/splash/hit
 
 function ssbrc:game/fighter/_logic/jump/impulse with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 

@@ -9,6 +9,6 @@ tag @s remove kamikazee
 kill @s
 
 scoreboard players set #radius temp 7
-execute as @e[tag=!self,predicate=ssbrc:target,distance=..7] run return run function ssbrc:game/fighter/hero/kamikazee/hit
+execute as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,distance=..7] run return run function ssbrc:game/fighter/hero/kamikazee/hit
 
 playsound ssbrc:fighter.hero.kamikazee.activate player @a

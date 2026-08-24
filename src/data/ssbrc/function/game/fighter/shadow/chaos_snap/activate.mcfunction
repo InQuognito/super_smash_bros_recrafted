@@ -1,6 +1,6 @@
 particle minecraft:flash{color: 16711680} ~ ~75 ~ 0 0 0 0 1 normal @a
 
-execute at @n[tag=!self,predicate=ssbrc:target,distance=..10] facing ^ ^ ^1 run teleport @s ^ ^ ^-1
+execute at @n[predicate=!ssbrc:owner,predicate=ssbrc:target,distance=..10] facing ^ ^ ^1 run teleport @s ^ ^ ^-1
 
 scoreboard players add @s cooldown.1 40
 

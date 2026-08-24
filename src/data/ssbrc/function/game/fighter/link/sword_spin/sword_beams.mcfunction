@@ -1,4 +1,4 @@
-execute as @e[tag=!self,predicate=ssbrc:target,distance=..2] run function ssbrc:game/logic/damage/generic {amount: 10, kb_resist: 0, i_frames: 0}
+execute as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,distance=..2] run function ssbrc:game/logic/damage/generic {amount: 10, kb_resist: 0, i_frames: 0}
 
 execute rotated ~-90 0 run function ssbrc:game/fighter/link/sword_beam/activate
 

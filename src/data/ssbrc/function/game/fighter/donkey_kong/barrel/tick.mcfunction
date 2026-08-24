@@ -1,4 +1,4 @@
-execute positioned ~-.75 ~-.75 ~-.75 if entity @e[tag=!self,predicate=ssbrc:target,dx=0.5] positioned ~.75 ~.75 ~.75 run function ssbrc:game/fighter/donkey_kong/barrel/explode
+execute positioned ~-.75 ~-.75 ~-.75 if entity @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dx=0.5] positioned ~.75 ~.75 ~.75 run function ssbrc:game/fighter/donkey_kong/barrel/explode
 
 execute store result entity @s Rotation[1] float .25 run scoreboard players get @s point
 
