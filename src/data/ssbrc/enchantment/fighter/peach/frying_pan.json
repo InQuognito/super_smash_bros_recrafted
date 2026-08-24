@@ -18,8 +18,38 @@
 	"effects": {
 		"minecraft:post_attack": [
 			{
+				"effect": {
+					"type": "minecraft:apply_impulse",
+					"direction": [
+						0,
+						1,
+						0
+					],
+					"coordinate_scale": [
+						1,
+						1,
+						1
+					],
+					"magnitude": 1
+				},
 				"enchanted": "attacker",
-				"affected": "attacker",
+				"affected": "victim"
+			},
+			{
+				"effect": {
+					"type": "minecraft:play_sound",
+					"sound": {
+						"sound_id": "ssbrc:fighter.peach.tennis_racket"
+					},
+					"pitch": 1,
+					"volume": 1
+				},
+				"enchanted": "attacker",
+				"affected": "victim"
+			}
+		],
+		"minecraft:post_piercing_attack": [
+			{
 				"effect": {
 					"type": "minecraft:run_function",
 					"function": "ssbrc:game/fighter/peach/kit/tennis_racket"

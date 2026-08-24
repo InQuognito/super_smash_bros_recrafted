@@ -18,11 +18,23 @@
 	"effects": {
 		"minecraft:post_attack": [
 			{
+				"effect": {
+					"type": "minecraft:play_sound",
+					"sound": {
+						"sound_id": "ssbrc:fighter.peach.tennis_racket"
+					},
+					"pitch": 1,
+					"volume": 1
+				},
 				"enchanted": "attacker",
-				"affected": "attacker",
+				"affected": "victim"
+			}
+		],
+		"minecraft:post_piercing_attack": [
+			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/fighter/peach/kit/golf_club"
+					"function": "ssbrc:game/fighter/peach/reflect/activate"
 				}
 			}
 		]
