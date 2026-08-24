@@ -1,4 +1,4 @@
-attribute @s minecraft:gravity modifier remove ssbrc:water_run
+attribute @s minecraft:gravity modifier remove ssbrc:zero
 
 execute if score @s charge.1 >= #super_mario_bros.super_jump const run function ssbrc:game/fighter/_logic/jump/super_jump/activate with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 scoreboard players set @s charge.1 0
