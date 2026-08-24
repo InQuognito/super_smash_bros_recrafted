@@ -30,7 +30,7 @@
 						1,
 						1
 					],
-					"magnitude": 0.5
+					"magnitude": 1
 				},
 				"enchanted": "attacker",
 				"affected": "victim"
