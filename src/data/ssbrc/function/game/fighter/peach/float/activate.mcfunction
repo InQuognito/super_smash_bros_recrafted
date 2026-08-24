@@ -1,7 +1,8 @@
 tag @s add float
 
-attribute @s minecraft:gravity modifier add ssbrc:fighter/peach/float -1 add_multiplied_total
-attribute @s minecraft:air_drag_modifier modifier add ssbrc:fighter/peach/float -.5 add_multiplied_total
+scoreboard players set @s jumps 0
+
+attribute @s minecraft:gravity modifier add ssbrc:active -1 add_multiplied_total
 
 tp @s @s
 
