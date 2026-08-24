@@ -1,3 +1,5 @@
+scoreboard players set #entity_hit temp 1
+
 function ssbrc:game/logic/entity/check/all
 
 function ssbrc:game/logic/entity/death with storage ssbrc:temp cache.entity

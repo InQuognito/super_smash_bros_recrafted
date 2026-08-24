@@ -12,7 +12,7 @@ execute if score @s point < #luigi.ice_ball const run scoreboard players remove 
 
 execute if entity @s[scores={point=1..}] unless block ~ ~-.3 ~ #ssbrc:passthrough run function ssbrc:game/fighter/luigi/ice_ball/bounce
 
-execute rotated as @s run teleport @s ^ ^ ^.3
+execute rotated as @s run teleport @s ^ ^ ^.325
 
 scoreboard players add @s temp 1
 execute if score @s temp matches 120.. run function ssbrc:game/fighter/luigi/ice_ball/kill
