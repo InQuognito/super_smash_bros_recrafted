@@ -8,7 +8,7 @@ execute facing ~ ~-1 ~-.1 run particle minecraft:snowflake ^ ^ ^-2 ^ ^ ^-1000000
 
 execute positioned ~-1 ~-.1 ~-1 as @a[dx=2,dy=0,dz=2] run function ssbrc:game/logic/damage/frostbite {amount: 16, stacks: 1, kb_resist: 0, i_frames: 5}
 
-execute if function ssbrc:game/fighter/_logic/if_grounded run scoreboard players add @s temp 1
+scoreboard players add @s[predicate=ssbrc:flag/grounded] temp 1
 execute if score @s temp matches 4.. run function ssbrc:game/fighter/zelda/ice_rod/alternate_function/break
 
 scoreboard players add @s timer 1

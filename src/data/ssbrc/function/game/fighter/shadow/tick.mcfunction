@@ -13,7 +13,7 @@ execute if score @s[tag=chaos_boost,scores={silenced=..0,jump.cooldown=..0,coold
 # Acceleration
 scoreboard players set @s[scores={flag.sprinting=..-1}] flag.sprinting 0
 scoreboard players remove @s[scores={flag.sprinting=1..},predicate=!ssbrc:flag/sprinting] flag.sprinting 3
-execute unless function ssbrc:game/fighter/_logic/if_grounded run scoreboard players remove @s[scores={flag.sprinting=1..}] flag.sprinting 1
+scoreboard players remove @s[scores={flag.sprinting=1..},predicate=!ssbrc:flag/grounded] flag.sprinting 1
 scoreboard players add @s[scores={shadow.chaos_control=..0,flag.sprinting=..59},predicate=ssbrc:flag/sprinting] flag.sprinting 1
 
 execute if score #in_electric_terrain temp matches 1 run scoreboard players set @s flag.sprinting 60

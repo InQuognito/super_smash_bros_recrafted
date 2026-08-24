@@ -1,4 +1,4 @@
-execute if predicate ssbrc:flag/sneaking if function ssbrc:game/fighter/_logic/if_grounded run scoreboard players add @s charge.2 1
+scoreboard players add @s[predicate=ssbrc:flag/grounded,predicate=ssbrc:flag/sneaking] charge.2 1
 execute if score @s charge.2 >= #altered_beast.pounce.threshold const run particle minecraft:item{item: "minecraft:dirt"} ~ ~.01 ~ .2 .2 .2 0 2 normal @a
 
 function ssbrc:game/fighter/_logic/jump/super_jump/calculate

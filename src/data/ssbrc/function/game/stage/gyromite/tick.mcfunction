@@ -1,1 +1,1 @@
-execute as @e[tag=!electrified,predicate=ssbrc:killbox_vulnerable,predicate=ssbrc:below_y/-13] if function ssbrc:game/fighter/_logic/if_grounded run function ssbrc:game/stage/gyromite/hazard/electric_floor/activate
+execute as @e[tag=!electrified,predicate=ssbrc:killbox_vulnerable,predicate=ssbrc:flag/grounded,predicate=ssbrc:below_y/-13] run function ssbrc:game/stage/gyromite/hazard/electric_floor/activate

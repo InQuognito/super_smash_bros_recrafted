@@ -77,7 +77,7 @@ tag @s remove crawling
 scoreboard players reset #in_electric_terrain temp
 
 execute if entity @s[tag=launched] run function ssbrc:game/fighter/_logic/motion/launched
-execute if function ssbrc:game/fighter/_logic/if_grounded run function ssbrc:game/fighter/_logic/on_ground
+execute if predicate ssbrc:flag/grounded run function ssbrc:game/fighter/_logic/on_ground
 
 # Stage Effects
 execute unless block ~ ~ ~ minecraft:lava run scoreboard players remove @s[tag=!electrified,scores={flag.in_lava=1..}] flag.in_lava 1
