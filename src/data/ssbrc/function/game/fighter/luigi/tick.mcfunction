@@ -9,4 +9,7 @@ execute if entity @s[tag=!launched,scores={silenced=..0,cooldown.1=..0}] run fun
 # Ground Pound
 function ssbrc:game/fighter/mario/ground_pound/tick
 
+# Water Run
+execute if block ~ ~-.1 ~ minecraft:water run function ssbrc:game/fighter/luigi/water_run/tick
+
 function ssbrc:game/fighter/_logic/ability/deinit
