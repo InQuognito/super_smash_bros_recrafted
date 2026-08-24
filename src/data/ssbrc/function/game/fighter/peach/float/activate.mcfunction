@@ -1,7 +1,12 @@
 tag @s add float
 
-execute store result storage ssbrc:temp cache.pos float 1 run data get entity @s Pos[1]
-function ssbrc:game/fighter/peach/float/set with storage ssbrc:temp cache
-
 attribute @s minecraft:gravity modifier add ssbrc:fighter/peach/float -1 add_multiplied_total
-attribute @s minecraft:movement_speed modifier add ssbrc:fighter/peach/float 1 add_multiplied_total
+attribute @s minecraft:air_drag_modifier modifier add ssbrc:active 1000000 add_value
+
+scoreboard players set $x player_motion.api.launch 0
+scoreboard players set $y player_motion.api.launch 0
+scoreboard players set $z player_motion.api.launch 1000
+
+execute rotated ~ 0 run function player_motion:api/launch_local_xyz
+
+attribute @s minecraft:air_drag_modifier modifier remove ssbrc:active
