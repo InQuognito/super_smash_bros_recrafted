@@ -32,8 +32,7 @@
 	"pipeline": [
 		{
 			"require": [
-				"bolt",
-				"ssbrc.livelyreload"
+				"bolt"
 			],
 			"data_pack": {
 				"load": {
