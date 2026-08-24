@@ -30,7 +30,7 @@
 						1,
 						1
 					],
-					"magnitude": 1
+					"magnitude": 0.5
 				},
 				"enchanted": "attacker",
 				"affected": "victim"
@@ -39,7 +39,7 @@
 				"effect": {
 					"type": "minecraft:play_sound",
 					"sound": {
-						"sound_id": "ssbrc:fighter.peach.tennis_racket"
+						"sound_id": "ssbrc:fighter.peach.frying_pan"
 					},
 					"pitch": 1,
 					"volume": 1

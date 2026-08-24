@@ -42,7 +42,7 @@
 			{
 				"effect": {
 					"type": "minecraft:add",
-					"value": 1
+					"value": 2
 				}
 			}
 		]
