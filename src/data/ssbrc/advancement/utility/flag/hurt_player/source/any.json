@@ -9,17 +9,18 @@
 					"terms": [
 						{
 							"type": "minecraft:value_check",
-						"value": {
-							"type": "minecraft:score",
-							"target": {
-								"type": "minecraft:fixed",
-								"name": "#game_stage"
+							"value": {
+								"type": "minecraft:score",
+								"target": {
+									"type": "minecraft:fixed",
+									"name": "#game_stage"
+								},
+								"score": "temp"
 							},
-							"score": "temp"
-						},
-						"range": 4
-					}
-				],
+							"range": 4
+						}
+					]
+				},
 				"damage": {
 					"blocked": false
 				}

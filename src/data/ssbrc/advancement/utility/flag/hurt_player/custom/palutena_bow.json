@@ -9,39 +9,40 @@
 					"terms": [
 						{
 							"type": "minecraft:inverted",
-						"term": {
+							"term": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"entity_tags": {
+										"all_of": [
+											"palutena_bow.split"
+										]
+									}
+								}
+							}
+						},
+						{
 							"type": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"entity_tags": {
-									"all_of": [
-										"palutena_bow.split"
-									]
-								}
-							}
-						}
-					},
-					{
-						"type": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"mainhand": {
-									"predicates": {
-										"minecraft:custom_data": {
-											"item": "palutena_bow"
+								"equipment": {
+									"mainhand": {
+										"predicates": {
+											"minecraft:custom_data": {
+												"item": "palutena_bow"
+											}
 										}
 									}
 								}
 							}
 						}
-					}
-				],
+					]
+				},
 				"damage": {
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_projectile",
+								"id": "#minecraft:is_projectile",
 								"expected": false
 							}
 						]

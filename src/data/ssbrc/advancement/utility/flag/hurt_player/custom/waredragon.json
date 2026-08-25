@@ -9,16 +9,26 @@
 					"terms": [
 						{
 							"type": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_tags": {
-								"all_of": [
-									"altered_beast\",\"weredragon"
-								]
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"body": {
+										"components": {
+											"minecraft:custom_data": {
+												"temp": {
+													"fighter": {
+														"fighter": "altered_beast",
+														"form": "weredragon"
+													}
+												}
+											}
+										}
+									}
+								}
 							}
 						}
-					}
-				]
+					]
+				}
 			}
 		}
 	},
