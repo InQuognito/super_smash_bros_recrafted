@@ -1,13 +1,14 @@
-[
-	{
-		"function": "minecraft:set_enchantments",
-		"enchantments": {
-			"minecraft:swift_sneak": 4
-		},
-		"add": false,
-		"conditions": [
-			{
-				"condition": "minecraft:entity_scores",
+{
+	"type": "minecraft:sequence",
+	"functions": [
+		{
+			"type": "minecraft:set_enchantments",
+			"enchantments": {
+				"minecraft:swift_sneak": 4
+			},
+			"add": false,
+			"condition": {
+				"type": "minecraft:entity_scores",
 				"entity": "this",
 				"scores": {
 					"capacity": {
@@ -15,17 +16,15 @@
 					}
 				}
 			}
-		]
-	},
-	{
-		"function": "minecraft:set_enchantments",
-		"enchantments": {
-			"minecraft:swift_sneak": 3
 		},
-		"add": false,
-		"conditions": [
-			{
-				"condition": "minecraft:entity_scores",
+		{
+			"type": "minecraft:set_enchantments",
+			"enchantments": {
+				"minecraft:swift_sneak": 3
+			},
+			"add": false,
+			"condition": {
+				"type": "minecraft:entity_scores",
 				"entity": "this",
 				"scores": {
 					"capacity": {
@@ -34,17 +33,15 @@
 					}
 				}
 			}
-		]
-	},
-	{
-		"function": "minecraft:set_enchantments",
-		"enchantments": {
-			"minecraft:swift_sneak": 2
 		},
-		"add": false,
-		"conditions": [
-			{
-				"condition": "minecraft:entity_scores",
+		{
+			"type": "minecraft:set_enchantments",
+			"enchantments": {
+				"minecraft:swift_sneak": 2
+			},
+			"add": false,
+			"condition": {
+				"type": "minecraft:entity_scores",
 				"entity": "this",
 				"scores": {
 					"capacity": {
@@ -53,17 +50,15 @@
 					}
 				}
 			}
-		]
-	},
-	{
-		"function": "minecraft:set_enchantments",
-		"enchantments": {
-			"minecraft:swift_sneak": 1
 		},
-		"add": false,
-		"conditions": [
-			{
-				"condition": "minecraft:entity_scores",
+		{
+			"type": "minecraft:set_enchantments",
+			"enchantments": {
+				"minecraft:swift_sneak": 1
+			},
+			"add": false,
+			"condition": {
+				"type": "minecraft:entity_scores",
 				"entity": "this",
 				"scores": {
 					"capacity": {
@@ -72,6 +67,6 @@
 					}
 				}
 			}
-		]
-	}
-]
+		}
+	]
+}

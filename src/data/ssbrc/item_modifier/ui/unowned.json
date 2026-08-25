@@ -1,6 +1,8 @@
-[
-	{
-		"function": "minecraft:set_lore",
+{
+	"type": "minecraft:sequence",
+	"functions": [
+		{
+			"type": "minecraft:set_lore",
 		"entity": "this",
 		"lore": [
 			{

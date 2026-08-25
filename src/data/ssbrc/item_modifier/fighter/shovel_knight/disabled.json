@@ -1,21 +1,24 @@
-[
-	{
-		"function": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
-			{
-				"translate": "ssbrc.fighter.shovel_knight.relic_disabled",
-				"color": "red",
-				"bold": false,
-				"italic": false
+{
+	"type": "minecraft:sequence",
+	"functions": [
+		{
+			"type": "minecraft:set_lore",
+			"entity": "this",
+			"lore": [
+				{
+					"translate": "ssbrc.fighter.shovel_knight.relic_disabled",
+					"color": "red",
+					"bold": false,
+					"italic": false
+				}
+			],
+			"mode": "append"
+		},
+		{
+			"type": "minecraft:set_custom_data",
+			"tag": {
+				"disabled": "true"
 			}
-		],
-		"mode": "append"
-	},
-	{
-		"function": "minecraft:set_custom_data",
-		"tag": {
-			"disabled": "true"
 		}
-	}
-]
+	]
+}

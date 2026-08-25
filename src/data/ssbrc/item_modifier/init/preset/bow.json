@@ -1,18 +1,21 @@
-[
-	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"translate": "item.minecraft.bow",
-			"color": "white",
-			"bold": true,
-			"italic": false
+{
+	"type": "minecraft:sequence",
+	"functions": [
+		{
+			"type": "minecraft:set_name",
+			"entity": "this",
+			"name": {
+				"translate": "item.minecraft.bow",
+				"color": "white",
+				"bold": true,
+				"italic": false
+			}
+		},
+		{
+			"type": "minecraft:set_custom_data",
+			"tag": {
+				"item": "bow"
+			}
 		}
-	},
-	{
-		"function": "minecraft:set_custom_data",
-		"tag": {
-			"item": "bow"
-		}
-	}
-]
+	]
+}

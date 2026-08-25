@@ -1,6 +1,8 @@
-[
-	{
-		"function": "minecraft:set_lore",
+{
+	"type": "minecraft:sequence",
+	"functions": [
+		{
+			"type": "minecraft:set_lore",
 		"entity": "this",
 		"lore": [
 			{
@@ -12,8 +14,6 @@
 		],
 		"mode": "append"
 	},
-	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:ui/placeholder"
+	"ssbrc:ui/placeholder"
 	}
 ]

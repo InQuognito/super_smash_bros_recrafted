@@ -1,34 +1,37 @@
-[
-	{
-		"function": "minecraft:set_components",
-		"components": {
-			"minecraft:enchantments": {
-				"ssbrc:fighter/zelda/enchant/emerald": 1
-			},
-			"minecraft:custom_model_data": {
-				"strings": [
-					"emerald"
-				]
+{
+	"type": "minecraft:sequence",
+	"functions": [
+		{
+			"type": "minecraft:set_components",
+			"components": {
+				"minecraft:enchantments": {
+					"ssbrc:fighter/zelda/enchant/emerald": 1
+				},
+				"minecraft:custom_model_data": {
+					"strings": [
+						"emerald"
+					]
+				}
+			}
+		},
+		{
+			"type": "minecraft:set_lore",
+			"entity": "this",
+			"lore": [
+				{
+					"translate": "ssbrc.tooltip.effect.poison",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				}
+			],
+			"mode": "append"
+		},
+		{
+			"type": "minecraft:set_custom_data",
+			"tag": {
+				"enchanted": "true"
 			}
 		}
-	},
-	{
-		"function": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
-			{
-				"translate": "ssbrc.tooltip.effect.poison",
-				"color": "gray",
-				"bold": false,
-				"italic": false
-			}
-		],
-		"mode": "append"
-	},
-	{
-		"function": "minecraft:set_custom_data",
-		"tag": {
-			"enchanted": "true"
-		}
-	}
-]
+	]
+}

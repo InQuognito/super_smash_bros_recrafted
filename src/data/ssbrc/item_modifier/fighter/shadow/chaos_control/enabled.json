@@ -1,18 +1,21 @@
-[
-	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"translate": "ssbrc.fighter.shadow.chaos_control",
-			"color": "blue",
-			"bold": true,
-			"italic": false
+{
+	"type": "minecraft:sequence",
+	"functions": [
+		{
+			"type": "minecraft:set_name",
+			"entity": "this",
+			"name": {
+				"translate": "ssbrc.fighter.shadow.chaos_control",
+				"color": "blue",
+				"bold": true,
+				"italic": false
+			}
+		},
+		{
+			"type": "minecraft:set_custom_data",
+			"tag": {
+				"enabled": "true"
+			}
 		}
-	},
-	{
-		"function": "minecraft:set_custom_data",
-		"tag": {
-			"enabled": "true"
-		}
-	}
-]
+	]
+}

@@ -1,18 +1,21 @@
-[
-	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"translate": "item.minecraft.tropical_fish",
-			"color": "blue",
-			"bold": true,
-			"italic": false
+{
+	"type": "minecraft:sequence",
+	"functions": [
+		{
+			"type": "minecraft:set_name",
+			"entity": "this",
+			"name": {
+				"translate": "item.minecraft.tropical_fish",
+				"color": "blue",
+				"bold": true,
+				"italic": false
+			}
+		},
+		{
+			"type": "minecraft:set_custom_data",
+			"tag": {
+				"item": "tropical_fish"
+			}
 		}
-	},
-	{
-		"function": "minecraft:set_custom_data",
-		"tag": {
-			"item": "tropical_fish"
-		}
-	}
-]
+	]
+}

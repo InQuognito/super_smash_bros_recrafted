@@ -1,26 +1,26 @@
-[
-	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:init/tooltip/separator"
-	},
-	{
-		"function": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
-			{
-				"translate": "ssbrc.smash_item.battering",
-				"color": "white",
-				"bold": false,
-				"italic": false,
-				"underlined": true
+{
+	"type": "minecraft:sequence",
+	"functions": [
+		"ssbrc:init/tooltip/separator",
+		{
+			"type": "minecraft:set_lore",
+			"entity": "this",
+			"lore": [
+				{
+					"translate": "ssbrc.smash_item.battering",
+					"color": "white",
+					"bold": false,
+					"italic": false,
+					"underlined": true
+				}
+			],
+			"mode": "append"
+		},
+		{
+			"type": "minecraft:set_components",
+			"components": {
+				"!minecraft:instrument": {}
 			}
-		],
-		"mode": "append"
-	},
-	{
-		"function": "minecraft:set_components",
-		"components": {
-			"!minecraft:instrument": {}
 		}
-	}
-]
+	]
+}

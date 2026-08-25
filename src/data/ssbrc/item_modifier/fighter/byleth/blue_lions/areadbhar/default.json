@@ -1,19 +1,22 @@
-[
-	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"translate": "ssbrc.fighter.byleth.blue_lions.areadbhar",
-			"color": "white",
-			"bold": true,
-			"italic": false
+{
+	"type": "minecraft:sequence",
+	"functions": [
+		{
+			"type": "minecraft:set_name",
+			"entity": "this",
+			"name": {
+				"translate": "ssbrc.fighter.byleth.blue_lions.areadbhar",
+				"color": "white",
+				"bold": true,
+				"italic": false
+			}
+		},
+		{
+			"type": "minecraft:set_custom_data",
+			"tag": {
+				"awakened": "false",
+				"spinning": "false"
+			}
 		}
-	},
-	{
-		"function": "minecraft:set_custom_data",
-		"tag": {
-			"awakened": "false",
-			"spinning": "false"
-		}
-	}
-]
+	]
+}

@@ -1,35 +1,35 @@
-[
-	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"translate": "ssbrc.fighter.joker.persona.raoul",
-			"color": "gray",
-			"bold": true,
-			"italic": false
-		}
-	},
-	{
-		"function": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
-			{
-				"translate": "ssbrc.fighter.joker.phantom_show",
+{
+	"type": "minecraft:sequence",
+	"functions": [
+		{
+			"type": "minecraft:set_name",
+			"entity": "this",
+			"name": {
+				"translate": "ssbrc.fighter.joker.persona.raoul",
 				"color": "gray",
-				"bold": false,
+				"bold": true,
 				"italic": false
 			}
-		],
-		"mode": "append"
-	},
-	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighter/joker/persona_ability/phantom_show"
-	},
-	{
-		"function": "minecraft:set_custom_data",
-		"tag": {
-			"persona": "raoul"
+		},
+		{
+			"type": "minecraft:set_lore",
+			"entity": "this",
+			"lore": [
+				{
+					"translate": "ssbrc.fighter.joker.phantom_show",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				}
+			],
+			"mode": "append"
+		},
+		"ssbrc:fighter/joker/persona_ability/phantom_show",
+		{
+			"type": "minecraft:set_custom_data",
+			"tag": {
+				"persona": "raoul"
+			}
 		}
-	}
-]
+	]
+}
