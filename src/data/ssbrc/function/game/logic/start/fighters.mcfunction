@@ -23,7 +23,7 @@ function ssbrc:game/fighter/_logic/effects/default
 #function ssbrc:game/logic/pre_game/bonuses/all
 
 item modify entity @s armor.body { \
-	function: "minecraft:set_enchantments", \
+	type: "minecraft:set_enchantments", \
 	enchantments: { \
 		"ssbrc:player": 4, \
 	}, \

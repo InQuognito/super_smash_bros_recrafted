@@ -7,22 +7,19 @@ $item replace entity @s enderchest.$(slot) with minecraft:saddle[ \
 	minecraft:item_model = "ssbrc:stage/$(name)/icon", \
 ]
 
-$item modify entity @s enderchest.$(slot) [ \
-	{ \
-		function: "minecraft:reference", \
-		name: "ssbrc:series/$(series)", \
-	}, \
-	{ \
-		function: "minecraft:reference", \
-		name: "ssbrc:init/preset/stage_index", \
-	}, \
-	{ \
-		function: "minecraft:set_custom_data", \
-		tag: { \
-			ui: { \
-				type: "default", \
-				navigation: "game/logic/stage/vote with storage ssbrc:data stage.$(name)", \
+$item modify entity @s enderchest.$(slot) { \
+	type: "minecraft:sequence", \
+	functions: [ \
+		"ssbrc:series/$(series)", \
+		"ssbrc:init/preset/stage_index", \
+		{ \
+			type: "minecraft:set_custom_data", \
+			tag: { \
+				ui: { \
+					type: "default", \
+					navigation: "game/logic/stage/vote with storage ssbrc:data stage.$(name)", \
+				}, \
 			}, \
 		}, \
-	}, \
-]
+	], \
+}

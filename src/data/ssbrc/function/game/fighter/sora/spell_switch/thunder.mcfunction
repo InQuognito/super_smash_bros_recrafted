@@ -3,7 +3,7 @@ advancement revoke @s only ssbrc:utility/use_item/fighter/sora/spell/switch/thun
 function ssbrc:game/fighter/sora/spell_switch/display/start {slot: "weapon.mainhand",spell:"thunda",spell_color: "yellow"}
 
 execute unless score #wisdom_form temp matches 1 run item modify entity @s weapon.mainhand { \
-	function: "minecraft:set_components", \
+	type: "minecraft:set_components", \
 	components: { \
 		"minecraft:use_cooldown": { \
 			seconds: 3.0, \
@@ -13,7 +13,7 @@ execute unless score #wisdom_form temp matches 1 run item modify entity @s weapo
 }
 
 execute if score #wisdom_form temp matches 1 run item modify entity @s weapon.mainhand { \
-	function: "minecraft:set_components", \
+	type: "minecraft:set_components", \
 	components: { \
 		"minecraft:use_cooldown": { \
 			seconds: 1.5, \

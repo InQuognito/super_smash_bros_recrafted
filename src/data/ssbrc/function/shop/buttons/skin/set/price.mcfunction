@@ -1,6 +1,6 @@
 $execute if entity @s[advancements={ssbrc:fighter/$(fighter)/$(skin)=true}] run item modify entity @s enderchest.$(slot) [ \
 	{ \
-		function: "minecraft:set_name", \
+		type: "minecraft:set_name", \
 		entity: "this", \
 		target: "item_name", \
 		name: { \
@@ -13,7 +13,7 @@ $execute if entity @s[advancements={ssbrc:fighter/$(fighter)/$(skin)=true}] run 
 
 $execute if score @s stats.credits matches $(price).. run return run item modify entity @s enderchest.$(slot) [ \
 	{ \
-		function: "minecraft:set_name", \
+		type: "minecraft:set_name", \
 		entity: "this", \
 		target: "item_name", \
 		name: { \
@@ -30,7 +30,7 @@ $execute if score @s stats.credits matches $(price).. run return run item modify
 		}, \
 	}, \
 	{ \
-		function: "minecraft:set_custom_data", \
+		type: "minecraft:set_custom_data", \
 		tag: { \
 			ui: { \
 				type: "skin", \
@@ -45,9 +45,9 @@ $execute if score @s stats.credits matches $(price).. run return run item modify
 
 $item modify entity @s enderchest.$(slot) [ \
 	{ \
-		function: "minecraft:set_name", \
+		type: "minecraft:set_name", \
 		entity: "this", \
-		"target": "item_name", \
+		target: "item_name", \
 		name: { \
 			"translate": "ssbrc.skin.$(skin)", \
 			"color": "gold", \
@@ -62,7 +62,7 @@ $item modify entity @s enderchest.$(slot) [ \
 		}, \
 	}, \
 	{ \
-		function: "minecraft:set_custom_data", \
+		type: "minecraft:set_custom_data", \
 		tag: { \
 			ui: { \
 				type: "default", \

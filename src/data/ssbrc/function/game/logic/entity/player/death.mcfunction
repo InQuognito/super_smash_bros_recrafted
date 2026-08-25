@@ -6,7 +6,7 @@ execute unless data storage ssbrc:data option{game_mode: "ctf"} run scoreboard p
 execute unless data storage ssbrc:data option{singleplayer: true} run scoreboard players add @s stats.deaths 1
 
 item modify entity @s armor.body { \
-	function: "minecraft:set_enchantments", \
+	type: "minecraft:set_enchantments", \
 	enchantments: { \
 		"ssbrc:player": 3, \
 	}, \

@@ -4,7 +4,7 @@ function ssbrc:game/logic/item/modify { \
 	search_key: "item", \
 	search_value: "falcon_punch", \
 	path: { \
-		function: "minecraft:set_components", \
+		type: "minecraft:set_components", \
 		components: { \
 			"minecraft:attack_range": { \
 				min_reach: 0, \

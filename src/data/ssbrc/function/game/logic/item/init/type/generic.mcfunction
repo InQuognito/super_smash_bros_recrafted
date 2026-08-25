@@ -52,7 +52,4 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 	}, \
 ]
 
-$item modify entity @s $(slot) { \
-	function: "minecraft:reference", \
-	name: "ssbrc:misc/$(item)", \
-}
+$item modify entity @s $(slot) ssbrc:misc/$(item)

@@ -11,7 +11,7 @@ execute if score #random temp matches 6 unless items entity @s container.* *[min
 execute if score #random temp matches 7 unless items entity @s container.* *[minecraft:custom_data~{persona: "sandman"}] run function ssbrc:game/fighter/joker/mask/init {slot: "hotbar.7", persona: "sandman", color: "gold"}
 execute if score #random temp matches 8 unless items entity @s container.* *[minecraft:custom_data~{persona: "yatagarasu"}] run function ssbrc:game/fighter/joker/mask/init {slot: "hotbar.7", persona: "yatagarasu", color: "dark_gray"}
 
-execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {skin: "gold"}}}] run item modify entity @s hotbar.7 {function: "minecraft:set_components",components: {"minecraft:custom_model_data":{strings:["gold"]}}}
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {skin: "gold"}}}] run item modify entity @s hotbar.7 {type: "minecraft:set_components", components: {"minecraft:custom_model_data":{strings:["gold"]}}}
 
 execute if items entity @s container.* *[minecraft:custom_data~{group: "mask"}] run return 1
 function ssbrc:game/fighter/joker/mask/get

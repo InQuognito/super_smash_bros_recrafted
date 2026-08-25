@@ -14,7 +14,7 @@ function ssbrc:entity/_logic/init/armor_stand/common
 execute if data storage ssbrc:data option{hazards: "true"} run return -1
 
 item modify entity @s armor.head { \
-	function: "minecraft:set_custom_model_data", \
+	type: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
 			"disabled", \

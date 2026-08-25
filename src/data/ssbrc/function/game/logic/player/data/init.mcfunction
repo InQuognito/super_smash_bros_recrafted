@@ -13,14 +13,14 @@ execute unless items entity @s armor.body * run item replace entity @s armor.bod
 ]
 
 item modify entity @s armor.body { \
-	function: "minecraft:set_custom_data", \
+	type: "minecraft:set_custom_data", \
 	tag: { \
 		temp: "null", \
 	}, \
 }
 
 item modify entity @s armor.body { \
-	function: "minecraft:set_custom_data", \
+	type: "minecraft:set_custom_data", \
 	tag: { \
 		temp: {}, \
 	}, \

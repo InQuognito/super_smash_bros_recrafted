@@ -1,47 +1,50 @@
-item modify entity @s contents [ \
-	{ \
-		function: "minecraft:set_name", \
-		entity: "this", \
-		name: { \
-			translate: "ssbrc.smash_item.food", \
-			color: "gold", \
-			bold: true, \
-			italic: false, \
-		}, \
-	}, \
-	{ \
-		function: "minecraft:set_lore", \
-		entity: "this", \
-		lore: [ \
-			{ \
-				translate: "ssbrc.smash_item.food.description", \
-				color: "gray", \
-				bold: false, \
+item modify entity @s contents { \
+	type: "minecraft:sequence", \
+	functions: [ \
+		{ \
+			type: "minecraft:set_name", \
+			entity: "this", \
+			name: { \
+				translate: "ssbrc.smash_item.food", \
+				color: "gold", \
+				bold: true, \
 				italic: false, \
 			}, \
-		], \
-		mode: "append", \
-	}, \
-	{ \
-		function: "minecraft:set_components", \
-		components: { \
-			"minecraft:max_stack_size": 1, \
-			"minecraft:item_model": "ssbrc:smash_item/food", \
 		}, \
-	}, \
-	{ \
-		function: "minecraft:set_custom_data", \
-		tag: { \
-			item: "food", \
-			instant: "true", \
+		{ \
+			type: "minecraft:set_lore", \
+			entity: "this", \
+			lore: [ \
+				{ \
+					translate: "ssbrc.smash_item.food.description", \
+					color: "gray", \
+					bold: false, \
+					italic: false, \
+				}, \
+			], \
+			mode: "append", \
 		}, \
-	}, \
-]
+		{ \
+			type: "minecraft:set_components", \
+			components: { \
+				"minecraft:max_stack_size": 1, \
+				"minecraft:item_model": "ssbrc:smash_item/food", \
+			}, \
+		}, \
+		{ \
+			type: "minecraft:set_custom_data", \
+			tag: { \
+				item: "food", \
+				instant: "true", \
+			}, \
+		}, \
+	], \
+}
 
 function ssbrc:game/smash_item/food/choose
 
 execute if score #random temp matches 1 run return run item modify entity @s contents { \
-	function: "minecraft:set_custom_model_data", \
+	type: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
 			"bananas", \
@@ -51,7 +54,7 @@ execute if score #random temp matches 1 run return run item modify entity @s con
 }
 
 execute if score #random temp matches 2 run return run item modify entity @s contents { \
-	function: "minecraft:set_custom_model_data", \
+	type: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
 			"chili_dog", \
@@ -61,7 +64,7 @@ execute if score #random temp matches 2 run return run item modify entity @s con
 }
 
 execute if score #random temp matches 3 run return run item modify entity @s contents { \
-	function: "minecraft:set_custom_model_data", \
+	type: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
 			"dubious_food", \
@@ -71,7 +74,7 @@ execute if score #random temp matches 3 run return run item modify entity @s con
 }
 
 execute if score #random temp matches 4 run return run item modify entity @s contents { \
-	function: "minecraft:set_custom_model_data", \
+	type: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
 			"eggplant", \
@@ -81,7 +84,7 @@ execute if score #random temp matches 4 run return run item modify entity @s con
 }
 
 execute if score #random temp matches 5 run return run item modify entity @s contents { \
-	function: "minecraft:set_custom_model_data", \
+	type: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
 			"ice_cream_cone", \
@@ -91,7 +94,7 @@ execute if score #random temp matches 5 run return run item modify entity @s con
 }
 
 execute if score #random temp matches 6 run return run item modify entity @s contents { \
-	function: "minecraft:set_custom_model_data", \
+	type: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
 			"juice", \
@@ -101,7 +104,7 @@ execute if score #random temp matches 6 run return run item modify entity @s con
 }
 
 execute if score #random temp matches 7 run return run item modify entity @s contents { \
-	function: "minecraft:set_custom_model_data", \
+	type: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
 			"pot_roast", \
@@ -111,7 +114,7 @@ execute if score #random temp matches 7 run return run item modify entity @s con
 }
 
 execute if score #random temp matches 8 run return run item modify entity @s contents { \
-	function: "minecraft:set_custom_model_data", \
+	type: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
 			"ramen", \
@@ -121,7 +124,7 @@ execute if score #random temp matches 8 run return run item modify entity @s con
 }
 
 execute if score #random temp matches 9 run return run item modify entity @s contents { \
-	function: "minecraft:set_custom_model_data", \
+	type: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
 			"ration", \
@@ -131,7 +134,7 @@ execute if score #random temp matches 9 run return run item modify entity @s con
 }
 
 execute if score #random temp matches 10 run return run item modify entity @s contents { \
-	function: "minecraft:set_custom_model_data", \
+	type: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
 			"rice_ball", \
@@ -141,7 +144,7 @@ execute if score #random temp matches 10 run return run item modify entity @s co
 }
 
 execute if score #random temp matches 11 run return run item modify entity @s contents { \
-	function: "minecraft:set_custom_model_data", \
+	type: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
 			"sea_salt_ice_cream", \
@@ -151,7 +154,7 @@ execute if score #random temp matches 11 run return run item modify entity @s co
 }
 
 execute if score #random temp matches 12 run return run item modify entity @s contents { \
-	function: "minecraft:set_custom_model_data", \
+	type: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
 			"smoked_tail_curry", \
@@ -161,7 +164,7 @@ execute if score #random temp matches 12 run return run item modify entity @s co
 }
 
 execute if score #random temp matches 13 run return run item modify entity @s contents { \
-	function: "minecraft:set_custom_model_data", \
+	type: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
 			"star_bits", \
@@ -171,7 +174,7 @@ execute if score #random temp matches 13 run return run item modify entity @s co
 }
 
 execute if score #random temp matches 14 run return run item modify entity @s contents { \
-	function: "minecraft:set_custom_model_data", \
+	type: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
 			"strawberry_tofu", \
@@ -181,7 +184,7 @@ execute if score #random temp matches 14 run return run item modify entity @s co
 }
 
 execute if score #random temp matches 15 run return run item modify entity @s contents { \
-	function: "minecraft:set_custom_model_data", \
+	type: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
 			"yoshi_berry", \
@@ -191,7 +194,7 @@ execute if score #random temp matches 15 run return run item modify entity @s co
 }
 
 execute if score #random temp matches 16 run return run item modify entity @s contents { \
-	function: "minecraft:set_custom_model_data", \
+	type: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
 			"candy_cane", \

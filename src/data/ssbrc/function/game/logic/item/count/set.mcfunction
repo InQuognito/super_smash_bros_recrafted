@@ -1,4 +1,4 @@
 $item modify entity @s $(slot) { \
-	function: "minecraft:set_count", \
+	type: "minecraft:set_count", \
 	count: $(count), \
 }

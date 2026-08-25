@@ -76,7 +76,4 @@ $item replace entity @s $(slot) with minecraft:bow[ \
 	}, \
 ]
 
-$item modify entity @s $(slot) { \
-	function: "minecraft:reference", \
-	name: "ssbrc:fighter/$(fighter)/$(item)", \
-}
+$item modify entity @s $(slot) ssbrc:fighter/$(fighter)/$(item)

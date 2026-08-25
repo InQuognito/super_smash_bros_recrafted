@@ -1,6 +1,6 @@
 function ssbrc:game/fighter/_logic/jump/sound with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
-execute if items entity @s[scores={jump=2}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "pit"}}}] unless score @s timer matches 1.. run item modify entity @s armor.chest {function: "minecraft:set_components",components: {"minecraft:glider":{}}}
+execute if items entity @s[scores={jump=2}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "pit"}}}] unless score @s timer matches 1.. run item modify entity @s armor.chest {type: "minecraft:set_components", components: {"minecraft:glider":{}}}
 execute if items entity @s[scores={jump=2}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "giegue"}}}] rotated ~ -90 run return run function ssbrc:game/fighter/giegue/jump/activate
 execute if items entity @s[scores={jump=3..}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "kirby"}}}] run return run function ssbrc:game/fighter/kirby/jump
 execute if items entity @s[scores={jump=2}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "ness"}}}] rotated ~ 0 run function ssbrc:game/fighter/ness/jump

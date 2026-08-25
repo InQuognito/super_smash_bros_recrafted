@@ -6,7 +6,7 @@ tag @s add shirtless
 $function ssbrc:game/logic/player/data/set {data: {temp: {fighter: {form: "$(form)"}}}}
 
 item modify entity @s hotbar.8 { \
-	function: "minecraft:set_custom_model_data", \
+	type: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
 			"centurion", \

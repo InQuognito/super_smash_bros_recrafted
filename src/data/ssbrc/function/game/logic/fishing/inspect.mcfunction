@@ -11,11 +11,11 @@ $loot give @s loot { \
 					name: "minecraft:stick", \
 					functions: [ \
 						{ \
-							function: "minecraft:reference", \
+							type: "minecraft:reference", \
 							name: "ssbrc:fishing/fish/$(type)", \
 						}, \
 						{ \
-							function: "minecraft:set_lore", \
+							type: "minecraft:set_lore", \
 							entity: "this", \
 							lore: [ \
 								{ \
@@ -27,7 +27,7 @@ $loot give @s loot { \
 							mode: "replace_all", \
 						}, \
 						{ \
-							function: "minecraft:set_components", \
+							type: "minecraft:set_components", \
 							components: { \
 								"minecraft:item_model": "ssbrc:fish/$(type)/$(rarity)", \
 							}, \

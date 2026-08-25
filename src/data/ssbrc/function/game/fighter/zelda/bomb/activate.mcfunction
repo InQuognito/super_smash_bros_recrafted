@@ -5,7 +5,7 @@ function ssbrc:game/fighter/zelda/magic/update
 
 scoreboard players add @s cooldown 3
 
-item modify entity @s weapon.mainhand {function: "minecraft:set_components",components: {"minecraft:item_model":"ssbrc:common/bomb/blue"}}
+item modify entity @s weapon.mainhand {type: "minecraft:set_components", components: {"minecraft:item_model": "ssbrc:common/bomb/blue"}}
 
 playsound ssbrc:fighter.zelda.bomb.activate player @a
 playsound ssbrc:fighter.zelda.bomb.fuse player @a

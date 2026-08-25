@@ -7,4 +7,27 @@ function ssbrc:game/logic/item/init/slot {item: "bear_claw", slot: "hotbar.0", c
 
 function ssbrc:game/logic/item/init/slot {item: "petrifying_breath", slot: "hotbar.1", class: "weapon", type: "hybrid"}
 
-item modify entity @s armor.chest [{function: "minecraft:reference",name: "ssbrc:init/tooltip/separator"}, {function: "minecraft:set_lore",entity:"this",lore:[{translate: "ssbrc.fighter.altered_beast.werebear.intimidate", color: "yellow",italic:false,underlined: true}, {translate: "ssbrc.fighter.altered_beast.werebear.intimidate.description.1", color: "gray",italic:false}],mode:"append"}]
+item modify entity @s armor.chest { \
+	type: "minecraft:sequence", \
+	functions: [ \
+		"ssbrc:init/tooltip/separator", \
+		{ \
+			type: "minecraft:set_lore", \
+			entity: "this", \
+			lore: [ \
+				{ \
+					translate: "ssbrc.fighter.altered_beast.werebear.intimidate", \
+					color: "yellow", \
+					italic: false, \
+					underlined: true, \
+				}, \
+				{ \
+					translate: "ssbrc.fighter.altered_beast.werebear.intimidate.description.1", \
+					color: "gray", \
+					italic: false, \
+				}, \
+			], \
+			mode: "append", \
+		}, \
+	], \
+}

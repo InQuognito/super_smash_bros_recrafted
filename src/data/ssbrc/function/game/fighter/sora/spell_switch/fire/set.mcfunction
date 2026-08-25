@@ -1,7 +1,7 @@
 $function ssbrc:game/fighter/sora/spell_switch/display/start {slot: "$(slot)",spell:"fira",spell_color: "red"}
 
 $execute unless score #wisdom_form temp matches 1 run item modify entity @s $(slot) { \
-	function: "minecraft:set_components", \
+	type: "minecraft:set_components", \
 	components: { \
 		"minecraft:use_cooldown": { \
 			seconds: 1.0, \
@@ -11,7 +11,7 @@ $execute unless score #wisdom_form temp matches 1 run item modify entity @s $(sl
 }
 
 $execute if score #wisdom_form temp matches 1 run item modify entity @s $(slot) { \
-	function: "minecraft:set_components", \
+	type: "minecraft:set_components", \
 	components: { \
 		"minecraft:use_cooldown": { \
 			seconds: 3.0, \
@@ -21,7 +21,7 @@ $execute if score #wisdom_form temp matches 1 run item modify entity @s $(slot) 
 }
 
 $item modify entity @s $(slot) { \
-	function: "minecraft:set_lore", \
+	type: "minecraft:set_lore", \
 	entity: "this", \
 	lore: [ \
 		{ \

@@ -30,7 +30,4 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 	}, \
 ]
 
-$item modify entity @s $(slot) { \
-	function: "minecraft:reference", \
-	name: "ssbrc:fighter/joker/personas/$(persona)", \
-}
+$item modify entity @s $(slot) ssbrc:fighter/joker/personas/$(persona)

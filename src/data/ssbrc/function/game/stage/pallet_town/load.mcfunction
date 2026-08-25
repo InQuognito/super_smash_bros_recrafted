@@ -20,10 +20,10 @@ execute if score #random temp matches 2 positioned 11 15 20 rotated 180 0 run fu
 execute positioned 0 0 18. rotated 90 0 run function ssbrc:game/logic/pokemon/summon {name: "snorlax", animation: "sleep"}
 
 # Rope
-summon minecraft:item_display 8. 4.25 -15. {Tags: ["rope","static_object"],Rotation:[90f,0f],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ssbrc:stage/pallet_town/rope"}},transformation:[2.5f,0f,0f,0f,0f,2.5f,0f,0f,0f,0f,2.5f,0f,0f,0f,0f,1f]}
+summon minecraft:item_display 8. 4.25 -15. {Tags: ["rope","static_object"],Rotation:[90f,0f],item:{id:"minecraft:stick",components:{"minecraft:item_model": "ssbrc:stage/pallet_town/rope"}},transformation:[2.5f,0f,0f,0f,0f,2.5f,0f,0f,0f,0f,2.5f,0f,0f,0f,0f,1f]}
 
 # Misty's Bike
-summon minecraft:item_display -42. 1.5 -54.2 {Tags: ["mistys_bike","static_object"],Rotation:[-90f,0f],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ssbrc:stage/pallet_town/mistys_bike"}},transformation:[1f,.2f,0f,0f,-.2f,1f,0f,0f,0f,0f,1f,0f,0f,0f,0f,1f]}
+summon minecraft:item_display -42. 1.5 -54.2 {Tags: ["mistys_bike","static_object"],Rotation:[-90f,0f],item:{id:"minecraft:stick",components:{"minecraft:item_model": "ssbrc:stage/pallet_town/mistys_bike"}},transformation:[1f,.2f,0f,0f,-.2f,1f,0f,0f,0f,0f,1f,0f,0f,0f,0f,1f]}
 
 # Armor Stands
 execute positioned 9 5 -20 summon minecraft:armor_stand run function ssbrc:game/stage/pallet_town/armor_stands/brock

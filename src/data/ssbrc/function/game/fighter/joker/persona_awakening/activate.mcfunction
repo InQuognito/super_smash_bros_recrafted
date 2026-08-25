@@ -8,7 +8,7 @@ function ssbrc:game/fighter/joker/tt33/reset
 clear @s *[minecraft:custom_data~{group: "mask"}]
 clear @s *[minecraft:custom_data~{group: "persona_awakening"}]
 
-$function ssbrc:game/logic/item/modify {search_key: "group", search_value: "persona",path: {function: "minecraft:set_components",components: {"minecraft:item_model":"ssbrc:fighter/joker/misc/portrait/$(persona)/active"}}}
+$function ssbrc:game/logic/item/modify {search_key: "group", search_value: "persona", path: {type: "minecraft:set_components", components: {"minecraft:item_model": "ssbrc:fighter/joker/misc/portrait/$(persona)/active"}}}
 
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "archangel"}}}] run function ssbrc:game/logic/item/give/default {item: "hama", class: "default", type: "default"}
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "arsene"}}}] run function ssbrc:game/logic/item/give/default {item: "eiagon", class: "default", type: "default"}

@@ -14,30 +14,30 @@ item modify entity @s hotbar.2 { \
 
 execute anchored eyes positioned ^ ^ ^-1 summon minecraft:bee run function ssbrc:game/fighter/team_rocket/weezing/init
 
-item modify entity @s armor.chest [ \
-	{ \
-		function: "minecraft:reference", \
-		name: "ssbrc:init/tooltip/separator", \
-	}, \
-	{ \
-		function: "minecraft:set_lore", \
-		entity: "this", \
-		lore: [ \
-			{ \
-				translate: "ssbrc.fighter.team_rocket.arbok.shed_skin", \
-				color: "yellow", \
-				italic: false, \
-				underlined: true \
-			}, \
-			{ \
-				translate: "ssbrc.fighter.team_rocket.arbok.shed_skin.description.1", \
-				color: "gray", \
-				italic: false, \
-			}, \
-		], \
-		mode: "append", \
-	}, \
-]
+item modify entity @s armor.chest { \
+	type: "minecraft:sequence", \
+	functions: [ \
+		"ssbrc:init/tooltip/separator", \
+		{ \
+			type: "minecraft:set_lore", \
+			entity: "this", \
+			lore: [ \
+				{ \
+					translate: "ssbrc.fighter.team_rocket.arbok.shed_skin", \
+					color: "yellow", \
+					italic: false, \
+					underlined: true \
+				}, \
+				{ \
+					translate: "ssbrc.fighter.team_rocket.arbok.shed_skin.description.1", \
+					color: "gray", \
+					italic: false, \
+				}, \
+			], \
+			mode: "append", \
+		}, \
+	], \
+}
 
 attribute @s minecraft:max_health modifier add ssbrc:form -8 add_value
 attribute @s minecraft:movement_speed modifier add ssbrc:form .075 add_multiplied_base

@@ -50,7 +50,7 @@ function ssbrc:shop/pages/main
 function ssbrc:game/logic/player/data/stats/init/set {value: "hard_resets"}
 
 item modify entity @s armor.body { \
-	function: "minecraft:set_enchantments", \
+	type: "minecraft:set_enchantments", \
 	enchantments: { \
 		"ssbrc:player": 1, \
 	}, \

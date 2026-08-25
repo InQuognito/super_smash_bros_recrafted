@@ -4,6 +4,60 @@ function ssbrc:game/logic/item/init/slot {item: "dragon_claw", slot: "hotbar.0",
 
 function ssbrc:game/logic/item/init/slot {item: "electrocution", slot: "hotbar.1", class: "default", type: "default"}
 
-item modify entity @s armor.chest [{function: "minecraft:reference",name: "ssbrc:init/tooltip/separator"}, {function: "minecraft:set_lore",entity:"this",lore:[{translate: "ssbrc.fighter.altered_beast.weredragon.inner_strength", color: "yellow",italic:false,underlined: true}, {translate: "ssbrc.fighter.altered_beast.weredragon.inner_strength.description.1", color: "gray",italic:false}],mode:"append"}]
+item modify entity @s armor.chest { \
+	type: "minecraft:sequence", \
+	functions: [ \
+		"ssbrc:init/tooltip/separator", \
+		{ \
+			type: "minecraft:set_lore", \
+			entity: "this", \
+			lore: [ \
+				{ \
+					translate: "ssbrc.fighter.altered_beast.weredragon.inner_strength", \
+					color: "yellow", \
+					italic: false, \
+					underlined: true, \
+				}, \
+				{ \
+					translate: "ssbrc.fighter.altered_beast.weredragon.inner_strength.description.1", \
+					color: "gray", \
+					italic: false, \
+				}, \
+			], \
+			mode: "append", \
+		}, \
+	], \
+}
 
-item modify entity @s armor.legs [{function: "minecraft:reference",name: "ssbrc:init/tooltip/separator"}, {function: "minecraft:set_lore",entity:"this",lore:[{translate: "ssbrc.fighter.altered_beast.weredragon.wings", color: "yellow",italic:false,underlined: true}, {translate: "ssbrc.tooltip.hold_key", color: "gray",italic:false,extra:[{"keybind":"key.sneak", color: "gray",italic:false}, {translate: "ssbrc.fighter.altered_beast.weredragon.wings.description.1", color: "gray",italic:false}]}],mode:"append"}]
+item modify entity @s armor.legs { \
+	type: "minecraft:sequence", \
+	functions: [ \
+		"ssbrc:init/tooltip/separator", \
+		{ \
+			type: "minecraft:set_lore", \
+			entity: "this", \
+			lore: [ \
+				{ \
+					translate: "ssbrc.fighter.altered_beast.weredragon.wings", \
+					color: "yellow", \
+					italic: false, \
+					underlined: true, \
+				}, \
+				{ \
+					translate: "ssbrc.tooltip.hold_key", \
+					color: "gray", \
+					italic: false, \
+					extra: [ \
+						{ \
+							keybind: "key.sneak", \
+						}, \
+						{ \
+							translate: "ssbrc.fighter.altered_beast.weredragon.wings.description.1", \
+						}, \
+					], \
+				}, \
+			], \
+			mode: "append", \
+		}, \
+	], \
+}

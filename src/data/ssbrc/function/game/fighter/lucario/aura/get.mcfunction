@@ -2,7 +2,7 @@ $function ssbrc:game/logic/item/modify { \
 	search_key: "item", \
 	search_value: "force_palm", \
 	path: { \
-		function: "minecraft:set_custom_model_data", \
+		type: "minecraft:set_custom_model_data", \
 		floats: { \
 			values: [ \
 				$(aura), \

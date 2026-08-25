@@ -1,5 +1,5 @@
 item modify entity @s weapon.mainhand { \
-	function: "minecraft:set_components", \
+	type: "minecraft:set_components", \
 	components: { \
 		"minecraft:enchantments": { \
 			"ssbrc:fighter/zelda/enchant/glass": 2, \
