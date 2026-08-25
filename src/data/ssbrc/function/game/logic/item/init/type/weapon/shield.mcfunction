@@ -32,7 +32,7 @@ $item replace entity @s $(slot) with minecraft:shield[ \
 	minecraft:max_stack_size = $(max_stack_size), \
 	minecraft:minimum_attack_charge = 1, \
 	minecraft:attack_animation = { \
-		type: "none", \
+		type: "whack", \
 	}, \
 	minecraft:tooltip_display = { \
 		hidden_components: [ \

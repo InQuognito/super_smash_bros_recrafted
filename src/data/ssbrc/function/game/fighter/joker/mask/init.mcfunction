@@ -7,7 +7,7 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 	}, \
 	minecraft:max_stack_size = 1, \
 	minecraft:attack_animation = { \
-		type: "none", \
+		type: "whack", \
 	}, \
 	minecraft:minimum_attack_charge = 1, \
 	minecraft:consumable = { \

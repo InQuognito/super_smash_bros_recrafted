@@ -27,7 +27,7 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 	minecraft:max_stack_size = $(max_stack_size), \
 	minecraft:minimum_attack_charge = 1, \
 	minecraft:attack_animation = { \
-		type: "none", \
+		type: "whack", \
 	}, \
 	minecraft:use_cooldown = { \
 		seconds: $(cooldown), \
