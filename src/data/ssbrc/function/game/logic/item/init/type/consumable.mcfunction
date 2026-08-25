@@ -44,4 +44,4 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 	}, \
 ] $(count)
 
-$item modify entity @s $(slot) ssbrc:fighter/$(fighter)/$(item)
+#$item modify entity @s $(slot) ssbrc:fighter/$(fighter)/$(item)

@@ -87,4 +87,4 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 	}, \
 ]
 
-$item modify entity @s $(slot) ssbrc:fighter/$(fighter)/$(item)
+#$item modify entity @s $(slot) ssbrc:fighter/$(fighter)/$(item)
