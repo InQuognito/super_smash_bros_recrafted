@@ -7,9 +7,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:written_book",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_name",
+							"type": "minecraft:set_name",
 							"entity": "this",
 							"target": "item_name",
 							"name": {
@@ -19,7 +19,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_written_book_pages",
+							"type": "minecraft:set_written_book_pages",
 							"pages": [
 								[
 									{
@@ -209,7 +209,7 @@
 							"mode": "replace_all"
 						},
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:item_model": "ssbrc:ui/settings",
 								"minecraft:tooltip_display": {
@@ -221,7 +221,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_custom_data",
+							"type": "minecraft:set_custom_data",
 							"tag": {
 								"item": "options"
 							}

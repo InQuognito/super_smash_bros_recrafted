@@ -7,15 +7,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:stick",
-					"functions": [
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fishing/fish/cod"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fishing/default"
-						}
+					"modifier": [
+						"ssbrc:fishing/fish/cod",
+						"ssbrc:fishing/default"
 					]
 				}
 			]

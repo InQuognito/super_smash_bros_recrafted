@@ -7,15 +7,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:stick",
-					"functions": [
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fishing/fish/puftup"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fishing/default"
-						}
+					"modifier": [
+						"ssbrc:fishing/fish/puftup",
+						"ssbrc:fishing/default"
 					]
 				}
 			]

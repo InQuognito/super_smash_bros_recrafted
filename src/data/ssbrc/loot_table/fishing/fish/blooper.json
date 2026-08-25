@@ -7,15 +7,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:stick",
-					"functions": [
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fishing/fish/blooper"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fishing/default"
-						}
+					"modifier": [
+						"ssbrc:fishing/fish/blooper",
+						"ssbrc:fishing/default"
 					]
 				}
 			]

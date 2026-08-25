@@ -7,15 +7,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:stick",
-					"functions": [
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fishing/fish/troupple"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fishing/default"
-						}
+					"modifier": [
+						"ssbrc:fishing/fish/troupple",
+						"ssbrc:fishing/default"
 					]
 				}
 			]

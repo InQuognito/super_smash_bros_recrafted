@@ -8,10 +8,8 @@
 					"type": "minecraft:item",
 					"weight": 1023,
 					"name": "minecraft:stick",
-					"functions": [
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fishing/fish/magikarp/default/female"
+					"modifier": [
+						"ssbrc:fishing/fish/magikarp/default/female"
 						}
 					]
 				},
@@ -19,10 +17,8 @@
 					"type": "minecraft:item",
 					"weight": 1023,
 					"name": "minecraft:stick",
-					"functions": [
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fishing/fish/magikarp/default/male"
+					"modifier": [
+						"ssbrc:fishing/fish/magikarp/default/male"
 						}
 					]
 				},
@@ -30,10 +26,8 @@
 					"type": "minecraft:item",
 					"weight": 1,
 					"name": "minecraft:stick",
-					"functions": [
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fishing/fish/magikarp/shiny/female"
+					"modifier": [
+						"ssbrc:fishing/fish/magikarp/shiny/female"
 						}
 					]
 				},
@@ -41,17 +35,15 @@
 					"type": "minecraft:item",
 					"weight": 1,
 					"name": "minecraft:stick",
-					"functions": [
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fishing/fish/magikarp/shiny/male"
+					"modifier": [
+						"ssbrc:fishing/fish/magikarp/shiny/male"
 						}
 					]
 				}
 			],
 			"functions": [
 				{
-					"function": "minecraft:reference",
+					"type": "minecraft:reference",
 					"name": "ssbrc:fishing/default"
 				}
 			]

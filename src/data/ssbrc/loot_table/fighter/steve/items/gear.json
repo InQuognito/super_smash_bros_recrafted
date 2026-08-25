@@ -7,120 +7,110 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:lapis_lazuli",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:item_model": "minecraft:cobblestone"
 							}
 						},
 						{
-							"function": "minecraft:set_custom_data",
+							"type": "minecraft:set_custom_data",
 							"tag": {
 								"get": "stone"
 							}
 						}
 					],
-					"conditions": [
-						{
-							"condition": "minecraft:entity_scores",
-							"entity": "this",
-							"scores": {
-								"steve.tier": 0
-							}
+					"condition": {
+						"type": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"steve.tier": 0
 						}
-					]
+					}
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:lapis_lazuli",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:item_model": "minecraft:gold_ingot"
 							}
 						},
 						{
-							"function": "minecraft:set_custom_data",
+							"type": "minecraft:set_custom_data",
 							"tag": {
 								"get": "gold"
 							}
 						}
 					],
-					"conditions": [
-						{
-							"condition": "minecraft:entity_scores",
-							"entity": "this",
-							"scores": {
-								"steve.tier": 1
-							}
+					"condition": {
+						"type": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"steve.tier": 1
 						}
-					]
+					}
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:lapis_lazuli",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:item_model": "minecraft:iron_ingot"
 							}
 						},
 						{
-							"function": "minecraft:set_custom_data",
+							"type": "minecraft:set_custom_data",
 							"tag": {
 								"get": "iron"
 							}
 						}
 					],
-					"conditions": [
-						{
-							"condition": "minecraft:entity_scores",
-							"entity": "this",
-							"scores": {
-								"steve.tier": 2
-							}
+					"condition": {
+						"type": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"steve.tier": 2
 						}
-					]
+					}
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:lapis_lazuli",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:item_model": "minecraft:diamond"
 							}
 						},
 						{
-							"function": "minecraft:set_custom_data",
+							"type": "minecraft:set_custom_data",
 							"tag": {
 								"get": "diamond"
 							}
 						}
 					],
-					"conditions": [
-						{
-							"condition": "minecraft:entity_scores",
-							"entity": "this",
-							"scores": {
-								"steve.tier": 3
-							}
+					"condition": {
+						"type": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"steve.tier": 3
 						}
-					]
+					}
 				}
 			]
 		}
 	],
-	"functions": [
-		{
-			"function": "minecraft:set_custom_data",
-			"tag": {
-				"item_type": "tier"
-			}
+	"modifier": {
+		"type": "minecraft:set_custom_data",
+		"tag": {
+			"item_type": "tier"
 		}
-	]
+	}
 }

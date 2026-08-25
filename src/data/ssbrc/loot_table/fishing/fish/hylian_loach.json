@@ -7,15 +7,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:stick",
-					"functions": [
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fishing/fish/hylian_loach"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fishing/default"
-						}
+					"modifier": [
+						"ssbrc:fishing/fish/hylian_loach",
+						"ssbrc:fishing/default"
 					]
 				}
 			]

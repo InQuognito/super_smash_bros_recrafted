@@ -8,15 +8,15 @@
 					"type": "minecraft:item",
 					"weight": 1,
 					"name": "minecraft:redstone",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:item_model": "minecraft:oak_leaves"
 							}
 						},
 						{
-							"function": "minecraft:set_custom_data",
+							"type": "minecraft:set_custom_data",
 							"tag": {
 								"get": "smash_item"
 							}
@@ -27,15 +27,15 @@
 					"type": "minecraft:item",
 					"weight": 24,
 					"name": "minecraft:redstone",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:item_model": "minecraft:nautilus_shell"
 							}
 						},
 						{
-							"function": "minecraft:set_custom_data",
+							"type": "minecraft:set_custom_data",
 							"tag": {
 								"get": "bells"
 							}

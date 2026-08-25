@@ -7,9 +7,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:saddle",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_name",
+							"type": "minecraft:set_name",
 							"entity": "this",
 							"target": "item_name",
 							"name": {
@@ -34,13 +34,13 @@
 							}
 						},
 						{
-							"function": "set_components",
+							"type": "set_components",
 							"components": {
 								"minecraft:item_model": "ssbrc:ui/credits"
 							}
 						},
 						{
-							"function": "minecraft:set_custom_data",
+							"type": "minecraft:set_custom_data",
 							"tag": {
 								"ui": {
 									"navigation": "shop/pages/main",
