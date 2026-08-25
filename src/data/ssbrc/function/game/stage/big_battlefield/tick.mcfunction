@@ -1,1 +1,1 @@
-kill @e[predicate=ssbrc:target,predicate=ssbrc:stage/big_battlefield]
+execute as @e[predicate=ssbrc:target,predicate=ssbrc:stage/big_battlefield] run function ssbrc:game/logic/entity/check_death

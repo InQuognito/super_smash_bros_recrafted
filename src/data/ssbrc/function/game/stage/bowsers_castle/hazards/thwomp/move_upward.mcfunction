@@ -1,3 +1,3 @@
-execute positioned ~ ~3.1 ~ run kill @e[predicate=ssbrc:target,dx=1.5,dy=0,dz=1.5]
+execute positioned ~ ~3.1 ~ as @e[predicate=ssbrc:target,dx=1.5,dy=0,dz=1.5] run function ssbrc:game/logic/entity/check_death
 
 teleport @s ~ ~.1 ~

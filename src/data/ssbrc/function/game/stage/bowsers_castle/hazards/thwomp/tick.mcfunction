@@ -6,7 +6,7 @@ execute if entity @s[tag=left] run function ssbrc:game/stage/bowsers_castle/haza
 execute if entity @s[tag=middle] run function ssbrc:game/stage/bowsers_castle/hazards/thwomp/middle/tick
 execute if entity @s[tag=right] run function ssbrc:game/stage/bowsers_castle/hazards/thwomp/right/tick
 
-execute if score @s temp < #thwomp_time const positioned ~ ~-.1 ~ if block ~ ~ ~ #ssbrc:passthrough run kill @e[predicate=ssbrc:target,dx=1.5,dy=0,dz=1.5]
+execute if score @s temp < #thwomp_time const positioned ~ ~-.1 ~ if block ~ ~ ~ #ssbrc:passthrough as @e[predicate=ssbrc:target,dx=1.5,dy=0,dz=1.5] run function ssbrc:game/logic/entity/check_death
 execute if score @s temp = #thwomp_time const run function ssbrc:game/stage/bowsers_castle/hazards/thwomp/idle
 execute if score @s[tag=!sinking] temp >= #thwomp_time const run function ssbrc:game/stage/bowsers_castle/hazards/thwomp/move_upward
 
