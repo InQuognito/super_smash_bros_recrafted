@@ -10,7 +10,6 @@
 					"name": "minecraft:stick",
 					"modifier": [
 						"ssbrc:fishing/fish/tropical_fish/minecraft"
-						}
 					]
 				},
 				{
@@ -19,16 +18,10 @@
 					"name": "minecraft:tropical_fish",
 					"modifier": [
 						"ssbrc:fishing/fish/tropical_fish/game_and_watch"
-						}
 					]
 				}
 			],
-			"functions": [
-				{
-					"type": "minecraft:reference",
-					"name": "ssbrc:fishing/default"
-				}
-			]
+			"modifier": "ssbrc:fishing/default"
 		}
 	]
 }
