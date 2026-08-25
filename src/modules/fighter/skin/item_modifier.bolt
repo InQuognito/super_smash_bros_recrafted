@@ -17,32 +17,28 @@ for fighter in fighters:
 				collection_text = collections[collection]['text']
 				collection_color = collections[collection]['color']
 
-				collection_wrapper = [
-					{
-						"type": "minecraft:set_lore",
-						"entity": "this",
-						"lore": [
-							{
-								"text": collection_text,
-								"color": collection_color,
-								"bold": true,
-								"italic": false,
-								"extra": [
-									{
-										"translate": f'ssbrc.shop.collection.{collection}',
-										"color": "white",
-										"bold": false,
-										"italic": false
-									}
-								]
-							}
-						],
-						"mode": "append"
-					}
-				]
+				collection_wrapper = {
+					"type": "minecraft:set_lore",
+					"entity": "this",
+					"lore": [
+						{
+							"text": collection_text,
+							"color": collection_color,
+							"bold": true,
+							"italic": false,
+							"extra": [
+								{
+									"translate": f'ssbrc.shop.collection.{collection}',
+									"color": "white",
+									"bold": false,
+									"italic": false
+								}
+							]
+						}
+					],
+					"mode": "append"
+				}
 			else:
 				continue
 
-			item_modifier f'ssbrc:shop_tooltip/{fighter}/skin/{skin}' [
-				*collection_wrapper
-			]
+			item_modifier f'ssbrc:shop_tooltip/{fighter}/skin/{skin}' collection_wrapper
