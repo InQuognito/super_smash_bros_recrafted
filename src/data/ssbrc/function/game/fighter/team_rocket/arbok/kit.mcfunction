@@ -6,7 +6,7 @@ function ssbrc:game/logic/item/init/slot {item: "acid", slot: "hotbar.1", class:
 
 function ssbrc:game/logic/item/init/slot {item: "weezing", slot: "hotbar.2", class: "default", type: "default"}
 item modify entity @s hotbar.2 { \
-	function: "set_custom_data", \
+	type: "minecraft:set_custom_data", \
 	tag: { \
 		command: "activate", \
 	}, \

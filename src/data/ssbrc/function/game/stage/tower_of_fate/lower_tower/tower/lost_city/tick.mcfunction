@@ -1,5 +1,5 @@
 execute as @a[predicate=ssbrc:player] at @s if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		stepping_on: { \

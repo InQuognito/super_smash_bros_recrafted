@@ -1,5 +1,5 @@
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -9,7 +9,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 30
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -19,7 +19,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 29
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -29,7 +29,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 28
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -39,7 +39,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 27
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -49,7 +49,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 26
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -59,7 +59,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 25
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -69,7 +69,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 24
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -79,7 +79,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 23
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -89,7 +89,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 22
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -99,7 +99,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 21
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -109,7 +109,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 20
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -119,7 +119,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 19
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -129,7 +129,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 18
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -139,7 +139,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 17
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -149,7 +149,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 16
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -159,7 +159,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 15
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -169,7 +169,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 14
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -179,7 +179,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 13
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -189,7 +189,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 12
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -199,7 +199,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 11
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -209,7 +209,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 10
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -219,7 +219,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 9
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -229,7 +229,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 8
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -239,7 +239,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 7
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -249,7 +249,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 6
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -259,7 +259,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 5
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -269,7 +269,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 4
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -279,7 +279,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 3
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
@@ -289,7 +289,7 @@ execute if predicate { \
 } run return run scoreboard players set #distance temp 2
 
 execute if predicate { \
-	condition: "minecraft:entity_properties", \
+	type: "minecraft:entity_properties", \
 	entity: "this", \
 	predicate: { \
 		distance: { \
