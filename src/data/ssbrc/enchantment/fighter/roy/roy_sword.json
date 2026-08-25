@@ -19,7 +19,7 @@
 		"minecraft:post_attack": [
 			{
 				"requirements": {
-					"condition": "minecraft:entity_scores",
+					"type": "minecraft:entity_scores",
 					"entity": "this",
 					"scores": {
 						"charge.1": {
@@ -37,7 +37,7 @@
 			},
 			{
 				"requirements": {
-					"condition": "minecraft:entity_scores",
+					"type": "minecraft:entity_scores",
 					"entity": "this",
 					"scores": {
 						"charge.1": {
@@ -57,7 +57,7 @@
 		"minecraft:damage": [
 			{
 				"requirements": {
-					"condition": "minecraft:entity_properties",
+					"type": "minecraft:entity_properties",
 					"entity": "attacker",
 					"predicate": {
 						"distance": {
@@ -74,7 +74,7 @@
 			},
 			{
 				"requirements": {
-					"condition": "minecraft:entity_properties",
+					"type": "minecraft:entity_properties",
 					"entity": "attacker",
 					"predicate": {
 						"distance": {
@@ -91,7 +91,7 @@
 			},
 			{
 				"requirements": {
-					"condition": "minecraft:entity_properties",
+					"type": "minecraft:entity_properties",
 					"entity": "attacker",
 					"predicate": {
 						"distance": {
@@ -108,7 +108,7 @@
 			},
 			{
 				"requirements": {
-					"condition": "minecraft:entity_properties",
+					"type": "minecraft:entity_properties",
 					"entity": "attacker",
 					"predicate": {
 						"distance": {
@@ -125,7 +125,7 @@
 			},
 			{
 				"requirements": {
-					"condition": "minecraft:entity_properties",
+					"type": "minecraft:entity_properties",
 					"entity": "attacker",
 					"predicate": {
 						"distance": {
@@ -142,7 +142,7 @@
 			},
 			{
 				"requirements": {
-					"condition": "minecraft:entity_properties",
+					"type": "minecraft:entity_properties",
 					"entity": "attacker",
 					"predicate": {
 						"distance": {

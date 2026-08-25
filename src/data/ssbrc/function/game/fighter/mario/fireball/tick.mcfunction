@@ -5,15 +5,5 @@ particle minecraft:dust_color_transition{from_color: [1,.5,0], to_color: [1,1,1]
 execute positioned ~-.375 ~-.375 ~-.375 as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dx=0] positioned ~-.25 ~-.25 ~-.25 if entity @s[dx=0] run function ssbrc:game/logic/damage/fire {amount: 4, duration: 30, kb_resist: 0, i_frames: 0}
 execute if score #entity_hit temp matches 1 run return run kill @s
 
-execute store result entity @s Rotation[1] float .25 run scoreboard players get @s point
-
-execute if score @s point < #mario.fireball const run scoreboard players operation @s point -= @s slope
-execute if score @s point > #mario.fireball const run scoreboard players operation @s point = #mario.fireball const
-execute if score @s point < #mario.fireball const run scoreboard players remove @s slope 20
-
-execute if score @s point matches 1.. unless block ~ ~-.6 ~ #ssbrc:passthrough run function ssbrc:game/fighter/mario/fireball/bounce
-
-execute rotated as @s run teleport @s ^ ^ ^.4
-
 scoreboard players add @s temp 1
 kill @s[scores={temp=70..}]

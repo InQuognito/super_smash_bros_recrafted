@@ -6,6 +6,7 @@
 		"minecraft:fireball",
 		"minecraft:firework_rocket",
 		"minecraft:item_display",
-		"minecraft:marker"
+		"minecraft:marker",
+		"minecraft:sulfur_cube"
 	]
 }

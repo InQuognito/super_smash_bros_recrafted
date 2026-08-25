@@ -40,10 +40,10 @@
 					"amount": 1
 				},
 				"requirements": {
-					"condition": "minecraft:all_of",
+					"type": "minecraft:all_of",
 					"terms": [
 						{
-							"condition": "minecraft:entity_properties",
+							"type": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
 								"equipment": {
@@ -61,9 +61,9 @@
 							}
 						},
 						{
-							"condition": "minecraft:inverted",
+							"type": "minecraft:inverted",
 							"term": {
-								"condition": "minecraft:entity_scores",
+								"type": "minecraft:entity_scores",
 								"entity": "this",
 								"scores": {
 									"zelda.shatter_resist": {
@@ -83,7 +83,7 @@
 					"amount": -1
 				},
 				"requirements": {
-					"condition": "minecraft:entity_properties",
+					"type": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
 						"equipment": {
@@ -120,7 +120,7 @@
 					]
 				},
 				"requirements": {
-					"condition": "minecraft:entity_properties",
+					"type": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
 						"equipment": {

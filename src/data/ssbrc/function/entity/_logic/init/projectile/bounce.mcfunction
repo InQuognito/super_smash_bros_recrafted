@@ -1,4 +1,6 @@
 function ssbrc:entity/_logic/init/projectile/horizontal
 
-scoreboard players set @s point 60
-scoreboard players set @s slope 0
+data modify entity @s last_hurt_by_player_memory_time set value 0
+data modify entity @s last_hurt_by_player set from entity @a[predicate=ssbrc:owner,limit=1] UUID
+
+attribute @s minecraft:bounciness base set 1

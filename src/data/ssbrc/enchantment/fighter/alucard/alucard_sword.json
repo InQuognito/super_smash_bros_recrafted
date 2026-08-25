@@ -27,7 +27,7 @@
 					"max_damage": 8
 				},
 				"requirements": {
-					"condition": "minecraft:entity_properties",
+					"type": "minecraft:entity_properties",
 					"entity": "attacker",
 					"predicate": {
 						"entity_tags": {
@@ -59,7 +59,7 @@
 					]
 				},
 				"requirements": {
-					"condition": "minecraft:entity_properties",
+					"type": "minecraft:entity_properties",
 					"entity": "attacker",
 					"predicate": {
 						"entity_tags": {

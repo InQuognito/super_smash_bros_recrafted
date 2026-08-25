@@ -17,21 +17,21 @@
 		"minecraft:tick": [
 			{
 				"requirements": {
-					"condition": "minecraft:random_chance",
+					"type": "minecraft:random_chance",
 					"chance": 0.1
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:smash_item/killing_edge/activate"
+					"function": "ssbrc:game/smash_item/killing_edge/activate"
 				}
 			}
 		],
 		"minecraft:post_attack": [
 			{
 				"requirements": {
-					"condition": "minecraft:inverted",
+					"type": "minecraft:inverted",
 					"term": {
-						"condition": "minecraft:damage_source_properties",
+						"type": "minecraft:damage_source_properties",
 						"predicate": {
 							"source_entity": {
 								"equipment": {
@@ -61,7 +61,7 @@
 			},
 			{
 				"requirements": {
-					"condition": "minecraft:damage_source_properties",
+					"type": "minecraft:damage_source_properties",
 					"predicate": {
 						"source_entity": {
 							"equipment": {

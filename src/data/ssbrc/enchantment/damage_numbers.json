@@ -25,7 +25,7 @@
 					"function": "ssbrc:game/logic/training_dummy/damage_number/type/generic"
 				},
 				"requirements": {
-					"condition": "minecraft:damage_source_properties",
+					"type": "minecraft:damage_source_properties",
 					"predicate": {
 						"tags": [
 							{
@@ -44,7 +44,7 @@
 					"function": "ssbrc:game/logic/training_dummy/damage_number/type/burning"
 				},
 				"requirements": {
-					"condition": "minecraft:damage_source_properties",
+					"type": "minecraft:damage_source_properties",
 					"predicate": {
 						"tags": [
 							{
@@ -63,7 +63,7 @@
 					"function": "ssbrc:game/logic/training_dummy/damage_number/type/poison"
 				},
 				"requirements": {
-					"condition": "minecraft:damage_source_properties",
+					"type": "minecraft:damage_source_properties",
 					"predicate": {
 						"tags": [
 							{

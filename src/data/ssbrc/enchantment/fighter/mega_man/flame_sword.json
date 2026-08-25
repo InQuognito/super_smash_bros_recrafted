@@ -25,7 +25,7 @@
 					"function": "ssbrc:game/fighter/_logic/effects/wither"
 				},
 				"requirements": {
-					"condition": "minecraft:entity_scores",
+					"type": "minecraft:entity_scores",
 					"entity": "attacker",
 					"scores": {
 						"mega_man.flame_sword": {
@@ -55,7 +55,7 @@
 					]
 				},
 				"requirements": {
-					"condition": "minecraft:entity_scores",
+					"type": "minecraft:entity_scores",
 					"entity": "attacker",
 					"scores": {
 						"mega_man.flame_sword": {

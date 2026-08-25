@@ -23,7 +23,7 @@
 					"function": "ssbrc:game/fighter/dark_samus/phazon_beam/activate"
 				},
 				"requirements": {
-					"condition": "minecraft:entity_scores",
+					"type": "minecraft:entity_scores",
 					"entity": "this",
 					"scores": {
 						"silenced": {
