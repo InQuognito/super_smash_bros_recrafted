@@ -66,7 +66,7 @@ def extend_weapon(data, path):
 	data['hitbox_margin'] = init_stat('hitbox_margin', path, 0.3)
 	data['item_damage_on_attack'] = init_stat('item_damage_on_attack', path, 0)
 	data['disable_blocking_for_seconds'] = init_stat('disable_blocking_for_seconds', path, 0)
-	data['swing_animation'] = init_stat('swing_animation', path, "whack")
+	data['attack_animation'] = init_stat('attack_animation', path, "whack")
 	data['swing_duration'] = init_stat('swing_duration', path, 6)
 
 def extend_custom_swing(data, path):

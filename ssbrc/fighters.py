@@ -1070,7 +1070,7 @@ fighters = {
 					'attack_damage': 0,
 					'attack_speed': 0.5,
 					'max_reach': 0,
-					'swing_animation': 'none',
+					'attack_animation': 'none',
 					'use_sound': 'fighter.dark_samus.phazon_beam.activate.1'
 				},
 				'default': {
@@ -2371,7 +2371,7 @@ fighters = {
 					'attack_speed': 1,
 					'max_reach': 3.5,
 					'item_damage_on_attack': 1,
-					'swing_animation': 'stab',
+					'attack_animation': 'stab',
 					'startup_ticks': 10,
 					'cooldown_ticks': 20
 				},
@@ -3224,7 +3224,7 @@ fighters = {
 					'attack_damage': 6,
 					'attack_speed': 0.5,
 					'max_reach': 1.5,
-					'swing_animation': 'stab',
+					'attack_animation': 'stab',
 					'use_sound': 'fighter.mega_man.pile_driver'
 				},
 				'default': {
@@ -4324,7 +4324,7 @@ fighters = {
 					'attack_damage': 5,
 					'attack_speed': 1.5,
 					'max_reach': 0,
-					'swing_animation': 'none',
+					'attack_animation': 'none',
 					'cooldown_group': 'sora/keyblade',
 					'cooldown': 0.2
 				},

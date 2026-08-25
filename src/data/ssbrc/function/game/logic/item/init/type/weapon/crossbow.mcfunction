@@ -23,7 +23,7 @@ $item replace entity @s $(slot) with minecraft:crossbow[ \
 	minecraft:max_damage = $(max_damage), \
 	minecraft:max_stack_size = $(max_stack_size), \
 	minecraft:minimum_attack_charge = $(minimum_attack_charge), \
-	minecraft:swing_animation = { \
+	minecraft:attack_animation = { \
 		type: "none", \
 	}, \
 	minecraft:tooltip_display = { \

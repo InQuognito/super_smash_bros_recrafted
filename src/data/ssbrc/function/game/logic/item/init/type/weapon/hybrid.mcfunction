@@ -51,8 +51,8 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 	minecraft:max_damage = $(max_damage), \
 	minecraft:max_stack_size = $(max_stack_size), \
 	minecraft:minimum_attack_charge = $(minimum_attack_charge), \
-	minecraft:swing_animation = { \
-		type: "$(swing_animation)", \
+	minecraft:attack_animation = { \
+		type: "$(attack_animation)", \
 		duration: $(swing_duration), \
 	}, \
 	minecraft:tooltip_display = { \

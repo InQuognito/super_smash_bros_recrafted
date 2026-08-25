@@ -55,8 +55,8 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 			sound_id: "ssbrc:$(hit_sound)", \
 		}, \
 	}, \
-	minecraft:swing_animation = { \
-		type: "$(swing_animation)", \
+	minecraft:attack_animation = { \
+		type: "$(attack_animation)", \
 		duration: $(swing_duration), \
 	}, \
 	minecraft:tooltip_display = { \
