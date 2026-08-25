@@ -29,7 +29,7 @@
 					"predicate": {
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -48,7 +48,7 @@
 					"predicate": {
 						"tags": [
 							{
-								"id": "minecraft:is_fire",
+								"id": "#minecraft:is_fire",
 								"expected": true
 							}
 						]
@@ -67,7 +67,7 @@
 					"predicate": {
 						"tags": [
 							{
-								"id": "minecraft:witch_resistant_to",
+								"id": "#minecraft:witch_resistant_to",
 								"expected": true
 							}
 						]
