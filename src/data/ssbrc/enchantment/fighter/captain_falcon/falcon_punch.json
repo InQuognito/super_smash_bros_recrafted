@@ -22,29 +22,32 @@
 					"type": "minecraft:run_function",
 					"function": "ssbrc:game/fighter/captain_falcon/falcon_punch/unleash"
 				},
-				"requirements": [
-					{
-						"type": "minecraft:entity_scores",
-						"entity": "this",
-						"scores": {
-							"charge.1": {
-								"min": 28,
-								"max": 36
+				"requirements": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"charge.1": {
+									"min": 28,
+									"max": 36
+								}
+							}
+						},
+						{
+							"type": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"entity_tags": {
+									"none_of": [
+										"falcon_punch_missed"
+									]
+								}
 							}
 						}
-					},
-					{
-						"type": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_tags": {
-								"none_of": [
-									"falcon_punch_missed"
-								]
-							}
-						}
-					}
-				]
+					]
+				}
 			},
 			{
 				"effect": {

@@ -18,165 +18,155 @@
 	"effects": {
 		"minecraft:tick": [
 			{
-				"requirements": [
-					{
-						"type": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"minecraft:equipment": {
-								"body": {
-									"predicates": {
-										"minecraft:enchantments": [
-											{
-												"enchantments": "ssbrc:player",
-												"levels": {
-													"min": 2
-												}
+				"requirements": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:equipment": {
+							"body": {
+								"predicates": {
+									"minecraft:enchantments": [
+										{
+											"enchantments": "ssbrc:player",
+											"levels": {
+												"min": 2
 											}
-										]
-									}
+										}
+									]
 								}
-							},
-							"type_specific/player": {
-								"gamemode": [
-									"creative",
-									"survival"
-								]
 							}
+						},
+						"type_specific/player": {
+							"gamemode": [
+								"creative",
+								"survival"
+							]
 						}
 					}
-				],
+				},
 				"effect": {
 					"type": "minecraft:run_function",
 					"function": "ssbrc:game/logic/team/admin"
 				}
 			},
 			{
-				"requirements": [
-					{
-						"type": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"minecraft:equipment": {
-								"body": {
-									"predicates": {
-										"minecraft:enchantments": [
-											{
-												"enchantments": "ssbrc:player",
-												"levels": 1
-											}
-										]
-									}
+				"requirements": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:equipment": {
+							"body": {
+								"predicates": {
+									"minecraft:enchantments": [
+										{
+											"enchantments": "ssbrc:player",
+											"levels": 1
+										}
+									]
 								}
-							},
-							"type_specific/player": {
-								"gamemode": [
-									"adventure",
-									"spectator"
-								]
 							}
+						},
+						"type_specific/player": {
+							"gamemode": [
+								"adventure",
+								"spectator"
+							]
 						}
 					}
-				],
+				},
 				"effect": {
 					"type": "minecraft:run_function",
 					"function": "ssbrc:game/logic/player/tick"
 				}
 			},
 			{
-				"requirements": [
-					{
-						"type": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"minecraft:equipment": {
-								"body": {
-									"predicates": {
-										"minecraft:enchantments": [
-											{
-												"enchantments": "ssbrc:player",
-												"levels": {
-													"min": 2,
-													"max": 3
-												}
+				"requirements": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:equipment": {
+							"body": {
+								"predicates": {
+									"minecraft:enchantments": [
+										{
+											"enchantments": "ssbrc:player",
+											"levels": {
+												"min": 2,
+												"max": 3
 											}
-										]
-									}
+										}
+									]
 								}
-							},
-							"type_specific/player": {
-								"gamemode": [
-									"spectator"
-								]
 							}
+						},
+						"type_specific/player": {
+							"gamemode": [
+								"spectator"
+							]
 						}
 					}
-				],
+				},
 				"effect": {
 					"type": "minecraft:run_function",
 					"function": "ssbrc:game/logic/player/tick/dead"
 				}
 			},
 			{
-				"requirements": [
-					{
-						"type": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"minecraft:equipment": {
-								"body": {
-									"predicates": {
-										"minecraft:enchantments": [
-											{
-												"enchantments": "ssbrc:player",
-												"levels": 3
-											}
-										]
-									}
+				"requirements": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:equipment": {
+							"body": {
+								"predicates": {
+									"minecraft:enchantments": [
+										{
+											"enchantments": "ssbrc:player",
+											"levels": 3
+										}
+									]
 								}
-							},
-							"type_specific/player": {
-								"gamemode": [
-									"spectator"
-								]
 							}
+						},
+						"type_specific/player": {
+							"gamemode": [
+								"spectator"
+							]
 						}
 					}
-				],
+				},
 				"effect": {
 					"type": "minecraft:run_function",
 					"function": "ssbrc:game/logic/player/tick/respawning"
 				}
 			},
 			{
-				"requirements": [
-					{
-						"type": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"minecraft:equipment": {
-								"body": {
-									"predicates": {
-										"minecraft:enchantments": [
-											{
-												"enchantments": "ssbrc:player",
-												"levels": {
-													"min": 3
-												}
+				"requirements": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:equipment": {
+							"body": {
+								"predicates": {
+									"minecraft:enchantments": [
+										{
+											"enchantments": "ssbrc:player",
+											"levels": {
+												"min": 3
 											}
-										]
-									}
+										}
+									]
 								}
-							},
-							"type_specific/player": {
-								"gamemode": [
-									"adventure",
-									"spectator"
-								]
 							}
+						},
+						"type_specific/player": {
+							"gamemode": [
+								"adventure",
+								"spectator"
+							]
 						}
 					}
-				],
+				},
 				"effect": {
 					"type": "minecraft:run_function",
 					"function": "ssbrc:game/logic/player/tick/participant"
