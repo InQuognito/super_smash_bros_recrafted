@@ -4,40 +4,40 @@
 		"requirement": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:reference",
-						"name": "ssbrc:cooldown/universal"
-					},
-					{
-						"condition": "minecraft:entity_scores",
-						"entity": "this",
-						"scores": {
-							"duration.2": {
-								"max": 0
-							}
-						}
-					},
-					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_scores",
+				"player": {
+					"type": "minecraft:all_of",
+					"terms": [
+						"ssbrc:cooldown/universal",
+						{
+							"type": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
-								"resource": {
-									"min": {
-										"type": "minecraft:score",
-										"target": {
-											"type": "minecraft:fixed",
-											"name": "#shovel_knight.phase_locket.cost"
-										},
-										"score": "const"
+								"duration.2": {
+									"max": 0
+								}
+							}
+						},
+						{
+							"type": "minecraft:inverted",
+							"term": {
+								"type": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"resource": {
+										"min": {
+											"type": "minecraft:score",
+											"target": {
+												"type": "minecraft:fixed",
+												"name": "#shovel_knight.phase_locket.cost"
+											},
+											"score": "const"
+										}
 									}
 								}
 							}
 						}
-					}
-				],
+					]
+				},
 				"item": {
 					"predicates": {
 						"minecraft:custom_data": {

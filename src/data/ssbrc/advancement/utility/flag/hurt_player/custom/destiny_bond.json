@@ -7,19 +7,19 @@
 				"damage": {
 					"blocked": false,
 					"source_entity": {
-						"nbt": {
-								"Tags": [
-									"wobbuffet"
+						"entity_tags": {
+							"all_of": [
+								"wobbuffet"
 							]
 						}
 					},
 					"type": {
 						"direct_entity": {
-							"nbt": {
-								"Tags": [
+							"entity_tags": {
+								"all_of": [
 									"damage.destiny_bond"
-							]
-						}
+								]
+							}
 						}
 					}
 				}

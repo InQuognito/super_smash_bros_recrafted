@@ -15,6 +15,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:smash_item/special_flag/activate"
+		"function": "ssbrc:game/smash_item/special_flag/activate"
 	}
 }

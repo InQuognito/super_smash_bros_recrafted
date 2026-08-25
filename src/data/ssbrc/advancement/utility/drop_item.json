@@ -4,19 +4,17 @@
 		"requirement": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type_specific/player": {
-								"gamemode": [
-									"adventure"
-								]
-							}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type_specific/player": {
+							"gamemode": [
+								"adventure"
+							]
 						}
 					}
-				]
+				}
 			}
 		}
 	},

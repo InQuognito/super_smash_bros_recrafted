@@ -4,27 +4,27 @@
 		"requirement": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:reference",
-						"name": "ssbrc:cooldown/sneaking"
-					},
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"mainhand": {
-									"predicates": {
-										"minecraft:custom_data": {
-											"item": "keyblade"
+				"player": {
+					"type": "minecraft:all_of",
+					"terms": [
+						"ssbrc:cooldown/sneaking",
+						{
+							"type": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand": {
+										"predicates": {
+											"minecraft:custom_data": {
+												"item": "keyblade"
+											}
 										}
 									}
 								}
 							}
 						}
-					}
-				],
+					]
+				},
 				"item": {
 					"predicates": {
 						"minecraft:custom_data": {

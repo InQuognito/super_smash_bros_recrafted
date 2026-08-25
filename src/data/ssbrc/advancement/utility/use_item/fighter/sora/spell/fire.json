@@ -4,12 +4,12 @@
 		"requirement": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:reference",
-						"name": "ssbrc:cooldown/not_sneaking"
-					}
-				],
+				"player": {
+					"type": "minecraft:all_of",
+					"terms": [
+						"ssbrc:cooldown/not_sneaking"
+					]
+				},
 				"item": {
 					"predicates": {
 						"minecraft:custom_data": {

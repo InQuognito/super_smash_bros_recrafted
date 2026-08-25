@@ -4,12 +4,12 @@
 		"requirement": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:reference",
-						"name": "ssbrc:cooldown/universal"
-					}
-				],
+				"player": {
+					"type": "minecraft:all_of",
+					"terms": [
+						"ssbrc:cooldown/universal"
+					]
+				},
 				"item": {
 					"predicates": {
 						"minecraft:custom_data": {
@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:smash_item/banana_peel/activate"
+		"function": "ssbrc:game/smash_item/banana_peel/activate"
 	}
 }

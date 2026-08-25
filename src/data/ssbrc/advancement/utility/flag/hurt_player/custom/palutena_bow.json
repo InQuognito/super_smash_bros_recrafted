@@ -4,23 +4,25 @@
 		"requirement": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:inverted",
+				"player": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:inverted",
 						"term": {
-							"condition": "minecraft:entity_properties",
+							"type": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"nbt": {
-								"Tags": [
-									"palutena_bow.split"
-							]
-						}
+								"entity_tags": {
+									"all_of": [
+										"palutena_bow.split"
+									]
+								}
 							}
 						}
 					},
 					{
-						"condition": "minecraft:entity_properties",
+						"type": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
 							"equipment": {

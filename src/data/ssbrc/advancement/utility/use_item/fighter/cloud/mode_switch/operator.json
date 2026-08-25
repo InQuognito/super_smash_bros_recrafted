@@ -4,35 +4,32 @@
 		"requirement": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:reference",
-						"name": "ssbrc:cooldown/universal"
-					},
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"body": {
-									"predicates": {
-										"custom_data": {
-											"temp": {
-												"fighter": {
-													"form": "punisher"
+				"player": {
+					"type": "minecraft:all_of",
+					"terms": [
+						"ssbrc:cooldown/universal",
+						{
+							"type": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"body": {
+										"predicates": {
+											"custom_data": {
+												"temp": {
+													"fighter": {
+														"form": "punisher"
+													}
 												}
 											}
 										}
 									}
 								}
 							}
-						}
-					},
-					{
-						"condition": "minecraft:reference",
-						"name": "ssbrc:flag/sneaking"
-					}
-				],
+						},
+						"ssbrc:flag/sneaking"
+					]
+				},
 				"item": {
 					"predicates": {
 						"minecraft:custom_data": {

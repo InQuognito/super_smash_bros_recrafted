@@ -15,6 +15,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:smash_item/steel_diver/activate"
+		"function": "ssbrc:game/smash_item/steel_diver/activate"
 	}
 }

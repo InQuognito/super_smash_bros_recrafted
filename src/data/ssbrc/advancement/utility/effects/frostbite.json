@@ -7,8 +7,8 @@
 				"damage": {
 					"type": {
 						"direct_entity": {
-							"nbt": {
-								"Tags": [
+							"entity_tags": {
+								"all_of": [
 									"effect.frostbite"
 								]
 							}

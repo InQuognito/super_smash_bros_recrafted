@@ -1,11 +1,9 @@
-[
-	{
-		"condition": "minecraft:entity_scores",
-		"entity": "this",
-		"scores": {
-			"duration.1": {
-				"min": 2
-			}
+{
+	"type": "minecraft:entity_scores",
+	"entity": "this",
+	"scores": {
+		"duration.1": {
+			"min": 2
 		}
 	}
-]
+}

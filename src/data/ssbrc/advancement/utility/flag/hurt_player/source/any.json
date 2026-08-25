@@ -4,9 +4,11 @@
 		"requirement": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:value_check",
+				"player": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:value_check",
 						"value": {
 							"type": "minecraft:score",
 							"target": {
