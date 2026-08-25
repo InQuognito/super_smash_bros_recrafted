@@ -1,12 +1,8 @@
 {
-	"type": "minecraft:sequence",
-	"functions": [
-		{
-			"type": "minecraft:set_custom_data",
-		"tag": {
-			"ui": {
-				"placeholder": "true"
-			}
+	"type": "minecraft:set_custom_data",
+	"tag": {
+		"ui": {
+			"placeholder": "true"
 		}
 	}
-]
+}

@@ -1,21 +1,20 @@
 {
 	"type": "minecraft:sequence",
 	"functions": [
-		"ssbrc:ui/separator"
-	},
-	{
-		"type": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
-			{
-				"translate": "ssbrc.shop.browse_skins",
-				"color": "green",
-				"bold": false,
-				"italic": false
-			}
-		],
-		"mode": "append"
-	},
-	"ssbrc:ui/placeholder"
-	}
-]
+		"ssbrc:ui/separator",
+		{
+			"type": "minecraft:set_lore",
+			"entity": "this",
+			"lore": [
+				{
+					"translate": "ssbrc.shop.browse_skins",
+					"color": "green",
+					"bold": false,
+					"italic": false
+				}
+			],
+			"mode": "append"
+		},
+		"ssbrc:ui/placeholder"
+	]
+}

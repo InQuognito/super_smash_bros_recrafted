@@ -1,14 +1,13 @@
 {
 	"type": "minecraft:sequence",
 	"functions": [
-		"ssbrc:ui/separator"
-	},
-	"ssbrc:ui/owned"
-	},
-	{
-		"type": "minecraft:toggle_tooltips",
-		"toggles": {
-			"minecraft:attribute_modifiers": false
+		"ssbrc:ui/separator",
+		"ssbrc:ui/owned",
+		{
+			"type": "minecraft:toggle_tooltips",
+			"toggles": {
+				"minecraft:attribute_modifiers": false
+			}
 		}
-	}
-]
+	]
+}

@@ -3,17 +3,17 @@
 	"functions": [
 		{
 			"type": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
-			{
-				"translate": "ssbrc.shop.cannot_afford",
-				"color": "red",
-				"bold": false,
-				"italic": false
-			}
-		],
-		"mode": "append"
-	},
-	"ssbrc:ui/placeholder"
-	}
-]
+			"entity": "this",
+			"lore": [
+				{
+					"translate": "ssbrc.shop.cannot_afford",
+					"color": "red",
+					"bold": false,
+					"italic": false
+				}
+			],
+			"mode": "append"
+		},
+		"ssbrc:ui/placeholder"
+	]
+}
