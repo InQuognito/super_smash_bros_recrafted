@@ -1,6 +1,5 @@
 tag @s add fireball
 
-attribute @s minecraft:knockback_resistance base set 1
 attribute @s minecraft:scale base set .1
 
 effect give @s minecraft:invisibility infinite 0 true
