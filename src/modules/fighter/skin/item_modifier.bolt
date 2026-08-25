@@ -41,7 +41,7 @@ for fighter in fighters:
 					}
 				]
 			else:
-				collection_wrapper = []
+				continue
 
 			item_modifier f'ssbrc:shop_tooltip/{fighter}/skin/{skin}' [
 				*collection_wrapper
