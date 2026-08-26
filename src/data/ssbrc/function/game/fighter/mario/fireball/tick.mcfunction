@@ -8,7 +8,7 @@ execute positioned ~-.375 ~-.375 ~-.375 as @e[predicate=!ssbrc:owner,predicate=s
 execute if score #entity_hit temp matches 1 run return run kill @s
 
 execute store result score @s motion_y run data get entity @s Motion[1] 10000
-execute store result storage ssbrc:temp cache.motion_y float .25 run data get entity @s Motion[1]
+execute store result storage ssbrc:temp cache.motion_y float .3 run data get entity @s Motion[1]
 function ssbrc:game/fighter/mario/fireball/adjust_bounciness with storage ssbrc:temp cache
 execute if predicate ssbrc:flag/grounded run function ssbrc:game/fighter/mario/fireball/bounce
 
