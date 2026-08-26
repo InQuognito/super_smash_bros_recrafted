@@ -1,3 +1,4 @@
 tag @s add bounced
 
-attribute @s minecraft:air_drag_modifier modifier remove ssbrc:init
+particle minecraft:lava ~ ~ ~ 0 0 0 1 1 force @a
+particle minecraft:smoke ~ ~-.45 ~ .25 0 .25 0 5 force @a
