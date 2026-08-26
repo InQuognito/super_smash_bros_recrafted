@@ -4,6 +4,8 @@ particle minecraft:dust_color_transition{from_color: [ 1, .5, 0 ], to_color: [ 1
 
 execute unless block ^ ^ ^.25 #ssbrc:passthrough run return run kill @s
 
+execute store result storage ssbrc:temp cache.motion_y float .75 run data get entity @s Motion[1]
+function ssbrc:game/fighter/mario/fireball/adjust_bounciness with storage ssbrc:temp cache
 execute if entity @s[tag=!bounced,predicate=ssbrc:flag/grounded] run function ssbrc:game/fighter/mario/fireball/bounce
 
 execute positioned ~-.375 ~-.375 ~-.375 as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dx=0] positioned ~-.25 ~-.25 ~-.25 if entity @s[dx=0] run function ssbrc:game/logic/damage/fire {amount: 4, duration: 30, kb_resist: 0, i_frames: 0}
