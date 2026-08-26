@@ -9,7 +9,7 @@ attribute @s minecraft:friction_modifier base set 0
 
 data modify entity @s Motion set from storage ssbrc:temp cache.motion
 
-data merge entity @s { \
-	NoAI: true, \
-	Silent: true, \
-}
+#data merge entity @s { \
+#	NoAI: true, \
+#	Silent: true, \
+#}
