@@ -1,6 +1,6 @@
 execute unless predicate ssbrc:flag/still run return run function ssbrc:game/fighter/_logic/jump/super_jump/reset
 
-execute unless score @s immobile matches 1.. run scoreboard players add @s[predicate=ssbrc:flag/grounded,predicate=ssbrc:flag/sneaking] charge.1 1
+execute unless score @s silenced matches 1.. run scoreboard players add @s[predicate=ssbrc:flag/grounded,predicate=ssbrc:flag/sneaking] charge.1 1
 
 execute if score @s charge.1 matches 1 run function ssbrc:game/fighter/_logic/effects/immobile/activate {type: "default", duration: 1000000}
 
