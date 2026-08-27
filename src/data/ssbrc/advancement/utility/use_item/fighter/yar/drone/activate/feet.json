@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/yar/drone/activate/feet"
+		"function": "ssbrc:game/entity/player/fighter/yar/drone/activate/feet"
 	}
 }

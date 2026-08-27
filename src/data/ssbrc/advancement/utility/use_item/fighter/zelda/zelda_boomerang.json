@@ -37,6 +37,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/zelda/boomerang/activate"
+		"function": "ssbrc:game/entity/player/fighter/zelda/boomerang/activate"
 	}
 }

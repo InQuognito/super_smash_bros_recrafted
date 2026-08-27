@@ -1,6 +1,6 @@
 execute positioned ~ ~.5 ~ run spawnpoint
 
-execute unless score @s health = @s health.prev run function ssbrc:game/fighter/_logic/change_health
+execute unless score @s health = @s health.prev run function ssbrc:game/entity/player/fighter/_logic/change_health
 scoreboard players operation @s health.prev = @s health
 
 execute store result score @s motion_x run data get entity @s Motion[0] 10000
@@ -12,7 +12,7 @@ scoreboard players operation #health temp *= #100 const
 scoreboard players operation #health temp /= #40 const
 
 # Crawl
-execute positioned ~ ~.601 ~ unless entity @s[dx=0] unless predicate ssbrc:flag/flying run function ssbrc:game/fighter/_logic/crawl
+execute positioned ~ ~.601 ~ unless entity @s[dx=0] unless predicate ssbrc:flag/flying run function ssbrc:game/entity/player/fighter/_logic/crawl
 
 scoreboard players remove @s[scores={cooldown.1=1..}] cooldown.1 1
 scoreboard players remove @s[scores={cooldown.2=1..}] cooldown.2 1
@@ -28,24 +28,19 @@ execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] r
 
 scoreboard players remove @s[scores={jump.cooldown=-4..}] jump.cooldown 1
 execute if items entity @s[scores={jump=1,jump.cooldown=3}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "ness"}}}] run attribute @s minecraft:gravity modifier add ssbrc:jump -.5 add_multiplied_total
-execute unless score @s[scores={jumps=1..},predicate=ssbrc:input/jump,predicate=ssbrc:flag/no_vehicle] jump.cooldown matches 1.. run function ssbrc:game/fighter/_logic/jump
+execute unless score @s[scores={jumps=1..},predicate=ssbrc:input/jump,predicate=ssbrc:flag/no_vehicle] jump.cooldown matches 1.. run function ssbrc:game/entity/player/fighter/_logic/jump
 attribute @s[scores={jump.cooldown=-2}] minecraft:gravity modifier remove ssbrc:jump
 
 execute store result score @s selected_item run data get entity @s SelectedItemSlot
-execute unless score @s selected_item.prev = @s selected_item run function ssbrc:game/fighter/_logic/change_slot with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
-
-execute if score @s flag.damage_dealt matches 1.. run function ssbrc:game/fighter/_logic/damage/dealt
-execute if score @s flag.damage_taken matches 1.. run function ssbrc:game/fighter/_logic/damage/taken
-
-execute if score @s fall_distance matches 1.. run function ssbrc:game/fighter/_logic/shockwave/check
+execute unless score @s selected_item.prev = @s selected_item run function ssbrc:game/entity/player/fighter/_logic/change_slot with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
 # Combo
 execute unless score @s combo.duration < #combo const run scoreboard players remove @s combo.duration 1
-execute if score @s combo.duration < #combo const run function ssbrc:game/fighter/_logic/combo/expire
+execute if score @s combo.duration < #combo const run function ssbrc:game/entity/player/fighter/_logic/combo/expire
 
 # HUD
 scoreboard players remove @s hud 1
-execute unless score @s hud matches 1.. run function ssbrc:game/fighter/_logic/hud with entity @s equipment.body.components."minecraft:custom_data".temp
+execute unless score @s hud matches 1.. run function ssbrc:game/entity/player/fighter/_logic/hud with entity @s equipment.body.components."minecraft:custom_data".temp
 
 # Items
 #execute if score @s smash_item.cloaking_device matches 1.. run function ssbrc:game/smash_item/cloaking_device/tick
@@ -54,16 +49,16 @@ execute if score @s smash_item.poison_mushroom.timer matches 1.. run function ss
 execute if score @s smash_item.super_mushroom.timer matches 1.. run function ssbrc:game/smash_item/super_mushroom/tick
 
 # Fighter Effects
-function ssbrc:game/logic/entity/tick
+function ssbrc:game/entity/tick
 
-execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {skin: "gold"}}}] positioned ~ ~.75 ~ run function ssbrc:game/fighter/_logic/trail/gold
-execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {skin: "shadow"}}}] positioned ~ ~.75 ~ run function ssbrc:game/fighter/_logic/trail/shadow
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {skin: "gold"}}}] positioned ~ ~.75 ~ run function ssbrc:game/entity/player/fighter/_logic/trail/gold
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {skin: "shadow"}}}] positioned ~ ~.75 ~ run function ssbrc:game/entity/player/fighter/_logic/trail/shadow
 scoreboard players reset @s flag.walking
 
-execute if score @s petrified matches 1.. run function ssbrc:game/fighter/altered_beast/werebear/petrifying_breath/tick_target
+execute if score @s petrified matches 1.. run function ssbrc:game/entity/player/fighter/altered_beast/werebear/petrifying_breath/tick_target
 
-execute if score @s leech_seed.timer matches 1.. run function ssbrc:game/fighter/pokemon_trainer/ivysaur/leech_seed/calculate
-execute if score @s leech_seed.stacks matches 1.. run function ssbrc:game/fighter/pokemon_trainer/ivysaur/leech_seed/calculate_healing
+execute if score @s leech_seed.timer matches 1.. run function ssbrc:game/entity/player/fighter/pokemon_trainer/ivysaur/leech_seed/calculate
+execute if score @s leech_seed.stacks matches 1.. run function ssbrc:game/entity/player/fighter/pokemon_trainer/ivysaur/leech_seed/calculate_healing
 
 scoreboard players remove @s[scores={shadow.chaos_control=1..}] shadow.chaos_control 1
 attribute @s[scores={shadow.chaos_control=1}] minecraft:movement_speed modifier remove ssbrc:chaos_control
@@ -76,17 +71,17 @@ tag @s remove crawling
 
 scoreboard players reset #in_electric_terrain temp
 
-execute if entity @s[tag=launched] run function ssbrc:game/fighter/_logic/motion/launched
-execute if predicate ssbrc:flag/grounded run function ssbrc:game/fighter/_logic/on_ground
+execute if entity @s[tag=launched] run function ssbrc:game/entity/player/fighter/_logic/motion/launched
+execute if predicate ssbrc:flag/grounded run function ssbrc:game/entity/player/fighter/_logic/on_ground
 
 # Stage Effects
 execute unless block ~ ~ ~ minecraft:lava run scoreboard players remove @s[tag=!electrified,scores={flag.in_lava=1..}] flag.in_lava 1
 execute if block ~ ~ ~ minecraft:lava run scoreboard players add @s flag.in_lava 1
 execute if entity @s[tag=electrified] run function ssbrc:game/stage/gyromite/hazard/electric_floor/tick
-execute if score @s flag.in_lava matches 40.. run function ssbrc:game/fighter/_logic/death_lava
+execute if score @s flag.in_lava matches 40.. run function ssbrc:game/entity/player/fighter/_logic/death_lava
 
 execute if data storage ssbrc:temp game.stage{name: "luigis_mansion"} run function ssbrc:game/stage/luigis_mansion/block_interaction_range
 
 # Bonuses
-execute if score @s revenge.timer matches 0.. run function ssbrc:game/fighter/_logic/bonuses/revenge/tick
+execute if score @s revenge.timer matches 0.. run function ssbrc:game/entity/player/fighter/_logic/bonuses/revenge/tick
 scoreboard players remove @s[scores={rapid_kill.tracking=1..}] rapid_kill.tracking 1

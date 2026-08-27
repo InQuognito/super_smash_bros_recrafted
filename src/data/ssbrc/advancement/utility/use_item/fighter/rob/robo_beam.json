@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/rob/robo_beam/check"
+		"function": "ssbrc:game/entity/player/fighter/rob/robo_beam/check"
 	}
 }

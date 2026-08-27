@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/toon_link/boomerang/activate"
+		"function": "ssbrc:game/entity/player/fighter/toon_link/boomerang/activate"
 	}
 }

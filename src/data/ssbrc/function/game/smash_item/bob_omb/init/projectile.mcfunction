@@ -4,4 +4,4 @@ item replace entity @s armor.head with minecraft:stick[ \
 	minecraft:item_model = "ssbrc:smash_item/bob_omb", \
 ]
 
-function ssbrc:entity/_logic/init/armor_stand/normal
+function ssbrc:game/entity/_logic/init/armor_stand/normal

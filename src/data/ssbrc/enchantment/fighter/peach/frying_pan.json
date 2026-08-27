@@ -52,7 +52,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/fighter/peach/kit/tennis_racket"
+					"function": "ssbrc:game/entity/player/fighter/peach/kit/tennis_racket"
 				}
 			}
 		]

@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/snake/psg1/check"
+		"function": "ssbrc:game/entity/player/fighter/snake/psg1/check"
 	}
 }

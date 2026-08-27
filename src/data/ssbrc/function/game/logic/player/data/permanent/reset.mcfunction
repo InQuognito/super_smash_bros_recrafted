@@ -9,7 +9,7 @@ scoreboard players reset @s stats.win_streak.record
 scoreboard players reset @s stats.credits
 
 # Fighters
-function ssbrc:game/fighter/_logic/loop {function: "ssbrc:game/logic/player/data/permanent/reset/fighter"}
+function ssbrc:game/entity/player/fighter/_logic/loop {function: "ssbrc:game/logic/player/data/permanent/reset/fighter"}
 
 # Bonuses
 function ssbrc:game/logic/data/bonus/loop {function: "ssbrc:game/logic/player/data/permanent/reset/bonus"}

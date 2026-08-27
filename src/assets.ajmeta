@@ -2422,7 +2422,7 @@
 				"assets/ssbrc/models/blueprint/entity/super_mario_bros/boo/rig/boo.json"
 			]
 		},
-		"ssbrc:game/fighter/mega_man/beat_call/rig": {
+		"ssbrc:game/entity/player/fighter/mega_man/beat_call/rig": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
 				"assets/ssbrc/items/blueprint/game/fighter/mega_man/beat_call/rig/beat.json",

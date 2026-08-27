@@ -1,4 +1,0 @@
-advancement revoke @s only ssbrc:utility/use_item/fighter/steve/mining
-
-scoreboard players set #n temp 30
-execute anchored eyes positioned ^ ^ ^ run function ssbrc:game/fighter/steve/mining/loop

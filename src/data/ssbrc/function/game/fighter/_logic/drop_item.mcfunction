@@ -1,1 +1,0 @@
-execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "snake"}}}] run function ssbrc:game/fighter/snake/manual_reload/check

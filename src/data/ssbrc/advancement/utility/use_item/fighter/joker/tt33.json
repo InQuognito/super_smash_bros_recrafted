@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/joker/tt33/check"
+		"function": "ssbrc:game/entity/player/fighter/joker/tt33/check"
 	}
 }

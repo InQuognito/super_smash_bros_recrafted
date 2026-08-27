@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/mega_man/drill_bomb/activate"
+		"function": "ssbrc:game/entity/player/fighter/mega_man/drill_bomb/activate"
 	}
 }

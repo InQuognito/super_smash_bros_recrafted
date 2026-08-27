@@ -1,4 +1,4 @@
-function ssbrc:game/fighter/_logic/attributes/reset
+function ssbrc:game/entity/player/fighter/_logic/attributes/reset
 function ssbrc:game/logic/reset_tags
 function ssbrc:game/logic/data/trigger
 
@@ -21,7 +21,7 @@ function ssbrc:game/logic/team/count/all
 xp set @s 0 levels
 xp set @s 0 points
 
-function ssbrc:game/fighter/_logic/effects/lobby
+function ssbrc:game/entity/player/fighter/_logic/effects/lobby
 
 title @s clear
 title @s reset

@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:conditional",
+	"condition": {
+		"type": "minecraft:random_chance",
+		"chance": 0.003663
+	},
+	"on_true": 1,
+	"on_false": {
+		"type": "minecraft:conditional",
+		"condition": {
+			"type": "minecraft:value_check",
+			"value": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "$always_shiny"
+				},
+				"score": "temp"
+			},
+			"range": {
+				"min": 1
+			}
+		},
+		"on_true": 1,
+		"on_false": 0
+	}
+}

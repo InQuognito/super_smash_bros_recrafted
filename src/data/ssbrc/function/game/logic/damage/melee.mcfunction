@@ -1,8 +1,8 @@
 scoreboard players operation #damage_taken temp /= #10 const
 scoreboard players operation @s health -= #damage_taken temp
 
-execute unless score @s health matches 1.. run return run function ssbrc:game/logic/entity/check_death
-function ssbrc:game/logic/entity/get_hurt
+execute unless score @s health matches 1.. run return run function ssbrc:game/entity/_logic/check_death
+function ssbrc:game/entity/_logic/get_hurt
 
 scoreboard players set @s hud 0
 

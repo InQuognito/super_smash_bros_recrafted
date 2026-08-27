@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/ice_climbers/snowstorm/activate"
+		"function": "ssbrc:game/entity/player/fighter/ice_climbers/snowstorm/activate"
 	}
 }

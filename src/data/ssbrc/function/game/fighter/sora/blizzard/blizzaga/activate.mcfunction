@@ -1,7 +1,0 @@
-scoreboard players set projectile temp 8
-execute anchored eyes positioned ^ ^ ^.5 run function ssbrc:game/fighter/sora/blizzard/blizzaga/projectile
-
-scoreboard players operation @s magic -= sora.spell.cost temp
-function ssbrc:game/fighter/sora/magic/update
-
-playsound ssbrc:fighter.sora.blizzaga.activate player @a

@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/jigglypuff/rest/activate"
+		"function": "ssbrc:game/entity/player/fighter/jigglypuff/rest/activate"
 	}
 }

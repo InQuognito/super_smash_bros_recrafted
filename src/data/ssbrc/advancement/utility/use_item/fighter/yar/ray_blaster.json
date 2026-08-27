@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/yar/ray_blaster/activate"
+		"function": "ssbrc:game/entity/player/fighter/yar/ray_blaster/activate"
 	}
 }

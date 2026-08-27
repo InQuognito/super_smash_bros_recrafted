@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/fighter/byleth/blue_lions/steed_charge/tick"
+					"function": "ssbrc:game/entity/player/fighter/byleth/blue_lions/steed_charge/tick"
 				}
 			}
 		]

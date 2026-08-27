@@ -34,7 +34,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/fighter/peach/reflect/activate"
+					"function": "ssbrc:game/entity/player/fighter/peach/reflect/activate"
 				}
 			}
 		]

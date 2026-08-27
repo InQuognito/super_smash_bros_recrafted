@@ -31,6 +31,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/roy/crossfire/activate"
+		"function": "ssbrc:game/entity/player/fighter/roy/crossfire/activate"
 	}
 }

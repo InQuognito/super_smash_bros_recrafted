@@ -1,0 +1,26 @@
+function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/init/marker
+function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/init/marker
+function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/init/marker
+function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/init/marker
+function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/init/marker
+function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/init/marker
+function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/init/marker
+function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/init/marker
+function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/init/marker
+function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/init/marker
+function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/init/marker
+function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/init/marker
+function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/init/marker
+function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/init/marker
+function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/init/marker
+function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/init/marker
+function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/init/marker
+function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/init/marker
+function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/init/marker
+function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/init/marker
+function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/init/marker
+function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/init/marker
+function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/init/marker
+function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/init/marker
+
+kill @s

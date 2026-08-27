@@ -43,6 +43,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/steve/item/pickup/check"
+		"function": "ssbrc:game/entity/player/fighter/steve/item/pickup/check"
 	}
 }

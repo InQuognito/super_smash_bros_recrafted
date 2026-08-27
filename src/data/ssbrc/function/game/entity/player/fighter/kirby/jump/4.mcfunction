@@ -1,0 +1,3 @@
+attribute @s minecraft:jump_strength modifier add ssbrc:jump_modifier -.3 add_multiplied_total
+function ssbrc:game/entity/player/fighter/_logic/jump/impulse with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
+attribute @s minecraft:jump_strength modifier remove ssbrc:jump_modifier

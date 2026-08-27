@@ -1,4 +1,4 @@
-function ssbrc:game/fighter/_logic/ability/init
+function ssbrc:game/entity/player/fighter/_logic/ability/init
 
 execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ssbrc:game/smash_item/steel_diver/projectile
 
@@ -10,4 +10,4 @@ clear @s *[minecraft:custom_data~{item: "steel_diver"},minecraft:damage~{durabil
 
 playsound ssbrc:smash_item.steel_diver.activate player @a
 
-function ssbrc:game/fighter/_logic/ability/deinit
+function ssbrc:game/entity/player/fighter/_logic/ability/deinit

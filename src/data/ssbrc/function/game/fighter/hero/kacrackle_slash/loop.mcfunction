@@ -1,5 +1,0 @@
-scoreboard players set #i temp 10
-function ssbrc:game/fighter/hero/kacrackle_slash/move_forward
-
-scoreboard players remove #n temp 1
-execute if score #n temp matches 1.. rotated ~1 ~ run function ssbrc:game/fighter/hero/kacrackle_slash/loop

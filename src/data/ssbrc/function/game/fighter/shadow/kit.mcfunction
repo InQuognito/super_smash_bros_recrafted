@@ -1,7 +1,0 @@
-function ssbrc:game/logic/item/init/slot {item: "shadow_sword", slot: "hotbar.0", class: "weapon", type: "enchanted"}
-
-function ssbrc:game/logic/item/init/slot {item: "chaos_spear", slot: "hotbar.1", class: "default", type: "default"}
-
-scoreboard players set @s resource 0
-
-function ssbrc:game/fighter/shadow/chaos_gauge/update

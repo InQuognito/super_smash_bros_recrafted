@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/jigglypuff/hyper_voice/check"
+		"function": "ssbrc:game/entity/player/fighter/jigglypuff/hyper_voice/check"
 	}
 }

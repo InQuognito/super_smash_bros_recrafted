@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/yar/power_ups/gatling_gun"
+		"function": "ssbrc:game/entity/player/fighter/yar/power_ups/gatling_gun"
 	}
 }

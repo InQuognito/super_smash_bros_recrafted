@@ -15,7 +15,7 @@ bossbar set ssbrc:timer visible false
 
 function ssbrc:game/logic/ui/popup/reset {name: "tutorial"}
 
-function ssbrc:game/fighter/_logic/loop {function: "ssbrc:game/logic/ui/popup/reset"}
+function ssbrc:game/entity/player/fighter/_logic/loop {function: "ssbrc:game/logic/ui/popup/reset"}
 
 bossbar set ssbrc:ui/popup/tutorial/default name {text: "\uf800-",font: "ssbrc:ui", color: "#2404f9"}
 bossbar set ssbrc:ui/popup/tutorial/complete name {text: "\uf801-",font: "ssbrc:ui", color: "#2404f9"}

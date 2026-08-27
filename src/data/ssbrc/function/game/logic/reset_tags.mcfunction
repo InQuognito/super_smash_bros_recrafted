@@ -1,4 +1,4 @@
-function ssbrc:game/fighter/_logic/reset
+function ssbrc:game/entity/player/fighter/_logic/reset
 
 function ssbrc:game/logic/stage/reset
 

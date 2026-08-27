@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/fighter/dark_samus/phazon_beam/activate"
+					"function": "ssbrc:game/entity/player/fighter/dark_samus/phazon_beam/activate"
 				},
 				"requirements": {
 					"type": "minecraft:entity_scores",
@@ -37,7 +37,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/fighter/dark_samus/phazon_beam/activate_projectile"
+					"function": "ssbrc:game/entity/player/fighter/dark_samus/phazon_beam/activate_projectile"
 				}
 			}
 		],

@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/fighter/_logic/charge/tick"
+					"function": "ssbrc:game/entity/player/fighter/_logic/charge/tick"
 				}
 			}
 		]

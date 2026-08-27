@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/altered_beast/weredragon/electrocution"
+		"function": "ssbrc:game/entity/player/fighter/altered_beast/weredragon/electrocution"
 	}
 }

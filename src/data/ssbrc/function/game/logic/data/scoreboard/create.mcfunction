@@ -191,7 +191,7 @@ scoreboard objectives add stats.win_loss dummy
 scoreboard objectives add stats.win_streak dummy
 scoreboard objectives add stats.win_streak.record dummy
 
-function ssbrc:game/fighter/_logic/loop {function: "ssbrc:game/logic/data/scoreboard/create/fighter"}
+function ssbrc:game/entity/player/fighter/_logic/loop {function: "ssbrc:game/logic/data/scoreboard/create/fighter"}
 
 function ssbrc:game/logic/data/bonus/loop {function: "ssbrc:game/logic/data/scoreboard/create/bonus"}
 scoreboard objectives add revenge.timer dummy

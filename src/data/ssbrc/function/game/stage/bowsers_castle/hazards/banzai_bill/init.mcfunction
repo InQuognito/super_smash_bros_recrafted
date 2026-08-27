@@ -8,4 +8,4 @@ data merge entity @s {transformation:[2f,0f,0f,0f,0f,2f,0f,0f,0f,0f,2f,0f,0f,0f,
 
 scoreboard players set @s temp 1
 
-function ssbrc:entity/_logic/init/id
+function ssbrc:game/entity/_logic/init/id

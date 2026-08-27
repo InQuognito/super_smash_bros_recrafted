@@ -1,1 +1,0 @@
-execute if entity @s[scores={motion_y=..-100},predicate=!ssbrc:flag/grounded] positioned ~-.4 ~-.1 ~-.4 as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dy=0] positioned ~-.2 ~-.8 ~-.2 if entity @s[dy=0] run function ssbrc:game/fighter/mario/stomp/hit

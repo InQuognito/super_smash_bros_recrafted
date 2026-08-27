@@ -38,6 +38,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/zelda/ice_rod/alternate_function/activate"
+		"function": "ssbrc:game/entity/player/fighter/zelda/ice_rod/alternate_function/activate"
 	}
 }

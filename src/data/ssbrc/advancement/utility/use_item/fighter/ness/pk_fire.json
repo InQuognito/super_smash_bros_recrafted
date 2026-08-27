@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/ness/pk_fire/activate"
+		"function": "ssbrc:game/entity/player/fighter/ness/pk_fire/activate"
 	}
 }

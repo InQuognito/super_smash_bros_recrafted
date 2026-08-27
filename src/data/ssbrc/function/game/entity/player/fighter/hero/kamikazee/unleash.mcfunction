@@ -1,0 +1,14 @@
+particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 0 1 normal @a
+
+scoreboard players set #n temp 250
+function ssbrc:game/entity/player/fighter/hero/kamikazee/particle/explode
+
+scoreboard players set @s charge.1 0
+tag @s remove kamikazee
+
+kill @s
+
+scoreboard players set #radius temp 7
+execute as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,distance=..7] run return run function ssbrc:game/entity/player/fighter/hero/kamikazee/hit
+
+playsound ssbrc:fighter.hero.kamikazee.activate player @a

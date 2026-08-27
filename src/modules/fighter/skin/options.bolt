@@ -3,7 +3,7 @@ from ssbrc.fighters import fighters, count_skins, forms_isolated_to, has_forms, 
 from itertools import chain
 
 for fighter in fighters:
-	function f'ssbrc:game/fighter/{fighter}/menu/skin/options':
+	function f'ssbrc:game/entity/player/fighter/{fighter}/menu/skin/options':
 		dialog show @s {
 			type: "minecraft:multi_action",
 			title: {

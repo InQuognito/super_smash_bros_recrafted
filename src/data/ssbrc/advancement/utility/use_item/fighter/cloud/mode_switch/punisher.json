@@ -41,6 +41,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/cloud/buster_sword/mode_switch/punisher"
+		"function": "ssbrc:game/entity/player/fighter/cloud/buster_sword/mode_switch/punisher"
 	}
 }

@@ -1,2 +1,0 @@
-scoreboard players add @s leech_seed.stacks.timer 1
-execute if score @s leech_seed.stacks.timer matches 20.. run function ssbrc:game/fighter/pokemon_trainer/ivysaur/leech_seed/heal

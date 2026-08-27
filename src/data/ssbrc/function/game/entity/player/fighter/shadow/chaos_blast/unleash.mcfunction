@@ -1,0 +1,10 @@
+execute as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,distance=..2] run function ssbrc:game/logic/damage/generic {amount: 24, kb_resist: 0, i_frames: 0}
+
+function ssbrc:game/entity/player/fighter/shadow/chaos_blast/shockwave/start
+
+tag @s remove chaos_boost
+clear @s *[minecraft:custom_data~{item: "chaos_control"}]
+scoreboard players set @s resource 0
+function ssbrc:game/entity/player/fighter/shadow/chaos_gauge/update
+
+playsound ssbrc:fighter.shadow.chaos_blast.activate player @a

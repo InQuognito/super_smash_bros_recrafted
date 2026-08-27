@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/yar/power_ups/omnishot"
+		"function": "ssbrc:game/entity/player/fighter/yar/power_ups/omnishot"
 	}
 }

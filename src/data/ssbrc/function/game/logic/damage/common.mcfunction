@@ -11,5 +11,5 @@ scoreboard players operation @s attacker = @a[predicate=ssbrc:owner,limit=1] id
 
 scoreboard players set @s hud 0
 
-execute unless score @s health matches 1.. run return run function ssbrc:game/logic/entity/check_death
-function ssbrc:game/logic/entity/get_hurt
+execute unless score @s health matches 1.. run return run function ssbrc:game/entity/_logic/check_death
+function ssbrc:game/entity/_logic/get_hurt

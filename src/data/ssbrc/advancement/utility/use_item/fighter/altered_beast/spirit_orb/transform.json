@@ -35,6 +35,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/altered_beast/spirit_orb/check"
+		"function": "ssbrc:game/entity/player/fighter/altered_beast/spirit_orb/check"
 	}
 }

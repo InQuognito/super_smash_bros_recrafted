@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/team_rocket/weezing/commands/stop/activate"
+		"function": "ssbrc:game/entity/player/fighter/team_rocket/weezing/commands/stop/activate"
 	}
 }

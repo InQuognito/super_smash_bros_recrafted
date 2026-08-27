@@ -13,6 +13,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/sora/drive_forms/anti/slash/check"
+		"function": "ssbrc:game/entity/player/fighter/sora/drive_forms/anti/slash/check"
 	}
 }

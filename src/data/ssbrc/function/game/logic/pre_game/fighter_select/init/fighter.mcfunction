@@ -13,4 +13,4 @@ $item replace entity @s contents with minecraft:stick[ \
 
 $summon minecraft:text_display ~ ~1.25 ~ {Tags: ["static_object"], text: {translate: "ssbrc.fighter.$(fighter)", color: "$(color)"}, billboard: "center", alignment: "center"}
 
-$execute positioned ~ ~-1 ~ summon minecraft:interaction run function ssbrc:entity/_logic/init/interaction {height: 2.25, width: 1.5, left_click: "ssbrc:game/fighter/_logic/select {id: $(fighter)}", right_click: "ssbrc:game/fighter/_logic/select {id: $(fighter)}"}
+$execute positioned ~ ~-1 ~ summon minecraft:interaction run function ssbrc:game/entity/_logic/init/interaction {height: 2.25, width: 1.5, left_click: "ssbrc:game/entity/player/fighter/_logic/select {id: $(fighter)}", right_click: "ssbrc:game/entity/player/fighter/_logic/select {id: $(fighter)}"}

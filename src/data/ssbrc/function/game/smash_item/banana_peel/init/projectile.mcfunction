@@ -6,4 +6,4 @@ data merge entity @s { \
 	Small: 1b, \
 }
 
-function ssbrc:entity/_logic/init/armor_stand/normal
+function ssbrc:game/entity/_logic/init/armor_stand/normal

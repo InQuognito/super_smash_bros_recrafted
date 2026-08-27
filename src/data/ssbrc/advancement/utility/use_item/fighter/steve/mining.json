@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/steve/mining/activate"
+		"function": "ssbrc:game/entity/player/fighter/steve/mining/activate"
 	}
 }

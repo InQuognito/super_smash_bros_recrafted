@@ -9027,7 +9027,7 @@
 				"data/ssbrc/function/entity/super_mario_bros/boo/rig/zzz/summon/zzz/variant_arg/no_variants_warning.mcfunction"
 			]
 		},
-		"ssbrc:game/fighter/mega_man/beat_call/rig": {
+		"ssbrc:game/entity/player/fighter/mega_man/beat_call/rig": {
 			"coreFiles": ["pack.mcmeta"],
 			"versionedFiles": [
 				"data/animated_java/advancement/global/interactions/attack/trigger.json",

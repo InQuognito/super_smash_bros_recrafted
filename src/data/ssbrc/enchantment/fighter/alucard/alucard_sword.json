@@ -46,7 +46,7 @@
 					"effects": [
 						{
 							"type": "minecraft:run_function",
-							"function": "ssbrc:game/fighter/alucard/alucard_sword/hit"
+							"function": "ssbrc:game/entity/player/fighter/alucard/alucard_sword/hit"
 						},
 						{
 							"type": "minecraft:apply_mob_effect",

@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/sora/fire/check"
+		"function": "ssbrc:game/entity/player/fighter/sora/fire/check"
 	}
 }

@@ -9,6 +9,6 @@ execute if items entity @s armor.body *[ \
 	} \
 ] run function ssbrc:game/logic/player/tick/fighter
 
-execute as @e[type=!minecraft:player,predicate=ssbrc:owner] at @s run function ssbrc:game/fighter/_logic/ability/tick
+execute as @e[type=!minecraft:player,predicate=ssbrc:owner] at @s run function ssbrc:game/entity/player/fighter/_logic/ability/tick
 
 tag @s remove self

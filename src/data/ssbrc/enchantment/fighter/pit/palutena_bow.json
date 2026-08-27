@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/fighter/pit/palutena_bow/init"
+					"function": "ssbrc:game/entity/player/fighter/pit/palutena_bow/init"
 				}
 			}
 		],

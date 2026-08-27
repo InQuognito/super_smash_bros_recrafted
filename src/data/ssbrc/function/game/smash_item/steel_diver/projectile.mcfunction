@@ -1,3 +1,3 @@
 tag @s add item.steel_diver
 
-function ssbrc:entity/_logic/init/position
+function ssbrc:game/entity/_logic/init/position

@@ -52,6 +52,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/cloud/buster_sword/cross_slash/activate"
+		"function": "ssbrc:game/entity/player/fighter/cloud/buster_sword/cross_slash/activate"
 	}
 }

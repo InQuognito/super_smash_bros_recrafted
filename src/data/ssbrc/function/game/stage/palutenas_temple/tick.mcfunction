@@ -5,4 +5,4 @@ execute positioned -26 1 -13 as @a[tag=!launched,dy=0] run return run function s
 
 execute if data storage ssbrc:data option{hazards: "true"} run function ssbrc:game/stage/palutenas_temple/hazards
 
-execute as @e[predicate=ssbrc:killbox_vulnerable,predicate=ssbrc:below_y/-45] run function ssbrc:game/logic/entity/check_death
+execute as @e[predicate=ssbrc:killbox_vulnerable,predicate=ssbrc:below_y/-45] run function ssbrc:game/entity/_logic/check_death

@@ -36,6 +36,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/link/sword_spin/activate"
+		"function": "ssbrc:game/entity/player/fighter/link/sword_spin/activate"
 	}
 }

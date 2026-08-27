@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/pikachu/thunder_jolt/activate"
+		"function": "ssbrc:game/entity/player/fighter/pikachu/thunder_jolt/activate"
 	}
 }

@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/snake/claymore/activate"
+		"function": "ssbrc:game/entity/player/fighter/snake/claymore/activate"
 	}
 }

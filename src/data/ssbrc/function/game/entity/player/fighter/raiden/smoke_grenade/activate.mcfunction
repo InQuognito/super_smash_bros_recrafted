@@ -1,0 +1,12 @@
+function ssbrc:game/entity/player/fighter/_logic/ability/init
+
+execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ssbrc:game/entity/player/fighter/raiden/smoke_grenade/init/marker
+
+function ssbrc:game/entity/player/fighter/snake/load/decrease
+
+scoreboard players remove @s weapon_10.ammo 1
+clear @s[scores={weapon_10.ammo=..0}] *[minecraft:custom_data~{item: "smoke_grenade"}]
+
+playsound ssbrc:fighter.snake.smoke_grenade.activate player @a
+
+function ssbrc:game/entity/player/fighter/_logic/ability/deinit

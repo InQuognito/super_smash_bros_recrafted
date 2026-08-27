@@ -1,0 +1,15 @@
+function ssbrc:game/entity/player/fighter/_logic/hud/type/cost { \
+	hud: 1, \
+	data: [ \
+		{ \
+			translate: "ssbrc.fighter.magic", \
+			bold: true, \
+		}, \
+	], \
+	max: "hero.magic", \
+	current: "magic", \
+	background: true, \
+	resource_color: "yellow", \
+	bg_color: "gray", \
+	cost_color: "red", \
+}

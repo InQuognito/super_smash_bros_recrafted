@@ -52,6 +52,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/pit/palutena_bow/split"
+		"function": "ssbrc:game/entity/player/fighter/pit/palutena_bow/split"
 	}
 }

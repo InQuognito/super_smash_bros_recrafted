@@ -1,5 +1,0 @@
-scoreboard players operation #drive_gain temp = #sora.drive.basic const
-scoreboard players operation #drive_gain temp /= #2 const
-execute unless predicate ssbrc:fighter/sora/drive_form run function ssbrc:game/fighter/sora/drive/increase
-
-scoreboard players add @s[predicate=ssbrc:fighter/sora/drive_form_basic] duration.1 200

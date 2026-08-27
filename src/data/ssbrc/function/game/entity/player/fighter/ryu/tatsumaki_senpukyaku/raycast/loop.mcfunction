@@ -1,0 +1,7 @@
+execute positioned ~ ~.5 ~ positioned ^ ^ ^.5 if function ssbrc:game/entity/player/fighter/_logic/check/raycast/block run return run function ssbrc:game/entity/player/fighter/_logic/check/raycast/abort {type: 2}
+
+execute as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,distance=..2] run function ssbrc:game/logic/damage/generic {amount: 4, kb_resist: 0, i_frames: 10}
+
+scoreboard players remove #n temp 1
+execute if score #n temp matches 1.. positioned ^ ^ ^.1 run return run function ssbrc:game/entity/player/fighter/ryu/tatsumaki_senpukyaku/raycast/loop
+execute positioned ^ ^ ^.1 run function ssbrc:game/entity/player/fighter/ryu/tatsumaki_senpukyaku/raycast/end with storage ssbrc:temp cache.rotation

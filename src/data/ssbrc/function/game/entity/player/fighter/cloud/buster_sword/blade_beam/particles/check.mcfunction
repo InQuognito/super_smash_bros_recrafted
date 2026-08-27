@@ -1,0 +1,3 @@
+execute if score #limit_break temp matches 1 run return run function ssbrc:game/entity/player/fighter/cloud/buster_sword/blade_beam/particles/limit_break
+
+function ssbrc:game/entity/player/fighter/cloud/buster_sword/blade_beam/particles/default

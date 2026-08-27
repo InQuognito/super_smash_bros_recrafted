@@ -37,6 +37,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/sora/spell_switch/blizzard"
+		"function": "ssbrc:game/entity/player/fighter/sora/spell_switch/blizzard"
 	}
 }

@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/fighter/zelda/bow/activate/default"
+					"function": "ssbrc:game/entity/player/fighter/zelda/bow/activate/default"
 				}
 			}
 		],

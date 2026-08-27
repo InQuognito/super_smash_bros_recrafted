@@ -40,6 +40,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/shovel_knight/phase_locket/activate"
+		"function": "ssbrc:game/entity/player/fighter/shovel_knight/phase_locket/activate"
 	}
 }

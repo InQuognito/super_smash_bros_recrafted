@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/samus/arm_cannon/check"
+		"function": "ssbrc:game/entity/player/fighter/samus/arm_cannon/check"
 	}
 }

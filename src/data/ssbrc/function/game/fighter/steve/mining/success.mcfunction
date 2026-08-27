@@ -1,9 +1,0 @@
-scoreboard players add @s charge 1
-execute if score @s charge matches 40.. positioned ^ ^ ^-.5 run function ssbrc:game/fighter/steve/item/spawn
-
-scoreboard players operation #cache temp = @s charge
-scoreboard players operation #cache temp %= #5 const
-
-loot replace entity @s player.crafting.0 mine ^ ^ ^.1 minecraft:netherite_pickaxe[minecraft:enchantments = {"minecraft:silk_touch": 1}]
-function ssbrc:game/fighter/steve/mining/material with entity @s Inventory[{Slot: 80b}]
-item replace entity @s player.crafting.0 with minecraft:air

@@ -1,0 +1,3 @@
+execute at @a[predicate=ssbrc:owner,limit=1] anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ssbrc:game/entity/player/fighter/byleth/golden_deer/failnaught/awakened/init
+
+kill @s

@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/donkey_kong/barrel/activate"
+		"function": "ssbrc:game/entity/player/fighter/donkey_kong/barrel/activate"
 	}
 }

@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/fighter/alucard/holy_water/tick"
+					"function": "ssbrc:game/entity/player/fighter/alucard/holy_water/tick"
 				}
 			}
 		]

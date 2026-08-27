@@ -1,1 +1,1 @@
-$function ssbrc:game/fighter/$(fighter)/tick
+$function ssbrc:game/entity/player/fighter/$(fighter)/tick

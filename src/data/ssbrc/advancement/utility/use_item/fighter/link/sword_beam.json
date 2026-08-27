@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/link/sword_beam/activate"
+		"function": "ssbrc:game/entity/player/fighter/link/sword_beam/activate"
 	}
 }

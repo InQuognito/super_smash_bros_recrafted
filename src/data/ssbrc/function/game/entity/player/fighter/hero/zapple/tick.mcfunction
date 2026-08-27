@@ -1,0 +1,6 @@
+scoreboard players set #n temp 6
+
+function ssbrc:game/entity/player/fighter/hero/zapple/move_forward
+
+scoreboard players add @s temp 1
+execute if score @s temp matches 40.. run function ssbrc:game/entity/player/fighter/hero/zapple/explode

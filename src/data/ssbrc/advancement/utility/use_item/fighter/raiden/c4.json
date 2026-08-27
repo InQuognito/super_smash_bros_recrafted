@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/raiden/c4/check"
+		"function": "ssbrc:game/entity/player/fighter/raiden/c4/check"
 	}
 }

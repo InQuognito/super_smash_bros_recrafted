@@ -10,9 +10,9 @@ scoreboard players set @s duration.1 1
 scoreboard players set @s duration.2 1
 scoreboard players set @s duration.3 1
 
-execute if items entity @s[predicate=ssbrc:fighter/pokemon/shiny_chance] armor.body *[minecraft:custom_data~{temp: {fighter: {series: "pokemon"}}}] run function ssbrc:game/fighter/_logic/pokemon/shiny with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
+execute if items entity @s[predicate=ssbrc:fighter/pokemon/shiny_chance] armor.body *[minecraft:custom_data~{temp: {fighter: {series: "pokemon"}}}] run function ssbrc:game/entity/player/fighter/_logic/pokemon/shiny with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
-function ssbrc:game/fighter/_logic/armor/init
+function ssbrc:game/entity/player/fighter/_logic/armor/init
 function ssbrc:game/logic/player/data/set {data: {temp: {selected_stage: ""}}}
 
 function ssbrc:game/logic/data/scoreboard/duration

@@ -4,4 +4,4 @@ execute positioned 0 -1 18 as @p[predicate=ssbrc:player] run function ssbrc:game
 
 fill 21 -4 -5 25 -4 -1 minecraft:campfire[facing=east,lit=false] replace
 
-execute as @e[predicate=ssbrc:killbox_vulnerable,predicate=ssbrc:below_y/-18] run function ssbrc:game/logic/entity/check_death
+execute as @e[predicate=ssbrc:killbox_vulnerable,predicate=ssbrc:below_y/-18] run function ssbrc:game/entity/_logic/check_death

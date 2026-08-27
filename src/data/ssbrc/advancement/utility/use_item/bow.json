@@ -11,6 +11,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/fighter/_logic/charge/increase"
+		"function": "ssbrc:game/entity/player/fighter/_logic/charge/increase"
 	}
 }
