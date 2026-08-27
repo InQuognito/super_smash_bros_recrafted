@@ -12,3 +12,6 @@ scoreboard players set $y player_motion.api.launch 0
 scoreboard players set $z player_motion.api.launch 5000
 
 execute rotated ~ 0 run function player_motion:api/launch_local_xyz
+
+particle minecraft:end_rod ~ ~.75 ~ .2 .2 .2 .05 10 normal @a
+particle minecraft:heart ~ ~.25 ~ .25 .25 .25 0 3 normal @a
