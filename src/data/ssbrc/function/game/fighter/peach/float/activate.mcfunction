@@ -9,7 +9,7 @@ tp @s @s
 
 scoreboard players set $x player_motion.api.launch 0
 scoreboard players set $y player_motion.api.launch 0
-scoreboard players set $z player_motion.api.launch 5000
+scoreboard players set $z player_motion.api.launch 4000
 
 execute rotated ~ 0 run function player_motion:api/launch_local_xyz
 
