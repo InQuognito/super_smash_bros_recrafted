@@ -9,7 +9,7 @@ execute if score #entity_hit temp matches 1 run return run kill @s
 execute store result score @s motion_y run data get entity @s Motion[1] 10000
 execute store result storage ssbrc:temp cache.motion_y float .325 run data get entity @s Motion[1]
 function ssbrc:game/fighter/mario/fireball/adjust_bounciness with storage ssbrc:temp cache
-execute if predicate ssbrc:flag/grounded run function ssbrc:game/fighter/luigi/ice_ball/bounce
+execute if predicate ssbrc:flag/grounded run particle minecraft:item{item: "minecraft:ice"} ~ ~ ~ 0 0 0 .1 15 force @a
 
 scoreboard players add @s temp 1
 execute if score @s temp matches 120.. run function ssbrc:game/fighter/luigi/ice_ball/kill

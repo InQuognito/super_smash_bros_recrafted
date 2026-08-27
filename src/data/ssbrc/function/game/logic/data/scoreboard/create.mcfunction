@@ -121,7 +121,6 @@ scoreboard objectives add smash_item.franklin_badge.counter dummy
 scoreboard objectives add smash_item.franklin_badge.timer dummy
 scoreboard objectives add smash_item.poison_mushroom.timer dummy
 scoreboard objectives add smash_item.super_mushroom.timer dummy
-scoreboard objectives add sprint_distance minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add stage_select dummy
 scoreboard objectives add stage_vote dummy
 scoreboard objectives add steve.tier dummy
@@ -137,7 +136,6 @@ scoreboard objectives add timer.stat.death dummy
 scoreboard objectives add timer.stat.kill dummy
 scoreboard objectives add tornado dummy
 scoreboard objectives add tower_of_fate.barrier dummy
-scoreboard objectives add walk_distance minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add weapon_3.ammo dummy
 scoreboard objectives add weapon_3.mags dummy
 scoreboard objectives add weapon_3.reload dummy

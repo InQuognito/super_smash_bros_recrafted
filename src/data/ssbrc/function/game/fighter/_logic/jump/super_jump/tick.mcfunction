@@ -7,5 +7,5 @@ execute if score @s charge.1 = #super_mario_bros.super_jump const run function s
 
 particle minecraft:glow ~ ~.01 ~ .2 .2 .2 0 2 normal @a
 
-function ssbrc:game/fighter/_logic/jump/super_jump/calculate
-execute if score #super_jump.falloff temp matches 200.. run function ssbrc:game/fighter/_logic/jump/super_jump/reset
+execute unless predicate ssbrc:flag/sneaking run return run function ssbrc:game/fighter/_logic/jump/super_jump/reset
+execute if entity @s[predicate=ssbrc:flag/sneaking,predicate=ssbrc:flag/sprinting] run function ssbrc:game/fighter/_logic/jump/super_jump/reset

@@ -1,4 +1,4 @@
-# Super Jump
-execute if score @s cooldown.2 matches ..0 run function ssbrc:game/fighter/altered_beast/weretiger/pounce/check
+execute unless score @s cooldown.2 matches 1.. run function ssbrc:game/fighter/altered_beast/weretiger/pounce/tick
 
-execute if entity @s[tag=pounce,predicate=ssbrc:flag/grounded] run function ssbrc:game/fighter/altered_beast/weretiger/pounce/deactivate
+scoreboard players add @s[scores={charge.3=1..}] charge.3 1
+execute if score @s charge.3 matches 15.. run function ssbrc:game/fighter/altered_beast/weretiger/pounce/activate

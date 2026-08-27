@@ -116,7 +116,6 @@ scoreboard objectives remove smash_item.franklin_badge.counter
 scoreboard objectives remove smash_item.franklin_badge.timer
 scoreboard objectives remove smash_item.poison_mushroom.timer
 scoreboard objectives remove smash_item.super_mushroom.timer
-scoreboard objectives remove sprint_distance
 scoreboard objectives remove stage_select
 scoreboard objectives remove stage_vote
 scoreboard objectives remove stats.credits.temp
@@ -133,7 +132,6 @@ scoreboard objectives remove timer.stat.death
 scoreboard objectives remove timer.stat.kill
 scoreboard objectives remove tornado
 scoreboard objectives remove tower_of_fate.barrier
-scoreboard objectives remove walk_distance
 scoreboard objectives remove weapon_1.ammo
 scoreboard objectives remove weapon_1.fire_rate
 scoreboard objectives remove weapon_1.mags
