@@ -2,7 +2,7 @@ $item modify entity @s armor.body { \
 	type: "minecraft:set_custom_data", \
 	tag: { \
 		temp: { \
-			$(key): $(value), \
+			hud_$(key): $(value), \
 		}, \
 	}, \
 }

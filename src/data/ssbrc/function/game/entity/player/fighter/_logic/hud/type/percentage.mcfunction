@@ -2,7 +2,7 @@ $data modify storage ssbrc:hud temp set value {key: "$(hud)", value: $(data), ca
 $scoreboard players operation #resource.max temp = #$(max) const
 $scoreboard players operation #resource.value temp = @s $(current)
 
-$function math:percentage {output: "#percent temp", val: "@s $(current)", div: "#$(max) const"}
+function math:percentage {output: "#percent temp", val: "#resource.value temp", div: "#resource.max temp"}
 execute store result score #resource.value temp run scoreboard players operation #percent temp /= #10 const
 
 # Module Order
