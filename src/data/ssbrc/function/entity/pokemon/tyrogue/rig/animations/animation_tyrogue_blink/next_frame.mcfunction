@@ -2,5 +2,5 @@
 execute if score @s aj.animation_tyrogue_blink.frame matches 4.. run scoreboard players set @s aj.animation_tyrogue_blink.frame 1
 data remove storage animated_java:temp args
 execute store result storage animated_java:temp args.frame int 1 run scoreboard players get @s aj.animation_tyrogue_blink.frame
-execute at @s run function ssbrc:entity/pokemon/tyrogue/rig/animations/animation_tyrogue_blink/zzz/apply_frame with storage animated_java:temp args
+execute at @s run function ssbrc:game/entity/npc/pokemon/tyrogue/rig/animations/animation_tyrogue_blink/zzz/apply_frame with storage animated_java:temp args
 scoreboard players add @s aj.animation_tyrogue_blink.frame 1

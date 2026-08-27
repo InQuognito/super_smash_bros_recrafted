@@ -1,4 +1,4 @@
-function ssbrc:game/logic/player/data/set {data: {temp: {fighter: {power_up: "none"}}}}
+function ssbrc:game/entity/player/_logic/data/set {data: {temp: {fighter: {power_up: "none"}}}}
 
 function ssbrc:game/logic/item/init/replace {search_key: "group", search_value: "ray_blaster", item: "ray_blaster", class: "default", type: "default"}
 

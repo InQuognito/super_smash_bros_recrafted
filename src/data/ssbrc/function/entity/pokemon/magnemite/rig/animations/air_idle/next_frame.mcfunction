@@ -2,5 +2,5 @@
 execute if score @s aj.air_idle.frame matches 757.. run scoreboard players set @s aj.air_idle.frame 1
 data remove storage animated_java:temp args
 execute store result storage animated_java:temp args.frame int 1 run scoreboard players get @s aj.air_idle.frame
-execute at @s run function ssbrc:entity/pokemon/magnemite/rig/animations/air_idle/zzz/apply_frame with storage animated_java:temp args
+execute at @s run function ssbrc:game/entity/npc/pokemon/magnemite/rig/animations/air_idle/zzz/apply_frame with storage animated_java:temp args
 scoreboard players add @s aj.air_idle.frame 1

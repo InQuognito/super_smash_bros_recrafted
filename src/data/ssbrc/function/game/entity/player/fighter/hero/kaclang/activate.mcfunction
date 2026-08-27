@@ -6,7 +6,7 @@ attribute @s minecraft:knockback_resistance modifier add ssbrc:immobile 1 add_va
 
 effect give @s minecraft:resistance infinite 255 true
 
-function ssbrc:game/logic/player/data/set {data: {temp: {fighter: {form: "kaclang"}}}}
+function ssbrc:game/entity/player/_logic/data/set {data: {temp: {fighter: {form: "kaclang"}}}}
 function ssbrc:game/entity/player/fighter/_logic/armor/update with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
 playsound ssbrc:smash_item.metal_box.activate player @a

@@ -15,6 +15,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/logic/player/skin_options/check"
+		"function": "ssbrc:game/entity/player/_logic/skin_options/check"
 	}
 }

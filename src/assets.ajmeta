@@ -1102,7 +1102,7 @@
 				"assets/ssbrc/models/blueprint/entity/common/tornado/rig/top.json"
 			]
 		},
-		"ssbrc:entity/metroid/fgii_graham/rig": {
+		"ssbrc:game/entity/npc/metroid/fgii_graham/rig": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
 				"assets/ssbrc/items/blueprint/entity/metroid/fgii_graham/rig/body.json",
@@ -1111,7 +1111,7 @@
 				"assets/ssbrc/models/blueprint/entity/metroid/fgii_graham/rig/propeller.json"
 			]
 		},
-		"ssbrc:entity/pokemon/abra/rig": {
+		"ssbrc:game/entity/npc/pokemon/abra/rig": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
 				"assets/ssbrc/items/blueprint/entity/pokemon/abra/rig/arm_left1.json",
@@ -1254,7 +1254,7 @@
 				"assets/ssbrc/models/blueprint/entity/pokemon/abra/rig/torso1.json"
 			]
 		},
-		"ssbrc:entity/pokemon/diglett/rig": {
+		"ssbrc:game/entity/npc/pokemon/diglett/rig": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
 				"assets/ssbrc/items/blueprint/entity/pokemon/diglett/rig/body1.json",
@@ -1289,7 +1289,7 @@
 				"assets/ssbrc/models/blueprint/entity/pokemon/diglett/rig/shiny/pupil_right1.json"
 			]
 		},
-		"ssbrc:entity/pokemon/dugtrio/rig": {
+		"ssbrc:game/entity/npc/pokemon/dugtrio/rig": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
 				"assets/ssbrc/items/blueprint/entity/pokemon/dugtrio/rig/body1_3.json",
@@ -1381,7 +1381,7 @@
 				"assets/ssbrc/models/blueprint/entity/pokemon/dugtrio/rig/shiny/pupil_right6.json"
 			]
 		},
-		"ssbrc:entity/pokemon/gastly/rig": {
+		"ssbrc:game/entity/npc/pokemon/gastly/rig": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
 				"assets/ssbrc/items/blueprint/entity/pokemon/gastly/rig/blush_left1.json",
@@ -1458,7 +1458,7 @@
 				"assets/ssbrc/models/blueprint/entity/pokemon/gastly/rig/tougue9.json"
 			]
 		},
-		"ssbrc:entity/pokemon/geodude/rig": {
+		"ssbrc:game/entity/npc/pokemon/geodude/rig": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
 				"assets/ssbrc/items/blueprint/entity/pokemon/geodude/rig/arm_left1.json",
@@ -1559,7 +1559,7 @@
 				"assets/ssbrc/models/blueprint/entity/pokemon/geodude/rig/torso1.json"
 			]
 		},
-		"ssbrc:entity/pokemon/gyarados/rig": {
+		"ssbrc:game/entity/npc/pokemon/gyarados/rig": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
 				"assets/ssbrc/items/blueprint/entity/pokemon/gyarados/rig/blush_left1.json",
@@ -1828,7 +1828,7 @@
 				"assets/ssbrc/models/blueprint/entity/pokemon/gyarados/rig/upper_right_tooth1.json"
 			]
 		},
-		"ssbrc:entity/pokemon/lapras/rig": {
+		"ssbrc:game/entity/npc/pokemon/lapras/rig": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
 				"assets/ssbrc/items/blueprint/entity/pokemon/lapras/rig/chest.json",
@@ -1953,7 +1953,7 @@
 				"assets/ssbrc/models/blueprint/entity/pokemon/lapras/rig/torso.json"
 			]
 		},
-		"ssbrc:entity/pokemon/magnemite/rig": {
+		"ssbrc:game/entity/npc/pokemon/magnemite/rig": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
 				"assets/ssbrc/items/blueprint/entity/pokemon/magnemite/rig/body1.json",
@@ -1985,7 +1985,7 @@
 				"assets/ssbrc/models/blueprint/entity/pokemon/magnemite/rig/shiny/pupil_closed1.json"
 			]
 		},
-		"ssbrc:entity/pokemon/metapod/rig": {
+		"ssbrc:game/entity/npc/pokemon/metapod/rig": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
 				"assets/ssbrc/items/blueprint/entity/pokemon/metapod/rig/body1.json",
@@ -2011,7 +2011,7 @@
 				"assets/ssbrc/models/blueprint/entity/pokemon/metapod/rig/shiny/eyelid_right1.json"
 			]
 		},
-		"ssbrc:entity/pokemon/slowpoke/rig": {
+		"ssbrc:game/entity/npc/pokemon/slowpoke/rig": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
 				"assets/ssbrc/items/blueprint/entity/pokemon/slowpoke/rig/ear_left1.json",
@@ -2067,7 +2067,7 @@
 				"assets/ssbrc/models/blueprint/entity/pokemon/slowpoke/rig/torso1.json"
 			]
 		},
-		"ssbrc:entity/pokemon/snorlax/rig": {
+		"ssbrc:game/entity/npc/pokemon/snorlax/rig": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
 				"assets/ssbrc/items/blueprint/entity/pokemon/snorlax/rig/arm_left1.json",
@@ -2201,7 +2201,7 @@
 				"assets/ssbrc/models/blueprint/entity/pokemon/snorlax/rig/toe_outer_right1.json"
 			]
 		},
-		"ssbrc:entity/pokemon/sudowoodo/rig": {
+		"ssbrc:game/entity/npc/pokemon/sudowoodo/rig": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
 				"assets/ssbrc/items/blueprint/entity/pokemon/sudowoodo/rig/arm_left1.json",
@@ -2305,7 +2305,7 @@
 				"assets/ssbrc/models/blueprint/entity/pokemon/sudowoodo/rig/torso3.json"
 			]
 		},
-		"ssbrc:entity/pokemon/tyrogue/rig": {
+		"ssbrc:game/entity/npc/pokemon/tyrogue/rig": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
 				"assets/ssbrc/items/blueprint/entity/pokemon/tyrogue/rig/arm_left.json",

@@ -1,3 +1,3 @@
-$execute if predicate ssbrc:fighter/pokemon/shiny_chance run return run function ssbrc:entity/pokemon/shiny {name: "$(name)", animation: "$(animation)"}
+$execute if predicate ssbrc:fighter/pokemon/shiny_chance run return run function ssbrc:game/entity/npc/pokemon/shiny {name: "$(name)", animation: "$(animation)"}
 
-$function ssbrc:entity/pokemon/$(name)/rig/summon {args: {variant: "default", animation: "$(animation)", start_animation: true}}
+$function ssbrc:game/entity/npc/pokemon/$(name)/rig/summon {args: {variant: "default", animation: "$(animation)", start_animation: true}}

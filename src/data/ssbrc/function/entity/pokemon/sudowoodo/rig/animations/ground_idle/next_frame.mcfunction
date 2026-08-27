@@ -2,5 +2,5 @@
 execute if score @s aj.ground_idle.frame matches 2.. run scoreboard players set @s aj.ground_idle.frame 1
 data remove storage animated_java:temp args
 execute store result storage animated_java:temp args.frame int 1 run scoreboard players get @s aj.ground_idle.frame
-execute at @s run function ssbrc:entity/pokemon/sudowoodo/rig/animations/ground_idle/zzz/apply_frame with storage animated_java:temp args
+execute at @s run function ssbrc:game/entity/npc/pokemon/sudowoodo/rig/animations/ground_idle/zzz/apply_frame with storage animated_java:temp args
 scoreboard players add @s aj.ground_idle.frame 1

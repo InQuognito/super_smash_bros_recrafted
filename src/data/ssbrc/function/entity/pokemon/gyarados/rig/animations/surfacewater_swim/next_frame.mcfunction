@@ -2,5 +2,5 @@
 execute if score @s aj.surfacewater_swim.frame matches 161.. run scoreboard players set @s aj.surfacewater_swim.frame 1
 data remove storage animated_java:temp args
 execute store result storage animated_java:temp args.frame int 1 run scoreboard players get @s aj.surfacewater_swim.frame
-execute at @s run function ssbrc:entity/pokemon/gyarados/rig/animations/surfacewater_swim/zzz/apply_frame with storage animated_java:temp args
+execute at @s run function ssbrc:game/entity/npc/pokemon/gyarados/rig/animations/surfacewater_swim/zzz/apply_frame with storage animated_java:temp args
 scoreboard players add @s aj.surfacewater_swim.frame 1

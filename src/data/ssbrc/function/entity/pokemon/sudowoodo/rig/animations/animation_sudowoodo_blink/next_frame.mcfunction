@@ -2,5 +2,5 @@
 execute if score @s aj.animation_sudowoodo_blink.frame matches 4.. run scoreboard players set @s aj.animation_sudowoodo_blink.frame 1
 data remove storage animated_java:temp args
 execute store result storage animated_java:temp args.frame int 1 run scoreboard players get @s aj.animation_sudowoodo_blink.frame
-execute at @s run function ssbrc:entity/pokemon/sudowoodo/rig/animations/animation_sudowoodo_blink/zzz/apply_frame with storage animated_java:temp args
+execute at @s run function ssbrc:game/entity/npc/pokemon/sudowoodo/rig/animations/animation_sudowoodo_blink/zzz/apply_frame with storage animated_java:temp args
 scoreboard players add @s aj.animation_sudowoodo_blink.frame 1

@@ -3,7 +3,7 @@ function ssbrc:game/entity/player/fighter/altered_beast/kits/reset
 tag @s add altered_beast.is_beast
 
 tag @s add shirtless
-$function ssbrc:game/logic/player/data/set {data: {temp: {fighter: {form: "$(form)"}}}}
+$function ssbrc:game/entity/player/_logic/data/set {data: {temp: {fighter: {form: "$(form)"}}}}
 
 item modify entity @s hotbar.8 { \
 	type: "minecraft:set_custom_model_data", \

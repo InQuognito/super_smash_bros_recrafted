@@ -4,20 +4,20 @@
 		"format_version": "1.10.0-beta.5",
 		"uuid": "009c6214-3fea-8e9d-7600-c026c91a6af5",
 		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\pokemon\\abra.ajblueprint",
-		"last_used_blueprint_id": "ssbrc:entity/pokemon/abra/rig"
+		"last_used_blueprint_id": "ssbrc:game/entity/npc/pokemon/abra/rig"
 	},
 	"resolution": {
 		"width": 64,
 		"height": 32
 	},
 	"blueprint_settings": {
-		"blueprint_id": "ssbrc:entity/pokemon/abra/rig",
+		"blueprint_id": "ssbrc:game/entity/npc/pokemon/abra/rig",
 		"render_box": [48, 48],
 		"display_item": "minecraft:diamond",
 		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
 		"data_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
-		"on_summon_function": "function ssbrc:entity/pokemon/init\n\nfunction ssbrc:entity/pokemon/abra/teleport/start\n",
-		"on_pre_tick_function": "execute if predicate ssbrc:random_chance/0.15 run function ssbrc:entity/pokemon/abra/teleport/start\n",
+		"on_summon_function": "function ssbrc:game/entity/npc/pokemon/init\n\nfunction ssbrc:game/entity/npc/pokemon/abra/teleport/start\n",
+		"on_pre_tick_function": "execute if predicate ssbrc:random_chance/0.15 run function ssbrc:game/entity/npc/pokemon/abra/teleport/start\n",
 		"auto_update_rig_orientation": false
 	},
 	"elements": [

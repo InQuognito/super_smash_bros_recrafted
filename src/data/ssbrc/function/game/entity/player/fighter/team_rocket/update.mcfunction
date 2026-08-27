@@ -1,4 +1,4 @@
-$function ssbrc:game/logic/player/data/set {data: {temp: {fighter: {form: "$(form)"}}}}
+$function ssbrc:game/entity/player/_logic/data/set {data: {temp: {fighter: {form: "$(form)"}}}}
 
 clear @s #ssbrc:equipment/ability
 

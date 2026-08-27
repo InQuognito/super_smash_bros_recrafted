@@ -1,3 +1,0 @@
-advancement revoke @s only ssbrc:utility/use_item/skin_options
-
-function ssbrc:game/logic/player/skin_options/run with entity @s equipment.body.components."minecraft:custom_data".temp.fighter

@@ -3553,7 +3553,7 @@
 				"data/ssbrc/function/entity/common/tornado/rig/zzz/summon/zzz/variant_arg/no_variants_warning.mcfunction"
 			]
 		},
-		"ssbrc:entity/metroid/fgii_graham/rig": {
+		"ssbrc:game/entity/npc/metroid/fgii_graham/rig": {
 			"coreFiles": ["pack.mcmeta"],
 			"versionedFiles": [
 				"data/animated_java/function/global/data_manager/create_entry.mcfunction",
@@ -3714,7 +3714,7 @@
 				"data/ssbrc/function/entity/metroid/fgii_graham/rig/zzz/summon/zzz/variant_arg/no_variants_warning.mcfunction"
 			]
 		},
-		"ssbrc:entity/pokemon/abra/rig": {
+		"ssbrc:game/entity/npc/pokemon/abra/rig": {
 			"coreFiles": ["pack.mcmeta"],
 			"versionedFiles": [
 				"data/animated_java/function/global/data_manager/create_entry.mcfunction",
@@ -4019,7 +4019,7 @@
 				"data/ssbrc/function/entity/pokemon/abra/rig/zzz/summon/variant_arg/try_apply.mcfunction"
 			]
 		},
-		"ssbrc:entity/pokemon/diglett/rig": {
+		"ssbrc:game/entity/npc/pokemon/diglett/rig": {
 			"coreFiles": ["pack.mcmeta"],
 			"versionedFiles": [
 				"data/animated_java/function/global/data_manager/create_entry.mcfunction",
@@ -4216,7 +4216,7 @@
 				"data/ssbrc/function/entity/pokemon/diglett/rig/zzz/summon/variant_arg/try_apply.mcfunction"
 			]
 		},
-		"ssbrc:entity/pokemon/dugtrio/rig": {
+		"ssbrc:game/entity/npc/pokemon/dugtrio/rig": {
 			"coreFiles": ["pack.mcmeta"],
 			"versionedFiles": [
 				"data/animated_java/function/global/data_manager/create_entry.mcfunction",
@@ -4470,7 +4470,7 @@
 				"data/ssbrc/function/entity/pokemon/dugtrio/rig/zzz/summon/variant_arg/try_apply.mcfunction"
 			]
 		},
-		"ssbrc:entity/pokemon/gastly/rig": {
+		"ssbrc:game/entity/npc/pokemon/gastly/rig": {
 			"coreFiles": ["pack.mcmeta"],
 			"versionedFiles": [
 				"data/animated_java/function/global/data_manager/create_entry.mcfunction",
@@ -4680,7 +4680,7 @@
 				"data/ssbrc/function/entity/pokemon/gastly/rig/zzz/summon/variant_arg/try_apply.mcfunction"
 			]
 		},
-		"ssbrc:entity/pokemon/geodude/rig": {
+		"ssbrc:game/entity/npc/pokemon/geodude/rig": {
 			"coreFiles": ["pack.mcmeta"],
 			"versionedFiles": [
 				"data/animated_java/function/global/data_manager/create_entry.mcfunction",
@@ -4903,7 +4903,7 @@
 				"data/ssbrc/function/entity/pokemon/geodude/rig/zzz/summon/variant_arg/try_apply.mcfunction"
 			]
 		},
-		"ssbrc:entity/pokemon/gyarados/rig": {
+		"ssbrc:game/entity/npc/pokemon/gyarados/rig": {
 			"coreFiles": ["pack.mcmeta"],
 			"versionedFiles": [
 				"data/animated_java/function/global/data_manager/create_entry.mcfunction",
@@ -5779,7 +5779,7 @@
 				"data/ssbrc/function/entity/pokemon/gyarados/rig/zzz/summon/variant_arg/try_apply.mcfunction"
 			]
 		},
-		"ssbrc:entity/pokemon/lapras/rig": {
+		"ssbrc:game/entity/npc/pokemon/lapras/rig": {
 			"coreFiles": ["pack.mcmeta"],
 			"versionedFiles": [
 				"data/animated_java/function/global/data_manager/create_entry.mcfunction",
@@ -6168,7 +6168,7 @@
 				"data/ssbrc/function/entity/pokemon/lapras/rig/zzz/summon/variant_arg/try_apply.mcfunction"
 			]
 		},
-		"ssbrc:entity/pokemon/magnemite/rig": {
+		"ssbrc:game/entity/npc/pokemon/magnemite/rig": {
 			"coreFiles": ["pack.mcmeta"],
 			"versionedFiles": [
 				"data/animated_java/function/global/data_manager/create_entry.mcfunction",
@@ -7038,7 +7038,7 @@
 				"data/ssbrc/function/entity/pokemon/magnemite/rig/zzz/summon/variant_arg/try_apply.mcfunction"
 			]
 		},
-		"ssbrc:entity/pokemon/metapod/rig": {
+		"ssbrc:game/entity/npc/pokemon/metapod/rig": {
 			"coreFiles": ["pack.mcmeta"],
 			"versionedFiles": [
 				"data/animated_java/function/global/data_manager/create_entry.mcfunction",
@@ -7147,7 +7147,7 @@
 				"data/ssbrc/function/entity/pokemon/metapod/rig/zzz/summon/variant_arg/try_apply.mcfunction"
 			]
 		},
-		"ssbrc:entity/pokemon/slowpoke/rig": {
+		"ssbrc:game/entity/npc/pokemon/slowpoke/rig": {
 			"coreFiles": ["pack.mcmeta"],
 			"versionedFiles": [
 				"data/animated_java/function/global/data_manager/create_entry.mcfunction",
@@ -7433,7 +7433,7 @@
 				"data/ssbrc/function/entity/pokemon/slowpoke/rig/zzz/summon/variant_arg/try_apply.mcfunction"
 			]
 		},
-		"ssbrc:entity/pokemon/snorlax/rig": {
+		"ssbrc:game/entity/npc/pokemon/snorlax/rig": {
 			"coreFiles": ["pack.mcmeta"],
 			"versionedFiles": [
 				"data/animated_java/function/global/data_manager/create_entry.mcfunction",
@@ -7681,7 +7681,7 @@
 				"data/ssbrc/function/entity/pokemon/snorlax/rig/zzz/summon/variant_arg/try_apply.mcfunction"
 			]
 		},
-		"ssbrc:entity/pokemon/sudowoodo/rig": {
+		"ssbrc:game/entity/npc/pokemon/sudowoodo/rig": {
 			"coreFiles": ["pack.mcmeta"],
 			"versionedFiles": [
 				"data/animated_java/function/global/data_manager/create_entry.mcfunction",
@@ -7913,7 +7913,7 @@
 				"data/ssbrc/function/entity/pokemon/sudowoodo/rig/zzz/summon/variant_arg/try_apply.mcfunction"
 			]
 		},
-		"ssbrc:entity/pokemon/tyrogue/rig": {
+		"ssbrc:game/entity/npc/pokemon/tyrogue/rig": {
 			"coreFiles": ["pack.mcmeta"],
 			"versionedFiles": [
 				"data/animated_java/function/global/data_manager/create_entry.mcfunction",

@@ -4,19 +4,19 @@
 		"format_version": "1.10.0-beta.5",
 		"uuid": "cda4790c-c30d-91b5-4e34-55a965d7b844",
 		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\pokemon\\slowpoke.ajblueprint",
-		"last_used_blueprint_id": "ssbrc:entity/pokemon/slowpoke/rig"
+		"last_used_blueprint_id": "ssbrc:game/entity/npc/pokemon/slowpoke/rig"
 	},
 	"resolution": {
 		"width": 64,
 		"height": 64
 	},
 	"blueprint_settings": {
-		"blueprint_id": "ssbrc:entity/pokemon/slowpoke/rig",
+		"blueprint_id": "ssbrc:game/entity/npc/pokemon/slowpoke/rig",
 		"render_box": [48, 48],
 		"display_item": "minecraft:diamond",
 		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
 		"data_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
-		"on_summon_function": "function ssbrc:entity/pokemon/int",
+		"on_summon_function": "function ssbrc:game/entity/npc/pokemon/int",
 		"auto_update_rig_orientation": false
 	},
 	"elements": [

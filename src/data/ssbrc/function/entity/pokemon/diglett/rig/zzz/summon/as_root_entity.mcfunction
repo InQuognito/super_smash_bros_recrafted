@@ -11,50 +11,50 @@ execute store result storage animated_java:temp args.id int 1 run scoreboard pla
 function animated_java:global/data_manager/read with storage animated_java:temp args
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.root_uuid set from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.blueprint_id set value "ssbrc:entity/pokemon/diglett/rig"
+data modify storage animated_java:temp entry.data.blueprint_id set value "ssbrc:game/entity/npc/pokemon/diglett/rig"
 data modify storage animated_java:temp entry.data.rig_hash set value "091aa5aa9d0eda5c22fc98b30107c7083ecb897a7cd452fac37a5b93e1d6334e"
 tp @s ~ ~ ~ ~ ~
-execute on passengers if entity @s[tag=ssbrc.entity.pokemon.diglett.rig.node.nose1] run function ssbrc:entity/pokemon/diglett/rig/zzz/summon/as_node/nose1
+execute on passengers if entity @s[tag=ssbrc.entity.pokemon.diglett.rig.node.nose1] run function ssbrc:game/entity/npc/pokemon/diglett/rig/zzz/summon/as_node/nose1
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.nose1 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=ssbrc.entity.pokemon.diglett.rig.node.pupil_left1] run function ssbrc:entity/pokemon/diglett/rig/zzz/summon/as_node/pupil_left1
+execute on passengers if entity @s[tag=ssbrc.entity.pokemon.diglett.rig.node.pupil_left1] run function ssbrc:game/entity/npc/pokemon/diglett/rig/zzz/summon/as_node/pupil_left1
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.pupil_left1 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=ssbrc.entity.pokemon.diglett.rig.node.eyelid_left1] run function ssbrc:entity/pokemon/diglett/rig/zzz/summon/as_node/eyelid_left1
+execute on passengers if entity @s[tag=ssbrc.entity.pokemon.diglett.rig.node.eyelid_left1] run function ssbrc:game/entity/npc/pokemon/diglett/rig/zzz/summon/as_node/eyelid_left1
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.eyelid_left1 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=ssbrc.entity.pokemon.diglett.rig.node.eye_left1] run function ssbrc:entity/pokemon/diglett/rig/zzz/summon/as_node/eye_left1
+execute on passengers if entity @s[tag=ssbrc.entity.pokemon.diglett.rig.node.eye_left1] run function ssbrc:game/entity/npc/pokemon/diglett/rig/zzz/summon/as_node/eye_left1
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.eye_left1 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=ssbrc.entity.pokemon.diglett.rig.node.pupil_right1] run function ssbrc:entity/pokemon/diglett/rig/zzz/summon/as_node/pupil_right1
+execute on passengers if entity @s[tag=ssbrc.entity.pokemon.diglett.rig.node.pupil_right1] run function ssbrc:game/entity/npc/pokemon/diglett/rig/zzz/summon/as_node/pupil_right1
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.pupil_right1 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=ssbrc.entity.pokemon.diglett.rig.node.eyelid_right1] run function ssbrc:entity/pokemon/diglett/rig/zzz/summon/as_node/eyelid_right1
+execute on passengers if entity @s[tag=ssbrc.entity.pokemon.diglett.rig.node.eyelid_right1] run function ssbrc:game/entity/npc/pokemon/diglett/rig/zzz/summon/as_node/eyelid_right1
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.eyelid_right1 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=ssbrc.entity.pokemon.diglett.rig.node.eye_right1] run function ssbrc:entity/pokemon/diglett/rig/zzz/summon/as_node/eye_right1
+execute on passengers if entity @s[tag=ssbrc.entity.pokemon.diglett.rig.node.eye_right1] run function ssbrc:game/entity/npc/pokemon/diglett/rig/zzz/summon/as_node/eye_right1
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.eye_right1 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=ssbrc.entity.pokemon.diglett.rig.node.body3] run function ssbrc:entity/pokemon/diglett/rig/zzz/summon/as_node/body3
+execute on passengers if entity @s[tag=ssbrc.entity.pokemon.diglett.rig.node.body3] run function ssbrc:game/entity/npc/pokemon/diglett/rig/zzz/summon/as_node/body3
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.body3 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=ssbrc.entity.pokemon.diglett.rig.node.body1] run function ssbrc:entity/pokemon/diglett/rig/zzz/summon/as_node/body1
+execute on passengers if entity @s[tag=ssbrc.entity.pokemon.diglett.rig.node.body1] run function ssbrc:game/entity/npc/pokemon/diglett/rig/zzz/summon/as_node/body1
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.body1 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=ssbrc.entity.pokemon.diglett.rig.node.ground1] run function ssbrc:entity/pokemon/diglett/rig/zzz/summon/as_node/ground1
+execute on passengers if entity @s[tag=ssbrc.entity.pokemon.diglett.rig.node.ground1] run function ssbrc:game/entity/npc/pokemon/diglett/rig/zzz/summon/as_node/ground1
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.ground1 set from storage animated_java:gu out
-function ssbrc:entity/pokemon/diglett/rig/zzz/set_default_pose
+function ssbrc:game/entity/npc/pokemon/diglett/rig/zzz/set_default_pose
 # Data Manager: Write
 function animated_java:global/data_manager/write with storage animated_java:temp args
-execute if data storage animated_java:temp args.variant run function ssbrc:entity/pokemon/diglett/rig/zzz/summon/variant_arg/process with storage animated_java:temp args
+execute if data storage animated_java:temp args.variant run function ssbrc:game/entity/npc/pokemon/diglett/rig/zzz/summon/variant_arg/process with storage animated_java:temp args
 execute if score #success aj.i matches 0 run return fail
-execute if data storage animated_java:temp args.animation run function ssbrc:entity/pokemon/diglett/rig/zzz/summon/animation_arg/process with storage animated_java:temp args
+execute if data storage animated_java:temp args.animation run function ssbrc:game/entity/npc/pokemon/diglett/rig/zzz/summon/animation_arg/process with storage animated_java:temp args
 execute if score #success aj.i matches 0 run return fail
 execute on passengers run rotate @s ~ ~
 data modify entity @s teleport_duration set value 1
 execute on passengers run data modify entity @s teleport_duration set value 1
-execute at @s run function ssbrc:entity/pokemon/diglett/rig/zzz/summon/on_summon/rig
+execute at @s run function ssbrc:game/entity/npc/pokemon/diglett/rig/zzz/summon/on_summon/rig
 tag @s remove aj.new
 execute on passengers run tag @s remove aj.new
 execute on passengers run ride @s dismount

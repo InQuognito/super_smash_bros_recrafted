@@ -4,19 +4,19 @@
 		"format_version": "1.10.0-beta.5",
 		"uuid": "50b1ae3c-91b5-eca0-e59a-926da9b8435d",
 		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\pokemon\\lapras.ajblueprint",
-		"last_used_blueprint_id": "ssbrc:entity/pokemon/lapras/rig"
+		"last_used_blueprint_id": "ssbrc:game/entity/npc/pokemon/lapras/rig"
 	},
 	"resolution": {
 		"width": 256,
 		"height": 128
 	},
 	"blueprint_settings": {
-		"blueprint_id": "ssbrc:entity/pokemon/lapras/rig",
+		"blueprint_id": "ssbrc:game/entity/npc/pokemon/lapras/rig",
 		"render_box": [48, 48],
 		"display_item": "minecraft:diamond",
 		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
 		"data_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
-		"on_summon_function": "function ssbrc:entity/pokemon/int",
+		"on_summon_function": "function ssbrc:game/entity/npc/pokemon/int",
 		"on_post_tick_function": "particle minecraft:cloud ~ ~.5 ~ .5 .1 .5 0 5 normal @a",
 		"auto_update_rig_orientation": false
 	},

@@ -4,19 +4,19 @@
 		"format_version": "1.10.0-beta.5",
 		"uuid": "6ab78e66-38d4-c926-8eef-22a4a44542fe",
 		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\pokemon\\magnemite.ajblueprint",
-		"last_used_blueprint_id": "ssbrc:entity/pokemon/magnemite/rig"
+		"last_used_blueprint_id": "ssbrc:game/entity/npc/pokemon/magnemite/rig"
 	},
 	"resolution": {
 		"width": 64,
 		"height": 32
 	},
 	"blueprint_settings": {
-		"blueprint_id": "ssbrc:entity/pokemon/magnemite/rig",
+		"blueprint_id": "ssbrc:game/entity/npc/pokemon/magnemite/rig",
 		"render_box": [48, 48],
 		"display_item": "minecraft:diamond",
 		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
 		"data_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
-		"on_summon_function": "function ssbrc:entity/pokemon/int",
+		"on_summon_function": "function ssbrc:game/entity/npc/pokemon/int",
 		"auto_update_rig_orientation": false
 	},
 	"elements": [

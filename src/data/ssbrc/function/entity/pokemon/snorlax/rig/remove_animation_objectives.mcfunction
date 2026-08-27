@@ -2,4 +2,4 @@
 scoreboard objectives remove aj.ground_idle.frame
 scoreboard objectives remove aj.sleep.frame
 scoreboard objectives remove aj.sleep2.frame
-tellraw @a [[{color:gray,text:'\n '},{color:'#00aced',text:'ᴀɴɪᴍᴀᴛᴇᴅ ᴊᴀᴠᴀ'},{color:dark_gray,italic:true,text:'\n (ssbrc:entity/pokemon/snorlax/rig)'},'\n → '],[{text:'Successfully uninstalled ',color:green},{text:'ssbrc:entity/pokemon/snorlax/rig',color:yellow},{text:'!'},{text:'\n If you have exported multiple times, you may have to remove objectives from previous exports manually, as Animated Java only knows about the objectives from the most recent export.',color:gray,italic:true}],'\n']
+tellraw @a [[{color:gray,text:'\n '},{color:'#00aced',text:'ᴀɴɪᴍᴀᴛᴇᴅ ᴊᴀᴠᴀ'},{color:dark_gray,italic:true,text:'\n (ssbrc:game/entity/npc/pokemon/snorlax/rig)'},'\n → '],[{text:'Successfully uninstalled ',color:green},{text:'ssbrc:game/entity/npc/pokemon/snorlax/rig',color:yellow},{text:'!'},{text:'\n If you have exported multiple times, you may have to remove objectives from previous exports manually, as Animated Java only knows about the objectives from the most recent export.',color:gray,italic:true}],'\n']

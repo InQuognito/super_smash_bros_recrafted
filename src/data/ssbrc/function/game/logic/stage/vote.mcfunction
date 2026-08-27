@@ -31,7 +31,7 @@ $execute unless items entity @s armor.body *[minecraft:custom_data~{temp: {selec
 ]
 tag @s remove self
 
-$function ssbrc:game/logic/player/data/set {data: {temp: {selected_stage: "$(name)"}}}
+$function ssbrc:game/entity/player/_logic/data/set {data: {temp: {selected_stage: "$(name)"}}}
 
 execute unless data storage ssbrc:data option{teams: true} run team join ready @s
 effect clear @s minecraft:glowing

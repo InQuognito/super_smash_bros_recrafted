@@ -1,5 +1,5 @@
-function ssbrc:game/logic/player/data/set {data: {temp: {fighter: {skin: "shiny"}}}}
-function ssbrc:game/logic/player/data/set {data: {temp: {flags: {natural_shiny: true}}}}
+function ssbrc:game/entity/player/_logic/data/set {data: {temp: {fighter: {skin: "shiny"}}}}
+function ssbrc:game/entity/player/_logic/data/set {data: {temp: {flags: {natural_shiny: true}}}}
 
 scoreboard players add @a[predicate=ssbrc:player] shiny_encounter 1
 

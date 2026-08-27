@@ -5,4 +5,4 @@ execute store result storage animated_java:temp args.id int 1 run scoreboard pla
 function animated_java:global/data_manager/read with storage animated_java:temp args
 data remove storage animated_java:temp args
 $execute store result storage animated_java:temp args.frame int 1 run scoreboard players set @s aj.sleep2.frame $(frame)
-execute at @s run function ssbrc:entity/pokemon/snorlax/rig/animations/sleep2/zzz/apply_frame with storage animated_java:temp args
+execute at @s run function ssbrc:game/entity/npc/pokemon/snorlax/rig/animations/sleep2/zzz/apply_frame with storage animated_java:temp args

@@ -4,5 +4,5 @@ execute store result storage animated_java:temp args.id int 1 run scoreboard pla
 # Data Manager: Read
 function animated_java:global/data_manager/read with storage animated_java:temp args
 execute unless data storage animated_java:temp {entry:{data:{rig_hash: 'b62e4ce5ebd3a8969afbd3de99af757b15e38017d0ce78e447f99e49e77c869a'}}} run function animated_java:global/remove/outdated_rig
-function ssbrc:entity/pokemon/gyarados/rig/remove/this/zzz/0 with storage animated_java:temp entry.data.uuids_by_name
+function ssbrc:game/entity/npc/pokemon/gyarados/rig/remove/this/zzz/0 with storage animated_java:temp entry.data.uuids_by_name
 function animated_java:global/remove/entity_stack

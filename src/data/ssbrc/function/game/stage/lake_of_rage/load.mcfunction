@@ -18,7 +18,7 @@
 #execute positioned 2538.1 23 3994.8 rotated 90 0 run function ssbrc:game/logic/pokemon/summon {name: "tyrogue", animation: "shoulder_left"}
 
 # Gyarados
-#execute if data storage ssbrc:data option{hazards: "true"} positioned 2487 12 4032.5 rotated 0 0 run function ssbrc:entity/pokemon/gyarados/rig/summon {args: {variant: "shiny", animation: "surfacewater_idle", start_animation: true}}
+#execute if data storage ssbrc:data option{hazards: "true"} positioned 2487 12 4032.5 rotated 0 0 run function ssbrc:game/entity/npc/pokemon/gyarados/rig/summon {args: {variant: "shiny", animation: "surfacewater_idle", start_animation: true}}
 
 # Sudowoodo
 #execute positioned 2513.5 16 3983.5 rotated 0 0 run function ssbrc:game/logic/pokemon/summon {name: "sudowoodo", animation: "ground_idle"}

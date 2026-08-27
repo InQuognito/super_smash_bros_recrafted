@@ -4,19 +4,19 @@
 		"format_version": "1.10.0-beta.5",
 		"uuid": "a957d450-db55-7117-46cc-ed9758951fc9",
 		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\pokemon\\metapod.ajblueprint",
-		"last_used_blueprint_id": "ssbrc:entity/pokemon/metapod/rig"
+		"last_used_blueprint_id": "ssbrc:game/entity/npc/pokemon/metapod/rig"
 	},
 	"resolution": {
 		"width": 64,
 		"height": 32
 	},
 	"blueprint_settings": {
-		"blueprint_id": "ssbrc:entity/pokemon/metapod/rig",
+		"blueprint_id": "ssbrc:game/entity/npc/pokemon/metapod/rig",
 		"render_box": [48, 48],
 		"display_item": "minecraft:diamond",
 		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
 		"data_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
-		"on_summon_function": "function ssbrc:entity/pokemon/int",
+		"on_summon_function": "function ssbrc:game/entity/npc/pokemon/int",
 		"auto_update_rig_orientation": false
 	},
 	"elements": [

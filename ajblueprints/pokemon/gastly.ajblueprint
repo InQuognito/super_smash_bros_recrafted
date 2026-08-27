@@ -4,19 +4,19 @@
 		"format_version": "1.10.0-beta.5",
 		"uuid": "16e9ad6d-2a62-0125-1681-3df898e5feec",
 		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\pokemon\\gastly.ajblueprint",
-		"last_used_blueprint_id": "ssbrc:entity/pokemon/gastly/rig"
+		"last_used_blueprint_id": "ssbrc:game/entity/npc/pokemon/gastly/rig"
 	},
 	"resolution": {
 		"width": 64,
 		"height": 64
 	},
 	"blueprint_settings": {
-		"blueprint_id": "ssbrc:entity/pokemon/gastly/rig",
+		"blueprint_id": "ssbrc:game/entity/npc/pokemon/gastly/rig",
 		"render_box": [48, 48],
 		"display_item": "minecraft:diamond",
 		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
 		"data_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
-		"on_summon_function": "function ssbrc:entity/pokemon/init",
+		"on_summon_function": "function ssbrc:game/entity/npc/pokemon/init",
 		"on_pre_tick_function": "teleport @s ^ ^ ^-.25 ~-4 ~\n\nexecute if entity @s[tag=shiny] run return run particle minecraft:dust_color_transition{from_color: [ .25, .5, 1 ], to_color: [ .5, .75, 1 ], scale: .75} ~ ~.75 ~ .3 .3 .3 0 25 normal @a\nparticle minecraft:dust_color_transition{from_color: [ 0, 0, 0 ], to_color: [.5, 0, .75], scale: .75} ~ ~.75 ~ .3 .3 .3 0 25 normal @a\n"
 	},
 	"elements": [

@@ -5,6 +5,6 @@ function ssbrc:game/logic/item/modify {search_key: "item", search_value: "keybla
 
 function ssbrc:game/entity/player/fighter/sora/spell_switch/fire/set {slot: "hotbar.0"}
 
-function ssbrc:game/logic/player/data/set {data: {temp: {fighter: {form: "default"}}}}
+function ssbrc:game/entity/player/_logic/data/set {data: {temp: {fighter: {form: "default"}}}}
 
 function ssbrc:game/entity/player/fighter/_logic/armor/update with entity @s equipment.body.components."minecraft:custom_data".temp.fighter

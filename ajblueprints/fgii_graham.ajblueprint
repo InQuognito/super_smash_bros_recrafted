@@ -4,14 +4,14 @@
 		"format_version": "1.10.0-beta.5",
 		"uuid": "e235b78d-deff-4f65-6e82-057e3dbd004e",
 		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\fgii_graham.ajblueprint",
-		"last_used_blueprint_id": "ssbrc:entity/metroid/fgii_graham/rig"
+		"last_used_blueprint_id": "ssbrc:game/entity/npc/metroid/fgii_graham/rig"
 	},
 	"resolution": {
 		"width": 16,
 		"height": 16
 	},
 	"blueprint_settings": {
-		"blueprint_id": "ssbrc:entity/metroid/fgii_graham/rig",
+		"blueprint_id": "ssbrc:game/entity/npc/metroid/fgii_graham/rig",
 		"render_box": [48, 48],
 		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
 		"data_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",

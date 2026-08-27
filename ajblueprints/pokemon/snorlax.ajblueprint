@@ -4,19 +4,19 @@
 		"format_version": "1.10.0-beta.5",
 		"uuid": "2b26028d-3e18-2a08-6163-db7bc2d926f1",
 		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\pokemon\\snorlax.ajblueprint",
-		"last_used_blueprint_id": "ssbrc:entity/pokemon/snorlax/rig"
+		"last_used_blueprint_id": "ssbrc:game/entity/npc/pokemon/snorlax/rig"
 	},
 	"resolution": {
 		"width": 256,
 		"height": 128
 	},
 	"blueprint_settings": {
-		"blueprint_id": "ssbrc:entity/pokemon/snorlax/rig",
+		"blueprint_id": "ssbrc:game/entity/npc/pokemon/snorlax/rig",
 		"render_box": [48, 48],
 		"display_item": "minecraft:diamond",
 		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
 		"data_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
-		"on_summon_function": "function ssbrc:entity/pokemon/int",
+		"on_summon_function": "function ssbrc:game/entity/npc/pokemon/int",
 		"auto_update_rig_orientation": false
 	},
 	"elements": [

@@ -1,6 +1,6 @@
 advancement revoke @s only ssbrc:utility/use_item/fighter/yar/power_ups/missile_launcher
 
-function ssbrc:game/logic/player/data/set {data: {temp: {fighter: {power_up: "missile_launcher"}}}}
+function ssbrc:game/entity/player/_logic/data/set {data: {temp: {fighter: {power_up: "missile_launcher"}}}}
 
 function ssbrc:game/logic/item/init/replace {search_key: "item", search_value: "ray_blaster", item: "missile_launcher", class: "default", type: "default"}
 

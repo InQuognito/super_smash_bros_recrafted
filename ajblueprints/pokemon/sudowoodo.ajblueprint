@@ -4,19 +4,19 @@
 		"format_version": "1.10.0-beta.5",
 		"uuid": "5913b3fa-f67e-9e61-4d5d-8fefa17a37c0",
 		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\pokemon\\sudowoodo.ajblueprint",
-		"last_used_blueprint_id": "ssbrc:entity/pokemon/sudowoodo/rig"
+		"last_used_blueprint_id": "ssbrc:game/entity/npc/pokemon/sudowoodo/rig"
 	},
 	"resolution": {
 		"width": 128,
 		"height": 64
 	},
 	"blueprint_settings": {
-		"blueprint_id": "ssbrc:entity/pokemon/sudowoodo/rig",
+		"blueprint_id": "ssbrc:game/entity/npc/pokemon/sudowoodo/rig",
 		"render_box": [48, 48],
 		"display_item": "minecraft:diamond",
 		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
 		"data_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
-		"on_summon_function": "function ssbrc:entity/pokemon/int",
+		"on_summon_function": "function ssbrc:game/entity/npc/pokemon/int",
 		"auto_update_rig_orientation": false
 	},
 	"elements": [

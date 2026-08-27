@@ -16,7 +16,7 @@ execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "raoul"}}}] run function ssbrc:game/logic/item/give/default {item: "phantom_show", class: "default", type: "default"}
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "yatagarasu"}}}] run attribute @s minecraft:knockback_resistance modifier add ssbrc:passive .25 add_value
 
-function ssbrc:game/logic/player/data/set {data: {temp: {fighter: {form: "awakening"}}}}
+function ssbrc:game/entity/player/_logic/data/set {data: {temp: {fighter: {form: "awakening"}}}}
 function ssbrc:game/entity/player/fighter/_logic/armor/update with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
 playsound ssbrc:fighter.joker.persona_awakening.activate player @a

@@ -1,3 +1,3 @@
 tag @s add gyarados
 
-function ssbrc:entity/pokemon/init
+function ssbrc:game/entity/npc/pokemon/init

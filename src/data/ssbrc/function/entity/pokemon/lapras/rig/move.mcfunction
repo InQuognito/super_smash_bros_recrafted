@@ -4,5 +4,5 @@ tp @s ~ ~ ~ ~ ~
 execute store result storage animated_java:temp args.id int 1 run scoreboard players get @s aj.id
 # Data Manager: Read
 function animated_java:global/data_manager/read with storage animated_java:temp args
-function ssbrc:entity/pokemon/lapras/rig/root/on_tick/transform_floating_entities
-function ssbrc:entity/pokemon/lapras/rig/zzz/0 with storage animated_java:temp entry.data.uuids_by_name
+function ssbrc:game/entity/npc/pokemon/lapras/rig/root/on_tick/transform_floating_entities
+function ssbrc:game/entity/npc/pokemon/lapras/rig/zzz/0 with storage animated_java:temp entry.data.uuids_by_name

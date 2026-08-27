@@ -76,7 +76,7 @@
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/logic/player/tick"
+					"function": "ssbrc:game/entity/player/_logic/tick"
 				}
 			},
 			{
@@ -108,7 +108,7 @@
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/logic/player/tick/dead"
+					"function": "ssbrc:game/entity/player/_logic/tick/dead"
 				}
 			},
 			{
@@ -137,7 +137,7 @@
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/logic/player/tick/respawning"
+					"function": "ssbrc:game/entity/player/_logic/tick/respawning"
 				}
 			},
 			{
@@ -169,7 +169,7 @@
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/logic/player/tick/participant"
+					"function": "ssbrc:game/entity/player/_logic/tick/participant"
 				}
 			}
 		]

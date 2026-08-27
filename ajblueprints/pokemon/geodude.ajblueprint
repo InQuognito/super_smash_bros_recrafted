@@ -4,19 +4,19 @@
 		"format_version": "1.10.0-beta.5",
 		"uuid": "da5e94b6-7f9d-34c6-3cc1-3e13591fadd5",
 		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\pokemon\\geodude.ajblueprint",
-		"last_used_blueprint_id": "ssbrc:entity/pokemon/geodude/rig"
+		"last_used_blueprint_id": "ssbrc:game/entity/npc/pokemon/geodude/rig"
 	},
 	"resolution": {
 		"width": 64,
 		"height": 64
 	},
 	"blueprint_settings": {
-		"blueprint_id": "ssbrc:entity/pokemon/geodude/rig",
+		"blueprint_id": "ssbrc:game/entity/npc/pokemon/geodude/rig",
 		"render_box": [48, 48],
 		"display_item": "minecraft:diamond",
 		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
 		"data_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
-		"on_summon_function": "function ssbrc:entity/pokemon/init",
+		"on_summon_function": "function ssbrc:game/entity/npc/pokemon/init",
 		"auto_update_rig_orientation": false
 	},
 	"elements": [

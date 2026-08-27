@@ -4,19 +4,19 @@
 		"format_version": "1.10.0-beta.5",
 		"uuid": "25168702-0a26-8ce8-5211-620acb2e223b",
 		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\pokemon\\diglett.ajblueprint",
-		"last_used_blueprint_id": "ssbrc:entity/pokemon/diglett/rig"
+		"last_used_blueprint_id": "ssbrc:game/entity/npc/pokemon/diglett/rig"
 	},
 	"resolution": {
 		"width": 64,
 		"height": 32
 	},
 	"blueprint_settings": {
-		"blueprint_id": "ssbrc:entity/pokemon/diglett/rig",
+		"blueprint_id": "ssbrc:game/entity/npc/pokemon/diglett/rig",
 		"render_box": [48, 48],
 		"display_item": "minecraft:diamond",
 		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
 		"data_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
-		"on_summon_function": "function ssbrc:entity/pokemon/init",
+		"on_summon_function": "function ssbrc:game/entity/npc/pokemon/init",
 		"auto_update_rig_orientation": false
 	},
 	"elements": [

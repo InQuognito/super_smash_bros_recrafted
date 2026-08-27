@@ -4,19 +4,19 @@
 		"format_version": "1.10.0-beta.5",
 		"uuid": "328dc867-3627-b3b7-0e9f-147a87844a33",
 		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\pokemon\\tyrogue.ajblueprint",
-		"last_used_blueprint_id": "ssbrc:entity/pokemon/tyrogue/rig"
+		"last_used_blueprint_id": "ssbrc:game/entity/npc/pokemon/tyrogue/rig"
 	},
 	"resolution": {
 		"width": 64,
 		"height": 64
 	},
 	"blueprint_settings": {
-		"blueprint_id": "ssbrc:entity/pokemon/tyrogue/rig",
+		"blueprint_id": "ssbrc:game/entity/npc/pokemon/tyrogue/rig",
 		"render_box": [48, 48],
 		"display_item": "minecraft:diamond",
 		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
 		"data_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
-		"on_summon_function": "function ssbrc:entity/pokemon/int",
+		"on_summon_function": "function ssbrc:game/entity/npc/pokemon/int",
 		"auto_update_rig_orientation": false
 	},
 	"elements": [

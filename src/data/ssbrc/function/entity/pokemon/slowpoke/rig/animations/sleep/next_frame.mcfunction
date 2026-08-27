@@ -2,5 +2,5 @@
 execute if score @s aj.sleep.frame matches 80.. run scoreboard players set @s aj.sleep.frame 1
 data remove storage animated_java:temp args
 execute store result storage animated_java:temp args.frame int 1 run scoreboard players get @s aj.sleep.frame
-execute at @s run function ssbrc:entity/pokemon/slowpoke/rig/animations/sleep/zzz/apply_frame with storage animated_java:temp args
+execute at @s run function ssbrc:game/entity/npc/pokemon/slowpoke/rig/animations/sleep/zzz/apply_frame with storage animated_java:temp args
 scoreboard players add @s aj.sleep.frame 1

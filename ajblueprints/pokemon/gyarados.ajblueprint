@@ -4,20 +4,20 @@
 		"format_version": "1.10.0-beta.5",
 		"uuid": "a4476ee3-c0f3-85b0-0ac4-98c365c6196a",
 		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\pokemon\\gyarados.ajblueprint",
-		"last_used_blueprint_id": "ssbrc:entity/pokemon/gyarados/rig"
+		"last_used_blueprint_id": "ssbrc:game/entity/npc/pokemon/gyarados/rig"
 	},
 	"resolution": {
 		"width": 256,
 		"height": 256
 	},
 	"blueprint_settings": {
-		"blueprint_id": "ssbrc:entity/pokemon/gyarados/rig",
+		"blueprint_id": "ssbrc:game/entity/npc/pokemon/gyarados/rig",
 		"render_box": [48, 48],
 		"display_item": "minecraft:diamond",
 		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
 		"data_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
-		"on_summon_function": "function ssbrc:entity/pokemon/init\n",
-		"on_pre_tick_function": "execute if score @s temp matches 1.. run return run function ssbrc:entity/pokemon/gyarados/logic/tick\n\nexecute if predicate ssbrc:random_chance/0.15 run function ssbrc:entity/pokemon/gyarados/logic/activate\n"
+		"on_summon_function": "function ssbrc:game/entity/npc/pokemon/init\n",
+		"on_pre_tick_function": "execute if score @s temp matches 1.. run return run function ssbrc:game/entity/npc/pokemon/gyarados/logic/tick\n\nexecute if predicate ssbrc:random_chance/0.15 run function ssbrc:game/entity/npc/pokemon/gyarados/logic/activate\n"
 	},
 	"elements": [
 		{
