@@ -1,3 +1,6 @@
+attribute @s minecraft:air_drag_modifier base reset
+function ssbrc:game/fighter/_logic/attributes/remove {attribute: "air_drag_modifier"}
+
 attribute @s minecraft:armor base reset
 function ssbrc:game/fighter/_logic/attributes/remove {attribute: "armor"}
 
@@ -9,11 +12,17 @@ function ssbrc:game/fighter/_logic/attributes/remove {attribute: "attack_speed"}
 
 attribute @s minecraft:block_interaction_range base set 10.0
 
+attribute @s minecraft:bounciness base reset
+function ssbrc:game/fighter/_logic/attributes/remove {attribute: "bounciness"}
+
 attribute @s minecraft:entity_interaction_range base reset
 
 attribute @s minecraft:fall_damage_multiplier base set 0.0
 function ssbrc:game/fighter/_logic/attributes/remove {attribute: "fall_damage_multiplier"}
 attribute @s minecraft:fall_damage_multiplier modifier remove ssbrc:launched
+
+attribute @s minecraft:friction_modifier base reset
+function ssbrc:game/fighter/_logic/attributes/remove {attribute: "friction_modifier"}
 
 attribute @s minecraft:gravity base reset
 function ssbrc:game/fighter/_logic/attributes/remove {attribute: "gravity"}
