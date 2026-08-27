@@ -22,4 +22,6 @@ item modify entity @s weapon.mainhand { \
 	], \
 }
 
+playsound ssbrc:smash_item.throw player @a
+
 function ssbrc:game/fighter/_logic/ability/deinit

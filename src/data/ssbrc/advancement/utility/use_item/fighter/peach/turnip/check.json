@@ -7,8 +7,7 @@
 				"player": {
 					"type": "minecraft:all_of",
 					"terms": [
-						"ssbrc:cooldown/universal",
-						"ssbrc:flag/still"
+						"ssbrc:cooldown/universal"
 					]
 				},
 				"item": {
