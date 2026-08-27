@@ -1,4 +1,4 @@
-scoreboard players set @s charge.2 0
+function ssbrc:game/fighter/altered_beast/weretiger/pounce/reset
 scoreboard players set @s charge.3 1
 
 attribute @s minecraft:jump_strength modifier add ssbrc:jump_modifier 1 add_multiplied_total
