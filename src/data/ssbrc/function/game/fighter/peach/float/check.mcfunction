@@ -1,7 +1,8 @@
-execute unless entity @s[tag=float] run function ssbrc:game/fighter/peach/float/activate
-
 execute if score @s charge.1 matches 1 run function ssbrc:game/fighter/peach/float/deactivate
 scoreboard players remove @s charge.1 1
+
+execute if score @s cooldown.1 matches 1.. run return fail
+execute unless entity @s[tag=float] run function ssbrc:game/fighter/peach/float/activate
 
 scoreboard players operation #cache temp = @s charge.1
 scoreboard players operation #cache temp %= #8 const
