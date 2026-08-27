@@ -53,4 +53,4 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 	}, \
 ]
 
-$item modify entity @s $(slot) ssbrc:smash_item/$(item)
+#$item modify entity @s $(slot) ssbrc:smash_item/$(item)

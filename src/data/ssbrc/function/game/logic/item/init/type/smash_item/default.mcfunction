@@ -34,4 +34,4 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 	}, \
 ]
 
-$item modify entity @s $(slot) ssbrc:smash_item/$(item)
+#$item modify entity @s $(slot) ssbrc:smash_item/$(item)
