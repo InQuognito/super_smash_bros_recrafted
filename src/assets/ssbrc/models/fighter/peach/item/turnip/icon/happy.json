@@ -1,6 +1,6 @@
 {
 	"parent": "ssbrc:template/item/hud",
 	"textures": {
-		"face": "ssbrc:fighter/peach/item/turnip/icon/happy"
+		"base": "ssbrc:fighter/peach/item/turnip/icon/happy"
 	}
 }

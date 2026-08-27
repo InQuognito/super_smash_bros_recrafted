@@ -1,4 +1,5 @@
-execute positioned ~-.4 ~-.4 ~-.4 as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dx=0] positioned ~-.2 ~-.2 ~-.2 if entity @s[dx=0] run function ssbrc:game/logic/damage/generic {amount: 6, kb_resist: 0, i_frames: 5}
+execute positioned ~-.4 ~-.4 ~-.4 as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dx=0] positioned ~-.2 ~-.2 ~-.2 if entity @s[dx=0] run function ssbrc:game/fighter/peach/turnip/hit
+execute if score #entity_hit temp matches 1 unless entity @s[tag=launched] run return run function ssbrc:game/fighter/peach/turnip/launch
 
 scoreboard players add @s[predicate=ssbrc:flag/grounded] timer 1
 kill @s[scores={timer=20..}]
