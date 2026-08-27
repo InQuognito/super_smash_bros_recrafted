@@ -7,6 +7,7 @@ tag @s remove check_kill
 tag @s remove check_shockwave
 tag @s remove critical
 tag @s remove fighter_picked
+tag @s remove ground_pound
 tag @s remove hud_disabled
 tag @s remove ignore_feedback
 tag @s remove intangible

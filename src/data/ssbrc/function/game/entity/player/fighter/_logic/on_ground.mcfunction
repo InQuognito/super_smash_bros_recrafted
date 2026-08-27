@@ -8,6 +8,7 @@ scoreboard players set @s jump 0
 
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "altered_beast", form: "weredragon"}}}] run return run scoreboard players set @s jumps 3
 execute if items entity @s[tag=pounce] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "altered_beast", form: "weretiger"}}}] run function ssbrc:game/entity/player/fighter/altered_beast/weretiger/pounce/deactivate
+execute if items entity @s[tag=ground_pound] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "bowser"}}}] run function ssbrc:game/entity/player/fighter/bowser/ground_pound/deactivate
 execute if items entity @s[tag=falcon_kick] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "captain_falcon"}}}] run function ssbrc:game/entity/player/fighter/captain_falcon/falcon_kick/deactivate
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "jigglypuff"}}}] run return run scoreboard players set @s jumps 3
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "kirby"}}}] run return run scoreboard players set @s jumps 6
