@@ -1,5 +1,7 @@
 function ssbrc:game/fighter/_logic/effects/immobile/activate {type: "default", duration: 8}
 
+playsound ssbrc:fighter.peach.turnip.pluck player @a
+
 execute store result score #random temp run random value 1..10054
 
 execute if score #random temp matches 6015..7028 run return run function ssbrc:game/fighter/peach/turnip/set {turnip: "stare"}
