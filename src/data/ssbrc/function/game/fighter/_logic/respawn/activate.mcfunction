@@ -1,3 +1,10 @@
+item modify entity @s armor.body { \
+	type: "minecraft:set_enchantments", \
+	enchantments: { \
+		"ssbrc:player": 4, \
+	}, \
+}
+
 title @s title ""
 
 function ssbrc:game/fighter/_logic/respawn/effects
