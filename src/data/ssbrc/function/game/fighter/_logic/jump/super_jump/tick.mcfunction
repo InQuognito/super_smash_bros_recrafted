@@ -2,8 +2,6 @@ execute unless predicate ssbrc:flag/still run return run function ssbrc:game/fig
 
 execute unless score @s silenced matches 1.. run scoreboard players add @s[predicate=ssbrc:flag/grounded,predicate=ssbrc:flag/sneaking] charge.1 1
 
-execute if score @s charge.1 matches 1 run function ssbrc:game/fighter/_logic/effects/immobile/activate {type: "default", duration: 1000000}
-
 execute if score @s charge.1 < #super_mario_bros.super_jump const run return fail
 execute if score @s charge.1 = #super_mario_bros.super_jump const run function ssbrc:game/fighter/_logic/jump/super_jump/charge with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
