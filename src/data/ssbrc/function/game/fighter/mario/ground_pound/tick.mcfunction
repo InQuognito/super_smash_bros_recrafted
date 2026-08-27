@@ -1,3 +1,5 @@
+execute if entity @s[tag=ground_pound] run return fail
+
 scoreboard players add @s[scores={charge.3=1..}] charge.3 1
 execute if score @s charge.3 matches 5.. run function ssbrc:game/fighter/mario/ground_pound/activate
 
