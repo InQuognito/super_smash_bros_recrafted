@@ -2,15 +2,7 @@ execute unless entity @s[tag=fire_breath] run playsound ssbrc:fighter.bowser.fir
 tag @s add fire_breath
 
 scoreboard players remove @s[scores={charge.1=1..}] charge.1 1
-function ssbrc:game/entity/player/fighter/_logic/hud/type/percentage { \
-	hud: 1, \
-	data: [{text: " | Fire Breath: "}], \
-	max: "bowser.fire_breath", \
-	current: "charge.1", \
-	background: true, \
-	resource_color: "red", \
-	bg_color: "dark_gray", \
-}
+function ssbrc:game/entity/player/fighter/bowser/fire_breath/update
 
 function ssbrc:game/entity/player/fighter/bowser/fire_breath/particle
 
