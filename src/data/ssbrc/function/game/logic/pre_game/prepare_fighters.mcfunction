@@ -13,5 +13,5 @@ scoreboard players set @s flag.dead 0
 
 execute unless data storage ssbrc:data option{teams: true} run function ssbrc:game/logic/team/get
 
-attribute @s minecraft:jump_strength base set 0.0
+attribute @s minecraft:jump_strength base set 0
 effect give @s minecraft:slowness infinite 255 true
