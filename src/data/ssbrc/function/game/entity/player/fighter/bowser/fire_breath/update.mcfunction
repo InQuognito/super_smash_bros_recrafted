@@ -4,6 +4,6 @@ function ssbrc:game/entity/player/fighter/_logic/hud/type/percentage { \
 	max: "bowser.fire_breath", \
 	current: "charge.1", \
 	background: true, \
-	resource_color: "red", \
+	resource_color: "gold", \
 	bg_color: "dark_gray", \
 }
