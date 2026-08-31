@@ -39,7 +39,8 @@ scoreboard players operation #cache temp /= #100 const
 scoreboard players operation #altered_beast.spirit.consumption_rate.feral_instincts const -= #cache temp
 
 scoreboard players set #bowser.fire_breath const 100
-scoreboard players set #bowser.rage const 200
+scoreboard players set #bowser.rage const 300
+scoreboard players set #bowser.rage.threshold const 200
 
 scoreboard players set #cloud.limit const 60
 

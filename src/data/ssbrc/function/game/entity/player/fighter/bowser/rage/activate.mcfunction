@@ -1,4 +1,4 @@
-scoreboard players set @s duration.1 300
+scoreboard players operation @s duration.1 = #bowser.rage const
 
 effect give @s minecraft:resistance 3 2 true
 
