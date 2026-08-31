@@ -4,7 +4,8 @@ $scoreboard players operation #resource.value temp = @s $(current)
 scoreboard players reset #resource.pool temp
 
 function math:percentage {output: "#percent temp", val: "#resource.value temp", div: "#resource.max temp"}
-execute store result score #resource.value temp run scoreboard players operation #percent temp /= #100 const
+execute store result score #resource.value temp run scoreboard players operation #percent temp /= #10 const
+scoreboard players operation #resource.max temp /= #10 const
 
 # Module Order
 function ssbrc:game/entity/player/fighter/_logic/hud/module/resource
