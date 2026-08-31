@@ -4,7 +4,7 @@ tag @s add fire_breath
 scoreboard players remove @s[scores={charge.1=1..}] charge.1 1
 function ssbrc:game/entity/player/fighter/_logic/hud/type/percentage { \
 	hud: 1, \
-	data: [], \
+	data: [{text: " | Fire Breath: "}], \
 	max: "bowser.fire_breath", \
 	current: "charge.1", \
 	background: true, \
