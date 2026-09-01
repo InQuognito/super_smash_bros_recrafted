@@ -36,6 +36,26 @@
 					"type": "minecraft:run_function",
 					"function": "ssbrc:game/entity/player/fighter/bowser/rage_ball/check"
 				}
+			},
+			{
+				"requirements": {
+					"type": "minecraft:value_check",
+					"value": {
+						"type": "minecraft:score",
+						"target": {
+							"type": "minecraft:fixed",
+							"name": "#charge"
+						},
+						"score": "temp"
+					},
+					"range": {
+						"min": 7
+					}
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "ssbrc:game/entity/player/fighter/bowser/fire_breath/deactivate"
+				}
 			}
 		],
 		"minecraft:ammo_use": [

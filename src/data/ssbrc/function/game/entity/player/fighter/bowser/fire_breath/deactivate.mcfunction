@@ -1,4 +1,3 @@
-tag @s remove fire_breath
+kill @s
 
-function ssbrc:game/logic/item/cooldown/set/const {type: "1", value: "20"}
-function ssbrc:game/logic/item/cooldown/set/const {type: "2", value: "80"}
+execute on origin run function ssbrc:game/entity/player/fighter/bowser/fire_breath/reset

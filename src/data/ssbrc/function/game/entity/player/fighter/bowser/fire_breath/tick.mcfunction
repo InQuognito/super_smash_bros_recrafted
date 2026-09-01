@@ -1,5 +1,4 @@
 execute unless entity @s[tag=fire_breath] run playsound ssbrc:fighter.bowser.fire_breath.activate player @a
-tag @s add fire_breath
 
 scoreboard players remove @s[scores={charge.1=1..}] charge.1 1
 function ssbrc:game/entity/player/fighter/bowser/fire_breath/update
