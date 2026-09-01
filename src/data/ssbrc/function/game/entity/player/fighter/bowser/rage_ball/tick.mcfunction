@@ -6,8 +6,8 @@ particle minecraft:smoke ~ ~ ~ .5 .5 .5 .01 25 normal @a
 
 execute if entity @s[tag=rage] run scoreboard players set #rage temp 1
 execute positioned ~-.5 ~-.5 ~-.5 as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dx=0] run function ssbrc:game/entity/player/fighter/bowser/rage_ball/hit/entity
-execute if score #entity_hit temp matches 1 run return run kill @s
 scoreboard players reset #rage temp
+execute if score #entity_hit temp matches 1 run return run kill @s
 
 teleport @s ^ ^ ^.5
 
