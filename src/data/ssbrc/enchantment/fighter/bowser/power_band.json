@@ -1,0 +1,58 @@
+{
+	"description": "",
+	"supported_items": "#ssbrc:equipment/ability",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"hand"
+	],
+	"effects": {
+		"minecraft:projectile_spawned": [
+			{
+				"requirements": {
+					"type": "minecraft:value_check",
+					"value": {
+						"type": "minecraft:score",
+						"target": {
+							"type": "minecraft:fixed",
+							"name": "#charge"
+						},
+						"score": "temp"
+					},
+					"range": {
+						"max": 6
+					}
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "ssbrc:game/entity/player/fighter/bowser/rage_ball/check"
+				}
+			}
+		],
+		"minecraft:ammo_use": [
+			{
+				"effect": {
+					"type": "minecraft:set",
+					"value": 0.0
+				}
+			}
+		],
+		"minecraft:item_damage": [
+			{
+				"effect": {
+					"type": "minecraft:set",
+					"value": 0
+				}
+			}
+		]
+	}
+}

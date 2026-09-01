@@ -1,0 +1,4 @@
+scoreboard players operation @s charge.1 -= #bowser.rage_ball const
+scoreboard players operation #cache temp = @s duration.1
+
+execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ssbrc:game/entity/player/fighter/bowser/rage_ball/init

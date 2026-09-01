@@ -267,8 +267,9 @@ fighters = {
 		],
 		'items': {
 			'power_band': {
-				'type': 'weapon',
+				'type': 'hybrid',
 				'stats': {
+					'speed_multiplier': 0.5,
 					'attack_damage': 8,
 					'attack_speed': 1
 				},
