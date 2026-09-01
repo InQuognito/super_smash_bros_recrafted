@@ -5,7 +5,7 @@ attribute @s[scores={armor_break=1}] minecraft:armor modifier remove ssbrc:armor
 
 execute if score @s burning matches 1.. run function ssbrc:game/entity/player/fighter/_logic/effects/burning/tick
 
-execute if entity @s[predicate=ssbrc:fighter/effects/poison] run particle minecraft:dust{color: [0,1,0], scale: .5} ~ ~.75 ~ .2 .4 .2 0 1 normal @a
+execute if predicate ssbrc:fighter/effects/poison run particle minecraft:dust{color: [0,1,0], scale: .5} ~ ~.75 ~ .2 .4 .2 0 1 normal @a
 
 execute if score @s frostbite.timer matches 1.. run function ssbrc:game/entity/player/fighter/_logic/attributes/modifiers/frostbite/tick
 
