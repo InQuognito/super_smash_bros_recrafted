@@ -6,6 +6,9 @@ execute if entity @s[tag=sabretooth] run return run function ssbrc:game/entity/p
 # Alucard
 execute if entity @s[tag=mist] run return run function ssbrc:game/entity/player/fighter/alucard/mist/tick_entity
 
+# Bowser
+execute if entity @s[tag=rage_ball] run return run function ssbrc:game/entity/player/fighter/bowser/rage_ball/tick
+
 # Byleth
 execute if entity @s[tag=failnaught,tag=awakened] run return run function ssbrc:game/entity/player/fighter/byleth/golden_deer/failnaught/tick
 
