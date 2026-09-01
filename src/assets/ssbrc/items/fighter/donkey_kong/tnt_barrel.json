@@ -7,13 +7,13 @@
 				"when": "gold",
 				"model": {
 					"type": "minecraft:model",
-					"model": "ssbrc:fighter/donkey_kong/item/barrel/gold/model"
+					"model": "ssbrc:fighter/donkey_kong/item/tnt_barrel/gold/model"
 				}
 			}
 		],
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "ssbrc:fighter/donkey_kong/item/barrel/default/model"
+			"model": "ssbrc:fighter/donkey_kong/item/tnt_barrel/default/model"
 		}
 	},
 	"hand_animation_on_swap": false

@@ -1,0 +1,34 @@
+{
+	"model": {
+		"type": "minecraft:range_dispatch",
+		"property": "minecraft:use_duration",
+		"entries": [
+			{
+				"threshold": 40,
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/donkey_kong/item/barrel/icon"
+				}
+			},
+			{
+				"threshold": 60,
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/donkey_kong/item/tnt_barrel/icon"
+				}
+			},
+			{
+				"threshold": 80,
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/donkey_kong/item/steel_keg/icon"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "minecraft:iron_sword"
+		}
+	},
+	"hand_animation_on_swap": false
+}
