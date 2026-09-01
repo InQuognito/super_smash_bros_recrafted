@@ -1,6 +1,6 @@
 scoreboard players operation @s duration.1 = #bowser.rage const
 
-effect give @s minecraft:resistance 3 2 true
+function ssbrc:game/entity/player/fighter/_logic/effects/invincible/activate {duration: 60}
 
 attribute @s minecraft:armor modifier add ssbrc:rage -1 add_multiplied_total
 attribute @s minecraft:attack_damage modifier add ssbrc:rage .2 add_multiplied_base

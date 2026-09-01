@@ -1,5 +1,5 @@
-execute if score @s i_frames matches 1.. run return fail
-$scoreboard players set @s i_frames $(i_frames)
+execute if score @s invincible matches 1.. run return fail
+$function ssbrc:game/entity/player/fighter/_logic/effects/invincible/activate {duration: $(i_frames)}
 
 $scoreboard players set #damage_taken temp $(amount)
 scoreboard players operation @s health -= #damage_taken temp

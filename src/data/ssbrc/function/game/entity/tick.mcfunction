@@ -1,5 +1,3 @@
-scoreboard players remove @s[scores={i_frames=1..}] i_frames 1
-
 scoreboard players remove @s[scores={armor_break=1..}] armor_break 1
 attribute @s[scores={armor_break=1}] minecraft:armor modifier remove ssbrc:armor_break
 
