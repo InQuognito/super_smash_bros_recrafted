@@ -19,6 +19,19 @@
 		"minecraft:post_attack": [
 			{
 				"enchanted": "attacker",
+				"affected": "attacker",
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:run_function",
+							"function": "ssbrc:game/logic/damage/melee_hit"
+						}
+					]
+				}
+			},
+			{
+				"enchanted": "attacker",
 				"affected": "victim",
 				"effect": {
 					"type": "minecraft:all_of",
