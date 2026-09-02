@@ -28,7 +28,7 @@
 						},
 						"score": "temp"
 					},
-					"range": {
+					"test": {
 						"min": 19
 					}
 				},

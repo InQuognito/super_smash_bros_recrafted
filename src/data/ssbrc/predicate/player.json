@@ -24,7 +24,7 @@
 				"target": "this",
 				"score": "respawn"
 			},
-			"range": {
+			"test": {
 				"max": 0
 			}
 		}
