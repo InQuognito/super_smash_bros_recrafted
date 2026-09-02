@@ -36,7 +36,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -64,7 +64,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -92,7 +92,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -120,7 +120,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -148,7 +148,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -176,7 +176,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -204,7 +204,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -232,7 +232,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -260,7 +260,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -288,7 +288,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -316,7 +316,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -344,7 +344,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -372,7 +372,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -400,7 +400,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -428,7 +428,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -456,7 +456,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -484,7 +484,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -512,7 +512,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -540,7 +540,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -568,7 +568,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -596,7 +596,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -624,7 +624,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -652,7 +652,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -680,7 +680,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -708,7 +708,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -736,7 +736,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -764,7 +764,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -792,7 +792,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -820,7 +820,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -848,7 +848,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -876,7 +876,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -904,7 +904,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -932,7 +932,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -960,7 +960,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -988,7 +988,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1016,7 +1016,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1044,7 +1044,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1072,7 +1072,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1100,7 +1100,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1128,7 +1128,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1156,7 +1156,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1184,7 +1184,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1212,7 +1212,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1240,7 +1240,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1268,7 +1268,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1296,7 +1296,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1324,7 +1324,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1352,7 +1352,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1380,7 +1380,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1408,7 +1408,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1436,7 +1436,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1464,7 +1464,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1492,7 +1492,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1520,7 +1520,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1548,7 +1548,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1576,7 +1576,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1604,7 +1604,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1632,7 +1632,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1660,7 +1660,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1688,7 +1688,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1716,7 +1716,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1744,7 +1744,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1772,7 +1772,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1800,7 +1800,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1828,7 +1828,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1856,7 +1856,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1884,7 +1884,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1912,7 +1912,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1940,7 +1940,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1968,7 +1968,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -1996,7 +1996,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2024,7 +2024,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2052,7 +2052,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2080,7 +2080,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2108,7 +2108,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2136,7 +2136,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2164,7 +2164,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2192,7 +2192,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2220,7 +2220,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2248,7 +2248,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2276,7 +2276,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2304,7 +2304,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2332,7 +2332,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2360,7 +2360,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2388,7 +2388,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2416,7 +2416,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2444,7 +2444,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2472,7 +2472,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2500,7 +2500,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2528,7 +2528,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2556,7 +2556,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2584,7 +2584,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2612,7 +2612,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2640,7 +2640,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2668,7 +2668,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",
@@ -2696,7 +2696,7 @@
                         },
                         "score": "player_motion.internal.store"
                     },
-                    "range": 1
+                    "test": 1
                 },
                 "effect": {
                     "type": "minecraft:apply_impulse",

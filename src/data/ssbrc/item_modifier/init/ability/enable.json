@@ -6,7 +6,7 @@
 			"sound_event": {
 				"sound_id": "ssbrc:empty"
 			},
-			"range": 1,
+			"test": 1,
 			"description": ""
 		}
 	}
