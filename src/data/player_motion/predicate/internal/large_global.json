@@ -4,7 +4,7 @@
     {
       "type": "minecraft:inverted",
       "term": {
-        "type": "minecraft:value_check",
+        "type": "minecraft:int_value_check",
         "value": {
           "type": "minecraft:score",
           "target": {
@@ -22,7 +22,7 @@
     {
       "type": "minecraft:inverted",
       "term": {
-        "type": "minecraft:value_check",
+        "type": "minecraft:int_value_check",
         "value": {
           "type": "minecraft:score",
           "target": {
@@ -40,7 +40,7 @@
     {
       "type": "minecraft:inverted",
       "term": {
-        "type": "minecraft:value_check",
+        "type": "minecraft:int_value_check",
         "value": {
           "type": "minecraft:score",
           "target": {
