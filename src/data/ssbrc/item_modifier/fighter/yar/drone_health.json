@@ -1,9 +1,15 @@
 {
 	"type": "minecraft:set_damage",
 	"damage": {
-		"type": "minecraft:score",
-		"target": "this",
-		"score": "yar.drone.health"
+		"type": "minecraft:from_int",
+		"input": {
+			"type": "minecraft:score",
+			"target": {
+				"type": "minecraft:fixed",
+				"name": "#yar.drone.health"
+			},
+			"score": "temp"
+		}
 	},
 	"add": false
 }

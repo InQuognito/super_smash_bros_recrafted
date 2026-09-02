@@ -1,13 +1,19 @@
 {
 	"type": "minecraft:set_damage",
 	"damage": {
-		"type": "minecraft:score",
-		"target": {
-			"type": "minecraft:fixed",
-			"name": "indicator.damage"
-		},
-		"score": "temp",
-		"scale": 0.01
+		"type": "minecraft:from_int",
+		"input": {
+			"type": "minecraft:div",
+			"left": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#indicator.damage"
+				},
+				"score": "temp"
+			},
+			"right": 100
+		}
 	},
 	"add": false
 }
