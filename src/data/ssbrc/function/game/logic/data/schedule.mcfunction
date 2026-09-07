@@ -7,6 +7,9 @@ schedule clear ssbrc:game/logic/music/decide_schedule
 schedule clear ssbrc:game/logic/music/loop_schedule
 schedule clear ssbrc:game/logic/timer/fighter/schedule
 
+# Flat Zone
+schedule clear ssbrc:game/stage/flat_zone/turtle/schedule
+
 # Luigis Mansion
 schedule clear ssbrc:game/stage/luigis_mansion/blackout/check
 schedule clear ssbrc:game/stage/luigis_mansion/blackout/deactivate

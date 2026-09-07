@@ -287,6 +287,33 @@
 			}
 		]
 	},
+	"fighter.bowser.ground_pound": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/bowser/ground_pound",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.bowser.rage_ball.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/bowser/rage_ball/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.bowser.rage_ball.explode": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/bowser/rage_ball/explode",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
 	"fighter.bowser.rage.activate": {
 		"sounds": [
 			{

@@ -6,4 +6,6 @@ function ssbrc:game/entity/player/fighter/bowser/fire_breath/update
 scoreboard players operation #cache temp = @s duration.1
 execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ssbrc:game/entity/player/fighter/bowser/rage_ball/init
 
+playsound ssbrc:fighter.bowser.rage_ball.activate player @a
+
 function ssbrc:game/entity/player/fighter/_logic/ability/deinit

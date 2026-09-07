@@ -17,7 +17,7 @@ execute store result storage ssbrc:temp cache.fire_breath.z double .1 run random
 execute anchored eyes positioned ^ ^ ^.5 run function ssbrc:game/entity/player/fighter/bowser/fire_breath/step2 with storage ssbrc:temp cache.fire_breath
 
 scoreboard players operation #cache temp = @s charge.1
-scoreboard players operation #cache temp %= #3 const
+scoreboard players operation #cache temp %= #4 const
 execute if score @s charge.1 matches 1.. if score #cache temp matches 0 anchored eyes positioned ^ ^-.3 ^.3 run function ssbrc:game/entity/player/fighter/bowser/fire_breath/start
 
 advancement grant @s only ssbrc:ui/popup/bowser
