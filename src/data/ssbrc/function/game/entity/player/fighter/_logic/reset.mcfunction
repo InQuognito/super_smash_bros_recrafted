@@ -1,4 +1,5 @@
 function ssbrc:game/entity/player/fighter/_logic/effects/immobile/reset
+function ssbrc:game/entity/player/fighter/_logic/effects/invincible/deactivate
 
 tag @s remove ability_used
 tag @s remove cloaked
