@@ -1,6 +1,6 @@
 tag @s add picking_random
 
-function ssbrc:game/entity/player/fighter/_logic/get/random_owned {function: "ssbrc:fighter/random/set"}
+function ssbrc:game/entity/player/fighter/_logic/get/random_owned {function: "ssbrc:game/entity/player/fighter/random/set"}
 
 tellraw @s {translate: "ssbrc.fighter.menu.select_random"}
 
