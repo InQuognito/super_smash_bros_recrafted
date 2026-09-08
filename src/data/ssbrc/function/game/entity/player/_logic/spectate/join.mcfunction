@@ -5,5 +5,5 @@ effect clear @s minecraft:glowing
 
 execute at @s run playsound minecraft:ui.button.click ui @s
 
-function ssbrc:game/logic/pre_game/fighter_select/count/activate
-function ssbrc:game/logic/pre_game/fighter_select/participation/check
+function ssbrc:game/pre_game/fighter_select/count/activate
+function ssbrc:game/pre_game/fighter_select/participation/check

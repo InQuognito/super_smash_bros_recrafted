@@ -5,10 +5,10 @@ title @s actionbar ""
 
 item replace entity @s hotbar.8 from entity @s weapon.offhand
 
-function ssbrc:game/logic/item/init/slot {item: "keyblade", slot: "hotbar.0", class: "weapon", type: "hybrid"}
+function ssbrc:game/item/init/slot {item: "keyblade", slot: "hotbar.0", class: "weapon", type: "hybrid"}
 item modify entity @s hotbar.0 {type: "minecraft:set_custom_data", tag: {hand: "primary"}}
 
-function ssbrc:game/logic/item/init/slot {item: "keyblade", slot: "weapon.offhand", class: "weapon", type: "hybrid"}
+function ssbrc:game/item/init/slot {item: "keyblade", slot: "weapon.offhand", class: "weapon", type: "hybrid"}
 item modify entity @s weapon.offhand {type: "minecraft:set_custom_data", tag: {hand: "secondary"}}
 
 attribute @s minecraft:attack_damage modifier add ssbrc:form .4 add_multiplied_base

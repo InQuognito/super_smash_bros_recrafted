@@ -1,6 +1,6 @@
 tag @s add falcon_punch_missed
 
-function ssbrc:game/logic/item/modify { \
+function ssbrc:game/item/modify { \
 	search_key: "item", \
 	search_value: "falcon_punch", \
 	path: { \

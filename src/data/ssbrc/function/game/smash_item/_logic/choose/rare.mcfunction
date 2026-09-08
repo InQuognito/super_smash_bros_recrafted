@@ -1,1 +1,1 @@
-function ssbrc:game/logic/item/init/slot {item: "special_flag", slot: "contents", class: "smash_item", type: "consumable"}
+function ssbrc:game/item/init/slot {item: "special_flag", slot: "contents", class: "smash_item", type: "consumable"}

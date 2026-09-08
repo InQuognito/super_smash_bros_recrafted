@@ -1,4 +1,4 @@
-function ssbrc:game/logic/damage/generic {amount: 14, kb_resist: 0, i_frames: 0}
+function ssbrc:game/damage/generic {amount: 14, kb_resist: 0, i_frames: 0}
 
 execute rotated ~ 90 run function ssbrc:game/entity/player/fighter/_logic/motion/launch {strength: 10000}
 

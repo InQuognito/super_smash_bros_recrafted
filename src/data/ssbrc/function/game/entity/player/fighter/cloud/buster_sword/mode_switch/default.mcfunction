@@ -1,6 +1,6 @@
 function ssbrc:game/entity/player/_logic/data/set {data: {temp: {fighter: {form: "default"}}}}
 
-function ssbrc:game/logic/item/data/set {item: "buster_sword", flag_key: "mode", flag_value: "operator"}
+function ssbrc:game/item/data/set {item: "buster_sword", flag_key: "mode", flag_value: "operator"}
 
 attribute @s minecraft:armor modifier remove ssbrc:weapon
 attribute @s minecraft:attack_damage modifier remove ssbrc:weapon

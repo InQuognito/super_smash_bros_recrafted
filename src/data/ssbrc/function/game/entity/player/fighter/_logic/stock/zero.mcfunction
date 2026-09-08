@@ -36,4 +36,4 @@ title @s actionbar ""
 	}, \
 ]
 
-execute if score #game_stage temp matches 4 run function ssbrc:game/logic/post_game/winner/calculate
+execute if score #game_stage temp matches 4 run function ssbrc:game/post_game/winner/calculate

@@ -13,7 +13,7 @@ summon minecraft:marker 0 0 -16 {Tags: ["door","static_object"],data: {type: "bi
 summon minecraft:marker -7 0 -9 {Tags: ["door","static_object"],data: {type: "spruce", facing: "east", hinge: "right"}}
 summon minecraft:marker -7 0 -10 {Tags: ["door","static_object"],data: {type: "spruce", facing: "east", hinge: "left"}}
 
-execute as @e[type=minecraft:marker,tag=door] at @s run function ssbrc:game/logic/stage/doors/close with entity @s data
+execute as @e[type=minecraft:marker,tag=door] at @s run function ssbrc:game/stage/_logic/doors/close with entity @s data
 
 # Paintings
 execute positioned -13 2.5 11 rotated 90 0 summon minecraft:item_display run function ssbrc:game/stage/luigis_mansion/painting/fake

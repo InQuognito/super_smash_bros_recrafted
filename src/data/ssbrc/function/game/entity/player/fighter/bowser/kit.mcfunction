@@ -1,6 +1,6 @@
-function ssbrc:game/logic/item/init/slot {item: "power_band", slot: "hotbar.0", class: "weapon", type: "hybrid_bow"}
+function ssbrc:game/item/init/slot {item: "power_band", slot: "hotbar.0", class: "weapon", type: "hybrid_bow"}
 
-function ssbrc:game/logic/item/init/type/arrow/set {count: 1}
+function ssbrc:game/item/init/type/arrow/set {count: 1}
 
 scoreboard players set @s charge.1 100
 

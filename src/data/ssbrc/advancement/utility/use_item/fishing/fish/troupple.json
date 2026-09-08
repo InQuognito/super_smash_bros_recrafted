@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/logic/fishing/fish/troupple"
+		"function": "ssbrc:game/fishing/fish/troupple"
 	}
 }

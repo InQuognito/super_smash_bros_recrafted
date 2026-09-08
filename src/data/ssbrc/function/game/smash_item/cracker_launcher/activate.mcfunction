@@ -5,7 +5,7 @@ execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ss
 scoreboard players set @s cooldown 15
 
 scoreboard players set #durability.modify temp 1
-function ssbrc:game/logic/item/durability/remove
+function ssbrc:game/item/durability/remove
 clear @s *[minecraft:custom_data~{item: "cracker_launcher"},minecraft:damage~{durability: {max: 0}}]
 
 playsound ssbrc:smash_item.cracker_launcher.activate player @a

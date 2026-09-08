@@ -6,6 +6,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/logic/ui/popup/complete"
+		"function": "ssbrc:game/ui/popup/complete"
 	}
 }

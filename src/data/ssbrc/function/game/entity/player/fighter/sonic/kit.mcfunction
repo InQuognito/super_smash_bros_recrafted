@@ -1,1 +1,1 @@
-function ssbrc:game/logic/item/init/slot {item: "sonic_punch", slot: "hotbar.0", class: "weapon", type: "enchanted"}
+function ssbrc:game/item/init/slot {item: "sonic_punch", slot: "hotbar.0", class: "weapon", type: "enchanted"}

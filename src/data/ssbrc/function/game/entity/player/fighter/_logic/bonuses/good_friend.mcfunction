@@ -1,4 +1,4 @@
-function ssbrc:game/logic/team/count/this
+function ssbrc:game/team/count/this
 
 scoreboard players operation #team temp = @s team
 execute store result score #team.alive temp if entity @a[scores={points=1..},predicate=ssbrc:team_match]

@@ -1,4 +1,4 @@
-$function ssbrc:game/logic/item/modify { \
+$function ssbrc:game/item/modify { \
 	search_key: "item", \
 	search_value: "force_palm", \
 	path: { \

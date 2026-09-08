@@ -1,6 +1,6 @@
 function ssbrc:game/entity/player/fighter/_logic/attributes/reset
-function ssbrc:game/logic/reset_tags
-function ssbrc:game/logic/data/trigger
+function ssbrc:game/reset_tags
+function ssbrc:game/data/trigger
 
 gamemode adventure @s
 
@@ -16,7 +16,7 @@ clear @s #minecraft:arrows
 
 scoreboard players reset @s team
 team leave @s
-function ssbrc:game/logic/team/count/all
+function ssbrc:game/team/count/all
 
 xp set @s 0 levels
 xp set @s 0 points
@@ -34,7 +34,7 @@ stopsound @s
 
 function ssbrc:game/entity/player/_logic/data/stats/init/run
 
-function ssbrc:game/logic/item/init/type/generic { \
+function ssbrc:game/item/init/type/generic { \
 	item: "profile", \
 	slot: "inventory.13", \
 	name: "ssbrc.statistics.player_profile", \

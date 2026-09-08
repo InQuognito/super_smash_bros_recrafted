@@ -1,6 +1,6 @@
 tag @s add metal_blade
 
-function ssbrc:game/logic/item/init/slot {item: "metal_blade", slot: "contents", class: "default", type: "default"}
+function ssbrc:game/item/init/slot {item: "metal_blade", slot: "contents", class: "default", type: "default"}
 
 function ssbrc:game/entity/_logic/init/position
 

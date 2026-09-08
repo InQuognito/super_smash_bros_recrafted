@@ -3,4 +3,4 @@ tag @s add chaos_boost
 
 scoreboard players set @s resource 0
 
-function ssbrc:game/logic/item/give/default {item: "chaos_control", class: "default", type: "default"}
+function ssbrc:game/item/give/default {item: "chaos_control", class: "default", type: "default"}

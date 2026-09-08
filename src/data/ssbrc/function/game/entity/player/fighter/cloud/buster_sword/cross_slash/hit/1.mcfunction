@@ -1,3 +1,3 @@
-execute as @n[predicate=ssbrc:target,tag=cross_slash.target] run function ssbrc:game/logic/damage/generic {amount: 6, kb_resist: 1, i_frames: 0}
+execute as @n[predicate=ssbrc:target,tag=cross_slash.target] run function ssbrc:game/damage/generic {amount: 6, kb_resist: 1, i_frames: 0}
 
 playsound ssbrc:fighter.cloud.cross_slash.hit.1 player @a

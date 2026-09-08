@@ -14,15 +14,15 @@ tag @s add fighter_picked
 $tellraw @s[tag=!picking_random] ["", {translate: "ssbrc.fighter.menu.selected"}, {translate: "ssbrc.fighter.$(fighter)", color: "$(color)"}]
 $function ssbrc:game/entity/player/fighter/$(fighter)/menu/select
 
-execute if entity @s[team=spectator] run function ssbrc:game/logic/team/join/red
+execute if entity @s[team=spectator] run function ssbrc:game/team/join/red
 execute unless data storage ssbrc:data option{teams: true} run team join ready @s
 effect clear @s minecraft:glowing
 
-function ssbrc:game/logic/pre_game/fighter_select/count/activate
-function ssbrc:game/logic/pre_game/fighter_select/participation/check
+function ssbrc:game/pre_game/fighter_select/count/activate
+function ssbrc:game/pre_game/fighter_select/participation/check
 
 clear @s *[minecraft:custom_data~{item: "skin_options"}]
-execute unless entity @s[tag=picking_random] run function ssbrc:game/logic/item/init/type/generic { \
+execute unless entity @s[tag=picking_random] run function ssbrc:game/item/init/type/generic { \
 	item: "skin_options", \
 	slot: "hotbar.0", \
 	name: "ssbrc.fighter.menu.skin_options", \

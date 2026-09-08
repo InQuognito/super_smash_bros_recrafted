@@ -18,6 +18,6 @@ attribute @s minecraft:armor modifier add ssbrc:active -1 add_multiplied_total
 attribute @s minecraft:attack_speed modifier add ssbrc:active -1 add_multiplied_total
 attribute @s minecraft:knockback_resistance modifier add ssbrc:active 1 add_value
 
-function ssbrc:game/logic/item/cooldown/set/const {type: "1", value: "300"}
+function ssbrc:game/item/cooldown/set/const {type: "1", value: "300"}
 
 playsound ssbrc:fighter.alucard.mist.activate player @a

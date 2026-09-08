@@ -1,6 +1,6 @@
-function ssbrc:game/logic/item/init/slot {item: "hammer", slot: "hotbar.0", class: "weapon", type: "default"}
+function ssbrc:game/item/init/slot {item: "hammer", slot: "hotbar.0", class: "weapon", type: "default"}
 
-function ssbrc:game/logic/item/init/slot {item: "katana", slot: "hotbar.1", class: "weapon", type: "default"}
+function ssbrc:game/item/init/slot {item: "katana", slot: "hotbar.1", class: "weapon", type: "default"}
 item modify entity @s hotbar.1 { \
 	type: "minecraft:set_attributes", \
 	modifiers: [ \
@@ -15,7 +15,7 @@ item modify entity @s hotbar.1 { \
 	replace: false, \
 }
 
-function ssbrc:game/logic/item/init/slot {item: "tornado", slot: "hotbar.2", class: "weapon", type: "default"}
+function ssbrc:game/item/init/slot {item: "tornado", slot: "hotbar.2", class: "weapon", type: "default"}
 item modify entity @s hotbar.2 { \
 	type: "minecraft:set_enchantments", \
 	enchantments: { \

@@ -1,8 +1,8 @@
 clear @s #ssbrc:equipment/ability
 
-function ssbrc:game/logic/item/init/slot {item: "hero_sword", slot: "hotbar.0", class: "weapon", type: "enchanted"}
+function ssbrc:game/item/init/slot {item: "hero_sword", slot: "hotbar.0", class: "weapon", type: "enchanted"}
 
-function ssbrc:game/logic/item/init/slot {item: "hero_shield", slot: "weapon.offhand", class: "weapon", type: "shield"}
+function ssbrc:game/item/init/slot {item: "hero_shield", slot: "weapon.offhand", class: "weapon", type: "shield"}
 
 function ssbrc:game/entity/player/fighter/hero/spell/choose {slot: "hotbar.1"}
 function ssbrc:game/entity/player/fighter/hero/spell/choose {slot: "hotbar.2"}

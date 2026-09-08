@@ -46,7 +46,7 @@
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/logic/team/admin"
+					"function": "ssbrc:game/team/admin"
 				}
 			},
 			{

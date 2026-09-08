@@ -13,6 +13,6 @@ effect give @s[scores={charge.2=21..25}] minecraft:levitation infinite 3 true
 effect give @s[scores={charge.2=26..30}] minecraft:levitation infinite 4 true
 effect give @s[scores={charge.2=31..}] minecraft:levitation infinite 5 true
 
-execute if score @s cooldown.1 matches ..0 run function ssbrc:game/logic/item/cooldown/set/const {type: "1", value: "60"}
+execute if score @s cooldown.1 matches ..0 run function ssbrc:game/item/cooldown/set/const {type: "1", value: "60"}
 
 execute if score @s resource matches ..0 run function ssbrc:game/entity/player/fighter/rob/robo_burner/deactivate

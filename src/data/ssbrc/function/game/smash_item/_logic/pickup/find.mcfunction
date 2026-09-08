@@ -1,4 +1,4 @@
-function ssbrc:game/logic/item/find {search_key: "picked_up", search_value: "false"}
+function ssbrc:game/item/find {search_key: "picked_up", search_value: "false"}
 
 function ssbrc:game/smash_item/_logic/pickup/get with storage ssbrc:temp cache.item
 

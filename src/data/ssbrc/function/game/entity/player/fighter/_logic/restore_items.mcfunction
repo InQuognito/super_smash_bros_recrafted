@@ -10,4 +10,4 @@ scoreboard players set @s durability 0
 
 $function ssbrc:game/entity/player/fighter/$(fighter)/restore_items with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
-function ssbrc:game/logic/data/scoreboard/duration
+function ssbrc:game/data/scoreboard/duration

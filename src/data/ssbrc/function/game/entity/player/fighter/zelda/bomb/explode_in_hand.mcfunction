@@ -1,5 +1,5 @@
-execute as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,distance=..3] run function ssbrc:game/logic/damage/explosion {amount: 12, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
-function ssbrc:game/logic/damage/explosion {amount: 12, type: "generic", kb_resist: 0, source: ""}
+execute as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,distance=..3] run function ssbrc:game/damage/explosion {amount: 12, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
+function ssbrc:game/damage/explosion {amount: 12, type: "generic", kb_resist: 0, source: ""}
 
 particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 0 1 normal @a
 playsound minecraft:entity.generic.explode player @a

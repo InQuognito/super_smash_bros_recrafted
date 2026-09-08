@@ -12,7 +12,7 @@ scoreboard players reset @s stats.credits
 function ssbrc:game/entity/player/fighter/_logic/loop {function: "ssbrc:game/entity/player/_logic/data/permanent/reset/fighter"}
 
 # Bonuses
-function ssbrc:game/logic/data/bonus/loop {function: "ssbrc:game/entity/player/_logic/data/permanent/reset/bonus"}
+function ssbrc:game/data/bonus/loop {function: "ssbrc:game/entity/player/_logic/data/permanent/reset/bonus"}
 
 scoreboard players reset @s reset
 

@@ -1,6 +1,6 @@
 function ssbrc:game/entity/player/_logic/data/set {data: {temp: {fighter: {form: "punisher"}}}}
 
-function ssbrc:game/logic/item/data/set {item: "buster_sword", flag_key: "mode", flag_value: "punisher"}
+function ssbrc:game/item/data/set {item: "buster_sword", flag_key: "mode", flag_value: "punisher"}
 
 attribute @s minecraft:armor modifier add ssbrc:weapon -1 add_multiplied_total
 attribute @s minecraft:attack_damage modifier add ssbrc:weapon 2 add_multiplied_base

@@ -1,1 +1,1 @@
-function ssbrc:game/logic/item/init/slot {item: "love_love_stick", slot: "hotbar.0", class: "weapon", type: "hybrid"}
+function ssbrc:game/item/init/slot {item: "love_love_stick", slot: "hotbar.0", class: "weapon", type: "hybrid"}

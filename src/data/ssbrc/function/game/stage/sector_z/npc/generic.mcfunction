@@ -12,4 +12,4 @@ data merge entity @s { \
 	}, \
 }
 
-$function ssbrc:game/logic/npc/init/armor_stand {path:"npc/sector_z/$(name)"}
+$function ssbrc:game/npc/init/armor_stand {path:"npc/sector_z/$(name)"}

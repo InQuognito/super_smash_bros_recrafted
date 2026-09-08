@@ -3,7 +3,7 @@ particle minecraft:electric_spark ~ ~ ~ .2 .2 .2 .05 5 normal @a
 
 execute unless block ^ ^ ^.5 #ssbrc:passthrough run return run kill @s
 
-execute positioned ~-.3 ~-.3 ~-.3 as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dx=0] positioned ~-.4 ~ ~-.4 if entity @s[dx=0] run function ssbrc:game/logic/damage/generic {amount: 6, kb_resist: 0, i_frames: 0}
+execute positioned ~-.3 ~-.3 ~-.3 as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dx=0] positioned ~-.4 ~ ~-.4 if entity @s[dx=0] run function ssbrc:game/damage/generic {amount: 6, kb_resist: 0, i_frames: 0}
 execute if score #entity_hit temp matches 1 run return run kill @s
 
 execute store result score @s motion_y run data get entity @s Motion[1] 10000

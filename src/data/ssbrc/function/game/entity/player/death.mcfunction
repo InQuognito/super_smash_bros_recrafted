@@ -1,7 +1,7 @@
 scoreboard players operation #team temp = @s team
 gamemode spectator @s
 
-execute if data storage ssbrc:data option{game_mode: "ctf"} run function ssbrc:game/logic/ctf/fighter/death
+execute if data storage ssbrc:data option{game_mode: "ctf"} run function ssbrc:game/ctf/fighter/death
 execute unless data storage ssbrc:data option{game_mode: "ctf"} run scoreboard players remove @s points 1
 execute unless data storage ssbrc:data option{singleplayer: true} run scoreboard players add @s stats.deaths 1
 
@@ -19,9 +19,9 @@ execute unless data storage ssbrc:data option{point_limit: -1} run function ssbr
 scoreboard players reset @s rapid_kill.tracking
 
 # Cleanup
-function ssbrc:game/logic/data/scoreboard/cooldown
+function ssbrc:game/data/scoreboard/cooldown
 
-function ssbrc:game/logic/data/scoreboard/duration
+function ssbrc:game/data/scoreboard/duration
 
 scoreboard players set @s flag.sprinting 0
 

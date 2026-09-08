@@ -1,4 +1,4 @@
-$function ssbrc:game/logic/item/init/slot {item: "$(item)", slot: "weapon.mainhand", class: "weapon", type: "hybrid"}
+$function ssbrc:game/item/init/slot {item: "$(item)", slot: "weapon.mainhand", class: "weapon", type: "hybrid"}
 
 playsound ssbrc:fighter.samus.swap_weapon player @a
 

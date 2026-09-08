@@ -1,4 +1,4 @@
-function ssbrc:game/logic/item/init/type/arrow/set {count: 1}
+function ssbrc:game/item/init/type/arrow/set {count: 1}
 
 function ssbrc:game/entity/player/fighter/byleth/black_eagles/restore_items
 

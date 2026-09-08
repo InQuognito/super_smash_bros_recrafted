@@ -15,6 +15,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/logic/fishing/fish/cod"
+		"function": "ssbrc:game/fishing/fish/cod"
 	}
 }

@@ -2,7 +2,7 @@ function ssbrc:game/entity/player/fighter/king_k_rool/blunderbuss/particle
 
 execute unless block ~ ~-.1 ~ #ssbrc:passthrough unless entity @s[tag=hit_ground] run function ssbrc:game/entity/player/fighter/king_k_rool/blunderbuss/land
 
-execute if entity @s[tag=!hit_ground] positioned ~-.4 ~-.4 ~-.4 as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dx=0] positioned ~-.2 ~-.2 ~-.2 if entity @s[dx=0] run function ssbrc:game/logic/damage/generic {amount: 6, kb_resist: 0, i_frames: 5}
+execute if entity @s[tag=!hit_ground] positioned ~-.4 ~-.4 ~-.4 as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dx=0] positioned ~-.2 ~-.2 ~-.2 if entity @s[dx=0] run function ssbrc:game/damage/generic {amount: 6, kb_resist: 0, i_frames: 5}
 
 execute if entity @s[tag=!hit_ground,scores={temp=41}] run function ssbrc:game/entity/player/fighter/king_k_rool/blunderbuss/drop
 

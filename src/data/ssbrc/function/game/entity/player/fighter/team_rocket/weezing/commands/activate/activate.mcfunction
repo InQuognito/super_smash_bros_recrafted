@@ -2,7 +2,7 @@ function ssbrc:game/entity/player/fighter/_logic/ability/init
 
 execute as @e[type=minecraft:bee,tag=weezing,predicate=ssbrc:owner] at @s run function ssbrc:game/entity/player/fighter/team_rocket/weezing/commands/activate/weezing
 
-function ssbrc:game/logic/item/modify { \
+function ssbrc:game/item/modify { \
 	search_key: "item", \
 	search_value: "weezing", \
 	path: { \

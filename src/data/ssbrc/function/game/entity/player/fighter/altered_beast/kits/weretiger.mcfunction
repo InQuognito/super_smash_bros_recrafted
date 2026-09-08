@@ -4,9 +4,9 @@ attribute @s minecraft:safe_fall_distance modifier add ssbrc:form 9 add_multipli
 
 effect give @s minecraft:resistance 2 3 true
 
-function ssbrc:game/logic/item/init/slot {item: "tiger_claw", slot: "hotbar.0", class: "weapon", type: "default"}
+function ssbrc:game/item/init/slot {item: "tiger_claw", slot: "hotbar.0", class: "weapon", type: "default"}
 
-function ssbrc:game/logic/item/init/slot {item: "sabretooth", slot: "hotbar.1", class: "default", type: "default"}
+function ssbrc:game/item/init/slot {item: "sabretooth", slot: "hotbar.1", class: "default", type: "default"}
 
 item modify entity @s armor.chest { \
 	type: "minecraft:sequence", \

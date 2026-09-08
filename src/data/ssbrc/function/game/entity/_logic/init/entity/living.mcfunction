@@ -4,4 +4,4 @@ data merge entity @s { \
 	PersistenceRequired: true, \
 }
 
-function ssbrc:game/logic/team/copy
+function ssbrc:game/team/copy

@@ -1,5 +1,5 @@
-execute as @e[tag=!self,predicate=ssbrc:target,distance=..1] run function ssbrc:game/logic/damage/explosion {amount: 6, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
-execute as @a[tag=self,limit=1,distance=..3] run function ssbrc:game/logic/damage/explosion {amount: 6, type: "generic", kb_resist: 0, source: ""}
+execute as @e[tag=!self,predicate=ssbrc:target,distance=..1] run function ssbrc:game/damage/explosion {amount: 6, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
+execute as @a[tag=self,limit=1,distance=..3] run function ssbrc:game/damage/explosion {amount: 6, type: "generic", kb_resist: 0, source: ""}
 
 particle minecraft:explosion ~ ~ ~ 0 0 0 0 1 normal @a
 

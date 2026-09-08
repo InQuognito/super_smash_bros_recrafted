@@ -1,4 +1,4 @@
-function ssbrc:game/logic/damage/generic {amount: 7, kb_resist: 0, i_frames: 0}
+function ssbrc:game/damage/generic {amount: 7, kb_resist: 0, i_frames: 0}
 
 function ssbrc:game/entity/player/fighter/_logic/jump/impulse with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 

@@ -1,6 +1,6 @@
 $function ssbrc:game/entity/player/_logic/data/set {data: {temp: {fighter: {form: "$(variant)"}}}}
 
-$function ssbrc:game/logic/item/modify {search_key: "item", search_value: "robo_beam", path: {type: "minecraft:set_custom_model_data", floats: {values: [$(value)], mode: "replace_all"}}}
+$function ssbrc:game/item/modify {search_key: "item", search_value: "robo_beam", path: {type: "minecraft:set_custom_model_data", floats: {values: [$(value)], mode: "replace_all"}}}
 
 function ssbrc:game/entity/player/fighter/_logic/armor/update with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 

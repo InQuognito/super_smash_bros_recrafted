@@ -3,8 +3,8 @@ particle minecraft:explosion ~ ~ ~ 0 0 0 0 1 normal @a
 
 playsound minecraft:entity.generic.explode player @a
 
-execute as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,distance=..2.5] at @s run function ssbrc:game/logic/damage/explosion {amount: 12, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
-execute as @a[tag=self,limit=1,distance=..2.5] run function ssbrc:game/logic/damage/explosion {amount: 12, type: "generic", kb_resist: 0, source: ""}
+execute as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,distance=..2.5] at @s run function ssbrc:game/damage/explosion {amount: 12, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
+execute as @a[tag=self,limit=1,distance=..2.5] run function ssbrc:game/damage/explosion {amount: 12, type: "generic", kb_resist: 0, source: ""}
 
 kill @s
 

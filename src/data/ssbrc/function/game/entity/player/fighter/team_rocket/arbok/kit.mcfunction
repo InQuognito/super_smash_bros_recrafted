@@ -1,10 +1,10 @@
 function ssbrc:game/entity/player/fighter/team_rocket/update {form: "arbok"}
 
-function ssbrc:game/logic/item/init/slot {item: "poison_jab", slot: "hotbar.0", class: "weapon", type: "enchanted"}
+function ssbrc:game/item/init/slot {item: "poison_jab", slot: "hotbar.0", class: "weapon", type: "enchanted"}
 
-function ssbrc:game/logic/item/init/slot {item: "acid", slot: "hotbar.1", class: "default", type: "default"}
+function ssbrc:game/item/init/slot {item: "acid", slot: "hotbar.1", class: "default", type: "default"}
 
-function ssbrc:game/logic/item/init/slot {item: "weezing", slot: "hotbar.2", class: "default", type: "default"}
+function ssbrc:game/item/init/slot {item: "weezing", slot: "hotbar.2", class: "default", type: "default"}
 item modify entity @s hotbar.2 { \
 	type: "minecraft:set_custom_data", \
 	tag: { \

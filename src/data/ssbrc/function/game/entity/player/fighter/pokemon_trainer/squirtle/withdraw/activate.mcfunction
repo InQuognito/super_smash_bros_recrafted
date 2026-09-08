@@ -4,4 +4,4 @@ function ssbrc:game/entity/player/fighter/pokemon_trainer/squirtle/withdraw/part
 
 effect give @s minecraft:resistance 30 0 true
 
-function ssbrc:game/logic/item/cooldown/set/const {type: "2", value: "600"}
+function ssbrc:game/item/cooldown/set/const {type: "2", value: "600"}

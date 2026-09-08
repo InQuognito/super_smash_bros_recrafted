@@ -1,4 +1,4 @@
-execute summon minecraft:item run function ssbrc:game/logic/item/init/type/generic { \
+execute summon minecraft:item run function ssbrc:game/item/init/type/generic { \
 	item: "angel_feather", \
 	slot: "contents", \
 	name: "ssbrc.smash_item.angel_feather", \

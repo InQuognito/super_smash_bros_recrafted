@@ -29,6 +29,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/logic/team/join/aqua"
+		"function": "ssbrc:game/team/join/aqua"
 	}
 }

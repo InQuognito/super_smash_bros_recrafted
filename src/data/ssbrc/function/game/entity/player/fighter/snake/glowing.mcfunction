@@ -5,5 +5,5 @@ scoreboard players operation #modifier temp = @s capacity
 scoreboard players operation #modifier temp *= #40 const
 scoreboard players operation #cache temp -= #modifier temp
 
-execute if score @s timer matches 0 run return run function ssbrc:game/logic/item/replace/get {search_key: "item", search_value: "status", path: "ssbrc:fighter/snake/status/undetected"}
+execute if score @s timer matches 0 run return run function ssbrc:game/item/replace/get {search_key: "item", search_value: "status", path: "ssbrc:fighter/snake/status/undetected"}
 execute if score @s timer >= #cache temp run function ssbrc:game/entity/player/fighter/snake/detect

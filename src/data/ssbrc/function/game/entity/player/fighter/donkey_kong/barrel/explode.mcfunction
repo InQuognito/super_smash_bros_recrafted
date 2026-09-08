@@ -1,8 +1,8 @@
 kill @s
 
-function ssbrc:game/logic/damage/explosion {amount: 6, radius: 1.5, i_frames: 0}
+function ssbrc:game/damage/explosion {amount: 6, radius: 1.5, i_frames: 0}
 
-execute as @a[predicate=ssbrc:owner,limit=1] run function ssbrc:game/logic/item/give/default {item: "barrel", class: "weapon", type: "default"}
+execute as @a[predicate=ssbrc:owner,limit=1] run function ssbrc:game/item/give/default {item: "barrel", class: "weapon", type: "default"}
 
 playsound ssbrc:fighter.donkey_kong.barrel.explode player @a
 

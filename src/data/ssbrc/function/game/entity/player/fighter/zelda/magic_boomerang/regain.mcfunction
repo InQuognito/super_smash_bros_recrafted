@@ -1,4 +1,4 @@
-function ssbrc:game/logic/item/give/default {item: "magic_boomerang", class: "default", type: "default"}
+function ssbrc:game/item/give/default {item: "magic_boomerang", class: "default", type: "default"}
 
 kill @n[type=minecraft:item_display,tag=magic_boomerang,predicate=ssbrc:owner]
 

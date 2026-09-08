@@ -1,7 +1,7 @@
 playsound ssbrc:fighter.pit.palutena_bow.charge player @a
 
 item replace entity @s weapon.offhand with minecraft:air
-function ssbrc:game/logic/item/data/set {item: "palutena_bow", flag_key: "split", flag_value: "false"}
+function ssbrc:game/item/data/set {item: "palutena_bow", flag_key: "split", flag_value: "false"}
 
 tag @s remove palutena_bow.split
 

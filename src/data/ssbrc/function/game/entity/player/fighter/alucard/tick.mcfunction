@@ -1,7 +1,7 @@
 function ssbrc:game/entity/player/fighter/_logic/ability/init
 
 # Holy Water
-execute unless items entity @s[scores={cooldown.2=1,duration.1=..0}] container.* *[minecraft:custom_data~{item: "holy_water"}] run function ssbrc:game/logic/item/init/slot {item: "holy_water", slot: "hotbar.1", class: "default", type: "consumable"}
+execute unless items entity @s[scores={cooldown.2=1,duration.1=..0}] container.* *[minecraft:custom_data~{item: "holy_water"}] run function ssbrc:game/item/init/slot {item: "holy_water", slot: "hotbar.1", class: "default", type: "consumable"}
 
 # Mist
 execute if entity @s[scores={silenced=..0,cooldown.1=..0},predicate=ssbrc:flag/sneaking,predicate=!ssbrc:flag/grounded] run function ssbrc:game/entity/player/fighter/alucard/mist/activate

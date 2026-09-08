@@ -1,3 +1,3 @@
-function ssbrc:game/logic/vfx/energy_ring
+function ssbrc:game/vfx/energy_ring
 
 execute if score hyper_beam temp matches 0 run function ssbrc:game/stage/lake_of_rage/gyarados/hyper_beam/raycast/start

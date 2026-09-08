@@ -3,7 +3,7 @@ execute if entity @s[tag=war_horn.active] run function ssbrc:game/entity/player/
 
 clear @s #ssbrc:equipment/ability
 
-function ssbrc:game/logic/item/init/slot {item: "shovel_blade", slot: "hotbar.0", class: "weapon", type: "default"}
+function ssbrc:game/item/init/slot {item: "shovel_blade", slot: "hotbar.0", class: "weapon", type: "default"}
 
 function ssbrc:game/entity/player/fighter/shovel_knight/get_relic
 function ssbrc:game/entity/player/fighter/shovel_knight/get_relic

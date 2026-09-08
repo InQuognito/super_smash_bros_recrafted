@@ -2,7 +2,7 @@ advancement revoke @s only ssbrc:utility/use_item/fighter/altered_beast/spirit_o
 
 function ssbrc:game/entity/player/fighter/altered_beast/kits/reset
 
-function ssbrc:game/logic/item/init/slot {item: "gladius", slot: "hotbar.0", class: "weapon", type: "default"}
+function ssbrc:game/item/init/slot {item: "gladius", slot: "hotbar.0", class: "weapon", type: "default"}
 
 function ssbrc:game/entity/player/fighter/altered_beast/spirit_orb/set with storage ssbrc:temp game.stage
 

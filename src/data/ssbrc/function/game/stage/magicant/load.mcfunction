@@ -1,6 +1,6 @@
 summon minecraft:marker -28 -8 14 {Tags: ["door","static_object"],data:{type: "jungle",facing:"east",hinge:"left"}}
 
-execute as @e[type=minecraft:marker,tag=door] at @s run function ssbrc:game/logic/stage/doors/close with entity @s data
+execute as @e[type=minecraft:marker,tag=door] at @s run function ssbrc:game/stage/_logic/doors/close with entity @s data
 
 execute positioned 18 1 -20 rotated 40 0 summon minecraft:item_display run function ssbrc:game/stage/magicant/mani_mani
 

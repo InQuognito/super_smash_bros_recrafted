@@ -3,7 +3,7 @@ tag @s remove altered_beast.is_beast
 tag @s remove feral_instincts
 
 clear @s #ssbrc:equipment/ability
-function ssbrc:game/logic/item/init/slot {item: "spirit_orb", slot: "hotbar.8", class: "default", type: "default"}
+function ssbrc:game/item/init/slot {item: "spirit_orb", slot: "hotbar.8", class: "default", type: "default"}
 
 function ssbrc:game/entity/player/fighter/_logic/attributes/defaults with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 

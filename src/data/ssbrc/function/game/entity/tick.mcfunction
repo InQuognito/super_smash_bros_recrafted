@@ -21,6 +21,6 @@ execute if score @s sleep matches 1.. run function ssbrc:game/entity/player/figh
 
 execute if score @s tornado matches 1.. run function ssbrc:entity/common/tornado/logic/spin/tick
 
-execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] if block ~ ~ ~ minecraft:water run function ssbrc:game/logic/damage/generic {amount: 4, kb_resist: 1, i_frames: 10}
+execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] if block ~ ~ ~ minecraft:water run function ssbrc:game/damage/generic {amount: 4, kb_resist: 1, i_frames: 10}
 
 execute if data storage ssbrc:temp game.stage{name: "sand_ocean"} if data storage ssbrc:data option{hazards: "true"} run function ssbrc:game/entity/player/fighter/_logic/quicksand/tick

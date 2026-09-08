@@ -6,4 +6,4 @@ function ssbrc:game/entity/player/fighter/_logic/effects/immobile/activate {type
 
 effect give @s minecraft:resistance 3 0 true
 
-function ssbrc:game/logic/item/modify {search_key: "item", search_value: "chaos_spear", path: "ssbrc:fighter/shadow/chaos_spear/disabled"}
+function ssbrc:game/item/modify {search_key: "item", search_value: "chaos_spear", path: "ssbrc:fighter/shadow/chaos_spear/disabled"}

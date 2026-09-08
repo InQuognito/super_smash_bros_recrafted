@@ -1,5 +1,5 @@
 scoreboard players set #durability.modify temp 1
-function ssbrc:game/logic/item/durability/add/check
+function ssbrc:game/item/durability/add/check
 
 scoreboard players remove @s charge.1 1
 scoreboard players remove @s mega_man.beat_call 1

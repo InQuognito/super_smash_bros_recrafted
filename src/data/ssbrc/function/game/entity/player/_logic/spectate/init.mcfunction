@@ -7,7 +7,7 @@ item modify entity @s armor.body { \
 
 tellraw @s[team=!spectator] {translate: "ssbrc.fighter_select.spectate_game", color: "gray"}
 
-function ssbrc:game/logic/reset_tags
+function ssbrc:game/reset_tags
 
 tag @s add fighter_picked
 

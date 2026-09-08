@@ -1,7 +1,7 @@
-execute if score @s health matches 3.. run function ssbrc:game/logic/damage/generic {amount: 2, kb_resist: 1, i_frames: 0}
-execute if score @s health matches 3.. run function ssbrc:game/logic/damage/generic {amount: 2, kb_resist: 1, i_frames: 0}
-execute if score @s health matches 3.. run function ssbrc:game/logic/damage/generic {amount: 2, kb_resist: 1, i_frames: 0}
-execute if score @s health matches 3.. run function ssbrc:game/logic/damage/generic {amount: 2, kb_resist: 1, i_frames: 0}
+execute if score @s health matches 3.. run function ssbrc:game/damage/generic {amount: 2, kb_resist: 1, i_frames: 0}
+execute if score @s health matches 3.. run function ssbrc:game/damage/generic {amount: 2, kb_resist: 1, i_frames: 0}
+execute if score @s health matches 3.. run function ssbrc:game/damage/generic {amount: 2, kb_resist: 1, i_frames: 0}
+execute if score @s health matches 3.. run function ssbrc:game/damage/generic {amount: 2, kb_resist: 1, i_frames: 0}
 
 scoreboard players set @s[tag=!falcon_charge] charge.2 1
 execute if entity @s[tag=falcon_charge] run function ssbrc:game/entity/player/fighter/captain_falcon/falcon_charge/effects

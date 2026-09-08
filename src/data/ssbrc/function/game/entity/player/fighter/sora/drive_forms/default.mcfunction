@@ -1,7 +1,7 @@
 function ssbrc:game/entity/player/fighter/sora/drive_forms/reset
 
-function ssbrc:game/logic/item/init/replace {search_key: "group", search_value: "keyblade", item: "keyblade", class: "weapon", type: "hybrid"}
-function ssbrc:game/logic/item/modify {search_key: "item", search_value: "keyblade", path: {type: "minecraft:set_custom_data", tag: {hand: "primary"}}}
+function ssbrc:game/item/init/replace {search_key: "group", search_value: "keyblade", item: "keyblade", class: "weapon", type: "hybrid"}
+function ssbrc:game/item/modify {search_key: "item", search_value: "keyblade", path: {type: "minecraft:set_custom_data", tag: {hand: "primary"}}}
 
 function ssbrc:game/entity/player/fighter/sora/spell_switch/fire/set {slot: "hotbar.0"}
 

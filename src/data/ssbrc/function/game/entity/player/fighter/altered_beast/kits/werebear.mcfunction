@@ -3,9 +3,9 @@ function ssbrc:game/entity/player/fighter/altered_beast/kits/update {form: "were
 attribute @s minecraft:armor base set 14
 attribute @s minecraft:jump_strength base set .5
 
-function ssbrc:game/logic/item/init/slot {item: "bear_claw", slot: "hotbar.0", class: "weapon", type: "default"}
+function ssbrc:game/item/init/slot {item: "bear_claw", slot: "hotbar.0", class: "weapon", type: "default"}
 
-function ssbrc:game/logic/item/init/slot {item: "petrifying_breath", slot: "hotbar.1", class: "weapon", type: "hybrid"}
+function ssbrc:game/item/init/slot {item: "petrifying_breath", slot: "hotbar.1", class: "weapon", type: "hybrid"}
 
 item modify entity @s armor.chest { \
 	type: "minecraft:sequence", \

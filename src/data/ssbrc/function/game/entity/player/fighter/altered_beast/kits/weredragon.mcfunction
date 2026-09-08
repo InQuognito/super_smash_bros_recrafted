@@ -1,8 +1,8 @@
 function ssbrc:game/entity/player/fighter/altered_beast/kits/update {form: "weredragon"}
 
-function ssbrc:game/logic/item/init/slot {item: "dragon_claw", slot: "hotbar.0", class: "weapon", type: "default"}
+function ssbrc:game/item/init/slot {item: "dragon_claw", slot: "hotbar.0", class: "weapon", type: "default"}
 
-function ssbrc:game/logic/item/init/slot {item: "electrocution", slot: "hotbar.1", class: "default", type: "default"}
+function ssbrc:game/item/init/slot {item: "electrocution", slot: "hotbar.1", class: "default", type: "default"}
 
 item modify entity @s armor.chest { \
 	type: "minecraft:sequence", \

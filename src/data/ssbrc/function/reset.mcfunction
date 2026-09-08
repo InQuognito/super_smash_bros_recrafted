@@ -1,3 +1,3 @@
-function ssbrc:game/logic/reset
+function ssbrc:game/reset
 
 tag @a remove loaded

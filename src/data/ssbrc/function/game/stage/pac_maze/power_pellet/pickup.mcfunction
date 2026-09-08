@@ -1,6 +1,6 @@
 scoreboard players add @s pac_maze.scoreboard 50
 
-function ssbrc:game/logic/item/init/type/generic { \
+function ssbrc:game/item/init/type/generic { \
 	item: "power_pellet", \
 	slot: "contents", \
 	name: "ssbrc.smash_item.power_pellet", \
