@@ -6,6 +6,6 @@ data merge entity @s {damage: 4, Glowing: true}
 
 team join yellow @s
 
-function ssbrc:game/entity/_logic/init/projectile/arrow/straight
+function ssbrc:game/entity/init/projectile/arrow/straight
 
 playsound minecraft:entity.arrow.shoot player @a

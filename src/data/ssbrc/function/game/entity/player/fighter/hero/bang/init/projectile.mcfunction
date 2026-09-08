@@ -2,4 +2,4 @@ tag @s add bang
 
 data merge entity @s {ExplosionPower: 1, acceleration_power: .05}
 
-function ssbrc:game/entity/_logic/init/projectile/arrow/normal
+function ssbrc:game/entity/init/projectile/arrow/normal

@@ -4,7 +4,7 @@ execute if score #game_stage temp matches 4 run function ssbrc:game/stage/_logic
 
 execute if data storage ssbrc:data option{game_mode: "ctf"} run function ssbrc:game/ctf/tick
 
-execute as @e[type=#ssbrc:non_player,tag=!intangible] at @s run function ssbrc:game/entity/_logic/tick
+execute as @e[type=#ssbrc:non_player,tag=!intangible] at @s run function ssbrc:game/entity/tick
 
 execute as @e[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_data":{group: "item"}}}}] run function ssbrc:game/smash_item/_logic/tick
 

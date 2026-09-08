@@ -2,7 +2,7 @@ tag @s add palutena_bow
 
 data merge entity @s {NoGravity:1b,Glowing:1b}
 
-function ssbrc:game/entity/_logic/init/id
+function ssbrc:game/entity/init/id
 
 team join aqua @s
 

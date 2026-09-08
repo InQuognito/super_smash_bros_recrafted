@@ -2,7 +2,7 @@
 	"replace": false,
 	"values": [
 		"ssbrc:entity/common/tornado/rig/on_load",
-		"ssbrc:game/entity/npc/metroid/fgii_graham/rig/on_load",
+		"ssbrc:game/entity/npc/fgii_graham/rig/on_load",
 		"ssbrc:game/entity/npc/pokemon/abra/rig/on_load",
 		"ssbrc:game/entity/npc/pokemon/diglett/rig/on_load",
 		"ssbrc:game/entity/npc/pokemon/dugtrio/rig/on_load",

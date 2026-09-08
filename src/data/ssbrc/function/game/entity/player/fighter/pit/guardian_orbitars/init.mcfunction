@@ -2,7 +2,7 @@ tag @s add guardian_orbitar
 tag @s add delete_behavior.disabled
 tag @s add reflect_behavior.disabled
 
-function ssbrc:game/entity/_logic/init/id
+function ssbrc:game/entity/init/id
 
 $data merge entity @s { \
 	data: { \

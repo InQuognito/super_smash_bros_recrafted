@@ -6,7 +6,7 @@ data merge entity @s { \
 	Small: 1b, \
 }
 
-function ssbrc:game/entity/_logic/init/armor_stand/projectile
+function ssbrc:game/entity/init/armor_stand/projectile
 
 data merge entity @s { \
 	teleport_duration: 1, \

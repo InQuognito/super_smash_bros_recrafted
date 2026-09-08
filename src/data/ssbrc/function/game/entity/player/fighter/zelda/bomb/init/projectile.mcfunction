@@ -4,6 +4,6 @@ execute if items entity @a[tag=self,limit=1] container.* *[minecraft:custom_data
 
 item replace entity @s armor.head with minecraft:stick[minecraft:item_model="ssbrc:common/bomb/blue"]
 
-function ssbrc:game/entity/_logic/init/armor_stand/normal
+function ssbrc:game/entity/init/armor_stand/normal
 
 scoreboard players operation @s temp = @a[tag=self,limit=1] fuse

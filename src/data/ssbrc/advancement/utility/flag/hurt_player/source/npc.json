@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"damage_taken": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"minecraft:entity_type": "#ssbrc:non_player"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:game/damage/npc"
+	}
+}

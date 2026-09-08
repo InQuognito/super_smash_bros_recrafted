@@ -22,7 +22,7 @@
 				"affected": "victim",
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/training_dummy/damage_number/type/generic"
+					"function": "ssbrc:game/entity/npc/training_dummy/damage_number/type/generic"
 				},
 				"requirements": {
 					"type": "minecraft:damage_source_properties",
@@ -41,7 +41,7 @@
 				"affected": "victim",
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/training_dummy/damage_number/type/burning"
+					"function": "ssbrc:game/entity/npc/training_dummy/damage_number/type/burning"
 				},
 				"requirements": {
 					"type": "minecraft:damage_source_properties",
@@ -60,7 +60,7 @@
 				"affected": "victim",
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/training_dummy/damage_number/type/poison"
+					"function": "ssbrc:game/entity/npc/training_dummy/damage_number/type/poison"
 				},
 				"requirements": {
 					"type": "minecraft:damage_source_properties",

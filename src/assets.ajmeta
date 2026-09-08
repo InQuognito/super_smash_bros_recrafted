@@ -1102,7 +1102,7 @@
 				"assets/ssbrc/models/blueprint/entity/common/tornado/rig/top.json"
 			]
 		},
-		"ssbrc:game/entity/npc/metroid/fgii_graham/rig": {
+		"ssbrc:game/entity/npc/fgii_graham/rig": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
 				"assets/ssbrc/items/blueprint/entity/metroid/fgii_graham/rig/body.json",

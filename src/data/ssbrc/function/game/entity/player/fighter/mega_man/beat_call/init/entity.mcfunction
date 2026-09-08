@@ -2,7 +2,7 @@ tag @s add beat
 
 teleport @s ~ ~ ~ ~ ~
 
-function ssbrc:game/entity/_logic/init/entity/nonliving
+function ssbrc:game/entity/init/entity/nonliving
 
 attribute @s minecraft:max_health base set 1024
 data modify entity @s Health set value 1024

@@ -8,6 +8,6 @@ data merge entity @s { \
 	Small: 1b, \
 }
 
-function ssbrc:game/entity/_logic/init/armor_stand/normal
+function ssbrc:game/entity/init/armor_stand/normal
 
 scoreboard players operation @s temp = @a[tag=self,limit=1] charge

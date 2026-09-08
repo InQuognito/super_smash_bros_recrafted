@@ -1,6 +1,6 @@
 tag @s add force_palm
 
-function ssbrc:game/entity/_logic/init/id
+function ssbrc:game/entity/init/id
 
 scoreboard players operation @s charge.1 = #aura temp
 

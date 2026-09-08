@@ -3553,7 +3553,7 @@
 				"data/ssbrc/function/entity/common/tornado/rig/zzz/summon/zzz/variant_arg/no_variants_warning.mcfunction"
 			]
 		},
-		"ssbrc:game/entity/npc/metroid/fgii_graham/rig": {
+		"ssbrc:game/entity/npc/fgii_graham/rig": {
 			"coreFiles": ["pack.mcmeta"],
 			"versionedFiles": [
 				"data/animated_java/function/global/data_manager/create_entry.mcfunction",

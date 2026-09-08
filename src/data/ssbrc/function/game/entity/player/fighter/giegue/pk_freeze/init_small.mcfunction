@@ -9,4 +9,4 @@ data merge entity @s { \
 	}, \
 }
 
-function ssbrc:game/entity/_logic/init/projectile/model/default
+function ssbrc:game/entity/init/projectile/model/default

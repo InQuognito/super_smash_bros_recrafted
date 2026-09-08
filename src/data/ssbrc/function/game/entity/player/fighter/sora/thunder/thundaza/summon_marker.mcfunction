@@ -1,6 +1,6 @@
 tag @s add thundaza_bolt
 
-function ssbrc:game/entity/_logic/init/id
+function ssbrc:game/entity/init/id
 
 execute store result score pos_x temp run data get entity @s Pos[0] 10.0
 execute store result score offset_x temp run random value -10..10

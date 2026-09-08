@@ -10,4 +10,4 @@ data merge entity @s { \
 
 data modify entity @s Rotation set from entity @a[tag=self,limit=1] Rotation
 
-function ssbrc:game/entity/_logic/init/armor_stand/normal
+function ssbrc:game/entity/init/armor_stand/normal

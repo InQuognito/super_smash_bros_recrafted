@@ -2,4 +2,4 @@ tag @s add gatling_gun
 
 data merge entity @s {damage:0.15}
 
-function ssbrc:game/entity/_logic/init/projectile/arrow/normal
+function ssbrc:game/entity/init/projectile/arrow/normal

@@ -1,3 +1,3 @@
 tag @s add pk_flash
 
-function ssbrc:game/entity/_logic/init/id
+function ssbrc:game/entity/init/id

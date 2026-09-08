@@ -1,9 +1,9 @@
 data remove storage ssbrc:temp cache
 
-function ssbrc:game/entity/_logic/init/fighter
-function ssbrc:game/entity/_logic/init/stage
-function ssbrc:game/entity/_logic/init/smash_items
-function ssbrc:game/entity/_logic/init/victory_podium
+function ssbrc:game/entity/init/fighter
+function ssbrc:game/entity/init/stage
+function ssbrc:game/entity/init/smash_items
+function ssbrc:game/entity/init/victory_podium
 
 function ssbrc:game/data/scoreboard/remove
 function ssbrc:game/data/scoreboard/create
