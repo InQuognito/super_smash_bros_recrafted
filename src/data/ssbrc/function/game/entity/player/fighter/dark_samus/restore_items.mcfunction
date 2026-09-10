@@ -1,1 +1,1 @@
-function ssbrc:game/item/replace/get {search_key: "item", search_value: "phazon_beam", path: "ssbrc:fighter/dark_samus/phazon_beam/idle"}
+#function ssbrc:game/item/init/replace {search_key: "item", search_value: "phazon_beam", path: "ssbrc:fighter/dark_samus/phazon_beam/idle"}

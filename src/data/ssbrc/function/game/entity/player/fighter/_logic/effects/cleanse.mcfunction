@@ -8,4 +8,10 @@ effect clear @s minecraft:weakness
 
 function ssbrc:game/entity/player/fighter/_logic/attributes/modifiers/frostbite/reset
 
+function ssbrc:game/entity/player/fighter/_logic/effects/dazed/deactivate
+
 function ssbrc:game/entity/player/fighter/_logic/effects/immobile/deactivate
+
+function ssbrc:game/entity/player/fighter/_logic/effects/sleep/deactivate
+
+scoreboard players set @s armor_break 1

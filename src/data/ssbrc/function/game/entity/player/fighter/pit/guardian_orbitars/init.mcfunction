@@ -1,11 +1,11 @@
 tag @s add guardian_orbitar
-tag @s add delete_behavior.disabled
-tag @s add reflect_behavior.disabled
 
 function ssbrc:game/entity/init/id
 
 $data merge entity @s { \
 	data: { \
+		delete_behavior: "disabled", \
+		reflect_behavior: "disabled", \
 		skin: "$(skin)", \
 	}, \
 	teleport_duration: 1, \

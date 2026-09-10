@@ -15,6 +15,7 @@ scoreboard objectives remove cooldown
 scoreboard objectives remove cooldown.1
 scoreboard objectives remove cooldown.2
 scoreboard objectives remove cooldown.3
+scoreboard objectives remove dazed
 scoreboard objectives remove deaths
 scoreboard objectives remove dialogue
 scoreboard objectives remove double_jump_strength

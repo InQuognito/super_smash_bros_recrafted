@@ -314,9 +314,10 @@ fighters = {
 		],
 		'items': {
 			'banana_slamma': {
-				'type': 'weapon',
+				'type': 'hybrid',
 				'stats': {
-					'attack_damage': 4,
+					'speed_multiplier': 0,
+					'attack_damage': 5,
 					'attack_speed': 0.75
 				},
 				'default': {
@@ -326,41 +327,26 @@ fighters = {
 			},
 			'barrel': {
 				'type': 'hybrid',
+				'group': 'barrel',
 				'stats': {
+					'max_damage': 1,
 					'attack_damage': 6,
 					'attack_speed': 1,
-					'max_damage': 1,
-					'damage': {
-						'type': 'generic',
-						'amount': 6
-					},
-					'cooldown_group': 'donkey_kong/weapon',
-					'cooldown': 0.5
+					'item_damage_on_attack': 1
 				},
 				'default': {
 					'name': 'ssbrc.fighter.donkey_kong.barrel',
-					'color': 'gold'
-				},
-				'gold': {
-					'color': 'gold'
-				},
-				'flower_power': {
-					'name': 'ssbrc.fighter.donkey_kong.barrel.flower_power',
-					'color': 'blue'
+					'color': 'red'
 				}
 			},
 			'tnt_barrel': {
 				'type': 'hybrid',
+				'group': 'barrel',
 				'stats': {
+					'max_damage': 1,
 					'attack_damage': 0,
 					'attack_speed': 1,
-					'max_damage': 1,
-					'damage': {
-						'type': 'generic',
-						'amount': 6
-					},
-					'cooldown_group': 'donkey_kong/weapon',
-					'cooldown': 0.5
+					'item_damage_on_attack': 1
 				},
 				'default': {
 					'name': 'ssbrc.fighter.donkey_kong.tnt_barrel',
@@ -369,16 +355,11 @@ fighters = {
 			},
 			'steel_keg': {
 				'type': 'hybrid',
+				'group': 'barrel',
 				'stats': {
-					'attack_damage': 7,
-					'attack_speed': 0.5,
 					'max_damage': 2,
-					'damage': {
-						'type': 'generic',
-						'amount': 6
-					},
-					'cooldown_group': 'donkey_kong/weapon',
-					'cooldown': 0.5
+					'attack_damage': 7,
+					'attack_speed': 0.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.donkey_kong.steel_keg',

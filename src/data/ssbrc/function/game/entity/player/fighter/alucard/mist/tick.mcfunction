@@ -1,4 +1,4 @@
-kill @e[type=#minecraft:arrows,tag=!delete_behavior.disabled,distance=..3]
+execute as @e[type=#minecraft:arrows,distance=..3] unless data entity @s data{delete_behavior: "disabled"} run kill @s
 
 execute if score @s duration.1 matches 1 run function ssbrc:game/entity/player/fighter/alucard/mist/deactivate
 
