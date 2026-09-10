@@ -1,6 +1,6 @@
 function ssbrc:game/entity/player/fighter/_logic/ability/init
 
-execute anchored eyes positioned ^ ^ ^1 summon minecraft:armor_stand run function ssbrc:game/entity/player/fighter/donkey_kong/tnt_barrel/init
+execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ssbrc:game/entity/player/fighter/donkey_kong/tnt_barrel/init/marker
 
 function ssbrc:game/item/init/replace {search_key: "item", search_value: "tnt_barrel", item: "banana_slamma", class: "weapon", type: "hybrid_bow"}
 

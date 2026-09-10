@@ -1,4 +1,4 @@
-tag @s add barrel
+tag @s add steel_keg
 
 function ssbrc:game/item/init/slot {item: "steel_keg", slot: "contents", class: "weapon", type: "hybrid"}
 

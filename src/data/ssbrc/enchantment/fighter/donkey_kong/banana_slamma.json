@@ -23,10 +23,10 @@
 					"value": {
 						"type": "minecraft:score",
 						"target": {
-							"type": "minecraft:fixed",
-							"name": "#charge"
+							"type": "minecraft:context",
+							"target": "this"
 						},
-						"score": "temp"
+						"score": "charge"
 					},
 					"test": {
 						"min": 30,
@@ -44,10 +44,10 @@
 					"value": {
 						"type": "minecraft:score",
 						"target": {
-							"type": "minecraft:fixed",
-							"name": "#charge"
+							"type": "minecraft:context",
+							"target": "this"
 						},
-						"score": "temp"
+						"score": "charge"
 					},
 					"test": {
 						"min": 60,
@@ -65,10 +65,10 @@
 					"value": {
 						"type": "minecraft:score",
 						"target": {
-							"type": "minecraft:fixed",
-							"name": "#charge"
+							"type": "minecraft:context",
+							"target": "this"
 						},
-						"score": "temp"
+						"score": "charge"
 					},
 					"test": {
 						"min": 90

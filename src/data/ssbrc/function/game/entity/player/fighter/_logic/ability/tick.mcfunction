@@ -25,6 +25,8 @@ execute if entity @s[tag=phazon_spike] run return run function ssbrc:game/entity
 
 # Donkey Kong
 execute if entity @s[tag=barrel] run return run function ssbrc:game/entity/player/fighter/donkey_kong/barrel/tick
+execute if entity @s[tag=tnt_barrel] run return run function ssbrc:game/entity/player/fighter/donkey_kong/tnt_barrel/tick
+execute if entity @s[tag=steel_keg] run return run function ssbrc:game/entity/player/fighter/donkey_kong/steel_keg/tick
 
 # Fox
 execute if entity @s[tag=krazoan_fireball] run return run function ssbrc:game/entity/player/fighter/fox/krazoan_fireball/tick
