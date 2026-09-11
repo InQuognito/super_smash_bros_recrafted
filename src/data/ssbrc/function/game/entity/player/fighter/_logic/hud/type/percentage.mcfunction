@@ -5,6 +5,7 @@ scoreboard players reset #resource.pool temp
 
 function math:percentage {output: "#percent temp", val: "#resource.value temp", div: "#resource.max temp"}
 execute store result score #resource.value temp run scoreboard players operation #percent temp /= #10 const
+execute if score #resource.value temp matches 11.. run scoreboard players set #resource.value temp 10
 scoreboard players set #resource.max temp 10
 
 # Module Order
