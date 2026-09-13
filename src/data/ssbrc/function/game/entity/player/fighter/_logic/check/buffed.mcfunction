@@ -12,7 +12,7 @@ execute if items entity @s[scores={duration.1=1..}] armor.body *[minecraft:custo
 
 execute if items entity @s[scores={duration.1=1..}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "joker"}}}] run return 1
 
-execute if items entity @s[scores={health=40..}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "link"}}}] run return 1
+execute if items entity @s[scores={health=400..}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "link"}}}] run return 1
 
 execute if items entity @s[scores={duration.1=1..}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "ryu"}}}] run return 1
 

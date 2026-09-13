@@ -8,11 +8,11 @@ execute if items entity @s container.* *[minecraft:custom_data~{extra:"magic_rod
 # Passive Items
 execute if items entity @s container.* *[minecraft:custom_data~{item: "goron_locket"}] run effect clear @s minecraft:wither
 
-execute if items entity @s[scores={health=7..}] container.* *[minecraft:custom_data~{item: "nayrus_ring"}] run effect clear @s minecraft:resistance
+execute if items entity @s[scores={health=70..}] container.* *[minecraft:custom_data~{item: "nayrus_ring"}] run effect clear @s minecraft:resistance
 
 execute if items entity @s container.* *[minecraft:custom_data~{item: "torch_of_wisdom"}] as @e[predicate=ssbrc:target,predicate=!ssbrc:team_match,tag=cloaked,distance=..10] run function ssbrc:game/entity/player/fighter/_logic/effects/glowing/uncloak
 
-execute if items entity @s[scores={health=11..}] container.* *[minecraft:custom_data~{item: "ring_of_risk"}] run attribute @s minecraft:attack_damage modifier remove ssbrc:passive
+execute if items entity @s[scores={health=110..}] container.* *[minecraft:custom_data~{item: "ring_of_risk"}] run attribute @s minecraft:attack_damage modifier remove ssbrc:passive
 
 # Rupees
 scoreboard players set @s[scores={zelda.rupee.add=1..,resource=50..}] zelda.rupee.add 0

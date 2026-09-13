@@ -1,5 +1,5 @@
 execute if items entity @s container.* *[minecraft:custom_data~{item: "goron_locket"}] as @a[predicate=!ssbrc:owner,predicate=ssbrc:player,predicate=ssbrc:team_match] run function ssbrc:game/entity/player/fighter/zelda/shared_passives/goron_locket
-execute if items entity @s container.* *[minecraft:custom_data~{item: "nayrus_ring"}] run effect give @a[predicate=!ssbrc:owner,predicate=ssbrc:player,predicate=ssbrc:team_match,scores={health=..8}] minecraft:resistance 1 0 true
+execute if items entity @s container.* *[minecraft:custom_data~{item: "nayrus_ring"}] run effect give @a[predicate=!ssbrc:owner,predicate=ssbrc:player,predicate=ssbrc:team_match,scores={health=..80}] minecraft:resistance 1 0 true
 execute if items entity @s container.* *[minecraft:custom_data~{item: "pegasus_anklet"}] run effect give @a[predicate=!ssbrc:owner,predicate=ssbrc:player,predicate=ssbrc:team_match] minecraft:speed 1 0 true
 execute if items entity @s container.* *[minecraft:custom_data~{item: "ring_of_risk"}] as @a[predicate=!ssbrc:owner,predicate=ssbrc:player,predicate=ssbrc:team_match] run function ssbrc:game/entity/player/fighter/zelda/shared_passives/ring_of_risk
 execute if items entity @s container.* *[minecraft:custom_data~{item: "snorkel"}] run effect give @a[predicate=!ssbrc:owner,predicate=ssbrc:player,predicate=ssbrc:team_match] minecraft:water_breathing 1 255 true

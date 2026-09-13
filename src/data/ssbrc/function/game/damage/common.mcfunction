@@ -2,6 +2,7 @@ execute if score @s invincible matches 1.. run return fail
 $function ssbrc:game/entity/player/fighter/_logic/effects/invincible/activate {duration: $(i_frames)}
 
 $scoreboard players set #damage_taken temp $(amount)
+scoreboard players operation #damage_taken temp *= #10 const
 scoreboard players operation @s health -= #damage_taken temp
 
 $attribute @s minecraft:knockback_resistance modifier add ssbrc:knockback_resistance $(kb_resist) add_value

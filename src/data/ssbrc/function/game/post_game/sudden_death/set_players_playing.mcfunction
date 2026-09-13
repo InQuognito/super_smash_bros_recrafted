@@ -1,9 +1,7 @@
 scoreboard players set @s stocks 1
 
 # Reset Health
-attribute @s minecraft:max_health base set 20.0
-damage @s 0.1
-effect give @s minecraft:instant_health 1 50 true
+scoreboard players set @s health 200
 
 effect give @s minecraft:slowness 1 255 true
 effect give @s minecraft:jump_boost 1 200 true

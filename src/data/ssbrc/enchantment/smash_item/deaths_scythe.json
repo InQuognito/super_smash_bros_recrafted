@@ -25,7 +25,7 @@
 						"entity": "this",
 						"scores": {
 							"health": {
-								"max": 12
+								"max": 120
 							}
 						}
 					}
@@ -47,7 +47,7 @@
 					"entity": "this",
 					"scores": {
 						"health": {
-							"max": 12
+							"max": 120
 						}
 					}
 				},
@@ -55,10 +55,8 @@
 					"type": "minecraft:all_of",
 					"effects": [
 						{
-							"type": "minecraft:damage_entity",
-							"damage_type": "minecraft:player_attack",
-							"min_damage": 999,
-							"max_damage": 999
+							"type": "minecraft:run_function",
+							"function": "ssbrc:game/entity/player/death"
 						},
 						{
 							"type": "minecraft:play_sound",

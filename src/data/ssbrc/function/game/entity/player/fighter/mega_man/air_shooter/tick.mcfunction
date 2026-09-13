@@ -9,12 +9,12 @@ teleport @s[tag=1] ^ ^.1 ^.2
 teleport @s[tag=2] ^ ^.1 ^.3
 teleport @s[tag=3] ^ ^.1 ^.4
 
-scoreboard players operation display temp = @s temp
-scoreboard players operation display temp %= #6 const
-execute if score display temp matches 0 run function ssbrc:game/entity/player/fighter/mega_man/air_shooter/animation/1
-execute if score display temp matches 2 run function ssbrc:game/entity/player/fighter/mega_man/air_shooter/animation/2
-execute if score display temp matches 4 run function ssbrc:game/entity/player/fighter/mega_man/air_shooter/animation/3
-scoreboard players reset display temp
+scoreboard players operation #mod temp = @s temp
+scoreboard players operation #mod temp %= #6 const
+execute if score #mod temp matches 0 run function ssbrc:game/entity/player/fighter/mega_man/air_shooter/animation/1
+execute if score #mod temp matches 2 run function ssbrc:game/entity/player/fighter/mega_man/air_shooter/animation/2
+execute if score #mod temp matches 4 run function ssbrc:game/entity/player/fighter/mega_man/air_shooter/animation/3
+scoreboard players reset #mod temp
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=40..}]

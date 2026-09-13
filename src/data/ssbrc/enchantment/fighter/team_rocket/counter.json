@@ -31,8 +31,7 @@
 					"entity": "attacker",
 					"scores": {
 						"health": {
-							"min": 33,
-							"max": 36
+							"min": 330
 						}
 					}
 				}
@@ -51,8 +50,8 @@
 					"entity": "attacker",
 					"scores": {
 						"health": {
-							"min": 29,
-							"max": 32
+							"min": 290,
+							"max": 329
 						}
 					}
 				}
@@ -71,8 +70,8 @@
 					"entity": "attacker",
 					"scores": {
 						"health": {
-							"min": 25,
-							"max": 28
+							"min": 250,
+							"max": 289
 						}
 					}
 				}
@@ -91,8 +90,8 @@
 					"entity": "attacker",
 					"scores": {
 						"health": {
-							"min": 21,
-							"max": 24
+							"min": 210,
+							"max": 249
 						}
 					}
 				}
@@ -111,8 +110,8 @@
 					"entity": "attacker",
 					"scores": {
 						"health": {
-							"min": 17,
-							"max": 20
+							"min": 170,
+							"max": 209
 						}
 					}
 				}
@@ -131,8 +130,8 @@
 					"entity": "attacker",
 					"scores": {
 						"health": {
-							"min": 13,
-							"max": 16
+							"min": 130,
+							"max": 169
 						}
 					}
 				}
@@ -151,8 +150,8 @@
 					"entity": "attacker",
 					"scores": {
 						"health": {
-							"min": 9,
-							"max": 12
+							"min": 90,
+							"max": 129
 						}
 					}
 				}
@@ -171,8 +170,8 @@
 					"entity": "attacker",
 					"scores": {
 						"health": {
-							"min": 5,
-							"max": 8
+							"min": 40,
+							"max": 89
 						}
 					}
 				}
@@ -191,7 +190,7 @@
 					"entity": "attacker",
 					"scores": {
 						"health": {
-							"max": 4
+							"max": 39
 						}
 					}
 				}

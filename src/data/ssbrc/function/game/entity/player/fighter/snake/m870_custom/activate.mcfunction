@@ -1,6 +1,6 @@
 function ssbrc:game/entity/player/fighter/_logic/ability/init
 
-execute store result score temp health run scoreboard players get @s health
+execute store result score #health temp run scoreboard players get @s health
 
 function ssbrc:game/entity/player/fighter/snake/m870_custom/offset/initial {axis:"x"}
 function ssbrc:game/entity/player/fighter/snake/m870_custom/offset/initial {axis:"y"}

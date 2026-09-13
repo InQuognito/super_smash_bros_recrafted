@@ -1,7 +1,7 @@
 function ssbrc:game/entity/player/fighter/_logic/ability/init
 
 # Health
-execute if score @s health matches ..6 run function ssbrc:game/entity/player/fighter/sora/low_health_alert/check
+execute if score @s health matches ..60 run function ssbrc:game/entity/player/fighter/sora/low_health_alert/check
 
 # Drive Forms
 execute if score @s duration.1 matches 1 run function ssbrc:game/entity/player/fighter/sora/drive_forms/default

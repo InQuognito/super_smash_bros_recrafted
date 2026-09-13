@@ -1,6 +1,6 @@
 function ssbrc:game/entity/player/fighter/_logic/ability/init
 
-execute store result score temp health run scoreboard players get @s health
+execute store result score #health temp run scoreboard players get @s health
 
 function ssbrc:game/entity/player/fighter/snake/psg1/offset
 execute store result storage ssbrc:temp cache.rotation.x float .1 run scoreboard players get #random temp

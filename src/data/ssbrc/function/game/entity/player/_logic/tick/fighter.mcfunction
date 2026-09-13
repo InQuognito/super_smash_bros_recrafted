@@ -1,8 +1,5 @@
 execute positioned ~ ~.5 ~ run spawnpoint
 
-execute unless score @s health = @s health.prev run function ssbrc:game/entity/player/fighter/_logic/change_health
-scoreboard players operation @s health.prev = @s health
-
 execute store result score @s motion_x run data get entity @s Motion[0] 10000
 execute store result score @s motion_y run data get entity @s Motion[1] 10000
 execute store result score @s motion_z run data get entity @s Motion[2] 10000
