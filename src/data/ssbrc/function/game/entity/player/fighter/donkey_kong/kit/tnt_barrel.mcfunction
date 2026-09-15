@@ -1,1 +1,3 @@
-function ssbrc:game/item/init/replace {search_key: "item", search_value: "banana_slamma", item: "tnt_barrel", class: "weapon", type: "hybrid"}
+kill @s
+
+execute on origin run function ssbrc:game/entity/player/fighter/donkey_kong/kit/get_barrel {item: "tnt_barrel"}

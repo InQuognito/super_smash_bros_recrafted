@@ -45,10 +45,10 @@
 					"value": {
 						"type": "minecraft:score",
 						"target": {
-							"type": "minecraft:fixed",
-							"name": "#charge"
+							"type": "minecraft:context",
+							"target": "this"
 						},
-						"score": "temp"
+						"score": "charge"
 					},
 					"test": {
 						"min": 40

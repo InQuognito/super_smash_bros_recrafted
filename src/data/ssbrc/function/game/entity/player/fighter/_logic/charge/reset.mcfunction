@@ -1,5 +1,1 @@
-scoreboard players operation @s selected_item.prev = @s selected_item
-
-scoreboard players operation #charge temp = @s charge
-
-function ssbrc:game/entity/player/fighter/_logic/charge/tick
+scoreboard players set @s charge 0

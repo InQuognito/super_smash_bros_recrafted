@@ -5,8 +5,6 @@ function ssbrc:game/start/points
 attribute @s minecraft:jump_strength base set 0.42
 effect clear @s minecraft:slowness
 
-execute store result score @s health run data get entity @s Health
-
 scoreboard players set @s charge 0
 scoreboard players set @s combo.count 0
 scoreboard players set @s flag.sprinting 0

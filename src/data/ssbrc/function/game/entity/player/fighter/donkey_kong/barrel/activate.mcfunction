@@ -2,7 +2,7 @@ function ssbrc:game/entity/player/fighter/_logic/ability/init
 
 execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ssbrc:game/entity/player/fighter/donkey_kong/barrel/init/marker
 
-function ssbrc:game/item/init/replace {search_key: "group", search_value: "barrel", item: "banana_slamma", class: "weapon", type: "hybrid_bow"}
+function ssbrc:game/entity/player/fighter/donkey_kong/cleanup
 
 playsound ssbrc:fighter.donkey_kong.barrel.activate player @a
 
