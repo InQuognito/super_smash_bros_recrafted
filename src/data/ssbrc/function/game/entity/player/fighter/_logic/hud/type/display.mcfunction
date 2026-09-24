@@ -12,7 +12,7 @@ $data modify storage ssbrc:hud temp.value append value { \
 			color: "$(color)", \
 		}, \
 	], \
-}, \
+} \
 
 # Push to HUD
 function ssbrc:game/entity/player/fighter/_logic/hud/push
