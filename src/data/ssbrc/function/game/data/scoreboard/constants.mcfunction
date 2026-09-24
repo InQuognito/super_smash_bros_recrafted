@@ -138,9 +138,11 @@ scoreboard players set #zelda.bow.default const 1
 scoreboard players set #zelda.bow.fire const 2
 scoreboard players set #zelda.bow.poison const 2
 scoreboard players set #zelda.fire_rod.default const 2
-scoreboard players set #zelda.fire_rod.alt const 4
+scoreboard players operation #zelda.fire_rod.alt const = #zelda.fire_rod.default const
+scoreboard players operation #zelda.fire_rod.alt const *= #2 const
 scoreboard players set #zelda.ice_rod.default const 2
-scoreboard players set #zelda.ice_rod.alt const 4
+scoreboard players operation #zelda.ice_rod.alt const = #zelda.ice_rod.default const
+scoreboard players operation #zelda.ice_rod.alt const *= #2 const
 scoreboard players set #zelda.magic_boomerang const 3
 
 # Stages

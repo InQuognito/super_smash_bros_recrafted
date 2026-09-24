@@ -17,20 +17,19 @@
 										"type": "minecraft:score",
 										"target": {
 											"type": "minecraft:fixed",
-											"name": "#zelda.ice_rod.alt"
+											"name": "#zelda.fire_rod.alt"
 										},
 										"score": "const"
 									}
 								}
 							}
-						},
-						"ssbrc:flag/sneaking"
+						}
 					]
 				},
 				"item": {
 					"predicates": {
 						"minecraft:custom_data": {
-							"item": "ice_rod"
+							"item": "fire_rod"
 						}
 					}
 				}
@@ -38,6 +37,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/entity/player/fighter/zelda/ice_rod/alternate_function/activate"
+		"function": "ssbrc:game/entity/player/fighter/zelda/fire_rod/alternate_function/activate"
 	}
 }

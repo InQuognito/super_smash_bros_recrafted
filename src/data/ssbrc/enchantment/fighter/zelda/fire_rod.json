@@ -1,0 +1,54 @@
+{
+	"description": "",
+	"supported_items": "#ssbrc:equipment/ability",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"hand"
+	],
+	"effects": {
+		"minecraft:post_piercing_attack": [
+			{
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:run_function",
+							"function": "ssbrc:game/entity/player/fighter/zelda/fire_rod/activate"
+						}
+					]
+				},
+				"requirements": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"magic": {
+									"min": {
+										"type": "minecraft:score",
+										"target": {
+											"type": "minecraft:fixed",
+											"name": "#zelda.fire_rod.default"
+										},
+										"score": "const"
+									}
+								}
+							}
+						}
+					]
+				}
+			}
+		]
+	}
+}

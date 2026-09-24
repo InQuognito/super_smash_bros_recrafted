@@ -1,3 +1,4 @@
+scoreboard players set #resource.cost temp 0
 $execute store result score #resource.cost temp run function ssbrc:game/entity/player/fighter/$(fighter)/hud
 execute unless score #resource.cost temp matches 1.. run return fail
 

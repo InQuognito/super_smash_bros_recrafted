@@ -765,7 +765,7 @@ fighters = {
 				}
 			},
 			'fire_rod': {
-				'type': 'ability',
+				'type': 'custom_swing',
 				'group': 'dungeon_item',
 				'stats': {
 					'cooldown_group': 'zelda/fire_rod',
@@ -777,7 +777,7 @@ fighters = {
 				}
 			},
 			'ice_rod': {
-				'type': 'ability',
+				'type': 'custom_swing',
 				'group': 'dungeon_item',
 				'stats': {
 					'cooldown_group': 'zelda/ice_rod',
