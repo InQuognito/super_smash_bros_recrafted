@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:template/item/hud",
+	"textures": {
+		"base": "ssbrc:fighter/king_k_rool/item/boxing_glove/default/icon"
+	}
+}

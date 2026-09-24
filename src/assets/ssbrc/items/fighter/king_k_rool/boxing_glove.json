@@ -10,24 +10,38 @@
 					"property": "minecraft:display_context",
 					"cases": [
 						{
+							"when": "gui",
+							"model": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/king_k_rool/item/boxing_glove/gold/icon"
+							}
+						},
+						{
 							"when": "firstperson_lefthand",
 							"model": {
 								"type": "minecraft:model",
-								"model": "ssbrc:fighter/king_k_rool/item/boxing_glove/gold/left"
+								"model": "ssbrc:fighter/king_k_rool/item/boxing_glove/gold/model/left"
 							}
 						},
 						{
 							"when": "thirdperson_lefthand",
 							"model": {
 								"type": "minecraft:model",
-								"model": "ssbrc:fighter/king_k_rool/item/boxing_glove/gold/left"
+								"model": "ssbrc:fighter/king_k_rool/item/boxing_glove/gold/model/left"
 							}
 						}
 					],
 					"fallback": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/king_k_rool/item/boxing_glove/gold/default"
+						"model": "ssbrc:fighter/king_k_rool/item/boxing_glove/gold/model/default"
 					}
+				}
+			},
+			{
+				"when": "kaptain",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/king_k_rool/item/boxing_glove/kaptain"
 				}
 			}
 		],
@@ -36,23 +50,30 @@
 			"property": "minecraft:display_context",
 			"cases": [
 				{
+					"when": "gui",
+					"model": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/king_k_rool/item/boxing_glove/default/icon"
+					}
+				},
+				{
 					"when": "firstperson_lefthand",
 					"model": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/king_k_rool/item/boxing_glove/default/left"
+						"model": "ssbrc:fighter/king_k_rool/item/boxing_glove/default/model/left"
 					}
 				},
 				{
 					"when": "thirdperson_lefthand",
 					"model": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/king_k_rool/item/boxing_glove/default/left"
+						"model": "ssbrc:fighter/king_k_rool/item/boxing_glove/default/model/left"
 					}
 				}
 			],
 			"fallback": {
 				"type": "minecraft:model",
-				"model": "ssbrc:fighter/king_k_rool/item/boxing_glove/default/default"
+				"model": "ssbrc:fighter/king_k_rool/item/boxing_glove/default/model/default"
 			}
 		}
 	},

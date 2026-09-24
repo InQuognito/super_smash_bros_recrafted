@@ -1,5 +1,4 @@
 {
-	"format_version": "1.21.11",
 	"textures": {
 		"base": "ssbrc:fighter/king_k_rool/skin/accessory/crown",
 		"particle": "ssbrc:miscellaneous/empty"
@@ -165,6 +164,9 @@
 	"display": {
 		"gui": {
 			"rotation": [30, -135, 0]
+		},
+		"head": {
+			"translation": [0, 8, 0]
 		}
 	}
 }
