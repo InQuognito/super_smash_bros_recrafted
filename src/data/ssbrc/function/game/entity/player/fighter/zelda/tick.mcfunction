@@ -1,7 +1,7 @@
 function ssbrc:game/entity/player/fighter/_logic/ability/init
 
 # Dungeon Items
-execute if items entity @s[scores={fuse=1..}] container.* *[minecraft:custom_data~{item: "bomb"}] run function ssbrc:game/entity/player/fighter/zelda/bomb/fuse_tick
+execute if items entity @s[scores={fuse=1..}] container.* *[minecraft:custom_data~{item: "zelda_bomb"}] run function ssbrc:game/entity/player/fighter/zelda/bomb/fuse_tick
 
 # Passive Items
 execute if items entity @s container.* *[minecraft:custom_data~{item: "goron_locket"}] run effect clear @s minecraft:wither

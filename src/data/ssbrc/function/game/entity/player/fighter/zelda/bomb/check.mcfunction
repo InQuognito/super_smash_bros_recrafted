@@ -1,4 +1,4 @@
-advancement revoke @s only ssbrc:utility/use_item/fighter/zelda/bomb
+advancement revoke @s only ssbrc:utility/use_item/fighter/zelda/zelda_bomb
 
 execute if score @s fuse matches 1.. run return run function ssbrc:game/entity/player/fighter/zelda/bomb/summon
 
