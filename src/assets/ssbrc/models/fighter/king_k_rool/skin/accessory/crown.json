@@ -166,7 +166,8 @@
 			"rotation": [30, -135, 0]
 		},
 		"head": {
-			"translation": [0, 8, 0]
+			"translation": [0, 6.5, 0],
+			"scale": [1.85, 1.85, 1.85]
 		}
 	}
 }
