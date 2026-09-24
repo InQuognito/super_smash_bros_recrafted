@@ -623,7 +623,7 @@ fighters = {
 					'cooldown': 1
 				},
 				'default': {
-					'name': 'ssbrc.fighter.toon_link.boomerang',
+					'name': 'ssbrc.fighter.the_legend_of_zelda.boomerang',
 					'color': 'red'
 				},
 				'gold': {
