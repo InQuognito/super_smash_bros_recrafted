@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:fighter/bowser/item/koopa_klaw/parent",
+	"textures": {
+		"base": "ssbrc:fighter/bowser/item/koopa_klaw/gold"
+	}
+}

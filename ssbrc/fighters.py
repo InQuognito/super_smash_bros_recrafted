@@ -266,7 +266,7 @@ fighters = {
 			'default'
 		],
 		'items': {
-			'power_band': {
+			'koopa_klaw': {
 				'type': 'hybrid',
 				'stats': {
 					'speed_multiplier': 0.5,
@@ -274,7 +274,7 @@ fighters = {
 					'attack_speed': 1
 				},
 				'default': {
-					'name': 'ssbrc.fighter.bowser.power_band',
+					'name': 'ssbrc.fighter.bowser.koopa_klaw',
 					'color': 'dark_gray'
 				},
 				'gold': {

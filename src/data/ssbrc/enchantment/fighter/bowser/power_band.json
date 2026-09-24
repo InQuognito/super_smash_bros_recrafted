@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/entity/player/fighter/bowser/power_band"
+					"function": "ssbrc:game/entity/player/fighter/bowser/koopa_klaw"
 				}
 			}
 		],

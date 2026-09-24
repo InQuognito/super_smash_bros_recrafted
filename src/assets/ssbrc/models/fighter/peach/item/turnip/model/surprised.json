@@ -1,6 +1,6 @@
 {
 	"parent": "ssbrc:fighter/peach/item/turnip/model/parent",
 	"textures": {
-		"face": "ssbrc:fighter/peach/item/turnip/model/surprised"
+		"base": "ssbrc:fighter/peach/item/turnip/model/surprised"
 	}
 }

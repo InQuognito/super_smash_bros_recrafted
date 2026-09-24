@@ -7,13 +7,13 @@
 				"when": "gold",
 				"model": {
 					"type": "minecraft:model",
-					"model": "ssbrc:fighter/bowser/item/power_band/gold"
+					"model": "ssbrc:fighter/bowser/misc/shell/gold"
 				}
 			}
 		],
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "ssbrc:fighter/bowser/item/power_band/default"
+			"model": "ssbrc:fighter/bowser/misc/shell/default"
 		}
 	},
 	"hand_animation_on_swap": false

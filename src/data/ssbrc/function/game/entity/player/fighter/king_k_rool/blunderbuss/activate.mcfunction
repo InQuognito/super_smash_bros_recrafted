@@ -5,6 +5,8 @@ execute anchored eyes positioned ^ ^ ^1 summon minecraft:armor_stand run functio
 scoreboard players set $z player_motion.api.launch -3500
 function player_motion:api/launch_local_xyz
 
+scoreboard players set @s cooldown.1 40
+
 playsound ssbrc:fighter.king_k_rool.blunderbuss.activate player @a
 
 function ssbrc:game/entity/player/fighter/_logic/ability/deinit

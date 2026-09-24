@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:fighter/bowser/misc/shell/parent",
+	"textures": {
+		"base": "ssbrc:fighter/bowser/misc/shell/default"
+	}
+}

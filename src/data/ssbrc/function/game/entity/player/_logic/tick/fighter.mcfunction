@@ -30,6 +30,7 @@ attribute @s[scores={jump.cooldown=-2}] minecraft:gravity modifier remove ssbrc:
 
 execute store result score @s selected_item run data get entity @s SelectedItemSlot
 execute unless score @s selected_item.prev = @s selected_item run function ssbrc:game/entity/player/fighter/_logic/change_slot with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
+scoreboard players operation @s selected_item.prev = @s selected_item
 
 # Combo
 execute unless score @s combo.duration < #combo const run scoreboard players remove @s combo.duration 1
