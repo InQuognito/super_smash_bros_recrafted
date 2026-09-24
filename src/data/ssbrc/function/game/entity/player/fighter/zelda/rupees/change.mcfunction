@@ -4,7 +4,7 @@ $scoreboard players remove @s zelda.rupee.$(mode) 1
 
 function ssbrc:game/entity/player/fighter/_logic/hud/type/display { \
 	hud: 2, \
-	value: [ \
+	data: [ \
 		" | ", \
 	], \
 	source: "@s", \
@@ -13,5 +13,5 @@ function ssbrc:game/entity/player/fighter/_logic/hud/type/display { \
 	color: "green", \
 }
 
-$execute if score @s zelda.rupee.$(mode) matches 1.. run playsound ssbrc:fighter.zelda.rupee.$(mode).tick player @s
-$execute if score @s zelda.rupee.$(mode) matches 0 run function ssbrc:game/entity/player/fighter/zelda/rupees/finish {mode: "$(mode)"}
+$execute if score @s zelda.rupee.$(mode) matches 1.. run return run playsound ssbrc:fighter.zelda.rupee.$(mode).tick player @s
+$function ssbrc:game/entity/player/fighter/zelda/rupees/finish {mode: "$(mode)"}
