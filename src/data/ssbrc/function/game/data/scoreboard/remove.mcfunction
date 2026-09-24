@@ -1,3 +1,4 @@
+scoreboard objectives remove absorption
 scoreboard objectives remove animation
 scoreboard objectives remove armor_break
 scoreboard objectives remove attacker
@@ -15,6 +16,8 @@ scoreboard objectives remove cooldown
 scoreboard objectives remove cooldown.1
 scoreboard objectives remove cooldown.2
 scoreboard objectives remove cooldown.3
+scoreboard objectives remove damage
+scoreboard objectives remove damage_cap
 scoreboard objectives remove dazed
 scoreboard objectives remove deaths
 scoreboard objectives remove dialogue

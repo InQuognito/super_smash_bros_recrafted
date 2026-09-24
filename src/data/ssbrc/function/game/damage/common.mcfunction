@@ -3,7 +3,8 @@ $function ssbrc:game/entity/player/fighter/_logic/effects/invincible/activate {d
 
 $scoreboard players set #damage_taken temp $(amount)
 scoreboard players operation #damage_taken temp *= #10 const
-scoreboard players operation @s health -= #damage_taken temp
+scoreboard players operation @s damage += #damage_taken temp
+function ssbrc:game/damage/loop
 
 $attribute @s minecraft:knockback_resistance modifier add ssbrc:knockback_resistance $(kb_resist) add_value
 damage @s .1 minecraft:player_attack
