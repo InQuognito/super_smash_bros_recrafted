@@ -18,4 +18,4 @@ teleport @s[scores={temp=36}] ^ ^ ^.48
 teleport @s[scores={temp=37}] ^ ^ ^.51
 teleport @s[scores={temp=38}] ^ ^ ^.54
 teleport @s[scores={temp=39}] ^ ^ ^.57
-execute if score @s temp matches 40.. run return run teleport @s ^ ^ ^.60
+execute if score @s temp matches 40.. run return run teleport @s ^ ^ ^.6

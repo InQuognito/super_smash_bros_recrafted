@@ -172,7 +172,7 @@ execute if entity @s[tag=payday] run return run function ssbrc:game/entity/playe
 execute if entity @s[tag=payday.projectile] run return run function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/tick
 
 # Toon Link
-execute if entity @s[tag=toon_link_boomerang] run return run function ssbrc:game/entity/player/fighter/toon_link/boomerang/tick
+execute if entity @s[tag=toon_link_boomerang] run return run function ssbrc:game/entity/player/fighter/toon_link/toon_link_boomerang/tick
 
 # Villager
 execute if entity @s[tag=sapling] run return run function ssbrc:game/entity/player/fighter/villager/sapling/tick
