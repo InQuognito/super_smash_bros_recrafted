@@ -30,6 +30,7 @@ $item replace entity @s $(slot) with minecraft:fishing_rod[ \
 			"minecraft:unbreakable", \
 		], \
 	}, \
+	minecraft:unbreakable = {}, \
 	minecraft:use_cooldown = { \
 		seconds: $(cooldown), \
 		cooldown_group: "ssbrc:$(cooldown_group)", \
