@@ -768,6 +768,8 @@ fighters = {
 				'type': 'custom_swing',
 				'group': 'dungeon_item',
 				'stats': {
+					'max_reach': 0,
+					'attack_animation': 'none',
 					'cooldown_group': 'zelda/fire_rod',
 					'cooldown': 1
 				},
@@ -780,6 +782,8 @@ fighters = {
 				'type': 'custom_swing',
 				'group': 'dungeon_item',
 				'stats': {
+					'max_reach': 0,
+					'attack_animation': 'none',
 					'cooldown_group': 'zelda/ice_rod',
 					'cooldown': 1
 				},
