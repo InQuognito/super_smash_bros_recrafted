@@ -1,6 +1,4 @@
 $data modify storage ssbrc:hud temp set value {key: "$(hud)", value: $(data)}
 
-$data modify storage ssbrc:hud temp.value append value $(content)
-
 # Push to HUD
 function ssbrc:game/entity/player/fighter/_logic/hud/push
