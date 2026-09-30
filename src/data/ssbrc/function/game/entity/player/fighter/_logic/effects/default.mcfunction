@@ -6,5 +6,4 @@ function ssbrc:game/entity/player/fighter/_logic/effects/glowing/apply
 
 function ssbrc:game/entity/player/fighter/_logic/effects/invisibility with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
-execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "king_k_rool"}}}] run return run function ssbrc:game/entity/player/fighter/king_k_rool/adaptive_armor/enable
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "zelda"}}}] run return run function ssbrc:game/entity/player/fighter/zelda/passive_items/apply
