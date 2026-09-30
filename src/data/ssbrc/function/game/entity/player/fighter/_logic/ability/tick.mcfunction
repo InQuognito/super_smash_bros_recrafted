@@ -71,6 +71,9 @@ execute if entity @s[tag=hama] run return run function ssbrc:game/entity/player/
 execute if entity @s[tag=hama.display] run return run function ssbrc:game/entity/player/fighter/joker/hama/tick/sigil
 execute if entity @s[tag=phantom_show] run return run function ssbrc:game/entity/player/fighter/joker/phantom_show/tick
 
+# King K. Rool
+execute if entity @s[tag=blunderbuss] run return run function ssbrc:game/entity/player/fighter/king_k_rool/blunderbuss/tick
+
 # Link
 execute if entity @s[tag=sword_beam] run return run function ssbrc:game/entity/player/fighter/link/sword_beam/tick
 
