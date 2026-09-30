@@ -2536,14 +2536,11 @@ fighters = {
 		],
 		'items': {
 			'palutena_bow': {
-				'type': 'weapon',
+				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 5,
 					'attack_speed': 1.5,
-					'damage': {
-						'type': 'generic',
-						'amount': 14
-					}
+					'speed_multiplier': 0.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.pit.palutena_bow',
