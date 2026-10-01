@@ -1,7 +1,9 @@
 execute store result score @s health run data get entity @s Health 1.0
 scoreboard players operation @s health -= #yar.drone.health.threshold const
 
-function math:percentage {output: "#percent temp", val: "@s health", div: "#yar.drone.health const"}
+scoreboard players operation #in temp = @s health
+scoreboard players operation #div temp = #yar.drone.health const
+execute store result score #percent temp run compute default integer ssbrc:percent
 
 execute if score #percent temp matches ..50 run particle minecraft:electric_spark ~ ~.5 ~ .2 .2 .2 .5 1 normal @a
 execute if score #percent temp matches ..25 run particle minecraft:smoke ~ ~.5 ~ .2 .2 .2 .01 1 normal @a

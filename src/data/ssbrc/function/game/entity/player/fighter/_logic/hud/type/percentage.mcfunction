@@ -3,7 +3,10 @@ $scoreboard players operation #resource.max temp = #$(max) const
 $scoreboard players operation #resource.value temp = @s $(current)
 scoreboard players reset #resource.pool temp
 
-function math:percentage {output: "#percent temp", val: "#resource.value temp", div: "#resource.max temp"}
+scoreboard players operation #in temp = #resource.value temp
+scoreboard players operation #div temp = #resource.max temp
+execute store result score #percent temp run compute default integer ssbrc:percent
+
 execute store result score #resource.value temp run scoreboard players operation #percent temp /= #10 const
 execute if score #resource.value temp matches 11.. run scoreboard players set #resource.value temp 10
 scoreboard players set #resource.max temp 10

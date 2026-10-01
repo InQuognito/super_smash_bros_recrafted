@@ -1,3 +1,3 @@
-scoreboard players operation #damage_taken temp = @s flag.damage_taken
+execute store result score #damage temp run data get entity @s equipment.mainhand.components."minecraft:custom_data".damage
 
 function ssbrc:game/damage/melee

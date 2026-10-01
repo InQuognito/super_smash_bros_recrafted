@@ -17,7 +17,8 @@ scoreboard objectives add cooldown.1 dummy
 scoreboard objectives add cooldown.2 dummy
 scoreboard objectives add cooldown.3 dummy
 scoreboard objectives add damage dummy
-scoreboard objectives add damage_cap dummy
+scoreboard objectives add damage_cooldown dummy
+scoreboard objectives add damage_delay dummy
 scoreboard objectives add dazed dummy
 scoreboard objectives add deaths deathCount
 scoreboard objectives add dialogue dummy

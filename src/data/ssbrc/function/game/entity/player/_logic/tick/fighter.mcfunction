@@ -4,6 +4,8 @@ execute store result score @s motion_x run data get entity @s Motion[0] 10000
 execute store result score @s motion_y run data get entity @s Motion[1] 10000
 execute store result score @s motion_z run data get entity @s Motion[2] 10000
 
+execute if entity @s[scores={damage=1..,damage_delay=1..}] run function ssbrc:game/damage/loop
+
 scoreboard players operation #health temp = @s health
 scoreboard players operation #health temp *= #100 const
 scoreboard players operation #health temp /= #40 const

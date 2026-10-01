@@ -1,5 +1,5 @@
-scoreboard players operation #spirit_gain temp = #damage_dealt temp
-scoreboard players operation #spirit_gain temp *= #100 const
+scoreboard players operation #cache temp = #damage temp
+scoreboard players operation #cache temp *= #100 const
 
-scoreboard players operation @s resource += #spirit_gain temp
+scoreboard players operation @s resource += #cache temp
 function ssbrc:game/entity/player/fighter/altered_beast/spirit_gauge/update

@@ -17,7 +17,8 @@ scoreboard objectives remove cooldown.1
 scoreboard objectives remove cooldown.2
 scoreboard objectives remove cooldown.3
 scoreboard objectives remove damage
-scoreboard objectives remove damage_cap
+scoreboard objectives remove damage_cooldown
+scoreboard objectives remove damage_delay
 scoreboard objectives remove dazed
 scoreboard objectives remove deaths
 scoreboard objectives remove dialogue

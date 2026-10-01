@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:div",
+	"left": {
+		"type": "minecraft:mul",
+		"inputs": [
+			{
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#in"
+				},
+				"score": "temp"
+			},
+			100
+		]
+	},
+	"right": {
+		"type": "minecraft:score",
+		"target": {
+			"type": "minecraft:fixed",
+			"name": "#div"
+		},
+		"score": "temp"
+	}
+}

@@ -43,7 +43,7 @@ scoreboard players set #bowser.rage_ball const 25
 scoreboard players set #bowser.rage const 300
 scoreboard players set #bowser.rage.threshold const 200
 
-scoreboard players set #cloud.limit const 60
+scoreboard players set #cloud.limit const 600
 
 scoreboard players set #donkey_kong.barrel const 160
 scoreboard players set #donkey_kong.orange_grenade const 160

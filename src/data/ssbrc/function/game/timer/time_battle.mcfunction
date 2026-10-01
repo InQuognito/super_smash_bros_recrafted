@@ -2,7 +2,10 @@
 execute store result bossbar ssbrc:timer value run scoreboard players get #game_time timer
 
 execute store result score #time_limit temp run data get storage ssbrc:data option.time_limit
-function math:percentage {output: "#percent temp", val: "#game_time timer", div: "#time_limit temp"}
+
+scoreboard players operation #in temp = #game_time timer
+scoreboard players operation #div temp = #time_limit temp
+execute store result score #percent temp run compute default integer ssbrc:percent
 
 execute if score #percent temp matches 50 run bossbar set ssbrc:timer color green
 execute if score #percent temp matches 25 run bossbar set ssbrc:timer color yellow

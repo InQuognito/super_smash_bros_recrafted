@@ -1,3 +1,1 @@
-scoreboard players operation #damage_taken temp = @s flag.damage_dealt
-
-scoreboard players reset @s flag.damage_dealt
+execute store result score #damage temp run data get entity @s equipment.mainhand.components."minecraft:custom_data".damage

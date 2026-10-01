@@ -8,7 +8,7 @@ $item replace entity @s $(slot) with minecraft:bow[ \
 		{ \
 			type: "minecraft:attack_damage", \
 			id: "ssbrc:attack_damage", \
-			amount: $(attack_damage), \
+			amount: 0, \
 			operation: "add_multiplied_base", \
 			slot: "mainhand", \
 		}, \
@@ -23,6 +23,7 @@ $item replace entity @s $(slot) with minecraft:bow[ \
 	minecraft:custom_data = { \
 		item: "$(item)", \
 		group: "$(group)", \
+		damage: $(attack_damage), \
 	}, \
 	minecraft:custom_model_data = { \
 		strings: [ \

@@ -1,4 +1,6 @@
-$function math:percentage {output: "#$(fighter).win_loss temp", val: "#$(fighter) log.wins", div: "#$(fighter) log.games_played"}
+$scoreboard players operation #in temp = #$(fighter) log.wins
+$scoreboard players operation #div temp = #$(fighter) log.games_played
+$execute store result score #$(fighter).win_loss temp run compute default integer ssbrc:percent
 
 $tellraw @s [ \
 	{ \

@@ -1,9 +1,10 @@
-scoreboard players operation #in math = @s temp
-scoreboard players operation #in math *= #20 const
-function math:trig/cos
-scoreboard players operation #out math *= #-1 const
-scoreboard players add #out math 1500
-scoreboard players operation #out math /= #200 const
+scoreboard players operation #in temp = @s temp
+scoreboard players operation #in temp *= #20 const
+execute store result score #out temp run compute default float ssbrc:cos
 
-scoreboard players operation #length_inner temp = #out math
+scoreboard players operation #out temp *= #-1 const
+scoreboard players add #out temp 1500
+scoreboard players operation #out temp /= #200 const
+
+scoreboard players operation #length_inner temp = #out temp
 execute facing ^ ^1 ^ run function ssbrc:game/entity/player/fighter/altered_beast/weretiger/sabretooth/raycast/loop_inner

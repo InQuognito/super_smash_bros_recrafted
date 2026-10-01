@@ -1,4 +1,4 @@
-scoreboard players operation #cache temp = #damage_dealt temp
+scoreboard players operation #cache temp = #damage temp
 
 function ssbrc:game/entity/player/fighter/cloud/hurt/check
 scoreboard players operation @s resource += #cache temp

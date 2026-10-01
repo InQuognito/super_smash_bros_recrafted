@@ -1,4 +1,6 @@
-function math:percentage {output: "#percent temp", val: "@s duration.1", div: "#400 const"}
+scoreboard players operation #in temp = @s duration.1
+scoreboard players operation #div temp = #400 const
+execute store result score #percent temp run compute default integer ssbrc:percent
 
 execute if score #percent temp matches 1..5 run return run title @s actionbar [{text: "\u25ae", color: "aqua"}]
 execute if score #percent temp matches 6..10 run return run title @s actionbar [{text: "\u25ae\u25ae", color: "aqua"}]

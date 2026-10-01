@@ -1,6 +1,5 @@
-execute store result storage ssbrc:temp cache.damage.amount int 1 run scoreboard players get #damage_taken temp
-scoreboard players operation @s damage += #damage_taken temp
-tellraw @a ["Damage Taken: ", {score: {name: "@s", objective: "damage"}}]
+execute store result storage ssbrc:temp cache.damage.amount int 1 run scoreboard players get #damage temp
+scoreboard players operation @s damage += #damage temp
 function ssbrc:game/damage/loop
 
 execute unless score @s health matches 1.. run return run function ssbrc:game/entity/check_death
