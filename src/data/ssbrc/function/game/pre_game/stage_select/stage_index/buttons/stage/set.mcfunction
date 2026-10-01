@@ -17,7 +17,7 @@ $item modify entity @s enderchest.$(slot) { \
 			tag: { \
 				ui: { \
 					type: "default", \
-					navigation: "game/logic/stage/vote with storage ssbrc:data stage.$(name)", \
+					navigation: "game/stage/_logic/vote with storage ssbrc:data stage.$(name)", \
 				}, \
 			}, \
 		}, \

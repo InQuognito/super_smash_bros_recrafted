@@ -25,8 +25,7 @@ for prev in range(pages):
 
 		n = 1
 		for fighter in list(fighters.keys())[(prev * 15):(prev * 15) + 15]:
-			if fighter != 'terry':
-				function ssbrc:shop/buttons/fighter/get {'fighter':fighter,'slot':chest_map[n]}
+			function ssbrc:shop/buttons/fighter/get {'fighter':fighter,'slot':chest_map[n]}
 			n += 1
 
 		function ssbrc:game/ui/buttons/placeholder/get {'slot':8}
