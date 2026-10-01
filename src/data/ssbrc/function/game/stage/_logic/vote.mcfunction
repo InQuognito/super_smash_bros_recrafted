@@ -6,7 +6,7 @@ tag @s add self
 $function ssbrc:game/pre_game/stage_select/adjust {name: $(name)}
 $execute unless items entity @s armor.body *[minecraft:custom_data~{temp: {selected_stage: "$(name)"}}] as @a at @s if dimension ssbrc:stage_select run tellraw @s [ \
 	{ \
-		selector: "@a[tag=self,limit=1]", \
+		selector: "@a[predicate=ssbrc:owner,limit=1]", \
 		color: "yellow", \
 	}, \
 	{ \

@@ -4,4 +4,4 @@ scoreboard players set #entity_hit temp 1
 
 playsound ssbrc:fighter.luigi.ice_ball.expire player @a
 
-execute as @a[tag=self,limit=1] at @s run playsound ssbrc:fighter.luigi.ice_ball.hit player @s
+execute as @a[predicate=ssbrc:owner,limit=1] at @s run playsound ssbrc:fighter.luigi.ice_ball.hit player @s

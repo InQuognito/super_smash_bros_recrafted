@@ -10,4 +10,4 @@ data merge entity @s { \
 
 function ssbrc:game/entity/init/armor_stand/normal
 
-scoreboard players operation @s temp = @a[tag=self,limit=1] charge
+scoreboard players operation @s temp = @a[predicate=ssbrc:owner,limit=1] charge

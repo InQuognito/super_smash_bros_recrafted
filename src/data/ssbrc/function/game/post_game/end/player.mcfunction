@@ -1,3 +1,5 @@
+function ssbrc:game/entity/player/cleanup
+
 stopsound @s music
 
 function ssbrc:game/entity/player/fighter/_logic/effects/lobby

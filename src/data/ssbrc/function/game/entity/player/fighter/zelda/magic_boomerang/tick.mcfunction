@@ -8,7 +8,7 @@ teleport @e[type=minecraft:item,distance=..1] @s
 
 scoreboard players add @s temp 1
 execute unless score @s temp matches 40.. rotated as @s run teleport @s ^ ^ ^1
-execute if score @s temp matches 40.. facing entity @a[tag=self,limit=1] eyes run function ssbrc:game/entity/player/fighter/zelda/magic_boomerang/return
+execute if score @s temp matches 40.. facing entity @a[predicate=ssbrc:owner,limit=1] eyes run function ssbrc:game/entity/player/fighter/zelda/magic_boomerang/return
 
 scoreboard players operation #mod temp = @s temp
 scoreboard players operation #mod temp %= #6 const

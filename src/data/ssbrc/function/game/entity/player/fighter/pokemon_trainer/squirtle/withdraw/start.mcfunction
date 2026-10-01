@@ -6,6 +6,6 @@ function ssbrc:game/entity/player/fighter/_logic/effects/glowing/cloak
 
 effect give @s minecraft:invisibility infinite 0 true
 
-execute positioned ~ ~.75 ~ summon minecraft:item_display run function ssbrc:game/entity/player/fighter/pokemon_trainer/squirtle/withdraw/init with entity @a[tag=self,limit=1] equipment.body.components."minecraft:custom_data".temp.fighter
+execute positioned ~ ~.75 ~ summon minecraft:item_display run function ssbrc:game/entity/player/fighter/pokemon_trainer/squirtle/withdraw/init with entity @a[predicate=ssbrc:owner,limit=1] equipment.body.components."minecraft:custom_data".temp.fighter
 
 function ssbrc:game/entity/player/fighter/pokemon_trainer/squirtle/withdraw/particles/start

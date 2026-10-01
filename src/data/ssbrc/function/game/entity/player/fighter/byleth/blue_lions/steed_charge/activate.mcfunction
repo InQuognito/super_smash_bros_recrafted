@@ -1,5 +1,5 @@
 function ssbrc:game/entity/player/fighter/_logic/ability/init
 
-execute rotated as @s summon minecraft:horse run function ssbrc:game/entity/player/fighter/byleth/blue_lions/steed_charge/init with entity @a[tag=self,limit=1] equipment.body.components."minecraft:custom_data".temp.fighter
+execute rotated as @s summon minecraft:horse run function ssbrc:game/entity/player/fighter/byleth/blue_lions/steed_charge/init with entity @a[predicate=ssbrc:owner,limit=1] equipment.body.components."minecraft:custom_data".temp.fighter
 
 function ssbrc:game/entity/player/fighter/_logic/ability/deinit

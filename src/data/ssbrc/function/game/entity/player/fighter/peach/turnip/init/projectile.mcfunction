@@ -6,6 +6,6 @@ attribute @s minecraft:bounciness base set .6
 attribute @s minecraft:friction_modifier base set .15
 attribute @s minecraft:scale base set .5
 
-item replace entity @s armor.head from entity @a[tag=self,limit=1] weapon.mainhand
+item replace entity @s armor.head from entity @a[predicate=ssbrc:owner,limit=1] weapon.mainhand
 
 function ssbrc:game/entity/init/armor_stand/normal

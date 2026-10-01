@@ -8,6 +8,6 @@ data merge entity @s { \
 	Small: 1b, \
 }
 
-data modify entity @s Rotation set from entity @a[tag=self,limit=1] Rotation
+data modify entity @s Rotation set from entity @a[predicate=ssbrc:owner,limit=1] Rotation
 
 function ssbrc:game/entity/init/armor_stand/normal
