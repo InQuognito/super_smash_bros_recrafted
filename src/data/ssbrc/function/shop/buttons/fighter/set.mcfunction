@@ -14,7 +14,7 @@ $item replace entity @s enderchest.$(slot) with minecraft:saddle[ \
 	}, \
 ]
 
-$item modify entity @s enderchest.$(slot) ssbrc:shop_tooltip/$(fighter)/skin/default
+#$item modify entity @s enderchest.$(slot) ssbrc:shop_tooltip/$(fighter)/skin/default
 
 $execute if score @s[advancements={ssbrc:fighter/$(fighter)/default=false}] stats.credits < #price.fighter const run item modify entity @s enderchest.$(slot) {type: "minecraft:sequence", functions: ["ssbrc:ui/shop/price/fighter", "ssbrc:ui/shop/cannot_afford", {type: "minecraft:set_custom_data", tag: {ui: {type: "default", navigation: "$(path)"}}}]}
 
