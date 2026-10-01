@@ -1,4 +1,3 @@
-scoreboard players set #entity_hit temp 1
 function ssbrc:game/entity/check/all
 
 scoreboard players operation #id_to_match temp = @s attacker
