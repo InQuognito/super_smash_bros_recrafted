@@ -5,7 +5,7 @@ from ssbrc.ui import chest_map
 for fighter in fighters:
 	n = 1
 	function f'ssbrc:shop/pages/skin/{fighter}':
-		data modify storage ssbrc:temp cache.ui merge value {path: "shop/buttons/skin/find_page", name: fighter}
+		data modify storage ssbrc:temp cache.ui merge value {path: "shop/buttons/skin/find_page", fighter: fighter}
 		$function ssbrc:game/ui/page_color/skin {page: "$(page)"}
 		function ssbrc:game/ui/fighter_reset with storage ssbrc:temp cache.ui
 

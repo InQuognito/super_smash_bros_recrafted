@@ -11,7 +11,7 @@ $item modify entity @s enderchest.$(slot) { \
 			tag: { \
 				ui: { \
 					type: "fighter", \
-					name: "$(name)", \
+					name: "$(fighter)", \
 					navigation: "$(path)", \
 					sound: "ssbrc:empty", \
 				}, \
