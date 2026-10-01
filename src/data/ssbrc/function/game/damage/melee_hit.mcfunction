@@ -1,1 +1,1 @@
-execute store result score #damage temp run data get entity @s equipment.mainhand.components."minecraft:custom_data".damage
+execute store result score #damage temp run data get entity @s SelectedItem.components."minecraft:custom_data".damage
