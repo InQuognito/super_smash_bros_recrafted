@@ -33,8 +33,8 @@ $item modify entity @s enderchest.$(slot) { \
 			], \
 			mode: "append", \
 		}, \
-		"ssbrc:fighter/$(fighter)/skin/$(skin)", \
 	], \
 }
+#"ssbrc:fighter/$(fighter)/skin/$(skin)", \
 
 function ssbrc:shop/buttons/skin/set/footer with storage ssbrc:temp cache.ui
