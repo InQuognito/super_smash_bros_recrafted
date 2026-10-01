@@ -1,6 +1,7 @@
 particle minecraft:poof ~ ~.75 ~ .1 .1 .1 .05 10 normal @a
 particle minecraft:smoke ~ ~.75 ~ .1 .1 .1 .065 50 normal @a
 particle minecraft:gust ~ ~.75 ~ 0 0 0 0 1 normal @a
+playsound minecraft:entity.firework_rocket.blast player @a
 
 scoreboard players operation #team temp = @s team
 gamemode spectator @s
