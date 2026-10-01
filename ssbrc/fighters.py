@@ -2053,7 +2053,7 @@ fighters = {
 			'mr_baseball_bat': {
 				'type': 'weapon',
 				'stats': {
-					'attack_damage': 70,
+					'attack_damage': 60,
 					'attack_speed': 0.75
 				},
 				'default': {
