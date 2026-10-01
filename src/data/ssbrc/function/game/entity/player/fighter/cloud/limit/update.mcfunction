@@ -7,7 +7,7 @@ function ssbrc:game/entity/player/fighter/_logic/hud/type/percentage { \
 	hud: 1, \
 	data: [{translate: "ssbrc.fighter.cloud.limit", bold: true}], \
 	max: "cloud.limit", \
-	current: "@s resource", \
+	current: "resource", \
 	background: true, \
 	resource_color: "red", \
 	bg_color: "dark_gray", \
