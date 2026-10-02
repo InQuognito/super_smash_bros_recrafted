@@ -1,8 +1,9 @@
-execute as @e[predicate=ssbrc:target,distance=..3] run function ssbrc:game/damage/explosion {amount: 12, type: "generic", kb_resist: 0, source: ""}
-
 particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 0 1 normal @a
-playsound minecraft:entity.generic.explode player @a
+
+function ssbrc:game/damage/explosion {amount: 12, radius: 3, kb_resist: 0, i_frames: 0}
 
 function ssbrc:game/stage/bowsers_castle/hazards/destruction/stair with entity @s data
 
 kill @s
+
+playsound minecraft:entity.generic.explode player @a

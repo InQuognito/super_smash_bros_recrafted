@@ -1,7 +1,6 @@
 particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 0 1 normal @a
 
-execute as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,distance=..4] run function ssbrc:game/damage/explosion {amount: 12, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
-execute as @a[predicate=ssbrc:owner,limit=1,distance=..4] run function ssbrc:game/damage/explosion {amount: 12, type: "generic", kb_resist: 0, source: ""}
+function ssbrc:game/damage/explosion {amount: 12, radius: 4, kb_resist: 0, i_frames: 0}
 
 playsound ssbrc:fighter.mega_man.hyper_bomb.explode player @a
 

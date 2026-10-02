@@ -1,7 +1,6 @@
-execute as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,distance=..3] run function ssbrc:game/damage/explosion {amount: 12, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
-execute as @a[predicate=ssbrc:owner,limit=1,distance=..3] run function ssbrc:game/damage/explosion {amount: 12, type: "generic", kb_resist: 0, source: ""}
-
 particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 0 1 normal @a
+
+function ssbrc:game/damage/explosion {amount: 12, radius: 3, kb_resist: 0, i_frames: 0}
 
 kill @s
 

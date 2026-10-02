@@ -1,4 +1,4 @@
-function ssbrc:game/damage/explosion {amount: 12, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
+function ssbrc:game/damage/generic {amount: 12, kb_resist: 0, i_frames: 0}
 
 scoreboard players set #entity_hit temp 1
 
