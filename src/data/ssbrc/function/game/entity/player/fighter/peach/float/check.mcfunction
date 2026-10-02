@@ -10,5 +10,4 @@ execute if score #cache temp matches 2 run particle minecraft:cherry_leaves ~ ~.
 execute if score #cache temp matches 4 run particle minecraft:cherry_leaves ~ ~.75 ~ .4 .6 .4 0 1 normal @a
 execute if score #cache temp matches 6 run particle minecraft:cherry_leaves ~ ~.75 ~ .4 .6 .4 0 1 normal @a
 
-execute if score @s cooldown.1 matches 1.. run return fail
-execute unless entity @s[tag=float] run function ssbrc:game/entity/player/fighter/peach/float/activate
+execute unless entity @s[tag=float,scores={cooldown=..0}] run function ssbrc:game/entity/player/fighter/peach/float/activate
