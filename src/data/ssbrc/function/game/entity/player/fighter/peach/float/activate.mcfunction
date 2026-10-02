@@ -1,7 +1,5 @@
 tag @s add float
 
-scoreboard players set @s cooldown.1 20
-
 tp @s @s
 
 attribute @s minecraft:gravity modifier add ssbrc:active -1 add_multiplied_total
