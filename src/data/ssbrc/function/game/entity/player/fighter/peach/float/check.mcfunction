@@ -1,4 +1,4 @@
-execute if score @s charge.1 matches 1 run function ssbrc:game/entity/player/fighter/peach/float/deactivate
+execute if score @s charge.1 matches 1 run return run function ssbrc:game/entity/player/fighter/peach/float/deactivate
 scoreboard players remove @s charge.1 1
 
 execute if score @s cooldown.1 matches 1.. run return fail
