@@ -2,7 +2,7 @@ execute unless block ^ ^ ^.3 #ssbrc:passthrough_barrier run scoreboard players s
 
 execute positioned ~-.2 ~-.2 ~-.2 as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dx=0] positioned ~-.6 ~-.6 ~-.6 if entity @s[dx=0] run function ssbrc:game/damage/generic {amount: 6, kb_resist: 0, i_frames: 5}
 
-execute positioned ~-.2 ~-.2 ~-.2 as @a[tag=self,limit=1,dx=0] positioned ~-.6 ~-.6 ~-.6 if entity @s[dx=0] run function ssbrc:game/entity/player/fighter/zelda/magic_boomerang/regain
+execute positioned ~-.2 ~-.2 ~-.2 as @a[predicate=ssbrc:owner,limit=1,dx=0] positioned ~-.6 ~-.6 ~-.6 if entity @s[dx=0] run function ssbrc:game/entity/player/fighter/zelda/magic_boomerang/regain
 
 teleport @e[type=minecraft:item,distance=..1] @s
 

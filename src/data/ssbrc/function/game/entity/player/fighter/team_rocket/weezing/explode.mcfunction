@@ -3,7 +3,7 @@ particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 0 1 normal @a
 clear @a[predicate=ssbrc:owner,limit=1] *[minecraft:custom_data~{item: "weezing"}]
 
 execute as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,distance=..4] run function ssbrc:game/damage/explosion {amount: 12, type: "generic", kb_resist: 0, source: "@a[predicate=ssbrc:owner,limit=1]"}
-execute as @a[tag=self,limit=1,distance=..4] run function ssbrc:game/damage/explosion {amount: 12, type: "generic", kb_resist: 0, source: ""}
+execute as @a[predicate=ssbrc:owner,limit=1,distance=..4] run function ssbrc:game/damage/explosion {amount: 12, type: "generic", kb_resist: 0, source: ""}
 
 execute on passengers run kill @s
 kill @s

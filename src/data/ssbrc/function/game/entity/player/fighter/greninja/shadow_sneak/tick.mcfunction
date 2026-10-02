@@ -1,5 +1,5 @@
 particle minecraft:smoke ~ ~ ~ .25 .1 .25 0 25 normal @a[predicate=ssbrc:owner,limit=1]
-execute if score @s temp matches ..10 run particle minecraft:smoke ~ ~-.1 ~ .25 .1 .25 0 1 force @a[tag=!self]
+execute if score @s temp matches ..10 run particle minecraft:smoke ~ ~-.1 ~ .25 .1 .25 0 1 force @a[predicate=!ssbrc:owner]
 
 execute positioned ~ ~.6 ~ positioned ^ ^ ^.5 if function ssbrc:game/entity/player/fighter/_logic/check/raycast/block_water run scoreboard players set @s temp 41
 
