@@ -1,9 +1,9 @@
 {
-	"type": "minecraft:cos",
-	"input": {
-		"type": "minecraft:mul",
-		"inputs": [
-			{
+	"type": "minecraft:mul",
+	"inputs": [
+		{
+			"type": "minecraft:cos",
+			"input": {
 				"type": "minecraft:from_int",
 				"input": {
 					"type": "minecraft:score",
@@ -13,8 +13,8 @@
 					},
 					"score": "temp"
 				}
-			},
-			100
-		]
-	}
+			}
+		},
+		100
+	]
 }

@@ -1,5 +1,4 @@
 scoreboard players operation #in temp = @s temp
-scoreboard players operation #in temp *= #20 const
 execute store result score #out temp run compute default float ssbrc:cos
 
 scoreboard players operation #out temp *= #-1 const
