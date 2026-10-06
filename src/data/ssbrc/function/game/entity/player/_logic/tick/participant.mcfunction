@@ -10,3 +10,5 @@ execute if items entity @s armor.body *[ \
 ] run function ssbrc:game/entity/player/_logic/tick/fighter
 
 execute as @e[type=!minecraft:player,predicate=ssbrc:owner] at @s run function ssbrc:game/entity/player/fighter/_logic/ability/tick
+
+scoreboard players reset #entity_hit temp

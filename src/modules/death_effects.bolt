@@ -1,0 +1,16 @@
+from ssbrc.death_effects import death_effects, death_effect_storage
+
+from itertools import chain
+
+function ssbrc:game/entity/init/death_effect:
+	data modify storage ssbrc:data death_effect set value death_effect_storage()
+
+for effect in death_effects:
+	advancement f'ssbrc:death_effect/{effect}' {
+		"parent": f'ssbrc:unlock',
+		"criteria": {
+			"default": {
+				"trigger": 'minecraft:impossible'
+			}
+		}
+	}
