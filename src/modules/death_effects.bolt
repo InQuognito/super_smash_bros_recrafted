@@ -10,7 +10,7 @@ for effect in death_effects:
 		"parent": f'ssbrc:unlock',
 		"criteria": {
 			"default": {
-				"trigger": 'minecraft:impossible'
+				"trigger": "minecraft:impossible"
 			}
 		}
 	}
