@@ -2,4 +2,4 @@ function ssbrc:game/item/init/slot {item: "hammer", slot: "hotbar.0", class: "we
 
 function ssbrc:game/item/init/slot {item: "ice_ball", slot: "weapon.offhand", class: "default", type: "default"}
 
-attribute @s minecraft:gravity modifier add ssbrc:fighter -0.2 add_multiplied_total
+function ssbrc:game/entity/player/fighter/luigi/reduced_gravity

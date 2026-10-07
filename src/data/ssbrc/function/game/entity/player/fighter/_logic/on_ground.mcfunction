@@ -13,7 +13,7 @@ execute if items entity @s[tag=falcon_kick] armor.body *[minecraft:custom_data~{
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "jigglypuff"}}}] run return run scoreboard players set @s jumps 3
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "kirby"}}}] run return run scoreboard players set @s jumps 6
 execute if items entity @s[tag=no_spin] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "link"}}}] run tag @s remove no_spin
-execute if items entity @s[tag=ground_pound] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "luigi"}}}] run function ssbrc:game/entity/player/fighter/mario/ground_pound/deactivate
+execute if items entity @s[tag=ground_pound] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "luigi"}}}] run function ssbrc:game/entity/player/fighter/luigi/ground_pound
 execute if items entity @s[tag=ground_pound] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "mario"}}}] run function ssbrc:game/entity/player/fighter/mario/ground_pound/deactivate
 execute if items entity @s[tag=no_float] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "peach"}}}] run function ssbrc:game/entity/player/fighter/peach/float/reset
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "pit"}}}] run item modify entity @s armor.chest {type: "minecraft:set_components", components: {"!minecraft:glider":{}}}
