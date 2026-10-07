@@ -1,3 +1,3 @@
 playsound ssbrc:music.earthbound.humoresque_of_a_little_dog music @s
 
-function ssbrc:game/music/song/restart {duration:1760}
+function ssbrc:game/music/song/restart {duration: 1760}

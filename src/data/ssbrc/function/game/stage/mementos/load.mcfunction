@@ -9,5 +9,5 @@ execute if score #random temp matches 3 run function ssbrc:game/stage/mementos/l
 execute if score #random temp matches 4 run function ssbrc:game/stage/mementos/load/persona_4
 execute if score #random temp matches 5 run function ssbrc:game/stage/mementos/load/persona_5
 
-execute positioned -1185.5 18 819.5 summon minecraft:armor_stand run function ssbrc:game/stage/mementos/npc/jose
-execute positioned -1180.5 12 881.5 summon minecraft:armor_stand run function ssbrc:game/stage/mementos/npc/queen
+execute positioned 2 1 -60 summon minecraft:armor_stand run function ssbrc:game/stage/mementos/npc/jose
+execute positioned 7 -5 3 summon minecraft:armor_stand run function ssbrc:game/stage/mementos/npc/queen

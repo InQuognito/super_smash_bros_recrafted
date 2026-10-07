@@ -1,3 +1,3 @@
 playsound ssbrc:music.super_mario_bros.dark_hallways music @s
 
-function ssbrc:game/music/song/restart {duration:940}
+function ssbrc:game/music/song/restart {duration: 940}

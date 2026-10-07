@@ -1,3 +1,3 @@
 playsound ssbrc:music.persona.take_over music @s
 
-function ssbrc:game/music/song/restart {duration:3365}
+function ssbrc:game/music/song/restart {duration: 3365}

@@ -1,3 +1,3 @@
 playsound ssbrc:music.misc.aquos_arena music @s
 
-function ssbrc:game/music/song/restart {duration:2666}
+function ssbrc:game/music/song/restart {duration: 2666}
