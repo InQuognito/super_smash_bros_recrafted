@@ -1,6 +1,3 @@
-scoreboard players set #entity_hit temp 1
-function ssbrc:game/damage/loop
+function ssbrc:game/damage/silent_start
 
-function ssbrc:game/entity/get_hurt
-
-scoreboard players set @s hud 0
+playsound minecraft:entity.arrow.hit_player player @s

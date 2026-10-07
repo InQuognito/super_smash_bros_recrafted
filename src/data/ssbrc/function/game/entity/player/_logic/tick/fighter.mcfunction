@@ -4,7 +4,7 @@ execute store result score @s motion_x run data get entity @s Motion[0] 10000
 execute store result score @s motion_y run data get entity @s Motion[1] 10000
 execute store result score @s motion_z run data get entity @s Motion[2] 10000
 
-execute if score @s damage matches 1.. run function ssbrc:game/damage/start
+execute if score @s damage matches 1.. run function ssbrc:game/damage/silent_start
 
 scoreboard players operation #health temp = @s health
 scoreboard players operation #health temp *= #100 const
