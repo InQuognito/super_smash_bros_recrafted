@@ -2,6 +2,8 @@ data modify storage ssbrc:temp game.stage.variant set value "persona_3"
 
 time set 15000
 
+fillbiome ~-50 ~-50 ~-50 ~50 ~50 ~50 ssbrc:stage/mementos/persona_3
+
 # Logo
 place template ssbrc:stage/mementos/persona_3 -16 -5 43
 
@@ -13,8 +15,7 @@ execute positioned -13 -10 -23 run function ssbrc:game/stage/mementos/load/stage
 }
 
 # Wires
-fill -17 12 -26 20 82 21 minecraft:lapis_block replace minecraft:red_glazed_terracotta
-fill -17 12 -26 20 82 21 minecraft:lapis_block replace minecraft:raw_gold_block
+fill -17 12 -26 20 82 21 minecraft:sculk replace #ssbrc:stage/mementos/wires
 
 # Cells
 fill -1230 0 814 -1146 15 824 minecraft:lapis_block replace minecraft:redstone_block
@@ -143,17 +144,6 @@ fill -1145 65 826 -1134 85 930 minecraft:gray_stained_glass replace minecraft:re
 fill -1145 65 826 -1134 85 930 minecraft:gray_stained_glass replace minecraft:orange_stained_glass
 
 # Top Layer
-fill -1249 91 808 -1127 100 808 minecraft:lapis_block replace minecraft:red_glazed_terracotta
-fill -1249 91 808 -1127 100 808 minecraft:lapis_block replace minecraft:yellow_glazed_terracotta
+execute positioned -61 74 -70 run function ssbrc:game/stage/mementos/load/skybox {id: "lapis_block"}
 
-fill -1249 91 808 -1249 100 948 minecraft:lapis_block replace minecraft:red_glazed_terracotta
-fill -1249 91 808 -1249 100 948 minecraft:lapis_block replace minecraft:yellow_glazed_terracotta
-
-fill -1249 91 948 -1127 100 948 minecraft:lapis_block replace minecraft:red_glazed_terracotta
-fill -1249 91 948 -1127 100 948 minecraft:lapis_block replace minecraft:yellow_glazed_terracotta
-
-fill -1127 91 808 -1127 100 948 minecraft:lapis_block replace minecraft:red_glazed_terracotta
-fill -1127 91 808 -1127 100 948 minecraft:lapis_block replace minecraft:yellow_glazed_terracotta
-
-fill -1248 100 809 -1128 100 947 minecraft:blue_stained_glass replace minecraft:red_stained_glass
-fill -1248 100 809 -1128 100 947 minecraft:blue_stained_glass replace minecraft:orange_stained_glass
+fill -60 83 -69 ~120 ~ ~138 minecraft:blue_stained_glass replace #ssbrc:glass
