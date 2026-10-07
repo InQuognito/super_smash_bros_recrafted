@@ -1,4 +1,4 @@
-data modify storage ssbrc:temp game.stage.variant set value "persona_3"
+data modify storage ssbrc:temp game.stage.variant set value "persona_2"
 
 time set 15000
 
