@@ -7,3 +7,4 @@ execute if score #random temp matches 4 run function ssbrc:game/entity/player/fi
 
 scoreboard players remove @s mega_man.flame_sword 1
 item modify entity @s[scores={mega_man.flame_sword=..0}] weapon.mainhand ssbrc:fighter/mega_man/flame_sword/deactivate
+function ssbrc:game/entity/player/fighter/mega_man/update with entity @s SelectedItem.components."minecraft:custom_data"
