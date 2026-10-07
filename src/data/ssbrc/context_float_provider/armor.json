@@ -1,0 +1,37 @@
+{
+	"type": "minecraft:mul",
+	"inputs": [
+		{
+			"type": "minecraft:from_int",
+			"input": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:context",
+					"target": "this"
+				},
+				"score": "damage"
+			}
+		},
+		{
+			"type": "minecraft:sub",
+			"left": 1,
+			"right": {
+				"type": "minecraft:mul",
+				"inputs": [
+					{
+						"type": "minecraft:from_int",
+						"input": {
+							"type": "minecraft:score",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "#armor"
+							},
+							"score": "temp"
+						}
+					},
+					0.025
+				]
+			}
+		}
+	]
+}

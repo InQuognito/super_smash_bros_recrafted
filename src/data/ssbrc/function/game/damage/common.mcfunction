@@ -9,7 +9,9 @@ scoreboard players operation @s attacker = @a[predicate=ssbrc:owner,limit=1] id
 
 $scoreboard players set #damage temp $(amount)
 scoreboard players operation #damage temp *= #10 const
-scoreboard players operation @s damage += #damage temp
+
+function ssbrc:game/damage/calculate
+
 function ssbrc:game/damage/start
 
 function ssbrc:game/entity/get_hurt
