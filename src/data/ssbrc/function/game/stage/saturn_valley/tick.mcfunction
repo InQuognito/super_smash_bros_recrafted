@@ -1,1 +1,1 @@
-execute as @e[predicate=ssbrc:killbox_vulnerable,predicate=ssbrc:below_y/-50] run function ssbrc:game/entity/check_death
+execute as @e[predicate=ssbrc:killbox_vulnerable,predicate=ssbrc:below_y/-50] at @s run function ssbrc:game/entity/check_death
