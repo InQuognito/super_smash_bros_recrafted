@@ -3,17 +3,14 @@ data modify storage ssbrc:temp game.stage.variant set value "persona_4"
 time set day
 
 # Logo
-clone -1149 41 1015 -1174 11 1014 -1201 15 921
+place template ssbrc:stage/mementos/persona_4 -16 -5 43
 
 # Stage
-fill -1201 8 856 -1175 22 900 minecraft:yellow_concrete replace minecraft:blue_terracotta
-fill -1201 8 856 -1175 22 900 minecraft:yellow_concrete replace minecraft:red_concrete
-
-fill -1201 8 856 -1175 22 900 minecraft:lime_glazed_terracotta replace minecraft:gray_glazed_terracotta
-fill -1201 8 856 -1175 22 900 minecraft:lime_glazed_terracotta replace minecraft:black_glazed_terracotta
-
-fill -1201 8 856 -1175 22 900 minecraft:orange_stained_glass replace minecraft:blue_stained_glass
-fill -1201 8 856 -1175 22 900 minecraft:orange_stained_glass replace minecraft:red_stained_glass
+execute positioned -13 -10 -23 run function ssbrc:game/stage/mementos/load/stage { \
+	main: "yellow_concrete", \
+	trim: "lime_glazed_terracotta", \
+	glass: "orange_stained_glass", \
+}
 
 # Wires
 fill -1205 29 852 -1168 40 899 minecraft:raw_gold_block replace minecraft:lapis_block

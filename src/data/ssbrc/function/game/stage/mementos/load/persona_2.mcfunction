@@ -3,13 +3,13 @@ data modify storage ssbrc:temp game.stage.variant set value "persona_3"
 time set 15000
 
 # Logo
-place template ssbrc:stage/mementos/persona_3 -16 -5 43
+place template ssbrc:stage/mementos/persona_2 -16 -5 43
 
 # Stage
 execute positioned -13 -10 -23 run function ssbrc:game/stage/mementos/load/stage { \
-	main: "blue_terracotta", \
-	trim: "gray_glazed_terracotta", \
-	glass: "blue_stained_glass", \
+	main: "red_concrete", \
+	trim: "shroomlight", \
+	glass: "orange_stained_glass", \
 }
 
 # Wires
