@@ -1,7 +1,5 @@
-advancement revoke @s only ssbrc:utility/use_item/fighter/shadow/chaos_control
-
+function ssbrc:game/entity/player/fighter/_logic/ability/init
 scoreboard players operation #team temp = @s team
-tag @s add self
 
 particle minecraft:sonic_boom ~ ~.75 ~ 0 0 0 0 1 normal @a
 
@@ -12,4 +10,4 @@ function ssbrc:game/entity/player/fighter/shadow/chaos_gauge/update
 
 playsound ssbrc:fighter.shadow.chaos_control.activate player @s
 
-tag @s remove self
+function ssbrc:game/entity/player/fighter/_logic/ability/deinit
