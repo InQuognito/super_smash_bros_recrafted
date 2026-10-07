@@ -223,7 +223,7 @@ fighters = {
 				'type': 'ability',
 				'stats': {
 					'cooldown_group': 'peach/turnip',
-					'cooldown': .4
+					'cooldown': 0.4
 				},
 				'default': {
 					'name': 'ssbrc.fighter.peach.turnip',

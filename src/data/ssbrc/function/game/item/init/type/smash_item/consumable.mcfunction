@@ -18,7 +18,7 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 	}, \
 	minecraft:item_model = "ssbrc:smash_item/$(item)", \
 	minecraft:item_name = { \
-		translate: "$(name)", \
+		translate: "ssbrc.smash_item.$(item)", \
 		color: "$(color)", \
 		bold: true, \
 		italic: false, \
