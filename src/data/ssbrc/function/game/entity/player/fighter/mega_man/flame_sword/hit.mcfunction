@@ -1,1 +1,2 @@
-scoreboard players set @s burning 60
+scoreboard players set #burning temp 60
+function ssbrc:game/damage/apply_burning

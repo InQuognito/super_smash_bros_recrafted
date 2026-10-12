@@ -1,3 +1,5 @@
+scoreboard players set #burning temp 2
+
 scoreboard players operation #n temp = @s charge.1
 function ssbrc:game/entity/player/fighter/bowser/fire_breath/raycast
 
