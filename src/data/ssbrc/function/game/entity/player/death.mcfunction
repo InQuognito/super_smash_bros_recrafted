@@ -31,3 +31,9 @@ execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {
 scoreboard players set @s flag.sprinting 0
 
 function ssbrc:game/entity/player/fighter/_logic/cleanup with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
+
+# Bonuses
+execute if score #players.playing temp matches 3.. run scoreboard players operation @s revenge.tracking = @a[predicate=ssbrc:owner,limit=1] id
+
+scoreboard players operation #cache temp = @s id
+execute as @a[predicate=ssbrc:player] if score @s revenge.tracking = #cache temp run scoreboard players reset @s revenge.tracking

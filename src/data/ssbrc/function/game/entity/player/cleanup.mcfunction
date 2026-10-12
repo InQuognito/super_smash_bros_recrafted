@@ -2,6 +2,7 @@ scoreboard players set @s damage 0
 
 function ssbrc:game/entity/player/fighter/_logic/effects/cleanse
 
+# Fighter Effects
 tag @s remove cross_slash.target
 
 function ssbrc:game/entity/player/fighter/pokemon_trainer/ivysaur/leech_seed/reset

@@ -16,7 +16,5 @@ execute as @e[type=minecraft:marker,tag=ssbrc.vfx] at @s run function ssbrc:game
 
 scoreboard players remove @e[type=minecraft:marker,tag=spawnpoint,scores={cooldown=1..}] cooldown 1
 
-function ssbrc:game/entity/player/fighter/_logic/post_checks
-
 scoreboard players reset #entity_hit temp
 scoreboard players reset #entity_killed temp

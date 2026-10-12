@@ -4,4 +4,4 @@ execute if items entity @s weapon.mainhand *[minecraft:custom_data~{item: "power
 
 execute if items entity @s weapon.mainhand *[minecraft:custom_data~{item: "wave_beam"}] run return run function ssbrc:game/entity/player/fighter/samus/arm_cannon/switch {item: "plasma_beam"}
 
-function ssbrc:game/entity/player/fighter/samus/arm_cannon/switch {item: "power_beam"}
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{item: "plasma_beam"}] run return run function ssbrc:game/entity/player/fighter/samus/arm_cannon/switch {item: "power_beam"}
