@@ -3210,6 +3210,56 @@
 			}
 		]
 	},
+	"npc.poe.attack": {
+		"sounds": [
+			{
+				"name": "ssbrc:npc/poe/attack/1",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "ssbrc:npc/poe/attack/2",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"npc.poe.death.false": {
+		"sounds": [
+			{
+				"name": "ssbrc:npc/poe/death/false",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"npc.poe.death.true": {
+		"sounds": [
+			{
+				"name": "ssbrc:npc/poe/death/true",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"npc.redead.death": {
+		"sounds": [
+			{
+				"name": "ssbrc:npc/redead/death",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"npc.redead.shriek": {
+		"sounds": [
+			{
+				"name": "ssbrc:npc/redead/shriek",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
 	"smash_item.heal": {
 		"sounds": [
 			{

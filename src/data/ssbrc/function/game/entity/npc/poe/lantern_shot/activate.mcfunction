@@ -2,4 +2,4 @@ execute anchored eyes facing entity @e[predicate=ssbrc:target,distance=..12,pred
 
 scoreboard players set @s cooldown.1 50
 
-playsound ssbrc:fighter.shovel_knight.flare_wand.activate player @a
+playsound ssbrc:npc.poe.attack hostile @a
