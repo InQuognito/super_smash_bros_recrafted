@@ -4,7 +4,7 @@ scoreboard players set @s health 150
 
 attribute @s minecraft:attack_damage base set 0
 attribute @s minecraft:follow_range base set 2048
-attribute @s minecraft:movement_speed base set .1
+attribute @s minecraft:movement_speed base set .125
 
 item replace entity @s weapon.mainhand with minecraft:air
 item replace entity @s weapon.offhand with minecraft:air
