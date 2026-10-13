@@ -34,9 +34,8 @@ execute if entity @s[tag=fox_blaster] run return run function ssbrc:game/entity/
 execute if entity @s[tag=fire_fox] run return run function ssbrc:game/entity/player/fighter/fox/fire_fox/tick
 
 # Ganondorf
-execute if entity @s[tag=redead] run return run function ssbrc:game/entity/player/fighter/ganondorf/summon_undead/redead/tick
-execute if entity @s[tag=stalfos] run return run function ssbrc:game/entity/player/fighter/ganondorf/summon_undead/stalfos/tick
-execute if entity @s[tag=vire] run return run function ssbrc:game/entity/player/fighter/ganondorf/summon_undead/vire/tick
+execute if entity @s[tag=dead_mans_volley] run return run function ssbrc:game/entity/player/fighter/ganondorf/dead_mans_volley/tick
+execute if entity @s[tag=lantern_shot] run return run function ssbrc:game/entity/npc/poe/lantern_shot/tick
 
 # Giegue
 execute if entity @s[tag=pk_freeze] run return run function ssbrc:game/entity/player/fighter/giegue/pk_freeze/tick
