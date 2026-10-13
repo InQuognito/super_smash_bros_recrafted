@@ -2,7 +2,7 @@ scoreboard players add @s coward.tracking 1
 scoreboard players add @s[scores={coward.tracking=60..}] coward 1
 scoreboard players reset @s[scores={coward.tracking=60..}] coward.tracking
 
-execute if items entity @s[scores={charge.2=1..}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "bowser"}}}] run return run function ssbrc:game/timer/fighter/bowser
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "ganondorf"}}}] run return run function ssbrc:game/timer/fighter/ganondorf
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "hero"}}}] if score @s magic < #hero.magic const run return run function ssbrc:game/timer/fighter/hero
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "roy"}}}] run return run function ssbrc:game/timer/fighter/roy
 execute if items entity @s[tag=chaos_boost] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "shadow"}}}] unless score @s charge.2 matches 1.. run return run function ssbrc:game/entity/player/fighter/shadow/chaos_gauge/increase
