@@ -1,6 +1,6 @@
 function ssbrc:game/entity/player/fighter/_logic/ability/init
 
-execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:game/entity/player/fighter/shovel_knight/flare_wand/init
+execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ssbrc:game/entity/player/fighter/shovel_knight/flare_wand/init
 
 scoreboard players operation @s resource -= #shovel_knight.flare_wand const
 function ssbrc:game/entity/player/fighter/shovel_knight/magic/update

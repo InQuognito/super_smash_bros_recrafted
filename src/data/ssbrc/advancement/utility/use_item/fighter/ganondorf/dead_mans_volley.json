@@ -15,6 +15,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/entity/player/fighter/ganondorf/dead_mans_volley/activate"
+		"function": "ssbrc:game/entity/player/fighter/ganondorf/dead_mans_volley/start"
 	}
 }

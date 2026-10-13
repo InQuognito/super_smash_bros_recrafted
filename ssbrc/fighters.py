@@ -1003,14 +1003,14 @@ fighters = {
 					'color': 'dark_purple'
 				}
 			},
-			'beckon_call': {
+			'recall_undead': {
 				'type': 'ability',
 				'stats': {
-					'cooldown_group': 'ganondorf/beckon_call',
+					'cooldown_group': 'ganondorf/recall_undead',
 					'cooldown': 15
 				},
 				'default': {
-					'name': 'ssbrc.fighter.ganondorf.beckon_call',
+					'name': 'ssbrc.fighter.ganondorf.recall_undead',
 					'color': 'white'
 				}
 			}

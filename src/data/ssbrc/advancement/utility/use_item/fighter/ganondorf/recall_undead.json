@@ -13,7 +13,7 @@
 				"item": {
 					"predicates": {
 						"minecraft:custom_data": {
-							"item": "beckon_call"
+							"item": "recall_undead"
 						}
 					}
 				}
@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/entity/player/fighter/ganondorf/beckon_call/activate"
+		"function": "ssbrc:game/entity/player/fighter/ganondorf/recall_undead/activate"
 	}
 }
