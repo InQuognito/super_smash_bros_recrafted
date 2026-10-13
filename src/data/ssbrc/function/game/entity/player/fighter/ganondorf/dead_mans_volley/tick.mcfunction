@@ -1,4 +1,4 @@
-particle minecraft:dust{color: [1, 1, .8], scale: .5} ~ ~ ~ .15 .15 .15 0 50 normal @a
+function ssbrc:game/entity/player/fighter/ganondorf/dead_mans_volley/charge
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run return run kill @s
 
