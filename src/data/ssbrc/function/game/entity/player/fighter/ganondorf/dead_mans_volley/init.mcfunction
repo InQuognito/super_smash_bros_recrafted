@@ -5,6 +5,7 @@ data merge entity @s { \
 		interaction: { \
 			self: "ssbrc:game/entity/player/fighter/ganondorf/dead_mans_volley/parry", \
 			left_click: "ssbrc:game/entity/player/fighter/ganondorf/dead_mans_volley/refresh", \
+			right_click: "ssbrc:empty", \
 		}, \
 	}, \
 	height: 1, \
