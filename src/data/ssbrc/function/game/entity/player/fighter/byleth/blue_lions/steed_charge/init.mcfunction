@@ -11,8 +11,9 @@ $item replace entity @s saddle with minecraft:saddle[ \
 
 attribute @s minecraft:armor base set 4
 attribute @s minecraft:jump_strength base set .7
-attribute @s minecraft:max_health base set 16
 attribute @s minecraft:movement_speed base set .3
+
+scoreboard players set @s health 160
 
 data merge entity @s { \
 	Variant: 3, \

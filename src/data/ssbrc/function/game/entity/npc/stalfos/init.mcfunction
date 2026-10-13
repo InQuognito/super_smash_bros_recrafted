@@ -1,28 +1,17 @@
 tag @s add stalfos
 
-attribute @s minecraft:attack_damage base set 1
+scoreboard players set @s health 100
+
+attribute @s minecraft:attack_damage base set 0
 attribute @s minecraft:follow_range base set 2048
 attribute @s minecraft:movement_speed base set .3
-attribute @s minecraft:max_health base set 8
 
 item replace entity @s weapon.mainhand with minecraft:stick[ \
-	minecraft:weapon = { \
-		item_damage_per_attack: 0 \
-	}, \
-	minecraft:attribute_modifiers = [ \
-		{ \
-			type: "minecraft:attack_damage", \
-			id: "ssbrc:attack_damage", \
-			amount: 3, \
-			operation: "add_multiplied_base", \
-			slot: "mainhand", \
-		}, \
-	], \
-	minecraft:item_model = "ssbrc:fighter/ganondorf/misc/stalfos_sword", \
 	minecraft:custom_data = { \
 		item: "stalfos_sword", \
 		damage: 3 \
 	}, \
+	minecraft:item_model = "ssbrc:fighter/ganondorf/misc/stalfos_sword", \
 ]
 
 item replace entity @s weapon.offhand with minecraft:shield
@@ -32,10 +21,9 @@ item replace entity @s armor.chest with minecraft:air
 item replace entity @s armor.legs with minecraft:air
 item replace entity @s armor.feet with minecraft:air
 
-execute unless score #blackout temp matches 1 run data merge entity @s {Glowing:1b}
+execute unless score #blackout temp matches 1 run data modify entity @s Glowing set value true
 
 data merge entity @s { \
-	Health: 12, \
 	drop_chances: { \
 		head: 0, \
 		chest: 0, \
@@ -46,4 +34,4 @@ data merge entity @s { \
 	}, \
 }
 
-function ssbrc:game/entity/init/entity/living
+function ssbrc:game/entity/init/entity/undead

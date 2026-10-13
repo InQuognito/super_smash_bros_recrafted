@@ -1,7 +1,4 @@
-function ssbrc:game/entity/init/entity/static
+attribute @s minecraft:max_health base set 2048
+effect give @s minecraft:instant_health 1 10 true
 
-data merge entity @s { \
-	PersistenceRequired: true, \
-}
-
-function ssbrc:game/team/copy
+function ssbrc:game/entity/init/entity/dynamic

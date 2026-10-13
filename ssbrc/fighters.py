@@ -982,6 +982,35 @@ fighters = {
 					'name': 'ssbrc.fighter.ganondorf.sword.wind_waker',
 					'color': 'white'
 				}
+			},
+			'dead_mans_volley': {
+				'type': 'bow',
+				'stats': {
+				},
+				'default': {
+					'name': 'ssbrc.fighter.ganondorf.dead_mans_volley',
+					'color': 'yellow'
+				}
+			},
+			'summon_undead': {
+				'type': 'bow',
+				'stats': {
+				},
+				'default': {
+					'name': 'ssbrc.fighter.ganondorf.summon_undead',
+					'color': 'dark_purple'
+				}
+			},
+			'beckon_call': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'ganondorf/beckon_call',
+					'cooldown': 15
+				},
+				'default': {
+					'name': 'ssbrc.fighter.ganondorf.beckon_call',
+					'color': 'white'
+				}
 			}
 		}
 	},

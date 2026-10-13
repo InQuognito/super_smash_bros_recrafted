@@ -2,10 +2,9 @@ tag @s add fgii_graham
 
 teleport @s ~ ~ ~ ~ ~
 
-function ssbrc:game/entity/init/entity/nonliving
+function ssbrc:game/entity/init/entity/synthetic
 
-attribute @s minecraft:max_health base set 1024.0
-data modify entity @s Health set value 1024.0
+scoreboard players set @s health 100
 
 effect give @s minecraft:invisibility infinite 0 true
 function ssbrc:game/entity/npc/fgii_graham/rig/summon {args: {animation: "idle", start_animation: true}}

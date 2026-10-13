@@ -1,4 +1,4 @@
-function ssbrc:game/entity/init/entity/living
+function ssbrc:game/entity/init/entity/dynamic
 
 data merge entity @s { \
 	NoAI: true, \
