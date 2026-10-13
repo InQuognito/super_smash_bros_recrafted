@@ -1,7 +1,6 @@
-tag @s add vire
+tag @s add poe
 
-scoreboard players set @s health 75
-scoreboard players set @s cooldown.2 100
+function ssbrc:game/entity/npc/poe/revive
 
 attribute @s minecraft:attack_damage base set 0
 attribute @s minecraft:follow_range base set 2048
