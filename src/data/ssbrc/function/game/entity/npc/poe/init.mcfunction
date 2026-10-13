@@ -4,7 +4,7 @@ function ssbrc:game/entity/npc/poe/revive
 
 attribute @s minecraft:attack_damage base set 0
 attribute @s minecraft:follow_range base set 2048
-attribute @s minecraft:movement_speed base set .325
+attribute @s minecraft:movement_speed base set .175
 
 item replace entity @s weapon.mainhand with minecraft:air
 item replace entity @s weapon.offhand with minecraft:air
