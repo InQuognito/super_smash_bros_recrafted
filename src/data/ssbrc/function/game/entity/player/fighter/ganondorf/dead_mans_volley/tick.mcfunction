@@ -1,8 +1,8 @@
-function ssbrc:game/entity/player/fighter/ganondorf/dead_mans_volley/charge
+particle minecraft:dust{color: [1, 1, .8], scale: .5} ~ ~3.5 ~ .35 .35 .35 0 50 normal @a
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run return run kill @s
 
-execute positioned ~-.5 ~-.5 ~-.5 as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dx=0] run function ssbrc:game/damage/generic {amount: 1, kb_resist: .9, i_frames: 0}
+execute positioned ~-.5 ~-.5 ~-.5 as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dx=0] run function ssbrc:game/entity/player/fighter/ganondorf/dead_mans_volley/hit
 execute if score #entity_hit temp matches 1 run return run kill @s
 
 scoreboard players add @s temp 1
