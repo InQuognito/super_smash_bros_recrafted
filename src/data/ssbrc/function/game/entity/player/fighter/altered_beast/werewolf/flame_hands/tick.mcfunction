@@ -1,5 +1,3 @@
-scoreboard players operation #id_to_match temp = @s id
-
 scoreboard players set #n temp 8
 
 function ssbrc:game/entity/player/fighter/altered_beast/werewolf/flame_hands/move_forward

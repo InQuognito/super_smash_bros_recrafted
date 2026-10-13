@@ -8,6 +8,6 @@ function ssbrc:game/item/init/slot {item: "summon_undead", slot: "hotbar.2", cla
 
 function ssbrc:game/item/init/slot {item: "beckon_call", slot: "hotbar.3", class: "default", type: "default"}
 
-scoreboard players set @s resource 1
-
 function ssbrc:game/item/init/type/arrow/set {count: 1}
+
+function ssbrc:game/entity/player/fighter/ganondorf/kill

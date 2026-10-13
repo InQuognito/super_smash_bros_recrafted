@@ -1,4 +1,4 @@
-scoreboard players operation #id_to_match temp = @s id
+function ssbrc:game/entity/tick
 scoreboard players operation #team temp = @s team
 
 function ssbrc:game/entity/player/_logic/tick/always

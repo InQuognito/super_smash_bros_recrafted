@@ -1,5 +1,3 @@
-scoreboard players operation #id_to_match temp = @s id
-
 scoreboard players add @s resource 1
 scoreboard players operation #cache temp = @s resource
 
