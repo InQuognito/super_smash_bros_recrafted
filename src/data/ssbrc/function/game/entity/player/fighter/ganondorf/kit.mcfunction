@@ -10,4 +10,5 @@ function ssbrc:game/item/init/slot {item: "beckon_call", slot: "hotbar.3", class
 
 function ssbrc:game/item/init/type/arrow/set {count: 1}
 
+scoreboard players set @s resource 0
 function ssbrc:game/entity/player/fighter/ganondorf/kill
