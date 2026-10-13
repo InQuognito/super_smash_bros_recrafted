@@ -2,7 +2,9 @@
 	"values": [
 		"minecraft:bee",
 		"minecraft:horse",
+		"minecraft:husk",
 		"minecraft:skeleton",
+		"minecraft:vex",
 		"minecraft:vindicator",
 		"minecraft:zombie"
 	]
