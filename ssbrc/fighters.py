@@ -984,8 +984,10 @@ fighters = {
 				}
 			},
 			'dead_mans_volley': {
-				'type': 'bow',
+				'type': 'ability',
 				'stats': {
+					'cooldown_group': 'ganondorf/dead_mans_volley',
+					'cooldown': 3
 				},
 				'default': {
 					'name': 'ssbrc.fighter.ganondorf.dead_mans_volley',
