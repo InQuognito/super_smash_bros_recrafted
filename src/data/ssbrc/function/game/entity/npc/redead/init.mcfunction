@@ -1,7 +1,7 @@
 tag @s add redead
 
 scoreboard players set @s health 100
-scoreboard players set @s cooldown.2 200
+scoreboard players set @s cooldown.2 40
 
 attribute @s minecraft:attack_damage base set 0
 attribute @s minecraft:follow_range base set 2048
