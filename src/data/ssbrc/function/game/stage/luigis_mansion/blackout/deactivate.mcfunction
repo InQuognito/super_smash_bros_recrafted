@@ -1,3 +1,4 @@
+function ssbrc:game/stage/luigis_mansion/blackout/check
 scoreboard players reset #blackout temp
 
 execute as @a[tag=alive] unless items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "snake"}}}] run function ssbrc:game/entity/player/fighter/_logic/effects/glowing/uncloak

@@ -15,7 +15,7 @@ item replace entity @s armor.chest with minecraft:air
 item replace entity @s armor.legs with minecraft:air
 item replace entity @s armor.feet with minecraft:air
 
-execute unless score #blackout temp matches 1 run data modify entity @s Glowing set value true
+execute unless score #blackout temp matches 1.. run data modify entity @s Glowing set value true
 
 data merge entity @s { \
 	drop_chances: { \

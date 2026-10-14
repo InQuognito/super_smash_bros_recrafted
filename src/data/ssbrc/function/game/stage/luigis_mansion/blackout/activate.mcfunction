@@ -17,5 +17,3 @@ fill -30 -7 -45 25 9 18 minecraft:blast_furnace[facing=east,lit=false] replace m
 execute as @e[type=minecraft:item_display,tag=lantern_off] at @s run function ssbrc:game/stage/luigis_mansion/blackout/lanterns/deactivate
 
 execute as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:stage.luigis_mansion.blackout ambient @s
-
-schedule function ssbrc:game/stage/luigis_mansion/blackout/deactivate 40s replace
