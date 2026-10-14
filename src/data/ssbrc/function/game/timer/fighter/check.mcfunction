@@ -1,3 +1,5 @@
+scoreboard players operation #id_to_match temp = @s id
+
 scoreboard players add @s coward.tracking 1
 scoreboard players add @s[scores={coward.tracking=60..}] coward 1
 scoreboard players reset @s[scores={coward.tracking=60..}] coward.tracking
