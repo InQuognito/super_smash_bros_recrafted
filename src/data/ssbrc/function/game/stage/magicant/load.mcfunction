@@ -1,4 +1,4 @@
-summon minecraft:marker -28 -8 14 {Tags: ["door","static_object"],data:{type: "jungle",facing:"east",hinge:"left"}}
+summon minecraft:marker -28 -8 14 {Tags: ["door","static_object"], data: {type: "jungle",facing:"east",hinge:"left"}}
 
 execute as @e[type=minecraft:marker,tag=door] at @s run function ssbrc:game/stage/_logic/doors/close with entity @s data
 

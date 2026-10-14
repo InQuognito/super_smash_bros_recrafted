@@ -25,5 +25,5 @@ function ssbrc:game/entity/init/entity/living
 
 ride @n[predicate=ssbrc:owner,distance=..3] mount @s
 
-execute if items entity @s saddle *[minecraft:custom_data~{skin: "gold"}] run return run item replace entity @s armor.body with minecraft:stick[minecraft:item_model="minecraft:golden_horse_armor",minecraft:equippable={slot: "body",asset_id:"ssbrc:fighter/byleth/gold/male"},minecraft:attribute_modifiers=[]]
-item replace entity @s armor.body with minecraft:stick[minecraft:item_model="minecraft:iron_horse_armor",minecraft:equippable={slot: "body",asset_id:"ssbrc:fighter/byleth/default/male"},minecraft:attribute_modifiers=[]]
+execute if items entity @s saddle *[minecraft:custom_data~{skin: "gold"}] run return run item replace entity @s armor.body with minecraft:stick[minecraft:item_model="minecraft:golden_horse_armor",minecraft:equippable={slot: "body",asset_id: "ssbrc:fighter/byleth/gold/male"},minecraft:attribute_modifiers=[]]
+item replace entity @s armor.body with minecraft:stick[minecraft:item_model="minecraft:iron_horse_armor",minecraft:equippable={slot: "body",asset_id: "ssbrc:fighter/byleth/default/male"},minecraft:attribute_modifiers=[]]

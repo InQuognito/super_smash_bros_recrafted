@@ -10,5 +10,5 @@ execute if predicate ssbrc:fighter/pokemon/shiny_chance run function ssbrc:game/
 function ssbrc:game/stage/spear_pillar/pokemon/giratina/default
 execute if predicate ssbrc:fighter/pokemon/shiny_chance run function ssbrc:game/stage/spear_pillar/pokemon/giratina/shiny
 
-summon minecraft:glow_item_frame 803.5 51 23.5 {Facing:2b,ItemRotation:1b,Item:{id:"minecraft:black_candle"},Fixed:1b}
-summon minecraft:glow_item_frame 803.5 51 25.5 {Facing:3b,ItemRotation:7b,Item:{id:"minecraft:black_candle"},Fixed:1b}
+summon minecraft:glow_item_frame 803.5 51 23.5 {Facing:2b,ItemRotation:1b,Item:{id: "minecraft:black_candle"},Fixed:1b}
+summon minecraft:glow_item_frame 803.5 51 25.5 {Facing:3b,ItemRotation:7b,Item:{id: "minecraft:black_candle"},Fixed:1b}

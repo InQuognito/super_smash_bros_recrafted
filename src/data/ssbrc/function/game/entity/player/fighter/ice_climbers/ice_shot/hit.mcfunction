@@ -1,4 +1,4 @@
-particle minecraft:item{item:{id:"minecraft:ice"}} ~ ~.75 ~ .2 .2 .2 .1 25 normal @a
+particle minecraft:item{item:{id: "minecraft:ice"}} ~ ~.75 ~ .2 .2 .2 .1 25 normal @a
 
 kill @s
 
