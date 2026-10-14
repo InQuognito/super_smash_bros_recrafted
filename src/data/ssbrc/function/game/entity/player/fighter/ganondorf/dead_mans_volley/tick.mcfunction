@@ -1,12 +1,12 @@
 function ssbrc:game/entity/player/fighter/ganondorf/dead_mans_volley/charge
 
-execute unless block ~ ~ ~ #ssbrc:passthrough run return run kill @s
+execute unless block ~ ~ ~ #ssbrc:passthrough run return run function ssbrc:game/entity/player/fighter/ganondorf/dead_mans_volley/kill
 
 execute positioned ~-.5 ~-.5 ~-.5 as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dx=0] run function ssbrc:game/entity/player/fighter/ganondorf/dead_mans_volley/hit
-execute if score #entity_hit temp matches 1 run return run kill @s
+execute if score #entity_hit temp matches 1 run return run function ssbrc:game/entity/player/fighter/ganondorf/dead_mans_volley/kill
 
 scoreboard players add @s temp 1
-execute if score @s temp matches 100.. run return run kill @s
+execute if score @s temp matches 100.. run return run function ssbrc:game/entity/player/fighter/ganondorf/dead_mans_volley/kill
 
 execute unless score @s charge.1 matches 1.. run return run function ssbrc:game/entity/player/fighter/ganondorf/dead_mans_volley/idle
 
