@@ -43,6 +43,7 @@ scoreboard objectives add flag.in_lava dummy
 scoreboard objectives add flag.sprinting dummy
 scoreboard objectives add flag.walking minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add flight_time minecraft.custom:minecraft.aviate_one_cm
+scoreboard objectives add flower dummy
 scoreboard objectives add frostbite dummy
 scoreboard objectives add frostbite.cooldown dummy
 scoreboard objectives add frostbite.timer dummy
@@ -90,6 +91,7 @@ scoreboard objectives add piercing dummy
 scoreboard objectives add player_motion.timer dummy
 scoreboard objectives add point dummy
 scoreboard objectives add points dummy
+scoreboard objectives add poison dummy
 scoreboard objectives add popup_timer dummy
 scoreboard objectives add pos_x dummy
 scoreboard objectives add pos_y dummy

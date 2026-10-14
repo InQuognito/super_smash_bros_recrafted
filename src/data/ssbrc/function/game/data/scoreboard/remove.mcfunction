@@ -42,6 +42,7 @@ scoreboard objectives remove flag.in_lava
 scoreboard objectives remove flag.sprinting
 scoreboard objectives remove flag.walking
 scoreboard objectives remove flight_time
+scoreboard objectives remove flower
 scoreboard objectives remove frostbite
 scoreboard objectives remove frostbite.cooldown
 scoreboard objectives remove frostbite.timer
@@ -89,6 +90,7 @@ scoreboard objectives remove piercing
 scoreboard objectives remove player_motion.timer
 scoreboard objectives remove point
 scoreboard objectives remove points
+scoreboard objectives remove poison
 scoreboard objectives remove popup_timer
 scoreboard objectives remove pos_x
 scoreboard objectives remove pos_y

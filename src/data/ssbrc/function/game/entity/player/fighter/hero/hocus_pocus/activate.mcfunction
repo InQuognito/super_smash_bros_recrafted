@@ -5,10 +5,10 @@ execute if score #random temp matches 489..610 run return run function ssbrc:gam
 execute if score #random temp matches 611..1006 run return run function ssbrc:game/entity/player/fighter/hero/magic/max
 #execute if score #random temp matches 1007..1616 run return run say TODO
 execute if score #random temp matches 1617..2226 run return run function ssbrc:game/entity/player/fighter/hero/magic/reset
-execute if score #random temp matches 2227..2836 run return run effect give @s minecraft:poison 10 0 true
+execute if score #random temp matches 2227..2836 run return run scoreboard players add @s poison 300
 execute if score #random temp matches 2837..3446 run return run function ssbrc:game/entity/player/fighter/_logic/effects/sleep/activate {duration: 70}
 execute if score #random temp matches 3447..3995 run return run function ssbrc:game/entity/player/fighter/_logic/effects/shrink/activate {duration: 200}
-execute if score #random temp matches 3996..4605 run return run effect give @s minecraft:poison 2 3 true
+execute if score #random temp matches 3996..4605 run return run scoreboard players add @s flower 150
 execute if score #random temp matches 4606..5215 run return run effect give @s minecraft:invisibility 10 0 true
 
 execute unless data storage ssbrc:data option{teams: "true"} store result score #random temp run random value 1..23
