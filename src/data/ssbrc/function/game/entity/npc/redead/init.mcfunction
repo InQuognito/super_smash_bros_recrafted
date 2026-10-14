@@ -1,15 +1,16 @@
 tag @s add redead
 
 scoreboard players set @s health 100
+scoreboard players set @s cooldown.2 200
 
 attribute @s minecraft:attack_damage base set 0
 attribute @s minecraft:follow_range base set 2048
-attribute @s minecraft:movement_speed base set .125
+attribute @s minecraft:movement_speed base set .175
 
 item replace entity @s weapon.mainhand with minecraft:air
 item replace entity @s weapon.offhand with minecraft:air
 
-item replace entity @s armor.head with minecraft:leather_helmet
+item replace entity @s armor.head with minecraft:air
 item replace entity @s armor.chest with minecraft:air
 item replace entity @s armor.legs with minecraft:air
 item replace entity @s armor.feet with minecraft:air
