@@ -1,6 +1,6 @@
 tag @s add dead_mans_volley
 
-item replace entity @s armor.head with minecraft:stick[ \
+item replace entity @s contents with minecraft:stick[ \
 	minecraft:item_model = "ssbrc:fighter/king_k_rool/projectile/cannonball", \
 ]
 

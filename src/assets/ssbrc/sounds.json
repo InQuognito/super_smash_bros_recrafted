@@ -844,6 +844,47 @@
 			}
 		]
 	},
+	"fighter.ganondorf.dead_mans_volley.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/ganondorf/dead_mans_volley/activate/projectile",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.ganondorf.dead_mans_volley.activate_voice": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/ganondorf/dead_mans_volley/activate/voice/1",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "ssbrc:fighter/ganondorf/dead_mans_volley/activate/voice/2",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.ganondorf.dead_mans_volley.charge": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/ganondorf/dead_mans_volley/charge",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.ganondorf.dead_mans_volley.hit": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/ganondorf/dead_mans_volley/hit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
 	"fighter.ganondorf.jump": {
 		"sounds": [
 			{
