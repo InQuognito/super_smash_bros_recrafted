@@ -1,4 +1,4 @@
-function ssbrc:game/entity/player/fighter/_logic/death_effect/default
+execute positioned ~ ~.75 ~ run function ssbrc:game/entity/player/fighter/_logic/death_effect/default
 
 scoreboard players operation #team temp = @s team
 gamemode spectator @s
