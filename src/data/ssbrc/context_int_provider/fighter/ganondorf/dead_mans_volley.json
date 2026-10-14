@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:add",
+	"inputs": [
+		2,
+		{
+			"type": "minecraft:score",
+			"target": "this",
+			"score": "charge.3"
+		}
+	]
+}

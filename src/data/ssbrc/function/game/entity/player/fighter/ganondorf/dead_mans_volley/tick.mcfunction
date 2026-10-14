@@ -12,5 +12,5 @@ execute unless score @s charge.1 matches 1.. run return run function ssbrc:game/
 
 scoreboard players operation #dead_man temp = @s charge.1
 
-scoreboard players operation #n temp = @s charge.3
+execute store result score #n temp run compute default integer ssbrc:fighter/ganondorf/dead_mans_volley
 function ssbrc:game/entity/player/fighter/ganondorf/dead_mans_volley/move/seek
