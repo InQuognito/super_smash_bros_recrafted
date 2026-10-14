@@ -4,7 +4,7 @@
 			"model": "minecraft:block/yellow_concrete_slab"
 		},
 		"type=double": {
-			"model": "ssbrc:stage/mushroom_kingdom/question_mark_block"
+			"model": "ssbrc:common/super_mario_bros/question_mark_block"
 		},
 		"type=top": {
 			"model": "minecraft:block/yellow_concrete_slab_top"
