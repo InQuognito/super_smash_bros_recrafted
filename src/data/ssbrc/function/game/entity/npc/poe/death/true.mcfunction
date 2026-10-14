@@ -1,5 +1,5 @@
 kill @s
 
-scoreboard players remove @a[predicate=ssbrc:owner,limit=1] charge.1 1
+execute as @a[predicate=ssbrc:owner,limit=1] run function ssbrc:game/entity/player/fighter/ganondorf/minion_death
 
 playsound ssbrc:npc.poe.death.true hostile @a

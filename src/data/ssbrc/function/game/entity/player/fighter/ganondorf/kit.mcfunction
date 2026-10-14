@@ -6,8 +6,6 @@ function ssbrc:game/item/init/slot {item: "dead_mans_volley", slot: "hotbar.1", 
 
 function ssbrc:game/item/init/slot {item: "summon_undead", slot: "hotbar.2", class: "weapon", type: "bow"}
 
-function ssbrc:game/item/init/slot {item: "recall_undead", slot: "hotbar.3", class: "default", type: "default"}
-
 function ssbrc:game/item/init/type/arrow/set {count: 1}
 
 scoreboard players set @s resource 0

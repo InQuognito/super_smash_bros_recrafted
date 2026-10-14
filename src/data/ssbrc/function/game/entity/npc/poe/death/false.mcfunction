@@ -1,4 +1,4 @@
-function ssbrc:game/entity/npc/poe/revive
+scoreboard players set @s health 75
 
 data modify entity @s NoAI set value true
 
