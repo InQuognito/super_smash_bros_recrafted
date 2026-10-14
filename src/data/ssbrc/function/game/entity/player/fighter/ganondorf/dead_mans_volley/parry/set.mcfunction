@@ -1,4 +1,5 @@
 scoreboard players add @s charge.3 1
+scoreboard players set @s temp 0
 
 execute facing ^ ^ ^-1 run rotate @s ~ ~
 

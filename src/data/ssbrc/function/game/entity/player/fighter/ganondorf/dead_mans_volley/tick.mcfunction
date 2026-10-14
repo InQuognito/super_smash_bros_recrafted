@@ -6,7 +6,7 @@ execute positioned ~-.5 ~-.5 ~-.5 as @e[predicate=!ssbrc:owner,predicate=ssbrc:t
 execute if score #entity_hit temp matches 1 run return run kill @s
 
 scoreboard players add @s temp 1
-execute if score @s temp matches 1200.. run return run kill @s
+execute if score @s temp matches 100.. run return run kill @s
 
 execute unless score @s charge.1 matches 1.. run return run function ssbrc:game/entity/player/fighter/ganondorf/dead_mans_volley/idle
 
