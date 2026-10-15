@@ -1,4 +1,3 @@
 $execute summon minecraft:armor_stand run function ssbrc:game/stage/bowsers_castle/hazards/thwomp/init {direction:"$(direction)"}
 
-fill -705 43 821 -700 43 823 minecraft:air replace
-fill -705 40 820 -700 42 820 minecraft:waxed_copper_block replace
+execute positioned -18 19 -24 rotated 0 0 run function ssbrc:game/stage/bowsers_castle/hazards/thwomp/open

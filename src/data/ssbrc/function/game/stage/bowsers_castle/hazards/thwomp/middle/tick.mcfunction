@@ -1,6 +1,6 @@
 execute if score @s[y=45.5,dy=0] temp >= #thwomp_time const run function ssbrc:game/stage/bowsers_castle/hazards/thwomp/middle/deactivate
 
-execute if score thwomp.middle temp matches 2 if score @s temp = #thwomp_time const run tag @s add sinking
+execute if score #thwomp.middle temp matches 2 if score @s temp = #thwomp_time const run tag @s add sinking
 teleport @s[tag=sinking] ~ ~-.1 ~
 execute if score @s[tag=sinking] temp >= #thwomp_sink_time const run function ssbrc:game/stage/bowsers_castle/hazards/thwomp/middle/deactivate
 

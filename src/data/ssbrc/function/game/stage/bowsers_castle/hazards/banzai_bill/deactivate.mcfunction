@@ -5,6 +5,6 @@ execute if block ~ ~ ~ minecraft:stone_bricks run place template ssbrc:stage/bow
 
 kill @s
 
-scoreboard players reset banzai_bill temp
+scoreboard players reset #banzai_bill temp
 
 playsound minecraft:entity.generic.explode block @a

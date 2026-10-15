@@ -11,4 +11,4 @@ playsound minecraft:entity.generic.explode block @a
 tag @s add destroyer
 scoreboard players set @s temp 0
 
-scoreboard players set thwomp.middle temp 2
+scoreboard players set #thwomp.middle temp 2
