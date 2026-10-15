@@ -22,20 +22,12 @@ scoreboard players set #bowsers_castle.stairs.nw temp 2
 
 # Bottom Platforms
 place template ssbrc:stage/bowsers_castle/platform/small -44 2 -1
-fill -45 1 0 -45 2 0 minecraft:ladder[facing=west] replace
-
-fill -40 1 -7 -40 2 -7 minecraft:ladder[facing=north] replace
-fill -40 1 7 -40 2 7 minecraft:ladder[facing=south] replace
 
 # Left Platform
 place template ssbrc:stage/bowsers_castle/platform/large -23 7 -23
-fill -21 6 -24 -20 7 -24 minecraft:ladder[facing=north] replace
-fill -21 6 -20 -20 7 -20 minecraft:ladder[facing=south] replace
 
 # Right Platform
 place template ssbrc:stage/bowsers_castle/platform/large -23 7 21
-fill -21 6 20 -20 7 20 minecraft:ladder[facing=north] replace
-fill -21 6 24 -20 7 24 minecraft:ladder[facing=south] replace
 
 # Lava Plumes
 fill -34 -9 -16 -10 5 16 minecraft:air replace minecraft:lava
@@ -45,13 +37,13 @@ fill -34 -9 -16 -10 5 16 minecraft:air replace minecraft:obsidian
 execute positioned -45 19 -2 rotated -90 0 run function ssbrc:game/stage/bowsers_castle/hazards/thwomp/close
 
 # Thwomp Chamber - Left
-execute positioned -23 19 24 rotated 180 0 run function ssbrc:game/stage/bowsers_castle/hazards/thwomp/close
+execute positioned -23 19 24 rotated 180 0 run function ssbrc:game/stage/bowsers_castle/hazards/thwomp/close_long
 
 # Thwomp Chamber - Middle
 execute positioned -24 19 -2 rotated -90 0 run function ssbrc:game/stage/bowsers_castle/hazards/thwomp/close
 
 # Thwomp Chamber - Right
-execute positioned -18 19 -24 rotated 0 0 run function ssbrc:game/stage/bowsers_castle/hazards/thwomp/close
+execute positioned -18 19 -24 rotated 0 0 run function ssbrc:game/stage/bowsers_castle/hazards/thwomp/close_long
 
 # Bowser Face - Red
 summon minecraft:item_display 0 .01 0 {Rotation: [-90f,0f], item: {id: "minecraft:stick", components: {"minecraft:item_model": "ssbrc:stage/bowsers_castle/bowser_face/red"}},transformation:[5f,0f,0f,0f,0f,5f,0f,0f,0f,0f,5f,0f,0f,0f,0f,1f],brightness:{sky:6,block:6}}
@@ -69,6 +61,6 @@ execute positioned -54.9 3 10.5 rotated 265 0 summon minecraft:armor_stand run f
 	rl: [ 0f, 0f, 0f ], \
 }
 
-execute positioned -54 2 -10 rotated -90 0 summon minecraft:item_display run function ssbrc:game/stage/bowsers_castle/toad {pose: "clutching_bars", color: "red"}
-execute positioned -56 3 -11 rotated -45 0 summon minecraft:item_display run function ssbrc:game/stage/bowsers_castle/toad {pose: "sitting", color: "yellow"}
-execute positioned -54 2 -9 rotated 0 0 summon minecraft:item_display run function ssbrc:game/stage/bowsers_castle/toad {pose: "clutching_bars", color: "blue"}
+execute positioned -54.5 3.5 -8. rotated -90 0 summon minecraft:item_display run function ssbrc:game/stage/bowsers_castle/toad {pose: "clutching_bars", color: "red"}
+execute positioned -55.5 3.15 -10.75 rotated -45 0 summon minecraft:item_display run function ssbrc:game/stage/bowsers_castle/toad {pose: "sitting", color: "yellow"}
+execute positioned -53. 3.5 -10. rotated 0 0 summon minecraft:item_display run function ssbrc:game/stage/bowsers_castle/toad {pose: "clutching_bars", color: "blue"}
