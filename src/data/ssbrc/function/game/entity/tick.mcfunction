@@ -38,6 +38,7 @@ execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] i
 execute if data storage ssbrc:temp game.stage{name: "sand_ocean"} if data storage ssbrc:data option{hazards: "true"} run function ssbrc:game/entity/player/fighter/_logic/quicksand/tick
 
 execute if entity @s[tag=fgii_graham] run return run function ssbrc:game/entity/npc/fgii_graham/logic/tick
+execute if entity @s[tag=mr_sandbag] run return run function ssbrc:game/entity/npc/mr_sandbag/tick
 execute if entity @s[tag=poe] run return run function ssbrc:game/entity/npc/poe/tick
 execute if entity @s[tag=redead] run return run function ssbrc:game/entity/npc/redead/tick
 execute if entity @s[tag=stalfos] run return run function ssbrc:game/entity/npc/stalfos/tick
