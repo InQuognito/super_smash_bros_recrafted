@@ -11,7 +11,7 @@ execute if score #game_stage temp matches 3 run function ssbrc:game/stage/_logic
 execute if score #game_stage temp matches 4.. run function ssbrc:game/game_tick
 
 # Entities
-execute as @e[type=#ssbrc:non_player,tag=npc] at @s run function ssbrc:game/entity/tick with entity @s data
+execute as @e[type=#ssbrc:non_player] at @s run function ssbrc:game/entity/tick with entity @s data
 
 execute as @e[type=minecraft:text_display,tag=training_dummy.damage_number] at @s run function ssbrc:game/entity/training_dummy/damage_number/tick
 
