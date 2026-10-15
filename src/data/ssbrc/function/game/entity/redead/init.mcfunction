@@ -19,6 +19,7 @@ data merge entity @s { \
 	data: { \
 		id: "redead", \
 	}, \
+	IsBaby: false, \
 	drop_chances: { \
 		head: 0, \
 		chest: 0, \
