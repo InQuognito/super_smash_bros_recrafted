@@ -10,4 +10,4 @@ data merge entity @s { \
 	}, \
 }
 
-function ssbrc:game/npc/init/armor_stand {path: "npc/sector_z/rob_64"}
+function ssbrc:game/entity/npc/_logic/init {path: "npc/sector_z/rob_64"}

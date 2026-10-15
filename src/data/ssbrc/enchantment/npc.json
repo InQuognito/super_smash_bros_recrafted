@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/npc/tick"
+					"function": "ssbrc:game/entity/npc/tick"
 				}
 			}
 		]

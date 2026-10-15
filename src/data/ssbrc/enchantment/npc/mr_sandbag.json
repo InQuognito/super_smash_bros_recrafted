@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/npc/mr_sandbag/tick"
+					"function": "ssbrc:game/entity/npc/mr_sandbag/tick"
 				}
 			}
 		]
