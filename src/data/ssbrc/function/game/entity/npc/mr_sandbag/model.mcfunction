@@ -1,3 +1,5 @@
+tag @s add mr_sandbag
+
 rotate @s 180 0
 
 item replace entity @s contents with minecraft:emerald[ \

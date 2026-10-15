@@ -1,4 +1,3 @@
-execute on vehicle run function ssbrc:game/entity/npc/mr_sandbag/tick_hitbox
 execute if score #interact temp matches 1 run function ssbrc:game/entity/npc/mr_sandbag/emotions/blush
 
 execute positioned ~-.5 ~-1.5 ~-.5 as @a[distance=..4] run function ssbrc:game/entity/npc/mr_sandbag/player
