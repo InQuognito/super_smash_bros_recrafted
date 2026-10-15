@@ -2,4 +2,4 @@ $function ssbrc:game/pre_game/stage_select/featured/display/common {name: "$(nam
 
 $execute positioned ~ ~1.25 ~ summon minecraft:text_display run function ssbrc:game/pre_game/stage_select/featured/display/text/default with storage ssbrc:data stage.$(name)
 
-$execute summon minecraft:interaction run function ssbrc:game/entity/_logic/init/type/interaction {height: 1, width: 1, left_self: "ssbrc:empty", left_click: "ssbrc:game/stage/_logic/vote with storage ssbrc:data stage.$(name)", right_self: "ssbrc:empty", right_click: "ssbrc:game/stage/_logic/vote with storage ssbrc:data stage.$(name)"}
+$execute summon minecraft:interaction run function ssbrc:game/entity/_logic/init/type/interaction/common {height: 1, width: 1, left_self: "ssbrc:empty", left_click: "ssbrc:game/stage/_logic/vote with storage ssbrc:data stage.$(name)", right_self: "ssbrc:empty", right_click: "ssbrc:game/stage/_logic/vote with storage ssbrc:data stage.$(name)"}

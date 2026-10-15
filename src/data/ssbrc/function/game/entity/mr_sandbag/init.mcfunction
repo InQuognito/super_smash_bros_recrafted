@@ -1,11 +1,3 @@
-item replace entity @s contents with minecraft:emerald[ \
-	minecraft:enchantments = { \
-		"ssbrc:npc": 1, \
-		"ssbrc:npc/mr_sandbag": 1, \
-	}, \
-	minecraft:item_model = "ssbrc:smash_item/sandbag/default", \
-]
-
 data merge entity @s { \
 	transformation: { \
 		left_rotation: [ 0f, 0f, 0f, 1f ], \
@@ -14,6 +6,3 @@ data merge entity @s { \
 		scale: [ 1f, 1f, 1f ], \
 	}, \
 }
-
-execute summon minecraft:interaction run function ssbrc:game/entity/mr_sandbag/hitbox
-ride @n[type=minecraft:interaction,tag=npc,distance=...01] mount @s

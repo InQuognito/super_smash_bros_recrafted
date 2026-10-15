@@ -4,7 +4,7 @@
 			{ "texture": "ssbrc:empty" }
 		],
 		"humanoid_leggings": [
-			{ "texture": "ssbrc:npc/wily_castle/acid_man" }
+			{ "texture": "ssbrc:entity/wily_castle/acid_man" }
 		]
 	}
 }

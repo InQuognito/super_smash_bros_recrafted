@@ -3254,12 +3254,12 @@
 	"npc.poe.attack": {
 		"sounds": [
 			{
-				"name": "ssbrc:npc/poe/attack/1",
+				"name": "ssbrc:entity/poe/attack/1",
 				"stream": false,
 				"volume": 1.0
 			},
 			{
-				"name": "ssbrc:npc/poe/attack/2",
+				"name": "ssbrc:entity/poe/attack/2",
 				"stream": false,
 				"volume": 1.0
 			}
@@ -3268,7 +3268,7 @@
 	"npc.poe.death.false": {
 		"sounds": [
 			{
-				"name": "ssbrc:npc/poe/death/false",
+				"name": "ssbrc:entity/poe/death/false",
 				"stream": false,
 				"volume": 1.0
 			}
@@ -3277,7 +3277,7 @@
 	"npc.poe.death.true": {
 		"sounds": [
 			{
-				"name": "ssbrc:npc/poe/death/true",
+				"name": "ssbrc:entity/poe/death/true",
 				"stream": false,
 				"volume": 1.0
 			}
@@ -3286,7 +3286,7 @@
 	"npc.redead.death": {
 		"sounds": [
 			{
-				"name": "ssbrc:npc/redead/death",
+				"name": "ssbrc:entity/redead/death",
 				"stream": false,
 				"volume": 1.0
 			}
@@ -3295,7 +3295,7 @@
 	"npc.redead.shriek": {
 		"sounds": [
 			{
-				"name": "ssbrc:npc/redead/shriek",
+				"name": "ssbrc:entity/redead/shriek",
 				"stream": false,
 				"volume": 1.0
 			}
