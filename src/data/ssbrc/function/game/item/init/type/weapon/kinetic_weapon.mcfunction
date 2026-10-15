@@ -19,6 +19,13 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 			operation: "add_multiplied_base", \
 			slot: "mainhand", \
 		}, \
+		{ \
+			type: "minecraft:entity_interaction_range", \
+			id: "ssbrc:entity_interaction_range", \
+			amount: -1, \
+			operation: "add_multiplied_total", \
+			slot: "mainhand", \
+		}, \
 	], \
 	minecraft:custom_data = { \
 		item: "$(item)", \

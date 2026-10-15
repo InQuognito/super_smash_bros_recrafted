@@ -1,4 +1,13 @@
 $item replace entity @s $(slot) with minecraft:stick[ \
+	minecraft:attribute_modifiers = [ \
+		{ \
+			type: "minecraft:entity_interaction_range", \
+			id: "ssbrc:entity_interaction_range", \
+			amount: -1, \
+			operation: "add_multiplied_total", \
+			slot: "mainhand", \
+		}, \
+	], \
 	minecraft:consumable = { \
 		consume_seconds: $(consume_seconds), \
 		animation: "none", \
