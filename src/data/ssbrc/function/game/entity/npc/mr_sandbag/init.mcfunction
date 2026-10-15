@@ -1,4 +1,5 @@
 tag @s add npc
+tag @s add mr_sandbag
 tag @s add hitbox.humanoid
 
 data merge entity @s { \
