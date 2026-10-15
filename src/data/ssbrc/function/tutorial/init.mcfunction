@@ -9,9 +9,15 @@ execute positioned 0 .75 5 rotated 180 0 summon minecraft:item_display run funct
 }
 
 # Chests
-execute positioned 0 1 13 summon minecraft:interaction run function ssbrc:tutorial/chest/init { \
+execute positioned 0 1 13 rotated 180 0 summon minecraft:interaction run function ssbrc:tutorial/chest/init { \
 	item: "master_sword", \
 	class: "weapon", \
+	type: "default", \
+}
+
+execute positioned 16 0 4 rotated 0 0 summon minecraft:interaction run function ssbrc:tutorial/chest/init { \
+	item: "boomerang", \
+	class: "default", \
 	type: "default", \
 }
 
