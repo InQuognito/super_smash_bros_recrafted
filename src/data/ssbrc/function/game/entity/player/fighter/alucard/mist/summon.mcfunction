@@ -7,4 +7,4 @@ data merge entity @s { \
 	}, \
 }
 
-function ssbrc:game/entity/init/id
+function ssbrc:game/entity/_logic/init/type/id

@@ -1,7 +1,0 @@
-execute if entity @s[advancements={ssbrc:tutorial/outro/2=true}] run function ssbrc:game/entity/npc/mr_sandbag/tips/check
-
-tellraw @s[advancements={ssbrc:tutorial/intro/3=true,ssbrc:tutorial/fighter_select/2=false}] ["", {text: "Mr. Sandbag | ", bold: true, color: "yellow"}, {translate: "ssbrc.sandbag.reminder.1"}]
-tellraw @s[advancements={ssbrc:tutorial/fighter_select/2=true,ssbrc:tutorial/outro/1=false}] ["", {text: "Mr. Sandbag | ", bold: true, color: "yellow"}, {translate: "ssbrc.sandbag.reminder.2"}]
-
-advancement grant @s[advancements={ssbrc:tutorial/intro/2=true}] only ssbrc:tutorial/intro/3
-advancement grant @s[advancements={ssbrc:tutorial/outro/1=true}] only ssbrc:tutorial/outro/2

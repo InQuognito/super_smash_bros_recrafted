@@ -1,5 +1,5 @@
 tag @s add wave_beam
 
-function ssbrc:game/entity/init/position
+function ssbrc:game/entity/_logic/init/type/position
 
 scoreboard players set @s piercing 0

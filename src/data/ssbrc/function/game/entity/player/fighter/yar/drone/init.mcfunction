@@ -2,7 +2,7 @@ tag @s add drone
 
 teleport @s ~ ~ ~ ~ ~
 
-function ssbrc:game/entity/init/entity/nonliving
+function ssbrc:game/entity/_logic/init/type/entity/nonliving
 
 execute store result entity @s attributes[{id: "minecraft:max_health"}].base double 1 run scoreboard players get #yar.drone.health.cushion const
 execute store result entity @s Health float 1 run scoreboard players get @a[predicate=ssbrc:owner,limit=1] yar.drone.health

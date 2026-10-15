@@ -1,6 +1,6 @@
 tag @s add phazon_beam
 
-function ssbrc:game/entity/init/position
+function ssbrc:game/entity/_logic/init/type/position
 
 execute if score @s charge matches 40.. run return run function ssbrc:game/entity/player/fighter/dark_samus/phazon_beam/charge_level {level: 4}
 execute if score @s charge matches 20..39 run return run function ssbrc:game/entity/player/fighter/dark_samus/phazon_beam/charge_level {level: 3}

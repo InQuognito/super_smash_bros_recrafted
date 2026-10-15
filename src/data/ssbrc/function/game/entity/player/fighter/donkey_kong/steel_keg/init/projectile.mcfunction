@@ -9,7 +9,7 @@ data merge entity @s { \
 	}, \
 }
 
-function ssbrc:game/entity/init/entity/projectile
+function ssbrc:game/entity/_logic/init/type/entity/projectile
 
 attribute @s minecraft:air_drag_modifier base set 0
 attribute @s minecraft:bounciness base set .5

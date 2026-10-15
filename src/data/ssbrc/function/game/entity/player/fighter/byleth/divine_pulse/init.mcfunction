@@ -1,6 +1,6 @@
 tag @s add divine_pulse
 
-function ssbrc:game/entity/init/id
+function ssbrc:game/entity/_logic/init/type/id
 
 $data merge entity @s { \
 	data: { \

@@ -10,6 +10,6 @@ data merge entity @s { \
 	}, \
 }
 
-function ssbrc:game/entity/init/projectile/model/default
+function ssbrc:game/entity/_logic/init/type/projectile/model/default
 
 scoreboard players operation @s resource = #cache temp

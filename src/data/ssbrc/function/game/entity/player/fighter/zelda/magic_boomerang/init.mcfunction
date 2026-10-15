@@ -4,7 +4,7 @@ item replace entity @s contents with minecraft:stick[ \
 	minecraft:item_model = "ssbrc:fighter/zelda/magic_boomerang", \
 ]
 
-function ssbrc:game/entity/init/projectile/horizontal
+function ssbrc:game/entity/_logic/init/type/projectile/horizontal
 
 data merge entity @s { \
 	data: { \

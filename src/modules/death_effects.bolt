@@ -2,7 +2,7 @@ from ssbrc.death_effects import death_effects, death_effect_storage
 
 from itertools import chain
 
-function ssbrc:game/entity/init/death_effect:
+function ssbrc:game/entity/_logic/init/type/death_effect:
 	data modify storage ssbrc:data death_effect set value death_effect_storage()
 
 for effect in death_effects:

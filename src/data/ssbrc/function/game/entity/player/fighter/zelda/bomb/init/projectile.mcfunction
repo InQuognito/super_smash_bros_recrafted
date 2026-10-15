@@ -4,6 +4,6 @@ execute if items entity @a[predicate=ssbrc:owner,limit=1] container.* *[minecraf
 
 item replace entity @s armor.head with minecraft:stick[minecraft:item_model="ssbrc:common/bomb/blue"]
 
-function ssbrc:game/entity/init/armor_stand/normal
+function ssbrc:game/entity/_logic/init/type/armor_stand/normal
 
 scoreboard players operation @s temp = @a[predicate=ssbrc:owner,limit=1] fuse

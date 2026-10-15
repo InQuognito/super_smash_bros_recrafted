@@ -10,4 +10,4 @@ data merge entity @s { \
 	Small: 1b, \
 }
 
-function ssbrc:game/entity/init/armor_stand/projectile
+function ssbrc:game/entity/_logic/init/type/armor_stand/projectile

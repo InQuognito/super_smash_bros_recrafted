@@ -8,4 +8,4 @@ attribute @s minecraft:scale base set .5
 
 item replace entity @s armor.head from entity @a[predicate=ssbrc:owner,limit=1] weapon.mainhand
 
-function ssbrc:game/entity/init/armor_stand/normal
+function ssbrc:game/entity/_logic/init/type/armor_stand/normal

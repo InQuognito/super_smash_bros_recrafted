@@ -1,4 +1,4 @@
-function ssbrc:game/entity/check/all
+function ssbrc:game/entity/_logic/check/all
 
 scoreboard players operation #id_to_match temp = @s attacker
 execute if data storage ssbrc:temp cache.entity{type: "player"} as @a[predicate=ssbrc:attacker,limit=1] run function ssbrc:game/entity/hurt with entity @s equipment.body.components."minecraft:custom_data".temp.fighter

@@ -4,10 +4,10 @@ item replace entity @s armor.head with minecraft:stick[ \
 	minecraft:item_model = "ssbrc:fighter/alucard/holy_water", \
 ]
 
-$function ssbrc:game/entity/init/projectile/model/skin {skin: "$(skin)"}
+$function ssbrc:game/entity/_logic/init/type/projectile/model/skin {skin: "$(skin)"}
 
 data merge entity @s {Small: 1b}
 
-function ssbrc:game/entity/init/armor_stand/static
+function ssbrc:game/entity/_logic/init/type/armor_stand/static
 
 ride @s mount @n[type=minecraft:snowball,distance=...01]

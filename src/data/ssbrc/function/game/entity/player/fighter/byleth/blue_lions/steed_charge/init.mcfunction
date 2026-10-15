@@ -21,7 +21,7 @@ data merge entity @s { \
 	Glowing: true, \
 }
 
-function ssbrc:game/entity/init/entity/living
+function ssbrc:game/entity/_logic/init/type/entity/living
 
 ride @n[predicate=ssbrc:owner,distance=..3] mount @s
 
