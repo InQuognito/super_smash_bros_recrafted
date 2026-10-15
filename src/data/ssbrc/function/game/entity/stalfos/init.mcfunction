@@ -1,5 +1,3 @@
-tag @s add stalfos
-
 scoreboard players set @s health 100
 
 attribute @s minecraft:attack_damage base set 0
@@ -24,6 +22,9 @@ item replace entity @s armor.feet with minecraft:air
 execute unless score #blackout temp matches 1.. run data modify entity @s Glowing set value true
 
 data merge entity @s { \
+	data: { \
+		id: "redead", \
+	}, \
 	drop_chances: { \
 		head: 0, \
 		chest: 0, \

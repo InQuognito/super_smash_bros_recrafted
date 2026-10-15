@@ -1,5 +1,3 @@
-tag @s add redead
-
 scoreboard players set @s health 100
 scoreboard players set @s cooldown.2 40
 
@@ -18,6 +16,9 @@ item replace entity @s armor.feet with minecraft:air
 execute unless score #blackout temp matches 1.. run data modify entity @s Glowing set value true
 
 data merge entity @s { \
+	data: { \
+		id: "redead", \
+	}, \
 	drop_chances: { \
 		head: 0, \
 		chest: 0, \

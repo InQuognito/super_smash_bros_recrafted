@@ -1,5 +1,3 @@
-tag @s add poe
-
 function ssbrc:game/entity/poe/revive
 
 attribute @s minecraft:attack_damage base set 0
@@ -17,6 +15,9 @@ item replace entity @s armor.feet with minecraft:air
 execute unless score #blackout temp matches 1.. run data modify entity @s Glowing set value true
 
 data merge entity @s { \
+	data: { \
+		id: "poe", \
+	}, \
 	drop_chances: { \
 		head: 0, \
 		chest: 0, \
