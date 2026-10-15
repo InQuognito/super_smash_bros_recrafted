@@ -1,5 +1,3 @@
-tag @s add mr_sandbag
-
 item replace entity @s contents with minecraft:emerald[ \
 	minecraft:enchantments = { \
 		"ssbrc:npc": 1, \
@@ -17,4 +15,5 @@ data merge entity @s { \
 	}, \
 }
 
-ride @s mount @n[type=minecraft:interaction,tag=npc,distance=...01]
+execute summon minecraft:interaction run function ssbrc:game/entity/mr_sandbag/hitbox
+ride @n[type=minecraft:interaction,tag=npc,distance=...01] mount @s

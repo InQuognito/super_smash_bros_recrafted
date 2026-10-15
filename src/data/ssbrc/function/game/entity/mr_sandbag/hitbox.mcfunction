@@ -1,4 +1,3 @@
-tag @s add npc
 tag @s add hitbox.humanoid
 
 data merge entity @s { \
@@ -14,5 +13,3 @@ data merge entity @s { \
 	width: 1.1, \
 	response: true, \
 }
-
-execute summon minecraft:item_display run function ssbrc:game/entity/mr_sandbag/model

@@ -1,4 +1,4 @@
-function ssbrc:game/entity/tick
+function ssbrc:game/entity/_logic/tick
 scoreboard players operation #team temp = @s team
 
 function ssbrc:game/entity/player/_logic/tick/always

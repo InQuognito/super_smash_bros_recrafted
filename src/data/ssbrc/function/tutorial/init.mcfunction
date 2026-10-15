@@ -1,5 +1,5 @@
 # Sandbag
-execute positioned 0 .75 5 summon minecraft:interaction run function ssbrc:game/entity/mr_sandbag/init
+execute positioned 0 .75 5 rotated 180 0 summon minecraft:interaction run function ssbrc:game/entity/_logic/init/type/static {id: "mr_sandbag"}
 
 # Chests
 execute positioned 0 1 13 summon minecraft:interaction run function ssbrc:tutorial/chest/init {item: "master_sword", class: "weapon", type: "default"}

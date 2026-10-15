@@ -1,5 +1,5 @@
 function ssbrc:game/entity/_logic/init/type/armor_stand/common
-function ssbrc:game/entity/_logic/init/type/static
+function ssbrc:game/entity/_logic/init/type/static_object
 
 rotate @s ~ ~
 
