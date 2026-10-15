@@ -23,7 +23,7 @@ execute unless score #blackout temp matches 1.. run data modify entity @s Glowin
 
 data merge entity @s { \
 	data: { \
-		id: "redead", \
+		id: "stalfos", \
 	}, \
 	drop_chances: { \
 		head: 0, \
