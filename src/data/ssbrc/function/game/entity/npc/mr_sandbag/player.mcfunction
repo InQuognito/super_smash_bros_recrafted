@@ -1,4 +1,4 @@
-advancement grant @s[advancements={ssbrc:tutorial/intro/2/1=false}] only ssbrc:tutorial/intro/2/1
+advancement grant @s[advancements={ssbrc:tutorial/intro/1=false}] only ssbrc:tutorial/intro/1
 
 execute if score @s sandbag.stand_on matches 500 anchored eyes positioned ^ ^1 ^1 run function ssbrc:game/entity/npc/mr_sandbag/stand_on/5
 execute if score @s sandbag.stand_on matches 400 run function ssbrc:game/entity/npc/mr_sandbag/stand_on/4
