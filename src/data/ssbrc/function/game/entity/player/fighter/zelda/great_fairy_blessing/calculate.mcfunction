@@ -6,4 +6,5 @@ scoreboard players set #great_fairy_blessing.cost temp 10
 scoreboard players operation #great_fairy_blessing.cost temp += #great_fairy_blessing.count temp
 execute if score #great_fairy_blessing.cost temp matches 26.. run scoreboard players set #great_fairy_blessing.cost temp 25
 
-function ssbrc:game/item/modify {search_key: "item", search_value: "great_fairy_blessing", path: "ssbrc:fighter/zelda/great_fairy_blessing"}
+execute store result storage ssbrc:temp cache.cost int 1 run scoreboard players get #great_fairy_blessing.cost temp
+function ssbrc:game/entity/player/fighter/zelda/great_fairy_blessing/set with storage ssbrc:temp cache

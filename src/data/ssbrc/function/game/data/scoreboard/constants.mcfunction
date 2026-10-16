@@ -136,6 +136,7 @@ scoreboard players operation #yar.drone.health.threshold const -= #20 const
 
 scoreboard players set #zelda.magic const 10
 scoreboard players set #zelda.bomb const 3
+scoreboard players set #zelda.bomb.timer const 60
 scoreboard players set #zelda.boomerang const 2
 scoreboard players set #zelda.bow.default const 1
 scoreboard players set #zelda.bow.fire const 2
