@@ -1,3 +1,3 @@
-effect give @a[predicate=ssbrc:target,distance=..1] minecraft:regeneration 1 2 true
+scoreboard players add @s regeneration 1
 
 playsound ssbrc:smash_item.healing_field.heal neutral @a

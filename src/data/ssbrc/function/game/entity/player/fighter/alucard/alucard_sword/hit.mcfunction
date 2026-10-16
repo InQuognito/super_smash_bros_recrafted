@@ -1,3 +1,5 @@
+scoreboard players add @s regeneration 40
+
 function ssbrc:game/entity/player/fighter/alucard/blood_metamorphosis/deactivate
 
 execute store result score #random temp run random value 1..4

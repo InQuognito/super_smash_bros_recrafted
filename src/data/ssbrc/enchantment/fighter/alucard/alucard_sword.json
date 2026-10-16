@@ -47,14 +47,6 @@
 						{
 							"type": "minecraft:run_function",
 							"function": "ssbrc:game/entity/player/fighter/alucard/alucard_sword/hit"
-						},
-						{
-							"type": "minecraft:apply_mob_effect",
-							"to_apply": "minecraft:regeneration",
-							"min_duration": 1,
-							"max_duration": 1,
-							"min_amplifier": 2,
-							"max_amplifier": 2
 						}
 					]
 				},

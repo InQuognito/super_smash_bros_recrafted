@@ -103,6 +103,7 @@ scoreboard objectives remove ray.max
 scoreboard objectives remove ray.min
 scoreboard objectives remove ray.ticks
 scoreboard objectives remove reflect
+scoreboard objectives remove regeneration
 scoreboard objectives remove reset
 scoreboard objectives remove resource
 scoreboard objectives remove respawn

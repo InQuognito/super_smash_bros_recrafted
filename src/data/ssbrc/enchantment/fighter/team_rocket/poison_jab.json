@@ -21,16 +21,8 @@
 				"enchanted": "attacker",
 				"affected": "victim",
 				"effect": {
-					"type": "minecraft:apply_mob_effect",
-					"to_apply": "minecraft:poison",
-					"min_duration": 5,
-					"max_duration": 5,
-					"min_amplifier": 0,
-					"max_amplifier": 0
-				},
-				"requirements": {
-					"type": "minecraft:random_chance",
-					"chance": 1
+					"type": "minecraft:run_function",
+					"function": "ssbrc:game/entity/player/fighter/team_rocket/arbok/poison_jab"
 				}
 			}
 		]

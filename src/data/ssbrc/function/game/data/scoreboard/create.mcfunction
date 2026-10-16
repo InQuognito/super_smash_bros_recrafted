@@ -104,6 +104,7 @@ scoreboard objectives add ray.max dummy
 scoreboard objectives add ray.min dummy
 scoreboard objectives add ray.ticks dummy
 scoreboard objectives add reflect dummy
+scoreboard objectives add regeneration dummy
 scoreboard objectives add reset dummy
 scoreboard objectives add resource dummy
 scoreboard objectives add respawn dummy

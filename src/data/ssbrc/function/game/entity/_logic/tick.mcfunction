@@ -11,6 +11,8 @@ scoreboard players remove @s[scores={duration.3=1..}] duration.3 1
 scoreboard players remove @s[scores={armor_break=1..}] armor_break 1
 attribute @s[scores={armor_break=1}] minecraft:armor modifier remove ssbrc:armor_break
 
+execute if score @s regeneration matches 1.. run function ssbrc:game/entity/player/fighter/_logic/effects/burning/tick
+
 execute if score @s burning matches 1.. run function ssbrc:game/entity/player/fighter/_logic/effects/burning/tick
 
 execute if score @s poison matches 1.. run function ssbrc:game/entity/player/fighter/_logic/effects/poison/tick
