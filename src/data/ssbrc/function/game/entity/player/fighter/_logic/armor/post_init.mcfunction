@@ -3,4 +3,12 @@ execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {
 item modify entity @s armor.chest ssbrc:fighter/remove_armor_value
 item modify entity @s armor.legs ssbrc:fighter/remove_armor_value
 
+item modify entity @s armor.head ssbrc:fighter/remove_enchantments
+item modify entity @s armor.chest ssbrc:fighter/remove_enchantments
+item modify entity @s armor.legs ssbrc:fighter/remove_enchantments
+
+item modify entity @s armor.head ssbrc:fighter/binding_curse
+item modify entity @s armor.chest ssbrc:fighter/binding_curse
+item modify entity @s armor.legs ssbrc:fighter/binding_curse
+
 function ssbrc:game/entity/player/fighter/_logic/armor/update with entity @s equipment.body.components."minecraft:custom_data".temp.fighter

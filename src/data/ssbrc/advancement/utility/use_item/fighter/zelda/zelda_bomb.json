@@ -29,6 +29,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/entity/player/fighter/zelda/bomb/check"
+		"function": "ssbrc:game/entity/player/fighter/zelda/zelda_bomb/check"
 	}
 }

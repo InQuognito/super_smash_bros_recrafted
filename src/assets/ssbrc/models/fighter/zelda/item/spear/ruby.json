@@ -1,6 +1,0 @@
-{
-	"parent": "ssbrc:fighter/zelda/item/spear/parent",
-	"textures": {
-		"layer0": "ssbrc:fighter/zelda/item/spear/ruby"
-	}
-}

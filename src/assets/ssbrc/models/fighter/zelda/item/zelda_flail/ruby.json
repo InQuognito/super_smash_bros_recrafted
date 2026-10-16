@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:fighter/zelda/item/zelda_flail/parent",
+	"textures": {
+		"layer0": "ssbrc:fighter/zelda/item/zelda_flail/ruby"
+	}
+}

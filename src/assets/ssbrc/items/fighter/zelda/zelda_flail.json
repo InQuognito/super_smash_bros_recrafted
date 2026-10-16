@@ -7,7 +7,7 @@
 				"when": "emerald",
 				"model": {
 					"type": "minecraft:model",
-					"model": "ssbrc:fighter/zelda/item/flail/emerald"
+					"model": "ssbrc:fighter/zelda/item/zelda_flail/emerald"
 				}
 			},
 			{
@@ -18,11 +18,11 @@
 					"component": "minecraft:unbreakable",
 					"on_true": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/zelda/item/flail/glass/shattered"
+						"model": "ssbrc:fighter/zelda/item/zelda_flail/glass/shattered"
 					},
 					"on_false": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/zelda/item/flail/glass/default"
+						"model": "ssbrc:fighter/zelda/item/zelda_flail/glass/default"
 					}
 				}
 			},
@@ -30,27 +30,27 @@
 				"when": "obsidian",
 				"model": {
 					"type": "minecraft:model",
-					"model": "ssbrc:fighter/zelda/item/flail/obsidian"
+					"model": "ssbrc:fighter/zelda/item/zelda_flail/obsidian"
 				}
 			},
 			{
 				"when": "ruby",
 				"model": {
 					"type": "minecraft:model",
-					"model": "ssbrc:fighter/zelda/item/flail/ruby"
+					"model": "ssbrc:fighter/zelda/item/zelda_flail/ruby"
 				}
 			},
 			{
 				"when": "titanium",
 				"model": {
 					"type": "minecraft:model",
-					"model": "ssbrc:fighter/zelda/item/flail/titanium"
+					"model": "ssbrc:fighter/zelda/item/zelda_flail/titanium"
 				}
 			}
 		],
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "ssbrc:fighter/zelda/item/flail/default"
+			"model": "ssbrc:fighter/zelda/item/zelda_flail/default"
 		}
 	}
 }

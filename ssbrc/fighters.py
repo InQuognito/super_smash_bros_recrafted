@@ -665,7 +665,8 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 20,
-					'attack_speed': 2.5
+					'attack_speed': 2.5,
+					'max_reach': 2.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.zelda.weapon.dagger.default',

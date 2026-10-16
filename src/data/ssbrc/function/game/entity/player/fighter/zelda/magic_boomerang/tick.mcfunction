@@ -12,9 +12,9 @@ execute if score @s temp matches 40.. facing entity @a[predicate=ssbrc:owner,lim
 
 scoreboard players operation #mod temp = @s temp
 scoreboard players operation #mod temp %= #6 const
-execute if score #mod temp matches 0 run function ssbrc:game/entity/player/fighter/toon_link/boomerang/animation/1
-execute if score #mod temp matches 2 run function ssbrc:game/entity/player/fighter/toon_link/boomerang/animation/2
-execute if score #mod temp matches 4 run function ssbrc:game/entity/player/fighter/toon_link/boomerang/animation/3
+execute if score #mod temp matches 0 run function ssbrc:game/entity/player/fighter/toon_link/toon_link_boomerang/animation/1
+execute if score #mod temp matches 2 run function ssbrc:game/entity/player/fighter/toon_link/toon_link_boomerang/animation/2
+execute if score #mod temp matches 4 run function ssbrc:game/entity/player/fighter/toon_link/toon_link_boomerang/animation/3
 scoreboard players reset #mod temp
 
 scoreboard players operation #cache temp = @s temp

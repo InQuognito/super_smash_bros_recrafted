@@ -197,9 +197,9 @@ execute if entity @s[tag=drone] run return run function ssbrc:game/entity/player
 execute if entity @s[tag=drone.bullet] run return run function ssbrc:game/entity/player/fighter/yar/drone/projectile/tick
 
 # Zelda
-execute if entity @s[tag=bomb] run return run function ssbrc:game/entity/player/fighter/zelda/bomb/tick
-execute if entity @s[tag=zelda.boomerang] run return run function ssbrc:game/entity/player/fighter/zelda/boomerang/tick
-execute if entity @s[tag=bow] run return run function ssbrc:game/entity/player/fighter/zelda/bow/tick
+execute if entity @s[tag=bomb] run return run function ssbrc:game/entity/player/fighter/zelda/zelda_bomb/tick
+execute if entity @s[tag=zelda.boomerang] run return run function ssbrc:game/entity/player/fighter/zelda/zelda_boomerang/tick
+execute if entity @s[tag=bow] run return run function ssbrc:game/entity/player/fighter/zelda/zelda_bow/tick
 execute if entity @s[tag=fire_rod,tag=!pillar] run return run function ssbrc:game/entity/player/fighter/zelda/fire_rod/tick
 execute if entity @s[tag=fire_rod,tag=pillar,tag=!active] run return run function ssbrc:game/entity/player/fighter/zelda/fire_rod/alternate_function/tick
 execute if entity @s[tag=fire_rod,tag=pillar,tag=active] run return run function ssbrc:game/entity/player/fighter/zelda/fire_rod/alternate_function/tick_pillar

@@ -1,0 +1,20 @@
+{
+	"parent": "ssbrc:utility/root",
+	"criteria": {
+		"hit_arrow": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"direct_entity": {
+							"minecraft:entity_type": "#minecraft:arrows"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:game/damage/common"
+	}
+}

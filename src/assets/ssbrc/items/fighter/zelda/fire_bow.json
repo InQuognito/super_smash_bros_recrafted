@@ -11,25 +11,25 @@
 					"threshold": 0.65,
 					"model": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/zelda/item/bow/fire/pulling_1"
+						"model": "ssbrc:fighter/zelda/item/zelda_bow/fire/pulling_1"
 					}
 				},
 				{
 					"threshold": 0.9,
 					"model": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/zelda/item/bow/fire/pulling_2"
+						"model": "ssbrc:fighter/zelda/item/zelda_bow/fire/pulling_2"
 					}
 				}
 			],
 			"fallback": {
 				"type": "minecraft:model",
-				"model": "ssbrc:fighter/zelda/item/bow/fire/pulling_0"
+				"model": "ssbrc:fighter/zelda/item/zelda_bow/fire/pulling_0"
 			}
 		},
 		"on_false": {
 			"type": "minecraft:model",
-			"model": "ssbrc:fighter/zelda/item/bow/default"
+			"model": "ssbrc:fighter/zelda/item/zelda_bow/default"
 		}
 	}
 }

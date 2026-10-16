@@ -3155,7 +3155,7 @@
 	"fighter.zelda.bomb.activate": {
 		"sounds": [
 			{
-				"name": "ssbrc:fighter/zelda/bomb/activate",
+				"name": "ssbrc:fighter/zelda/zelda_bomb/activate",
 				"stream": false,
 				"volume": 1.0
 			}
@@ -3164,7 +3164,7 @@
 	"fighter.zelda.bomb.fuse": {
 		"sounds": [
 			{
-				"name": "ssbrc:fighter/zelda/bomb/fuse",
+				"name": "ssbrc:fighter/zelda/zelda_bomb/fuse",
 				"stream": false,
 				"volume": 1.0
 			}

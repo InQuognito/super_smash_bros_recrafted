@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:template/item/held_outward",
+	"textures": {
+		"layer0": "ssbrc:fighter/zelda/item/zelda_rapier/glass/default"
+	}
+}

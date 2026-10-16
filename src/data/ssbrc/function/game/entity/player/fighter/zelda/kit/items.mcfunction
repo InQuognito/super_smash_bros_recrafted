@@ -34,8 +34,7 @@ execute if score #random temp matches 6 run function ssbrc:game/item/init/slot {
 execute if score #random temp matches 7 run function ssbrc:game/item/init/slot {item: "red_potion", slot: "hotbar.1", class: "default", type: "consumable"}
 
 clear @s *[minecraft:custom_data~{group: "passive_item"}]
-function ssbrc:game/entity/player/fighter/zelda/kit/items/passive_item
-function ssbrc:game/entity/player/fighter/zelda/passive_items/apply
+function ssbrc:game/entity/player/fighter/zelda/passive_items/get
 
 scoreboard players set @s charge.2 0
 function ssbrc:game/entity/player/fighter/zelda/great_fairy_blessing/calculate

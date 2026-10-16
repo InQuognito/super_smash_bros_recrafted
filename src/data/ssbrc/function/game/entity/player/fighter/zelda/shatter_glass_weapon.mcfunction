@@ -11,7 +11,7 @@ particle minecraft:item{ \
 	item: { \
 		id: "minecraft:stick", \
 		components: { \
-			"minecraft:item_model": "ssbrc:fighter/zelda/item/dagger/glass", \
+			"minecraft:item_model": "ssbrc:fighter/zelda/item/zelda_dagger/glass", \
 		}, \
 	}, \
 } ~ ~.75 ~ .2 .2 .2 .1 25 normal @a

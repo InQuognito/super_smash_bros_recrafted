@@ -1,5 +1,5 @@
 {
-	"parent": "ssbrc:fighter/zelda/item/boomerang/parent",
+	"parent": "ssbrc:fighter/zelda/item/zelda_boomerang/parent",
 	"textures": {
 		"layer0": "ssbrc:fighter/toon_link/item/boomerang/default"
 	}

@@ -5,5 +5,3 @@ effect give @s minecraft:saturation infinite 255 true
 function ssbrc:game/entity/player/fighter/_logic/effects/glowing/apply
 
 function ssbrc:game/entity/player/fighter/_logic/effects/invisibility with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
-
-execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "zelda"}}}] run return run function ssbrc:game/entity/player/fighter/zelda/passive_items/apply

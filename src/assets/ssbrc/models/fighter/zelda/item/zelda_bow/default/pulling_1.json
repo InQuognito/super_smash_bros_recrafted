@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/bow_pulling_1",
+	"textures": {
+		"layer0": "ssbrc:fighter/zelda/item/zelda_bow/default/pulling_1"
+	}
+}
