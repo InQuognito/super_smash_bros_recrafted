@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/entity/player/fighter/ganondorf/recall_undead/activate"
+		"function": "ssbrc:game/entity/player/fighter/ganondorf/recall_undead/start"
 	}
 }

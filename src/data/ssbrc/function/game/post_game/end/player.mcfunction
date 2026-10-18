@@ -1,7 +1,11 @@
+attribute @s minecraft:jump_strength modifier remove ssbrc:zero
+attribute @s minecraft:movement_speed modifier remove ssbrc:zero
+
 function ssbrc:game/entity/player/cleanup
 
 stopsound @s music
 
+function ssbrc:game/entity/player/fighter/_logic/attributes/reset
 function ssbrc:game/entity/player/fighter/_logic/effects/lobby
 function ssbrc:game/entity/player/fighter/_logic/effects/invisibility with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
