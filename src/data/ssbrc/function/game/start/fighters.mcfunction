@@ -2,8 +2,8 @@ scoreboard players set @s kills 0
 
 function ssbrc:game/start/points
 
-attribute @s minecraft:jump_strength base set 0.42
-effect clear @s minecraft:slowness
+attribute @s minecraft:jump_strength modifier remove ssbrc:zero
+attribute @s minecraft:movement_speed modifier remove ssbrc:zero
 
 scoreboard players set @s charge 0
 scoreboard players set @s combo.count 0

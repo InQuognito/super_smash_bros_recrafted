@@ -19,7 +19,7 @@ for effect in death_effects:
 		}
 	}
 
-path = 'shop/pages'
+path = 'shop/pages/death_effect'
 pages = math.ceil(len(death_effects) / len(chest_map))
 for prev in range(pages):
 	this = prev + 1
@@ -46,4 +46,4 @@ for prev in range(pages):
 			function ssbrc:game/ui/buttons/placeholder/get {'slot': 17}
 		else:
 			function ssbrc:game/ui/buttons/navigator {'path': f'{path}/{next}', 'type': 'forward', 'slot': 17}
-		function ssbrc:game/ui/buttons/placeholder/get {'slot':26}
+		function ssbrc:game/ui/buttons/placeholder/get {'slot': 26}
