@@ -31,7 +31,7 @@ item replace entity @s enderchest.14 with minecraft:saddle[ \
 	minecraft:item_model = "minecraft:iron_sword", \
 	minecraft:custom_data = { \
 		ui: { \
-			navigation: "shop/pages/death_effects/1", \
+			navigation: "shop/pages/death_effect/1", \
 		}, \
 	}, \
 ]

@@ -1,4 +1,4 @@
 from ssbrc.stages import stages, stage_storage
 
-function ssbrc:game/entity/_logic/init/type/stage:
+function ssbrc:game/data/registry/stage:
 	data modify storage ssbrc:data stage set value stage_storage()

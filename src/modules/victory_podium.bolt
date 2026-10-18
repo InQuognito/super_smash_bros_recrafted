@@ -1,4 +1,4 @@
 from ssbrc.victory_podiums import victory_podiums, victory_podium_storage
 
-function ssbrc:game/entity/_logic/init/type/victory_podium:
+function ssbrc:game/data/registry/victory_podium:
 	data modify storage ssbrc:data victory_podium set value victory_podium_storage()
