@@ -176,6 +176,8 @@ scoreboard players operation #value.bonus.boss_ko const *= #5 const
 
 scoreboard players set #price.fighter const 2000
 
+scoreboard players set #price.death_effect const 1000
+
 scoreboard players operation #value.tutorial const = #price.fighter const
 scoreboard players operation #value.tutorial const *= #2 const
 

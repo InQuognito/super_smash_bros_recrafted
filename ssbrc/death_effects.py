@@ -14,11 +14,15 @@ def death_effect_storage():
 	n = 1
 	for effect, path in death_effects.items():
 		stage_entry = {
-			'name': effect,
-			'series': path['series'],
+			'id': effect,
 			'color': path['color'],
 			'page': page
 		}
+
+		if path['series'] == 'none':
+			stage_entry['series'] = 'none'
+		else:
+			stage_entry['series'] = path['series']
 
 		data[effect] = stage_entry
 
