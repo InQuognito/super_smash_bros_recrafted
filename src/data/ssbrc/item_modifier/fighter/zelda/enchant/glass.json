@@ -4,16 +4,15 @@
 		{
 			"type": "minecraft:set_components",
 			"components": {
-				"minecraft:enchantments": {
-					"ssbrc:fighter/zelda/enchant/glass": 1
-				},
-				"minecraft:max_damage": 6,
-				"minecraft:custom_model_data": {
-					"strings": [
-						"glass"
-					]
-				}
+				"minecraft:max_damage": 6
 			}
+		},
+		{
+			"type": "minecraft:set_enchantments",
+			"enchantments": {
+				"ssbrc:fighter/zelda/enchant/glass": 1
+			},
+			"add": true
 		},
 		{
 			"type": "minecraft:set_lore",
@@ -27,6 +26,15 @@
 				}
 			],
 			"mode": "append"
+		},
+		{
+			"type": "minecraft:set_custom_model_data",
+			"strings": {
+				"values": [
+					"glass"
+				],
+				"mode": "replace_all"
+			}
 		},
 		{
 			"type": "minecraft:set_custom_data",
