@@ -5,9 +5,13 @@ item replace entity @s contents with minecraft:stick[ \
 ]
 function ssbrc:game/entity/_logic/init/type/projectile/model/skin {skin: "gold"}
 
-attribute @s minecraft:scale base set .75
-
 data merge entity @s { \
+	transformation: { \
+		left_rotation: [0, 0, 0, 0], \
+		right_rotation: [0, 0, 0, 0], \
+		scale: [.75, .75, .75], \
+		translation: [0, 0, 0], \
+	}, \
 	teleport_duration: 1, \
 }
 

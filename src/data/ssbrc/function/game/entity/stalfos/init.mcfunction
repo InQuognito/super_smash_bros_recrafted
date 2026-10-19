@@ -7,7 +7,6 @@ attribute @s minecraft:movement_speed base set .3
 item replace entity @s weapon.mainhand with minecraft:stick[ \
 	minecraft:custom_data = { \
 		item: "stalfos_sword", \
-		damage: 3 \
 	}, \
 	minecraft:item_model = "ssbrc:fighter/ganondorf/misc/stalfos_sword", \
 ]

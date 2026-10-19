@@ -8,7 +8,7 @@ $data merge entity @s { \
 	Small:1b, \
 }
 
-item replace entity @s armor.head with minecraft:stick[minecraft:item_model="ssbrc:stage/bowsers_castle/bob_omb"]
+item replace entity @s armor.head with minecraft:stick[minecraft:item_model="ssbrc:smash_item/bob_omb"]
 
 function ssbrc:game/entity/_logic/init/type/armor_stand/normal
 
