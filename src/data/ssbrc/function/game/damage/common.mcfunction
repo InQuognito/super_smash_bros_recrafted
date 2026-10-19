@@ -8,7 +8,6 @@ attribute @s minecraft:knockback_resistance modifier remove ssbrc:knockback_resi
 scoreboard players operation @s attacker = @a[predicate=ssbrc:owner,limit=1] id
 
 $scoreboard players set #damage temp $(amount)
-scoreboard players operation #damage temp *= #10 const
 
 function ssbrc:game/damage/calculate
 

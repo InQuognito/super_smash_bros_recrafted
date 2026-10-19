@@ -6,4 +6,4 @@ execute if score #health temp matches ..250 if predicate ssbrc:random_chance/10 
 execute if score #health temp matches ..300 if predicate ssbrc:random_chance/5 run return run function ssbrc:game/damage/generic {amount: 999, kb_resist: 0, i_frames: 0}
 execute if score #health temp matches ..350 if predicate ssbrc:random_chance/2.5 run return run function ssbrc:game/damage/generic {amount: 999, kb_resist: 0, i_frames: 0}
 execute if predicate ssbrc:random_chance/1 run return run function ssbrc:game/damage/generic {amount: 999, kb_resist: 0, i_frames: 0}
-function ssbrc:game/damage/generic {amount: 3, kb_resist: .75, i_frames: 1}
+function ssbrc:game/damage/generic {amount: 30, kb_resist: .75, i_frames: 1}

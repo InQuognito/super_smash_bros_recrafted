@@ -1,6 +1,6 @@
 kill @s
 
-function ssbrc:game/damage/generic {amount: 6, kb_resist: 0, i_frames: 0}
+function ssbrc:game/damage/generic {amount: 60, kb_resist: 0, i_frames: 0}
 function ssbrc:game/entity/player/fighter/_logic/effects/dazed/activate
 
 playsound ssbrc:fighter.donkey_kong.barrel.explode player @a

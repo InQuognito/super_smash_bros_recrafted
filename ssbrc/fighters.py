@@ -373,7 +373,7 @@ fighters = {
 		'stats': {
 			'armor': 16,
 			'jump_strength': 'low',
-			'max_health': 20,
+			'max_health': 200,
 			'movement_speed': -0.15,
 			'safe_fall_distance': 'medium',
 			'weight': 'medium'
@@ -2344,7 +2344,7 @@ fighters = {
 		'series': 'fire_emblem',
 		'stats': {
 			'armor': 'low',
-			'max_health': 48,
+			'max_health': 480,
 			'safe_fall_distance': 'medium',
 			'weight': 'medium'
 		},
@@ -3365,7 +3365,7 @@ fighters = {
 		'series': 'final_fantasy',
 		'stats': {
 			'armor': 'low',
-			'max_health': 32,
+			'max_health': 320,
 			'safe_fall_distance': 'medium',
 			'weight': 'medium'
 		},
@@ -5004,7 +5004,7 @@ def max_health(fighter):
 	if 'max_health' in path.keys():
 		return path['max_health']
 	else:
-		return 40
+		return 400
 
 def movement_speed(fighter):
 	path = fighters[fighter]['stats']
