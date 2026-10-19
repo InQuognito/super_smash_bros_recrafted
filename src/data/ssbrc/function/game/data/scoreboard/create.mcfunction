@@ -39,7 +39,6 @@ scoreboard objectives add flag.damage_dealt minecraft.custom:minecraft.damage_de
 scoreboard objectives add flag.damage_taken minecraft.custom:minecraft.damage_taken
 scoreboard objectives add flag.dead deathCount
 scoreboard objectives add flag.fire_bow minecraft.used:minecraft.bow
-scoreboard objectives add flag.in_lava dummy
 scoreboard objectives add flag.sprinting dummy
 scoreboard objectives add flag.walking minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add flight_time minecraft.custom:minecraft.aviate_one_cm

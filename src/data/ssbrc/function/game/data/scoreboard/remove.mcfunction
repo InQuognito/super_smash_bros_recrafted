@@ -38,7 +38,6 @@ scoreboard objectives remove flag.damage_dealt
 scoreboard objectives remove flag.damage_taken
 scoreboard objectives remove flag.dead
 scoreboard objectives remove flag.fire_bow
-scoreboard objectives remove flag.in_lava
 scoreboard objectives remove flag.sprinting
 scoreboard objectives remove flag.walking
 scoreboard objectives remove flight_time

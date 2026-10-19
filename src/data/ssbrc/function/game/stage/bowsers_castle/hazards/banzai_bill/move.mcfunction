@@ -4,4 +4,4 @@ execute as @e[predicate=ssbrc:target,distance=..3] at @s run function ssbrc:game
 
 execute positioned ^ ^ ^-2 run function ssbrc:game/stage/bowsers_castle/hazards/banzai_bill/particle
 
-execute positioned ^ ^ ^2 run function ssbrc:game/stage/bowsers_castle/hazards/banzai_bill/destruction
+execute positioned ^ ^ ^2.5 run function ssbrc:game/stage/bowsers_castle/hazards/banzai_bill/destruction

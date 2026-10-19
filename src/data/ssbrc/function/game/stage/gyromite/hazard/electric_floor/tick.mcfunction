@@ -1,3 +1,3 @@
-particle minecraft:electric_spark ~ ~.75 ~ 0 0 0 .5 2 normal @a
+scoreboard players add @s damage 10
 
-scoreboard players add @s flag.in_lava 1
+particle minecraft:electric_spark ~ ~.75 ~ 0 0 0 .5 2 normal @a
