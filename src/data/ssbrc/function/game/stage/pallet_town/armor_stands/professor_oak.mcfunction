@@ -4,4 +4,4 @@ teleport @s ~ ~ ~ 30 0
 
 data merge entity @s {Pose:{LeftLeg:[0f,0f,360f],LeftArm:[30f,340f,0f],RightLeg:[0f,0f,5f],RightArm:[30f,10f,0f]}}
 
-function ssbrc:game/entity/_logic/init {path:"npc/pallet_town/professor_oak"}
+function ssbrc:game/entity/_logic/init/type/player_model {path:"npc/pallet_town/professor_oak"}

@@ -9,9 +9,9 @@ rotate @s ~ ~
 
 $execute summon minecraft:interaction run function ssbrc:game/entity/_logic/init/type/interaction/$(type) { \
 	left_self: "ssbrc:empty", \
-	left_click: "ssbrc:game/entity/mr_sandbag/interact", \
+	left_click: "ssbrc:game/entity/$(id)/interact", \
 	right_self: "ssbrc:empty", \
-	right_click: "ssbrc:game/entity/mr_sandbag/interact", \
+	right_click: "ssbrc:game/entity/$(id)/interact", \
 }
 
 ride @n[type=minecraft:interaction,distance=...01] mount @s

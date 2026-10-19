@@ -1,4 +1,1 @@
-{
-	"replace": false,
-	"values": ["animated_java:global/data_manager/on_tick", "ssbrc:game/tick", "animated_java:global/on_tick"]
-}
+{"replace":false,"values":["animated_java:global/data_manager/on_tick","ssbrc:game/tick","animated_java:global/on_tick"]}
