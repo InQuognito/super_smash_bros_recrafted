@@ -1,0 +1,19 @@
+{
+	"description": "",
+	"supported_items": "#ssbrc:equipment/ability",
+	"weight": 1,
+	"max_level": 2,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"chest"
+	],
+	"effects": {}
+}

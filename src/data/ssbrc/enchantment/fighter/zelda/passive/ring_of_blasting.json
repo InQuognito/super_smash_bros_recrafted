@@ -1,0 +1,32 @@
+{
+	"description": "",
+	"supported_items": "#ssbrc:equipment/ability",
+	"weight": 1,
+	"max_level": 2,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"chest"
+	],
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"attribute": "minecraft:explosion_knockback_resistance",
+				"id": "ssbrc:ring_of_blasting",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 0.15,
+					"per_level_above_first": 0.15
+				},
+				"operation": "add_value"
+			}
+		]
+	}
+}
