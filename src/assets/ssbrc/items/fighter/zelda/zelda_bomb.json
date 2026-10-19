@@ -1,6 +1,6 @@
 {
 	"model": {
 		"type": "minecraft:model",
-		"model": "ssbrc:fighter/zelda/item/bomb"
+		"model": "ssbrc:fighter/zelda/item/zelda_bomb"
 	}
 }

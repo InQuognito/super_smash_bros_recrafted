@@ -1,8 +1,8 @@
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{item: "bomb"}] run return run scoreboard players operation #resource.cost temp = #zelda.bomb const
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{item: "zelda_bomb"}] run return run scoreboard players operation #resource.cost temp = #zelda.bomb const
 
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{item: "zelda.boomerang"}] run return run scoreboard players operation #resource.cost temp = #zelda.boomerang const
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{item: "zelda_boomerang"}] run return run scoreboard players operation #resource.cost temp = #zelda.boomerang const
 
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{item: "bow"}] run return run scoreboard players operation #resource.cost temp = #zelda.bow.default const
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{item: "zelda_bow"}] run return run scoreboard players operation #resource.cost temp = #zelda.bow.default const
 
 execute if items entity @s weapon.mainhand *[minecraft:custom_data~{item: "fire_bow"}] run return run scoreboard players operation #resource.cost temp = #zelda.bow.fire const
 

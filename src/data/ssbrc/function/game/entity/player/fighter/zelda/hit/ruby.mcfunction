@@ -1,1 +1,1 @@
-function ssbrc:game/damage/remove_health
+function ssbrc:game/damage/heal {amount: 10}
