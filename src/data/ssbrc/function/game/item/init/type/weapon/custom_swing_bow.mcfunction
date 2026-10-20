@@ -30,6 +30,7 @@ $item replace entity @s $(slot) with minecraft:bow[ \
 			"$(skin)", \
 		], \
 	}, \
+	minecraft:damage = 0, \
 	minecraft:enchantment_glint_override = false, \
 	minecraft:enchantments = { \
 		"ssbrc:fighter/$(fighter)/$(item)": 1, \

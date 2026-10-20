@@ -32,6 +32,7 @@ $item replace entity @s $(slot) with minecraft:bow[ \
 		group: "$(group)", \
 		damage: $(attack_damage), \
 	}, \
+	minecraft:damage = 0, \
 	minecraft:custom_model_data = { \
 		strings: [ \
 			"$(skin)", \
