@@ -13,7 +13,7 @@
 		],
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "ssbrc:fighter/raiden/item/throwing_knives/model"
+			"model": "minecraft:item/iron_sword"
 		}
 	}
 }

@@ -1,6 +1,6 @@
 {
 	"parent": "ssbrc:template/item/hud",
 	"textures": {
-		"layer0": "ssbrc:fighter/ice_climbers/item/windstorm"
+		"base": "ssbrc:fighter/ice_climbers/item/windstorm"
 	}
 }

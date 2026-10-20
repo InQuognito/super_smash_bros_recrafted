@@ -1,6 +1,6 @@
 {
 	"parent": "ssbrc:template/item/hud",
 	"textures": {
-		"layer0": "ssbrc:fighter/raiden/item/throwing_knives/icon"
+		"base": "ssbrc:fighter/raiden/item/throwing_knives/icon"
 	}
 }
