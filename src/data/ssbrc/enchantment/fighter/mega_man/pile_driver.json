@@ -48,7 +48,6 @@
 				"requirements": {
 					"type": "minecraft:all_of",
 					"terms": [
-						"ssbrc:cooldown/universal",
 						{
 							"type": "minecraft:inverted",
 							"term": {
@@ -63,6 +62,9 @@
 							"type": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
+								"silenced": {
+									"max": 0
+								},
 								"mega_man.pile_driver": {
 									"min": 1
 								}

@@ -38,18 +38,12 @@
 		"minecraft:post_piercing_attack": [
 			{
 				"effect": {
-					"type": "minecraft:all_of",
-					"effects": [
-						{
-							"type": "minecraft:run_function",
-							"function": "ssbrc:game/entity/player/fighter/samus/melee_counter/activate"
-						}
-					]
+					"type": "minecraft:run_function",
+					"function": "ssbrc:game/entity/player/fighter/samus/melee_counter/activate"
 				},
 				"requirements": {
 					"type": "minecraft:all_of",
 					"terms": [
-						"ssbrc:cooldown/universal",
 						{
 							"type": "minecraft:inverted",
 							"term": {
@@ -64,6 +58,9 @@
 							"type": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
+								"silenced": {
+									"max": 0
+								},
 								"duration.1": {
 									"max": 0
 								}
@@ -89,9 +86,16 @@
 				},
 				"requirements": {
 					"type": "minecraft:all_of",
-					"terms": [
-						"ssbrc:flag/sprinting"
-					]
+					"terms": {
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"flags": {
+								"is_sprinting": true,
+								"is_swimming": false
+							}
+						}
+					}
 				}
 			}
 		]
