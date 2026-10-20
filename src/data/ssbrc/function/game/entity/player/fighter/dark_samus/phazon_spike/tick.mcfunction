@@ -1,4 +1,4 @@
-execute as @e[predicate=ssbrc:target,predicate=!ssbrc:owner,dx=0] run function ssbrc:game/damage/generic {amount: 60, kb_resist: 0, i_frames: 10}
+execute as @e[predicate=ssbrc:target,predicate=!ssbrc:owner,dx=0] run function ssbrc:game/entity/_logic/health/damage/generic {amount: 60, kb_resist: 0, i_frames: 10}
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=30..}]

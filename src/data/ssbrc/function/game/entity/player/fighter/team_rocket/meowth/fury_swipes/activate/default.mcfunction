@@ -2,6 +2,6 @@ say fury swipe
 
 execute as @e[type=minecraft:snowball,tag=payday.projectile.vehicle,dx=0] run function ssbrc:game/entity/player/fighter/team_rocket/meowth/fury_swipes/hit_payday
 
-execute as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dx=0] run function ssbrc:game/damage/generic {amount: 10, kb_resist: .95, i_frames: 0}
+execute as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dx=0] run function ssbrc:game/entity/_logic/health/damage/generic {amount: 10, kb_resist: .95, i_frames: 0}
 
 playsound ssbrc:fighter.team_rocket.meowth.fury_swipes.activate player @a

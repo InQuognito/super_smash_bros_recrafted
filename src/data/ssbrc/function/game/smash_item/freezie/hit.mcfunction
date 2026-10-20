@@ -1,3 +1,3 @@
-function ssbrc:game/damage/frostbite {amount: 6, stacks: 5, kb_resist: 0, i_frames: 0}
+function ssbrc:game/entity/_logic/health/damage/frostbite {amount: 6, stacks: 5, kb_resist: 0, i_frames: 0}
 
 playsound ssbrc:smash_item.freezie.hit hostile @a

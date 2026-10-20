@@ -2,6 +2,6 @@ execute store result storage ssbrc:temp cache.damage.amount int 1 run scoreboard
 
 scoreboard players operation @s attacker = #id temp
 
-function ssbrc:game/damage/calculate
+function ssbrc:game/entity/_logic/health/damage/calculate
 
-function ssbrc:game/damage/start
+function ssbrc:game/entity/_logic/health/damage/start

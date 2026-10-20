@@ -11,7 +11,7 @@ scoreboard players remove @s[scores={duration.3=1..}] duration.3 1
 scoreboard players remove @s[scores={armor_break=1..}] armor_break 1
 attribute @s[scores={armor_break=1}] minecraft:armor modifier remove ssbrc:armor_break
 
-execute if score @s regeneration matches 1.. run function ssbrc:game/entity/player/fighter/_logic/effects/burning/tick
+execute if score @s regeneration matches 1.. run function ssbrc:game/entity/player/fighter/_logic/effects/regeneration/tick with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
 execute if score @s burning matches 1.. run function ssbrc:game/entity/player/fighter/_logic/effects/burning/tick
 
@@ -35,6 +35,6 @@ execute if score @s sleep matches 1.. run function ssbrc:game/entity/player/figh
 
 execute if score @s tornado matches 1.. run function ssbrc:entity/common/tornado/logic/spin/tick
 
-execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] if block ~ ~ ~ minecraft:water run function ssbrc:game/damage/generic {amount: 40, kb_resist: 1, i_frames: 10}
+execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] if block ~ ~ ~ minecraft:water run function ssbrc:game/entity/_logic/health/damage/generic {amount: 40, kb_resist: 1, i_frames: 10}
 
 execute if data storage ssbrc:temp game.stage{name: "sand_ocean"} if data storage ssbrc:data option{hazards: "true"} run function ssbrc:game/entity/player/fighter/_logic/quicksand/tick

@@ -1,4 +1,4 @@
-execute store success score #damage_success temp run function ssbrc:game/damage/generic {amount: 60, kb_resist: 0, i_frames: 5}
+execute store success score #damage_success temp run function ssbrc:game/entity/_logic/health/damage/generic {amount: 60, kb_resist: 0, i_frames: 5}
 
 execute as @a[predicate=ssbrc:owner,limit=1] run function ssbrc:game/entity/player/fighter/_logic/jump/impulse with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 

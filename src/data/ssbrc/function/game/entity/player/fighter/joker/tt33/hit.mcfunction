@@ -1,3 +1,3 @@
-function ssbrc:game/damage/generic {amount: 40, kb_resist: 0, i_frames: 0}
+function ssbrc:game/entity/_logic/health/damage/generic {amount: 40, kb_resist: 0, i_frames: 0}
 
 scoreboard players add @a[predicate=ssbrc:owner,limit=1] charge.1 50

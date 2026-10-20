@@ -817,12 +817,11 @@ fighters = {
 				}
 			},
 			'red_potion': {
-				'type': 'ability',
+				'type': 'consumable',
 				'group': 'dungeon_item',
 				'stats': {
-					'cooldown_group': 'zelda/red_potion',
-					'cooldown': 0.05,
-					'use_duration': 1
+					'consume_seconds': 1.5,
+					'consume_animation': 'drink'
 				},
 				'default': {
 					'name': 'ssbrc.fighter.zelda.dungeon_item.red_potion',

@@ -12,6 +12,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/damage/npc"
+		"function": "ssbrc:game/entity/_logic/health/damage/npc"
 	}
 }

@@ -1,1 +1,1 @@
-function ssbrc:game/damage/heal {amount: 10}
+function ssbrc:game/entity/_logic/health/damage/heal {amount: 10}

@@ -15,6 +15,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/damage/common"
+		"function": "ssbrc:game/entity/_logic/health/damage/arrow"
 	}
 }

@@ -2,4 +2,4 @@ $data modify storage ssbrc:temp cache.damage set value {amount: $(amount), stack
 
 function ssbrc:game/entity/player/fighter/_logic/attributes/modifiers/frostbite/increase with storage ssbrc:temp cache.damage
 
-function ssbrc:game/damage/common with storage ssbrc:temp cache.damage
+function ssbrc:game/entity/_logic/health/damage/common with storage ssbrc:temp cache.damage
