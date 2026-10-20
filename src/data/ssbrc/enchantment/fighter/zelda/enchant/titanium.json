@@ -21,7 +21,7 @@
 				"id": "ssbrc:fighter/zelda/titanium/attack_damage",
 				"attribute": "minecraft:attack_damage",
 				"amount": 0.2,
-				"operation": "add_value"
+				"operation": "add_multiplied_base"
 			},
 			{
 				"id": "ssbrc:fighter/zelda/titanium/attack_speed",

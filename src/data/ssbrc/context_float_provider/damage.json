@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:mul",
+	"inputs": [
+		{
+			"type": "minecraft:from_int",
+			"input": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#base_damage"
+				},
+				"score": "temp"
+			}
+		},
+		{
+			"type": "minecraft:div",
+			"left": {
+				"type": "minecraft:from_int",
+				"input": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#damage_mult"
+					},
+					"score": "temp"
+				}
+			},
+			"right": 100
+		}
+	]
+}

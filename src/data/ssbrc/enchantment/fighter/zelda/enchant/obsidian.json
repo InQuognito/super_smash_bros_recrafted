@@ -25,7 +25,7 @@
 					"base": -0.2,
 					"per_level_above_first": 0.05
 				},
-				"operation": "add_value"
+				"operation": "add_multiplied_base"
 			}
 		]
 	}

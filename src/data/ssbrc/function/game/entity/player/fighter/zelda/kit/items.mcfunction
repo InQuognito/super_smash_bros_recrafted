@@ -33,7 +33,6 @@ execute if score #random temp matches 5 run function ssbrc:game/entity/player/fi
 execute if score #random temp matches 6 run function ssbrc:game/entity/player/fighter/zelda/kit/dungeon_item {item: "magic_boomerang", class: "default", type: "default"}
 execute if score #random temp matches 7 run function ssbrc:game/entity/player/fighter/zelda/kit/dungeon_item {item: "red_potion", class: "default", type: "consumable"}
 
-clear @s *[minecraft:custom_data~{group: "passive_item"}]
 function ssbrc:game/entity/player/fighter/zelda/passive_items/get
 
 scoreboard players set @s charge.2 0

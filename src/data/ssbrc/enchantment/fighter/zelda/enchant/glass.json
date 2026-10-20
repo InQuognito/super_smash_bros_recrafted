@@ -23,12 +23,11 @@
 				"amount": {
 					"type": "minecraft:lookup",
 					"values": [
-						0.25,
-						-0.75
+						0.25
 					],
-					"fallback": 0.25
+					"fallback": -0.75
 				},
-				"operation": "add_value"
+				"operation": "add_multiplied_base"
 			}
 		],
 		"minecraft:post_attack": [
