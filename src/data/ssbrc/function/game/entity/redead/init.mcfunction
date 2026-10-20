@@ -13,7 +13,7 @@ item replace entity @s armor.chest with minecraft:air
 item replace entity @s armor.legs with minecraft:air
 item replace entity @s armor.feet with minecraft:air
 
-execute unless score #blackout temp matches 1.. run data modify entity @s Glowing set value true
+execute unless score #blackout temp matches 1.. run effect give @s minecraft:glowing 3
 
 data merge entity @s { \
 	data: { \
