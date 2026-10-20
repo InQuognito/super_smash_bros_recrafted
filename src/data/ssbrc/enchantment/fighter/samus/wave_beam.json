@@ -90,9 +90,10 @@
 						"type": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"flags": {
-								"is_sprinting": true,
-								"is_swimming": false
+							"minecraft:type_specific/player": {
+								"input": {
+									"forward": true
+								}
 							}
 						}
 					}
