@@ -694,7 +694,8 @@ fighters = {
 				'stats': {
 					'max_damage': 6,
 					'attack_damage': 40,
-					'attack_speed': 1
+					'attack_speed': 1,
+					'attack_animation': 'stab'
 				},
 				'default': {
 					'name': 'ssbrc.fighter.zelda.weapon.rapier.default',
