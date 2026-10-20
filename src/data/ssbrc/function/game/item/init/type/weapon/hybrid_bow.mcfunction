@@ -9,7 +9,7 @@ $item replace entity @s $(slot) with minecraft:bow[ \
 			type: "minecraft:attack_damage", \
 			id: "ssbrc:attack_damage", \
 			amount: 0, \
-			operation: "add_multiplied_base", \
+			operation: "add_value", \
 			slot: "mainhand", \
 		}, \
 		{ \

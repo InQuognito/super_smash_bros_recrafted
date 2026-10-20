@@ -9,7 +9,7 @@ $item replace entity @s $(slot) with minecraft:shield[ \
 			type: "minecraft:attack_damage", \
 			id: "ssbrc:attack_damage", \
 			amount: 0, \
-			operation: "add_multiplied_base", \
+			operation: "add_value", \
 			slot: "mainhand", \
 		}, \
 		{ \
