@@ -1,3 +1,5 @@
+$say $(item)
+
 $function ssbrc:game/item/init/slot { \
 	item: "$(item)", \
 	slot: "$(slot)", \
