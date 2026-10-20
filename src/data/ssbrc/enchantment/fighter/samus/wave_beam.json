@@ -74,15 +74,15 @@
 					"type": "minecraft:apply_impulse",
 					"coordinate_scale": [
 						1,
-						1,
+						0,
 						1
 					],
 					"direction": [
 						0,
-						0,
+						0.25,
 						1
 					],
-					"magnitude": 0.75
+					"magnitude": 0.5
 				},
 				"requirements": {
 					"type": "minecraft:all_of",
