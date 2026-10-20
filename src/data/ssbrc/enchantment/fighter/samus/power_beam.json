@@ -89,7 +89,9 @@
 				},
 				"requirements": {
 					"type": "minecraft:all_of",
-					"terms": "ssbrc:flag/sprinting"
+					"terms": [
+						"ssbrc:flag/sprinting"
+					]
 				}
 			}
 		]
