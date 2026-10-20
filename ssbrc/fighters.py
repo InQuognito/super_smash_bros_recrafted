@@ -4317,7 +4317,7 @@ fighters = {
 					'color': 'dark_red'
 				}
 			},
-			'shield': {
+			'steve_shield': {
 				'type': 'shield',
 				'stats': {
 					'max_damage': 10,

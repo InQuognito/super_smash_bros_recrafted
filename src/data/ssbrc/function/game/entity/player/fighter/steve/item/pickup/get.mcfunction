@@ -8,10 +8,10 @@ execute if items entity @s container.* minecraft:lapis_lazuli[minecraft:custom_d
 
 execute if items entity @s container.* minecraft:lapis_lazuli[minecraft:custom_data~{get: "netherite"}] run return run tag @s add get_netherite
 
-execute if items entity @s container.* minecraft:lapis_lazuli[minecraft:custom_data~{get: "bow"}] unless items entity @s container.* minecraft:bow[minecraft:custom_data~{item: "bow"}] run return run tag @s add get_bow
+execute if items entity @s container.* minecraft:lapis_lazuli[minecraft:custom_data~{get: "steve_bow"}] unless items entity @s container.* minecraft:bow[minecraft:custom_data~{item: "bow"}] run return run tag @s add get_bow
 
-execute if items entity @s container.* minecraft:lapis_lazuli[minecraft:custom_data~{get: "crossbow"}] unless items entity @s container.* minecraft:crossbow[minecraft:custom_data~{item: "crossbow"}] run return run tag @s add get_crossbow
+execute if items entity @s container.* minecraft:lapis_lazuli[minecraft:custom_data~{get: "steve_crossbow"}] unless items entity @s container.* minecraft:crossbow[minecraft:custom_data~{item: "crossbow"}] run return run tag @s add get_crossbow
 
 execute if items entity @s container.* minecraft:lapis_lazuli[minecraft:custom_data~{get: "arrow"}] run return run tag @s add get_arrow
 
-execute if items entity @s container.* minecraft:lapis_lazuli[minecraft:custom_data~{get: "shield"}] run return run tag @s add get_shield
+execute if items entity @s container.* minecraft:lapis_lazuli[minecraft:custom_data~{get: "steve_shield"}] run return run tag @s add get_shield
