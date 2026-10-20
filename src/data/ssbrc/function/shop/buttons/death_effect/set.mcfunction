@@ -1,6 +1,6 @@
 $item replace entity @s enderchest.$(slot) with minecraft:saddle[ \
 	minecraft:item_name = { \
-		translate: "ssbrc.game.death_effects", \
+		translate: "ssbrc.game.death_effect.$(id)", \
 		color: "gold", \
 		bold: true, \
 	}, \

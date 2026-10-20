@@ -4294,11 +4294,11 @@ fighters = {
 					'color': 'aqua'
 				}
 			},
-			'netherite_axe': {
+			'netherite_sword': {
 				'group': 'steve_equipment',
 				'type': 'weapon',
 				'stats': {
-					'attack_damage': 75,
+					'attack_damage': 90,
 					'attack_speed': 0.75
 				},
 				'default': {

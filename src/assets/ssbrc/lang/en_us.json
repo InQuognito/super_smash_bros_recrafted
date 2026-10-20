@@ -299,6 +299,9 @@
 
 	"ssbrc.admin.force_reset": "All player data has been successfully reset.",
 
+	"ssbrc.death_effects": "Death Effects",
+	"ssbrc.death_effect.snowgrave": "Snowgrave",
+
 	"ssbrc.fighter.menu.select_fighter": "Select Fighter",
 	"ssbrc.fighter.menu.skin_options": "Skin Options",
 	"ssbrc.fighter.menu.skin_options.description": "] to change your equipped skin!",
