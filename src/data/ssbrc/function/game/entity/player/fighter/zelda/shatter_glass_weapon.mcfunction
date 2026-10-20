@@ -4,6 +4,7 @@ item modify entity @s weapon.mainhand { \
 		"minecraft:enchantments": { \
 			"ssbrc:fighter/zelda/enchant/glass": 2, \
 		}, \
+		"minecraft:unbreakable": {}, \
 	}, \
 }
 
