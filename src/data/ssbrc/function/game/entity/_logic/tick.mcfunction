@@ -9,7 +9,7 @@ scoreboard players remove @s[scores={duration.2=1..}] duration.2 1
 scoreboard players remove @s[scores={duration.3=1..}] duration.3 1
 
 scoreboard players remove @s[scores={armor_break=1..}] armor_break 1
-attribute @s[scores={armor_break=1}] minecraft:armor modifier remove ssbrc:armor_break
+execute if score @s armor_break matches 1 run function ssbrc:game/entity/player/fighter/_logic/effects/armor_break/deactivate
 
 execute if score @s regeneration matches 1.. run function ssbrc:game/entity/player/fighter/_logic/effects/regeneration/tick with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 

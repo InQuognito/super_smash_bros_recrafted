@@ -7,7 +7,7 @@ scoreboard players operation @s duration.1 *= #4 const
 
 execute positioned ~ ~.1 ~ summon minecraft:marker run function ssbrc:game/entity/player/fighter/lucario/close_combat/init
 
-function ssbrc:game/entity/player/fighter/_logic/effects/armor_break {duration: 160}
+function ssbrc:game/entity/player/fighter/_logic/effects/armor_break/activate {duration: 160}
 
 attribute @s minecraft:gravity modifier add ssbrc:zero -1 add_multiplied_total
 

@@ -1,5 +1,5 @@
 function ssbrc:game/entity/player/fighter/_logic/effects/stun/activate {duration: 15}
-function ssbrc:game/entity/player/fighter/_logic/effects/armor_break {duration: 15}
+function ssbrc:game/entity/player/fighter/_logic/effects/armor_break/activate {duration: 15}
 
 function ssbrc:game/entity/_logic/health/damage/fire {amount: 1, duration: 40, kb_resist: 1, i_frames: 0}
 

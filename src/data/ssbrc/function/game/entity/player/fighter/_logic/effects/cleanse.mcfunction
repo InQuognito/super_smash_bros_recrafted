@@ -14,4 +14,4 @@ function ssbrc:game/entity/player/fighter/_logic/effects/immobile/deactivate
 
 function ssbrc:game/entity/player/fighter/_logic/effects/sleep/deactivate
 
-scoreboard players set @s armor_break 1
+function ssbrc:game/entity/player/fighter/_logic/effects/armor_break/deactivate
