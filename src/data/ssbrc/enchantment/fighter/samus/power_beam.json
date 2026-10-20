@@ -13,7 +13,7 @@
 	},
 	"anvil_cost": 0,
 	"slots": [
-		"hand"
+		"mainhand"
 	],
 	"effects": {
 		"minecraft:post_attack": [
@@ -23,7 +23,7 @@
 					"entity": "this",
 					"scores": {
 						"duration.1": {
-							"min": 1
+							"min": 15
 						}
 					}
 				},
