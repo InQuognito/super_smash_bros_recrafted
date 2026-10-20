@@ -1067,13 +1067,13 @@ fighters = {
 		],
 		'items': {
 			'power_beam': {
-				'type': 'hybrid',
+				'type': 'custom_hybrid',
 				'group': 'arm_cannon',
 				'stats': {
-					'attack_damage': 30,
+					'attack_damage': 5,
 					'attack_speed': 0.5,
 					'cooldown_group': 'samus/power_beam',
-					'cooldown': 0.25
+					'cooldown': 0.2
 				},
 				'default': {
 					'name': 'ssbrc.fighter.samus.power_beam',
@@ -1081,13 +1081,13 @@ fighters = {
 				}
 			},
 			'plasma_beam': {
-				'type': 'hybrid',
+				'type': 'custom_hybrid',
 				'group': 'arm_cannon',
 				'stats': {
-					'attack_damage': 30,
+					'attack_damage': 5,
 					'attack_speed': 0.5,
 					'cooldown_group': 'samus/plasma_beam',
-					'cooldown': 3
+					'cooldown': 1.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.samus.plasma_beam',
@@ -1095,10 +1095,10 @@ fighters = {
 				}
 			},
 			'wave_beam': {
-				'type': 'hybrid',
+				'type': 'custom_hybrid',
 				'group': 'arm_cannon',
 				'stats': {
-					'attack_damage': 30,
+					'attack_damage': 5,
 					'attack_speed': 0.5,
 					'cooldown_group': 'samus/wave_beam',
 					'cooldown': 1

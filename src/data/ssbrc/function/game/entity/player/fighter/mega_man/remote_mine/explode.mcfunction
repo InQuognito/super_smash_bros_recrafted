@@ -1,7 +1,7 @@
 particle minecraft:flash{color: 16777215} ~ ~ ~ 0 0 0 0 1 normal @a
 particle minecraft:explosion ~ ~ ~ 0 0 0 0 1 normal @a
 
-function ssbrc:game/entity/_logic/health/damage/explosion {amount: 12, radius: 2.5, kb_resist: 0, i_frames: 0}
+function ssbrc:game/entity/_logic/health/damage/explosion {amount: 120, radius: 2.5, kb_resist: 0, i_frames: 0}
 
 kill @s
 

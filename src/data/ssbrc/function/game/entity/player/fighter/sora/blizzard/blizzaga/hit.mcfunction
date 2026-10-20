@@ -1,4 +1,4 @@
-function ssbrc:game/entity/_logic/health/damage/frostbite {amount: 1, stacks: 1, kb_resist: 0, i_frames: 0}
+function ssbrc:game/entity/_logic/health/damage/frostbite {amount: 10, stacks: 1, kb_resist: 0, i_frames: 0}
 
 scoreboard players set #drive_gain temp 10
 execute as @a[predicate=ssbrc:owner,limit=1] run function ssbrc:game/entity/player/fighter/sora/drive/increase

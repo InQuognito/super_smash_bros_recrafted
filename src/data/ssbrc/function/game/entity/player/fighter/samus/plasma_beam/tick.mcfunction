@@ -1,5 +1,4 @@
-scoreboard players set #n temp 7
-
+scoreboard players set #n temp 10
 function ssbrc:game/entity/player/fighter/samus/plasma_beam/move_forward
 
 scoreboard players add @s temp 1

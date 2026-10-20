@@ -1,0 +1,97 @@
+{
+	"description": "",
+	"supported_items": "#ssbrc:equipment/ability",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"hand"
+	],
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"requirements": {
+					"type": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"duration.1": {
+							"min": 1
+						}
+					}
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "ssbrc:game/entity/player/fighter/samus/melee_counter/hit"
+				},
+				"enchanted": "victim",
+				"affected": "attacker"
+			}
+		],
+		"minecraft:post_piercing_attack": [
+			{
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:run_function",
+							"function": "ssbrc:game/entity/player/fighter/samus/melee_counter/activate"
+						}
+					]
+				},
+				"requirements": {
+					"type": "minecraft:all_of",
+					"terms": [
+						"ssbrc:cooldown/universal",
+						{
+							"type": "minecraft:inverted",
+							"term": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"vehicle": {}
+								}
+							}
+						},
+						{
+							"type": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"duration.1": {
+									"max": 0
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"effect": {
+					"type": "minecraft:apply_impulse",
+					"coordinate_scale": [
+						1,
+						1,
+						1
+					],
+					"direction": [
+						0,
+						0,
+						1
+					],
+					"magnitude": 0.75
+				},
+				"requirements": {
+					"type": "minecraft:all_of",
+					"terms": "ssbrc:flag/sprinting"
+				}
+			}
+		]
+	}
+}
