@@ -13,27 +13,23 @@
 							"when": "gui",
 							"model": {
 								"type": "minecraft:model",
-								"model": "ssbrc:fighter/mega_man/misc/pile_driver/star_force"
+								"model": "ssbrc:fighter/mega_man/item/pile_driver/star_force/icon"
 							}
 						},
 						{
-							"when": "firstperson_lefthand",
+							"when": [
+								"firstperson_lefthand",
+								"thirdperson_lefthand"
+							],
 							"model": {
 								"type": "minecraft:model",
-								"model": "ssbrc:fighter/mega_man/item/pile_driver/star_force/left"
-							}
-						},
-						{
-							"when": "thirdperson_lefthand",
-							"model": {
-								"type": "minecraft:model",
-								"model": "ssbrc:fighter/mega_man/item/pile_driver/star_force/left"
+								"model": "ssbrc:fighter/mega_man/item/pile_driver/star_force/model/left"
 							}
 						}
 					],
 					"fallback": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/mega_man/item/pile_driver/star_force/default"
+						"model": "ssbrc:fighter/mega_man/item/pile_driver/star_force/model/default"
 					}
 				}
 			}
@@ -46,13 +42,13 @@
 					"when": "gui",
 					"model": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/mega_man/misc/pile_driver/default"
+						"model": "ssbrc:fighter/mega_man/item/pile_driver/default/icon"
 					}
 				}
 			],
 			"fallback": {
 				"type": "minecraft:model",
-				"model": "ssbrc:fighter/mega_man/item/pile_driver/default"
+				"model": "ssbrc:fighter/mega_man/item/pile_driver/default/model"
 			}
 		}
 	},

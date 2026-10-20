@@ -1,6 +1,0 @@
-{
-	"parent": "ssbrc:template/item/hud",
-	"textures": {
-		"base": "ssbrc:fighter/mega_man/misc/pile_driver/star_force"
-	}
-}

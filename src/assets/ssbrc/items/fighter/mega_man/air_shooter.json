@@ -7,7 +7,7 @@
 				"when": "gui",
 				"model": {
 					"type": "minecraft:model",
-					"model": "ssbrc:fighter/mega_man/misc/air_shooter"
+					"model": "ssbrc:fighter/mega_man/item/air_shooter/icon"
 				}
 			}
 		],
@@ -19,14 +19,14 @@
 					"when": "x",
 					"model": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/mega_man/item/air_shooter/x"
+						"model": "ssbrc:fighter/mega_man/item/mega_buster/x/model"
 					}
 				},
 				{
 					"when": "star_force",
 					"model": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/mega_man/item/air_shooter/star_force"
+						"model": "ssbrc:fighter/mega_man/item/air_shooter/model/star_force"
 					}
 				},
 				{
@@ -39,7 +39,7 @@
 			],
 			"fallback": {
 				"type": "minecraft:model",
-				"model": "ssbrc:fighter/mega_man/item/air_shooter/default"
+				"model": "ssbrc:fighter/mega_man/item/air_shooter/model/default"
 			}
 		}
 	},

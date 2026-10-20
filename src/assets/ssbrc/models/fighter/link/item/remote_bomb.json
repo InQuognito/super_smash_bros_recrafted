@@ -1,0 +1,47 @@
+{
+	"textures": {
+		"base": "ssbrc:fighter/link/item/remote_bomb/model",
+		"particle": "ssbrc:miscellaneous/empty"
+	},
+	"elements": [
+		{
+			"from": [3, 0.5, 3],
+			"to": [13, 10.5, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0.5, 7]},
+			"faces": {
+				"north": {"uv": [2.75, 5.5, 5.25, 8], "texture": "#base"},
+				"east": {"uv": [2.75, 5.5, 5.25, 8], "texture": "#base"},
+				"south": {"uv": [2.75, 5.5, 5.25, 8], "texture": "#base"},
+				"west": {"uv": [2.75, 5.5, 5.25, 8], "texture": "#base"},
+				"up": {"uv": [2.75, 5.5, 5.25, 8], "texture": "#base"},
+				"down": {"uv": [2.75, 5.5, 5.25, 8], "texture": "#base"}
+			}
+		},
+		{
+			"from": [2.7, 0.2, 2.7],
+			"to": [13.3, 10.8, 13.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0.5, 7]},
+			"faces": {
+				"north": {"uv": [2.75, 0, 5.375, 2.625], "texture": "#base"},
+				"east": {"uv": [0, 2.75, 2.625, 5.375], "texture": "#base"},
+				"south": {"uv": [2.75, 0, 5.375, 2.625], "texture": "#base"},
+				"west": {"uv": [0, 2.75, 2.625, 5.375], "texture": "#base"},
+				"up": {"uv": [0, 5.5, 2.625, 8.125], "texture": "#base"},
+				"down": {"uv": [5.5, 0, 8.125, 2.625], "texture": "#base"}
+			}
+		},
+		{
+			"from": [5, 10.5, 8],
+			"to": [11, 15.5, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 10.5, 7]},
+			"faces": {
+				"north": {"uv": [7, 4, 5.5, 5.25], "texture": "#base"},
+				"east": {"uv": [0, 0, 0, 1.25], "texture": "#base"},
+				"south": {"uv": [5.5, 4, 7, 5.25], "texture": "#base"},
+				"west": {"uv": [0, 0, 0, 1.25], "texture": "#base"},
+				"up": {"uv": [0, 0, 1.5, 0], "texture": "#base"},
+				"down": {"uv": [0, 0, 1.5, 0], "texture": "#base"}
+			}
+		}
+	]
+}

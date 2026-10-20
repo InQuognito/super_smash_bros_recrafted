@@ -13,13 +13,13 @@
 							"when": "gui",
 							"model": {
 								"type": "minecraft:model",
-								"model": "ssbrc:fighter/mega_man/misc/metal_blade/gold"
+								"model": "ssbrc:fighter/mega_man/item/metal_blade/gold/icon"
 							}
 						}
 					],
 					"fallback": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/mega_man/item/metal_blade/gold"
+						"model": "ssbrc:fighter/mega_man/item/metal_blade/gold/model"
 					}
 				}
 			}
@@ -32,13 +32,13 @@
 					"when": "gui",
 					"model": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/mega_man/misc/metal_blade/default"
+						"model": "ssbrc:fighter/mega_man/item/metal_blade/default/icon"
 					}
 				}
 			],
 			"fallback": {
 				"type": "minecraft:model",
-				"model": "ssbrc:fighter/mega_man/item/metal_blade/default"
+				"model": "ssbrc:fighter/mega_man/item/metal_blade/default/model"
 			}
 		}
 	},

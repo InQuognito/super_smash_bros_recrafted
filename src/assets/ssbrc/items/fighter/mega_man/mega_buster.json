@@ -13,13 +13,13 @@
 							"when": "gui",
 							"model": {
 								"type": "minecraft:model",
-								"model": "ssbrc:fighter/mega_man/misc/mega_buster/gold"
+								"model": "ssbrc:fighter/mega_man/item/mega_buster/gold/icon"
 							}
 						}
 					],
 					"fallback": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/mega_man/item/mega_buster/gold"
+						"model": "ssbrc:fighter/mega_man/item/mega_buster/gold/model"
 					}
 				}
 			},
@@ -33,13 +33,13 @@
 							"when": "gui",
 							"model": {
 								"type": "minecraft:model",
-								"model": "ssbrc:fighter/mega_man/misc/mega_buster/x"
+								"model": "ssbrc:fighter/mega_man/item/mega_buster/x/model"
 							}
 						}
 					],
 					"fallback": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/mega_man/item/mega_buster/x"
+						"model": "ssbrc:fighter/mega_man/item/mega_buster/x/model"
 					}
 				}
 			},
@@ -53,13 +53,13 @@
 							"when": "gui",
 							"model": {
 								"type": "minecraft:model",
-								"model": "ssbrc:fighter/mega_man/misc/mega_buster/star_force"
+								"model": "ssbrc:fighter/mega_man/item/mega_buster/star_force/icon"
 							}
 						}
 					],
 					"fallback": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/mega_man/item/mega_buster/star_force"
+						"model": "ssbrc:fighter/mega_man/item/mega_buster/star_force/model"
 					}
 				}
 			},
@@ -79,13 +79,13 @@
 					"when": "gui",
 					"model": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/mega_man/misc/mega_buster/default"
+						"model": "ssbrc:fighter/mega_man/item/mega_buster/default/icon"
 					}
 				}
 			],
 			"fallback": {
 				"type": "minecraft:model",
-				"model": "ssbrc:fighter/mega_man/item/mega_buster/default"
+				"model": "ssbrc:fighter/mega_man/item/mega_buster/default/model"
 			}
 		}
 	},

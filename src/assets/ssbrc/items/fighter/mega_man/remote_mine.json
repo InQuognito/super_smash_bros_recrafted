@@ -7,7 +7,7 @@
 				"when": "gui",
 				"model": {
 					"type": "minecraft:model",
-					"model": "ssbrc:fighter/mega_man/misc/remote_mine"
+					"model": "ssbrc:fighter/mega_man/item/remote_mine/icon"
 				}
 			}
 		],
@@ -19,14 +19,14 @@
 					"when": "x",
 					"model": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/mega_man/item/remote_mine/x"
+						"model": "ssbrc:fighter/mega_man/item/mega_buster/x/model"
 					}
 				},
 				{
 					"when": "star_force",
 					"model": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/mega_man/item/remote_mine/star_force"
+						"model": "ssbrc:fighter/mega_man/item/remote_mine/model/star_force"
 					}
 				},
 				{
@@ -39,7 +39,7 @@
 			],
 			"fallback": {
 				"type": "minecraft:model",
-				"model": "ssbrc:fighter/mega_man/item/remote_mine/default"
+				"model": "ssbrc:fighter/mega_man/item/remote_mine/model/default"
 			}
 		}
 	},

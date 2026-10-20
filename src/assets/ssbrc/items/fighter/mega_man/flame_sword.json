@@ -6,21 +6,8 @@
 			{
 				"when": "x",
 				"model": {
-					"type": "minecraft:select",
-					"property": "minecraft:display_context",
-					"cases": [
-						{
-							"when": "gui",
-							"model": {
-								"type": "minecraft:model",
-								"model": "ssbrc:fighter/mega_man/misc/flame_sword/x"
-							}
-						}
-					],
-					"fallback": {
-						"type": "minecraft:model",
-						"model": "ssbrc:fighter/mega_man/item/flame_sword/x"
-					}
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/mega_man/item/flame_sword/x"
 				}
 			},
 			{
@@ -33,34 +20,21 @@
 							"when": "gui",
 							"model": {
 								"type": "minecraft:model",
-								"model": "ssbrc:fighter/mega_man/misc/flame_sword/star_force"
+								"model": "ssbrc:fighter/mega_man/item/flame_sword/default/icon"
 							}
 						}
 					],
 					"fallback": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/mega_man/item/flame_sword/star_force"
+						"model": "ssbrc:fighter/mega_man/item/flame_sword/star_force/model"
 					}
 				}
 			},
 			{
 				"when": "bad_box_art",
 				"model": {
-					"type": "minecraft:select",
-					"property": "minecraft:display_context",
-					"cases": [
-						{
-							"when": "gui",
-							"model": {
-								"type": "minecraft:model",
-								"model": "ssbrc:fighter/mega_man/misc/flame_sword/bad_box_art"
-							}
-						}
-					],
-					"fallback": {
-						"type": "minecraft:model",
-						"model": "ssbrc:fighter/mega_man/item/flame_sword/bad_box_art"
-					}
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/mega_man/item/mega_buster/bad_box_art"
 				}
 			}
 		],
@@ -72,13 +46,13 @@
 					"when": "gui",
 					"model": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/mega_man/misc/flame_sword/default"
+						"model": "ssbrc:fighter/mega_man/item/flame_sword/default/icon"
 					}
 				}
 			],
 			"fallback": {
 				"type": "minecraft:model",
-				"model": "ssbrc:fighter/mega_man/item/flame_sword/default"
+				"model": "ssbrc:fighter/mega_man/item/flame_sword/default/model"
 			}
 		}
 	},

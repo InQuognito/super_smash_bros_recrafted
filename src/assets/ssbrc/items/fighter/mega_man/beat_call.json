@@ -14,7 +14,7 @@
 				"when": "x",
 				"model": {
 					"type": "minecraft:model",
-					"model": "ssbrc:fighter/mega_man/item/beat_call/default"
+					"model": "ssbrc:fighter/mega_man/item/mega_buster/x/model"
 				}
 			},
 			{

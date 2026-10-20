@@ -17,14 +17,10 @@
 							}
 						},
 						{
-							"when": "firstperson_lefthand",
-							"model": {
-								"type": "minecraft:model",
-								"model": "ssbrc:fighter/king_k_rool/item/boxing_glove/gold/model/left"
-							}
-						},
-						{
-							"when": "thirdperson_lefthand",
+							"when": [
+								"firstperson_lefthand",
+								"thirdperson_lefthand"
+							],
 							"model": {
 								"type": "minecraft:model",
 								"model": "ssbrc:fighter/king_k_rool/item/boxing_glove/gold/model/left"
@@ -57,14 +53,10 @@
 					}
 				},
 				{
-					"when": "firstperson_lefthand",
-					"model": {
-						"type": "minecraft:model",
-						"model": "ssbrc:fighter/king_k_rool/item/boxing_glove/default/model/left"
-					}
-				},
-				{
-					"when": "thirdperson_lefthand",
+					"when": [
+						"firstperson_lefthand",
+						"thirdperson_lefthand"
+					],
 					"model": {
 						"type": "minecraft:model",
 						"model": "ssbrc:fighter/king_k_rool/item/boxing_glove/default/model/left"
