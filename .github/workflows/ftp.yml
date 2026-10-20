@@ -46,19 +46,14 @@ jobs:
       - name: Build Beet
         run: beet build
 
-      - name: Optimize Resource Pack
-        uses: ComunidadAylas/PackSquash-action@v4
-        with:
-          packsquash_version: latest
-          options: |
-            pack_directory = 'build/super_smash_bros_re_crafted_resource_pack'
-            output_file_path = 'build/ssbrc-optimized.zip'
-
       - name: Upload Resourcepack
         uses: actions/upload-artifact@v7
         with:
           name: ssbrc-latest
-          path: build/ssbrc-optimized.zip
+          path: |
+            build/super_smash_bros_re_crafted_resource_pack/assets/
+            build/super_smash_bros_re_crafted_resource_pack/pack.mcmeta
+            build/super_smash_bros_re_crafted_resource_pack/pack.png
 
       - name: Send message to server
         env:
