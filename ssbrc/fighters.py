@@ -1071,7 +1071,7 @@ fighters = {
 				'group': 'arm_cannon',
 				'stats': {
 					'attack_damage': 5,
-					'attack_speed': 0.25,
+					'attack_speed': 0.6,
 					'cooldown_group': 'samus/power_beam',
 					'cooldown': 0.2
 				},
@@ -1085,7 +1085,7 @@ fighters = {
 				'group': 'arm_cannon',
 				'stats': {
 					'attack_damage': 5,
-					'attack_speed': 0.25,
+					'attack_speed': 0.6,
 					'cooldown_group': 'samus/plasma_beam',
 					'cooldown': 1.5
 				},
@@ -1099,7 +1099,7 @@ fighters = {
 				'group': 'arm_cannon',
 				'stats': {
 					'attack_damage': 5,
-					'attack_speed': 0.25,
+					'attack_speed': 0.6,
 					'cooldown_group': 'samus/wave_beam',
 					'cooldown': 1
 				},
