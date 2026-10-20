@@ -332,7 +332,7 @@ fighters = {
 					'max_damage': 1,
 					'attack_damage': 60,
 					'attack_speed': 1,
-					'item_damage_on_attack': 1
+					'item_damage_per_attack': 1
 				},
 				'default': {
 					'name': 'ssbrc.fighter.donkey_kong.barrel',
@@ -346,7 +346,7 @@ fighters = {
 					'max_damage': 1,
 					'attack_damage': 0,
 					'attack_speed': 1,
-					'item_damage_on_attack': 1
+					'item_damage_per_attack': 1
 				},
 				'default': {
 					'name': 'ssbrc.fighter.donkey_kong.tnt_barrel',
@@ -2436,7 +2436,7 @@ fighters = {
 					'attack_damage': 40,
 					'attack_speed': 1,
 					'max_reach': 3.5,
-					'item_damage_on_attack': 1,
+					'item_damage_per_attack': 1,
 					'attack_animation': 'stab',
 					'startup_ticks': 10,
 					'cooldown_ticks': 20
@@ -2455,7 +2455,7 @@ fighters = {
 					'attack_damage': 90,
 					'attack_speed': 0.5,
 					'max_reach': 2.8,
-					'item_damage_on_attack': 1
+					'item_damage_per_attack': 1
 				},
 				'default': {
 					'name': 'ssbrc.fighter.byleth.aymr',

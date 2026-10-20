@@ -64,7 +64,7 @@ def extend_weapon(data, path):
 	data['min_reach'] = init_stat('min_reach', path, 0)
 	data['max_reach'] = init_stat('max_reach', path, 3)
 	data['hitbox_margin'] = init_stat('hitbox_margin', path, 0.3)
-	data['item_damage_on_attack'] = init_stat('item_damage_on_attack', path, 0)
+	data['item_damage_per_attack'] = init_stat('item_damage_per_attack', path, 0)
 	data['disable_blocking_for_seconds'] = init_stat('disable_blocking_for_seconds', path, 0)
 	data['attack_animation'] = init_stat('attack_animation', path, "whack")
 	data['swing_duration'] = init_stat('swing_duration', path, 6)

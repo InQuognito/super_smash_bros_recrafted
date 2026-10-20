@@ -83,7 +83,7 @@ $item replace entity @s $(slot) with minecraft:shield[ \
 		speed_multiplier: .33, \
 	}, \
 	minecraft:weapon = { \
-		item_damage_on_attack: $(item_damage_on_attack), \
+		item_damage_per_attack: $(item_damage_per_attack), \
 		disable_blocking_for_seconds: $(disable_blocking_for_seconds), \
 	}, \
 ]
