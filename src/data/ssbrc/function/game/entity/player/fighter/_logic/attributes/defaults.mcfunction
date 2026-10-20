@@ -8,7 +8,7 @@ $execute store result score @s double_jump_strength run data get storage ssbrc:d
 
 attribute @s minecraft:attack_damage base set 1
 
-attribute @s minecraft:attack_speed base set 1
+attribute @s minecraft:attack_speed base set 0
 
 attribute @s minecraft:fall_damage_multiplier base set 2
 

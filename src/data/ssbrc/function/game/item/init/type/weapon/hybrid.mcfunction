@@ -16,7 +16,7 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 			type: "minecraft:attack_speed", \
 			id: "ssbrc:attack_speed", \
 			amount: $(attack_speed), \
-			operation: "add_multiplied_base", \
+			operation: "add_value", \
 			slot: "mainhand", \
 		}, \
 		{ \
