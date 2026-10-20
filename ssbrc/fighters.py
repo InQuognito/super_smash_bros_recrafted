@@ -373,7 +373,7 @@ fighters = {
 		'stats': {
 			'armor': 16,
 			'jump_strength': 'low',
-			'max_health': 200,
+			'max_health': 250,
 			'movement_speed': -0.15,
 			'safe_fall_distance': 'medium',
 			'weight': 'medium'
