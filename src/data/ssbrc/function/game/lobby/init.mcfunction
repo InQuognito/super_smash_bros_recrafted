@@ -1,5 +1,6 @@
 fillbiome -50 -50 -50 50 50 50 ssbrc:smash_plaza
 
+time set 0
 #time of ssbrc:smash_plaza set 0
 #time of ssbrc:smash_plaza resume
 
