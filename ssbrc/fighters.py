@@ -677,8 +677,9 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 0.75,
-					'min_reach': 2,
+					'attack_speed': 0.6,
+					'min_reach': 2.5,
+					'max_reach': 3.5,
 					'hitbox_margin': 1
 				},
 				'default': {
