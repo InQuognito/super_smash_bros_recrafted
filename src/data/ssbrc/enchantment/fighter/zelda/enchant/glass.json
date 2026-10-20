@@ -74,32 +74,6 @@
 						}
 					]
 				}
-			},
-			{
-				"enchanted": "attacker",
-				"affected": "attacker",
-				"effect": {
-					"type": "minecraft:change_item_damage",
-					"amount": -1
-				},
-				"requirements": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"mainhand": {
-								"predicates": {
-									"minecraft:enchantments": [
-										{
-											"enchantments": "ssbrc:fighter/zelda/enchant/glass",
-											"levels": 1
-										}
-									]
-								}
-							}
-						}
-					}
-				}
 			}
 		],
 		"minecraft:tick": [

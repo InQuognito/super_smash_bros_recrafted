@@ -664,6 +664,7 @@ fighters = {
 			'zelda_dagger': {
 				'type': 'weapon',
 				'stats': {
+					'max_damage': 10,
 					'attack_damage': 20,
 					'attack_speed': 2.5,
 					'max_reach': 2.5
@@ -676,6 +677,7 @@ fighters = {
 			'zelda_flail': {
 				'type': 'weapon',
 				'stats': {
+					'max_damage': 4,
 					'attack_damage': 50,
 					'attack_speed': 0.6,
 					'min_reach': 2.5,
@@ -690,6 +692,7 @@ fighters = {
 			'zelda_rapier': {
 				'type': 'weapon',
 				'stats': {
+					'max_damage': 6,
 					'attack_damage': 40,
 					'attack_speed': 1
 				},
@@ -701,8 +704,14 @@ fighters = {
 			'zelda_spear': {
 				'type': 'spear',
 				'stats': {
+					'max_damage': 8,
+					'can_sprint': True,
+					'speed_multiplier': 1.1,
 					'attack_damage': 50,
 					'attack_speed': 0.7,
+					'attack_animation': 'stab',
+					'startup_ticks': 10,
+					'cooldown_ticks': 10
 				},
 				'default': {
 					'name': 'ssbrc.fighter.zelda.weapon.spear.default',
