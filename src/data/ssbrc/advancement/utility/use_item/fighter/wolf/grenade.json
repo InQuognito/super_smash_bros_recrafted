@@ -13,7 +13,14 @@
 							"entity": "this",
 							"scores": {
 								"charge": {
-									"min": 60
+									"min": {
+										"type": "minecraft:score",
+										"target": {
+											"type": "minecraft:fixed",
+											"name": "#wolf.grenade"
+										},
+										"score": "const"
+									}
 								}
 							}
 						}

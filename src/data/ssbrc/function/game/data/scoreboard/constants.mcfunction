@@ -130,6 +130,8 @@ scoreboard players set #snake.cardboard_box.weight const 1
 scoreboard players set #snake.cardboard_box.scavenger const 2
 scoreboard players set #snake.supply_marker.weight const 5
 
+scoreboard players set #wolf.grenade const 70
+
 scoreboard players set #yar.drone.health.cushion const 1024
 scoreboard players operation #yar.drone.health.threshold const = #yar.drone.health.cushion const
 scoreboard players operation #yar.drone.health.threshold const -= #20 const
