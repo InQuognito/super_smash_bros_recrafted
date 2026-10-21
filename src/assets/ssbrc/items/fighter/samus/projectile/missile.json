@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "ssbrc:fighter/samus/item/missile/model"
+	},
+	"hand_animation_on_swap": false
+}

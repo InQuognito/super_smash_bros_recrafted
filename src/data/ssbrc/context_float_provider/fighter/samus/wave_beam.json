@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:add",
+	"inputs": [
+		5,
+		{
+			"type": "minecraft:mul",
+			"inputs": [
+				5,
+				{
+					"type": "minecraft:cos",
+					"input": {
+						"type": "minecraft:from_int",
+						"input": {
+							"type": "minecraft:score",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "#in"
+							},
+							"score": "temp"
+						}
+					}
+				}
+			]
+		}
+	]
+}

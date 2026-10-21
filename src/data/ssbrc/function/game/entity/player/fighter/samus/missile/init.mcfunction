@@ -1,6 +1,6 @@
 tag @s add missile
 
-item replace entity @s contents with minecraft:stick[minecraft:item_model="ssbrc:fighter/samus/item/missile"]
+item replace entity @s contents with minecraft:stick[minecraft:item_model="ssbrc:fighter/samus/projectile/missile"]
 
 data merge entity @s {teleport_duration: 1}
 
