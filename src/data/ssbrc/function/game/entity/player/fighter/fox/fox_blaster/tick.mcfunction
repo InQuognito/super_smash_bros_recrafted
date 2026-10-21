@@ -1,4 +1,4 @@
-scoreboard players set #n temp 4
+scoreboard players set #n temp 8
 function ssbrc:game/entity/player/fighter/fox/fox_blaster/move_forward
 
 scoreboard players add @s temp 1

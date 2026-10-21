@@ -1385,7 +1385,7 @@ fighters = {
 				'type': 'ability',
 				'stats': {
 					'cooldown_group': 'fox/projectile',
-					'cooldown': 0.5
+					'cooldown': 0.2
 				},
 				'default': {
 					'name': 'ssbrc.fighter.star_fox.blaster',
@@ -1457,11 +1457,8 @@ fighters = {
 		],
 		'items': {
 			'grenade': {
-				'type': 'ability',
+				'type': 'bow',
 				'stats': {
-					'use_duration': 4,
-					'cooldown_group': 'wolf/grenade',
-					'cooldown': 1
 				},
 				'default': {
 					'name': 'ssbrc.fighter.wolf.grenade',
