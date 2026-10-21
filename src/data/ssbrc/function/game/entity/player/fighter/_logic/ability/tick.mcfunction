@@ -143,7 +143,7 @@ execute if entity @s[tag=ashura_senku.trail] run return run function ssbrc:game/
 
 # Samus
 execute if entity @s[tag=power_beam] run return run function ssbrc:game/entity/player/fighter/samus/power_beam/tick
-execute if entity @s[tag=wave_beam] run return run function ssbrc:game/entity/player/fighter/samus/wave_beam/raycast/start
+execute if entity @s[tag=wave_beam] run return run function ssbrc:game/entity/player/fighter/samus/wave_beam/tick
 execute if entity @s[tag=plasma_beam] run return run function ssbrc:game/entity/player/fighter/samus/plasma_beam/tick
 execute if entity @s[tag=missile] run return run function ssbrc:game/entity/player/fighter/samus/missile/tick
 
