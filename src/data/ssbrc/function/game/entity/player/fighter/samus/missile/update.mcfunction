@@ -5,6 +5,6 @@ function ssbrc:game/entity/player/fighter/_logic/hud/type/display { \
 	], \
 	source: "@s", \
 	objective: "resource", \
-	path: "ui/icons/rupee", \
-	color: "red", \
+	path: "fighter/samus/item/missile/icon", \
+	color: "white", \
 }

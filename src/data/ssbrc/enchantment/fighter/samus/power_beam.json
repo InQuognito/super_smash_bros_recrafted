@@ -71,18 +71,27 @@
 			},
 			{
 				"effect": {
-					"type": "minecraft:apply_impulse",
-					"coordinate_scale": [
-						1,
-						0,
-						1
-					],
-					"direction": [
-						0,
-						0.25,
-						1
-					],
-					"magnitude": 0.5
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:run_function",
+							"function": "ssbrc:game/entity/player/fighter/samus/melee_counter/launch"
+						},
+						{
+							"type": "minecraft:apply_impulse",
+							"coordinate_scale": [
+								1,
+								0,
+								1
+							],
+							"direction": [
+								0,
+								0.25,
+								1
+							],
+							"magnitude": 1
+						}
+					]
 				},
 				"requirements": {
 					"type": "minecraft:all_of",
