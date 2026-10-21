@@ -1,6 +1,6 @@
 rotate @s ~ ~
 
-execute rotated as @s positioned 0. 0. 0. run teleport @s ^ ^ ^1
+execute rotated as @s positioned 0. 0. 0. run teleport @s ^ ^ ^1.25
 
 data modify storage ssbrc:temp cache.motion set from entity @s Pos
 
