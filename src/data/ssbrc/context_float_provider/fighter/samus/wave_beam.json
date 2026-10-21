@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:add",
 	"inputs": [
-		5,
+		6,
 		{
 			"type": "minecraft:mul",
 			"inputs": [

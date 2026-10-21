@@ -23,7 +23,7 @@
 					"entity": "this",
 					"scores": {
 						"duration.1": {
-							"min": 15
+							"min": 10
 						}
 					}
 				},
