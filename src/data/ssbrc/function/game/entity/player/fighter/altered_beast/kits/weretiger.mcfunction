@@ -2,7 +2,7 @@ function ssbrc:game/entity/player/fighter/altered_beast/kits/update {form: "were
 
 attribute @s minecraft:safe_fall_distance modifier add ssbrc:form 9 add_multiplied_base
 
-effect give @s minecraft:resistance 2 3 true
+scoreboard players add @s absorption 40
 
 function ssbrc:game/item/init/slot {item: "tiger_claw", slot: "hotbar.0", class: "weapon", type: "default"}
 

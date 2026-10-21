@@ -1,7 +1,7 @@
 function ssbrc:game/entity/player/fighter/altered_beast/kits/update {form: "werebear"}
 
-attribute @s minecraft:armor base set 14
-attribute @s minecraft:jump_strength base set .5
+attribute @s minecraft:armor modifier add ssbrc:form 4 add_value
+attribute @s minecraft:jump_strength modifier add ssbrc:form -.25 add_multiplied_base
 
 function ssbrc:game/item/init/slot {item: "bear_claw", slot: "hotbar.0", class: "weapon", type: "default"}
 
