@@ -1,4 +1,4 @@
-teleport @s ~ ~ ~ ~ ~
+rotate @s ~ ~
 
 $execute rotated as @s positioned 0. 0. 0. run teleport @s ^ ^ ^$(value)
 
