@@ -95,17 +95,38 @@
 				},
 				"requirements": {
 					"type": "minecraft:all_of",
-					"terms": {
-						"type": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"minecraft:type_specific/player": {
-								"input": {
-									"forward": true
+					"terms": [
+						{
+							"type": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"minecraft:flags": {
+									"is_on_ground": true
+								}
+							}
+						},
+						{
+							"type": "minecraft:inverted",
+							"term": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"vehicle": {}
+								}
+							}
+						},
+						{
+							"type": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"minecraft:type_specific/player": {
+									"input": {
+										"forward": true
+									}
 								}
 							}
 						}
-					}
+					]
 				}
 			}
 		]
