@@ -1,13 +1,14 @@
 from ssbrc.series import series
 
 for item in series:
+	type = series[item]['type']
 	color = series[item]['color']
 	item_modifier f'ssbrc:series/{item}' {
 		"type": "minecraft:set_lore",
 		"entity": "this",
 		"lore": [
 			{
-				"translate": f'ssbrc.series.{item}',
+				"translate": f'ssbrc.{type}.{item}',
 				"color": color,
 				"bold": false,
 				"italic": false
