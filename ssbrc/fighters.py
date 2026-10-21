@@ -44,7 +44,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 60,
-					'attack_speed': 0.5,
+					'attack_speed': 1.5,
 					'disable_blocking_for_seconds': 5.0
 				},
 				'default': {
@@ -114,7 +114,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 1,
+					'attack_speed': 2,
 					'disable_blocking_for_seconds': 5.0
 				},
 				'default': {
@@ -178,7 +178,7 @@ fighters = {
 				'type': 'custom_swing',
 				'stats': {
 					'attack_damage': 60,
-					'attack_speed': 0.25,
+					'attack_speed': 1.25,
 					'minimum_attack_charge': 0.75
 				},
 				'default': {
@@ -193,7 +193,7 @@ fighters = {
 				'type': 'custom_swing',
 				'stats': {
 					'attack_damage': 40,
-					'attack_speed': 0.75,
+					'attack_speed': 1.75,
 					'minimum_attack_charge': 0.75
 				},
 				'default': {
@@ -208,7 +208,7 @@ fighters = {
 				'type': 'custom_swing',
 				'stats': {
 					'attack_damage': 20,
-					'attack_speed': 1.5,
+					'attack_speed': 2.5,
 					'minimum_attack_charge': 0.75
 				},
 				'default': {
@@ -271,7 +271,7 @@ fighters = {
 				'stats': {
 					'speed_multiplier': 0.5,
 					'attack_damage': 80,
-					'attack_speed': 1
+					'attack_speed': 2
 				},
 				'default': {
 					'name': 'ssbrc.fighter.bowser.koopa_klaw',
@@ -318,7 +318,7 @@ fighters = {
 				'stats': {
 					'speed_multiplier': 0,
 					'attack_damage': 50,
-					'attack_speed': 0.75
+					'attack_speed': 1.75
 				},
 				'default': {
 					'name': 'ssbrc.fighter.donkey_kong.banana_slamma',
@@ -331,7 +331,7 @@ fighters = {
 				'stats': {
 					'max_damage': 1,
 					'attack_damage': 60,
-					'attack_speed': 1,
+					'attack_speed': 2,
 					'item_damage_per_attack': 1
 				},
 				'default': {
@@ -345,7 +345,7 @@ fighters = {
 				'stats': {
 					'max_damage': 1,
 					'attack_damage': 0,
-					'attack_speed': 1,
+					'attack_speed': 2,
 					'item_damage_per_attack': 1
 				},
 				'default': {
@@ -359,7 +359,7 @@ fighters = {
 				'stats': {
 					'max_damage': 2,
 					'attack_damage': 70,
-					'attack_speed': 0.5
+					'attack_speed': 1.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.donkey_kong.steel_keg',
@@ -407,7 +407,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 70,
-					'attack_speed': 0.75
+					'attack_speed': 1.75
 				},
 				'default': {
 					'name': 'ssbrc.fighter.king_k_rool.boxing_glove',
@@ -502,7 +502,7 @@ fighters = {
 				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 60,
-					'attack_speed': 2,
+					'attack_speed': 3,
 					'cooldown_group': 'link/master_sword',
 					'cooldown': 1
 				},
@@ -606,7 +606,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 60,
-					'attack_speed': 2
+					'attack_speed': 3
 				},
 				'default': {
 					'name': 'ssbrc.fighter.link.master_sword',
@@ -666,7 +666,7 @@ fighters = {
 				'stats': {
 					'max_damage': 10,
 					'attack_damage': 20,
-					'attack_speed': 2.5,
+					'attack_speed': 3.5,
 					'max_reach': 2.5
 				},
 				'default': {
@@ -679,7 +679,7 @@ fighters = {
 				'stats': {
 					'max_damage': 4,
 					'attack_damage': 50,
-					'attack_speed': 0.6,
+					'attack_speed': 1.6,
 					'min_reach': 2.5,
 					'max_reach': 3.5,
 					'hitbox_margin': 1
@@ -694,7 +694,7 @@ fighters = {
 				'stats': {
 					'max_damage': 6,
 					'attack_damage': 40,
-					'attack_speed': 1,
+					'attack_speed': 2,
 					'attack_animation': 'stab'
 				},
 				'default': {
@@ -709,7 +709,7 @@ fighters = {
 					'can_sprint': True,
 					'speed_multiplier': 1.1,
 					'attack_damage': 50,
-					'attack_speed': 0.7,
+					'attack_speed': 1.7,
 					'attack_animation': 'stab',
 					'startup_ticks': 10,
 					'cooldown_ticks': 10
@@ -972,7 +972,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 80,
-					'attack_speed': 0.3
+					'attack_speed': 1.3
 				},
 				'default': {
 					'name': 'ssbrc.fighter.ganondorf.sword.default',
@@ -1071,7 +1071,7 @@ fighters = {
 				'group': 'arm_cannon',
 				'stats': {
 					'attack_damage': 5,
-					'attack_speed': 0.6,
+					'attack_speed': 1.6,
 					'cooldown_group': 'samus/power_beam',
 					'cooldown': 0.2
 				},
@@ -1085,7 +1085,7 @@ fighters = {
 				'group': 'arm_cannon',
 				'stats': {
 					'attack_damage': 5,
-					'attack_speed': 0.6,
+					'attack_speed': 1.6,
 					'cooldown_group': 'samus/plasma_beam',
 					'cooldown': 1.5
 				},
@@ -1099,7 +1099,7 @@ fighters = {
 				'group': 'arm_cannon',
 				'stats': {
 					'attack_damage': 5,
-					'attack_speed': 0.6,
+					'attack_speed': 1.6,
 					'cooldown_group': 'samus/wave_beam',
 					'cooldown': 1
 				},
@@ -1144,7 +1144,7 @@ fighters = {
 				'type': 'custom_swing_bow',
 				'stats': {
 					'attack_damage': 0,
-					'attack_speed': 0.5,
+					'attack_speed': 1.5,
 					'max_reach': 0,
 					'attack_animation': 'none',
 					'use_sound': 'fighter.dark_samus.phazon_beam.activate.1'
@@ -1236,7 +1236,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 60,
-					'attack_speed': 1,
+					'attack_speed': 2,
 					'disable_blocking_for_seconds': 5
 				},
 				'default': {
@@ -1251,7 +1251,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 2
+					'attack_speed': 3
 				},
 				'default': {
 					'name': 'ssbrc.fighter.kirby.katana',
@@ -1265,7 +1265,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 40,
-					'attack_speed': 3
+					'attack_speed': 4
 				},
 				'default': {
 					'name': 'ssbrc.fighter.kirby.tornado',
@@ -1338,7 +1338,7 @@ fighters = {
 				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 40,
-					'attack_speed': 1,
+					'attack_speed': 2,
 					'cooldown_group': 'gooey/love_love_stick',
 					'cooldown': 0.75
 				},
@@ -1399,7 +1399,7 @@ fighters = {
 				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 3,
+					'attack_speed': 4,
 					'cooldown_group': 'fox/projectile',
 					'cooldown': 1.5
 				},
@@ -1472,7 +1472,7 @@ fighters = {
 				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 1.5,
+					'attack_speed': 2.5,
 					'damage': {
 						'type': 'generic',
 						'amount': 14
@@ -1563,7 +1563,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 70,
-					'attack_speed': 0.5
+					'attack_speed': 1.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.pokemon_trainer.bite',
@@ -1585,7 +1585,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 70,
-					'attack_speed': 0.5
+					'attack_speed': 1.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.pokemon_trainer.knock_off',
@@ -1620,7 +1620,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 70,
-					'attack_speed': 0.5
+					'attack_speed': 1.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.pokemon_trainer.rock_smash',
@@ -1693,7 +1693,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 60,
-					'attack_speed': 1
+					'attack_speed': 2
 				},
 				'default': {
 					'name': 'ssbrc.fighter.pokemon.mega_punch',
@@ -1766,7 +1766,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 60,
-					'attack_speed': 0.75,
+					'attack_speed': 1.75,
 					'disable_blocking_for_seconds': 5.0
 				},
 				'default': {
@@ -1870,7 +1870,7 @@ fighters = {
 				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 60,
-					'attack_speed': 2,
+					'attack_speed': 3,
 					'cooldown_group': 'lucario/force_palm',
 					'cooldown': 3
 				},
@@ -1921,7 +1921,7 @@ fighters = {
 				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 2,
+					'attack_speed': 3,
 					'cooldown_group': 'greninja/shadow_sneak',
 					'cooldown': 1
 				},
@@ -1974,7 +1974,7 @@ fighters = {
 				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 30,
-					'attack_speed': 3.5,
+					'attack_speed': 4.5,
 					'cooldown_group': 'team_rocket/scratch',
 					'cooldown': 2
 				},
@@ -1998,7 +1998,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 30,
-					'attack_speed': 2.5
+					'attack_speed': 3.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.team_rocket.poison_jab',
@@ -2031,7 +2031,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 3,
-					'attack_speed': 2.5
+					'attack_speed': 3.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.team_rocket.counter',
@@ -2096,7 +2096,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 60,
-					'attack_speed': 0.75
+					'attack_speed': 1.75
 				},
 				'default': {
 					'name': 'ssbrc.fighter.ness.mr_baseball_bat',
@@ -2163,7 +2163,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 70,
-					'attack_speed': 0.75
+					'attack_speed': 1.75
 				},
 				'default': {
 					'name': 'ssbrc.fighter.giegue.devastation_strike',
@@ -2230,7 +2230,7 @@ fighters = {
 				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 2.5,
+					'attack_speed': 3.5,
 					'cooldown_group': 'captain_falcon/fists_of_fury',
 					'cooldown': 1.5
 				},
@@ -2249,7 +2249,7 @@ fighters = {
 				'type': 'custom_hybrid',
 				'stats': {
 					'attack_damage': 200,
-					'attack_speed': 0.5,
+					'attack_speed': 1.5,
 					'max_reach': 0,
 					'hitbox_margin': 1,
 					'cooldown_group': 'captain_falcon/falcon_punch',
@@ -2317,7 +2317,7 @@ fighters = {
 				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 40,
-					'attack_speed': 1.5,
+					'attack_speed': 2.5,
 					'cooldown_group': 'ice_climbers/hammer',
 					'cooldown': 1.5
 				},
@@ -2384,7 +2384,7 @@ fighters = {
 				'type': 'hybrid_shield',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 1.5,
+					'attack_speed': 2.5,
 					'disable_cooldown_scale': 0.25,
 					'block_sound': 'minecraft:item.shield.block',
 					'disabled_sound': 'minecraft:item.shield.break',
@@ -2444,7 +2444,7 @@ fighters = {
 					'can_sprint': True,
 					'speed_multiplier': 1,
 					'attack_damage': 40,
-					'attack_speed': 1,
+					'attack_speed': 2,
 					'max_reach': 3.5,
 					'item_damage_per_attack': 1,
 					'attack_animation': 'stab',
@@ -2463,7 +2463,7 @@ fighters = {
 					'max_damage': 20,
 					'speed_multiplier': 0,
 					'attack_damage': 90,
-					'attack_speed': 0.5,
+					'attack_speed': 1.5,
 					'max_reach': 2.8,
 					'item_damage_per_attack': 1
 				},
@@ -2538,7 +2538,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 40,
-					'attack_speed': 1,
+					'attack_speed': 2,
 					'max_reach': 3.25,
 					'hitbox_margin': 0.5
 				},
@@ -2581,7 +2581,7 @@ fighters = {
 				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 1.5,
+					'attack_speed': 2.5,
 					'speed_multiplier': 0.5
 				},
 				'default': {
@@ -2665,7 +2665,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 40,
-					'attack_speed': 3
+					'attack_speed': 4
 				},
 				'default': {
 					'name': 'ssbrc.fighter.snake.cqc_knife',
@@ -2822,7 +2822,7 @@ fighters = {
 				'type': 'hybrid_shield',
 				'stats': {
 					'attack_damage': 60,
-					'attack_speed': 2.5,
+					'attack_speed': 3.5,
 					'block_sound': 'minecraft:item.shield.block',
 					'disabled_sound': 'minecraft:item.shield.break'
 				},
@@ -2898,7 +2898,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 10,
-					'attack_speed': 5,
+					'attack_speed': 4,
 					'max_reach': 2.5
 				},
 				'default': {
@@ -2942,7 +2942,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 10,
-					'attack_speed': 4,
+					'attack_speed': 3,
 					'max_reach': 2.5
 				},
 				'default': {
@@ -3019,7 +3019,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 60,
-					'attack_speed': 2
+					'attack_speed': 3
 				},
 				'default': {
 					'name': 'ssbrc.fighter.rob.robo_rotor',
@@ -3124,7 +3124,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 0.75
+					'attack_speed': 1.75
 				},
 				'default': {
 					'name': 'ssbrc.fighter.villager.axe',
@@ -3226,7 +3226,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 1.5
+					'attack_speed': 2.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.mega_man.flame_sword',
@@ -3295,7 +3295,7 @@ fighters = {
 				'type': 'custom_swing',
 				'stats': {
 					'attack_damage': 60,
-					'attack_speed': 0.5,
+					'attack_speed': 1.5,
 					'max_reach': 1.5,
 					'attack_animation': 'stab',
 					'use_sound': 'fighter.mega_man.pile_driver'
@@ -3357,7 +3357,7 @@ fighters = {
 				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 60,
-					'attack_speed': 2,
+					'attack_speed': 3,
 					'cooldown_group': 'ryu/hadouken',
 					'cooldown': 1
 				},
@@ -3410,7 +3410,7 @@ fighters = {
 				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 70,
-					'attack_speed': 1,
+					'attack_speed': 2,
 					'cooldown_group': 'cloud/buster_sword',
 					'cooldown': 1.5
 				},
@@ -3475,7 +3475,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 40,
-					'attack_speed': 2.5
+					'attack_speed': 3.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.alucard.sword.default',
@@ -3604,7 +3604,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 3
+					'attack_speed': 4
 				},
 				'default': {
 					'name': 'ssbrc.fighter.joker.rebel_knife',
@@ -3618,7 +3618,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 3
+					'attack_speed': 4
 				},
 				'default': {
 					'name': 'ssbrc.fighter.joker.rebel_knife.fire_boost',
@@ -3629,7 +3629,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 3
+					'attack_speed': 4
 				},
 				'default': {
 					'name': 'ssbrc.fighter.joker.rebel_knife.freeze_boost',
@@ -3694,7 +3694,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 40,
-					'attack_speed': 1.5
+					'attack_speed': 2.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.sword.default',
@@ -4184,7 +4184,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 55,
-					'attack_speed': 1.5
+					'attack_speed': 2.5
 				},
 				'default': {
 					'name': 'item.minecraft.wooden_sword',
@@ -4207,7 +4207,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 60,
-					'attack_speed': 1.5
+					'attack_speed': 2.5
 				},
 				'default': {
 					'name': 'item.minecraft.stone_sword',
@@ -4230,7 +4230,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 60,
-					'attack_speed': 2
+					'attack_speed': 3
 				},
 				'default': {
 					'name': 'item.minecraft.golden_sword',
@@ -4253,7 +4253,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 65,
-					'attack_speed': 1.5
+					'attack_speed': 2.5
 				},
 				'default': {
 					'name': 'item.minecraft.iron_sword',
@@ -4276,7 +4276,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 70,
-					'attack_speed': 1.5
+					'attack_speed': 2.5
 				},
 				'default': {
 					'name': 'item.minecraft.diamond_sword',
@@ -4299,7 +4299,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 90,
-					'attack_speed': 0.75
+					'attack_speed': 1.75
 				},
 				'default': {
 					'name': 'item.minecraft.netherite_axe',
@@ -4370,7 +4370,7 @@ fighters = {
 				'group': 'keyblade',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 1.5,
+					'attack_speed': 2.5,
 					'cooldown_group': 'sora/keyblade',
 					'cooldown': 0.2
 				},
@@ -4395,7 +4395,7 @@ fighters = {
 				'type': 'custom_hybrid',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 1.5,
+					'attack_speed': 2.5,
 					'max_reach': 0,
 					'attack_animation': 'none',
 					'cooldown_group': 'sora/keyblade',
@@ -4473,7 +4473,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 60,
-					'attack_speed': 1.5
+					'attack_speed': 2.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.shovel_knight.shovel_blade',
@@ -4596,7 +4596,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 80,
-					'attack_speed': 0.5,
+					'attack_speed': 1.5,
 					'disable_blocking_for_seconds': 5.0
 				},
 				'default': {
@@ -4608,7 +4608,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 60,
-					'attack_speed': 1
+					'attack_speed': 2
 				},
 				'default': {
 					'name': 'ssbrc.fighter.altered_beast.dragon_claw',
@@ -4633,7 +4633,7 @@ fighters = {
 				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 2,
+					'attack_speed': 3,
 					'cooldown_group': 'altered_beast/flame_hands',
 					'cooldown': 1
 				},
@@ -4646,7 +4646,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 60,
-					'attack_speed': 1,
+					'attack_speed': 2,
 					'disable_blocking_for_seconds': 5.0
 				},
 				'default': {
@@ -4694,7 +4694,7 @@ fighters = {
 				'type': 'custom_swing',
 				'stats': {
 					'attack_damage': 70,
-					'attack_speed': 0.5
+					'attack_speed': 1.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.altered_beast.tiger_claw',
@@ -4856,7 +4856,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 40,
-					'attack_speed': 1
+					'attack_speed': 2
 				},
 				'default': {
 					'name': 'ssbrc.fighter.yar.trionic_blade',
