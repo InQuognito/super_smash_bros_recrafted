@@ -12,4 +12,4 @@ function ssbrc:game/entity/player/fighter/mario/fireball/adjust_bounciness with 
 execute if predicate ssbrc:flag/grounded positioned ~ ~.5 ~ facing ~ ~-1 ~ run function ssbrc:game/entity/player/fighter/pikachu/thunder_jolt/particle
 
 scoreboard players add @s temp 1
-kill @s[scores={temp=20..}]
+kill @s[scores={temp=60..}]
