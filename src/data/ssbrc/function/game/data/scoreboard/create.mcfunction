@@ -91,6 +91,7 @@ scoreboard objectives add player_motion.timer dummy
 scoreboard objectives add point dummy
 scoreboard objectives add points dummy
 scoreboard objectives add poison dummy
+scoreboard objectives add poison_buildup dummy
 scoreboard objectives add popup_timer dummy
 scoreboard objectives add pos_x dummy
 scoreboard objectives add pos_y dummy
