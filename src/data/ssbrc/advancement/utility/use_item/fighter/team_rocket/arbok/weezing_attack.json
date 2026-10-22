@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/entity/player/fighter/team_rocket/arbok/smokescreen"
+		"function": "ssbrc:game/entity/player/fighter/team_rocket/arbok/smog"
 	}
 }
