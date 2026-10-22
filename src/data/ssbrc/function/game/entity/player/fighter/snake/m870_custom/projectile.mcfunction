@@ -1,5 +1,5 @@
-function ssbrc:game/entity/player/fighter/snake/m870_custom/offset/projectile {axis:"x"}
-function ssbrc:game/entity/player/fighter/snake/m870_custom/offset/projectile {axis:"y"}
+function ssbrc:game/entity/player/fighter/snake/m870_custom/offset/projectile {axis: "x"}
+function ssbrc:game/entity/player/fighter/snake/m870_custom/offset/projectile {axis: "y"}
 
 function ssbrc:game/entity/player/fighter/snake/m870_custom/start with storage ssbrc:temp cache.rotation
 

@@ -2020,7 +2020,7 @@ fighters = {
 					'cooldown': 0.25
 				},
 				'default': {
-					'name': 'ssbrc.fighter.team_rocket.weezing',
+					'name': 'ssbrc.fighter.team_rocket.weezing_move',
 					'color': 'light_purple'
 				}
 			},
@@ -2033,7 +2033,7 @@ fighters = {
 					'cooldown': 15
 				},
 				'default': {
-					'name': 'ssbrc.fighter.team_rocket.weezing',
+					'name': 'ssbrc.fighter.team_rocket.weezing_attack',
 					'color': 'light_purple'
 				}
 			},
@@ -2355,6 +2355,17 @@ fighters = {
 				},
 				'default': {
 					'name': 'ssbrc.fighter.ice_climbers.windstorm',
+					'color': 'green'
+				}
+			},
+			'swap_climber': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'ice_climbers/swap_climber',
+					'cooldown': 0.75
+				},
+				'default': {
+					'name': 'ssbrc.fighter.ice_climbers.swap_climber',
 					'color': 'green'
 				}
 			}

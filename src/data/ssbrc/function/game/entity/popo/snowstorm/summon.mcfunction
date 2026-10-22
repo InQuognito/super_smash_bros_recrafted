@@ -1,0 +1,1 @@
+$execute anchored eyes facing entity @e[predicate=ssbrc:target,distance=..6,predicate=!ssbrc:owner] eyes rotated ~$(x) ~$(y) positioned ^ ^ ^.5 summon minecraft:marker run function ssbrc:game/entity/player/fighter/ice_climbers/snowstorm/init

@@ -100,7 +100,6 @@ execute if entity @s[tag=drill_bomb] run return run function ssbrc:game/entity/p
 execute if entity @s[tag=hyper_bomb] run return run function ssbrc:game/entity/player/fighter/mega_man/hyper_bomb/tick
 execute if entity @s[tag=junk_shield] run return run function ssbrc:game/entity/player/fighter/mega_man/junk_shield/tick
 execute if entity @s[tag=metal_blade] run return run function ssbrc:game/entity/player/fighter/mega_man/metal_blade/tick
-execute if entity @s[tag=pile_driver] run return run function ssbrc:game/entity/player/fighter/mega_man/pile_driver/tick
 execute if entity @s[tag=remote_mine] run return run function ssbrc:game/entity/player/fighter/mega_man/remote_mine/tick
 
 # Ness

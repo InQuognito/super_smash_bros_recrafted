@@ -1,5 +1,5 @@
-function ssbrc:game/entity/player/fighter/sora/blizzard/blizzaga/offset {axis:"x"}
-function ssbrc:game/entity/player/fighter/sora/blizzard/blizzaga/offset {axis:"y"}
+function ssbrc:game/entity/player/fighter/sora/blizzard/blizzaga/offset {axis: "x"}
+function ssbrc:game/entity/player/fighter/sora/blizzard/blizzaga/offset {axis: "y"}
 
 function ssbrc:game/entity/player/fighter/sora/blizzard/blizzaga/start with storage ssbrc:temp cache.rotation
 
