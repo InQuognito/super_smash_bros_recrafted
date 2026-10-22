@@ -4,12 +4,6 @@ execute store result score @s motion_x run data get entity @s Motion[0] 10000
 execute store result score @s motion_y run data get entity @s Motion[1] 10000
 execute store result score @s motion_z run data get entity @s Motion[2] 10000
 
-execute if score @s damage matches 1.. run function ssbrc:game/entity/_logic/health/damage/loop
-
-scoreboard players operation #health temp = @s health
-scoreboard players operation #health temp *= #100 const
-scoreboard players operation #health temp /= #40 const
-
 # Crawl
 execute positioned ~ ~.601 ~ unless entity @s[dx=0] unless predicate ssbrc:flag/flying run function ssbrc:game/entity/player/fighter/_logic/crawl
 
