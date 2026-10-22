@@ -1,6 +1,6 @@
 function ssbrc:game/entity/player/fighter/_logic/ability/init
 
-execute as @e[type=minecraft:bee,tag=weezing,predicate=ssbrc:owner] at @s run function ssbrc:game/entity/weezing/commands/recall/weezing
+execute as @e[type=minecraft:bee,predicate=ssbrc:owner,distance=..64] if data entity @s data{id: "weezing"} at @s run function ssbrc:game/entity/weezing/commands/recall/weezing
 
 function ssbrc:game/item/modify { \
 	search_key: "item", \
