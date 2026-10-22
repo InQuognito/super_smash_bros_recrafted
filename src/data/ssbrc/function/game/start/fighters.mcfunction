@@ -13,6 +13,8 @@ scoreboard players set @s rotation 0
 scoreboard players set @s shadow.chaos_control 0
 scoreboard players set @s silenced 0
 
+scoreboard players operation #id_to_match temp = @s id
+
 function ssbrc:game/entity/player/fighter/_logic/attributes/defaults with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 function ssbrc:game/entity/player/fighter/_logic/kit with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
