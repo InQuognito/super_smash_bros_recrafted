@@ -6,7 +6,7 @@ attribute @s minecraft:scale base set 1.1
 
 data merge entity @s { \
 	data: { \
-		id: "weezing", \
+		id: "weezing_move", \
 		command: "null", \
 	}, \
 	NoAI: true, \
