@@ -1,4 +1,4 @@
-scoreboard players set @s health 250
+scoreboard players set @s health 400
 
 tag @s add cloaked
 

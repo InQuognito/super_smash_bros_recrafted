@@ -14,7 +14,7 @@
 					"predicates": {
 						"minecraft:custom_data": {
 							"item": "weezing",
-							"command":"stop"
+							"command": "stop"
 						}
 					}
 				}

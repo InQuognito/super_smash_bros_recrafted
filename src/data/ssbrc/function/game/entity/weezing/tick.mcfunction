@@ -1,3 +1,5 @@
+execute if data entity @s data{command: "self_destruct"} run return run function ssbrc:game/entity/weezing/self_destruct
+
 execute if score @s health matches ..5 run return run function ssbrc:game/entity/weezing/death
 
 execute if score @s health matches ..40 run particle minecraft:smoke ~ ~ ~ .2 .2 .2 .01 5 normal @a

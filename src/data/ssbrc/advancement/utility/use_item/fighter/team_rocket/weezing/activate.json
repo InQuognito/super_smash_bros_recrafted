@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/entity/weezing/commands/stop/activate"
+		"function": "ssbrc:game/entity/weezing/commands/activate/activate"
 	}
 }
