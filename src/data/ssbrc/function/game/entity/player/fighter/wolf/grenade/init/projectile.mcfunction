@@ -1,7 +1,7 @@
 tag @s add grenade
 
 item replace entity @s armor.head with minecraft:stick[ \
-	minecraft:item_model = "ssbrc:fighter/wolf/grenade/default", \
+	minecraft:item_model = "ssbrc:fighter/wolf/grenade", \
 ]
 
 attribute @s minecraft:air_drag_modifier base set .5
