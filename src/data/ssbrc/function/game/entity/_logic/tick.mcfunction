@@ -1,5 +1,7 @@
 scoreboard players operation #id_to_match temp = @s id
 
+execute if score @s damage matches 1.. run function ssbrc:game/entity/_logic/health/damage/loop
+
 scoreboard players remove @s[scores={cooldown.1=1..}] cooldown.1 1
 scoreboard players remove @s[scores={cooldown.2=1..}] cooldown.2 1
 scoreboard players remove @s[scores={cooldown.3=1..}] cooldown.3 1
