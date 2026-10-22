@@ -2013,11 +2013,24 @@ fighters = {
 					'color': 'light_purple'
 				}
 			},
-			'weezing': {
+			'weezing_move': {
 				'type': 'ability',
 				'stats': {
 					'cooldown_group': 'team_rocket/weezing',
 					'cooldown': 0.25
+				},
+				'default': {
+					'name': 'ssbrc.fighter.team_rocket.weezing',
+					'color': 'light_purple'
+				}
+			},
+			'weezing_attack': {
+				'type': 'custom_hybrid',
+				'stats': {
+					'max_reach': 0,
+					'attack_speed': 0.25,
+					'cooldown_group': 'weezing/smog',
+					'cooldown': 15
 				},
 				'default': {
 					'name': 'ssbrc.fighter.team_rocket.weezing',

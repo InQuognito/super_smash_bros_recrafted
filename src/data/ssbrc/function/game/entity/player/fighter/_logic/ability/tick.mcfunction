@@ -175,6 +175,8 @@ execute if entity @s[nbt={Item:{tag: {Tags:[steve.item]}}}] run return run funct
 
 # Team Rocket
 execute if entity @s[tag=acid] run return run function ssbrc:game/entity/player/fighter/team_rocket/arbok/acid/tick
+execute if entity @s[tag=smokescreen] run return run function ssbrc:game/entity/weezing/smokescreen/tick
+execute if entity @s[tag=smog] run return run function ssbrc:game/entity/weezing/smog/tick
 execute if entity @s[tag=payday] run return run function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/tick
 execute if entity @s[tag=payday.projectile] run return run function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/tick
 
