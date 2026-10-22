@@ -9,4 +9,4 @@ function ssbrc:game/item/modify { \
 	}, \
 }
 
-execute as @e[type=minecraft:bee,tag=weezing,predicate=ssbrc:owner] run data modify entity @s data.command set value "null"
+execute as @e[type=minecraft:bee,predicate=ssbrc:owner,distance=..64] if data entity @s data{id: "weezing"} run data modify entity @s data.command set value "null"

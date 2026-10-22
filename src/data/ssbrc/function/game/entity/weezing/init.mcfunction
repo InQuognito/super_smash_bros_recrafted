@@ -10,6 +10,7 @@ data merge entity @s { \
 		command: "null", \
 	}, \
 	NoAI: true, \
+	Silent: true, \
 }
 
 function ssbrc:game/entity/_logic/init/type/entity/living
