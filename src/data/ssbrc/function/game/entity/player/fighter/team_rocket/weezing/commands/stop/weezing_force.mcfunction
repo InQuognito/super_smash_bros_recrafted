@@ -1,3 +1,0 @@
-function ssbrc:game/entity/player/fighter/team_rocket/weezing/commands/stop/weezing
-
-execute as @a[predicate=ssbrc:owner,limit=1] run function ssbrc:game/entity/player/fighter/team_rocket/weezing/commands/stop/activate_force

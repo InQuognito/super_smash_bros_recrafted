@@ -12,7 +12,7 @@ item modify entity @s hotbar.2 { \
 	}, \
 }
 
-execute anchored eyes positioned ^ ^ ^-1 summon minecraft:bee run function ssbrc:game/entity/player/fighter/team_rocket/weezing/init
+execute anchored eyes positioned ^ ^ ^-1 summon minecraft:bee run function ssbrc:game/entity/weezing/init
 
 item modify entity @s armor.chest { \
 	type: "minecraft:sequence", \
