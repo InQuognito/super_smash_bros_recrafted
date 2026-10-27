@@ -14,9 +14,9 @@ $function ssbrc:game/item/modify { \
 
 function ssbrc:game/entity/player/fighter/lucario/aura/reset
 
-execute if score @s charge.1 matches 9 run return run function ssbrc:game/entity/player/fighter/lucario/aura/set {damage: .40, jump: .30}
-execute if score @s charge.1 matches 8 run return run function ssbrc:game/entity/player/fighter/lucario/aura/set {damage: .36, jump: .27}
-execute if score @s charge.1 matches 7 run return run function ssbrc:game/entity/player/fighter/lucario/aura/set {damage: .32, jump: .24}
+execute if score @s charge.1 matches 9 run return run function ssbrc:game/entity/player/fighter/lucario/aura/bone_rush {damage: .40, jump: .30}
+execute if score @s charge.1 matches 8 run return run function ssbrc:game/entity/player/fighter/lucario/aura/bone_rush {damage: .36, jump: .27}
+execute if score @s charge.1 matches 7 run return run function ssbrc:game/entity/player/fighter/lucario/aura/bone_rush {damage: .32, jump: .24}
 execute if score @s charge.1 matches 6 run return run function ssbrc:game/entity/player/fighter/lucario/aura/set {damage: .28, jump: .21}
 execute if score @s charge.1 matches 5 run return run function ssbrc:game/entity/player/fighter/lucario/aura/set {damage: .24, jump: .18}
 execute if score @s charge.1 matches 4 run return run function ssbrc:game/entity/player/fighter/lucario/aura/set {damage: .20, jump: .15}
