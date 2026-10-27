@@ -2815,10 +2815,12 @@ fighters = {
 				}
 			},
 			'c4': {
-				'type': 'ability',
+				'type': 'consumable',
 				'stats': {
 					'cooldown_group': 'raiden/c4',
-					'cooldown': 0.6
+					'cooldown': 0.6,
+					'max_stack_size': 64,
+					'count': 3
 				},
 				'default': {
 					'name': 'ssbrc.fighter.raiden.c4',
