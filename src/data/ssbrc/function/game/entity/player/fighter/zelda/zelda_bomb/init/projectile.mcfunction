@@ -1,4 +1,4 @@
-tag @s add bomb
+tag @s add zelda_bomb
 
 execute if items entity @a[predicate=ssbrc:owner,limit=1] container.* *[minecraft:custom_data~{item: "ring_of_blasting"}] run tag @s add blasting
 

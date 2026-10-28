@@ -1,4 +1,4 @@
-tag @s add zelda.boomerang
+tag @s add zelda_boomerang
 
 item replace entity @s contents with minecraft:stick[ \
 	minecraft:item_model = "ssbrc:fighter/zelda/zelda_boomerang", \
@@ -15,4 +15,4 @@ data merge entity @s { \
 	teleport_duration: 1, \
 }
 
-function ssbrc:game/entity/player/fighter/toon_link/boomerang/animation/1
+function ssbrc:game/entity/player/fighter/toon_link/toon_link_boomerang/animation/1

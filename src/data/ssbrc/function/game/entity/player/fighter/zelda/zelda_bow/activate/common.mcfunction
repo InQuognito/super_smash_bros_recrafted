@@ -1,4 +1,4 @@
-tag @s add bow
+tag @s add zelda_bow
 
 function ssbrc:game/entity/_logic/init/type/id
 

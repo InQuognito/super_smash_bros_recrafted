@@ -1,0 +1,4 @@
+function ssbrc:game/item/modify {search_key: "item", search_value: "drone", path: "ssbrc:fighter/yar/drone/activate"}
+
+execute as @n[type=minecraft:bee,tag=drone,predicate=ssbrc:owner] run function ssbrc:game/entity/yar_drone/store_health
+scoreboard players operation @s yar.drone.health = #cache temp

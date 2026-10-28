@@ -44,5 +44,11 @@
 				}
 			]
 		}
-	]
+	],
+	"modifier": {
+		"type": "minecraft:set_custom_data",
+		"tag": {
+			"group": "villager.item"
+		}
+	}
 }

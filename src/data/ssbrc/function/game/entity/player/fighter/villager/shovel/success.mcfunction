@@ -1,5 +1,5 @@
 scoreboard players add @s charge 1
-execute if score @s charge matches 40.. positioned ^ ^ ^-.5 run function ssbrc:game/entity/player/fighter/villager/shovel/spawn
+execute if score @s charge matches 40.. positioned ^ ^ ^-.5 run function ssbrc:game/entity/player/fighter/villager/shovel/item/spawn
 
 scoreboard players operation #cache temp = @s charge
 scoreboard players operation #cache temp %= #5 const

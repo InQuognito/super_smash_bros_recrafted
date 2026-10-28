@@ -170,7 +170,7 @@ execute if entity @s[tag=thundaza_bolt] run return run function ssbrc:game/entit
 execute if entity @s[tag=strike_raid] run return run function ssbrc:game/entity/player/fighter/sora/strike_raid/tick
 
 # Steve
-execute if entity @s[nbt={Item:{tag: {Tags:[steve.item]}}}] run return run function ssbrc:game/entity/player/fighter/steve/item/tick
+execute if items entity @s contents *[minecraft:custom_data~{group: "steve.item"}] run return run function ssbrc:game/entity/player/fighter/steve/item/tick
 
 # Team Rocket
 execute if entity @s[tag=acid] run return run function ssbrc:game/entity/player/fighter/team_rocket/arbok/acid/tick
@@ -184,7 +184,7 @@ execute if entity @s[tag=toon_link_boomerang] run return run function ssbrc:game
 
 # Villager
 execute if entity @s[tag=sapling] run return run function ssbrc:game/entity/player/fighter/villager/sapling/tick
-execute if entity @s[nbt={Item:{tag: {Tags:[villager.item]}}}] run return run function ssbrc:game/entity/player/fighter/steve/item/tick
+execute if items entity @s contents *[minecraft:custom_data~{group: "villager.item"}] run return run function ssbrc:game/entity/player/fighter/steve/item/tick
 
 # Wolf
 execute if entity @s[tag=wolf_blaster] run return run function ssbrc:game/entity/player/fighter/wolf/wolf_blaster/tick
@@ -194,13 +194,12 @@ execute if entity @s[tag=grenade] run return run function ssbrc:game/entity/play
 execute if entity @s[tag=ray_blaster] run return run function ssbrc:game/entity/player/fighter/yar/ray_blaster/tick
 execute if entity @s[tag=gatling_gun] run return run function ssbrc:game/entity/player/fighter/yar/gatling_gun/tick
 execute if entity @s[tag=missile_launcher] run return run function ssbrc:game/entity/player/fighter/yar/missile_launcher/tick
-execute if entity @s[tag=drone] run return run function ssbrc:game/entity/player/fighter/yar/drone/tick
-execute if entity @s[tag=drone.bullet] run return run function ssbrc:game/entity/player/fighter/yar/drone/projectile/tick
+execute if entity @s[tag=yar_drone.bullet] run return run function ssbrc:game/entity/yar_drone/projectile/tick
 
 # Zelda
-execute if entity @s[tag=bomb] run return run function ssbrc:game/entity/player/fighter/zelda/zelda_bomb/tick
-execute if entity @s[tag=zelda.boomerang] run return run function ssbrc:game/entity/player/fighter/zelda/zelda_boomerang/tick
-execute if entity @s[tag=bow] run return run function ssbrc:game/entity/player/fighter/zelda/zelda_bow/tick
+execute if entity @s[tag=zelda_bomb] run return run function ssbrc:game/entity/player/fighter/zelda/zelda_bomb/tick
+execute if entity @s[tag=zelda_boomerang] run return run function ssbrc:game/entity/player/fighter/zelda/zelda_boomerang/tick
+execute if entity @s[tag=zelda_bow] run return run function ssbrc:game/entity/player/fighter/zelda/zelda_bow/tick
 execute if entity @s[tag=fire_rod,tag=!pillar] run return run function ssbrc:game/entity/player/fighter/zelda/fire_rod/tick
 execute if entity @s[tag=fire_rod,tag=pillar,tag=!active] run return run function ssbrc:game/entity/player/fighter/zelda/fire_rod/alternate_function/tick
 execute if entity @s[tag=fire_rod,tag=pillar,tag=active] run return run function ssbrc:game/entity/player/fighter/zelda/fire_rod/alternate_function/tick_pillar
