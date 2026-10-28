@@ -1,1 +1,1 @@
-teleport @s ^ ^ ^.1 ~2.5 ~
+teleport @s ^ ^ ^.1 ~1 ~
