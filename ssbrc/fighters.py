@@ -4755,7 +4755,7 @@ fighters = {
 			'default'
 		],
 		'items': {
-			'drone': {
+			'yar_drone': {
 				'type': 'ability',
 				'stats': {
 					'cooldown_group': 'yar/drone',
