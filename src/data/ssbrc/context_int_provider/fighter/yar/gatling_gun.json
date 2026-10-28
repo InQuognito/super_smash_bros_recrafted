@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:max",
+	"inputs": [
+		1,
+		{
+			"type": "minecraft:sub",
+			"left": 15,
+			"right": {
+				"type": "minecraft:div",
+				"left": {
+					"type": "minecraft:score",
+					"target": "this",
+					"score": "charge"
+				},
+				"right": 10
+			}
+		}
+	]
+}
