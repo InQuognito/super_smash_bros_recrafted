@@ -4,8 +4,6 @@ function ssbrc:game/entity/player/fighter/_logic/ability/init
 execute if items entity @s[scores={fuse=1..}] container.* *[minecraft:custom_data~{item: "zelda_bomb"}] run function ssbrc:game/entity/player/fighter/zelda/zelda_bomb/fuse_tick
 
 # Passive Items
-execute if items entity @s[scores={health=70..}] container.* *[minecraft:custom_data~{item: "nayrus_ring"}] run effect clear @s minecraft:resistance
-
 execute if items entity @s container.* *[minecraft:custom_data~{item: "torch_of_wisdom"}] as @e[predicate=ssbrc:target,predicate=!ssbrc:team_match,tag=cloaked,distance=..10] run function ssbrc:game/entity/player/fighter/_logic/effects/glowing/uncloak
 
 # Rupees

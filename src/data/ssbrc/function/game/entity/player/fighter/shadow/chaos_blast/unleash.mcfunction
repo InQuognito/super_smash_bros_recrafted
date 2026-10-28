@@ -2,6 +2,8 @@ execute as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,distance=..2] run fu
 
 function ssbrc:game/entity/player/fighter/shadow/chaos_blast/shockwave/start
 
+attribute @s minecraft:armor modifier remove ssbrc:active
+
 tag @s remove chaos_boost
 clear @s *[minecraft:custom_data~{item: "chaos_control"}]
 scoreboard players set @s resource 0

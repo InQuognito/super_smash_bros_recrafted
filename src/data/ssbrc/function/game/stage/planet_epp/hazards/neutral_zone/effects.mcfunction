@@ -1,3 +1,1 @@
-execute if block ~ ~-.1 ~ #ssbrc:colored_terracotta run effect give @s minecraft:resistance infinite 255 true
-
-execute unless block ~ ~-.1 ~ #ssbrc:colored_terracotta run effect clear @s minecraft:resistance
+execute if block ~ ~-.1 ~ #ssbrc:colored_terracotta run function ssbrc:game/entity/player/fighter/_logic/effects/invincible/activate {duration: 1}

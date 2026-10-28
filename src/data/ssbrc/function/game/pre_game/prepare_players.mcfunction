@@ -1,6 +1,5 @@
 title @s actionbar ""
 
-effect clear @s minecraft:resistance
 effect clear @s minecraft:water_breathing
 
 tag @s remove stage_select

@@ -7,4 +7,4 @@ function ssbrc:game/entity/_logic/init/type/projectile/horizontal
 
 team join gold
 
-data merge entity @s {Glowing:1b}
+data merge entity @s {Glowing: true}

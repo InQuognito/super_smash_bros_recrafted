@@ -5,3 +5,5 @@ execute if score @s charge.1 matches 1.. anchored eyes positioned ^ ^ ^ run func
 execute if entity @s[scores={silenced=..0,cooldown.2=..0},predicate=ssbrc:flag/sneaking] run function ssbrc:game/entity/player/fighter/pokemon_trainer/squirtle/withdraw/charge
 
 execute if entity @s[scores={charge.2=1..},predicate=!ssbrc:flag/sneaking] run function ssbrc:game/entity/player/fighter/pokemon_trainer/squirtle/withdraw/reset
+
+attribute @s[scores={duration.1=1}] minecraft:armor modifier remove ssbrc:active

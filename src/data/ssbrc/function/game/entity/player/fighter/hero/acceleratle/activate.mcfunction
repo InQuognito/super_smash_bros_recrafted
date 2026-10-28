@@ -1,3 +1,4 @@
+function ssbrc:game/entity/player/fighter/hero/reset_active_spell
 tag @s add acceleratle
 scoreboard players set @s duration.1 200
 

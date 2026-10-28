@@ -16,7 +16,7 @@ execute if items entity @s[scores={health=400..}] armor.body *[minecraft:custom_
 
 execute if items entity @s[scores={duration.1=1..}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "ryu"}}}] run return 1
 
-execute if items entity @s[predicate=ssbrc:flag/effects/resistance] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "pokemon_trainer", form: "squirtle"}}}] run return 1
+execute if items entity @s[scores={duration.1=1..}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "pokemon_trainer", form: "squirtle"}}}] run return 1
 
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "sora", form: "valor"}}}] run return 1
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "sora", form: "wisdom"}}}] run return 1

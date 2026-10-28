@@ -7,7 +7,7 @@ execute as @e[type=minecraft:marker,tag=divine_pulse,predicate=ssbrc:owner,score
 
 scoreboard players set @s cooldown.1 2
 
-effect give @s minecraft:resistance infinite 255 true
+function ssbrc:game/entity/player/fighter/_logic/effects/invincible/activate {duration: 45}
 
 attribute @s minecraft:gravity modifier add ssbrc:zero -1 add_multiplied_total
 

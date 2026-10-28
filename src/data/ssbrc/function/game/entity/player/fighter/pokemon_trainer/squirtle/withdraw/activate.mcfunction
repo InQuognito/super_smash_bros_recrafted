@@ -2,6 +2,5 @@ function ssbrc:game/entity/player/fighter/pokemon_trainer/squirtle/withdraw/rese
 
 function ssbrc:game/entity/player/fighter/pokemon_trainer/squirtle/withdraw/particles/end
 
-effect give @s minecraft:resistance 30 0 true
-
-function ssbrc:game/item/cooldown/set/const {type: 2, value: 600}
+scoreboard players set @s duration.1 600
+attribute @s minecraft:armor modifier add ssbrc:active 8 add_value
