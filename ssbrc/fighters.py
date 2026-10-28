@@ -3627,7 +3627,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 4
+					'attack_speed': 2.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.joker.rebel_knife',
@@ -3641,7 +3641,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 4
+					'attack_speed': 2.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.joker.rebel_knife.fire_boost',
@@ -3652,7 +3652,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 4
+					'attack_speed': 2.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.joker.rebel_knife.freeze_boost',
