@@ -5,12 +5,22 @@ function ssbrc:game/stage/loop:
 		obj = f'$$(operation) with storage ssbrc:data stage.{stage}'
 		raw obj
 
-function ssbrc:game/stage/random:
+function ssbrc:game/stage/random/get:
 	obj = f'execute store result score #cache temp run random value 1..45'
 	raw obj
 
 	i = 1
 	for stage in stages:
 		obj = f'execute if score #cache temp matches {i} run return run data modify storage ssbrc:temp cache.output set value {stage}'
+		raw obj
+		i += 1
+
+function ssbrc:game/stage/random/stage_select:
+	obj = f'execute store result score #cache temp run random value 1..45'
+	raw obj
+
+	i = 1
+	for stage in stages:
+		obj = f'execute if score #cache temp matches {i} run return run data modify storage ssbrc:temp cache.stage_select.highest set value {stage}'
 		raw obj
 		i += 1
