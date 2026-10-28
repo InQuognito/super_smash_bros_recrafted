@@ -1,5 +1,7 @@
 function ssbrc:game/pre_game/stage_select/check_participation
 
+data modify storage ssbrc:temp cache.stage_select.tiebreaker set value []
 function ssbrc:game/stage/loop {operation: "function ssbrc:game/pre_game/stage_select/count_votes"}
+function ssbrc:game/pre_game/stage_select/count_votes {name: "random_stage"}
 
 $function $(function) with storage ssbrc:temp cache.stage_select
