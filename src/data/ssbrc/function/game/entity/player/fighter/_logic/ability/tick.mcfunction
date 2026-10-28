@@ -191,7 +191,7 @@ execute if entity @s[tag=wolf_blaster] run return run function ssbrc:game/entity
 execute if entity @s[tag=grenade] run return run function ssbrc:game/entity/player/fighter/wolf/grenade/tick
 
 # Yar
-execute if entity @s[tag=ray_blaster] run return run function ssbrc:game/entity/player/fighter/yar/ray_blaster/tick
+execute if data entity @s data{id: "ray_blaster"} run return run function ssbrc:game/entity/player/fighter/yar/ray_blaster/tick
 execute if entity @s[tag=gatling_gun] run return run function ssbrc:game/entity/player/fighter/yar/gatling_gun/tick
 execute if entity @s[tag=missile_launcher] run return run function ssbrc:game/entity/player/fighter/yar/missile_launcher/tick
 execute if entity @s[tag=yar_drone.bullet] run return run function ssbrc:game/entity/yar_drone/projectile/tick
