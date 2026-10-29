@@ -4,7 +4,7 @@ function ssbrc:game/entity/player/fighter/_logic/ability/init
 scoreboard players remove @s[scores={charge.2=1..}] charge.2 3
 
 # Drone
-execute if items entity @s[scores={cooldown.3=..0}] container.* *[minecraft:custom_data~{item: "yar_drone", command: "activate"}] if score @s yar.drone.health < #yar.drone.health const run function ssbrc:game/entity/yar_drone/repair
+execute if items entity @s container.* *[minecraft:custom_data~{item: "yar_drone", command: "activate"}] if score @s yar.drone.health < #yar.drone.health const run scoreboard players add @s yar.drone.health 1
 
 # Power Ups
 execute if score @s duration.1 matches 1 run function ssbrc:game/entity/player/fighter/yar/power_ups/reset

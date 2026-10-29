@@ -8,7 +8,16 @@
 					"type": "minecraft:all_of",
 					"terms": [
 						"ssbrc:cooldown/universal",
-						"ssbrc:flag/sneaking"
+						"ssbrc:flag/sneaking",
+						{
+							"type": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"cooldown.1": {
+									"max": 0
+								}
+							}
+						}
 					]
 				},
 				"item": {
