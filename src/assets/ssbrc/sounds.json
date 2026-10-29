@@ -3071,15 +3071,6 @@
 			}
 		]
 	},
-	"fighter.yar.ray_blaster.activate": {
-		"sounds": [
-			{
-				"name": "ssbrc:fighter/yar/ray_blaster/activate",
-				"stream": false,
-				"volume": 1.0
-			}
-		]
-	},
 	"fighter.yar.gatling_gun.activate": {
 		"sounds": [
 			{
@@ -3129,15 +3120,6 @@
 		"sounds": [
 			{
 				"name": "ssbrc:fighter/yar/railgun/charge",
-				"stream": false,
-				"volume": 1.0
-			}
-		]
-	},
-	"fighter.yar.triple_shot.activate": {
-		"sounds": [
-			{
-				"name": "ssbrc:fighter/yar/triple_shot/activate",
 				"stream": false,
 				"volume": 1.0
 			}
