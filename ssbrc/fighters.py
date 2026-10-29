@@ -3117,25 +3117,38 @@ fighters = {
 					'cooldown': 1
 				},
 				'default': {
-					'name': 'ssbrc.fighter.villager.watering_can',
-					'color': 'gray'
+					'name': 'ssbrc.fighter.villager.sapling',
+					'color': 'green'
+				}
+			},
+			'shovel': {
+				'type': 'bow',
+				'stats': {
+					'speed_multiplier': 0.8,
+				},
+				'default': {
+					'name': 'ssbrc.fighter.villager.shovel',
+					'color': 'dark_gray'
+				},
+				'gold': {
+					'color': 'gold'
 				}
 			},
 			'slingshot': {
 				'type': 'ability',
 				'stats': {
-					'cooldown_group': 'villager/watering_can',
+					'cooldown_group': 'villager/slingshot',
 					'cooldown': 1
 				},
 				'default': {
-					'name': 'ssbrc.fighter.villager.watering_can',
-					'color': 'gray'
+					'name': 'ssbrc.fighter.villager.slingshot',
+					'color': 'red'
 				}
 			},
 			'timmy': {
 				'type': 'ability',
 				'stats': {
-					'cooldown_group': 'villager/timmy',
+					'cooldown_group': 'villager/shop',
 					'cooldown': 1
 				},
 				'default': {
@@ -3143,11 +3156,22 @@ fighters = {
 					'color': 'gold'
 				}
 			},
+			'tommy': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'villager/shop',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.villager.tommy',
+					'color': 'gold'
+				}
+			},
 			'villager_axe': {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 1.75
+					'attack_speed': 1.25
 				},
 				'default': {
 					'name': 'ssbrc.fighter.villager.axe',
@@ -3166,6 +3190,9 @@ fighters = {
 				'default': {
 					'name': 'ssbrc.fighter.villager.watering_can',
 					'color': 'gray'
+				},
+				'gold': {
+					'color': 'gold'
 				}
 			}
 		}

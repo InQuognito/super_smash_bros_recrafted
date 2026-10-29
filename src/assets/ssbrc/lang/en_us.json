@@ -179,7 +179,7 @@
 	"ssbrc.stage_select.stage_index": "Stage Index",
 	"ssbrc.stage_select.votes": "Votes: ",
 	"ssbrc.stage_select.vote_stage": " has voted for ",
-	"ssbrc.stage_select.vote_random": "a random stage",
+	"ssbrc.stage.random_stage": "a random stage",
 	"ssbrc.stage_select.vote_stage.display": "! Votes: ",
 	"ssbrc.stage_select.votes_locked": "All players voted!",
 

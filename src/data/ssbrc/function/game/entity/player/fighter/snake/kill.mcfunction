@@ -1,3 +1,5 @@
+execute unless score #current_stocks temp matches 2.. run return fail
+
 execute store result score #random temp run random value 1..6
 
 execute if score #random temp matches 3 if entity @s[tag=m870_custom] run return run function ssbrc:game/entity/player/fighter/snake/scavenger/weapon {id: "1", item: "m870_custom"}
@@ -7,4 +9,4 @@ execute if score #random temp matches 4 if entity @s[tag=socom] run return run f
 execute if score #random temp matches 5 if entity @s[tag=claymore] run return run function ssbrc:game/entity/player/fighter/snake/scavenger/utility {item: "claymore"}
 execute if score #random temp matches 6 if entity @s[tag=smoke_grenade] run return run function ssbrc:game/entity/player/fighter/snake/scavenger/utility {item: "smoke_grenade"}
 
-function ssbrc:game/entity/player/fighter/snake/get_kill
+function ssbrc:game/entity/player/fighter/snake/kill

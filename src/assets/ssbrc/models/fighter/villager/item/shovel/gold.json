@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:template/item/default",
+	"textures": {
+		"layer0": "ssbrc:fighter/villager/item/shovel/gold"
+	}
+}
