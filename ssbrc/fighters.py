@@ -462,7 +462,7 @@ fighters = {
 			'hylian_shield': {
 				'type': 'shield',
 				'stats': {
-					'max_damage': 30,
+					'max_damage': 10,
 					'block_sound': 'minecraft:item.shield.block',
 					'disabled_sound': 'minecraft:item.shield.break'
 				},
@@ -565,7 +565,7 @@ fighters = {
 			'heros_shield': {
 				'type': 'shield',
 				'stats': {
-					'max_damage': 30,
+					'max_damage': 10,
 					'block_sound': 'minecraft:item.shield.block',
 					'disabled_sound': 'minecraft:item.shield.break'
 				},
@@ -857,7 +857,7 @@ fighters = {
 				'type': 'shield',
 				'group': 'passive_item',
 				'stats': {
-					'max_damage': 20,
+					'max_damage': 8,
 					'block_sound': 'minecraft:item.shield.block',
 					'disabled_sound': 'minecraft:item.shield.break'
 				},
@@ -2452,7 +2452,7 @@ fighters = {
 			'steel_shield': {
 				'type': 'shield',
 				'stats': {
-					'max_damage': 20,
+					'max_damage': 8,
 					'block_sound': 'minecraft:item.shield.block',
 					'disabled_sound': 'minecraft:item.shield.break'
 				},
@@ -3389,7 +3389,7 @@ fighters = {
 			'alucard_shield': {
 				'type': 'shield',
 				'stats': {
-					'max_damage': 20,
+					'max_damage': 8,
 					'block_sound': 'minecraft:item.shield.block',
 					'disabled_sound': 'minecraft:item.shield.break'
 				},
@@ -3638,7 +3638,7 @@ fighters = {
 			'hero_shield': {
 				'type': 'shield',
 				'stats': {
-					'max_damage': 30,
+					'max_damage': 10,
 					'block_sound': 'minecraft:item.shield.block',
 					'disabled_sound': 'minecraft:item.shield.break'
 				},
@@ -4234,7 +4234,7 @@ fighters = {
 			'steve_shield': {
 				'type': 'shield',
 				'stats': {
-					'max_damage': 10,
+					'max_damage': 4,
 					'block_sound': 'minecraft:item.shield.block',
 					'disabled_sound': 'minecraft:item.shield.break'
 				},
