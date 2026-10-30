@@ -43,6 +43,9 @@ tag @s remove hand_slap
 tag @s remove shadow_sneak
 
 # Hero
+tag @s remove accelerate
+tag @s remove acceleratle
+tag @s remove oomph
 tag @s remove kaclang
 tag @s remove magic_burst
 tag @s remove magic_lost
@@ -115,6 +118,13 @@ tag @s remove wisdom
 
 # Team Rocket
 tag @s remove destiny_bond
+
+# Ness
+tag @s remove villager.balloon_trip
+tag @s remove villager.lloyd_rocket
+tag @s remove villager.shovel
+tag @s remove villager.slingshot
+tag @s remove villager.watering_can
 
 # Zelda
 function ssbrc:game/entity/player/fighter/zelda/blessings/reset
