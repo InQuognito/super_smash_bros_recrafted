@@ -7,7 +7,7 @@ scoreboard players remove @s resource 500
 
 $tag @s add villager.$(item)
 
-$function ssbrc:game/item/give/default {item: "$(item)", class: "$(class)", type: "$(type)"}
+$function ssbrc:game/item/init/slot {item: "$(item)", slot: "weapon.mainhand", class: "$(class)", type: "$(type)"}
 
 $function ssbrc:game/entity/player/fighter/villager/$(item)/purchase
 

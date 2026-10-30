@@ -3110,6 +3110,17 @@ fighters = {
 					'color': 'yellow'
 				}
 			},
+			'lloyd_rocket': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'villager/lloyd_rocket',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.villager.lloyd_rocket',
+					'color': 'gold'
+				}
+			},
 			'sapling': {
 				'type': 'ability',
 				'stats': {
