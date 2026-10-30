@@ -4986,8 +4986,6 @@ def fighter_storage():
 
 	i = 0
 	for fighter, path in fighters.items():
-		armor_path = path['stats']['armor']
-		safe_fall_distance_path = path['stats']['safe_fall_distance']
 		skin_count = count_skins(fighter)
 
 		skin_data = {}
