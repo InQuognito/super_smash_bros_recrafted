@@ -6,10 +6,7 @@ fighters = {
 	'mario': {
 		'series': 'super_mario_bros',
 		'stats': {
-			'armor': 'low',
-			'jump_strength': 'high',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
+			'jump_strength': 'high'
 		},
 		'color': 'red',
 		'alignment': 'hero',
@@ -78,10 +75,7 @@ fighters = {
 	'luigi': {
 		'series': 'super_mario_bros',
 		'stats': {
-			'armor': 'low',
-			'jump_strength': 'high',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
+			'jump_strength': 'high'
 		},
 		'color': 'dark_green',
 		'alignment': 'hero',
@@ -147,11 +141,7 @@ fighters = {
 	},
 	'peach': {
 		'series': 'super_mario_bros',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'light_purple',
 		'alignment': 'hero',
 		'miiverse_posts': 1,
@@ -236,9 +226,7 @@ fighters = {
 		'series': 'super_mario_bros',
 		'stats': {
 			'armor': 'high',
-			'jump_strength': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'insane'
+			'jump_strength': 'low'
 		},
 		'color': 'green',
 		'alignment': 'villain',
@@ -286,10 +274,7 @@ fighters = {
 	'donkey_kong': {
 		'series': 'donkey_kong',
 		'stats': {
-			'armor': 'low',
-			'jump_strength': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
+			'jump_strength': 'low'
 		},
 		'color': 'gold',
 		'alignment': 'hero',
@@ -374,9 +359,7 @@ fighters = {
 			'armor': 16,
 			'jump_strength': 'low',
 			'max_health': 250,
-			'movement_speed': -0.15,
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
+			'movement_speed': -0.15
 		},
 		'color': 'dark_green',
 		'alignment': 'villain',
@@ -435,11 +418,7 @@ fighters = {
 	},
 	'link': {
 		'series': 'the_legend_of_zelda',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'blue',
 		'alignment': 'hero',
 		'miiverse_posts': 2,
@@ -532,11 +511,7 @@ fighters = {
 	},
 	'toon_link': {
 		'series': 'the_legend_of_zelda',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'green',
 		'alignment': 'hero',
 		'miiverse_posts': 1,
@@ -634,11 +609,7 @@ fighters = {
 	},
 	'zelda': {
 		'series': 'the_legend_of_zelda',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'blue',
 		'alignment': 'hero',
 		'miiverse_posts': 1,
@@ -942,9 +913,7 @@ fighters = {
 		'stats': {
 			'armor': 'medium',
 			'jump_strength': 'low',
-			'movement_speed': -0.25,
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
+			'movement_speed': -0.25
 		},
 		'color': 'red',
 		'alignment': 'villain',
@@ -1030,10 +999,7 @@ fighters = {
 	'samus': {
 		'series': 'metroid',
 		'stats': {
-			'armor': 'low',
-			'movement_speed': -0.1,
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
+			'movement_speed': -0.1
 		},
 		'color': 'gold',
 		'alignment': 'hero',
@@ -1113,10 +1079,7 @@ fighters = {
 	'dark_samus': {
 		'series': 'metroid',
 		'stats': {
-			'armor': 'low',
-			'movement_speed': -0.05,
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
+			'movement_speed': -0.05
 		},
 		'color': 'aqua',
 		'alignment': 'villain',
@@ -1177,8 +1140,7 @@ fighters = {
 		'series': 'kirby',
 		'stats': {
 			'armor': 'negligible',
-			'safe_fall_distance': 'infinite',
-			'weight': 'medium'
+			'safe_fall_distance': 'infinite'
 		},
 		'color': 'light_purple',
 		'alignment': 'hero',
@@ -1280,9 +1242,7 @@ fighters = {
 	'gooey': {
 		'series': 'kirby',
 		'stats': {
-			'armor': 'negligible',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
+			'armor': 'negligible'
 		},
 		'color': 'dark_blue',
 		'alignment': 'hero',
@@ -1351,11 +1311,7 @@ fighters = {
 	},
 	'fox': {
 		'series': 'star_fox',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'white',
 		'alignment': 'hero',
 		'miiverse_posts': 1,
@@ -1426,11 +1382,7 @@ fighters = {
 	},
 	'wolf': {
 		'series': 'star_fox',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'dark_purple',
 		'alignment': 'villain',
 		'miiverse_posts': 1,
@@ -1521,11 +1473,7 @@ fighters = {
 	},
 	'pokemon_trainer': {
 		'series': 'pokemon',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'red',
 		'alignment': 'hero',
 		'miiverse_posts': 1,
@@ -1650,11 +1598,7 @@ fighters = {
 	},
 	'pikachu': {
 		'series': 'pokemon',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'yellow',
 		'alignment': 'hero',
 		'miiverse_posts': 1,
@@ -1724,11 +1668,8 @@ fighters = {
 	'jigglypuff': {
 		'series': 'pokemon',
 		'stats': {
-			'armor': 'low',
 			'jump_strength': 'low',
-			'movement_speed': -0.15,
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
+			'movement_speed': -0.15
 		},
 		'color': 'light_purple',
 		'alignment': 'hero',
@@ -1803,11 +1744,7 @@ fighters = {
 	},
 	'lucario': {
 		'series': 'pokemon',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'blue',
 		'alignment': 'hero',
 		'miiverse_posts': 1,
@@ -1883,11 +1820,7 @@ fighters = {
 	},
 	'greninja': {
 		'series': 'pokemon',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'blue',
 		'alignment': 'hero',
 		'miiverse_posts': 1,
@@ -1943,11 +1876,7 @@ fighters = {
 	},
 	'team_rocket': {
 		'series': 'pokemon',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'dark_purple',
 		'alignment': 'villain',
 		'miiverse_posts': 1,
@@ -2075,10 +2004,7 @@ fighters = {
 	'ness': {
 		'series': 'earthbound',
 		'stats': {
-			'armor': 'low',
-			'double_jump_strength': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
+			'double_jump_strength': 'low'
 		},
 		'color': 'dark_purple',
 		'alignment': 'hero',
@@ -2142,11 +2068,7 @@ fighters = {
 	},
 	'giegue': {
 		'series': 'earthbound',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'light_purple',
 		'alignment': 'villain',
 		'miiverse_posts': 1,
@@ -2210,9 +2132,7 @@ fighters = {
 			'armor': 'medium',
 			'jump_strength': 'low',
 			'double_jump_strength': 'high',
-			'movement_speed': 0.15,
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
+			'movement_speed': 0.15
 		},
 		'color': 'red',
 		'alignment': 'hero',
@@ -2294,11 +2214,7 @@ fighters = {
 	},
 	'ice_climbers': {
 		'series': 'ice_climbers',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'aqua',
 		'alignment': 'hero',
 		'miiverse_posts': 1,
@@ -2374,10 +2290,7 @@ fighters = {
 	'roy': {
 		'series': 'fire_emblem',
 		'stats': {
-			'armor': 'low',
-			'max_health': 480,
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
+			'max_health': 480
 		},
 		'color': 'red',
 		'alignment': 'hero',
@@ -2433,11 +2346,7 @@ fighters = {
 	},
 	'byleth': {
 		'series': 'fire_emblem',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'dark_aqua',
 		'alignment': 'hero',
 		'miiverse_posts': 1,
@@ -2572,11 +2481,7 @@ fighters = {
 	},
 	'pit': {
 		'series': 'kid_icarus',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'white',
 		'alignment': 'hero',
 		'miiverse_posts': 1,
@@ -2621,10 +2526,7 @@ fighters = {
 	'snake': {
 		'series': 'metal_gear',
 		'stats': {
-			'armor': 'low',
-			'movement_speed': 0.05,
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
+			'movement_speed': 0.05
 		},
 		'color': 'gray',
 		'alignment': 'hero',
@@ -2770,11 +2672,7 @@ fighters = {
 	},
 	'raiden': {
 		'series': 'metal_gear',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'gray',
 		'alignment': 'hero',
 		'miiverse_posts': 1,
@@ -2890,10 +2788,7 @@ fighters = {
 	'sonic': {
 		'series': 'sonic_the_hedgehog',
 		'stats': {
-			'armor': 'low',
-			'movement_speed': 0.1,
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
+			'movement_speed': 0.1
 		},
 		'color': 'blue',
 		'alignment': 'hero',
@@ -2934,10 +2829,7 @@ fighters = {
 	'shadow': {
 		'series': 'sonic_the_hedgehog',
 		'stats': {
-			'armor': 'low',
-			'movement_speed': 0.05,
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
+			'movement_speed': 0.05
 		},
 		'color': 'dark_red',
 		'alignment': 'neutral',
@@ -3006,11 +2898,7 @@ fighters = {
 	},
 	'rob': {
 		'series': 'nes_robot',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'white',
 		'alignment': 'hero',
 		'miiverse_posts': 1,
@@ -3070,11 +2958,7 @@ fighters = {
 	},
 	'villager': {
 		'series': 'animal_crossing',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'red',
 		'alignment': 'hero',
 		'miiverse_posts': 1,
@@ -3210,11 +3094,7 @@ fighters = {
 	},
 	'mega_man': {
 		'series': 'mega_man',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'blue',
 		'alignment': 'hero',
 		'miiverse_posts': 1,
@@ -3385,11 +3265,7 @@ fighters = {
 	},
 	'ryu': {
 		'series': 'street_fighter',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'white',
 		'alignment': 'hero',
 		'miiverse_posts': 1,
@@ -3435,10 +3311,7 @@ fighters = {
 	'cloud': {
 		'series': 'final_fantasy',
 		'stats': {
-			'armor': 'low',
-			'max_health': 320,
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
+			'max_health': 320
 		},
 		'color': 'white',
 		'alignment': 'hero',
@@ -3487,11 +3360,7 @@ fighters = {
 	},
 	'alucard': {
 		'series': 'castlevania',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'gray',
 		'alignment': 'hero',
 		'miiverse_posts': 1,
@@ -3582,11 +3451,7 @@ fighters = {
 	},
 	'joker': {
 		'series': 'persona',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'dark_red',
 		'alignment': 'hero',
 		'miiverse_posts': 1,
@@ -3715,11 +3580,7 @@ fighters = {
 	},
 	'hero': {
 		'series': 'dragon_quest',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'yellow',
 		'alignment': 'hero',
 		'miiverse_posts': 2,
@@ -4156,11 +4017,7 @@ fighters = {
 	},
 	'terry': {
 		'series': 'fatal_fury',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'red',
 		'alignment': 'hero',
 		'miiverse_posts': 1,
@@ -4185,11 +4042,7 @@ fighters = {
 	},
 	'steve': {
 		'series': 'minecraft',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'dark_aqua',
 		'alignment': 'hero',
 		'miiverse_posts': 1,
@@ -4394,11 +4247,7 @@ fighters = {
 	},
 	'sora': {
 		'series': 'kingdom_hearts',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'white',
 		'alignment': 'hero',
 		'miiverse_posts': 1,
@@ -4501,11 +4350,7 @@ fighters = {
 	},
 	'shovel_knight': {
 		'series': 'shovel_knight',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'dark_aqua',
 		'alignment': 'hero',
 		'miiverse_posts': 1,
@@ -4620,11 +4465,7 @@ fighters = {
 	},
 	'altered_beast': {
 		'series': 'altered_beast',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'gold',
 		'alignment': 'hero',
 		'miiverse_posts': 1,
@@ -4766,11 +4607,7 @@ fighters = {
 	},
 	'yar': {
 		'series': 'yars_revenge',
-		'stats': {
-			'armor': 'low',
-			'safe_fall_distance': 'medium',
-			'weight': 'medium'
-		},
+		'stats': {},
 		'color': 'red',
 		'alignment': 'hero',
 		'miiverse_posts': 1,
@@ -4958,24 +4795,22 @@ fighters = {
 	}
 }
 
-armor_values = {
-	'negligible': 4,
-	'low': 10,
-	'medium': 12,
-	'high': 14
-}
-
-jump_strength_values = {
-	'none': 0.42,
-	'low': 0.50,
-	'high': 0.70,
-	'super': 0.81,
-	'insane': 1.10
-}
-
-safe_fall_distance_values = {
-	'medium': 6,
-	'infinite': 999
+stats = {
+	'armor': {
+		'negligible': 4,
+		'medium': 12,
+		'high': 14
+	},
+	'jump_strength': {
+		'none': 0.42,
+		'low': 0.50,
+		'high': 0.70,
+		'super': 0.81,
+		'insane': 1.10
+	},
+	'safe_fall_distance': {
+		'infinite': 999
+	}
 }
 
 rarity_prices = {
@@ -5056,33 +4891,12 @@ def has_forms(fighter):
 		return True
 	return False
 
-def jump_strength(fighter):
+def get_stat(fighter, stat, fallback):
 	path = fighters[fighter]['stats']
-	if 'jump_strength' in path.keys():
-		return jump_strength_values[path['jump_strength']]
+	if stat in path.keys():
+		return stats[stat][path[stat]]
 	else:
-		return 0.63
-
-def double_jump_strength(fighter):
-	path = fighters[fighter]['stats']
-	if 'double_jump_strength' in path.keys():
-		return jump_strength_values[path['double_jump_strength']]
-	else:
-		return jump_strength(fighter)
-
-def max_health(fighter):
-	path = fighters[fighter]['stats']
-	if 'max_health' in path.keys():
-		return path['max_health']
-	else:
-		return 400
-
-def movement_speed(fighter):
-	path = fighters[fighter]['stats']
-	if 'movement_speed' in path.keys():
-		return path['movement_speed']
-	else:
-		return 0
+		return fallback
 
 def init_item_data(fighter, skin, item, data):
 	skin_data = {}
@@ -5226,12 +5040,12 @@ def fighter_storage():
 		fighter_entry = {
 			'fighter': fighter,
 			'series': path['series'],
-			'armor': armor_values.get(armor_path, armor_path),
-			'jump_strength': jump_strength(fighter),
-			'double_jump_strength': double_jump_strength(fighter),
-			'max_health': max_health(fighter),
-			'movement_speed': movement_speed(fighter),
-			'safe_fall_distance': safe_fall_distance_values.get(safe_fall_distance_path, safe_fall_distance_path),
+			'armor': get_stat(fighter, 'armor', 10),
+			'jump_strength': get_stat(fighter, 'jump_strength', 0.63),
+			'double_jump_strength': get_stat(fighter, 'double_jump_strength', get_stat(fighter, 'jump_strength', 0.63)),
+			'max_health': get_stat(fighter, 'max_health', 400),
+			'movement_speed': get_stat(fighter, 'movement_speed', 0),
+			'safe_fall_distance': get_stat(fighter, 'safe_fall_distance', 6),
 			'page': (i // 15) + 1,
 			'miiverse_posts': path['miiverse_posts'],
 			'default_form': path['forms'][0],

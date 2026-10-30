@@ -22,7 +22,8 @@ $function ssbrc:game/entity/player/fighter/_logic/get/run {function: "ssbrc:game
 attribute @s minecraft:gravity base set .08
 execute if data storage ssbrc:temp game.stage{name: "sector_z"} run attribute @s minecraft:gravity modifier add ssbrc:stage -.75 add_multiplied_total
 
-attribute @s minecraft:safe_fall_distance base set 1200
-execute if data storage ssbrc:temp game.stage{name: "sector_z"} run attribute @s minecraft:safe_fall_distance modifier add ssbrc:stage 9 add_multiplied_base
+scoreboard players set @s safe_fall_distance 1200
+execute if data storage ssbrc:temp game.stage{name: "sector_z"} run scoreboard players operation @s safe_fall_distance 9 add_multiplied_base
+execute store result score @s safe_fall_distance run attribute @s minecraft:safe_fall_distance get
 
 execute if data storage ssbrc:temp game.stage{name: "saturn_valley"} run attribute @s minecraft:block_interaction_range base set 4.5

@@ -1,8 +1,7 @@
-execute store result score #safe_fall_distance temp run attribute @s minecraft:safe_fall_distance get
 execute store result score #fall_damage_multiplier temp run attribute @s minecraft:fall_damage_multiplier get
 
 execute store result storage ssbrc:temp cache.amount int 1 run compute default float ssbrc:fall_damage
-execute if score @s fall_distance > #safe_fall_distance temp run function ssbrc:game/entity/player/fighter/_logic/fall with storage ssbrc:temp cache
+execute if score @s fall_distance > @s safe_fall_distance run function ssbrc:game/entity/player/fighter/_logic/fall with storage ssbrc:temp cache
 scoreboard players reset @s fall_distance
 
 attribute @s minecraft:gravity modifier remove ssbrc:jump

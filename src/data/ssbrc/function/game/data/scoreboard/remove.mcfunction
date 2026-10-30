@@ -69,6 +69,7 @@ scoreboard objectives remove leech_seed.stacks.timer
 scoreboard objectives remove leech_seed.timer
 scoreboard objectives remove magic
 scoreboard objectives remove math
+scoreboard objectives remove max_health
 scoreboard objectives remove mega_man.air_shooter
 scoreboard objectives remove mega_man.beat_call
 scoreboard objectives remove mega_man.drill_bomb
@@ -108,6 +109,7 @@ scoreboard objectives remove reset
 scoreboard objectives remove resource
 scoreboard objectives remove respawn
 scoreboard objectives remove rotation
+scoreboard objectives remove safe_fall_distance
 scoreboard objectives remove sandbag.stand_on
 scoreboard objectives remove ssbrc.vfx_type
 scoreboard objectives remove selected_item

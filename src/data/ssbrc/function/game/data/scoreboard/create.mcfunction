@@ -70,6 +70,7 @@ scoreboard objectives add leech_seed.stacks.timer dummy
 scoreboard objectives add leech_seed.timer dummy
 scoreboard objectives add magic dummy
 scoreboard objectives add math dummy
+scoreboard objectives add max_health dummy
 scoreboard objectives add mega_man.air_shooter dummy
 scoreboard objectives add mega_man.beat_call dummy
 scoreboard objectives add mega_man.drill_bomb dummy
@@ -113,6 +114,7 @@ scoreboard objectives add rotationX dummy
 scoreboard objectives add rotationX.prev dummy
 scoreboard objectives add rotationY dummy
 scoreboard objectives add rotationY.prev dummy
+scoreboard objectives add safe_fall_distance dummy
 scoreboard objectives add sandbag.stand_on dummy
 scoreboard objectives add ssbrc.vfx_type dummy
 scoreboard objectives add selected_item dummy
