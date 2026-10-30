@@ -24,7 +24,7 @@ item modify entity @s enderchest.12 ssbrc:ui/shop/button
 
 item replace entity @s enderchest.14 with minecraft:saddle[ \
 	minecraft:item_name = { \
-		translate: "ssbrc.game.death_effects", \
+		translate: "ssbrc.death_effects", \
 		color: "yellow", \
 		bold: true, \
 	}, \
