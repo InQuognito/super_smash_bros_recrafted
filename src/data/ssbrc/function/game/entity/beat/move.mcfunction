@@ -1,0 +1,10 @@
+execute if block ^ ^ ^1 #ssbrc:passthrough_barrier rotated as @s[tag=forward,scores={temp=1..}] run return run function ssbrc:game/entity/beat/move/forward
+
+execute if block ^ ^ ^1 #ssbrc:passthrough_barrier if entity @s[tag=recall] facing entity @a[predicate=ssbrc:owner,limit=1] eyes run return run function ssbrc:game/entity/beat/move/recall
+
+$execute if entity @s[tag=attack] at @n[tag=beat_call.target] rotated $(value) 0 positioned ^ ^2 ^1 facing entity @n[tag=beat_call.target] eyes run return run teleport @s ~ ~ ~ ~ ~
+execute if entity @s[tag=attack] unless entity @n[tag=beat_call.target,distance=..3] as @a[predicate=ssbrc:owner,limit=1] run function ssbrc:game/entity/beat/commands/recall
+
+$execute at @a[predicate=ssbrc:owner,limit=1] rotated $(value) 0 positioned ^ ^2 ^1 rotated as @a[predicate=ssbrc:owner,limit=1] run teleport @s ~ ~ ~ ~ ~
+
+execute at @s on passengers run rotate @s ~ ~

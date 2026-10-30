@@ -1,13 +1,13 @@
 {
 	"variants": {
 		"type=bottom": {
-			"model": "minecraft:block/cobblestone_slab"
+			"model": "minecraft:block/blue_concrete_slab"
 		},
 		"type=double": {
 			"model": "minecraft:block/water"
 		},
 		"type=top": {
-			"model": "minecraft:block/cobblestone_slab_top"
+			"model": "minecraft:block/blue_concrete_slab_top"
 		}
 	}
 }

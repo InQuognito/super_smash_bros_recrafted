@@ -1,4 +1,4 @@
-execute if entity @s[tag=beat_call] run function ssbrc:game/entity/player/fighter/mega_man/beat_call/deactivate
+execute if entity @s[tag=beat_call] run function ssbrc:game/entity/beat/deactivate
 
 execute as @e[type=minecraft:item_display,tag=remote_mine,predicate=ssbrc:owner] at @s run function ssbrc:game/entity/player/fighter/mega_man/remote_mine/explode
 

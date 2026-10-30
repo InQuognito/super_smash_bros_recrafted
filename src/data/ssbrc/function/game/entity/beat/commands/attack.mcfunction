@@ -1,0 +1,5 @@
+function ssbrc:game/entity/beat/commands/entity/reset
+tag @s add attack
+
+execute as @a[predicate=ssbrc:owner,limit=1] run function ssbrc:game/item/modify {search_key: "item", search_value: "beat_call", path: {type: "minecraft:set_custom_data", tag: {command: "recall"}}}
+tag @n[predicate=!ssbrc:owner,predicate=ssbrc:target] add beat_call.target

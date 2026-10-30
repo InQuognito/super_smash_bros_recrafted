@@ -95,7 +95,6 @@ execute if entity @s[tag=fireball] run return run function ssbrc:game/entity/pla
 # Mega Man
 execute if entity @s[tag=mega_buster] run return run function ssbrc:game/entity/player/fighter/mega_man/mega_buster/tick
 execute if entity @s[tag=air_shooter] run return run function ssbrc:game/entity/player/fighter/mega_man/air_shooter/tick
-execute if entity @s[tag=beat] run return run function ssbrc:game/entity/player/fighter/mega_man/beat_call/tick
 execute if entity @s[tag=drill_bomb] run return run function ssbrc:game/entity/player/fighter/mega_man/drill_bomb/tick
 execute if entity @s[tag=hyper_bomb] run return run function ssbrc:game/entity/player/fighter/mega_man/hyper_bomb/tick
 execute if entity @s[tag=junk_shield] run return run function ssbrc:game/entity/player/fighter/mega_man/junk_shield/tick
