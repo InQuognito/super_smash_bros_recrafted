@@ -4894,7 +4894,10 @@ def has_forms(fighter):
 def get_stat(fighter, stat, fallback):
 	path = fighters[fighter]['stats']
 	if stat in path.keys():
-		return stats[stat][path[stat]]
+		try:
+			return stats[stat][path[stat]]
+		except:
+			return path[stat]
 	else:
 		return fallback
 
