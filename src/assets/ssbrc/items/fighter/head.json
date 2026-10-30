@@ -1437,14 +1437,14 @@
 						"model": {
 							"type": "minecraft:select",
 							"property": "minecraft:custom_model_data",
-							"index": 2,
+							"index": 1,
 							"cases": [
 								{
 									"when": "air_shooter",
 									"model": {
 										"type": "minecraft:select",
 										"property": "minecraft:custom_model_data",
-										"index": 1,
+										"index": 2,
 										"cases": [
 											{
 												"when": "x",
@@ -1479,7 +1479,7 @@
 									"model": {
 										"type": "minecraft:select",
 										"property": "minecraft:custom_model_data",
-										"index": 1,
+										"index": 2,
 										"cases": [
 											{
 												"when": "x",
@@ -1514,7 +1514,7 @@
 									"model": {
 										"type": "minecraft:select",
 										"property": "minecraft:custom_model_data",
-										"index": 1,
+										"index": 2,
 										"cases": [
 											{
 												"when": "x",
@@ -1549,7 +1549,7 @@
 									"model": {
 										"type": "minecraft:select",
 										"property": "minecraft:custom_model_data",
-										"index": 1,
+										"index": 2,
 										"cases": [
 											{
 												"when": "x",
@@ -1584,7 +1584,7 @@
 									"model": {
 										"type": "minecraft:select",
 										"property": "minecraft:custom_model_data",
-										"index": 1,
+										"index": 2,
 										"cases": [
 											{
 												"when": "x",
@@ -1619,7 +1619,7 @@
 									"model": {
 										"type": "minecraft:select",
 										"property": "minecraft:custom_model_data",
-										"index": 1,
+										"index": 2,
 										"cases": [
 											{
 												"when": "x",
@@ -1654,7 +1654,7 @@
 									"model": {
 										"type": "minecraft:select",
 										"property": "minecraft:custom_model_data",
-										"index": 1,
+										"index": 2,
 										"cases": [
 											{
 												"when": "x",
@@ -1689,7 +1689,7 @@
 									"model": {
 										"type": "minecraft:select",
 										"property": "minecraft:custom_model_data",
-										"index": 1,
+										"index": 2,
 										"cases": [
 											{
 												"when": "x",
