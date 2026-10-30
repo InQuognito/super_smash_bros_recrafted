@@ -78,7 +78,7 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 		}, \
 	}, \
 	minecraft:max_damage = $(max_damage), \
-	minecraft:max_stack_size = $(max_stack_size), \
+	minecraft:max_stack_size = 1, \
 	minecraft:minimum_attack_charge = $(minimum_attack_charge), \
 	minecraft:attack_animation = { \
 		type: "$(attack_animation)", \
