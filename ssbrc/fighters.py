@@ -2242,7 +2242,7 @@ fighters = {
 					'attack_damage': 50,
 					'attack_speed': 2,
 					'cooldown_group': 'captain_falcon/fists_of_fury',
-					'cooldown': 1.5
+					'cooldown': 2.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.captain_falcon.fists_of_fury',

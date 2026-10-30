@@ -9,6 +9,21 @@
 					"terms": [
 						"ssbrc:cooldown/universal",
 						{
+							"type": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand": {
+										"components": {
+											"minecraft:custom_data": {
+												"item": "turnip"
+											}
+										}
+									}
+								}
+							}
+						},
+						{
 							"type": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
