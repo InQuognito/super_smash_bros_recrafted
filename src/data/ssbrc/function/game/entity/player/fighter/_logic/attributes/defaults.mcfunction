@@ -23,7 +23,7 @@ attribute @s minecraft:gravity base set .08
 execute if data storage ssbrc:temp game.stage{name: "sector_z"} run attribute @s minecraft:gravity modifier add ssbrc:stage -.75 add_multiplied_total
 
 scoreboard players set @s safe_fall_distance 1200
-execute if data storage ssbrc:temp game.stage{name: "sector_z"} run scoreboard players operation @s safe_fall_distance 9 add_multiplied_base
-execute store result score @s safe_fall_distance run attribute @s minecraft:safe_fall_distance get
+execute if data storage ssbrc:temp game.stage{name: "sector_z"} run scoreboard players operation @s safe_fall_distance *= #9 const
+execute store result score @s safe_fall_distance run scoreboard players get @s safe_fall_distance
 
 execute if data storage ssbrc:temp game.stage{name: "saturn_valley"} run attribute @s minecraft:block_interaction_range base set 4.5
