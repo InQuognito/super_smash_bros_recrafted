@@ -2240,7 +2240,7 @@ fighters = {
 				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 3.5,
+					'attack_speed': 2,
 					'cooldown_group': 'captain_falcon/fists_of_fury',
 					'cooldown': 1.5
 				},
