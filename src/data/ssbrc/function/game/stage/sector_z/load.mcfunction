@@ -5,7 +5,3 @@ execute positioned -26 -15 27 rotated -90 0 summon minecraft:armor_stand run fun
 execute positioned -53 0 -12 rotated 180 0 summon minecraft:armor_stand run function ssbrc:game/stage/sector_z/npc/generic {name: "pigma"}
 execute positioned 0 0 -18 rotated 180 0 summon minecraft:armor_stand run function ssbrc:game/stage/sector_z/npc/rob_64
 execute positioned -13 -2 -15 rotated 180 0 summon minecraft:armor_stand run function ssbrc:game/stage/sector_z/npc/generic {name: "slippy"}
-
-scoreboard players operation #fall_distance.low const *= #2 const
-scoreboard players operation #fall_distance.medium const *= #2 const
-scoreboard players operation #fall_distance.high const *= #2 const

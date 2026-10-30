@@ -25,9 +25,6 @@ scoreboard players set #quick_start const 10
 
 # Misc
 scoreboard players set #combo const -15
-scoreboard players set #fall_distance.low const 500
-scoreboard players set #fall_distance.medium const 800
-scoreboard players set #fall_distance.high const 1100
 
 # Fighters
 scoreboard players set #altered_beast.spirit.max const 100000

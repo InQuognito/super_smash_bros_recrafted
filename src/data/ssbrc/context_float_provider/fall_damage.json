@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:mul",
+	"inputs": [
+		{
+			"type": "minecraft:from_int",
+			"input": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:context",
+					"target": "this"
+				},
+				"score": "fall_distance"
+			}
+		},
+		{
+			"type": "minecraft:from_int",
+			"input": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#fall_damage_multiplier"
+				},
+				"score": "temp"
+			}
+		},
+		0.025
+	]
+}
