@@ -1355,7 +1355,7 @@ fighters = {
 				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 4,
+					'attack_speed': 3,
 					'cooldown_group': 'fox/projectile',
 					'cooldown': 1.5
 				},
@@ -5043,7 +5043,7 @@ def fighter_storage():
 			'series': path['series'],
 			'armor': get_stat(fighter, 'armor', 10),
 			'jump_strength': get_stat(fighter, 'jump_strength', 0.63),
-			'double_jump_strength': get_stat(fighter, 'double_jump_strength', get_stat(fighter, 'jump_strength', 0.63)),
+			'double_jump_strength': get_stat(fighter, 'double_jump_strength', 0.63),
 			'max_health': get_stat(fighter, 'max_health', 400),
 			'movement_speed': get_stat(fighter, 'movement_speed', 0),
 			'safe_fall_distance': get_stat(fighter, 'safe_fall_distance', 6),
