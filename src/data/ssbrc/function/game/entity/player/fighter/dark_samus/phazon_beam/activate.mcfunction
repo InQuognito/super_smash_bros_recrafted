@@ -1,3 +1,5 @@
+execute unless predicate ssbrc:cooldown/universal run return fail
+
 function ssbrc:game/entity/player/fighter/_logic/ability/init
 
 execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ssbrc:game/entity/player/fighter/dark_samus/phazon_beam/init
