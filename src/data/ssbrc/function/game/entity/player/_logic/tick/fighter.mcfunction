@@ -60,7 +60,6 @@ execute if predicate ssbrc:flag/grounded run function ssbrc:game/entity/player/f
 
 # Stage Effects
 execute if block ~ ~ ~ minecraft:lava run scoreboard players add @s damage 10
-execute if entity @s[tag=electrified] run function ssbrc:game/stage/gyromite/hazard/electric_floor/tick
 
 execute if data storage ssbrc:temp game.stage{name: "luigis_mansion"} run function ssbrc:game/stage/luigis_mansion/block_interaction_range
 

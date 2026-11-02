@@ -1,4 +1,4 @@
-tag @s add electrified
+execute if score @s immobile matches 1.. if score @s silenced matches 1.. run return fail
 
 function ssbrc:game/entity/player/fighter/_logic/effects/stun/activate {duration: 1000000}
 
