@@ -9,7 +9,8 @@ title @s title ""
 
 function ssbrc:game/entity/player/fighter/_logic/respawn/effects
 
-execute if entity @s[tag=alive] run function ssbrc:game/entity/player/fighter/_logic/restore_items with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
+scoreboard players operation #id_to_match temp = @s id
+function ssbrc:game/entity/player/fighter/_logic/restore_items with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
 function ssbrc:game/entity/player/fighter/_logic/attributes/defaults with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 function ssbrc:game/entity/player/fighter/_logic/effects/default
