@@ -5,5 +5,5 @@ item replace entity @s contents with minecraft:stick[ \
 ]
 
 data merge entity @s { \
-	billboard: "horizontal", \
+	billboard: "vertical", \
 }
