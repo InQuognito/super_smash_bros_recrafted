@@ -1,5 +1,5 @@
 {
-	"parent": "ssbrc:stage/icon",
+	"parent": "ssbrc:stage/gyromite/event/parent",
 	"textures": {
 		"base": "ssbrc:stage/gyromite/event/red_door"
 	}
