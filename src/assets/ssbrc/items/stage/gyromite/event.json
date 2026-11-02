@@ -1,0 +1,353 @@
+{
+	"model": {
+		"type": "minecraft:composite",
+		"models": [
+			{
+				"type": "minecraft:model",
+				"model": "ssbrc:stage/gyromite/event/ui"
+			},
+			{
+				"type": "minecraft:select",
+				"property": "minecraft:custom_model_data",
+				"index": 0,
+				"cases": [
+					{
+						"when": "blue_door",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/blue_door"
+						}
+					},
+					{
+						"when": "dynamite",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/dynamite"
+						}
+					},
+					{
+						"when": "nap_time",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/nap_time"
+						}
+					},
+					{
+						"when": "radish",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/radish"
+						}
+					},
+					{
+						"when": "red_door",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/red_door"
+						}
+					},
+					{
+						"when": "smick",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/smick"
+						}
+					}
+				],
+				"transformation": {
+					"translation": [
+						-4,
+						0,
+						0
+					],
+					"left_rotation": [
+						0,
+						0,
+						0,
+						0
+					],
+					"right_rotation": [
+						0,
+						0,
+						0,
+						0
+					],
+					"scale": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"type": "minecraft:select",
+				"property": "minecraft:custom_model_data",
+				"index": 0,
+				"cases": [
+					{
+						"when": "blue_door",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/blue_door"
+						}
+					},
+					{
+						"when": "dynamite",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/dynamite"
+						}
+					},
+					{
+						"when": "nap_time",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/nap_time"
+						}
+					},
+					{
+						"when": "radish",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/radish"
+						}
+					},
+					{
+						"when": "red_door",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/red_door"
+						}
+					},
+					{
+						"when": "smick",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/smick"
+						}
+					}
+				],
+				"transformation": {
+					"translation": [
+						-2,
+						0,
+						0
+					],
+					"left_rotation": [
+						0,
+						0,
+						0,
+						0
+					],
+					"right_rotation": [
+						0,
+						0,
+						0,
+						0
+					],
+					"scale": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"type": "minecraft:select",
+				"property": "minecraft:custom_model_data",
+				"index": 0,
+				"cases": [
+					{
+						"when": "blue_door",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/blue_door"
+						}
+					},
+					{
+						"when": "dynamite",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/dynamite"
+						}
+					},
+					{
+						"when": "nap_time",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/nap_time"
+						}
+					},
+					{
+						"when": "radish",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/radish"
+						}
+					},
+					{
+						"when": "red_door",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/red_door"
+						}
+					},
+					{
+						"when": "smick",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/smick"
+						}
+					}
+				]
+			},
+			{
+				"type": "minecraft:select",
+				"property": "minecraft:custom_model_data",
+				"index": 0,
+				"cases": [
+					{
+						"when": "blue_door",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/blue_door"
+						}
+					},
+					{
+						"when": "dynamite",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/dynamite"
+						}
+					},
+					{
+						"when": "nap_time",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/nap_time"
+						}
+					},
+					{
+						"when": "radish",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/radish"
+						}
+					},
+					{
+						"when": "red_door",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/red_door"
+						}
+					},
+					{
+						"when": "smick",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/smick"
+						}
+					}
+				],
+				"transformation": {
+					"translation": [
+						2,
+						0,
+						0
+					],
+					"left_rotation": [
+						0,
+						0,
+						0,
+						0
+					],
+					"right_rotation": [
+						0,
+						0,
+						0,
+						0
+					],
+					"scale": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"type": "minecraft:select",
+				"property": "minecraft:custom_model_data",
+				"index": 0,
+				"cases": [
+					{
+						"when": "blue_door",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/blue_door"
+						}
+					},
+					{
+						"when": "dynamite",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/dynamite"
+						}
+					},
+					{
+						"when": "nap_time",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/nap_time"
+						}
+					},
+					{
+						"when": "radish",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/radish"
+						}
+					},
+					{
+						"when": "red_door",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/red_door"
+						}
+					},
+					{
+						"when": "smick",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/gyromite/event/smick"
+						}
+					}
+				],
+				"transformation": {
+					"translation": [
+						4,
+						0,
+						0
+					],
+					"left_rotation": [
+						0,
+						0,
+						0,
+						0
+					],
+					"right_rotation": [
+						0,
+						0,
+						0,
+						0
+					],
+					"scale": [
+						0,
+						0,
+						0
+					]
+				}
+			}
+		]
+	},
+	"hand_animation_on_swap": false
+}
