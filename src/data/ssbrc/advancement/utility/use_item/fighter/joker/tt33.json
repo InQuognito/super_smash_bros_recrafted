@@ -2,7 +2,7 @@
 	"parent": "ssbrc:utility/use_item/root",
 	"criteria": {
 		"requirement": {
-			"trigger": "minecraft:using_item",
+			"trigger": "minecraft:consume_item",
 			"conditions": {
 				"player": {
 					"type": "minecraft:all_of",
@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:game/entity/player/fighter/joker/tt33/check"
+		"function": "ssbrc:game/entity/player/fighter/joker/tt33/activate"
 	}
 }

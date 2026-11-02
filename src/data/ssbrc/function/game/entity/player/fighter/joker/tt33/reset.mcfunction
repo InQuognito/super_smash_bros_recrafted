@@ -1,3 +1,3 @@
-scoreboard players set @s weapon_1.ammo 8
+clear @s *[minecraft:custom_data~{item: "tt33"}]
 
-scoreboard players set @s weapon_1.fire_rate 0
+function ssbrc:game/item/give/default {item: "tt33", class: "default", type: "consumable"}

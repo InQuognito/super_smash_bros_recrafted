@@ -3563,10 +3563,11 @@ fighters = {
 				}
 			},
 			'tt33': {
-				'type': 'ability',
+				'type': 'consumable',
 				'stats': {
 					'cooldown_group': 'joker/tt33',
-					'cooldown': 0.2
+					'cooldown': 0.2,
+					'max_stack_size': 8
 				},
 				'default': {
 					'name': 'ssbrc.fighter.joker.tt33',
