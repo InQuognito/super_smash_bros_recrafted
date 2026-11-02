@@ -4812,6 +4812,7 @@ stats = {
 		'infinite': 999
 	}
 }
+stats['double_jump_strength'] = stats['jump_strength']
 
 rarity_prices = {
 	'common': 400,
