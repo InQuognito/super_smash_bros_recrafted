@@ -900,6 +900,8 @@
 	"ssbrc.music.road_to_viridian_city": "Road to Viridian City",
 	"ssbrc.music.team_galactic_battle": "Team Galactic Battle",
 	"ssbrc.music.trainer_battle_pokemon_gold_silver": "Trainer Battle! (Pokémon Gold / Silver)",
+	"ssbrc.music.victory_road_ruby_sapphire": "Victory Road (Pokémon Ruby / Sapphire)",
+	"ssbrc.music.vs_champion_steven": "VS. Champion Steven",
 	"ssbrc.fish.magikarp": "Magikarp",
 
 	"ssbrc.series.earthbound": "Earthbound",
@@ -1436,6 +1438,8 @@
 	"ssbrc.music.aria_of_the_soul": "Aria of the Soul",
 	"ssbrc.music.axe_to_grind": "Axe to Grind",
 	"ssbrc.music.bloody_destiny": "Bloody Destiny",
+	"ssbrc.music.innocent_sin_battle": "Battle! (Innocent Sin)",
+	"ssbrc.music.knights_of_the_holy_spear": "Knights of the Holy Spear",
 	"ssbrc.music.light_in_starless_sky": "Light in Starless Sky",
 	"ssbrc.music.mass_destruction_dual_mix": "Mass Destruction (Dual Mix)",
 	"ssbrc.music.reach_out_to_the_truth": "Reach Out to the Truth",
@@ -1718,8 +1722,8 @@
 	"ssbrc.fighter.yar.power_up.description.1": "] to change ",
 	"ssbrc.fighter.yar.power_up.description.2": " into ",
 	"ssbrc.stage.planet_epp": "Planet Epp",
-	"ssbrc.music.draconus": "Draconus",
-	"ssbrc.music.zybex": "Zybex",
+	"ssbrc.music.an_army_of_one": "An Army of One",
+	"ssbrc.music.zorlon_cannon": "Zorlon Cannon",
 
 	"ssbrc.info.weight": "kg",
 
