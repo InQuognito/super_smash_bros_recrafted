@@ -1,3 +1,4 @@
+tag @s add holy_water
 execute if items entity @a[predicate=ssbrc:owner,limit=1] armor.body *[minecraft:custom_data~{temp: {fighter: {form: "blood_metamorphosis"}}}] run tag @s add blood_metamorphosis
 
 item replace entity @s armor.head with minecraft:stick[ \

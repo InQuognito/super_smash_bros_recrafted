@@ -4,6 +4,7 @@ execute if entity @s[tag=flame_hands] run return run function ssbrc:game/entity/
 execute if entity @s[tag=sabretooth] run return run function ssbrc:game/entity/player/fighter/altered_beast/weretiger/sabretooth/tick
 
 # Alucard
+execute if entity @s[tag=holy_water] run return run function ssbrc:game/entity/player/fighter/alucard/holy_water/tick
 execute if entity @s[tag=mist] run return run function ssbrc:game/entity/player/fighter/alucard/mist/tick_entity
 
 # Bowser
