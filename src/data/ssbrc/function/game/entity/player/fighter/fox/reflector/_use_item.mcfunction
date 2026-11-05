@@ -1,0 +1,6 @@
+execute anchored eyes positioned ^ ^ ^2 run particle minecraft:sonic_boom ~ ~ ~ 0 0 0 0 1 force @a
+
+scoreboard players set @s duration.2 15
+function ssbrc:game/entity/player/fighter/_logic/effects/immobile/activate {type: "air_stall", duration: 15}
+
+playsound ssbrc:fighter.fox.reflector.activate player @a

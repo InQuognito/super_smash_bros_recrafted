@@ -1,5 +1,3 @@
-function ssbrc:game/entity/player/fighter/_logic/ability/init
-
 execute as @e[type=minecraft:bee,predicate=ssbrc:owner,distance=..64] if data entity @s data{id: "weezing"} at @s run function ssbrc:game/entity/weezing/commands/activate/weezing
 
 function ssbrc:game/item/modify { \
@@ -13,4 +11,4 @@ function ssbrc:game/item/modify { \
 	}, \
 }
 
-function ssbrc:game/entity/weezing/commands/init
+playsound ssbrc:fighter.yar.weezing.activate player @a

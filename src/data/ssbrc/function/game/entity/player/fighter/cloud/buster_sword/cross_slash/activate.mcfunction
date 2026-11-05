@@ -1,4 +1,4 @@
-function ssbrc:game/entity/player/fighter/_logic/ability/init
+execute unless score @s resource >= #cloud.limit const run return fail
 
 scoreboard players set @s duration.1 30
 
@@ -10,5 +10,3 @@ function ssbrc:game/entity/player/fighter/_logic/effects/immobile/activate {type
 execute as @n[predicate=!ssbrc:owner,predicate=ssbrc:target,distance=..2.5] run function ssbrc:game/entity/player/fighter/cloud/buster_sword/cross_slash/target/activate
 
 playsound ssbrc:fighter.cloud.cross_slash.activate player @a
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

@@ -1,5 +1,3 @@
-advancement revoke @s only ssbrc:utility/use_item/fighter/roy/crossfire
-
 scoreboard players operation #cache temp = @s resource
 scoreboard players set @s resource 0
 

@@ -6,6 +6,7 @@ execute if score @s duration.2 matches 1.. anchored eyes positioned ^ ^ ^2 as @e
 # Fire Fox
 execute if entity @s[scores={duration.1=..0,duration.2=..0}] run function ssbrc:game/entity/player/fighter/fox/fire_fox/check
 
+execute if score @s duration.1 matches 1.. run function ssbrc:game/entity/player/fighter/fox/fire_fox/tick
 execute if score @s duration.1 matches 1 run function ssbrc:game/entity/player/fighter/fox/fire_fox/deactivate
 
 function ssbrc:game/entity/player/fighter/_logic/ability/deinit

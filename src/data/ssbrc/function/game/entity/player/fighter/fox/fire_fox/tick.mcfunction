@@ -1,8 +1,5 @@
 particle minecraft:flame ~ ~.75 ~ .3 .3 .3 .1 15 force @a
 particle minecraft:smoke ~ ~.75 ~ .6 .6 .6 .01 30 normal @a
 
-function ssbrc:game/entity/player/fighter/fox/fire_fox/raycast/start
-execute if score #entity_hit temp matches 1 run kill @s
-
-scoreboard players add @s temp 1
-kill @s[scores={temp=15..}]
+execute positioned ~-.5 ~ ~-.5 as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dy=1] run function ssbrc:game/entity/_logic/health/damage/fire {amount: 40, duration: 60, kb_resist: 0, i_frames: 0}
+execute if score #entity_hit temp matches 1 run scoreboard players set @s duration.1 1

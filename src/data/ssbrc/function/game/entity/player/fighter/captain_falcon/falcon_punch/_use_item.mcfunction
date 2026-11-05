@@ -1,0 +1,6 @@
+scoreboard players set @s charge.1 1
+
+function ssbrc:game/entity/player/fighter/_logic/effects/immobile/effects/anchor/activate
+
+playsound ssbrc:fighter.captain_falcon.falcon_punch.default.charge player @a
+playsound ssbrc:fighter.captain_falcon.falcon_punch.default.charge_voice player @a

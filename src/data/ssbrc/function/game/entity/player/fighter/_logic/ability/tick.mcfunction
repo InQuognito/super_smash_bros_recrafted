@@ -1,7 +1,7 @@
 # Altered Beast
 execute if entity @s[tag=flame_arrow] run return run function ssbrc:game/entity/player/fighter/altered_beast/werewolf/flame_arrow/tick
-execute if entity @s[tag=flame_hands] run return run function ssbrc:game/entity/player/fighter/altered_beast/werewolf/flame_hands/tick
-execute if entity @s[tag=sabretooth] run return run function ssbrc:game/entity/player/fighter/altered_beast/weretiger/sabretooth/tick
+execute if entity @s[tag=flame_hands] run return run function ssbrc:game/entity/player/fighter/altered_beast/flame_hands/tick
+execute if entity @s[tag=sabretooth] run return run function ssbrc:game/entity/player/fighter/altered_beast/sabretooth/tick
 
 # Alucard
 execute if entity @s[tag=holy_water] run return run function ssbrc:game/entity/player/fighter/alucard/holy_water/tick
@@ -32,7 +32,6 @@ execute if entity @s[tag=steel_keg] run return run function ssbrc:game/entity/pl
 # Fox
 execute if entity @s[tag=krazoan_fireball] run return run function ssbrc:game/entity/player/fighter/fox/krazoan_fireball/tick
 execute if entity @s[tag=fox_blaster] run return run function ssbrc:game/entity/player/fighter/fox/fox_blaster/tick
-execute if entity @s[tag=fire_fox] run return run function ssbrc:game/entity/player/fighter/fox/fire_fox/tick
 
 # Ganondorf
 execute if entity @s[tag=dead_mans_volley] run return run function ssbrc:game/entity/player/fighter/ganondorf/dead_mans_volley/tick
@@ -119,11 +118,11 @@ execute if entity @s[tag=palutena_bow] run return run function ssbrc:game/entity
 execute if entity @s[tag=guardian_orbitar] run return run function ssbrc:game/entity/player/fighter/pit/guardian_orbitars/tick
 
 # Pokémon Trainer
-execute if entity @s[tag=flare_blitz] run return run function ssbrc:game/entity/player/fighter/pokemon_trainer/charizard/flare_blitz/tick
-execute if entity @s[tag=poison_powder] run return run function ssbrc:game/entity/player/fighter/pokemon_trainer/ivysaur/poison_powder/tick
-execute if entity @s[tag=leech_seed] run return run function ssbrc:game/entity/player/fighter/pokemon_trainer/ivysaur/leech_seed/tick
-execute if entity @s[tag=leech_seed.healing_orb] run return run function ssbrc:game/entity/player/fighter/pokemon_trainer/ivysaur/leech_seed/healing_orb/tick
-execute if entity @s[tag=water_gun] run return run function ssbrc:game/entity/player/fighter/pokemon_trainer/squirtle/water_gun/tick
+execute if entity @s[tag=flare_blitz] run return run function ssbrc:game/entity/player/fighter/pokemon_trainer/flare_blitz/tick
+execute if entity @s[tag=poison_powder] run return run function ssbrc:game/entity/player/fighter/pokemon_trainer/poison_powder/tick
+execute if entity @s[tag=leech_seed] run return run function ssbrc:game/entity/player/fighter/pokemon_trainer/leech_seed/tick
+execute if entity @s[tag=leech_seed.healing_orb] run return run function ssbrc:game/entity/player/fighter/pokemon_trainer/leech_seed/healing_orb/tick
+execute if entity @s[tag=water_gun] run return run function ssbrc:game/entity/player/fighter/pokemon_trainer/water_gun/tick
 
 # Raiden
 execute if entity @s[tag=throwing_knives] run return run function ssbrc:game/entity/player/fighter/raiden/throwing_knives/tick
@@ -173,11 +172,11 @@ execute if entity @s[tag=strike_raid] run return run function ssbrc:game/entity/
 execute if items entity @s contents *[minecraft:custom_data~{group: "steve.item"}] run return run function ssbrc:game/entity/player/fighter/steve/item/tick
 
 # Team Rocket
-execute if entity @s[tag=acid] run return run function ssbrc:game/entity/player/fighter/team_rocket/arbok/acid/tick
+execute if entity @s[tag=acid] run return run function ssbrc:game/entity/player/fighter/team_rocket/acid/tick
 execute if entity @s[tag=smokescreen] run return run function ssbrc:game/entity/weezing/smokescreen/tick
 execute if entity @s[tag=smog] run return run function ssbrc:game/entity/weezing/smog/tick
-execute if entity @s[tag=payday] run return run function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/tick
-execute if entity @s[tag=payday.projectile] run return run function ssbrc:game/entity/player/fighter/team_rocket/meowth/payday/projectile/tick
+execute if entity @s[tag=payday] run return run function ssbrc:game/entity/player/fighter/team_rocket/payday/tick
+execute if entity @s[tag=payday.projectile] run return run function ssbrc:game/entity/player/fighter/team_rocket/payday/projectile/tick
 
 # Toon Link
 execute if entity @s[tag=toon_link_boomerang] run return run function ssbrc:game/entity/player/fighter/toon_link/toon_link_boomerang/tick

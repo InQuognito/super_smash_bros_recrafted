@@ -2,7 +2,7 @@
 	"parent": "ssbrc:utility/root",
 	"criteria": {
 		"requirement": {
-			"trigger": "minecraft:using_item",
+			"trigger": "minecraft:consume_item",
 			"conditions": {
 				"player": {
 					"type": "minecraft:all_of",

@@ -1,0 +1,5 @@
+function ssbrc:game/entity/player/fighter/joker/mask/set with entity @s SelectedItem.components.minecraft:custom_data
+
+item replace entity @s weapon.mainhand with minecraft:air
+
+playsound ssbrc:fighter.joker.use_mask player @a

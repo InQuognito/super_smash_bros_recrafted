@@ -1,0 +1,16 @@
+execute unless score @s weapon_1.ammo matches 1.. run return run playsound ssbrc:generic_misfire player @a
+
+execute store result score #health temp run scoreboard players get @s health
+
+function ssbrc:game/entity/player/fighter/snake/m870_custom/offset/initial {axis: "x"}
+function ssbrc:game/entity/player/fighter/snake/m870_custom/offset/initial {axis: "y"}
+
+scoreboard players set #i temp 8
+execute anchored eyes positioned ^ ^ ^.5 run function ssbrc:game/entity/player/fighter/snake/m870_custom/projectile
+
+scoreboard players set @s weapon_1.fire_rate 20
+
+scoreboard players remove @s weapon_1.ammo 1
+execute if entity @s[scores={weapon_1.mags=1..,weapon_1.ammo=0}] run function ssbrc:game/entity/player/fighter/_logic/effects/reload {id: 1, duration: 60}
+
+playsound ssbrc:shotgun_fire player @a

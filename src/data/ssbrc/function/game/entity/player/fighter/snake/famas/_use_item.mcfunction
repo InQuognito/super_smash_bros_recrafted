@@ -1,0 +1,16 @@
+execute unless score @s weapon_3.ammo matches 1.. run return run playsound ssbrc:generic_misfire player @a
+
+execute store result score #health temp run scoreboard players get @s health
+
+function ssbrc:game/entity/player/fighter/snake/famas/offset
+execute store result storage ssbrc:temp cache.rotation.x float .1 run scoreboard players get #random temp
+
+function ssbrc:game/entity/player/fighter/snake/famas/offset
+execute store result storage ssbrc:temp cache.rotation.y float .1 run scoreboard players get #random temp
+
+execute anchored eyes positioned ^ ^ ^.5 run function ssbrc:game/entity/player/fighter/snake/famas/start with storage ssbrc:temp cache.rotation
+
+scoreboard players remove @s weapon_3.ammo 1
+execute if entity @s[scores={weapon_3.mags=1..,weapon_3.ammo=0}] run function ssbrc:game/entity/player/fighter/_logic/effects/reload {id: 3, duration: 50}
+
+playsound ssbrc:generic_fire player @a

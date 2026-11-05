@@ -3,7 +3,7 @@ function ssbrc:game/entity/player/fighter/altered_beast/kits/update {form: "were
 execute if score @s resource >= #altered_beast.spirit.max const run tag @s add feral_instincts
 
 function ssbrc:game/item/init/slot {item: "flame_hands", slot: "hotbar.0", class: "weapon", type: "hybrid"}
-function ssbrc:game/entity/player/fighter/altered_beast/werewolf/flame_hands/give
+function ssbrc:game/entity/player/fighter/altered_beast/flame_hands/give
 
 item modify entity @s armor.chest { \
 	type: "minecraft:sequence", \

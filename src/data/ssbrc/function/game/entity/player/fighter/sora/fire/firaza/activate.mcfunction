@@ -1,6 +1,6 @@
 scoreboard players set @s charge.3 1
 
-scoreboard players operation @s magic -= sora.spell.cost temp
+scoreboard players operation @s magic -= #cache temp
 function ssbrc:game/entity/player/fighter/sora/magic/update
 
 scoreboard players set @s rotation 0

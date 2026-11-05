@@ -1,0 +1,3 @@
+execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:game/entity/player/fighter/wolf/wolf_blaster/init with entity @a[predicate=ssbrc:owner,limit=1] equipment.body.components."minecraft:custom_data".temp.fighter
+
+playsound ssbrc:fighter.wolf.wolf_blaster.activate player @a

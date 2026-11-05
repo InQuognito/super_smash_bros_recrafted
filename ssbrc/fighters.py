@@ -1653,7 +1653,7 @@ fighters = {
 				}
 			},
 			'electric_terrain': {
-				'type': 'ability',
+				'type': 'consumable',
 				'stats': {
 					'cooldown_group': 'pikachu/electric_terrain',
 					'cooldown': 1
@@ -2571,7 +2571,7 @@ fighters = {
 				}
 			},
 			'claymore': {
-				'type': 'ability',
+				'type': 'consumable',
 				'stats': {
 					'cooldown_group': 'snake/claymore',
 					'cooldown': 1
@@ -2641,7 +2641,7 @@ fighters = {
 				}
 			},
 			'smoke_grenade': {
-				'type': 'ability',
+				'type': 'consumable',
 				'stats': {
 					'cooldown_group': 'snake/smoke_grenade',
 					'cooldown': 15
@@ -4315,7 +4315,7 @@ fighters = {
 				'inherit': 'keyblade',
 			},
 			'valor_form': {
-				'type': 'ability',
+				'type': 'consumable',
 				'stats': {
 					'cooldown_group': 'sora/form_card',
 					'cooldown': 0.05
@@ -4326,7 +4326,7 @@ fighters = {
 				}
 			},
 			'wisdom_form': {
-				'type': 'ability',
+				'type': 'consumable',
 				'stats': {
 					'cooldown_group': 'sora/form_card',
 					'cooldown': 0.05
@@ -4337,7 +4337,7 @@ fighters = {
 				}
 			},
 			'master_form': {
-				'type': 'ability',
+				'type': 'consumable',
 				'stats': {
 					'cooldown_group': 'sora/form_card',
 					'cooldown': 0.05
@@ -4430,10 +4430,9 @@ fighters = {
 				}
 			},
 			'propeller_dagger': {
-				'type': 'ability',
+				'type': 'bow',
 				'stats': {
-					'cooldown_group': 'shovel_knight/propeller_dagger',
-					'cooldown': 3
+					'speed_multiplier': 1
 				},
 				'default': {
 					'name': 'ssbrc.fighter.shovel_knight.propeller_dagger',

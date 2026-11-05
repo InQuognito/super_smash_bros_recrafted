@@ -9,4 +9,4 @@ function ssbrc:game/entity/player/fighter/shovel_knight/get_relic
 function ssbrc:game/entity/player/fighter/shovel_knight/get_relic
 
 scoreboard players set @s resource 10
-function ssbrc:game/entity/player/fighter/shovel_knight/magic/update
+function ssbrc:game/entity/player/fighter/shovel_knight/update_magic

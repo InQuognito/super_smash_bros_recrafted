@@ -13,6 +13,6 @@ function ssbrc:game/entity/player/fighter/_logic/bonuses/rapid_kill
 
 function ssbrc:game/stats/kills with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
-execute if score #opponent_is_ivysaur temp matches 1 run function ssbrc:game/entity/player/fighter/pokemon_trainer/ivysaur/leech_seed/reset
+execute if score #opponent_is_ivysaur temp matches 1 run function ssbrc:game/entity/player/fighter/pokemon_trainer/leech_seed/reset
 
 function ssbrc:game/entity/player/fighter/_logic/kill with entity @s equipment.body.components."minecraft:custom_data".temp.fighter

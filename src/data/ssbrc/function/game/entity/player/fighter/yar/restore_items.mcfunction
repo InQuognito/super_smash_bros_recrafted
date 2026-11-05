@@ -1,1 +1,1 @@
-function ssbrc:game/entity/player/fighter/yar/power_ups/reset
+function ssbrc:game/entity/player/fighter/yar/reset

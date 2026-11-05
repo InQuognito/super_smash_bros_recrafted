@@ -1,5 +1,4 @@
 scoreboard players set #n temp 2
-
 execute if entity @s[tag=limit_break] run function ssbrc:game/entity/player/fighter/cloud/buster_sword/blade_beam/limit_break
 
 function ssbrc:game/entity/player/fighter/cloud/buster_sword/blade_beam/move_forward

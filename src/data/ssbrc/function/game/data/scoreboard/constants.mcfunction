@@ -50,6 +50,8 @@ scoreboard players set #donkey_kong.orange_grenade const 160
 
 scoreboard players set #hero.magic const 100
 
+scoreboard players set #ice_climbers.snowstorm const 8
+
 scoreboard players set #super_mario_bros.super_jump const 10
 
 scoreboard players set #luigi.ice_ball const 160

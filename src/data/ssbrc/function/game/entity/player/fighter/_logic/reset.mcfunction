@@ -84,7 +84,7 @@ tag @s remove palutena_bow.split
 
 # Pokémon Trainer
 function ssbrc:game/entity/player/fighter/pokemon_trainer/kits/reset
-function ssbrc:game/entity/player/fighter/pokemon_trainer/ivysaur/leech_seed/reset
+function ssbrc:game/entity/player/fighter/pokemon_trainer/leech_seed/reset
 
 # Raiden
 tag @s remove aks_74u

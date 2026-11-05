@@ -39,10 +39,10 @@ execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {skin: "shadow"}}}] positioned ~ ~.75 ~ run function ssbrc:game/entity/player/fighter/_logic/trail/shadow
 scoreboard players reset @s flag.walking
 
-execute if score @s petrified matches 1.. run function ssbrc:game/entity/player/fighter/altered_beast/werebear/petrifying_breath/tick_target
+execute if score @s petrified matches 1.. run function ssbrc:game/entity/player/fighter/altered_beast/petrifying_breath/tick_target
 
-execute if score @s leech_seed.timer matches 1.. run function ssbrc:game/entity/player/fighter/pokemon_trainer/ivysaur/leech_seed/calculate
-execute if score @s leech_seed.stacks matches 1.. run function ssbrc:game/entity/player/fighter/pokemon_trainer/ivysaur/leech_seed/calculate_healing
+execute if score @s leech_seed.timer matches 1.. run function ssbrc:game/entity/player/fighter/pokemon_trainer/leech_seed/calculate
+execute if score @s leech_seed.stacks matches 1.. run function ssbrc:game/entity/player/fighter/pokemon_trainer/leech_seed/calculate_healing
 
 scoreboard players remove @s[scores={shadow.chaos_control=1..}] shadow.chaos_control 1
 attribute @s[scores={shadow.chaos_control=1}] minecraft:movement_speed modifier remove ssbrc:chaos_control

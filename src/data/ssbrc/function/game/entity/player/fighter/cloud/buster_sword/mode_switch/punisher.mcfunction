@@ -13,5 +13,3 @@ tellraw @s ["", {translate: "ssbrc.fighter.cloud.mode_switch", bold: true, color
 playsound ssbrc:fighter.cloud.mode_switch.punisher player @a
 
 advancement grant @s only ssbrc:ui/popup/cloud
-
-advancement revoke @s only ssbrc:utility/use_item/fighter/cloud/mode_switch/punisher

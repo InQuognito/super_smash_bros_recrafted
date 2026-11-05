@@ -1,0 +1,1 @@
+execute rotated as @s summon minecraft:horse run function ssbrc:game/entity/steed_charge/init with entity @a[predicate=ssbrc:owner,limit=1] equipment.body.components."minecraft:custom_data".temp.fighter

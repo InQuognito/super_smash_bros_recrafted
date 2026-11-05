@@ -3,5 +3,5 @@ function ssbrc:game/entity/player/fighter/sora/blizzard/blizzaga/offset {axis: "
 
 function ssbrc:game/entity/player/fighter/sora/blizzard/blizzaga/start with storage ssbrc:temp cache.rotation
 
-scoreboard players remove projectile temp 1
-execute if score projectile temp matches 1.. run function ssbrc:game/entity/player/fighter/sora/blizzard/blizzaga/projectile
+scoreboard players remove #projectile temp 1
+execute if score #projectile temp matches 1.. run function ssbrc:game/entity/player/fighter/sora/blizzard/blizzaga/projectile

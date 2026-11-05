@@ -96,7 +96,7 @@
 	"fighter.altered_beast.werebear.petrifying_breath.activate": {
 		"sounds": [
 			{
-				"name": "ssbrc:fighter/altered_beast/werebear/petrifying_breath/activate",
+				"name": "ssbrc:fighter/altered_beast/petrifying_breath/activate",
 				"stream": false,
 				"volume": 1.0
 			}
@@ -105,7 +105,7 @@
 	"fighter.altered_beast.werebear.petrifying_breath.deactivate": {
 		"sounds": [
 			{
-				"name": "ssbrc:fighter/altered_beast/werebear/petrifying_breath/deactivate",
+				"name": "ssbrc:fighter/altered_beast/petrifying_breath/deactivate",
 				"stream": false,
 				"volume": 1.0
 			}
@@ -114,7 +114,7 @@
 	"fighter.altered_beast.werebear.petrifying_breath.hit": {
 		"sounds": [
 			{
-				"name": "ssbrc:fighter/altered_beast/werebear/petrifying_breath/hit",
+				"name": "ssbrc:fighter/altered_beast/petrifying_breath/hit",
 				"stream": false,
 				"volume": 1.0
 			}

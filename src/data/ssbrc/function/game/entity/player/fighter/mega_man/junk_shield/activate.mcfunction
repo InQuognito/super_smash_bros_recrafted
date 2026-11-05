@@ -1,30 +1,5 @@
-tag @s add junk_shield
+tag @s remove junk_shield
 
-function ssbrc:game/entity/player/fighter/_logic/ability/init
+execute as @e[type=minecraft:item_display,tag=junk_shield,predicate=ssbrc:owner] run function ssbrc:game/entity/player/fighter/mega_man/junk_shield/unleash
 
-execute store result storage ssbrc:temp cache.rotation int 1 run scoreboard players set #rotation temp 0
-execute store result score #pos_y temp run data get entity @s Pos[1] 10.0
-
-scoreboard players set #ground_search temp 100
-function ssbrc:game/block/execute_at_ground {result: "execute summon minecraft:item_display run function ssbrc:game/entity/player/fighter/mega_man/junk_shield/summon with storage ssbrc:temp cache"}
-scoreboard players set #ground_search temp 100
-function ssbrc:game/block/execute_at_ground {result: "execute summon minecraft:item_display run function ssbrc:game/entity/player/fighter/mega_man/junk_shield/summon with storage ssbrc:temp cache"}
-scoreboard players set #ground_search temp 100
-function ssbrc:game/block/execute_at_ground {result: "execute summon minecraft:item_display run function ssbrc:game/entity/player/fighter/mega_man/junk_shield/summon with storage ssbrc:temp cache"}
-scoreboard players set #ground_search temp 100
-function ssbrc:game/block/execute_at_ground {result: "execute summon minecraft:item_display run function ssbrc:game/entity/player/fighter/mega_man/junk_shield/summon with storage ssbrc:temp cache"}
-scoreboard players set #ground_search temp 100
-function ssbrc:game/block/execute_at_ground {result: "execute summon minecraft:item_display run function ssbrc:game/entity/player/fighter/mega_man/junk_shield/summon with storage ssbrc:temp cache"}
-scoreboard players set #ground_search temp 100
-function ssbrc:game/block/execute_at_ground {result: "execute summon minecraft:item_display run function ssbrc:game/entity/player/fighter/mega_man/junk_shield/summon with storage ssbrc:temp cache"}
-scoreboard players set #ground_search temp 100
-function ssbrc:game/block/execute_at_ground {result: "execute summon minecraft:item_display run function ssbrc:game/entity/player/fighter/mega_man/junk_shield/summon with storage ssbrc:temp cache"}
-scoreboard players set #ground_search temp 100
-function ssbrc:game/block/execute_at_ground {result: "execute summon minecraft:item_display run function ssbrc:game/entity/player/fighter/mega_man/junk_shield/summon with storage ssbrc:temp cache"}
-
-scoreboard players remove @s mega_man.junk_shield 1
-function ssbrc:game/entity/player/fighter/mega_man/update with entity @s SelectedItem.components."minecraft:custom_data"
-
-function ssbrc:game/entity/player/fighter/_logic/effects/immobile/activate {type: "air_stall", duration: 15}
-
-playsound ssbrc:fighter.mega_man.junk_shield.activate player @a
+playsound ssbrc:fighter.mega_man.junk_shield.deactivate player @a
