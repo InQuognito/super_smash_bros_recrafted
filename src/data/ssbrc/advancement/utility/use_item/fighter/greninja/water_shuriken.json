@@ -1,0 +1,26 @@
+{
+	"parent": "ssbrc:utility/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"player": {
+					"type": "minecraft:all_of",
+					"terms": [
+						"ssbrc:cooldown/universal"
+					]
+				},
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": {
+							"item": "water_shuriken"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:game/entity/player/fighter/greninja/water_shuriken/_use_item"
+	}
+}

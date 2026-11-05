@@ -1,3 +1,5 @@
+advancement revoke @s only ssbrc:utility/use_item/fighter/pikachu/electric_terrain
+
 execute store result score #cache temp if entity @e[type=minecraft:marker,tag=electric_terrain,predicate=ssbrc:owner]
 execute if score #cache temp matches 1.. run return fail
 

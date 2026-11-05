@@ -1,3 +1,5 @@
+advancement revoke @s only ssbrc:utility/use_item/fighter/joker/tt33
+
 function ssbrc:game/entity/player/fighter/joker/tt33/offset {axis: "x"}
 function ssbrc:game/entity/player/fighter/joker/tt33/offset {axis: "y"}
 
