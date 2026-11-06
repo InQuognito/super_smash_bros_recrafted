@@ -1,5 +1,6 @@
 tag @s remove float
-tag @s add no_float
+
+scoreboard players set @s cooldown.1 50
 
 scoreboard players set @s charge.1 0
 

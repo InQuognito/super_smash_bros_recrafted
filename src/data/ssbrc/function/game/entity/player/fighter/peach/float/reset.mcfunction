@@ -1,4 +1,1 @@
-tag @s remove no_float
-
-scoreboard players set @s cooldown.1 40
 scoreboard players set @s charge.1 30
