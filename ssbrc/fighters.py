@@ -1320,13 +1320,13 @@ fighters = {
 			'gold': {
 				'inherit': 'head'
 			},
-			'assault': {
-				'rarity': 'rare',
-				'color': 'blue'
-			},
 			'adventures': {
 				'rarity': 'uncommon',
 				'color': 'yellow'
+			},
+			'assault': {
+				'rarity': 'rare',
+				'color': 'blue'
 			},
 			'g_zero': {
 				'rarity': 'uncommon',
