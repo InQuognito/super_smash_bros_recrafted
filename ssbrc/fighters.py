@@ -2494,6 +2494,11 @@ fighters = {
 			'revived': {
 				'rarity': 'uncommon',
 				'color': 'white'
+			},
+			'eggplant': {
+				'rarity': 'unique',
+				'price': 1986,
+				'color': 'dark_purple'
 			}
 		},
 		'true_forms': True,
