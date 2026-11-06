@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:div",
+	"left": {
+		"type": "minecraft:pow",
+		"base": {
+			"type": "minecraft:from_int",
+			"input": {
+				"type": "minecraft:score",
+				"target": "this",
+				"score": "health"
+			}
+		},
+		"exponent": 0.75
+	},
+	"right": 5
+}
