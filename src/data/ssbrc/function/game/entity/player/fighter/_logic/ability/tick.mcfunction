@@ -30,7 +30,7 @@ execute if entity @s[tag=tnt_barrel] run return run function ssbrc:game/entity/p
 execute if entity @s[tag=steel_keg] run return run function ssbrc:game/entity/player/fighter/donkey_kong/steel_keg/tick
 
 # Fox
-execute if entity @s[tag=krazoan_fireball] run return run function ssbrc:game/entity/player/fighter/fox/krazoan_fireball/tick
+execute if entity @s[tag=krazoan_staff] run return run function ssbrc:game/entity/player/fighter/fox/krazoan_staff/tick
 execute if entity @s[tag=fox_blaster] run return run function ssbrc:game/entity/player/fighter/fox/fox_blaster/tick
 
 # Ganondorf
