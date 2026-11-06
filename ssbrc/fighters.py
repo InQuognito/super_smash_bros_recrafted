@@ -182,7 +182,7 @@ fighters = {
 			'golf_club': {
 				'type': 'custom_swing',
 				'stats': {
-					'attack_damage': 40,
+					'attack_damage': 45,
 					'attack_speed': 1.75,
 					'minimum_attack_charge': 0.75
 				},
@@ -197,7 +197,7 @@ fighters = {
 			'tennis_racket': {
 				'type': 'custom_swing',
 				'stats': {
-					'attack_damage': 20,
+					'attack_damage': 35,
 					'attack_speed': 2.5,
 					'minimum_attack_charge': 0.75
 				},

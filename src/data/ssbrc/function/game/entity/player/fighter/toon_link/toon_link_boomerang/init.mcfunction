@@ -1,6 +1,11 @@
 tag @s add toon_link_boomerang
-tag @s add ssbrc.delete_behavior.reflect
-tag @s add ssbrc.reflect_behavior.motion_only
+
+data merge entity @s { \
+	data: { \
+		delete_behavior: "reflect", \
+		reflect_behavior: "motion_only", \
+	}, \
+}
 
 item replace entity @s contents with minecraft:stick[minecraft:item_model="ssbrc:fighter/toon_link/toon_link_boomerang"]
 

@@ -4,6 +4,6 @@ execute if entity @s[type=#ssbrc:movement/motion] run function ssbrc:game/entity
 teleport @s[type=!#ssbrc:movement/motion,type=!minecraft:armor_stand] ~ ~ ~ facing ^ ^ ^-1
 execute at @s[type=minecraft:armor_stand] run function ssbrc:game/entity/player/fighter/_logic/reflect/armor_stands
 
-execute if entity @s[tag=reflect_behavior.motion_only] run return 1
+execute if data entity @s data{reflect_behavior: "motion_only"} run return 1
 scoreboard players operation @s id = @a[predicate=ssbrc:owner,limit=1] id
 data modify entity @s Owner set from entity @a[predicate=ssbrc:owner,limit=1] UUID
