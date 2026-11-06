@@ -1851,7 +1851,7 @@ fighters = {
 				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 3,
+					'attack_speed': 2.5,
 					'cooldown_group': 'greninja/shadow_sneak',
 					'cooldown': 1
 				},

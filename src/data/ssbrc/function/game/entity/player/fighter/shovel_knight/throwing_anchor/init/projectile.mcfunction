@@ -5,7 +5,7 @@ item replace entity @s armor.head with minecraft:stick[ \
 ]
 
 data merge entity @s { \
-	Small: 1b, \
+	Small: true, \
 }
 
 data modify entity @s Rotation set from entity @a[predicate=ssbrc:owner,limit=1] Rotation

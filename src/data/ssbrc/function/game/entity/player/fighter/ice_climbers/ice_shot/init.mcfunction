@@ -7,7 +7,7 @@ attribute @s minecraft:bounciness base set .5
 attribute @s minecraft:friction_modifier base set 0
 
 data merge entity @s { \
-	Small: 1b, \
+	Small: true, \
 }
 
 function ssbrc:game/entity/_logic/init/type/armor_stand/projectile_horizontal

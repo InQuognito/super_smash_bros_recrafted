@@ -7,7 +7,7 @@ data merge entity @s { \
 		delete_behavior: "reflect", \
 		reflect_behavior: "motion_only", \
 	}, \
-	Small: 1b, \
+	Small: true, \
 }
 
 function ssbrc:game/entity/_logic/init/type/armor_stand/bouncing

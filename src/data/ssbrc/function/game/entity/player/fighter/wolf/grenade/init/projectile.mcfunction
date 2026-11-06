@@ -9,7 +9,7 @@ attribute @s minecraft:bounciness base set .6
 attribute @s minecraft:friction_modifier base set .8
 
 data merge entity @s { \
-	Small: 1b, \
+	Small: true, \
 }
 
 function ssbrc:game/entity/_logic/init/type/armor_stand/normal

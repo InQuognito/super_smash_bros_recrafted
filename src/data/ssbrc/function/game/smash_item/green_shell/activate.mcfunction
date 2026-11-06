@@ -1,6 +1,6 @@
 function ssbrc:game/entity/player/fighter/_logic/ability/init
 
-execute anchored eyes rotated ~ 0 positioned ^ ^ ^.5 summon minecraft:armor_stand run function ssbrc:game/smash_item/green_shell/init/projectile
+execute anchored eyes rotated ~ 0 positioned ^ ^ ^.5 summon minecraft:marker run function ssbrc:game/smash_item/green_shell/init/marker
 
 scoreboard players set @s cooldown 10
 
