@@ -43,6 +43,9 @@ $item replace entity @s $(slot) with minecraft:shield[ \
 		item: "$(item)", \
 		group: "$(group)", \
 		damage: $(attack_damage), \
+		interaction: { \
+			type: "ability", \
+		}, \
 	}, \
 	minecraft:custom_model_data = { \
 		strings: [ \
