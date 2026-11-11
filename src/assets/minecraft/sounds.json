@@ -89,6 +89,10 @@
 		],
 		"replace": true
 	},
+	"entity.arrow.shoot": {
+		"sounds": [],
+		"replace": true
+	},
 	"entity.horse.saddle": {
 		"sounds": [],
 		"replace": true
