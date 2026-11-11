@@ -24,5 +24,3 @@ function ssbrc:game/entity/player/fighter/_logic/hud/type/percentage { \
 	resource_color: "red", \
 	bg_color: "white", \
 }
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

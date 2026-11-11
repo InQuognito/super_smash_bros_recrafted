@@ -4,4 +4,4 @@ execute if items entity @s weapon.mainhand *[minecraft:custom_data~{command: "st
 
 execute if items entity @s weapon.mainhand *[minecraft:custom_data~{command: "recall"}] run return run function ssbrc:game/entity/yar_drone/commands/recall/activate
 
-function ssbrc:game/entity/yar_drone/activate/check
+function ssbrc:game/entity/yar_drone/commands/activate

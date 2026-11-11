@@ -15,5 +15,3 @@ execute at @n[type=minecraft:armor_stand,tag=smoke_grenade] if entity @s[tag=nig
 
 # Night Vision Goggles
 execute if entity @s[tag=night_vision_goggles] run function ssbrc:game/entity/player/fighter/snake/night_vision_goggles/clear_smoke_effects
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

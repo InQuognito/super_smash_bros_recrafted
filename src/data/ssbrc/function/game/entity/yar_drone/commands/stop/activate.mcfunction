@@ -4,4 +4,4 @@ execute as @e[type=minecraft:bee,predicate=ssbrc:owner] if data entity @s data{i
 
 function ssbrc:game/entity/yar_drone/commands/stop/activate_force
 
-function ssbrc:game/entity/yar_drone/commands/init
+playsound ssbrc:fighter.yar.drone.activate player @a

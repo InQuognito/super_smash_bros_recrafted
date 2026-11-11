@@ -9,5 +9,3 @@ function ssbrc:game/item/durability/remove
 clear @s *[minecraft:custom_data~{item: "ray_gun"},minecraft:damage~{durability: 0}]
 
 playsound ssbrc:smash_item.ray_gun.activate player @a
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

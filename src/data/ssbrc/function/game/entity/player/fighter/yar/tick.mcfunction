@@ -11,5 +11,3 @@ execute if score @s duration.1 matches 1 run function ssbrc:game/entity/player/f
 
 # Omnishot
 execute if items entity @s[scores={duration.1=1..}] armor.body *[minecraft:custom_data~{temp: {fighter: {power_up: "omnishot"}}}] run function ssbrc:game/entity/player/fighter/yar/omnishot/tick
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

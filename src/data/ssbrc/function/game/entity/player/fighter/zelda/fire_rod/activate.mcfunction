@@ -6,5 +6,3 @@ execute unless score @s zelda.magic_fountain matches 1.. run scoreboard players 
 function ssbrc:game/entity/player/fighter/zelda/magic/update
 
 playsound ssbrc:fighter.zelda.fire_rod.activate player @a
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

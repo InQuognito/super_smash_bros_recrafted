@@ -5,5 +5,3 @@ execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {
 
 # Hot Air
 execute if entity @s[scores={cooldown.2=..0},predicate=ssbrc:flag/sneaking] run function ssbrc:game/entity/player/fighter/jigglypuff/hot_air/tick
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

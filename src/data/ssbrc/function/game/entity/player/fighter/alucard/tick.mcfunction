@@ -10,5 +10,3 @@ execute if score @s duration.1 matches 1.. positioned ~ ~.75 ~ run function ssbr
 
 # Blood Metamorphosis
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {form: "blood_metamorphosis"}}}] run particle minecraft:mycelium ~ ~.5 ~ .35 .7 .35 1 5 normal @a
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

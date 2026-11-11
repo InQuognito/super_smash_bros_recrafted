@@ -6,5 +6,3 @@ execute if score @s duration.1 matches 1.. anchored eyes positioned ^ ^ ^1 as @e
 # Float
 execute if entity @s[scores={charge.1=1..,cooldown.1=..0},predicate=ssbrc:flag/sneaking,predicate=!ssbrc:flag/grounded] run function ssbrc:game/entity/player/fighter/peach/float/check
 execute if entity @s[tag=float,predicate=!ssbrc:flag/sneaking] run function ssbrc:game/entity/player/fighter/peach/float/deactivate
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

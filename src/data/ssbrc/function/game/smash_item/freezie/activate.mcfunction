@@ -7,5 +7,3 @@ scoreboard players set @s cooldown 10
 clear @s *[minecraft:custom_data~{item: "freezie"}]
 
 playsound ssbrc:smash_item.freezie.activate player @a
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

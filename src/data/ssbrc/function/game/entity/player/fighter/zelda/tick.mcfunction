@@ -24,5 +24,3 @@ execute if score @s zelda.shatter_resist matches 1.. run function ssbrc:game/ent
 execute if score @s zelda.silent_princess matches 1.. run function ssbrc:game/entity/player/fighter/zelda/blessings/silent_princess/tick
 
 execute if score @s zelda.special_bond matches 1.. run function ssbrc:game/entity/player/fighter/zelda/blessings/special_bond/tick
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

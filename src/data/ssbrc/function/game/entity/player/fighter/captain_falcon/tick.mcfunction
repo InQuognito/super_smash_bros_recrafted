@@ -15,5 +15,3 @@ execute if score @s duration.3 matches 1.. run function ssbrc:game/entity/player
 execute if entity @s[tag=!falcon_kick,scores={silenced=..0,cooldown.2=..0},predicate=ssbrc:flag/sneaking,predicate=!ssbrc:flag/grounded] run function ssbrc:game/entity/player/fighter/captain_falcon/falcon_kick/activate
 
 execute if entity @s[tag=falcon_kick] run function ssbrc:game/entity/player/fighter/captain_falcon/falcon_kick/tick
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

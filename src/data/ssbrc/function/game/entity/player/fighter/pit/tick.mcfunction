@@ -9,5 +9,3 @@ execute if entity @s[tag=guardian_orbitars,predicate=!ssbrc:flag/sneaking] run f
 execute if score @s flight_time matches 4500.. run particle minecraft:small_flame ~ ~.75 ~ .2 .4 .2 .1 3 normal @a
 execute if score @s flight_time matches 5000.. run function ssbrc:game/entity/player/fighter/pit/wings/burn
 execute if score @s timer matches 1.. run function ssbrc:game/entity/player/fighter/pit/wings/regain/timer
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

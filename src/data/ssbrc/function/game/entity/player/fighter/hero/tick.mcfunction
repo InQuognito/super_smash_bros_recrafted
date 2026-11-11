@@ -13,5 +13,3 @@ execute if score @s[tag=oomph] duration.1 matches 1.. run function ssbrc:game/en
 execute if score @s[tag=kamikazee] charge.1 matches 1.. positioned ~ ~.75 ~ run function ssbrc:game/entity/player/fighter/hero/kamikazee/tick
 
 execute if score @s[tag=magic_burst] charge.1 matches 1.. positioned ~ ~.75 ~ run function ssbrc:game/entity/player/fighter/hero/magic_burst/tick
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

@@ -7,5 +7,3 @@ scoreboard players set @s cooldown 10
 clear @s *[minecraft:custom_data~{item: "green_shell"}]
 
 playsound ssbrc:smash_item.green_shell.activate player @a
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

@@ -5,5 +5,3 @@ execute if items entity @s[scores={silenced=..0,charge=1..,cooldown=..0,duration
 
 # Phazon Overload
 execute if score @s duration.1 matches 1.. run function ssbrc:game/entity/player/fighter/dark_samus/phazon_overload/tick
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

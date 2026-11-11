@@ -4,5 +4,3 @@ function ssbrc:game/entity/player/fighter/_logic/ability/init
 
 execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ssbrc:game/entity/player/fighter/dark_samus/phazon_beam/init
 execute if score @s charge matches 10.. run advancement grant @s only ssbrc:ui/popup/dark_samus
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

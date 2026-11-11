@@ -14,5 +14,3 @@ execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {form: "weretiger"}}}] run return run function ssbrc:game/entity/player/fighter/altered_beast/weretiger/tick
 
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {form: "werewolf"}}}] run return run function ssbrc:game/entity/player/fighter/altered_beast/werewolf/tick
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

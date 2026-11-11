@@ -8,5 +8,3 @@ execute if entity @s[scores={silenced=..0,cooldown.3=..0},predicate=ssbrc:flag/s
 
 scoreboard players add @s[scores={charge.2=1..}] charge.2 1
 execute if score @s charge.2 matches 10.. run function ssbrc:game/entity/player/fighter/giegue/jump/reset
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

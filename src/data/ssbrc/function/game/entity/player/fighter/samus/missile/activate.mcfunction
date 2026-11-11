@@ -7,5 +7,3 @@ function ssbrc:game/entity/player/fighter/samus/missile/update
 
 playsound ssbrc:fighter.samus.missile.activate player @a
 playsound ssbrc:fighter.samus.missile.loop player @a
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

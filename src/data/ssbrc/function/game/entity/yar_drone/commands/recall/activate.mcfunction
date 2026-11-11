@@ -4,4 +4,4 @@ execute as @e[type=minecraft:bee,predicate=ssbrc:owner] if data entity @s data{i
 
 function ssbrc:game/item/modify {search_key: "item", search_value: "yar_drone", path: "ssbrc:fighter/yar/drone/null"}
 
-function ssbrc:game/entity/yar_drone/commands/init
+playsound ssbrc:fighter.yar.drone.activate player @a

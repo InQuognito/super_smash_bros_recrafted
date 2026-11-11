@@ -6,5 +6,3 @@ execute if score #cache temp matches ..3 run function ssbrc:game/entity/player/f
 
 # Shadow Sneak
 execute if entity @s[tag=shadow_sneak,predicate=ssbrc:flag/sneaking] run function ssbrc:game/entity/player/fighter/greninja/shadow_sneak/deactivate
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

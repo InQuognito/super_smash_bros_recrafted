@@ -9,5 +9,3 @@ function ssbrc:game/item/durability/remove
 clear @s *[minecraft:custom_data~{item: "steel_diver"},minecraft:damage~{durability: 0}]
 
 playsound ssbrc:smash_item.steel_diver.activate player @a
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

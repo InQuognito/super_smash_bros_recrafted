@@ -9,5 +9,3 @@ execute if items entity @s[scores={silenced=..0},predicate=ssbrc:flag/sneaking,p
 execute if entity @s[tag=phase_locket,scores={duration.2=1..}] run function ssbrc:game/entity/player/fighter/shovel_knight/phase_locket/tick
 
 effect clear @s[scores={duration.2=1}] minecraft:levitation
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

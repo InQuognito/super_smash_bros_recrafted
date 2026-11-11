@@ -20,5 +20,3 @@ execute if score #in_electric_terrain temp matches 1 run scoreboard players set 
 scoreboard players set @s[scores={silenced=1..}] flag.sprinting 0
 
 function ssbrc:game/entity/player/fighter/shadow/speed/tick
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

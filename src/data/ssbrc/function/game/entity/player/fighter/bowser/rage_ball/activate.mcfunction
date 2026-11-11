@@ -9,5 +9,3 @@ execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ss
 function ssbrc:game/item/cooldown/set/const {type: 2, value: 80}
 
 playsound ssbrc:fighter.bowser.rage_ball.activate player @a
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

@@ -17,5 +17,3 @@ execute if score @s charge.3 matches 1.. run function ssbrc:game/entity/player/f
 
 # Anti Form
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {form: "anti"}}}] positioned ~ ~.75 ~ run function ssbrc:game/entity/player/fighter/sora/drive_forms/anti/tick
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

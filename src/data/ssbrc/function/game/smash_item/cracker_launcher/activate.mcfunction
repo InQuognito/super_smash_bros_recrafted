@@ -9,5 +9,3 @@ function ssbrc:game/item/durability/remove
 clear @s *[minecraft:custom_data~{item: "cracker_launcher"},minecraft:damage~{durability: {max: 0}}]
 
 playsound ssbrc:smash_item.cracker_launcher.activate player @a
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit

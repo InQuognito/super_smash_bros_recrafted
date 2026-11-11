@@ -15,5 +15,3 @@ function ssbrc:game/entity/player/fighter/mario/ground_pound/tick
 #attribute @s[scores={charge.4=1}] minecraft:gravity modifier remove ssbrc:zero
 
 #execute unless predicate ssbrc:flag/in_water rotated ~ 0 if block ^ ^-.2 ^.5 minecraft:water run return run attribute @s[predicate=ssbrc:flag/grounded] minecraft:gravity modifier add ssbrc:zero -1 add_multiplied_total
-
-function ssbrc:game/entity/player/fighter/_logic/ability/deinit
