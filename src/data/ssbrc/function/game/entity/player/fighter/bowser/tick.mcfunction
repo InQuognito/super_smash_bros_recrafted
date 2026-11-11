@@ -4,8 +4,7 @@ function ssbrc:game/entity/player/fighter/_logic/ability/init
 execute if score @s[scores={charge=..0,cooldown.2=..0}] charge.1 < #bowser.fire_breath const run function ssbrc:game/entity/player/fighter/bowser/fire_breath/increase
 
 # Rage
-execute if score @s charge.2 matches 1.. run function ssbrc:game/entity/player/fighter/bowser/rage/charge
-execute if score @s duration.1 matches 1.. run function ssbrc:game/entity/player/fighter/bowser/rage/tick
+function ssbrc:game/entity/player/fighter/bowser/rage/tick
 
 # Ground Pound
 execute if entity @s[tag=ground_pound] run return fail
