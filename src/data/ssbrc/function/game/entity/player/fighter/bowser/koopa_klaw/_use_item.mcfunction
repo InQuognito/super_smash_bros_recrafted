@@ -1,3 +1,4 @@
+execute unless score @s charge matches 7.. run return fail
 execute if score @s charge matches 7 run playsound ssbrc:fighter.bowser.fire_breath.activate player @a
 
 scoreboard players remove @s[scores={charge.1=1..}] charge.1 1
