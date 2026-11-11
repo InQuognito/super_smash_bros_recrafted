@@ -263,9 +263,6 @@ fighters = {
 				},
 				'default': {
 					'name': 'ssbrc.fighter.bowser.koopa_klaw',
-					'color': 'dark_gray'
-				},
-				'gold': {
 					'color': 'gold'
 				}
 			}

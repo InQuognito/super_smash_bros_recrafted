@@ -1,3 +1,5 @@
+execute if score @s invincible matches 1.. run return fail
+
 execute store result storage ssbrc:temp cache.damage.amount int 1 run scoreboard players get #damage temp
 
 scoreboard players operation @s attacker = #id temp
