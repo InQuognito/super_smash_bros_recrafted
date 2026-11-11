@@ -2,8 +2,4 @@ function ssbrc:game/item/init/slot {item: "koopa_klaw", slot: "hotbar.0", class:
 
 function ssbrc:game/item/init/type/arrow/set {count: 1}
 
-scoreboard players set @s charge.1 100
-scoreboard players set @s charge.2 1
-
-function ssbrc:game/entity/player/fighter/bowser/fire_breath/update
-function ssbrc:game/entity/player/fighter/bowser/rage/update
+function ssbrc:game/entity/player/fighter/bowser/restore_items
