@@ -299,8 +299,8 @@ fighters = {
 				'type': 'hybrid',
 				'stats': {
 					'speed_multiplier': 0,
-					'attack_damage': 50,
-					'attack_speed': 1.75
+					'attack_damage': 40,
+					'attack_speed': 1.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.donkey_kong.banana_slamma',
@@ -312,7 +312,7 @@ fighters = {
 				'group': 'barrel',
 				'stats': {
 					'max_damage': 1,
-					'attack_damage': 60,
+					'attack_damage': 50,
 					'attack_speed': 2,
 					'item_damage_per_attack': 1
 				},
@@ -340,7 +340,7 @@ fighters = {
 				'group': 'barrel',
 				'stats': {
 					'max_damage': 2,
-					'attack_damage': 70,
+					'attack_damage': 50,
 					'attack_speed': 1.5
 				},
 				'default': {
