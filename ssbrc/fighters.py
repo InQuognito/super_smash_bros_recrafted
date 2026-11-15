@@ -3296,7 +3296,7 @@ fighters = {
 				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 60,
-					'attack_speed': 3,
+					'attack_speed': 1.5,
 					'cooldown_group': 'ryu/hadouken',
 					'cooldown': 1
 				},

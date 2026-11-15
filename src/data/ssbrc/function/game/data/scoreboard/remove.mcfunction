@@ -12,6 +12,7 @@ scoreboard objectives remove charge.4
 scoreboard objectives remove combo.count
 scoreboard objectives remove combo.duration
 scoreboard objectives remove const
+scoreboard objectives remove controller
 scoreboard objectives remove cooldown
 scoreboard objectives remove cooldown.1
 scoreboard objectives remove cooldown.2
@@ -114,6 +115,7 @@ scoreboard objectives remove sandbag.stand_on
 scoreboard objectives remove ssbrc.vfx_type
 scoreboard objectives remove selected_item
 scoreboard objectives remove selected_item.prev
+scoreboard objectives remove self_destruct
 scoreboard objectives remove shadow.chaos_control
 scoreboard objectives remove shadow.meter.hero
 scoreboard objectives remove shadow.meter.dark
@@ -130,7 +132,7 @@ scoreboard objectives remove stage_vote
 scoreboard objectives remove stats.credits.temp
 scoreboard objectives remove steve.tier
 scoreboard objectives remove stocks
-scoreboard objectives remove self_destruct
+scoreboard objectives remove struggle
 scoreboard objectives remove team
 scoreboard objectives remove temp
 scoreboard objectives remove timer

@@ -13,6 +13,8 @@ scoreboard players remove @s[scores={duration.3=1..}] duration.3 1
 scoreboard players remove @s[scores={armor_break=1..}] armor_break 1
 execute if score @s armor_break matches 1 run function ssbrc:game/entity/player/fighter/_logic/effects/armor_break/deactivate
 
+execute if score @s controller matches 1.. at @n[predicate=ssbrc:controller] positioned ~ ~.75 ~ run function ssbrc:game/entity/player/fighter/_logic/effects/controller/tick
+
 execute if score @s regeneration matches 1.. run function ssbrc:game/entity/player/fighter/_logic/effects/regeneration/tick with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
 execute if score @s burning matches 1.. run function ssbrc:game/entity/player/fighter/_logic/effects/burning/tick
@@ -22,6 +24,8 @@ execute if score @s poison matches 1.. run function ssbrc:game/entity/player/fig
 execute if score @s flower matches 1.. run function ssbrc:game/entity/player/fighter/_logic/effects/flower/tick
 
 execute if score @s frostbite.timer matches 1.. run function ssbrc:game/entity/player/fighter/_logic/attributes/modifiers/frostbite/tick
+
+execute if score @s dazed matches 1.. run function ssbrc:game/entity/player/fighter/_logic/effects/dazed/tick
 
 execute if score @s gigantic matches 1.. run function ssbrc:game/entity/player/fighter/_logic/effects/gigantic/tick
 

@@ -12,6 +12,7 @@ scoreboard objectives add charge.4 dummy
 scoreboard objectives add combo.count dummy
 scoreboard objectives add combo.duration dummy
 scoreboard objectives add const dummy
+scoreboard objectives add controller dummy
 scoreboard objectives add cooldown dummy
 scoreboard objectives add cooldown.1 dummy
 scoreboard objectives add cooldown.2 dummy
@@ -119,6 +120,7 @@ scoreboard objectives add sandbag.stand_on dummy
 scoreboard objectives add ssbrc.vfx_type dummy
 scoreboard objectives add selected_item dummy
 scoreboard objectives add selected_item.prev dummy
+scoreboard objectives add self_destruct dummy
 scoreboard objectives add shadow.chaos_control dummy
 scoreboard objectives add shadow.meter.hero dummy
 scoreboard objectives add shadow.meter.dark dummy
@@ -134,7 +136,7 @@ scoreboard objectives add stage_select dummy
 scoreboard objectives add stage_vote dummy
 scoreboard objectives add steve.tier dummy
 scoreboard objectives add stocks dummy
-scoreboard objectives add self_destruct dummy
+scoreboard objectives add struggle dummy
 scoreboard objectives add team dummy
 scoreboard objectives add temp dummy
 scoreboard objectives add timer dummy

@@ -1,3 +1,3 @@
-function ssbrc:game/entity/player/fighter/_logic/effects/immobile/deactivate
+attribute @s minecraft:jump_strength modifier remove ssbrc:dazed
 
-function ssbrc:game/entity/player/fighter/_logic/effects/silenced/deactivate
+attribute @s minecraft:movement_speed modifier remove ssbrc:dazed

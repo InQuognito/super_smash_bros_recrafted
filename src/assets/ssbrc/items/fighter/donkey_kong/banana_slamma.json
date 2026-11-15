@@ -4,21 +4,21 @@
 		"property": "minecraft:use_duration",
 		"entries": [
 			{
-				"threshold": 20,
+				"threshold": 30,
 				"model": {
 					"type": "minecraft:model",
 					"model": "minecraft:block/barrel"
 				}
 			},
 			{
-				"threshold": 40,
+				"threshold": 50,
 				"model": {
 					"type": "minecraft:model",
 					"model": "minecraft:item/tnt_minecart"
 				}
 			},
 			{
-				"threshold": 60,
+				"threshold": 70,
 				"model": {
 					"type": "minecraft:model",
 					"model": "minecraft:item/iron_block"
