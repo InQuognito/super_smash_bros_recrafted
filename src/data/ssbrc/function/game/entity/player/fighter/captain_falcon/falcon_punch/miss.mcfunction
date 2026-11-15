@@ -1,4 +1,4 @@
-tag @s add falcon_punch_missed
+function ssbrc:game/entity/player/fighter/_logic/effects/immobile/effects/activate
 
 function ssbrc:game/item/modify { \
 	search_key: "item", \

@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/entity/player/fighter/donkey_kong/banana_slamma/_use_item"
+					"function": "ssbrc:game/entity/player/fighter/donkey_kong/banana_slamma/_unleash"
 				}
 			}
 		],

@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/entity/player/fighter/ganondorf/summon_undead/check"
+					"function": "ssbrc:game/entity/player/fighter/ganondorf/summon_undead/_unleash"
 				}
 			}
 		],

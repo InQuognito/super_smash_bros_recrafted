@@ -20,66 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/entity/player/fighter/captain_falcon/falcon_punch/unleash"
-				},
-				"requirements": {
-					"type": "minecraft:all_of",
-					"terms": [
-						{
-							"type": "minecraft:entity_scores",
-							"entity": "this",
-							"scores": {
-								"charge.1": {
-									"min": 28,
-									"max": 36
-								}
-							}
-						},
-						{
-							"type": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"entity_tags": {
-									"none_of": [
-										"falcon_punch_missed"
-									]
-								}
-							}
-						}
-					]
-				}
-			},
-			{
-				"effect": {
-					"type": "minecraft:run_function",
-					"function": "ssbrc:game/entity/player/fighter/captain_falcon/falcon_punch/miss"
-				},
-				"requirements": {
-					"type": "minecraft:all_of",
-					"terms": [
-						{
-							"type": "minecraft:entity_scores",
-							"entity": "this",
-							"scores": {
-								"charge.1": {
-									"min": 1
-								}
-							}
-						},
-						{
-							"type": "minecraft:inverted",
-							"term": {
-								"type": "minecraft:entity_scores",
-								"entity": "this",
-								"scores": {
-									"charge.1": {
-										"min": 28,
-										"max": 36
-									}
-								}
-							}
-						}
-					]
+					"function": "ssbrc:game/entity/player/fighter/captain_falcon/falcon_punch/_swing"
 				}
 			}
 		]

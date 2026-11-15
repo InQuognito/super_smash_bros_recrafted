@@ -1844,7 +1844,7 @@ fighters = {
 			'default'
 		],
 		'items': {
-			'night_slash': {
+			'cut': {
 				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 50,
@@ -1853,7 +1853,7 @@ fighters = {
 					'cooldown': 1
 				},
 				'default': {
-					'name': 'ssbrc.fighter.greninja.night_slash',
+					'name': 'ssbrc.fighter.greninja.cut',
 					'color': 'dark_gray'
 				}
 			},
