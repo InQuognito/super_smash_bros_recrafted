@@ -1,7 +1,7 @@
 {
 	"parent": "ssbrc:template/item/default",
 	"textures": {
-		"layer0": "ssbrc:fighter/greninja/item/night_slash"
+		"layer0": "ssbrc:fighter/greninja/item/cut"
 	},
 	"display": {
 		"thirdperson_righthand": {
