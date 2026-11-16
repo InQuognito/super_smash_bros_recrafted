@@ -1,4 +1,4 @@
-execute unless score @s resource >= #shovel_knight.war_horn.cost const run return run playsound ssbrc:fighter.shovel_knight.insufficient_magic player @s
+execute unless score @s resource >= #shovel_knight.war_horn const run return run playsound ssbrc:fighter.shovel_knight.insufficient_magic player @s
 
 execute positioned ~ ~.75 ~ summon minecraft:marker run function ssbrc:game/entity/player/fighter/shovel_knight/war_horn/init
 

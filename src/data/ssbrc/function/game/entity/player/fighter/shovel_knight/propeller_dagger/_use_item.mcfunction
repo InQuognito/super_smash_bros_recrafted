@@ -1,4 +1,4 @@
-execute unless score @s resource >= #shovel_knight.propeller_dagger.cost const run return run playsound ssbrc:fighter.shovel_knight.insufficient_magic player @s
+execute unless score @s resource >= #shovel_knight.propeller_dagger const run return run playsound ssbrc:fighter.shovel_knight.insufficient_magic player @s
 
 function ssbrc:game/entity/player/fighter/shovel_knight/propeller_dagger/raycast/start
 

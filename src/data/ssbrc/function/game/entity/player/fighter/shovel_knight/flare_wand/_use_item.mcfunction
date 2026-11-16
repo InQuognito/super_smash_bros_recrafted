@@ -1,4 +1,4 @@
-execute unless score @s resource >= #shovel_knight.flare_wand.cost const run return run playsound ssbrc:fighter.shovel_knight.insufficient_magic player @s
+execute unless score @s resource >= #shovel_knight.flare_wand const run return run playsound ssbrc:fighter.shovel_knight.insufficient_magic player @s
 
 execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ssbrc:game/entity/player/fighter/shovel_knight/flare_wand/init
 

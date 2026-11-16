@@ -1,4 +1,4 @@
-execute unless score @s resource >= #shovel_knight.phase_locket.cost const run return run playsound ssbrc:fighter.shovel_knight.insufficient_magic player @s
+execute unless score @s resource >= #shovel_knight.phase_locket const run return run playsound ssbrc:fighter.shovel_knight.insufficient_magic player @s
 
 tag @s add phase_locket
 
