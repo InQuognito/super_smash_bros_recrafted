@@ -36,9 +36,6 @@ tag @s remove falcon_punch_missed
 # Cloud
 tag @s remove cross_slash.target
 
-# Donkey Kong
-tag @s remove hand_slap
-
 # Greninja
 tag @s remove shadow_sneak
 

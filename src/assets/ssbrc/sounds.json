@@ -736,15 +736,6 @@
 			}
 		]
 	},
-	"fighter.donkey_kong.hand_slap.activate": {
-		"sounds": [
-			{
-				"name": "ssbrc:fighter/donkey_kong/hand_slap/activate",
-				"stream": false,
-				"volume": 1.0
-			}
-		]
-	},
 	"fighter.donkey_kong.jump": {
 		"sounds": [
 			{
