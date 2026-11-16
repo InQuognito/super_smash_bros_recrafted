@@ -85,6 +85,8 @@ scoreboard players set #raiden.nano.weight const 3
 
 scoreboard players set #rob.fuel const 200
 
+scoreboard players set #ryu.hadouken.limit const 1
+
 scoreboard players set #samus.wave_beam const 3
 
 scoreboard players set #shadow.chaos_gauge const 20
