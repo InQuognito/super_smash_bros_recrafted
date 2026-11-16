@@ -3569,7 +3569,8 @@ fighters = {
 				'stats': {
 					'cooldown_group': 'joker/tt33',
 					'cooldown': 0.2,
-					'max_stack_size': 8
+					'max_stack_size': 8,
+					'count': 8
 				},
 				'default': {
 					'name': 'ssbrc.fighter.joker.tt33',
