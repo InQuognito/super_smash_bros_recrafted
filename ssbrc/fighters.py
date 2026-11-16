@@ -1854,7 +1854,7 @@ fighters = {
 				},
 				'default': {
 					'name': 'ssbrc.fighter.greninja.cut',
-					'color': 'dark_gray'
+					'color': 'white'
 				}
 			},
 			'water_shuriken': {
