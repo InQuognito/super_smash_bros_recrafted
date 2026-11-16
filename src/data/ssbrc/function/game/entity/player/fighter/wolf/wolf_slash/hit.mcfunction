@@ -1,5 +1,5 @@
 function ssbrc:game/entity/_logic/health/damage/generic {amount: 140, kb_resist: 0, i_frames: 0}
 
-execute rotated ~ 90 run function ssbrc:game/entity/player/fighter/_logic/motion/launch {strength: 10000}
+execute if entity @s[gamemode=adventure] run execute rotated ~ 90 run function ssbrc:game/entity/player/fighter/_logic/motion/launch {strength: 10000}
 
 playsound ssbrc:fighter.wolf.wolf_flash.hit player @a
