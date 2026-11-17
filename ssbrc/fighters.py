@@ -475,10 +475,10 @@ fighters = {
 				}
 			},
 			'master_sword': {
-				'type': 'hybrid',
+				'type': 'custom_swing',
 				'stats': {
 					'attack_damage': 60,
-					'attack_speed': 3
+					'attack_speed': 2.25
 				},
 				'default': {
 					'name': 'ssbrc.fighter.link.master_sword',
