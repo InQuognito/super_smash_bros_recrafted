@@ -16,6 +16,14 @@
 		"hand"
 	],
 	"effects": {
+		"minecraft:projectile_spawned": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "ssbrc:game/entity/player/fighter/link/link_bow/_unleash"
+				}
+			}
+		],
 		"minecraft:item_damage": [
 			{
 				"effect": {
