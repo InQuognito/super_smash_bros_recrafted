@@ -478,9 +478,7 @@ fighters = {
 				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 60,
-					'attack_speed': 3,
-					'cooldown_group': 'link/master_sword',
-					'cooldown': 1
+					'attack_speed': 3
 				},
 				'default': {
 					'name': 'ssbrc.fighter.link.master_sword',

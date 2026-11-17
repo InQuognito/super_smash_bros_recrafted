@@ -13,7 +13,7 @@
 	},
 	"anvil_cost": 0,
 	"slots": [
-		"hand"
+		"mainhand"
 	],
 	"effects": {
 		"minecraft:post_attack": [
@@ -21,10 +21,8 @@
 				"enchanted": "attacker",
 				"affected": "victim",
 				"effect": {
-					"type": "minecraft:damage_entity",
-					"damage_type": "minecraft:player_attack",
-					"min_damage": 2,
-					"max_damage": 2
+					"type": "minecraft:run_function",
+					"function": "ssbrc:game/entity/player/fighter/link/master_sword/_hit"
 				},
 				"requirements": {
 					"type": "minecraft:entity_scores",
@@ -34,6 +32,14 @@
 							"min": 400
 						}
 					}
+				}
+			}
+		],
+		"minecraft:post_piercing_attack": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "ssbrc:game/entity/player/fighter/link/master_sword/_swing"
 				}
 			}
 		]

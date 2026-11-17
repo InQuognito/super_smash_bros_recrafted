@@ -1,4 +1,4 @@
-function ssbrc:game/item/init/slot {item: "master_sword", slot: "hotbar.0", class: "weapon", type: "hybrid_enchanted"}
+function ssbrc:game/item/init/slot {item: "master_sword", slot: "hotbar.0", class: "weapon", type: "custom_swing"}
 
 function ssbrc:game/item/init/slot {item: "link_bow", slot: "hotbar.1", class: "weapon", type: "bow"}
 
