@@ -180,6 +180,7 @@ execute if entity @s[tag=payday.projectile] run return run function ssbrc:game/e
 
 # Toon Link
 execute if entity @s[tag=toon_link_boomerang] run return run function ssbrc:game/entity/player/fighter/toon_link/toon_link_boomerang/tick
+execute if entity @s[tag=hookshot] run return run function ssbrc:game/entity/player/fighter/toon_link/hookshot/tick
 
 # Villager
 execute if entity @s[tag=sapling] run return run function ssbrc:game/entity/player/fighter/villager/sapling/tick

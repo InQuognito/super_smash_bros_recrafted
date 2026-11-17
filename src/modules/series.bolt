@@ -1,7 +1,11 @@
 from ssbrc.series import series
 
 for item in series:
-	type = series[item]['type']
+	test = series[item]['type']
+	if test == 'default':
+		type = 'series'
+	else:
+		type = test
 	color = series[item]['color']
 	item_modifier f'ssbrc:series/{item}' {
 		"type": "minecraft:set_lore",

@@ -537,24 +537,15 @@ fighters = {
 			'default'
 		],
 		'items': {
-			'grappling_hook': {
+			'hookshot': {
 				'type': 'ability',
 				'stats': {
-					'cooldown_group': 'toon_link/grappling_hook',
-					'cooldown': 1
+					'cooldown_group': 'toon_link/hookshot',
+					'cooldown': 3
 				},
 				'default': {
-					'name': 'ssbrc.fighter.toon_link.grappling_hook',
-					'color': 'white'
-				}
-			},
-			'heros_bow': {
-				'default': {
-					'name': 'ssbrc.fighter.toon_link.heros_bow',
-					'color': 'blue'
-				},
-				'gold': {
-					'color': 'gold'
+					'name': 'ssbrc.fighter.toon_link.hookshot',
+					'color': 'red'
 				}
 			},
 			'heros_shield': {

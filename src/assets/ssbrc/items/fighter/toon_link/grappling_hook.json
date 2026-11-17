@@ -1,1 +1,0 @@
-{"model":{"type":"minecraft:condition","property":"minecraft:fishing_rod/cast","on_true":{"type":"minecraft:model","model":"ssbrc:fighter/toon_link/item/grappling_hook/active"},"on_false":{"type":"minecraft:model","model":"ssbrc:fighter/toon_link/item/grappling_hook/default"}}}
