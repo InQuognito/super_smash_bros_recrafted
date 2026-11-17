@@ -2734,7 +2734,7 @@ fighters = {
 				'type': 'hybrid_shield',
 				'stats': {
 					'attack_damage': 60,
-					'attack_speed': 2,
+					'attack_speed': 2.25,
 					'block_sound': 'minecraft:item.shield.block',
 					'disabled_sound': 'minecraft:item.shield.break',
 					'percent_blocked_damage': 0.3,
