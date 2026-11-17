@@ -6,5 +6,5 @@ execute positioned ~ ~.6 ~ positioned ^ ^ ^.5 if function ssbrc:game/entity/play
 teleport @s[scores={temp=..40}] ^ ^ ^.25
 
 scoreboard players add @s temp 1
-execute if score @s temp matches 41.. as @a[predicate=ssbrc:owner,limit=1] run function ssbrc:game/entity/player/fighter/greninja/shadow_sneak/end
+execute if score @s temp matches 50.. as @a[predicate=ssbrc:owner,limit=1] run function ssbrc:game/entity/player/fighter/greninja/shadow_sneak/end
 execute if score #entity_hit temp matches 1 run kill @s
