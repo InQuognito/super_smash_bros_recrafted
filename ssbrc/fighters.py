@@ -4132,7 +4132,7 @@ fighters = {
 					'color': 'gray'
 				}
 			},
-			'golden_sword': {
+			'gold_sword': {
 				'group': 'steve_equipment',
 				'type': 'weapon',
 				'stats': {
@@ -4144,7 +4144,7 @@ fighters = {
 					'color': 'gold'
 				}
 			},
-			'golden_pickaxe': {
+			'gold_pickaxe': {
 				'group': 'steve_pickaxe',
 				'type': 'bow',
 				'stats': {
