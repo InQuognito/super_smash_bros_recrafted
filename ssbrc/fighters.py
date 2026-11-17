@@ -2847,7 +2847,7 @@ fighters = {
 			'shadow_sword': {
 				'type': 'weapon',
 				'stats': {
-					'attack_damage': 10,
+					'attack_damage': 20,
 					'attack_speed': 3,
 					'max_reach': 2.5
 				},
