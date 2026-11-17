@@ -1,6 +1,9 @@
 tag @s add steel_keg
 
 function ssbrc:game/item/init/slot {item: "steel_keg", slot: "contents", class: "weapon", type: "hybrid"}
+item replace entity @s contents with minecraft:stick[ \
+	minecraft:item_model = "minecraft:iron_block", \
+]
 
 data merge entity @s { \
 	data: { \
