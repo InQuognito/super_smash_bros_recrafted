@@ -7,3 +7,5 @@ function ssbrc:game/item/init/slot {item: "sheikah_slate", slot: "hotbar.2", cla
 function ssbrc:game/item/init/type/arrow/set {count: 5}
 
 function ssbrc:game/item/init/slot {item: "hylian_shield", slot: "weapon.offhand", class: "weapon", type: "shield"}
+
+function ssbrc:game/entity/player/fighter/link/_change_health

@@ -13,41 +13,17 @@
 						"awakened": "true"
 					},
 					"on_true": {
-						"type": "minecraft:condition",
-						"property": "minecraft:component",
-						"predicate": "minecraft:custom_data",
-						"value": {
-							"spinning": "true"
-						},
-						"on_true": {
-							"type": "minecraft:model",
-							"model": "ssbrc:fighter/link/item/master_sword/gold/spinning/default"
-						},
-						"on_false": {
-							"type": "minecraft:model",
-							"model": "ssbrc:fighter/link/item/master_sword/gold/default"
-						}
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/link/item/master_sword/gold/default"
 					},
 					"on_false": {
-						"type": "minecraft:condition",
-						"property": "minecraft:component",
-						"predicate": "minecraft:custom_data",
-						"value": {
-							"spinning": "true"
-						},
-						"on_true": {
-							"type": "minecraft:model",
-							"model": "ssbrc:fighter/link/item/master_sword/gold/spinning/dormant"
-						},
-						"on_false": {
-							"type": "minecraft:model",
-							"model": "ssbrc:fighter/link/item/master_sword/gold/dormant"
-						}
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/link/item/master_sword/gold/dormant"
 					}
 				}
 			},
 			{
-				"when": "dark_link",
+				"when": "dark_tunic",
 				"model": {
 					"type": "minecraft:condition",
 					"property": "minecraft:component",
@@ -56,36 +32,12 @@
 						"awakened": "true"
 					},
 					"on_true": {
-						"type": "minecraft:condition",
-						"property": "minecraft:component",
-						"predicate": "minecraft:custom_data",
-						"value": {
-							"spinning": "true"
-						},
-						"on_true": {
-							"type": "minecraft:model",
-							"model": "ssbrc:fighter/link/item/master_sword/dark_link/spinning/default"
-						},
-						"on_false": {
-							"type": "minecraft:model",
-							"model": "ssbrc:fighter/link/item/master_sword/dark_link/default"
-						}
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/link/item/master_sword/dark_tunic/default"
 					},
 					"on_false": {
-						"type": "minecraft:condition",
-						"property": "minecraft:component",
-						"predicate": "minecraft:custom_data",
-						"value": {
-							"spinning": "true"
-						},
-						"on_true": {
-							"type": "minecraft:model",
-							"model": "ssbrc:fighter/link/item/master_sword/dark_link/spinning/dormant"
-						},
-						"on_false": {
-							"type": "minecraft:model",
-							"model": "ssbrc:fighter/link/item/master_sword/dark_link/dormant"
-						}
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/link/item/master_sword/dark_tunic/dormant"
 					}
 				}
 			}
@@ -98,36 +50,12 @@
 				"awakened": "true"
 			},
 			"on_true": {
-				"type": "minecraft:condition",
-				"property": "minecraft:component",
-				"predicate": "minecraft:custom_data",
-				"value": {
-					"spinning": "true"
-				},
-				"on_true": {
-					"type": "minecraft:model",
-					"model": "ssbrc:fighter/link/item/master_sword/default/spinning/default"
-				},
-				"on_false": {
-					"type": "minecraft:model",
-					"model": "ssbrc:fighter/link/item/master_sword/default/default"
-				}
+				"type": "minecraft:model",
+				"model": "ssbrc:fighter/link/item/master_sword/default/default"
 			},
 			"on_false": {
-				"type": "minecraft:condition",
-				"property": "minecraft:component",
-				"predicate": "minecraft:custom_data",
-				"value": {
-					"spinning": "true"
-				},
-				"on_true": {
-					"type": "minecraft:model",
-					"model": "ssbrc:fighter/link/item/master_sword/default/spinning/dormant"
-				},
-				"on_false": {
-					"type": "minecraft:model",
-					"model": "ssbrc:fighter/link/item/master_sword/default/dormant"
-				}
+				"type": "minecraft:model",
+				"model": "ssbrc:fighter/link/item/master_sword/default/dormant"
 			}
 		}
 	},
