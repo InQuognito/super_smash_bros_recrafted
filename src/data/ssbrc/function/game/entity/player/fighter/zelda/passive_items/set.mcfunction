@@ -1,5 +1,3 @@
-$say $(item)
-
 clear @s *[minecraft:custom_data~{group: "passive_item"}]
 $function ssbrc:game/item/init/slot { \
 	item: "$(item)", \
