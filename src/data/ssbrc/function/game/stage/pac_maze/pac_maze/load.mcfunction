@@ -2,7 +2,7 @@ data modify storage ssbrc:temp game.stage.variant set value "pac_maze"
 
 summon minecraft:marker -12 0 27 {Tags: ["spawnpoint"]}
 summon minecraft:marker 12 0 27 {Tags: ["spawnpoint"]}
-summon minecraft:marker -20 0 15 -290 {Tags: ["spawnpoint"]}
+summon minecraft:marker -20 0 15 {Tags: ["spawnpoint"]}
 summon minecraft:marker 20 0 15 {Tags: ["spawnpoint"]}
 summon minecraft:marker -19 0 -5 {Tags: ["spawnpoint"]}
 summon minecraft:marker 19 0 -5 {Tags: ["spawnpoint"]}
