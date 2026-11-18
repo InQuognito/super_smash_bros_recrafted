@@ -42,7 +42,7 @@ fighters = {
 				'stats': {
 					'attack_damage': 60,
 					'attack_speed': 1.5,
-					'disable_blocking_for_seconds': 5.0
+					'disable_blocking_for_seconds': 2.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.super_mario_bros.hammer',
@@ -109,7 +109,7 @@ fighters = {
 				'stats': {
 					'attack_damage': 50,
 					'attack_speed': 2,
-					'disable_blocking_for_seconds': 5.0
+					'disable_blocking_for_seconds': 2.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.super_mario_bros.hammer',
@@ -1185,7 +1185,7 @@ fighters = {
 				'stats': {
 					'attack_damage': 60,
 					'attack_speed': 2,
-					'disable_blocking_for_seconds': 5
+					'disable_blocking_for_seconds': 3
 				},
 				'default': {
 					'name': 'ssbrc.fighter.kirby.hammer',
@@ -1691,7 +1691,7 @@ fighters = {
 				'stats': {
 					'attack_damage': 60,
 					'attack_speed': 1.75,
-					'disable_blocking_for_seconds': 5.0
+					'disable_blocking_for_seconds': 4
 				},
 				'default': {
 					'name': 'ssbrc.fighter.jigglypuff.pound',
@@ -2168,6 +2168,7 @@ fighters = {
 					'attack_speed': 1.5,
 					'max_reach': 0,
 					'hitbox_margin': 1,
+					'disable_blocking_for_seconds': 10,
 					'cooldown_group': 'captain_falcon/falcon_punch',
 					'cooldown': 10
 				},
@@ -2376,11 +2377,12 @@ fighters = {
 				'type': 'hybrid',
 				'group': 'byleth_relic',
 				'stats': {
-					'max_damage': 20,
+					'max_damage': 10,
 					'speed_multiplier': 0,
 					'attack_damage': 90,
 					'attack_speed': 1.5,
 					'max_reach': 2.8,
+					'disable_blocking_for_seconds': 5,
 					'item_damage_per_attack': 1
 				},
 				'default': {
@@ -3058,7 +3060,8 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 50,
-					'attack_speed': 1.25
+					'attack_speed': 1.25,
+					'disable_blocking_for_seconds': 1.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.villager.axe',
@@ -4492,7 +4495,7 @@ fighters = {
 				'stats': {
 					'attack_damage': 80,
 					'attack_speed': 1.5,
-					'disable_blocking_for_seconds': 5.0
+					'disable_blocking_for_seconds': 3.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.altered_beast.bear_claw',
@@ -4542,7 +4545,7 @@ fighters = {
 				'stats': {
 					'attack_damage': 60,
 					'attack_speed': 2,
-					'disable_blocking_for_seconds': 5.0
+					'disable_blocking_for_seconds': 1.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.altered_beast.gladius',

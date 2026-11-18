@@ -1,4 +1,5 @@
-clear @s *[minecraft:custom_data~{group: "keyblade"}]
+clear @s *[minecraft:custom_data~{item: "wisdom_keyblade"}]
+clear @s *[minecraft:custom_data~{hand: "secondary"}]
 
 attribute @s minecraft:attack_damage modifier remove ssbrc:form
 attribute @s minecraft:attack_speed modifier remove ssbrc:form
