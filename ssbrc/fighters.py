@@ -3195,8 +3195,10 @@ fighters = {
 			},
 			'mega_buster': {
 				'group': 'mega_buster',
-				'type': 'ability',
+				'type': 'hybrid',
 				'stats': {
+					'attack_damage': 10,
+					'attack_speed': 1.5,
 					'cooldown_group': 'mega_man/mega_buster',
 					'cooldown': 0.2
 				},
