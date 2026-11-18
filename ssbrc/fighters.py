@@ -4312,6 +4312,7 @@ fighters = {
 			},
 			'valor_form': {
 				'type': 'consumable',
+				'group': 'drive_form',
 				'stats': {
 					'cooldown_group': 'sora/form_card',
 					'cooldown': 0.05
@@ -4323,6 +4324,7 @@ fighters = {
 			},
 			'wisdom_form': {
 				'type': 'consumable',
+				'group': 'drive_form',
 				'stats': {
 					'cooldown_group': 'sora/form_card',
 					'cooldown': 0.05
@@ -4334,6 +4336,7 @@ fighters = {
 			},
 			'master_form': {
 				'type': 'consumable',
+				'group': 'drive_form',
 				'stats': {
 					'cooldown_group': 'sora/form_card',
 					'cooldown': 0.05
