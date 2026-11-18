@@ -1,12 +1,12 @@
-execute store result score #arrows temp run clear @s minecraft:spectral_arrow 0
+execute store result score @s resource run clear @s minecraft:spectral_arrow 0
 
 function ssbrc:game/entity/player/fighter/_logic/hud/type/display { \
 	hud: 1, \
 	data: [ \
 		" | ", \
 	], \
-	source: "#arrows", \
-	objective: "temp", \
+	source: "@s", \
+	objective: "resource", \
 	path: "ui/icons/quiver", \
 	color: "white", \
 }
