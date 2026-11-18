@@ -2,7 +2,7 @@ execute as @e[type=minecraft:bee,predicate=ssbrc:owner,distance=..64] if data en
 
 function ssbrc:game/item/modify { \
 	search_key: "item", \
-	search_value: "weezing_move", \
+	search_value: "weezing", \
 	path: { \
 		type: "minecraft:set_custom_data", \
 		tag: { \

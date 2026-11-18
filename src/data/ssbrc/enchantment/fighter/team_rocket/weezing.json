@@ -13,7 +13,7 @@
 	},
 	"anvil_cost": 0,
 	"slots": [
-		"hand"
+		"mainhand"
 	],
 	"effects": {
 		"minecraft:post_piercing_attack": [
@@ -23,7 +23,7 @@
 					"effects": [
 						{
 							"type": "minecraft:run_function",
-							"function": "ssbrc:game/entity/player/fighter/team_rocket/arbok/smokescreen"
+							"function": "ssbrc:game/entity/player/fighter/team_rocket/arbok/smog"
 						}
 					]
 				}

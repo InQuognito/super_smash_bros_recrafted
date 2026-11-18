@@ -1,6 +1,6 @@
 function ssbrc:game/item/modify { \
 	search_key: "item", \
-	search_value: "weezing_move", \
+	search_value: "weezing", \
 	path: { \
 		type: "minecraft:set_custom_data", \
 		tag: { \

@@ -173,7 +173,6 @@ execute if items entity @s contents *[minecraft:custom_data~{group: "steve.item"
 
 # Team Rocket
 execute if entity @s[tag=acid] run return run function ssbrc:game/entity/player/fighter/team_rocket/acid/tick
-execute if entity @s[tag=smokescreen] run return run function ssbrc:game/entity/weezing/smokescreen/tick
 execute if entity @s[tag=smog] run return run function ssbrc:game/entity/weezing/smog/tick
 execute if entity @s[tag=payday] run return run function ssbrc:game/entity/player/fighter/team_rocket/payday/tick
 execute if entity @s[tag=payday.projectile] run return run function ssbrc:game/entity/player/fighter/team_rocket/payday/projectile/tick
