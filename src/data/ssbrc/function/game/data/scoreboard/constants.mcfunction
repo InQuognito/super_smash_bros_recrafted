@@ -45,9 +45,6 @@ scoreboard players set #bowser.rage.threshold const 200
 
 scoreboard players set #cloud.limit const 600
 
-scoreboard players set #donkey_kong.barrel const 160
-scoreboard players set #donkey_kong.orange_grenade const 160
-
 scoreboard players set #hero.magic const 100
 
 scoreboard players set #ice_climbers.snowstorm const 8
