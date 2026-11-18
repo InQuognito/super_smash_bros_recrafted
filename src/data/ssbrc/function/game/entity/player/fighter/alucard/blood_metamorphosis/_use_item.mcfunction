@@ -1,3 +1,5 @@
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {form: "blood_metamorphosis"}}}] run return fail
+
 function ssbrc:game/entity/_logic/health/damage/generic {amount: 40, kb_resist: 1, i_frames: 0}
 
 function ssbrc:game/entity/player/_logic/data/set {data: {temp: {fighter: {form: "blood_metamorphosis"}}}}
