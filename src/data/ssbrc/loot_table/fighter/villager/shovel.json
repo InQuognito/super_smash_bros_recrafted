@@ -18,7 +18,26 @@
 						{
 							"type": "minecraft:set_custom_data",
 							"tag": {
-								"get": "smash_item"
+								"get": "pitfall_seed"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 24,
+					"name": "minecraft:redstone",
+					"modifier": [
+						{
+							"type": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "ssbrc:fighter/villager/bells"
+							}
+						},
+						{
+							"type": "minecraft:set_custom_data",
+							"tag": {
+								"get": "bells"
 							}
 						}
 					]
@@ -37,7 +56,7 @@
 						{
 							"type": "minecraft:set_custom_data",
 							"tag": {
-								"get": "bells"
+								"get": "fossil"
 							}
 						}
 					]
