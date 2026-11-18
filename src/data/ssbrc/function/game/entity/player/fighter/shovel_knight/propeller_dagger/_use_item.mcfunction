@@ -1,6 +1,5 @@
-execute unless score @s resource >= #shovel_knight.propeller_dagger const run return run playsound ssbrc:fighter.shovel_knight.insufficient_magic player @s
+execute unless score @s resource >= #shovel_knight.propeller_dagger const run return fail
 
-function ssbrc:game/entity/player/fighter/shovel_knight/propeller_dagger/raycast/start
+scoreboard players set #n temp 150
 
-scoreboard players add @s temp 1
-kill @s[scores={temp=10..}]
+execute anchored eyes positioned ^ ^ ^ run function ssbrc:game/entity/player/fighter/shovel_knight/propeller_dagger/particle/loop

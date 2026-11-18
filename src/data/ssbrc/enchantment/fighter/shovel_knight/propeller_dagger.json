@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:game/entity/player/fighter/shovel_knight/propeller_dagger/check/default"
+					"function": "ssbrc:game/entity/player/fighter/shovel_knight/propeller_dagger/_unleash"
 				}
 			}
 		],
