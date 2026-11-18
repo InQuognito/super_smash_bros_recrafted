@@ -1,3 +1,7 @@
+execute unless block ~ ~ ~ #ssbrc:passthrough run return run function ssbrc:game/entity/player/fighter/toon_link/hookshot/launch_block
+
+execute positioned ~-.5 ~-.5 ~-.5 as @e[predicate=!ssbrc:owner,predicate=ssbrc:target,dx=0] run function ssbrc:game/entity/player/fighter/toon_link/hookshot/hit
+
 execute if score @s temp matches 1.. run particle minecraft:dust{color: [ .75, .75, .75 ], scale: .5} ^ ^ ^-1 0 0 0 0 1 normal @a
 execute if score @s temp matches 2.. run particle minecraft:dust{color: [ .5, .5, .5 ], scale: .5} ^ ^ ^-2 0 0 0 0 1 normal @a
 execute if score @s temp matches 3.. run particle minecraft:dust{color: [ .75, .75, .75 ], scale: .5} ^ ^ ^-3 0 0 0 0 1 normal @a
