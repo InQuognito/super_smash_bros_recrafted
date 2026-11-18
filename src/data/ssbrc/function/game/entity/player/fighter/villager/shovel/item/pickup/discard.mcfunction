@@ -3,4 +3,4 @@ tellraw @s { \
 	color: "red", \
 }
 
-clear @s minecraft:lapis_lazuli
+clear @s minecraft:redstone
