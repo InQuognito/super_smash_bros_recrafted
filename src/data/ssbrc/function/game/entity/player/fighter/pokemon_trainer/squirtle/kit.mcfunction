@@ -1,4 +1,4 @@
-function ssbrc:game/entity/player/fighter/pokemon_trainer/kits/update {form: "squirtle", color: "blue"}
+function ssbrc:game/entity/player/fighter/pokemon_trainer/update {form: "squirtle", color: "blue"}
 
 function ssbrc:game/entity/player/fighter/pokemon_trainer/squirtle/withdraw/reset
 

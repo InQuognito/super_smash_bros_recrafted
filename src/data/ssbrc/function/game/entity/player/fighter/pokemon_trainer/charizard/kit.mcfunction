@@ -1,4 +1,4 @@
-function ssbrc:game/entity/player/fighter/pokemon_trainer/kits/update {form: "charizard", color: "red"}
+function ssbrc:game/entity/player/fighter/pokemon_trainer/update {form: "charizard", color: "red"}
 
 function ssbrc:game/item/init/slot {item: "rock_smash", slot: "hotbar.0", class: "weapon", type: "enchanted"}
 

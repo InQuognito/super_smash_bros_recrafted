@@ -45,7 +45,6 @@ function ssbrc:game/entity/player/fighter/_logic/effects/cleanse
 
 # Effects
 function ssbrc:game/stage/pac_maze/fruit/fruit/galaxian_flagship/reset
-function ssbrc:game/stage/palutenas_temple/fiends_cauldron/reset
 attribute @s minecraft:armor modifier remove ssbrc:armor_break
 attribute @s minecraft:movement_speed modifier remove ssbrc:chaos_control
 attribute @s minecraft:movement_speed modifier remove ssbrc:quicksand

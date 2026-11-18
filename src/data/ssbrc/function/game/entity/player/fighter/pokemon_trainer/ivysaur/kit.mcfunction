@@ -1,4 +1,4 @@
-function ssbrc:game/entity/player/fighter/pokemon_trainer/kits/update {form: "ivysaur", color: "green"}
+function ssbrc:game/entity/player/fighter/pokemon_trainer/update {form: "ivysaur", color: "green"}
 
 function ssbrc:game/item/init/slot {item: "knock_off", slot: "hotbar.0", class: "weapon", type: "enchanted"}
 
