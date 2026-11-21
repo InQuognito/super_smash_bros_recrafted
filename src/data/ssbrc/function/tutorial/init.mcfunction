@@ -1,3 +1,5 @@
+forceload add -50 -50 50 50
+
 # Sandbag
 execute positioned 0 .75 5 rotated 180 0 summon minecraft:item_display run function ssbrc:game/entity/_logic/init/type/static { \
 	id: "mr_sandbag", \

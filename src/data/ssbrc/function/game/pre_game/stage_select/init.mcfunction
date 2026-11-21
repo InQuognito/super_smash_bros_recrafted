@@ -1,3 +1,5 @@
+forceload add -50 -50 50 50
+
 fillbiome -50 -50 -50 50 50 50 ssbrc:stage_select
 
 data modify storage ssbrc:temp cache.stage_select.game_mode set from storage ssbrc:data option.game_mode

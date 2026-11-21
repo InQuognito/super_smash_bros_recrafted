@@ -1,3 +1,5 @@
+forceload add -50 -50 50 50
+
 fillbiome -50 -50 -50 50 50 50 ssbrc:smash_plaza
 
 time set 0
