@@ -1,3 +1,4 @@
+scoreboard players set #max temp 0
 function ssbrc:game/pre_game/stage_select/check_participation
 
 data modify storage ssbrc:temp cache.stage_select.tiebreakers set value []
