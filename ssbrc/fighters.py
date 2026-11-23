@@ -4933,7 +4933,15 @@ def skin_options(fighter):
 	data = [{}] * count_skins(fighter) * 2
 
 	n = 0
+	gold = False
 	for skin in chain(['default', 'gold'], path):
+		if skin == 'gold':
+			if gold == True:
+				data.pop(n)
+				data.pop(n + 1)
+				continue
+			else:
+				gold = True
 		data[n] = {
 			'label': {
 				'translate': f'ssbrc.skin.{skin}',
