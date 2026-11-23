@@ -1,6 +1,7 @@
 function ssbrc:game/item/init/slot {item: "alucard_sword", slot: "hotbar.0", class: "weapon", type: "enchanted"}
 
-execute unless score @s cooldown.2 matches 1.. unless items entity @s container.* *[minecraft:custom_data~{item: "holy_water"}] run function ssbrc:game/item/init/slot {item: "holy_water", slot: "hotbar.1", class: "default", type: "consumable"}
+#execute unless score @s cooldown.2 matches 1.. unless items entity @s container.* *[minecraft:custom_data~{item: "holy_water"}] run function ssbrc:game/item/init/slot {item: "holy_water", slot: "hotbar.1", class: "default", type: "consumable"}
+function ssbrc:game/item/init/slot {item: "holy_water", slot: "hotbar.1", class: "default", type: "consumable"}
 
 function ssbrc:game/item/init/slot {item: "blood_metamorphosis", slot: "hotbar.2", class: "default", type: "default"}
 
