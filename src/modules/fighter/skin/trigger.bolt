@@ -2,6 +2,7 @@ from ssbrc.fighters import fighters, get_color
 
 from itertools import chain
 
+gold = False
 for fighter in fighters:
 	n = 1
 	function f'ssbrc:game/entity/player/fighter/{fighter}/menu/skin/trigger':
