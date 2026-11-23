@@ -1,3 +1,5 @@
+$execute unless entity @s[advancements={ssbrc:fighter/$(fighter)/$(skin)=true}] run return run tellraw @s {text: "You do not own this skin!", color: "red"}
+
 execute at @s run playsound ssbrc:skin_equip ui @s
 
 $execute if entity @s[tag=picking_random] run return run function ssbrc:game/entity/player/fighter/_logic/select/default with storage ssbrc:data fighter.$(fighter)
