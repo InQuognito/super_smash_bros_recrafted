@@ -12,10 +12,11 @@ function ssbrc:game/entity/player/fighter/_logic/effects/glowing/cloak
 
 function ssbrc:game/entity/player/fighter/_logic/effects/invincible/activate {duration: 40}
 
+function ssbrc:game/entity/player/fighter/_logic/armor/remove
 effect give @s minecraft:invisibility infinite 0 true
-effect give @s minecraft:levitation infinite 0 true
 
 attribute @s minecraft:attack_speed modifier add ssbrc:active -1 add_multiplied_total
+attribute @s minecraft:gravity modifier add ssbrc:zero -1 add_multiplied_total
 attribute @s minecraft:knockback_resistance modifier add ssbrc:active 1 add_value
 
 function ssbrc:game/item/cooldown/set/const {type: 1, value: 300}
