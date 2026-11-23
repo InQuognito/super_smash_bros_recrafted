@@ -8,4 +8,3 @@ $function ssbrc:game/entity/player/_logic/data/set {data: {temp: {fighter: {skin
 $function ssbrc:game/entity/player/_logic/data/set {data: {data: {memory: {$(fighter): {skin: "$(skin)"}}}}}
 
 $tellraw @s ["\n", {translate: "ssbrc.fighter.menu.skin"}, {translate: "ssbrc.skin.$(skin)", color: "$(color)"},"\n"]
-$function ssbrc:game/entity/player/fighter/$(fighter)/menu/skin/options
