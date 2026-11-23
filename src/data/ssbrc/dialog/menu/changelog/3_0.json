@@ -9,124 +9,124 @@
 			"type": "minecraft:plain_message",
 			"contents": [
 				{
-					"text": "Content"
+					"text": "Content\n"
 				},
 				{
-					"text": "- Added a Capture the Flag game mode"
+					"text": "- Added a Capture the Flag game mode\n"
 				},
 				{
-					"text": "- Added a new universal skin 'Subspace', granted upon winning 10 Capture the Flag games as each fighter"
+					"text": "- Added a new universal skin 'Subspace', granted upon winning 10 Capture the Flag games as each fighter\n"
 				},
 				{
-					"text": "- Added a double jump to all fighters, introducing a universal recovery. Various fighters have unique double jumps or additional jumps"
+					"text": "- Added a double jump to all fighters, introducing a universal recovery. Various fighters have unique double jumps or additional jumps\n"
 				},
 				{
-					"text": "- Added a victory podium complete with music and fireworks, bringing some much needed post-game fanfare"
+					"text": "- Added a victory podium complete with music and fireworks, bringing some much needed post-game fanfare\n\n"
 				},
 				{
-					"text": "Gameplay"
+					"text": "Gameplay\n"
 				},
 				{
-					"text": "- Reworked the health system to be a custom scale out of 400. The reasoning for this was mostly backend, but allows for some more fine-tuned balance changes that you will see reflected in the changelog"
+					"text": "- Reworked the health system to be a custom scale out of 400. The reasoning for this was mostly backend, but allows for some more fine-tuned balance changes that you will see reflected in the changelog\n"
 				},
 				{
-					"text": "- Melee weapons can no longer swing off cooldown. Probably one of the most sweeping changes in this update, this creates some much needed spacing and punishing opportunities inbetween missed melee swings"
+					"text": "- Melee weapons can no longer swing off cooldown. Probably one of the most sweeping changes in this update, this creates some much needed spacing and punishing opportunities inbetween missed melee swings\n"
 				},
 				{
-					"text": "- Doubled safe fall distance from 6 -> 12 blocks and fall damage multiplier from 1x -> 2x. This will mean fall damage happens much less frequently, but is much more dangerous at higher elevations"
+					"text": "- Doubled safe fall distance from 6 -> 12 blocks and fall damage multiplier from 1x -> 2x. This will mean fall damage happens much less frequently, but is much more dangerous at higher elevations\n"
 				},
 				{
-					"text": "- Burning now deals 1 damage every tick"
+					"text": "- Burning now deals 1 damage every tick\n"
 				},
 				{
-					"text": "- Poison now deals 10 damage every second"
+					"text": "- Poison now deals 10 damage every second\n"
 				},
 				{
-					"text": "- Doubled safe fall distance from 6 -> 12 blocks and fall damage multiplier from 1x -> 2x. This will mean fall damage happens much less frequently, but is much more dangerous at higher elevations"
+					"text": "- Doubled safe fall distance from 6 -> 12 blocks and fall damage multiplier from 1x -> 2x. This will mean fall damage happens much less frequently, but is much more dangerous at higher elevations\n\n"
 				},
 				{
-					"text": "Fighters"
+					"text": "Fighters\n"
 				},
 				{
-					"text": "- Added Princess Peach"
+					"text": "- Added Princess Peach\n"
 				},
 				{
-					"text": "- Added Toon Link"
+					"text": "- Added Toon Link\n"
 				},
 				{
-					"text": "- Added Gooey"
+					"text": "- Added Gooey\n"
 				},
 				{
-					"text": "- Added Lucario"
+					"text": "- Added Lucario\n"
 				},
 				{
-					"text": "- Added Ice Climbers"
+					"text": "- Added Ice Climbers\n"
 				},
 				{
-					"text": "- Added Roy"
+					"text": "- Added Roy\n"
 				},
 				{
-					"text": "- Added Raiden"
+					"text": "- Added Raiden\n"
 				},
 				{
-					"text": "- Added Villager"
+					"text": "- Added Villager\n"
 				},
 				{
-					"text": "- Added Terry"
+					"text": "- Added Terry\n"
 				},
 				{
-					"text": "- Mario"
+					"text": "- Mario\n"
 				},
 				{
-					"text": "  - Added 'Tennis: Aces' skin"
+					"text": "  - Added 'Tennis: Aces' skin\n"
 				},
 				{
-					"text": "  - Reduced shield breaking on Hammer (5s > 2.5s)"
+					"text": "  - Reduced shield breaking on Hammer (5s > 2.5s)\n"
 				},
 				{
-					"text": "  - Reduced knockback on Stomp (100% > 10%)"
+					"text": "  - Reduced knockback on Stomp (100% > 10%)\n"
 				},
 				{
-					"text": "  - Super Jump now requires you to stay in place to charge"
+					"text": "  - Super Jump now requires you to stay in place to charge\n"
 				},
 				{
-					"text": "- Luigi"
+					"text": "- Luigi\n"
 				},
 				{
-					"text": "  - Added 'Tennis: Aces' skin"
+					"text": "  - Added 'Tennis: Aces' skin\n"
 				},
 				{
-					"text": "  - Reduced shield breaking on Hammer (5s > 2.5s)"
+					"text": "  - Reduced shield breaking on Hammer (5s > 2.5s)\n"
 				},
 				{
-					"text": "  - Increased speed of Ice Ball (6 m/s > 6.5 m/s)"
+					"text": "  - Increased speed of Ice Ball (6 m/s > 6.5 m/s)\n"
 				},
 				{
-					"text": "  - Reduced knockback on Stomp (100% > 10%)"
+					"text": "  - Reduced knockback on Stomp (100% > 10%)\n"
 				},
 				{
-					"text": "  - Super Jump now requires you to stay in place to charge"
+					"text": "  - Super Jump now requires you to stay in place to charge\n"
 				},
 				{
-					"text": "- Bowser"
+					"text": "- Bowser\n"
 				},
 				{
-					"text": "  - Added 'Flower Power' skin"
+					"text": "  - Added 'Flower Power' skin\n"
 				},
 				{
-					"text": "  - Added 'Dry Bowser' skin"
+					"text": "  - Added 'Dry Bowser' skin\n"
 				},
 				{
-					"text": "  - Added 'Rookie' skin"
+					"text": "  - Added 'Rookie' skin\n"
 				},
 				{
-					"text": "  - Updated Power Band model"
+					"text": "  - Updated Power Band model\n"
 				},
 				{
-					"text": "  - Reworked Rage"
+					"text": "  - Reworked Rage\n"
 				},
 				{
-					"text": "    - Current Rage is now shown on the HUD"
+					"text": "    - Current Rage is now shown on the HUD\n"
 				},
 				{
 					"text": "    - Must now be opted into by pressing ",
@@ -135,87 +135,84 @@
 							"keybind": "key.drop"
 						},
 						{
-							"text": " when full"
+							"text": " when full\n"
 						}
 					]
 				},
 				{
-					"text": "    - Can now be used multiple times per stock"
+					"text": "    - Can now be used multiple times per stock\n"
 				},
 				{
-					"text": "    - Reduced invulnerability time (3s > 1.5s)"
+					"text": "    - Reduced invulnerability time (3s > 1.5s)\n"
 				},
 				{
 					"text": "  - Fire Breath is now channeled by holding ",
 					"extra": [
 						{
 							"keybind": "key.use"
-						}
+						},
+						"\n"
 					]
 				},
 				{
-					"text": "  - Added a fireball that can be fired with a short press",
-					"extra": [
-						{
-							"keybind": "key.use"
-						}
-					]
+					"text": "  - Added a fireball that can be fired with a short press\n"
 				},
 				{
-					"text": "  - Removed Thorns enchantment"
+					"text": "  - Removed Thorns enchantment\n\n"
 				},
 				{
-					"text": "Stages"
+					"text": "Stages\n"
 				},
 				{
-					"text": "- Added Fountain of Dreams"
+					"text": "- Added Fountain of Dreams\n"
 				},
 				{
-					"text": "  - Added 'Fatal Blooms in Moonlight' track"
+					"text": "  - Added 'Fatal Blooms in Moonlight' track\n"
 				},
 				{
-					"text": "  - Added 'Gourmet Race (Melee)' track"
+					"text": "  - Added 'Gourmet Race (Melee)' track\n"
 				},
 				{
-					"text": "- Added Gyromite"
+					"text": "- Added Gyromite\n"
 				},
 				{
-					"text": "  - Added 'Gyromite - Game A' track"
+					"text": "  - Added 'Gyromite - Game A' track\n"
 				},
 				{
-					"text": "  - Added 'Gyromite / Stack Up Medley' track"
+					"text": "  - Added 'Gyromite / Stack Up Medley' track\n"
 				},
 				{
-					"text": "- Added Hollow Bastion"
+					"text": "- Added Hollow Bastion\n"
 				},
 				{
-					"text": "  - Added 'The 13th Struggle' track"
+					"text": "  - Added 'The 13th Struggle' track\n"
 				},
 				{
-					"text": "- Added Hoenn Pokemon League"
+					"text": "- Added Hoenn Pokemon League\n"
 				},
 				{
-					"text": "  - Added 'Victory Road (Pokemon Ruby / Pokemon Sapphire)' track"
+					"text": "  - Added 'Victory Road (Pokemon Ruby / Pokemon Sapphire)' track\n"
 				},
 				{
-					"text": "  - Added 'VS Champion Steven' track"
+					"text": "  - Added 'VS Champion Steven' track\n"
 				},
 				{
-					"text": "- Added Midgar"
+					"text": "- Added Midgar\n"
 				},
 				{
-					"text": "  - Added 'Fight On!' track"
+					"text": "  - Added 'Fight On!' track\n"
 				},
 				{
-					"text": "  - Added 'Let the Battles Begin' track"
+					"text": "  - Added 'Let the Battles Begin' track\n"
 				},
 				{
-					"text": "  - Added 'One-Winged Angel' track"
+					"text": "  - Added 'One-Winged Angel' track\n"
 				},
 				{
-					"text": "- Added Minecraft World, which comes in five variants"
+					"text": "- Added Minecraft World, which comes in five variants\n"
 				}
-			]
+			],
+			"width": 500
 		}
 	],
 	"inputs": [],
