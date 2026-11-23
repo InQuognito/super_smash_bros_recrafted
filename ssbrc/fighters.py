@@ -2771,7 +2771,9 @@ fighters = {
 	'sonic': {
 		'series': 'sonic_the_hedgehog',
 		'stats': {
-			'movement_speed': 0.1
+			'movement_speed': 0.1,
+			'jump_strength': 'high',
+			'double_jump_strength': 0
 		},
 		'color': 'blue',
 		'alignment': 'hero',

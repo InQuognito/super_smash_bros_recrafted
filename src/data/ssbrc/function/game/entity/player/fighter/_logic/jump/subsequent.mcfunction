@@ -4,6 +4,7 @@ execute if items entity @s[scores={jump=2}] armor.body *[minecraft:custom_data~{
 execute if items entity @s[scores={jump=2}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "giegue"}}}] rotated ~ -90 run return run function ssbrc:game/entity/player/fighter/giegue/jump/activate
 execute if items entity @s[scores={jump=3..}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "kirby"}}}] run return run function ssbrc:game/entity/player/fighter/kirby/jump
 execute if items entity @s[scores={jump=2}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "ness"}}}] rotated ~ 0 run function ssbrc:game/entity/player/fighter/ness/jump
+execute if items entity @s[scores={jump=2}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "sonic"}}}] rotated ~ 0 run return run function ssbrc:game/entity/player/fighter/sonic/jump
 execute if items entity @s[scores={jump=2..},tag=villager.balloon_trip] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "villager"}}}] run function ssbrc:game/entity/player/fighter/villager/balloon_trip/jump
 
 execute if score @s jump matches 2.. run function ssbrc:game/entity/player/fighter/_logic/jump/impulse
