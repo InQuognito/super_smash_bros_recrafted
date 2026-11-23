@@ -4933,15 +4933,7 @@ def skin_options(fighter):
 	data = [{}] * count_skins(fighter) * 2
 
 	n = 0
-	gold = False
 	for skin in chain(['default', 'gold'], path):
-		if skin == 'gold':
-			if gold == True:
-				data.pop(n)
-				data.pop(n + 1)
-				continue
-			else:
-				gold = True
 		data[n] = {
 			'label': {
 				'translate': f'ssbrc.skin.{skin}',
@@ -4950,7 +4942,7 @@ def skin_options(fighter):
 			'width': 180,
 			'action': {
 				'type': 'minecraft:run_command',
-				'command': f'trigger menu set {n}'
+				'command': f'trigger menu set {n + 1}'
 			}
 		}
 		data[n + 1] = {
@@ -4968,7 +4960,7 @@ def skin_options(fighter):
 			'width': 20,
 			'action': {
 				'type': 'minecraft:run_command',
-				'command': f'trigger menu set {n + 1}'
+				'command': f'trigger menu set {n + 2}'
 			}
 		}
 
