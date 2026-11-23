@@ -1,4 +1,7 @@
 $item replace entity @s $(slot) with minecraft:goat_horn[ \
+	minecraft:attack_range = { \
+		max_reach: 24, \
+	}, \
 	minecraft:attribute_modifiers = [ \
 		{ \
 			type: "minecraft:entity_interaction_range", \
