@@ -3,7 +3,7 @@ from ssbrc.fighters import fighters
 from itertools import chain
 
 for fighter in fighters:
-	for skin in chain(['default'], fighters[fighter]['skins']):
+	for skin in chain(['default', 'gold'], fighters[fighter]['skins']):
 		if skin == 'default':
 			parent = 'fighter'
 		else:
