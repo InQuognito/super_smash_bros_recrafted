@@ -4937,6 +4937,8 @@ def skin_options(fighter):
 	for skin in chain(['default', 'gold'], path):
 		if skin == 'gold':
 			if gold == True:
+				data.pop()
+				data.pop()
 				continue
 			else:
 				gold = True
