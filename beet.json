@@ -18,7 +18,8 @@
 					"path": "advancement/.*"
 				}
 			]
-		}
+		},
+		"zipped": true
 	},
 
 	"resource_pack": {
