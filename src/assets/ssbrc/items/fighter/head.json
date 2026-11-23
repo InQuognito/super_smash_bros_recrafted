@@ -1947,21 +1947,30 @@
 												"when": "dawn",
 												"model": {
 													"type": "minecraft:model",
-													"model": "ssbrc:fighter/pokemon_trainer/skin/dawn/charizard"
+													"model": "ssbrc:fighter/pokemon_trainer/skin/dawn/infernape"
 												}
 											},
 											{
 												"when": "victor",
 												"model": {
-													"type": "minecraft:model",
-													"model": "ssbrc:fighter/pokemon_trainer/skin/victor/charizard"
+													"type": "minecraft:composite",
+													"models": [
+														{
+															"type": "minecraft:model",
+															"model": "ssbrc:fighter/pokemon_trainer/skin/victor/coalossal"
+														},
+														{
+															"type": "minecraft:model",
+															"model": "ssbrc:fighter/pokemon_trainer/skin/victor/coalossal_top"
+														}
+													]
 												}
 											},
 											{
 												"when": "juliana",
 												"model": {
 													"type": "minecraft:model",
-													"model": "ssbrc:fighter/pokemon_trainer/skin/juliana/charizard"
+													"model": "ssbrc:fighter/pokemon_trainer/skin/juliana/ceruledge"
 												}
 											}
 										],
@@ -1996,21 +2005,21 @@
 												"when": "dawn",
 												"model": {
 													"type": "minecraft:model",
-													"model": "ssbrc:fighter/pokemon_trainer/skin/dawn/ivysaur"
+													"model": "ssbrc:fighter/pokemon_trainer/skin/dawn/roserade"
 												}
 											},
 											{
 												"when": "victor",
 												"model": {
 													"type": "minecraft:model",
-													"model": "ssbrc:fighter/pokemon_trainer/skin/victor/ivysaur"
+													"model": "ssbrc:fighter/pokemon_trainer/skin/victor/rillaboom"
 												}
 											},
 											{
 												"when": "juliana",
 												"model": {
 													"type": "minecraft:model",
-													"model": "ssbrc:fighter/pokemon_trainer/skin/juliana/ivysaur"
+													"model": "ssbrc:fighter/pokemon_trainer/skin/juliana/floragato"
 												}
 											}
 										],
@@ -2045,21 +2054,21 @@
 												"when": "dawn",
 												"model": {
 													"type": "minecraft:model",
-													"model": "ssbrc:fighter/pokemon_trainer/skin/dawn/squirtle"
+													"model": "ssbrc:fighter/pokemon_trainer/skin/dawn/piplup"
 												}
 											},
 											{
 												"when": "victor",
 												"model": {
 													"type": "minecraft:model",
-													"model": "ssbrc:fighter/pokemon_trainer/skin/victor/squirtle"
+													"model": "ssbrc:fighter/pokemon_trainer/skin/victor/drizzile"
 												}
 											},
 											{
 												"when": "juliana",
 												"model": {
 													"type": "minecraft:model",
-													"model": "ssbrc:fighter/pokemon_trainer/skin/juliana/squirtle"
+													"model": "ssbrc:fighter/pokemon_trainer/skin/juliana/quaxly"
 												}
 											}
 										],

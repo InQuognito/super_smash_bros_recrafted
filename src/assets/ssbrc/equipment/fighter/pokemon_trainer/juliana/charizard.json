@@ -1,0 +1,10 @@
+{
+	"layers": {
+		"humanoid": [
+			{ "texture": "ssbrc:fighter/pokemon_trainer/juliana/ceruledge" }
+		],
+		"humanoid_leggings": [
+			{ "texture": "ssbrc:fighter/pokemon_trainer/juliana/ceruledge" }
+		]
+	}
+}
