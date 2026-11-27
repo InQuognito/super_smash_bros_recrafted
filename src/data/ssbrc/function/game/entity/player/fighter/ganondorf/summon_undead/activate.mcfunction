@@ -1,3 +1,9 @@
+function ssbrc:game/entity/player/fighter/_logic/charge/get
+execute unless predicate ssbrc:cooldown/universal run return fail
+
+execute unless score @s resource matches 1.. run return fail
+execute if score @s charge.1 matches 3.. run return fail
+
 scoreboard players operation #team temp = @s team
 
 scoreboard players remove @s resource 1

@@ -1,3 +1,6 @@
+function ssbrc:game/entity/player/fighter/_logic/charge/get
+execute unless predicate ssbrc:cooldown/universal run return fail
+
 execute store result score @s resource run clear @s minecraft:spectral_arrow 0
 
 function ssbrc:game/entity/player/fighter/_logic/hud/type/display { \

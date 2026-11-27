@@ -1,6 +1,6 @@
 tag @s add hadouken
 
 execute if score @a[predicate=ssbrc:owner,limit=1] duration.1 matches 2.. run tag @s add evil
-execute if score @a[predicate=ssbrc:owner,limit=1] charge matches 12.. run tag @s add heavy
+execute if score #charge temp matches 12.. run tag @s add heavy
 
 function ssbrc:game/entity/_logic/init/type/position

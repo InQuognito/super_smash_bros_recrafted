@@ -1,5 +1,7 @@
-execute unless score @s duration.2 matches 1.. run return fail
+function ssbrc:game/entity/player/fighter/_logic/charge/get
+execute unless predicate ssbrc:cooldown/universal run return fail
 
+execute unless score @s duration.2 matches 1.. run return fail
 execute unless score @s resource >= #shovel_knight.propeller_dagger const run return run playsound ssbrc:fighter.shovel_knight.insufficient_magic player @s
 
 particle minecraft:poof ~ ~.75 ~ .2 .4 .2 .01 25 normal @a
