@@ -11,7 +11,7 @@ function ssbrc:game/stage/loop {operation: "function ssbrc:game/pre_game/stage_s
 scoreboard players set $random_stage stage_vote 0
 scoreboard players display name $random_stage stage_vote {translate: "ssbrc.random"}
 
-execute positioned 10 2 -2 rotated 90 0 run function ssbrc:game/pre_game/stage_select/featured/start
+execute positioned 10 2 -3 rotated 90 0 run function ssbrc:game/pre_game/stage_select/featured/start
 
 execute positioned 9 2 11 rotated 180 0 summon minecraft:item_display run function ssbrc:game/pre_game/stage_select/featured/display/random
 execute positioned 6 2 9 rotated 180 0 summon minecraft:item_display run function ssbrc:game/pre_game/stage_select/featured/display/fixed with storage ssbrc:data stage.final_destination
