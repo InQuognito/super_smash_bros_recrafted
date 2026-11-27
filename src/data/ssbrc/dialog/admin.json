@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:dialog_list",
+	"title": {
+		"text": "Admin",
+		"color": "gold"
+	},
+	"inputs": [],
+	"can_close_with_escape": true,
+	"after_action": "close",
+	"pause": false,
+	"dialogs": [
+		"ssbrc:admin/utility",
+		"ssbrc:admin/teleport"
+	]
+}

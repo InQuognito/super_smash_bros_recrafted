@@ -1,0 +1,48 @@
+{
+	"type": "minecraft:multi_action",
+	"title": {
+		"text": "Utility Commands",
+		"color": "gold"
+	},
+	"inputs": [],
+	"can_close_with_escape": true,
+	"after_action": "close",
+	"pause": false,
+	"actions": [
+		{
+			"label": "Enable Debug Mode",
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "function ssbrc:admin/debug/on"
+			}
+		},
+		{
+			"label": "Disable Debug Mode",
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "function ssbrc:admin/debug/off"
+			}
+		},
+		{
+			"label": "Place Barrier Column",
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "function ssbrc:admin/barrier/raise_to_world_height"
+			}
+		},
+		{
+			"label": "Delete Barrier Column",
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "function ssbrc:admin/barrier/delete_to_world_height"
+			}
+		},
+		{
+			"label": "Print Mainhand Data",
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "data get entity @s SelectedItem.components.\"minecraft:custom_data\""
+			}
+		}
+	]
+}

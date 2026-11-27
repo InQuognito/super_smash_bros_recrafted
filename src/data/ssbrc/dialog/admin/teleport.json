@@ -1,0 +1,41 @@
+{
+	"type": "minecraft:multi_action",
+	"title": {
+		"text": "Select Destination",
+		"color": "gold"
+	},
+	"inputs": [],
+	"can_close_with_escape": true,
+	"after_action": "close",
+	"pause": false,
+	"actions": [
+		{
+			"label": "Lobby",
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "execute in ssbrc:smash_plaza run tp @s 0 0 0 0 0"
+			}
+		},
+		{
+			"label": "Fighter Select",
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "execute in ssbrc:fighter_select run tp @s 0 0 0 0 0"
+			}
+		},
+		{
+			"label": "Stage Select",
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "execute in ssbrc:stage_select run tp @s 0 0 0 0 0"
+			}
+		},
+		{
+			"label": "Victory Podium",
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "execute in ssbrc:victory_podium run tp @s 0 0 0 0 0"
+			}
+		}
+	]
+}

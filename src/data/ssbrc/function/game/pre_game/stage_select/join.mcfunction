@@ -1,3 +1,4 @@
+teleport @s 0 0 0 0 0
 function ssbrc:game/pre_game/fighter_select/leave
 
 function ssbrc:game/data/scoreboard/cooldown
@@ -16,8 +17,6 @@ function ssbrc:game/entity/player/fighter/_logic/armor/init
 function ssbrc:game/entity/player/_logic/data/set {data: {temp: {selected_stage: ""}}}
 
 function ssbrc:game/data/scoreboard/duration
-
-teleport @s 0 0 0 0 0
 
 execute unless data storage ssbrc:data option{teams: true} run team join waiting @s[team=!spectator]
 effect give @s[team=!spectator] minecraft:glowing infinite 0 true
