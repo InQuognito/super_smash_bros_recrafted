@@ -1,3 +1,5 @@
+playsound minecraft:block.note_block.pling master @s ~ ~ ~ 1 2
+
 clear @s *[minecraft:custom_data~{item: "skin_options"}]
 
 clear @s *[minecraft:custom_data~{group: "team_flag"}]
