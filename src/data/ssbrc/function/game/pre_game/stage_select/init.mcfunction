@@ -27,4 +27,4 @@ execute if score #players.ingame temp matches 1 run function ssbrc:game/options/
 scoreboard players set #game_stage temp 2
 scoreboard players set #countdown temp 30
 
-execute as @a[predicate=ssbrc:ingame] at @s run function ssbrc:game/pre_game/stage_select/join
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:game/pre_game/stage_select/join

@@ -1,5 +1,5 @@
 teleport @s 0 0 0 0 0
-function ssbrc:game/pre_game/fighter_select/leave
+execute at @s run function ssbrc:game/pre_game/fighter_select/leave
 
 function ssbrc:game/data/scoreboard/cooldown
 
