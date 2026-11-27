@@ -4028,7 +4028,25 @@ fighters = {
 		},
 		'forms': [
 			'default'
-		]
+		],
+		'items': {
+			'power_wave': {
+				'type': 'hybrid',
+				'stats': {
+					'attack_damage': 45,
+					'attack_speed': 1.75,
+					'cooldown_group': 'terry/power_wave',
+					'cooldown': 1.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.terry.power_wave',
+					'color': 'red'
+				},
+				'gold': {
+					'color': 'gold'
+				}
+			}
+		}
 	},
 	'steve': {
 		'series': 'minecraft',

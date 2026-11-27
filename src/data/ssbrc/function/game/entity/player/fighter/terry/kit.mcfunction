@@ -1,1 +1,1 @@
-function ssbrc:game/item/init/slot {item: "collarbone_breaker", slot: "hotbar.0", class: "default", type: "default"}
+function ssbrc:game/item/init/slot {item: "terry_punch", slot: "hotbar.0", class: "weapon", type: "hybrid"}
