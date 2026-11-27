@@ -1,3 +1,6 @@
+execute if score #countdown temp matches 1..3 run playsound minecraft:block.note_block.pling master @s
+execute if score #countdown temp matches 0 run playsound minecraft:block.note_block.pling master @s ~ ~ ~ 1 2
+
 title @s actionbar [ \
 	{ \
 		translate: "ssbrc.lobby.time_until_start", \
