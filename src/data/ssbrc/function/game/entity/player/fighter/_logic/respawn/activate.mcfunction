@@ -10,10 +10,10 @@ title @s title ""
 function ssbrc:game/entity/player/fighter/_logic/respawn/effects
 
 scoreboard players operation #id_to_match temp = @s id
-function ssbrc:game/entity/player/fighter/_logic/restore_items with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
 function ssbrc:game/entity/player/fighter/_logic/attributes/defaults with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 function ssbrc:game/entity/player/fighter/_logic/effects/default
+function ssbrc:game/entity/player/fighter/_logic/restore_items with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
 execute store result storage ssbrc:temp cache.team int 1 run scoreboard players get @s team
 
