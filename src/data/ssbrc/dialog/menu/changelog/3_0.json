@@ -9,19 +9,22 @@
 			"type": "minecraft:plain_message",
 			"contents": [
 				{
-					"text": "Content\n"
+					"text": "Content\n\n",
+					"color": "yellow",
+					"bold": true,
+					"underlined": true
 				},
 				{
-					"text": "- Added a Capture the Flag game mode\n"
+					"text": "Added a Capture the Flag game mode\n\n"
 				},
 				{
-					"text": "- Added a new universal skin 'Subspace', granted upon winning 10 Capture the Flag games as each fighter\n"
+					"text": "Added a new universal skin 'Subspace', granted upon winning 10 Capture the Flag games as each fighter\n\n"
 				},
 				{
-					"text": "- Added a double jump to all fighters, introducing a universal recovery. Various fighters have unique double jumps or additional jumps\n"
+					"text": "Added a double jump to all fighters, introducing a universal recovery. Various fighters have unique double jumps or additional jumps\n\n"
 				},
 				{
-					"text": "- Added a victory podium complete with music and fireworks, bringing some much needed post-game fanfare\n\n"
+					"text": "Added a victory podium complete with music and fireworks, bringing some much needed post-game fanfare\n\n\n"
 				},
 				{
 					"text": "Gameplay\n"
