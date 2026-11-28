@@ -8,6 +8,7 @@
 		{
 			"type": "minecraft:plain_message",
 			"contents": [
+				"",
 				{
 					"text": "Content\n\n",
 					"color": "yellow",
